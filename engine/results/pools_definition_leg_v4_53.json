@@ -1,0 +1,168 @@
+{
+  "title": "Definition-leg pools v4 — row-purity restored (written-sensor-v2 SILENT) — PROPOSED",
+  "status": "PROPOSED. Concludes nothing. Diagnostic re-read of the v3 attempt-3 result under the v4 partition (NO re-run).",
+  "date": "2026-07-21",
+  "row_purity_law": "referent-color positive = (v3 referent-color pool member) AND (written-sensor-v2 COLOR is SILENT). Any member with a printed colour-charged char (HowNet OR the PROPOSED MOE list) is WRITTEN-CLAIMED and leaves the referent pool.",
+  "sensor": "marking/tools/latent_written_labeler_53.py (v2 amendment, 2026-07-21; MOE_ADOPTION=PENDING)",
+  "moe_list": "caesitas_proto/results/moe_color_sense_chars_PROPOSED_53.json (53 chars)",
+  "v3_source": "caesitas_proto/results/word_latent_v3_referent_color_53.json",
+  "n_v3_positives": 17,
+  "partition": {
+    "stay_pure_referent": [
+      "三明治",
+      "斑马",
+      "桔子",
+      "椅",
+      "比萨饼",
+      "胡萝卜",
+      "芭蕉",
+      "苹果",
+      "苹果树",
+      "西兰花",
+      "长颈鹿",
+      "面包圈",
+      "香蕉"
+    ],
+    "n_stay": 13,
+    "leave_written_claimed": [
+      "橙子",
+      "红绿灯",
+      "西红柿",
+      "青春"
+    ],
+    "n_leave": 4
+  },
+  "written_claimed_roster": {
+    "positives_that_left": {
+      "橙子": {
+        "word": "橙子",
+        "class": "chromatic",
+        "tier": "fallback",
+        "n_hosts": 73,
+        "z": 9.5387,
+        "call": true,
+        "written_fire": {
+          "fired": true,
+          "realized": false,
+          "moe_provenance_only": true,
+          "carriers": [
+            {
+              "char": "橙",
+              "provenance": "moe_color_sense_PROPOSED",
+              "moe_sense": "一種黃中帶著微紅的顏色"
+            }
+          ]
+        }
+      },
+      "红绿灯": {
+        "word": "红绿灯",
+        "class": "chromatic",
+        "tier": "fallback",
+        "n_hosts": 96,
+        "z": 25.5071,
+        "call": true,
+        "written_fire": {
+          "fired": true,
+          "realized": false,
+          "moe_provenance_only": false,
+          "carriers": [
+            {
+              "char": "红",
+              "provenance": "hownet"
+            },
+            {
+              "char": "绿",
+              "provenance": "hownet"
+            }
+          ]
+        }
+      },
+      "西红柿": {
+        "word": "西红柿",
+        "class": "chromatic",
+        "tier": "fallback",
+        "n_hosts": 52,
+        "z": 5.17,
+        "call": true,
+        "written_fire": {
+          "fired": true,
+          "realized": false,
+          "moe_provenance_only": false,
+          "carriers": [
+            {
+              "char": "红",
+              "provenance": "hownet"
+            }
+          ]
+        }
+      },
+      "青春": {
+        "word": "青春",
+        "class": "chromatic",
+        "tier": "primary",
+        "n_hosts": 201,
+        "z": -0.9996,
+        "call": false,
+        "written_fire": {
+          "fired": true,
+          "realized": false,
+          "moe_provenance_only": false,
+          "carriers": [
+            {
+              "char": "青",
+              "provenance": "hownet"
+            }
+          ]
+        }
+      }
+    },
+    "controls_also_written_color": {},
+    "note": "positives_that_left move OUT of the referent pool (removed from the F1). controls_also_written_color are ALSO written-colour words but remain referent-negatives (no referent colour); listed for completeness, they do not move."
+  },
+  "selftest_rows": {
+    "番茄": {
+      "role": "selftest",
+      "written_color": null
+    },
+    "鲤鱼": {
+      "role": "selftest",
+      "written_color": null
+    }
+  },
+  "stay_verifications": {
+    "桔子": "STAYS — 桔 not colour-charged: MOE 桔 = 參見…等條 / 同「橘」 (fruit cross-ref, no colour sense of its own; verified in the hardened derivation), HowNet 桔={fruit|水果}. Confirms the field owner's receipt.",
+    "三明治": "STAYS — 明 is ILLUMINATION-charged only (bright|明); it carries no COLOR sememe and is not in the MOE list. The colour pool correctly ignores it.",
+    "others": "斑马 椅 胡萝卜 芭蕉 苹果 长颈鹿 香蕉 比萨饼 苹果树 面包圈 西兰花 — no printed colour-charged char; their colour is referent, not written."
+  },
+  "reread_confusion": {
+    "v3_attempt3": {
+      "n_pos": 17,
+      "n_neg": 69,
+      "tp": 8,
+      "fn": 9,
+      "fp": 2,
+      "tn": 67,
+      "precision": 0.8,
+      "recall": 0.47058823529411764,
+      "f1": 0.5925925925925927
+    },
+    "v3_verdict": "ABORT (F1 floor fired)",
+    "v4_pure_referent": {
+      "n_pos": 13,
+      "n_neg": 69,
+      "tp": 5,
+      "fn": 8,
+      "fp": 2,
+      "tn": 67,
+      "precision": 0.7143,
+      "recall": 0.3846,
+      "f1": 0.5
+    },
+    "delta_note": "F1 0.5926 -> 0.5000. Three of the four leavers were the v3 run's STRONGEST detections (橙子 z=9.54 via MOE-橙, 红绿灯 z=25.51 via 红/绿, 西红柿 z=5.17 via 红 — all true positives); 青春 (z=-1.00, a miss) also leaves via 青. Removing three TPs drops recall to 5/13, so the PURE-referent signal is weaker than the mixed v3 number: the axis was partly reading printed colour through the visible character. Negatives unchanged (fp=2, tn=67)."
+  },
+  "provenance": {
+    "v3_json_sha256": "b003e9154ba521ad37295f26fd866126d657423e5bcca6609ce428317c652e76",
+    "moe_list_sha256": "29375cdd6c8494b0ad3aef5ea3703ad6fd9c158662f2c6ec1b5b97c5d01c3cca",
+    "sensor_sha256": "98ba3da6492c03c036dce9dfc3eff0e32b1b35c1951d1c57909cc34f0bf474b6"
+  }
+}

@@ -1,0 +1,71 @@
+# latent-sound labeler v1 — ontology closure (registered run)
+
+## Flip-pairs (latent phrasing | active phrasing)
+  L[2] ['bus', 'rain'] :: A bus that is driving through the rain
+  A[3] ['bus', 'drum', 'rain'] :: Rain drums on the roof of the moving bus
+  L[1] ['camera'] :: Two zebras, one walking toward the camera, one walki
+  A[1] ['camera'] :: Zebra hooves clop past the camera in both directions
+  L[0] [] :: Two giraffes traveling across a rocky terrain with p
+  A[1] ['scrape'] :: Giraffe hooves scrape across the rocky terrain
+  L[1] ['water'] :: a person riding a wake board on a body of water
+  A[3] ['hiss', 'slap', 'water'] :: The wakeboard hisses and slaps across the water
+  L[0] [] :: A white plane flies in the cloudy sky
+  A[2] ['engine', 'roar'] :: A plane's engines roar overhead in the cloudy sky
+  L[1] ['train'] :: A city with skyscrapers, other buildings, and trains
+  A[2] ['rumble', 'train'] :: Trains rumble between the skyscrapers of the city
+  L[0] [] :: A group of women playing a game of soccer on field
+  A[1] ['shout'] :: Shouts ring across the field as the women play socce
+  L[0] [] :: A smiling man in a green suit and a hat
+  A[0] [] :: A silent smiling man in a green suit and a hat
+  L[1] ['clock'] :: a clock tower behind a building with a sky backgroun
+  A[2] ['chime', 'clock'] :: The clock tower chimes behind the building
+  L[0] [] :: A very nicely decorated living room in someone's hou
+  A[0] [] :: Dust settles in the nicely decorated living room
+
+## Dev 46 units (zh via bridge; en direct)
+  [1] ['发'] [changgan_xing L1] 妾髮初覆額
+  [4] ['剧', '折', '花', '门'] [changgan_xing L2] 折花門前劇
+  [1] ['马'] [changgan_xing L3] 郎騎竹馬來
+  [0]  [changgan_xing L4] 遶牀弄青梅
+  [1] ['里'] [changgan_xing L5] 同居長干里
+  [0]  [changgan_xing L6] 兩小無嫌猜
+  [0]  [changgan_xing L7] 十四爲君婦
+  [1] ['开'] [changgan_xing L8] 羞顏未甞開
+  [0]  [qingqing_hepan_cao L1] 青青河畔草
+  [1] ['中'] [qingqing_hepan_cao L2] 鬱鬱園中柳
+  [1] ['上'] [qingqing_hepan_cao L3] 盈盈樓上女
+  [0]  [qingqing_hepan_cao L4] 皎皎當窗牖
+  [0]  [qingqing_hepan_cao L5] 娥娥紅粉妝
+  [0]  [qingqing_hepan_cao L6] 纖纖出素手
+  [0]  [qingqing_hepan_cao L7] 昔為倡家女
+  [0]  [qingqing_hepan_cao L8] 今為蕩子婦
+  [1] ['行'] [qingqing_hepan_cao L9] 蕩子行不歸
+  [0]  [qingqing_hepan_cao L10] 空床難獨守
+  [0]  [song_you_ren L1] 青山橫北郭
+  [2] ['水', '绕'] [song_you_ren L2] 白水繞東城
+  [0]  [song_you_ren L3] 此地一為別
+  [1] ['里'] [song_you_ren L4] 孤蓬萬里征
+  [0]  [song_you_ren L5] 浮雲遊子意
+  [0]  [song_you_ren L6] 落日故人情
+  [0]  [song_you_ren L7] 揮手自茲去
+  [2] ['马', '鸣'] [song_you_ren L8] 蕭蕭班馬鳴
+  [0]  [sonnet18 L1] Shall I compare thee to a summer's day?
+  [0]  [sonnet18 L2] Thou art more lovely and more temperate:
+  [1] ['wind'] [sonnet18 L3] Rough winds do shake the darling buds of May,
+  [0]  [sonnet18 L4] And summer's lease hath all too short a date:
+  [0]  [sonnet18 L5] Sometime too hot the eye of heaven shines,
+  [0]  [sonnet18 L6] And often is his gold complexion dimmed,
+  [0]  [sonnet18 L7] And every fair from fair sometime declines,
+  [0]  [sonnet18 L8] By chance, or nature's changing course untrimmed:
+  [0]  [sonnet73 L1] That time of year thou mayst in me behold,
+  [0]  [sonnet73 L2] When yellow leaves, or none, or few, do hang
+  [0]  [sonnet73 L3] Upon those boughs which shake against the cold,
+  [2] ['bird', 'choir'] [sonnet73 L4] Bare ruined choirs, where late the sweet birds sang.
+  [0]  [sonnet73 L5] In me thou seest the twilight of such day,
+  [0]  [sonnet73 L6] As after sunset fadeth in the west,
+  [0]  [sonnet73 L7] Which by and by black night doth take away,
+  [0]  [sonnet73 L8] Death's second self, that seals up all in rest.
+  [0]  [yujie_yuan L1] 玉階生白露
+  [0]  [yujie_yuan L2] 夜久侵羅襪
+  [2] ['下', '水'] [yujie_yuan L3] 却下水晶簾
+  [0]  [yujie_yuan L4] 玲瓏望秋月

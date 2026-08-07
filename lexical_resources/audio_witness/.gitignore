@@ -1,0 +1,3 @@
+# payload stays local; checksum + re-pull note travel (house rule)
+# re-pull: storage.googleapis.com/us_audioset/youtube_corpus/v1/csv/unbalanced_train_segments.csv
+audioset/unbalanced_train_segments.csv

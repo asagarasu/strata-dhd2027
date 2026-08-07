@@ -1,0 +1,5320 @@
+{
+  "anchor": {
+    "anage_data_sha256": "98867969fbd4d0bed6bab415c2715bb19079dbd7f92bdc26e5961856aa1c1519",
+    "cite": "Tacutu et al. 2013 NAR 41(D1):D1027-D1033; de Magalhaes et al. 2024 NAR 52(D1):D900-D908",
+    "dataset": "AnAge Build 15 (HAGR)",
+    "license": "CC BY 3.0 Unported (© 2002-2026 João Pedro de Magalhães)",
+    "rows": 4645,
+    "vendored": "lexical_resources/lifespan/"
+  },
+  "counts": {
+    "en": {
+      "declared_organ_counts": {
+        "n_enduring": 29,
+        "n_ephemeral": 73,
+        "note": "receipts carry 77 ephemeral lines vs declared 73 — delta 4 dual-pole/tempo bookkeeping, non-species"
+      },
+      "enduring": {
+        "matched": 0,
+        "members": 29,
+        "unmatched": 29
+      },
+      "tight_ephemeral": {
+        "matched": 0,
+        "members": 77,
+        "unmatched": 77
+      }
+    },
+    "total_matched_species": 0,
+    "zh": {
+      "enduring": {
+        "matched": 0,
+        "members": 370,
+        "unmatched": 370
+      },
+      "tight_ephemeral": {
+        "matched": 0,
+        "members": 206,
+        "unmatched": 206
+      }
+    }
+  },
+  "diagnostic_sidebar_NON_SCORED": {
+    "NOTE": "NON-SCORED. Not a match, not an AUC input, supplies no species mapping to the eval. Shows AnAge coverage of the higher taxa the zh animal members name in their own Chinese gloss (龜: 龜鱉目/龜科; 鶴: 鶴形目; 蜉蝣: 蟲類/dies within hours). Explains why the eval is empty; scored numbers are unaffected.",
+    "anage_crane": {
+      "long_yrs_max": 45.0,
+      "long_yrs_min": 24.0,
+      "n_common_name_hits": 10,
+      "n_with_longevity": 10,
+      "substring": "crane"
+    },
+    "anage_ephemeroptera_substr": {
+      "long_yrs_max": null,
+      "long_yrs_min": null,
+      "n_common_name_hits": 0,
+      "n_with_longevity": 0,
+      "substring": "ephemer"
+    },
+    "anage_mayfly": {
+      "long_yrs_max": null,
+      "long_yrs_min": null,
+      "n_common_name_hits": 0,
+      "n_with_longevity": 0,
+      "substring": "mayfly"
+    },
+    "anage_non_animalia_rows": [
+      {
+        "binomial": "Candida albicans",
+        "common_name": "Candida albicans",
+        "kingdom": "Fungi",
+        "long_yrs": null
+      },
+      {
+        "binomial": "Podospora anserina",
+        "common_name": "Filamentous fungus",
+        "kingdom": "Fungi",
+        "long_yrs": null
+      },
+      {
+        "binomial": "Saccharomyces cerevisiae",
+        "common_name": "Baker's yeast",
+        "kingdom": "Fungi",
+        "long_yrs": 0.04
+      },
+      {
+        "binomial": "Schizosaccharomyces pombe",
+        "common_name": "Fission yeast",
+        "kingdom": "Fungi",
+        "long_yrs": null
+      },
+      {
+        "binomial": "Escherichia coli",
+        "common_name": "Escherichia coli",
+        "kingdom": "Monera",
+        "long_yrs": 0.01
+      },
+      {
+        "binomial": "Adansonia digitata",
+        "common_name": "African baobab",
+        "kingdom": "Plantae",
+        "long_yrs": 2500.0
+      },
+      {
+        "binomial": "Ginkgo biloba",
+        "common_name": "Common ginkgo",
+        "kingdom": "Plantae",
+        "long_yrs": 1000.0
+      },
+      {
+        "binomial": "Pinus longaeva",
+        "common_name": "Great Basin bristlecone pine",
+        "kingdom": "Plantae",
+        "long_yrs": 5062.0
+      },
+      {
+        "binomial": "Vachellia tortilis",
+        "common_name": "Umbrella thorn",
+        "kingdom": "Plantae",
+        "long_yrs": 650.0
+      }
+    ],
+    "anage_tortoise": {
+      "long_yrs_max": 177.0,
+      "long_yrs_min": 19.9,
+      "n_common_name_hits": 22,
+      "n_with_longevity": 19,
+      "substring": "tortoise"
+    },
+    "anage_turtle": {
+      "long_yrs_max": 138.0,
+      "long_yrs_min": 9.3,
+      "n_common_name_hits": 90,
+      "n_with_longevity": 86,
+      "substring": "turtle"
+    }
+  },
+  "matched_species": [],
+  "memo": "lifespan_mini_eval_memo_55.md",
+  "refuses": [
+    "no percentiles / no intensity score",
+    "no fuzzy / substring / edit-distance matching",
+    "no LLM / translation / human judgment in the match",
+    "no hand-curated species table; unmatched listed, never guessed",
+    "bygone out (her ruling); seasonal + tempo-only out (severable)",
+    "no CI when a class < 5 matched",
+    "species subset only; non-species members stay evidence-tier"
+  ],
+  "scope": {
+    "en": {
+      "enduring_receipt_lines": 29,
+      "tight_ephemeral_receipt_lines": 77
+    },
+    "excluded": "bygone (her ruling); seasonal + tempo-only (severable)",
+    "zh": {
+      "enduring_words": 370,
+      "tight_ephemeral_words": 206
+    }
+  },
+  "statistic": {
+    "bootstrap": {
+      "B": 2000,
+      "ci": "[2.5, 97.5] pct",
+      "seed": 48,
+      "thin_gate": "both classes >= 5 matched-valued"
+    },
+    "form": "AUC = P(L(enduring) > L(tight-ephemeral)) via Mann-Whitney (ties 0.5)",
+    "per_language_and_pooled": {
+      "en": {
+        "auc_ci95": null,
+        "auc_enduring_gt_ephemeral": null,
+        "lang": "en",
+        "n_enduring_valued": 0,
+        "n_ephemeral_valued": 0,
+        "thin": true,
+        "thin_reason": "a class has < 5 matched species with a longevity value (enduring=0, ephemeral=0) — no CI computed"
+      },
+      "pooled": {
+        "auc_ci95": null,
+        "auc_enduring_gt_ephemeral": null,
+        "lang": "pooled",
+        "n_enduring_valued": 0,
+        "n_ephemeral_valued": 0,
+        "thin": true,
+        "thin_reason": "a class has < 5 matched species with a longevity value (enduring=0, ephemeral=0) — no CI computed"
+      },
+      "zh": {
+        "auc_ci95": null,
+        "auc_enduring_gt_ephemeral": null,
+        "lang": "zh",
+        "n_enduring_valued": 0,
+        "n_ephemeral_valued": 0,
+        "thin": true,
+        "thin_reason": "a class has < 5 matched species with a longevity value (enduring=0, ephemeral=0) — no CI computed"
+      }
+    }
+  },
+  "status": "MEASURED",
+  "title": "Lifespan mini-eval — temporal-referent organs vs AnAge (Build 15)",
+  "unit_law": "AnAge 'Maximum longevity (yrs)' is years (native); reported years, plus days = yrs*365.25; blank value => matched-but-no-value, excluded from numeric stats; magnitudes ordinal only.",
+  "unmatched": {
+    "en": [
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "anterograde_amnesia",
+          "posttraumatic_amnesia"
+        ],
+        "route": "enduring:longevity",
+        "synset": "anterograde_amnesia.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "antiquity"
+        ],
+        "route": "enduring:survives-from-past",
+        "synset": "antiquity.n.03"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "blue_moon"
+        ],
+        "route": "enduring:longevity",
+        "synset": "blue_moon.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "Ornithogalum_thyrsoides",
+          "chincherinchee",
+          "wonder_flower"
+        ],
+        "route": "enduring:longevity",
+        "synset": "chincherinchee.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "chlorhexidine"
+        ],
+        "route": "enduring:longevity",
+        "synset": "chlorhexidine.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "cyclic_disorder",
+          "cyclothymia",
+          "cyclothymic_disorder"
+        ],
+        "route": "enduring:longevity",
+        "synset": "cyclothymia.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "durance"
+        ],
+        "route": "enduring:longevity",
+        "synset": "durance.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "aeon",
+          "eon"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "eon.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "epoch"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "epoch.n.03"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "era",
+          "geological_era"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "era.n.02"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "fossil"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "fossil.n.02"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "geebung"
+        ],
+        "route": "enduring:longevity",
+        "synset": "geebung.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "hangover",
+          "holdover"
+        ],
+        "route": "enduring:survives-from-past",
+        "synset": "hangover.n.03"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "guide_fossil",
+          "index_fossil"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "index_fossil.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "institution"
+        ],
+        "route": "enduring:longevity",
+        "synset": "institution.n.03"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "longevity",
+          "seniority"
+        ],
+        "route": "enduring:long-lived",
+        "synset": "longevity.n.02"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "macrobiotics"
+        ],
+        "route": "enduring:longevity",
+        "synset": "macrobiotics.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "macroevolution"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "macroevolution.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "magnolia"
+        ],
+        "route": "enduring:longevity",
+        "synset": "magnolia.n.02"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "English_yew",
+          "Old_World_yew",
+          "Taxus_baccata"
+        ],
+        "route": "enduring:long-lived",
+        "synset": "old_world_yew.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "Leroy_Robert_Paige",
+          "Paige",
+          "Satchel_Paige"
+        ],
+        "route": "enduring:longevity",
+        "synset": "paige.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "geological_period",
+          "period"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "period.n.04"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "Ficus_religiosa",
+          "bo_tree",
+          "peepul",
+          "pipal",
+          "pipal_tree",
+          "pipul",
+          "sacred_fig"
+        ],
+        "route": "enduring:longevity",
+        "synset": "pipal.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "relic"
+        ],
+        "route": "enduring:survives-from-past",
+        "synset": "relic.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "restoration"
+        ],
+        "route": "enduring:geological-age",
+        "synset": "restoration.n.06"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "slow_virus"
+        ],
+        "route": "enduring:longevity",
+        "synset": "slow_virus.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "Cleome_hassleriana",
+          "spider_flower",
+          "spider_plant"
+        ],
+        "route": "enduring:longevity",
+        "synset": "spider_flower.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "Tamarindus_indica",
+          "tamarind",
+          "tamarind_tree",
+          "tamarindo"
+        ],
+        "route": "enduring:long-lived",
+        "synset": "tamarind.n.01"
+      },
+      {
+        "class": "enduring",
+        "lang": "en",
+        "lemmas": [
+          "psychic_trauma",
+          "trauma"
+        ],
+        "route": "enduring:longevity",
+        "synset": "trauma.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "absence",
+          "absence_seizure"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "absence.n.04"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "advance_death_benefit"
+        ],
+        "route": "ephemeral:short-life",
+        "synset": "advance_death_benefit.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Anogramma_leptophylla",
+          "Jersey_fern",
+          "annual_fern"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "annual_fern.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "apnea"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "apnea.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "b-meson"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "b-meson.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "bacteremia",
+          "bacteriaemia",
+          "bacteriemia"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "bacteremia.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "bed-and-breakfast",
+          "bed_and_breakfast"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "bed_and_breakfast.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Black_Hole_of_Calcutta"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "black_hole_of_calcutta.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "blackout"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "blackout.n.04"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "New_York_minute",
+          "blink_of_an_eye",
+          "flash",
+          "heartbeat",
+          "instant",
+          "jiffy",
+          "split_second",
+          "trice",
+          "twinkling",
+          "wink"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "blink_of_an_eye.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "bobble"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "bobble.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "brevity",
+          "briefness",
+          "transience"
+        ],
+        "route": "ephemeral:fleeting",
+        "synset": "brevity.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "brush",
+          "light_touch"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "brush.n.03"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Calandrinia",
+          "genus_Calandrinia"
+        ],
+        "route": "ephemeral:ephemeral-adj",
+        "synset": "calandrinia.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "continuing_trespass"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "continuing_trespass.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "custody",
+          "detainment",
+          "detention",
+          "hold"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "detention.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "dew"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "dew.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "disorientation"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "disorientation.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemera"
+        ],
+        "route": "ephemeral:lasting-short",
+        "synset": "ephemera.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemera"
+        ],
+        "route": "ephemeral:transitory",
+        "synset": "ephemera.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemerality",
+          "ephemeralness",
+          "fleetingness"
+        ],
+        "route": "ephemeral:lasting-short",
+        "synset": "ephemerality.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemerality",
+          "ephemeralness",
+          "fleetingness"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "ephemerality.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemerid",
+          "ephemeropteran"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "ephemerid.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemeral",
+          "ephemeron"
+        ],
+        "route": "ephemeral:lives-briefly",
+        "synset": "ephemeron.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "ephemeral",
+          "ephemeron"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "ephemeron.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Brevibloc",
+          "esmolol"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "esmolol.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "extrasystole"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "extrasystole.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "flash"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "flash.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "flash",
+          "flash_bulb",
+          "flash_lamp",
+          "flashbulb",
+          "flashgun",
+          "photoflash"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "flash.n.10"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "flash_in_the_pan"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "flash_in_the_pan.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "flicker",
+          "glint",
+          "spark"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "flicker.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Hibiscus_trionum",
+          "black-eyed_Susan",
+          "bladder_ketmia",
+          "flower-of-an-hour",
+          "flowers-of-an-hour"
+        ],
+        "route": "ephemeral:ephemeral-adj",
+        "synset": "flower-of-an-hour.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "flying_visit"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "flying_visit.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "focal_seizure"
+        ],
+        "route": "ephemeral:transitory",
+        "synset": "focal_seizure.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Abies_fraseri",
+          "Fraser_fir"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "fraser_fir.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "herpangia"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "herpangia.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "auberge",
+          "hostel",
+          "hostelry",
+          "inn",
+          "lodge"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "hostel.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "infatuation"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "infatuation.n.03"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "lightning"
+        ],
+        "route": "ephemeral:tempo[SEVERABLE]",
+        "synset": "lightning.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Lubavitch"
+        ],
+        "route": "ephemeral:brief-span",
+        "synset": "lubavitch.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "dayfly",
+          "mayfly",
+          "shadfly"
+        ],
+        "route": "ephemeral:lasting-short",
+        "synset": "mayfly.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "meteor_shower",
+          "meteor_stream"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "meteor_shower.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "miles_per_hour",
+          "mph"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "miles_per_hour.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "bit",
+          "minute",
+          "mo",
+          "moment",
+          "second"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "moment.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "mushy_peas"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "mushy_peas.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "now"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "now.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "one-night_stand"
+        ],
+        "route": "ephemeral:lasting-short",
+        "synset": "one-night_stand.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "overnighter"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "overnighter.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "overnight_bag",
+          "overnight_case",
+          "overnighter"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "overnighter.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "overpressure"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "overpressure.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "epilepsia_minor",
+          "petit_mal"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "petit_mal.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Pick's_disease"
+        ],
+        "route": "ephemeral:transitory",
+        "synset": "pick's_disease.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "pinpoint"
+        ],
+        "route": "ephemeral:brief-span",
+        "synset": "pinpoint.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "popular_music",
+          "popular_music_genre"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "popular_music.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "portulaca"
+        ],
+        "route": "ephemeral:ephemeral-adj",
+        "synset": "portulaca.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Pa",
+          "atomic_number_91",
+          "protactinium",
+          "protoactinium"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "protactinium.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "impulse",
+          "pulsation",
+          "pulse",
+          "pulsing"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "pulsation.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Trifolium_pratense",
+          "purple_clover",
+          "red_clover"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "red_clover.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "senior_moment"
+        ],
+        "route": "ephemeral:momentary",
+        "synset": "senior_moment.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "rain_shower",
+          "shower"
+        ],
+        "route": "ephemeral:brief-span",
+        "synset": "shower.n.03"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Cheiranthus_allionii",
+          "Erysimum_allionii",
+          "Siberian_wall_flower"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "siberian_wall_flower.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "slumber_party"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "slumber_party.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "spending_spree"
+        ],
+        "route": "ephemeral:brief-span",
+        "synset": "spending_spree.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "spike"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "spike.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "spree_killer"
+        ],
+        "route": "ephemeral:brief-span",
+        "synset": "spree_killer.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "splash",
+          "stir"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "stir.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "subclinical_absence"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "subclinical_absence.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "temporariness"
+        ],
+        "route": "ephemeral:lasting-short",
+        "synset": "temporariness.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "temporariness"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "temporariness.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "knife",
+          "tongue"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "tongue.n.03"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "detail_file",
+          "transaction_file"
+        ],
+        "route": "ephemeral:transient",
+        "synset": "transaction_file.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "transient"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "transient.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "transient"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "transient.n.02"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "valise"
+        ],
+        "route": "ephemeral:overnight",
+        "synset": "valise.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "visit"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "visit.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "wee"
+        ],
+        "route": "ephemeral:short-time",
+        "synset": "wee.n.01"
+      },
+      {
+        "class": "ephemeral",
+        "lang": "en",
+        "lemmas": [
+          "Cheiranthus_asperus",
+          "Erysimum_arkansanum",
+          "Erysimum_asperum",
+          "western_wall_flower"
+        ],
+        "route": "ephemeral:short-lived",
+        "synset": "western_wall_flower.n.01"
+      }
+    ],
+    "zh": [
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "上古",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "上命",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "上壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "不悶",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "不死樹",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "中國畫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "中新世",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "中生代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "中華民族",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "丹砂井",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久別相逢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久別重逢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久夢初醒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久客",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久旱不雨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久旱逢甘霖",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久視",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "久遠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "九世之仇",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "了局",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "五族共和",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "五日京兆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "亞伯拉罕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "人參果",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "人壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "人壽年豐",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "仁壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "仰韶文化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "修齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "倦鳥知返",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "傳聞異辭",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "億萬斯年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "元生代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "八輩子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "八難",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "再生資源",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "劫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "化石",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "化石學",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "十三行遺址",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "十年樹木，百年樹人",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千歲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千秋萬世",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千秋萬代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千秋萬古",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千秋萬歲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載一合",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載一時",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載一會",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載一逢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載一遇",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "千載難逢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南京市",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南山壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南極仙翁",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南極呈祥",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南極星輝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "南門市場",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "印度法系",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "卻病延年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "厚生",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "原生代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古剎",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古厝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古堡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古屋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古廟",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古瓷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古生物學",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古畫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古色古香",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "古董",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "吹送流",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "喬松之壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "國際人權組織",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "埃及曆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "埃及阿拉伯共和國",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "堯齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "塵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壙久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽域",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽夭",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽山福海",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽數",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽星",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽星吃砒霜",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽比南山",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽民",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "壽麵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "夙怨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "夙敵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "夙願",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "夙願以償",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "多歷年代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "多福多壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "多福多壽多男",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "大仙爺",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "天花",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "天長地久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "天長地老",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "天長地遠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "天長日久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "太陽能電池",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "夭壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "好景不長",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "孫文學說",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "安期生",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "宜興縣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "宿怨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "宿敵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "宿願",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "富無三代享",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "富貴草頭露",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "寢丘之志",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "小劫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "巨石文化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "常",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "常便",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "常綠植物",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "常設",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "年久失修",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "年湮代遠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "底棲生物",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "延壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "延壽添嗣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "延年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "延年益壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "引年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "弧帨齊輝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "彩陶文化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "彭殤",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "彭祖",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "彭聃",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "恆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "恆定",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "悠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "悠久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "悠悠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "悠遠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "悠邈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "愛之欲其生，惡之欲其死",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "慆慆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "拉丁民族",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "持久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "持久之計",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "故國",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "新石器時代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日久天長",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日久年深",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日久彌新",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日久月深",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日久歲深",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日漸月染",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "日濡月染",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "旱",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "暫勞永逸",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "曠久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "曠日引久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "曠日持久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "曠日長久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "曼壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "朝不謀夕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "期頤之壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "木雁",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "本因坊",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松喬之壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松柏",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松柏之壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松柏節操",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松柏長青",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "松鶴延年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "柏酒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "椒花頌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "椿",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "椿壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "椿齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "極婺聯輝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "標本",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "橘皮",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "歷久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "歷久不衰",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "歷久彌新",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "氟氯碳化物",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永世無窮",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永久磁鐵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永保無虞",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永命",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永永無窮",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永生",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永續",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永續經營",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "永逸",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "江山不老",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "沉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "泥盆紀",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "浣紗溪",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "海乾河盡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "海屋添籌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "海屋籌添",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "海枯石爛",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "淹晷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "湄洲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "湯餅會",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "源深流長",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "源遠流長",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "溜冰",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "溼壁畫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "漫漫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "漸教",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "無始無邊",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "煤化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "熬出頭",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "牛山歎",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "犀牛望月",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "猶太屯墾區",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "甘谷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "疚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "癌症",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "發光二極體",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "白娘子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "白蛇",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "白蠟樹",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "百年之業",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "百年好合",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "百武彗星",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "百歲千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "百葉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "皇家學會",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "益壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "益壽延年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "眉壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "眼前花",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "石枯松老",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "石炭紀",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "石爛海枯",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "石鹼",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "磁鐵心",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "神木",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "福不盈眥",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "福壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "福壽康寧",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "福壽綿綿",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "福壽綿長",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積年累月",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積慮",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "積習成常",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "窮年累世",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "窮年累月",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "築室反耕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "紀",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "紋眉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "累月經年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "細水長流",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "絕對時間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "經年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "經旬累月",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "綿歷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "繡閣長春",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "續通典",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "纏綿",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "美意延年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "美洲組織",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "義大利獎",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "老古董",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "老壽星",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "老歌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "老爺車",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "老鳥",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "考",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "耐久朋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "職業倦怠症",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "肉芝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "舊病",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "舊症",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "舊石器時代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "舊邦",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "華封三祝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬代千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬古",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬古千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬壽無疆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬歲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬歲千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萬載千秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "萱花椿樹",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "蒕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "蜀繡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "融",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "蟠桃",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": "Society for",
+        "class": "enduring",
+        "lang": "zh",
+        "member": "西屋科學獎",
+        "reason": "bridge binomial not in AnAge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "西臺人",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "許宣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "豬腳麵線",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "賒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "越窯",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "迷你盆景",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "遐",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "遙遙",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "遺產",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "酒介齊眉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "釜中生魚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "錐處囊中",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鐵器時代",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長便",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長命",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長命富貴",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長命百歲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長命縷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長命鎖",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長存",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長局",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長川",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長年菜",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長思",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長性",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長樂",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長法",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長濱文化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長生不死",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長生不滅",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長生不老",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長生久視",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長遠",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "長隨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "閃族",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "阿利安人",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "陳",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "陳年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "隔世",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "雷射碟影機",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "靈椿",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "青果合作社",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "靜態說",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "頃久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "顯生元",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "馬來亞玻里尼西亞語系",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "馬拉松",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "骨董",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "高壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鶴",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鶴壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鶴算龜齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鶴齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "鹼性蓄電池",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "麒麟文化",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "麥丘老人",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "麻了花兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "麼些族",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "黃髮兒齒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "黃髮鮐背",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "齯",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜山史前文化相",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜年",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜年鶴壽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜鶴",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜鶴同春",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜齡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜齡鶴算",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "enduring",
+        "lang": "zh",
+        "member": "龜龍麟鳳",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一向",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一回",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一大會兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一念之間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一息",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一時一刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一晃",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一晌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一會",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一會兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一會子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一朝一夕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一步",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一漚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一瞥",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一瞬",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一腳地",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一霎",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一霎時",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "一餉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "三頭兩日",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "下子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "不主故常",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "不斷電系統",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "不消一刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "不終朝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "亂流",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "些兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "些小",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "亮相",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "人生一世，草生一秋",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "人生如夢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "人生如風燈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "來不及",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "來去匆匆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "促促",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "俄",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "俄然",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "俯仰",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "俯仰之間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "克希荷夫定律",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "八月花神",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "分陰",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "剎時",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "功在漏刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "動勢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "動物保定",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半合兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半日片刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半晌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半霎",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半頓飯工夫",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "半餉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "南頓",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "吧",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "呼吸",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "咄唶",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "咄嗟",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "咄嗟便辦",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "喘息",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "喘氣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "回光返照",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "回頭",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "坑灰未冷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "堰塞湖",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "塞聲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "塵捲風",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "壓電效應",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "夏蟲朝菌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "夜燕",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "夢蝶",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "如坐針氈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "如坐鍼氈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "嫩",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "寄命",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "寸陰尺璧",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "寸隙",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "小別",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "小憩",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "小睡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "少候",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "少時",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "少頃",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "尺波",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "尺波電謝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "巡指間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "巴黎公社",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "彈指",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "彈指之間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "待一會兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "忽",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "恂目",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "息喘",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "打個沉兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "拔火罐",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "拔罐子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "持球",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "掣電",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "政治分析",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "敗不旋踵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "斯須",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "日不移晷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "日光節約時間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "春夢一場",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "時來暫去",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "晌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "智人",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "曇花",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "會",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "會兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "會子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝朝暮暮",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝榮夕悴",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝榮夕斃",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝榮夕滅",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝榮暮落",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝生暮死",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝菌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "朝露",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "期月有成",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "東風射馬耳",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "歇晌",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "正反合",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "步進馬達",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "氣爆",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "水上漚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "沒忽的",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "流光瞬息",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "浮光掠影",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "浮漚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "浮生瞬息",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "浮生若夢",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "漏刻之間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "漏電斷路器",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "無時無刻",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "熱帶栽培業",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "爆發力",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "片",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "片時",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "狂華",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "生光",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "疾風掃秋葉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "癌症",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "盛筵必散",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "盛筵易散",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "盹兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "看看",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "眨眼",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "眼前歡",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "眼前花",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "瞥地",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "瞬",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "瞬即",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "瞬得彩色電影",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "瞬時速度",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "短促",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "禍不反踵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "禍不旋踵",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "稍後",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "立枷",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "立談之間",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "等一下",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "等一會兒",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "等等",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "脈衝",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "草本",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "菸鹼酸",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "萍聚",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "薤露",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "蜉蝣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "觸電",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "跑兔子",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "跳水",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "返照回光",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "迴光返照",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "速食主義",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "速食戀愛",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "過客",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "過眼風燈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "過路財神",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "遺像",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "長痛不如短痛",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "閃光",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "閃現",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "閻王叫你三更死，誰敢留人到五更",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "降雨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "陣雨",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "陣雲",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "集體行為",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "雲煙過眼",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "電光石火",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "電熱水器",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "電震",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "露水",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "露水交道",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "露水姻緣",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "露電",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "韻律",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "頃久",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "須",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "須臾",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "飛魚飛彈",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "餉",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "駒光",
+        "reason": "no mechanical roman/Latin bridge"
+      },
+      {
+        "bridge_attempted_binomial": null,
+        "class": "ephemeral",
+        "lang": "zh",
+        "member": "驚鴻一瞥",
+        "reason": "no mechanical roman/Latin bridge"
+      }
+    ]
+  },
+  "verdict": {
+    "auc_computable": false,
+    "headline": "MEASURED-EMPTY: 0 species matched under the declared law.",
+    "upgrade_path": [
+      "a citable PLANT-longevity dataset to match the en botanical members, and/or",
+      "a DECLARED HowNet/CEDICT Chinese->English bridge + a declared taxon->representative-species rule for the zh generic-taxon members (both are new sanctioned inputs, not something this eval may invent)."
+    ],
+    "why": [
+      "AnAge is zoological and keyed on SPECIFIC species (no bare 'tortoise'/'crane'/'mayfly' row); the en organ's ephemeral/enduring members are BOTANICAL (yew, fig, tamarind, fern, fir) or ABSTRACT (eon, era, minute, blackout) -> 0 exact matches.",
+      "The zh organ DOES carry the animal anchors (龜 tortoise, 鶴 crane, 蜉蝣 mayfly) and the class order is real in the world, but they are GENERIC taxa, and the MOE gloss gives no Latin binomial and no HowNet English token is vendored -> no mechanical bridge; the law (rightly) forbids the hand-mapping that would connect them.",
+      "So the eval, run honestly against AnAge under the strict law, measures zero usable overlap and refuses to fabricate an AUC."
+    ]
+  },
+  "zh_bridge_report": {
+    "b1_english_def_token_available": false,
+    "b1_note": "organ receipts carry Chinese clauses only; no HowNet Chinese->English dictionary vendored",
+    "b1_roman_binomial_pattern_hits_in_receipts": 0,
+    "b2_gloss_error": null,
+    "b2_headwords_with_gloss": 573,
+    "b2_moe_gloss_parsed": true,
+    "b2_pattern_hits_note": "the fixed regex matches any capitalised+lowercase roman bigram; it is a SUPERSET of Latin binomials (e.g. 西屋科學獎's gloss yields 'Society for', non-taxonomic English). Such hits simply fail the AnAge lookup.",
+    "b2_pattern_hits_sample": {
+      "西屋科學獎": "Society for"
+    },
+    "b2_roman_binomial_pattern_hits_in_gloss": 1,
+    "pattern_hits_that_matched_AnAge": 0
+  }
+}

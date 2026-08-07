@@ -1,0 +1,225 @@
+{
+ "what": "verdict-stack heat map, presentation-tier re-plot of census v4.8 (DE+TEMPORAL era: German colour leg unstars 17 de-seat colour cells + HeidelTime en-temporal; on the en-era base yield law d26fa95 + en morphological fold 75c32ef; night build c18199a + weiß flag e37b553)",
+ "date": "2026-07-28 night",
+ "chair": "#61",
+ "provenance": "at her ask (TODO: 'heat map stays down unless asked')",
+ "input": {
+  "path": "reports/findings_v51_linegrain_0728_62.json",
+  "sha256": "ec2005395728f73b5e210b538390f279870843a6f48b1167054ac514e83d1983"
+ },
+ "law_imports": {
+  "linegrain_law_60.py": "2405deaec362af1ca5f4bc276ef7b88ab0e4e4441ceca52f830055fb2c2d920c",
+  "linegrain_census_v43_60.py": "b05cdfe606885a6ded0008c8a3b3e273c6c9b7dac6bed9747b52b22b7bbab936"
+ },
+ "gate": {
+  "totals_full_stack": true,
+  "totals_suggestive_starred": true,
+  "per_field": true,
+  "xmllint": true
+ },
+ "tier_grades_source": "SCORING_MANUAL_0726_59.md §6 (dated 07-28)",
+ "starred_meaning": "a side under borrowed cuts / uncovered channels (de·jp seats; the uncovered WORD channel — present*/silent*) — suggestive, never demonstrative. NOTE: the fr colour token-ghost star RETIRED (her STAR REVERSAL, #62; census v5.1) — those crossings are now DEMONSTRATIVE (full-stack); the zh full-stack BADGE marks the full-support side, thinness in prose",
+ "scaling": "fill-opacity = .10 + .90*sqrt(count/block_max), starred block ×.75 + hatch",
+ "tally": {
+  "color": {
+   "SURVIVAL": [
+    71,
+    1
+   ],
+   "PARTIAL-LOSS": [
+    1,
+    0
+   ],
+   "ECHO": [
+    40,
+    0
+   ],
+   "DEFORMATION": [
+    14,
+    2
+   ],
+   "RENDERED": [
+    31,
+    4
+   ],
+   "GHOST-GROUNDED": [
+    8,
+    0
+   ],
+   "GHOST-CARRY": [
+    254,
+    0
+   ],
+   "UNHEARD": [
+    156,
+    6
+   ],
+   "INVENTION": [
+    24,
+    2
+   ],
+   "LATENT-INVENTION": [
+    11,
+    0
+   ],
+   "STIRRED": [
+    276,
+    0
+   ]
+  },
+  "sound": {
+   "SURVIVAL": [
+    18,
+    111
+   ],
+   "PARTIAL-LOSS": [
+    0,
+    4
+   ],
+   "ECHO": [
+    12,
+    277
+   ],
+   "DEFORMATION": [
+    5,
+    109
+   ],
+   "REVIVAL": [
+    10,
+    0
+   ],
+   "LATENT-ECHO": [
+    2,
+    0
+   ],
+   "RENDERED": [
+    21,
+    43
+   ],
+   "GHOST-CARRY": [
+    79,
+    0
+   ],
+   "UNHEARD": [
+    54,
+    25
+   ],
+   "INVENTION": [
+    11,
+    57
+   ],
+   "LATENT-INVENTION": [
+    0,
+    4
+   ],
+   "STIRRED": [
+    35,
+    109
+   ]
+  },
+  "sound_device": {
+   "SURVIVAL": [
+    57,
+    0
+   ],
+   "DEFORMATION": [
+    41,
+    1
+   ],
+   "INVENTION": [
+    33,
+    0
+   ]
+  },
+  "plant": {
+   "SURVIVAL": [
+    18,
+    59
+   ],
+   "PARTIAL-LOSS": [
+    1,
+    8
+   ],
+   "ECHO": [
+    9,
+    237
+   ],
+   "DEFORMATION": [
+    14,
+    137
+   ],
+   "LATENT-ECHO": [
+    6,
+    0
+   ],
+   "RENDERED": [
+    8,
+    34
+   ],
+   "GHOST-CARRY": [
+    71,
+    0
+   ],
+   "UNHEARD": [
+    88,
+    22
+   ],
+   "INVENTION": [
+    1,
+    41
+   ],
+   "STIRRED": [
+    33,
+    112
+   ]
+  },
+  "illumination": {
+   "SURVIVAL": [
+    0,
+    454
+   ],
+   "PARTIAL-LOSS": [
+    0,
+    11
+   ],
+   "ECHO": [
+    0,
+    218
+   ],
+   "DEFORMATION": [
+    0,
+    86
+   ],
+   "RENDERED": [
+    0,
+    202
+   ],
+   "UNHEARD": [
+    0,
+    23
+   ],
+   "INVENTION": [
+    0,
+    84
+   ],
+   "STIRRED": [
+    0,
+    32
+   ]
+  },
+  "temporal": {
+   "SURVIVAL": [
+    28,
+    0
+   ],
+   "DEFORMATION": [
+    44,
+    0
+   ],
+   "INVENTION": [
+    43,
+    0
+   ]
+  }
+ }
+}

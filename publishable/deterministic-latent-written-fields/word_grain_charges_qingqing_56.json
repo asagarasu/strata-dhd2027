@@ -1,0 +1,84 @@
+{
+ "status": "MEASURED — HER REVIEW PENDING (latent-ruler review)",
+ "what": "word-grain corpus breadth pass — board qingqing (#56) — MEASUREMENT",
+ "board": "qingqing",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "renderings": [
+  "zh:gushi19_02"
+ ],
+ "per_rendering": {
+  "zh:gushi19_02": [
+   {
+    "word": "青青",
+    "line": 1,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "紅粉",
+    "line": 5,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紅",
+     "粉"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false,
+    "s2t_twin_of": "红粉",
+    "reading_note": "same lexeme as the measured simplified form; cross-reference only, not a measurement claim"
+   },
+   {
+    "word": "素手",
+    "line": 6,
+    "source": "written_colour_fire",
+    "carriers": [
+     "素"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   }
+  ]
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "full_record": "caesitas_proto/results/word_grain_referent_pass_qingqing_56.json"
+}

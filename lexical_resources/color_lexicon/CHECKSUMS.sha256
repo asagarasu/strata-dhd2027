@@ -1,0 +1,9 @@
+# SHA-256 checksums for color_lexicon vendored files
+# Format: <hash>  <filename>
+# Generated / updated: 2026-07-20
+
+# colors.json — Sanzo Wada / mattdesl (Dictionary of Colour Combinations), acquired 2026-07-20
+555f11c32eb8133078fd470dd7d5320533aaa8b636f12fa06a8dd3d0ee2703b4  colors.json
+
+# chinese_colors_zerosoul_20260720.json — 中国传统色 (zerosoul / Tristan Yang), acquired 2026-07-20
+72a4f472572873e782f52214ce2af100ad4bf8debee7de959864d70048fa48f9  chinese_colors_zerosoul_20260720.json

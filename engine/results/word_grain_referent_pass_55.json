@@ -1,0 +1,6103 @@
+{
+ "what": "word-grain referent pass over Sonnet 73 (e5, #55) — MEASUREMENT",
+ "memo": "word_grain_referent_pass_memo_55.md",
+ "authority": "her g5 ruling 07-22 (queue 40160a7): word-grain referent pass over the pilot rides now; review-pending (NEEDS_HER)",
+ "per_rendering": {
+  "zh:liang_zongdai": [
+   {
+    "word": "黄叶",
+    "line": 2,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黑"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "寒灰里",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "灰"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "当",
+    "line": 2,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": 0.0011332068012042552,
+    "z": 0.3350791441280261,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 247,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   }
+  ],
+  "zh:tu_an_1955": [
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黑"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "火光",
+    "line": 9,
+    "source": "written_colour_fire",
+    "carriers": [
+     "火"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.003271165338771413,
+    "z": 0.9333569387138902,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 34,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "底灰燼",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "灰"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "灰燼",
+    "line": 11,
+    "source": "written_colour_fire",
+    "carriers": [
+     "灰"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false,
+    "s2t_twin_of": "灰烬",
+    "reading_note": "same lexeme as the measured simplified form; cross-reference only, not a measurement claim"
+   },
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   }
+  ],
+  "zh:liang_shiqiu": [
+   {
+    "word": "黄叶",
+    "line": 3,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "黄昏",
+    "line": 5,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黑"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "火亮",
+    "line": 9,
+    "source": "written_colour_fire",
+    "carriers": [
+     "火"
+    ],
+    "status": "sit_out",
+    "reason": "zero_hosts",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "灰烬",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "灰"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "黑夜",
+    "line": 7,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": 0.019760258139387095,
+    "z": 5.547598937391621,
+    "call": true,
+    "n_hosts_used": 20,
+    "n_admitted": 19,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   }
+  ],
+  "zh:gu_zhengkun": [
+   {
+    "word": "黄叶",
+    "line": 2,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "黄昏时候",
+    "line": 5,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "火焰",
+    "line": 9,
+    "source": "written_colour_fire",
+    "carriers": [
+     "火"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.0003178381259325673,
+    "z": 0.10690962435284677,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 13,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "灰烬",
+    "line": 10,
+    "source": "written_colour_fire",
+    "carriers": [
+     "灰"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "火种",
+    "line": 12,
+    "source": "written_colour_fire",
+    "carriers": [
+     "火"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": 0.010063171112253157,
+    "z": 2.834004759319939,
+    "call": true,
+    "n_hosts_used": 17,
+    "n_admitted": 8,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "青春",
+    "line": 10,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": -0.0033727832751817297,
+    "z": -0.9258591565715096,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 5,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   }
+  ]
+ },
+ "measurement_items": {
+  "寒灰里": {
+   "word": "寒灰里",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "底灰燼": {
+   "word": "底灰燼",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "当": {
+   "word": "当",
+   "role": "measurement",
+   "n_hosts": 1637,
+   "leipzig_n": 1636,
+   "caption_n": 1,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "上",
+    "下",
+    "不",
+    "与",
+    "且",
+    "串",
+    "临",
+    "为",
+    "主",
+    "乃",
+    "么",
+    "之",
+    "也",
+    "了",
+    "于",
+    "亦",
+    "仅",
+    "今",
+    "仍",
+    "从",
+    "仕",
+    "仞",
+    "以",
+    "们",
+    "仵",
+    "任",
+    "会",
+    "传",
+    "但",
+    "何",
+    "你",
+    "侔",
+    "依",
+    "便",
+    "俾",
+    "倒",
+    "倘",
+    "值",
+    "偌",
+    "偕",
+    "做",
+    "傥",
+    "像",
+    "充",
+    "光",
+    "兜",
+    "兮",
+    "其",
+    "典",
+    "兹",
+    "兼",
+    "冲",
+    "决",
+    "准",
+    "几",
+    "凭",
+    "出",
+    "切",
+    "则",
+    "别",
+    "到",
+    "办",
+    "务",
+    "勿",
+    "包",
+    "单",
+    "即",
+    "去",
+    "又",
+    "及",
+    "反",
+    "只",
+    "叫",
+    "司",
+    "合",
+    "同",
+    "向",
+    "吗",
+    "吧",
+    "吾",
+    "呐",
+    "呗",
+    "咋",
+    "和",
+    "哉",
+    "哎",
+    "哪",
+    "哿",
+    "唉",
+    "唔",
+    "啊",
+    "啥",
+    "啦",
+    "啰",
+    "啵",
+    "啻",
+    "喃",
+    "喽",
+    "嗄",
+    "嗟",
+    "嗳",
+    "嘛",
+    "嘞",
+    "因",
+    "在",
+    "地",
+    "埒",
+    "奈",
+    "她",
+    "好",
+    "如",
+    "妥",
+    "始",
+    "媲",
+    "孰",
+    "它",
+    "完",
+    "定",
+    "宜",
+    "宰",
+    "对",
+    "将",
+    "小",
+    "尔",
+    "尚",
+    "就",
+    "尽",
+    "岂",
+    "带",
+    "平",
+    "并",
+    "幸",
+    "庀",
+    "应",
+    "开",
+    "弗",
+    "归",
+    "彷",
+    "彼",
+    "往",
+    "律",
+    "得",
+    "必",
+    "怎",
+    "怕",
+    "总",
+    "恁",
+    "恰",
+    "您",
+    "惟",
+    "想",
+    "成",
+    "我",
+    "或",
+    "所",
+    "才",
+    "打",
+    "执",
+    "扮",
+    "承",
+    "把",
+    "抓",
+    "抵",
+    "押",
+    "担",
+    "拙",
+    "拜",
+    "拿",
+    "持",
+    "按",
+    "据",
+    "掌",
+    "揽",
+    "摊",
+    "故",
+    "敌",
+    "敝",
+    "斯",
+    "方",
+    "於",
+    "既",
+    "是",
+    "暨",
+    "未",
+    "本",
+    "来",
+    "欤",
+    "止",
+    "正",
+    "此",
+    "毋",
+    "每",
+    "比",
+    "没",
+    "治",
+    "沿",
+    "活",
+    "混",
+    "演",
+    "焉",
+    "然",
+    "照",
+    "犹",
+    "猗",
+    "甭",
+    "甯",
+    "由",
+    "的",
+    "皆",
+    "看",
+    "真",
+    "着",
+    "矣",
+    "矧",
+    "秉",
+    "稳",
+    "竟",
+    "等",
+    "算",
+    "管",
+    "纯",
+    "纵",
+    "经",
+    "给",
+    "绝",
+    "缘",
+    "而",
+    "聊",
+    "聿",
+    "背",
+    "能",
+    "膺",
+    "自",
+    "至",
+    "舍",
+    "般",
+    "若",
+    "莫",
+    "营",
+    "虽",
+    "被",
+    "装",
+    "要",
+    "见",
+    "认",
+    "让",
+    "讵",
+    "论",
+    "设",
+    "诚",
+    "该",
+    "诮",
+    "请",
+    "谁",
+    "负",
+    "质",
+    "贳",
+    "贵",
+    "起",
+    "较",
+    "辖",
+    "迄",
+    "过",
+    "还",
+    "这",
+    "连",
+    "迤",
+    "迨",
+    "适",
+    "逢",
+    "道",
+    "那",
+    "都",
+    "钧",
+    "问",
+    "阍",
+    "除",
+    "顶",
+    "顺",
+    "须",
+    "飭",
+    "饬",
+    "饰"
+   ],
+   "candidate_counts": {
+    "上": {
+     "leipzig": 11426,
+     "caption": 8979,
+     "total": 20405
+    },
+    "下": {
+     "leipzig": 4685,
+     "caption": 484,
+     "total": 5169
+    },
+    "不": {
+     "leipzig": 15102,
+     "caption": 5,
+     "total": 15107
+    },
+    "与": {
+     "leipzig": 6948,
+     "caption": 89,
+     "total": 7037
+    },
+    "且": {
+     "leipzig": 707,
+     "caption": 1,
+     "total": 708
+    },
+    "串": {
+     "leipzig": 38,
+     "caption": 12,
+     "total": 50
+    },
+    "临": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "为": {
+     "leipzig": 9013,
+     "caption": 47,
+     "total": 9060
+    },
+    "主": {
+     "leipzig": 310,
+     "caption": 1,
+     "total": 311
+    },
+    "乃": {
+     "leipzig": 119,
+     "caption": 0,
+     "total": 119
+    },
+    "么": {
+     "leipzig": 70,
+     "caption": 0,
+     "total": 70
+    },
+    "之": {
+     "leipzig": 6353,
+     "caption": 1,
+     "total": 6354
+    },
+    "也": {
+     "leipzig": 18733,
+     "caption": 29,
+     "total": 18762
+    },
+    "了": {
+     "leipzig": 40900,
+     "caption": 1206,
+     "total": 42106
+    },
+    "于": {
+     "leipzig": 2221,
+     "caption": 4,
+     "total": 2225
+    },
+    "亦": {
+     "leipzig": 2867,
+     "caption": 0,
+     "total": 2867
+    },
+    "仅": {
+     "leipzig": 419,
+     "caption": 0,
+     "total": 419
+    },
+    "今": {
+     "leipzig": 406,
+     "caption": 0,
+     "total": 406
+    },
+    "仍": {
+     "leipzig": 2086,
+     "caption": 4,
+     "total": 2090
+    },
+    "从": {
+     "leipzig": 4534,
+     "caption": 264,
+     "total": 4798
+    },
+    "仕": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "仞": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "以": {
+     "leipzig": 6686,
+     "caption": 6,
+     "total": 6692
+    },
+    "们": {
+     "leipzig": 2437,
+     "caption": 69,
+     "total": 2506
+    },
+    "仵": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "任": {
+     "leipzig": 430,
+     "caption": 0,
+     "total": 430
+    },
+    "会": {
+     "leipzig": 6582,
+     "caption": 0,
+     "total": 6582
+    },
+    "传": {
+     "leipzig": 96,
+     "caption": 0,
+     "total": 96
+    },
+    "但": {
+     "leipzig": 10145,
+     "caption": 7,
+     "total": 10152
+    },
+    "何": {
+     "leipzig": 150,
+     "caption": 0,
+     "total": 150
+    },
+    "你": {
+     "leipzig": 7363,
+     "caption": 1,
+     "total": 7364
+    },
+    "侔": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "依": {
+     "leipzig": 77,
+     "caption": 0,
+     "total": 77
+    },
+    "便": {
+     "leipzig": 1489,
+     "caption": 1,
+     "total": 1490
+    },
+    "俾": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "倒": {
+     "leipzig": 393,
+     "caption": 23,
+     "total": 416
+    },
+    "倘": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "值": {
+     "leipzig": 85,
+     "caption": 0,
+     "total": 85
+    },
+    "偌": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "偕": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "做": {
+     "leipzig": 4209,
+     "caption": 183,
+     "total": 4392
+    },
+    "傥": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "像": {
+     "leipzig": 1637,
+     "caption": 9,
+     "total": 1646
+    },
+    "充": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "光": {
+     "leipzig": 196,
+     "caption": 15,
+     "total": 211
+    },
+    "兜": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "兮": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "其": {
+     "leipzig": 4395,
+     "caption": 4,
+     "total": 4399
+    },
+    "典": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "兹": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "兼": {
+     "leipzig": 195,
+     "caption": 0,
+     "total": 195
+    },
+    "冲": {
+     "leipzig": 191,
+     "caption": 6,
+     "total": 197
+    },
+    "决": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "准": {
+     "leipzig": 88,
+     "caption": 0,
+     "total": 88
+    },
+    "几": {
+     "leipzig": 70,
+     "caption": 1,
+     "total": 71
+    },
+    "凭": {
+     "leipzig": 101,
+     "caption": 0,
+     "total": 101
+    },
+    "出": {
+     "leipzig": 2114,
+     "caption": 34,
+     "total": 2148
+    },
+    "切": {
+     "leipzig": 55,
+     "caption": 90,
+     "total": 145
+    },
+    "则": {
+     "leipzig": 1243,
+     "caption": 9,
+     "total": 1252
+    },
+    "别": {
+     "leipzig": 317,
+     "caption": 2,
+     "total": 319
+    },
+    "到": {
+     "leipzig": 9911,
+     "caption": 55,
+     "total": 9966
+    },
+    "办": {
+     "leipzig": 225,
+     "caption": 1,
+     "total": 226
+    },
+    "务": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "勿": {
+     "leipzig": 64,
+     "caption": 0,
+     "total": 64
+    },
+    "包": {
+     "leipzig": 207,
+     "caption": 17,
+     "total": 224
+    },
+    "单": {
+     "leipzig": 80,
+     "caption": 4,
+     "total": 84
+    },
+    "即": {
+     "leipzig": 1173,
+     "caption": 0,
+     "total": 1173
+    },
+    "去": {
+     "leipzig": 4390,
+     "caption": 81,
+     "total": 4471
+    },
+    "又": {
+     "leipzig": 5609,
+     "caption": 4,
+     "total": 5613
+    },
+    "及": {
+     "leipzig": 6614,
+     "caption": 6,
+     "total": 6620
+    },
+    "反": {
+     "leipzig": 405,
+     "caption": 3,
+     "total": 408
+    },
+    "只": {
+     "leipzig": 1912,
+     "caption": 33,
+     "total": 1945
+    },
+    "叫": {
+     "leipzig": 863,
+     "caption": 1,
+     "total": 864
+    },
+    "司": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "合": {
+     "leipzig": 132,
+     "caption": 0,
+     "total": 132
+    },
+    "同": {
+     "leipzig": 870,
+     "caption": 5,
+     "total": 875
+    },
+    "向": {
+     "leipzig": 4201,
+     "caption": 132,
+     "total": 4333
+    },
+    "吗": {
+     "leipzig": 1058,
+     "caption": 0,
+     "total": 1058
+    },
+    "吧": {
+     "leipzig": 1055,
+     "caption": 2,
+     "total": 1057
+    },
+    "吾": {
+     "leipzig": 102,
+     "caption": 0,
+     "total": 102
+    },
+    "呐": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "呗": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "咋": {
+     "leipzig": 38,
+     "caption": 1,
+     "total": 39
+    },
+    "和": {
+     "leipzig": 26891,
+     "caption": 3999,
+     "total": 30890
+    },
+    "哉": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "哎": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "哪": {
+     "leipzig": 309,
+     "caption": 0,
+     "total": 309
+    },
+    "哿": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "唉": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "唔": {
+     "leipzig": 536,
+     "caption": 0,
+     "total": 536
+    },
+    "啊": {
+     "leipzig": 892,
+     "caption": 0,
+     "total": 892
+    },
+    "啥": {
+     "leipzig": 137,
+     "caption": 0,
+     "total": 137
+    },
+    "啦": {
+     "leipzig": 274,
+     "caption": 0,
+     "total": 274
+    },
+    "啰": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "啵": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "啻": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "喃": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "喽": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "嗄": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "嗟": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "嗳": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "嘛": {
+     "leipzig": 121,
+     "caption": 0,
+     "total": 121
+    },
+    "嘞": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "因": {
+     "leipzig": 2141,
+     "caption": 0,
+     "total": 2141
+    },
+    "在": {
+     "leipzig": 51620,
+     "caption": 11695,
+     "total": 63315
+    },
+    "地": {
+     "leipzig": 4774,
+     "caption": 105,
+     "total": 4879
+    },
+    "埒": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "奈": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "她": {
+     "leipzig": 6774,
+     "caption": 77,
+     "total": 6851
+    },
+    "好": {
+     "leipzig": 5096,
+     "caption": 63,
+     "total": 5159
+    },
+    "如": {
+     "leipzig": 1513,
+     "caption": 2,
+     "total": 1515
+    },
+    "妥": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "始": {
+     "leipzig": 86,
+     "caption": 0,
+     "total": 86
+    },
+    "媲": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "孰": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "它": {
+     "leipzig": 2411,
+     "caption": 74,
+     "total": 2485
+    },
+    "完": {
+     "leipzig": 395,
+     "caption": 8,
+     "total": 403
+    },
+    "定": {
+     "leipzig": 274,
+     "caption": 0,
+     "total": 274
+    },
+    "宜": {
+     "leipzig": 54,
+     "caption": 0,
+     "total": 54
+    },
+    "宰": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "对": {
+     "leipzig": 9289,
+     "caption": 107,
+     "total": 9396
+    },
+    "将": {
+     "leipzig": 5317,
+     "caption": 47,
+     "total": 5364
+    },
+    "小": {
+     "leipzig": 2226,
+     "caption": 420,
+     "total": 2646
+    },
+    "尔": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "尚": {
+     "leipzig": 195,
+     "caption": 0,
+     "total": 195
+    },
+    "就": {
+     "leipzig": 13114,
+     "caption": 3,
+     "total": 13117
+    },
+    "尽": {
+     "leipzig": 208,
+     "caption": 0,
+     "total": 208
+    },
+    "岂": {
+     "leipzig": 56,
+     "caption": 0,
+     "total": 56
+    },
+    "带": {
+     "leipzig": 933,
+     "caption": 318,
+     "total": 1251
+    },
+    "平": {
+     "leipzig": 92,
+     "caption": 0,
+     "total": 92
+    },
+    "并": {
+     "leipzig": 3471,
+     "caption": 23,
+     "total": 3494
+    },
+    "幸": {
+     "leipzig": 35,
+     "caption": 0,
+     "total": 35
+    },
+    "庀": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "应": {
+     "leipzig": 721,
+     "caption": 0,
+     "total": 721
+    },
+    "开": {
+     "leipzig": 605,
+     "caption": 21,
+     "total": 626
+    },
+    "弗": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "归": {
+     "leipzig": 89,
+     "caption": 0,
+     "total": 89
+    },
+    "彷": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "彼": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "往": {
+     "leipzig": 480,
+     "caption": 16,
+     "total": 496
+    },
+    "律": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "得": {
+     "leipzig": 3738,
+     "caption": 24,
+     "total": 3762
+    },
+    "必": {
+     "leipzig": 268,
+     "caption": 0,
+     "total": 268
+    },
+    "怎": {
+     "leipzig": 84,
+     "caption": 0,
+     "total": 84
+    },
+    "怕": {
+     "leipzig": 329,
+     "caption": 0,
+     "total": 329
+    },
+    "总": {
+     "leipzig": 565,
+     "caption": 0,
+     "total": 565
+    },
+    "恁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "恰": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "您": {
+     "leipzig": 582,
+     "caption": 0,
+     "total": 582
+    },
+    "惟": {
+     "leipzig": 222,
+     "caption": 0,
+     "total": 222
+    },
+    "想": {
+     "leipzig": 2263,
+     "caption": 7,
+     "total": 2270
+    },
+    "成": {
+     "leipzig": 1234,
+     "caption": 17,
+     "total": 1251
+    },
+    "我": {
+     "leipzig": 14268,
+     "caption": 1,
+     "total": 14269
+    },
+    "或": {
+     "leipzig": 4081,
+     "caption": 15,
+     "total": 4096
+    },
+    "所": {
+     "leipzig": 2227,
+     "caption": 1,
+     "total": 2228
+    },
+    "才": {
+     "leipzig": 3078,
+     "caption": 0,
+     "total": 3078
+    },
+    "打": {
+     "leipzig": 1405,
+     "caption": 219,
+     "total": 1624
+    },
+    "执": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "扮": {
+     "leipzig": 14,
+     "caption": 1,
+     "total": 15
+    },
+    "承": {
+     "leipzig": 23,
+     "caption": 0,
+     "total": 23
+    },
+    "把": {
+     "leipzig": 5447,
+     "caption": 105,
+     "total": 5552
+    },
+    "抓": {
+     "leipzig": 568,
+     "caption": 22,
+     "total": 590
+    },
+    "抵": {
+     "leipzig": 109,
+     "caption": 1,
+     "total": 110
+    },
+    "押": {
+     "leipzig": 131,
+     "caption": 0,
+     "total": 131
+    },
+    "担": {
+     "leipzig": 56,
+     "caption": 0,
+     "total": 56
+    },
+    "拙": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "拜": {
+     "leipzig": 65,
+     "caption": 0,
+     "total": 65
+    },
+    "拿": {
+     "leipzig": 677,
+     "caption": 1036,
+     "total": 1713
+    },
+    "持": {
+     "leipzig": 167,
+     "caption": 0,
+     "total": 167
+    },
+    "按": {
+     "leipzig": 778,
+     "caption": 2,
+     "total": 780
+    },
+    "据": {
+     "leipzig": 685,
+     "caption": 0,
+     "total": 685
+    },
+    "掌": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "揽": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "摊": {
+     "leipzig": 11,
+     "caption": 4,
+     "total": 15
+    },
+    "故": {
+     "leipzig": 315,
+     "caption": 0,
+     "total": 315
+    },
+    "敌": {
+     "leipzig": 260,
+     "caption": 0,
+     "total": 260
+    },
+    "敝": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "斯": {
+     "leipzig": 79,
+     "caption": 0,
+     "total": 79
+    },
+    "方": {
+     "leipzig": 515,
+     "caption": 1,
+     "total": 516
+    },
+    "於": {
+     "leipzig": 6827,
+     "caption": 0,
+     "total": 6827
+    },
+    "既": {
+     "leipzig": 677,
+     "caption": 0,
+     "total": 677
+    },
+    "是": {
+     "leipzig": 43688,
+     "caption": 398,
+     "total": 44086
+    },
+    "暨": {
+     "leipzig": 53,
+     "caption": 0,
+     "total": 53
+    },
+    "未": {
+     "leipzig": 1120,
+     "caption": 8,
+     "total": 1128
+    },
+    "本": {
+     "leipzig": 803,
+     "caption": 0,
+     "total": 803
+    },
+    "来": {
+     "leipzig": 3609,
+     "caption": 28,
+     "total": 3637
+    },
+    "欤": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "止": {
+     "leipzig": 75,
+     "caption": 0,
+     "total": 75
+    },
+    "正": {
+     "leipzig": 1781,
+     "caption": 561,
+     "total": 2342
+    },
+    "此": {
+     "leipzig": 1227,
+     "caption": 0,
+     "total": 1227
+    },
+    "毋": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "每": {
+     "leipzig": 1533,
+     "caption": 1,
+     "total": 1534
+    },
+    "比": {
+     "leipzig": 1592,
+     "caption": 9,
+     "total": 1601
+    },
+    "没": {
+     "leipzig": 1219,
+     "caption": 9,
+     "total": 1228
+    },
+    "治": {
+     "leipzig": 130,
+     "caption": 1,
+     "total": 131
+    },
+    "沿": {
+     "leipzig": 108,
+     "caption": 2,
+     "total": 110
+    },
+    "活": {
+     "leipzig": 335,
+     "caption": 0,
+     "total": 335
+    },
+    "混": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "演": {
+     "leipzig": 80,
+     "caption": 0,
+     "total": 80
+    },
+    "焉": {
+     "leipzig": 31,
+     "caption": 0,
+     "total": 31
+    },
+    "然": {
+     "leipzig": 281,
+     "caption": 0,
+     "total": 281
+    },
+    "照": {
+     "leipzig": 160,
+     "caption": 21,
+     "total": 181
+    },
+    "犹": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "猗": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "甭": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "甯": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "由": {
+     "leipzig": 3617,
+     "caption": 21,
+     "total": 3638
+    },
+    "的": {
+     "leipzig": 200351,
+     "caption": 15901,
+     "total": 216252
+    },
+    "皆": {
+     "leipzig": 390,
+     "caption": 0,
+     "total": 390
+    },
+    "看": {
+     "leipzig": 2329,
+     "caption": 282,
+     "total": 2611
+    },
+    "真": {
+     "leipzig": 598,
+     "caption": 1,
+     "total": 599
+    },
+    "着": {
+     "leipzig": 5496,
+     "caption": 6005,
+     "total": 11501
+    },
+    "矣": {
+     "leipzig": 138,
+     "caption": 0,
+     "total": 138
+    },
+    "矧": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "秉": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "稳": {
+     "leipzig": 254,
+     "caption": 0,
+     "total": 254
+    },
+    "竟": {
+     "leipzig": 178,
+     "caption": 0,
+     "total": 178
+    },
+    "等": {
+     "leipzig": 6777,
+     "caption": 299,
+     "total": 7076
+    },
+    "算": {
+     "leipzig": 218,
+     "caption": 0,
+     "total": 218
+    },
+    "管": {
+     "leipzig": 502,
+     "caption": 0,
+     "total": 502
+    },
+    "纯": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "纵": {
+     "leipzig": 35,
+     "caption": 0,
+     "total": 35
+    },
+    "经": {
+     "leipzig": 339,
+     "caption": 0,
+     "total": 339
+    },
+    "给": {
+     "leipzig": 3099,
+     "caption": 106,
+     "total": 3205
+    },
+    "绝": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "缘": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "而": {
+     "leipzig": 8450,
+     "caption": 40,
+     "total": 8490
+    },
+    "聊": {
+     "leipzig": 51,
+     "caption": 0,
+     "total": 51
+    },
+    "聿": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "背": {
+     "leipzig": 175,
+     "caption": 0,
+     "total": 175
+    },
+    "能": {
+     "leipzig": 4926,
+     "caption": 4,
+     "total": 4930
+    },
+    "膺": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "自": {
+     "leipzig": 1644,
+     "caption": 1,
+     "total": 1645
+    },
+    "至": {
+     "leipzig": 2502,
+     "caption": 0,
+     "total": 2502
+    },
+    "舍": {
+     "leipzig": 63,
+     "caption": 0,
+     "total": 63
+    },
+    "般": {
+     "leipzig": 125,
+     "caption": 0,
+     "total": 125
+    },
+    "若": {
+     "leipzig": 894,
+     "caption": 0,
+     "total": 894
+    },
+    "莫": {
+     "leipzig": 108,
+     "caption": 0,
+     "total": 108
+    },
+    "营": {
+     "leipzig": 158,
+     "caption": 0,
+     "total": 158
+    },
+    "虽": {
+     "leipzig": 289,
+     "caption": 0,
+     "total": 289
+    },
+    "被": {
+     "leipzig": 9679,
+     "caption": 314,
+     "total": 9993
+    },
+    "装": {
+     "leipzig": 161,
+     "caption": 44,
+     "total": 205
+    },
+    "要": {
+     "leipzig": 12706,
+     "caption": 17,
+     "total": 12723
+    },
+    "见": {
+     "leipzig": 609,
+     "caption": 0,
+     "total": 609
+    },
+    "认": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "让": {
+     "leipzig": 5055,
+     "caption": 2,
+     "total": 5057
+    },
+    "讵": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "论": {
+     "leipzig": 87,
+     "caption": 0,
+     "total": 87
+    },
+    "设": {
+     "leipzig": 65,
+     "caption": 0,
+     "total": 65
+    },
+    "诚": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "该": {
+     "leipzig": 1637,
+     "caption": 0,
+     "total": 1637
+    },
+    "诮": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "请": {
+     "leipzig": 524,
+     "caption": 0,
+     "total": 524
+    },
+    "谁": {
+     "leipzig": 964,
+     "caption": 2,
+     "total": 966
+    },
+    "负": {
+     "leipzig": 73,
+     "caption": 0,
+     "total": 73
+    },
+    "质": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "贳": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "贵": {
+     "leipzig": 82,
+     "caption": 0,
+     "total": 82
+    },
+    "起": {
+     "leipzig": 1725,
+     "caption": 49,
+     "total": 1774
+    },
+    "较": {
+     "leipzig": 365,
+     "caption": 3,
+     "total": 368
+    },
+    "辖": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "迄": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "过": {
+     "leipzig": 2908,
+     "caption": 90,
+     "total": 2998
+    },
+    "还": {
+     "leipzig": 5159,
+     "caption": 70,
+     "total": 5229
+    },
+    "这": {
+     "leipzig": 10218,
+     "caption": 35,
+     "total": 10253
+    },
+    "连": {
+     "leipzig": 570,
+     "caption": 9,
+     "total": 579
+    },
+    "迤": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "迨": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "适": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "逢": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "道": {
+     "leipzig": 1154,
+     "caption": 43,
+     "total": 1197
+    },
+    "那": {
+     "leipzig": 2470,
+     "caption": 10,
+     "total": 2480
+    },
+    "都": {
+     "leipzig": 14198,
+     "caption": 100,
+     "total": 14298
+    },
+    "钧": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "问": {
+     "leipzig": 647,
+     "caption": 2,
+     "total": 649
+    },
+    "阍": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "除": {
+     "leipzig": 390,
+     "caption": 0,
+     "total": 390
+    },
+    "顶": {
+     "leipzig": 85,
+     "caption": 3,
+     "total": 88
+    },
+    "顺": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "须": {
+     "leipzig": 96,
+     "caption": 0,
+     "total": 96
+    },
+    "飭": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "饬": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "饰": {
+     "leipzig": 33,
+     "caption": 1,
+     "total": 34
+    }
+   },
+   "admitted": [
+    "的",
+    "在",
+    "是",
+    "了",
+    "和",
+    "上",
+    "也",
+    "不",
+    "都",
+    "我",
+    "就",
+    "要",
+    "着",
+    "这",
+    "但",
+    "被",
+    "到",
+    "对",
+    "为",
+    "而",
+    "你",
+    "等",
+    "与",
+    "她",
+    "於",
+    "以",
+    "及",
+    "会",
+    "之",
+    "又",
+    "把",
+    "将",
+    "还",
+    "下",
+    "好",
+    "让",
+    "能",
+    "地",
+    "从",
+    "去",
+    "其",
+    "做",
+    "向",
+    "或",
+    "得",
+    "由",
+    "来",
+    "并",
+    "给",
+    "才",
+    "过",
+    "亦",
+    "小",
+    "看",
+    "们",
+    "至",
+    "它",
+    "那",
+    "正",
+    "想",
+    "所",
+    "于",
+    "出",
+    "因",
+    "仍",
+    "只",
+    "起",
+    "拿",
+    "像",
+    "自",
+    "该",
+    "打",
+    "比",
+    "每",
+    "如",
+    "便",
+    "则",
+    "带",
+    "成",
+    "没",
+    "此",
+    "道",
+    "即",
+    "未",
+    "吗",
+    "吧",
+    "谁",
+    "若",
+    "啊",
+    "同",
+    "叫",
+    "本",
+    "按",
+    "应",
+    "且",
+    "据",
+    "既",
+    "问",
+    "开",
+    "见",
+    "真",
+    "抓",
+    "您",
+    "连",
+    "总",
+    "唔",
+    "请",
+    "方",
+    "管",
+    "往",
+    "任",
+    "仅",
+    "倒",
+    "反",
+    "今",
+    "完",
+    "皆",
+    "除",
+    "较",
+    "经",
+    "活",
+    "怕",
+    "别",
+    "故",
+    "主",
+    "哪",
+    "虽",
+    "然",
+    "啦",
+    "定",
+    "必",
+    "敌",
+    "稳",
+    "办",
+    "包",
+    "惟",
+    "算",
+    "光",
+    "尽",
+    "装",
+    "冲",
+    "兼",
+    "尚",
+    "照",
+    "竟",
+    "背",
+    "持",
+    "营",
+    "何",
+    "切",
+    "矣",
+    "啥",
+    "合",
+    "押",
+    "治",
+    "般",
+    "嘛",
+    "乃",
+    "抵",
+    "沿",
+    "莫",
+    "吾",
+    "凭",
+    "传",
+    "须",
+    "平",
+    "归",
+    "准",
+    "顶",
+    "论",
+    "始",
+    "值",
+    "单",
+    "怎",
+    "贵",
+    "演",
+    "斯",
+    "依",
+    "止",
+    "负",
+    "几",
+    "么",
+    "律",
+    "纯",
+    "拜",
+    "设",
+    "勿",
+    "舍",
+    "岂",
+    "担",
+    "宜",
+    "暨",
+    "聊",
+    "串",
+    "混",
+    "绝",
+    "咋",
+    "唉",
+    "逢",
+    "幸",
+    "纵",
+    "饰",
+    "焉",
+    "犹",
+    "尔",
+    "充",
+    "彼",
+    "承",
+    "兮",
+    "认",
+    "质",
+    "顺",
+    "哉",
+    "哎",
+    "俾",
+    "司",
+    "呗",
+    "掌",
+    "缘",
+    "倘",
+    "妥",
+    "临",
+    "决",
+    "揽",
+    "扮",
+    "摊",
+    "兹",
+    "诚",
+    "弗",
+    "兜",
+    "偕",
+    "呐",
+    "恰",
+    "辖",
+    "典",
+    "啰",
+    "执",
+    "务",
+    "喽",
+    "仕",
+    "奈",
+    "孰",
+    "宰",
+    "适",
+    "仵",
+    "拙",
+    "敝"
+   ],
+   "admitted_by_fmin": {
+    "3": 255,
+    "5": 247,
+    "10": 234
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "fallback",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 247,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": true,
+   "candidates": [
+    "不",
+    "且",
+    "之",
+    "们",
+    "会",
+    "何",
+    "兜",
+    "兼",
+    "冲",
+    "到",
+    "办",
+    "即",
+    "只",
+    "向",
+    "啰",
+    "完",
+    "宰",
+    "对",
+    "并",
+    "律",
+    "得",
+    "持",
+    "揽",
+    "敌",
+    "於",
+    "焉",
+    "真",
+    "般",
+    "装",
+    "见",
+    "请",
+    "逢"
+   ],
+   "charge": 0.0011332068012042552,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005340974101079267,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 85
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0024058058605929827,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 149
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0013634558946173693,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 296
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0015986510286507324,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 363
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0005135235885309957,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 425
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004207439102710285,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 437
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0026476495233911483,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 666
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0008019127111911026,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 861
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0014323301367321298,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 913
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 8.834748357341646e-05,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 1194
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008172860750313055,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 1222
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0022263312747707355,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 1472
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.000902957707791141,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 1633
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.008262474894265709,
+     "n_occurrences_replaced": 6,
+     "n_positions": 2,
+     "position_occurrence_mismatch": true,
+     "line": 1727
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.006474399067603439,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 1845
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0021387207174048857,
+     "n_occurrences_replaced": 2,
+     "n_positions": 1,
+     "position_occurrence_mismatch": true,
+     "line": 2079
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01183756599614044,
+     "n_occurrences_replaced": 2,
+     "n_positions": 1,
+     "position_occurrence_mismatch": true,
+     "line": 2729
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0015438983277147808,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 3250
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.001699043356268087,
+     "n_occurrences_replaced": 2,
+     "n_positions": 2,
+     "position_occurrence_mismatch": false,
+     "line": 3373
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0004077478788308206,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 3637
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 0.3350791441280261,
+   "call": false
+  },
+  "火亮": {
+   "word": "火亮",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "丝光",
+    "云霞",
+    "亮儿",
+    "亮光",
+    "亮点",
+    "伽马",
+    "余晖",
+    "余辉",
+    "偏光",
+    "光亮",
+    "光明",
+    "光束",
+    "光柱",
+    "光波",
+    "光泽",
+    "光焰",
+    "光环",
+    "光线",
+    "光耀",
+    "光芒",
+    "光辉",
+    "冷光",
+    "反光",
+    "夕晖",
+    "夕照",
+    "天日",
+    "太阳",
+    "寒光",
+    "射线",
+    "幻日",
+    "弧光",
+    "微光",
+    "斜晖",
+    "日光",
+    "日冕",
+    "日晕",
+    "日珥",
+    "星光",
+    "春晖",
+    "晚霞",
+    "晨光",
+    "晨曦",
+    "曙光",
+    "月光",
+    "月晕",
+    "朝晖",
+    "朝霞",
+    "极光",
+    "柔光",
+    "残照",
+    "火光",
+    "灯光",
+    "灵光",
+    "烛光",
+    "珠光",
+    "电光",
+    "电弧",
+    "磷光",
+    "荧光",
+    "莱塞",
+    "落照",
+    "落霞",
+    "蟾光",
+    "逆光",
+    "镁光",
+    "闪光",
+    "闪电",
+    "阳光",
+    "霞光",
+    "风圈"
+   ],
+   "candidate_counts": {
+    "丝光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "云霞": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "亮儿": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "亮光": {
+     "leipzig": 7,
+     "caption": 15,
+     "total": 22
+    },
+    "亮点": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "伽马": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "余晖": {
+     "leipzig": 11,
+     "caption": 5,
+     "total": 16
+    },
+    "余辉": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "偏光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "光亮": {
+     "leipzig": 18,
+     "caption": 3,
+     "total": 21
+    },
+    "光明": {
+     "leipzig": 86,
+     "caption": 0,
+     "total": 86
+    },
+    "光束": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "光柱": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "光波": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "光泽": {
+     "leipzig": 10,
+     "caption": 1,
+     "total": 11
+    },
+    "光焰": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "光环": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "光线": {
+     "leipzig": 33,
+     "caption": 5,
+     "total": 38
+    },
+    "光耀": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "光芒": {
+     "leipzig": 61,
+     "caption": 3,
+     "total": 64
+    },
+    "光辉": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "冷光": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "反光": {
+     "leipzig": 11,
+     "caption": 1,
+     "total": 12
+    },
+    "夕晖": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "夕照": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "天日": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "太阳": {
+     "leipzig": 207,
+     "caption": 13,
+     "total": 220
+    },
+    "寒光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "射线": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "幻日": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "弧光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "微光": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "斜晖": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "日光": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "日冕": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "日晕": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "日珥": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "星光": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "春晖": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "晚霞": {
+     "leipzig": 11,
+     "caption": 1,
+     "total": 12
+    },
+    "晨光": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "晨曦": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "曙光": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "月光": {
+     "leipzig": 36,
+     "caption": 1,
+     "total": 37
+    },
+    "月晕": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "朝晖": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "朝霞": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "极光": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "柔光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "残照": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "火光": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "灯光": {
+     "leipzig": 52,
+     "caption": 58,
+     "total": 110
+    },
+    "灵光": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "烛光": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "珠光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "电光": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "电弧": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "磷光": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "荧光": {
+     "leipzig": 9,
+     "caption": 2,
+     "total": 11
+    },
+    "莱塞": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "落照": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "落霞": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "蟾光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "逆光": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "镁光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "闪光": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "闪电": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "阳光": {
+     "leipzig": 382,
+     "caption": 64,
+     "total": 446
+    },
+    "霞光": {
+     "leipzig": 4,
+     "caption": 1,
+     "total": 5
+    },
+    "风圈": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    }
+   },
+   "admitted": [
+    "阳光",
+    "太阳",
+    "灯光",
+    "光明",
+    "光辉",
+    "光芒",
+    "亮点",
+    "曙光",
+    "光线",
+    "月光",
+    "亮光",
+    "光亮",
+    "火光",
+    "光环",
+    "闪光",
+    "余晖",
+    "射线",
+    "反光",
+    "晚霞",
+    "光泽",
+    "晨光",
+    "荧光",
+    "星光",
+    "光柱",
+    "烛光",
+    "晨曦",
+    "朝霞",
+    "春晖",
+    "朝晖",
+    "极光",
+    "闪电",
+    "光耀",
+    "日光",
+    "天日",
+    "霞光"
+   ],
+   "admitted_by_fmin": {
+    "3": 40,
+    "5": 35,
+    "10": 23
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "zero_hosts",
+   "tier": "fallback"
+  },
+  "火光": {
+   "word": "火光",
+   "role": "measurement",
+   "n_hosts": 21,
+   "leipzig_n": 21,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "丝光",
+    "云霞",
+    "亮儿",
+    "亮光",
+    "亮点",
+    "伽马",
+    "余晖",
+    "余辉",
+    "偏光",
+    "光亮",
+    "光明",
+    "光束",
+    "光柱",
+    "光波",
+    "光泽",
+    "光焰",
+    "光环",
+    "光线",
+    "光耀",
+    "光芒",
+    "光辉",
+    "冷光",
+    "反光",
+    "夕晖",
+    "夕照",
+    "天日",
+    "太阳",
+    "寒光",
+    "射线",
+    "幻日",
+    "弧光",
+    "微光",
+    "斜晖",
+    "日光",
+    "日冕",
+    "日晕",
+    "日珥",
+    "星光",
+    "春晖",
+    "晚霞",
+    "晨光",
+    "晨曦",
+    "曙光",
+    "月光",
+    "月晕",
+    "朝晖",
+    "朝霞",
+    "极光",
+    "柔光",
+    "残照",
+    "火亮",
+    "灯光",
+    "灵光",
+    "烛光",
+    "珠光",
+    "电光",
+    "电弧",
+    "磷光",
+    "荧光",
+    "莱塞",
+    "落照",
+    "落霞",
+    "蟾光",
+    "逆光",
+    "镁光",
+    "闪光",
+    "闪电",
+    "阳光",
+    "霞光",
+    "风圈"
+   ],
+   "candidate_counts": {
+    "丝光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "云霞": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "亮儿": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "亮光": {
+     "leipzig": 7,
+     "caption": 15,
+     "total": 22
+    },
+    "亮点": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "伽马": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "余晖": {
+     "leipzig": 11,
+     "caption": 5,
+     "total": 16
+    },
+    "余辉": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "偏光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "光亮": {
+     "leipzig": 18,
+     "caption": 3,
+     "total": 21
+    },
+    "光明": {
+     "leipzig": 86,
+     "caption": 0,
+     "total": 86
+    },
+    "光束": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "光柱": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "光波": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "光泽": {
+     "leipzig": 10,
+     "caption": 1,
+     "total": 11
+    },
+    "光焰": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "光环": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "光线": {
+     "leipzig": 33,
+     "caption": 5,
+     "total": 38
+    },
+    "光耀": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "光芒": {
+     "leipzig": 61,
+     "caption": 3,
+     "total": 64
+    },
+    "光辉": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "冷光": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "反光": {
+     "leipzig": 11,
+     "caption": 1,
+     "total": 12
+    },
+    "夕晖": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "夕照": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "天日": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "太阳": {
+     "leipzig": 207,
+     "caption": 13,
+     "total": 220
+    },
+    "寒光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "射线": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "幻日": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "弧光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "微光": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "斜晖": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "日光": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "日冕": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "日晕": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "日珥": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "星光": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "春晖": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "晚霞": {
+     "leipzig": 11,
+     "caption": 1,
+     "total": 12
+    },
+    "晨光": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "晨曦": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "曙光": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "月光": {
+     "leipzig": 36,
+     "caption": 1,
+     "total": 37
+    },
+    "月晕": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "朝晖": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "朝霞": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "极光": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "柔光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "残照": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "火亮": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "灯光": {
+     "leipzig": 52,
+     "caption": 58,
+     "total": 110
+    },
+    "灵光": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "烛光": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "珠光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "电光": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "电弧": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "磷光": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "荧光": {
+     "leipzig": 9,
+     "caption": 2,
+     "total": 11
+    },
+    "莱塞": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "落照": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "落霞": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "蟾光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "逆光": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "镁光": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "闪光": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "闪电": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "阳光": {
+     "leipzig": 382,
+     "caption": 64,
+     "total": 446
+    },
+    "霞光": {
+     "leipzig": 4,
+     "caption": 1,
+     "total": 5
+    },
+    "风圈": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    }
+   },
+   "admitted": [
+    "阳光",
+    "太阳",
+    "灯光",
+    "光明",
+    "光辉",
+    "光芒",
+    "亮点",
+    "曙光",
+    "光线",
+    "月光",
+    "亮光",
+    "光亮",
+    "光环",
+    "闪光",
+    "余晖",
+    "射线",
+    "反光",
+    "晚霞",
+    "光泽",
+    "晨光",
+    "荧光",
+    "星光",
+    "光柱",
+    "烛光",
+    "晨曦",
+    "朝霞",
+    "春晖",
+    "朝晖",
+    "极光",
+    "闪电",
+    "光耀",
+    "日光",
+    "天日",
+    "霞光"
+   ],
+   "admitted_by_fmin": {
+    "3": 39,
+    "5": 34,
+    "10": 22
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "fallback",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 34,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": true,
+   "candidates": [
+    "亮光",
+    "亮点",
+    "余晖",
+    "光亮",
+    "光明",
+    "光柱",
+    "光泽",
+    "光环",
+    "光耀",
+    "光芒",
+    "光辉",
+    "反光",
+    "天日",
+    "太阳",
+    "射线",
+    "日光",
+    "星光",
+    "春晖",
+    "晚霞",
+    "晨光",
+    "晨曦",
+    "曙光",
+    "月光",
+    "朝晖",
+    "朝霞",
+    "极光",
+    "烛光",
+    "荧光",
+    "闪光",
+    "闪电",
+    "阳光",
+    "霞光"
+   ],
+   "charge": 0.003271165338771413,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0011581961273078858,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 18973
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0017899258619382477,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 24243
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00464597490104145,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 36774
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005316914735350483,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 39344
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.002920825069085708,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 51656
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.003045471874834456,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 70801
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005522502196018999,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 78028
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.007881574821968568,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 96658
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004542094502004086,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 114887
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004025681946046482,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 119157
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 4.929654502982151e-05,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 131486
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0034968588027083705,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 142885
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0006341304089622635,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 144557
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.003601069747148907,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 159575
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.019699568095218258,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 167731
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00011864524208230094,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 191389
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.002907705367069205,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 194297
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.005220213286112579,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 202528
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.006250629565255884,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 203300
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008985908965484835,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 206732
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 0.9333569387138902,
+   "call": false
+  },
+  "火焰": {
+   "word": "火焰",
+   "role": "measurement",
+   "n_hosts": 42,
+   "leipzig_n": 41,
+   "caption_n": 1,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "余火",
+    "内焰",
+    "外焰",
+    "大火",
+    "天火",
+    "微火",
+    "慢火",
+    "文火",
+    "旺火",
+    "明火",
+    "星火",
+    "暗火",
+    "林火",
+    "武火",
+    "活火",
+    "渔火",
+    "火头",
+    "火星",
+    "火海",
+    "火球",
+    "火舌",
+    "火花",
+    "火苗",
+    "灯花",
+    "灯苗",
+    "炉火",
+    "炭火",
+    "烈火",
+    "烈焰",
+    "烛火",
+    "烟火",
+    "磷火",
+    "篝火",
+    "荒火",
+    "营火",
+    "野火",
+    "鬼火"
+   ],
+   "candidate_counts": {
+    "余火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "内焰": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "外焰": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "大火": {
+     "leipzig": 194,
+     "caption": 0,
+     "total": 194
+    },
+    "天火": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "微火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "慢火": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "文火": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "旺火": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "明火": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "星火": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "暗火": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "林火": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "武火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "活火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "渔火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "火头": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "火星": {
+     "leipzig": 78,
+     "caption": 0,
+     "total": 78
+    },
+    "火海": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "火球": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "火舌": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "火花": {
+     "leipzig": 25,
+     "caption": 0,
+     "total": 25
+    },
+    "火苗": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "灯花": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "灯苗": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "炉火": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "炭火": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "烈火": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "烈焰": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "烛火": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "烟火": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "磷火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "篝火": {
+     "leipzig": 10,
+     "caption": 1,
+     "total": 11
+    },
+    "荒火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "营火": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "野火": {
+     "leipzig": 25,
+     "caption": 0,
+     "total": 25
+    },
+    "鬼火": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    }
+   },
+   "admitted": [
+    "大火",
+    "火星",
+    "烟火",
+    "火花",
+    "野火",
+    "烈火",
+    "篝火",
+    "明火",
+    "星火",
+    "火海",
+    "火苗",
+    "火球",
+    "炉火"
+   ],
+   "admitted_by_fmin": {
+    "3": 17,
+    "5": 13,
+    "10": 8
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "fallback",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 13,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": false,
+   "candidates": [
+    "大火",
+    "火星",
+    "烟火",
+    "火花",
+    "野火",
+    "烈火",
+    "篝火",
+    "明火",
+    "星火",
+    "火海",
+    "火苗",
+    "火球",
+    "炉火"
+   ],
+   "charge": 0.0003178381259325673,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0004509238986344956,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6374
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.00011497787537221443,
+     "n_occurrences_replaced": 2,
+     "n_positions": 1,
+     "position_occurrence_mismatch": true,
+     "line": 10360
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0002717924551745403,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 11314
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0024963679231394045,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 13241
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005810303636025003,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 24543
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00024528095356163293,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 32509
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.003868928826422053,
+     "n_occurrences_replaced": 2,
+     "n_positions": 2,
+     "position_occurrence_mismatch": false,
+     "line": 38056
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0003638837966905943,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 39139
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0028939274828719726,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 58315
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0004732043967942967,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 68456
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.001504227308732356,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 69268
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0006931360888404285,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 78856
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0012714205173870244,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 82936
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.001946104023549368,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 84748
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00210851595237542,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 104365
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.00026838710045766316,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 109635
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 8.063470801758857e-05,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 120608
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0009372090329240745,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 125992
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0008521861067373997,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 128035
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.001825979454096495,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 128459
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 0.10690962435284677,
+   "call": false
+  },
+  "火种": {
+   "word": "火种",
+   "role": "measurement",
+   "n_hosts": 17,
+   "leipzig_n": 17,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "两者",
+    "云母",
+    "什物",
+    "公物",
+    "其它",
+    "凶器",
+    "刚体",
+    "原物",
+    "妙品",
+    "它们",
+    "它俩",
+    "异物",
+    "引柴",
+    "摆件",
+    "散货",
+    "斑块",
+    "无机",
+    "本身",
+    "杂质",
+    "溶胶",
+    "火捻",
+    "火绒",
+    "灭活",
+    "玛瑙",
+    "石英",
+    "矿物",
+    "硫磺",
+    "硬结",
+    "绝品",
+    "自己",
+    "货品",
+    "钝器",
+    "零杂",
+    "零碎",
+    "驮子"
+   ],
+   "candidate_counts": {
+    "两者": {
+     "leipzig": 60,
+     "caption": 1,
+     "total": 61
+    },
+    "云母": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "什物": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "公物": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "其它": {
+     "leipzig": 159,
+     "caption": 4,
+     "total": 163
+    },
+    "凶器": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "刚体": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "原物": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "妙品": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "它们": {
+     "leipzig": 450,
+     "caption": 11,
+     "total": 461
+    },
+    "它俩": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "异物": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "引柴": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "摆件": {
+     "leipzig": 0,
+     "caption": 1,
+     "total": 1
+    },
+    "散货": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "斑块": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "无机": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "本身": {
+     "leipzig": 371,
+     "caption": 0,
+     "total": 371
+    },
+    "杂质": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "溶胶": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "火捻": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "火绒": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "灭活": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "玛瑙": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "石英": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "矿物": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "硫磺": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "硬结": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "绝品": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "自己": {
+     "leipzig": 7978,
+     "caption": 55,
+     "total": 8033
+    },
+    "货品": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "钝器": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "零杂": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "零碎": {
+     "leipzig": 7,
+     "caption": 1,
+     "total": 8
+    },
+    "驮子": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    }
+   },
+   "admitted": [
+    "自己",
+    "它们",
+    "本身",
+    "其它",
+    "两者",
+    "杂质",
+    "零碎",
+    "硫磺"
+   ],
+   "admitted_by_fmin": {
+    "3": 12,
+    "5": 8,
+    "10": 6
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "fallback",
+   "n_used": 17,
+   "flagged_thin": false,
+   "n_admitted": 8,
+   "host_mix_used": {
+    "leipzig": 17,
+    "caption": 0
+   },
+   "ensemble_capped": false,
+   "candidates": [
+    "自己",
+    "它们",
+    "本身",
+    "其它",
+    "两者",
+    "杂质",
+    "零碎",
+    "硫磺"
+   ],
+   "charge": 0.010063171112253157,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00942986743797209,
+     "n_occurrences_replaced": 2,
+     "n_positions": 2,
+     "position_occurrence_mismatch": false,
+     "line": 6646
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005111215521029576,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 16872
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0038331206544759107,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 25587
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.006727750860013006,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 52132
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.012439341325402347,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 52136
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01965939826390098,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 52139
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008580913571362144,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 66755
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.015211256623210535,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 73668
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01120063984927512,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 94563
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0057822127970407824,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 111003
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008081092384450993,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 128012
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004601921740127565,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 128017
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.013069299123093526,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 128019
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.011640448578442892,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 132965
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.014776066163621787,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 163657
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.018082426162490867,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 163658
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.010063171112253157,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 174303
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 2.834004759319939,
+   "call": true
+  },
+  "灰烬": {
+   "word": "灰烬",
+   "role": "measurement",
+   "n_hosts": 4,
+   "leipzig_n": 4,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "余烬"
+   ],
+   "candidate_counts": {
+    "余烬": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    }
+   },
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "attestation_starved",
+   "tier": "primary",
+   "admitted_n": 0,
+   "raw_n": 1
+  },
+  "灰燼": {
+   "word": "灰燼",
+   "role": "measurement",
+   "n_hosts": 11,
+   "leipzig_n": 11,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "青春": {
+   "word": "青春",
+   "role": "measurement",
+   "n_hosts": 201,
+   "leipzig_n": 201,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "existing",
+   "raw_candidates": [
+    "今春",
+    "仲春",
+    "初春",
+    "去春",
+    "孟春",
+    "小春",
+    "开春",
+    "新春",
+    "早春",
+    "明春",
+    "晚春",
+    "暮春",
+    "深春",
+    "立春",
+    "阳春"
+   ],
+   "candidate_counts": {
+    "今春": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "仲春": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "初春": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "去春": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "孟春": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "小春": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "开春": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "新春": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "早春": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "明春": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "晚春": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "暮春": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "深春": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "立春": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "阳春": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    }
+   },
+   "admitted": [
+    "新春",
+    "初春",
+    "暮春",
+    "小春",
+    "立春"
+   ],
+   "admitted_by_fmin": {
+    "3": 7,
+    "5": 5,
+    "10": 1
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "primary",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 5,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": false,
+   "candidates": [
+    "新春",
+    "初春",
+    "暮春",
+    "小春",
+    "立春"
+   ],
+   "charge": -0.0033727832751817297,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.002692826154746874,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 2072
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.012509656436398627,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 3631
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.01490332960222291,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 4058
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0032694921245712215,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 5164
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0016370498528250049,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6720
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0063493571635977715,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 8704
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.002783891543499579,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 9042
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.011973559866835397,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 9046
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0012427079727477565,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 9867
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0020979058939855424,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 15196
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.003832482720760602,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 18043
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.005506080852044001,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 20037
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0019260069131576164,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 21383
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.017225232181984393,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 21620
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0012729349450212174,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 22133
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0020977583219184207,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 23174
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.008793822732420848,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 23874
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0032728766109919732,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 25220
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0034760744257922374,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 25546
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.007719391363815362,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 25554
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": -0.9258591565715096,
+   "call": false
+  },
+  "黄叶": {
+   "word": "黄叶",
+   "role": "measurement",
+   "n_hosts": 7,
+   "leipzig_n": 4,
+   "caption_n": 3,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "黄昏": {
+   "word": "黄昏",
+   "role": "measurement",
+   "n_hosts": 70,
+   "leipzig_n": 53,
+   "caption_n": 17,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "晨昏"
+   ],
+   "candidate_counts": {
+    "晨昏": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    }
+   },
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "attestation_starved",
+   "tier": "primary",
+   "admitted_n": 0,
+   "raw_n": 1
+  },
+  "黄昏时候": {
+   "word": "黄昏时候",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "黑夜": {
+   "word": "黑夜",
+   "role": "measurement",
+   "n_hosts": 38,
+   "leipzig_n": 29,
+   "caption_n": 9,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "existing",
+   "raw_candidates": [
+    "一夜",
+    "今夜",
+    "入夜",
+    "冬夜",
+    "初夜",
+    "前夜",
+    "午夜",
+    "半夜",
+    "夙夜",
+    "夤夜",
+    "子夜",
+    "寒夜",
+    "年夜",
+    "当夜",
+    "彻夜",
+    "成夜",
+    "整夜",
+    "日夜",
+    "星夜",
+    "春夜",
+    "昨夜",
+    "昼夜",
+    "暗夜",
+    "月夜",
+    "极夜",
+    "深夜",
+    "清夜",
+    "漏夜",
+    "秋夜",
+    "终夜",
+    "连夜",
+    "通夜",
+    "长夜",
+    "雨夜",
+    "雪夜"
+   ],
+   "candidate_counts": {
+    "一夜": {
+     "leipzig": 87,
+     "caption": 0,
+     "total": 87
+    },
+    "今夜": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "入夜": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "冬夜": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "初夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "前夜": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "午夜": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "半夜": {
+     "leipzig": 38,
+     "caption": 0,
+     "total": 38
+    },
+    "夙夜": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "夤夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "子夜": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "寒夜": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "年夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "当夜": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "彻夜": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "成夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "整夜": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "日夜": {
+     "leipzig": 54,
+     "caption": 0,
+     "total": 54
+    },
+    "星夜": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "春夜": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "昨夜": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "昼夜": {
+     "leipzig": 43,
+     "caption": 0,
+     "total": 43
+    },
+    "暗夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "月夜": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "极夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "深夜": {
+     "leipzig": 98,
+     "caption": 2,
+     "total": 100
+    },
+    "清夜": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "漏夜": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "秋夜": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "终夜": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "连夜": {
+     "leipzig": 42,
+     "caption": 0,
+     "total": 42
+    },
+    "通夜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "长夜": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "雨夜": {
+     "leipzig": 4,
+     "caption": 1,
+     "total": 5
+    },
+    "雪夜": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    }
+   },
+   "admitted": [
+    "深夜",
+    "一夜",
+    "日夜",
+    "午夜",
+    "昼夜",
+    "连夜",
+    "半夜",
+    "入夜",
+    "昨夜",
+    "今夜",
+    "前夜",
+    "月夜",
+    "长夜",
+    "彻夜",
+    "整夜",
+    "星夜",
+    "当夜",
+    "秋夜",
+    "雨夜"
+   ],
+   "admitted_by_fmin": {
+    "3": 21,
+    "5": 19,
+    "10": 11
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "primary",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 19,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": false,
+   "candidates": [
+    "深夜",
+    "一夜",
+    "日夜",
+    "午夜",
+    "昼夜",
+    "连夜",
+    "半夜",
+    "入夜",
+    "昨夜",
+    "今夜",
+    "前夜",
+    "月夜",
+    "长夜",
+    "彻夜",
+    "整夜",
+    "星夜",
+    "当夜",
+    "秋夜",
+    "雨夜"
+   ],
+   "charge": 0.019760258139387095,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.027801410740504587,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 13637
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.026254296028181943,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 15779
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.011908153543434705,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 24281
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0018352318298206494,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 24585
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.03168346702738102,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 25476
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.010552434562764206,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 28780
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.02004925839191925,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 35557
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.019111460722964747,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 38036
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.02798943758855408,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 40020
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01673916921666105,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 46026
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.012539436058624405,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 50375
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.021220715793458134,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 51528
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004512836353604388,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 57801
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.019438289824675915,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 76901
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.02339253964586186,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 84766
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.03729749181912284,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 100936
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.030559514143401224,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 107345
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.011892876056934232,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 122267
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01947125788685494,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 122507
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.044801974955685275,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 126959
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 5.547598937391621,
+   "call": true
+  }
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658418e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "null_cross_check": {
+  "v7": {
+   "n_control": 61,
+   "mean": -6.42057108965838e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "mine": {
+   "n_control": 61,
+   "mean": -6.420571089658418e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "d_mean": 3.7947076036992655e-19,
+  "d_sd": 0.0,
+  "n_equal": true
+ },
+ "invalid_controls": [
+  {
+   "word": "一场",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "七八年",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "人們",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "低頭不語",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "做不了",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "兩個",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "六名",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "冲锋在前",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刑事法律",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刻上",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "啥时候",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大不相同",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大巴车",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "官員",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "客量",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "密切接触",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "數據",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "新冠",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "紐森",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经典之作",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经费",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "罪責屬",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "羊们",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "腐败现象",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "蔓延到",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "記錄",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "設計",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诉衷情",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诸事",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "資料",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "还有",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "進行",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "過度",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "鑼鼓聲",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "顯示",
+   "reasons": [
+    "attestation_starved"
+   ]
+  }
+ ],
+ "certificate_drift": 0.0,
+ "n_texts": 37449,
+ "addendum": {
+  "file": "host_frames_sonnet73_addendum_55.json",
+  "truncation": {
+   "applied": false,
+   "reason": null,
+   "caps": {}
+  },
+  "extraction_validation": {
+   "青春": 201,
+   "黑夜": 29
+  }
+ },
+ "provenance": {
+  "machinery": "word_latent_v5_referent_color_54.py imported verbatim",
+  "axis_npz": "color_salience_axis_48.npz",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "attempt4_pool_sha256": "941224b32b8904a6b5186bbfe7997e6d3c9c8aac1c7068b7959a3dba779e44c1",
+  "pilot_latent_scores_sha256": "5031d79048127291a67865c194a0fa08fb812139632b3a6fbd64124c15b420d4",
+  "addendum_sha256": "db73eb27b68cbdfe79de801943c7308988fbb7d775f7fac88510f80bfab265c3",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32,
+  "f_min": 5,
+  "min_nat": 3,
+  "z_floor": 1.5
+ }
+}

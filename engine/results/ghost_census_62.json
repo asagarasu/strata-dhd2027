@@ -1,0 +1,195 @@
+{
+ "what": "THE GHOST CENSUS — source-side z on translator-convergence-marked source-silent lines vs unmarked (CONTROL), stratified-by-board line bootstrap. REPORTS only; makes no states (her pin).",
+ "registration": "ghost_census_registration_0728_62.md",
+ "date": "2026-07-28",
+ "chair": "#62",
+ "seed": 48,
+ "n_boot": 2000,
+ "her_pin": "line-scalar makes no states; this run REPORTS only",
+ "no_claim": "numbers + CIs only; interpretation is hers",
+ "value_field_caveat": "value-field caveat (verbatim from the exam precedent): illumination is chance-like (.427 line-tier grade / sub-chance AUC); temporal is the DURATION value ruler (RULERS A7), temporal-SALIENCE a documented negative (A9) — fired-separation was never their claim; a null is expected and not a demerit",
+ "bootstrap": "LINE-LEVEL, stratified by board; declared limitation: 8 boards cannot support a cluster-level bootstrap — within-board line resampling is the pre-committed compromise",
+ "marking": {
+  "MARKED": "n_covered>=2 and n_fired/n_covered>=0.5",
+  "CONTROL": "n_covered>=2 and n_fired==0",
+  "GRADIENT": "0 < n_fired/n_covered < 0.5 (reported, not tested)",
+  "under2": "n_covered<2 (outside all groups; counted)"
+ },
+ "provenance": {
+  "news_norms_z_62_sha16": "1ce0ec86b1750ebc",
+  "descriptive_scores_59_sha16": {
+   "sonnet18": "037f4cd68e704813",
+   "qingqing": "7e5cdab4a7806284",
+   "tiaotiao": "a965f0c27eaa2633",
+   "xibei": "1df9c8d59595dd3e",
+   "albatros": "7f93e104fffb04db",
+   "correspondances": "8a538b02861ce83e",
+   "invitation": "2696a274be7b265b",
+   "elevation": "4d57e57a78c7f976"
+  },
+  "z_norms_commit": "9bc5709"
+ },
+ "source_seats": {
+  "sonnet18": {
+   "source_rid": "en:shakespeare_1609",
+   "source_lang": "en"
+  },
+  "qingqing": {
+   "source_rid": "zh:gushi19_02",
+   "source_lang": "zh"
+  },
+  "tiaotiao": {
+   "source_rid": "zh:gushi19_10",
+   "source_lang": "zh"
+  },
+  "xibei": {
+   "source_rid": "zh:gushi19_05",
+   "source_lang": "zh"
+  },
+  "albatros": {
+   "source_rid": "fr:baudelaire_1861",
+   "source_lang": "fr"
+  },
+  "correspondances": {
+   "source_rid": "fr:baudelaire_1861",
+   "source_lang": "fr"
+  },
+  "invitation": {
+   "source_rid": "fr:baudelaire_1861",
+   "source_lang": "fr"
+  },
+  "elevation": {
+   "source_rid": "fr:baudelaire_1861",
+   "source_lang": "fr"
+  }
+ },
+ "source_universe": {
+  "covered_silent_lines_per_field": {
+   "color": 128,
+   "plant": 43,
+   "sound": 44,
+   "illumination": 35,
+   "temporal": 38
+  },
+  "uncovered_source_cells_per_field": {
+   "color": 0,
+   "plant": 92,
+   "sound": 92,
+   "illumination": 106,
+   "temporal": 92
+  }
+ },
+ "per_field": {
+  "color": {
+   "n_marked": 1,
+   "n_control": 89,
+   "n_gradient": 38,
+   "n_under2": 0,
+   "mean_z_marked": -2.201143892056506,
+   "mean_z_control": -0.3171390541001858,
+   "verdict": "THIN — no test"
+  },
+  "plant": {
+   "n_marked": 1,
+   "n_control": 36,
+   "n_gradient": 6,
+   "n_under2": 0,
+   "mean_z_marked": 1.5233688232906852,
+   "mean_z_control": -0.047341162886297264,
+   "verdict": "THIN — no test"
+  },
+  "sound": {
+   "n_marked": 6,
+   "n_control": 27,
+   "n_gradient": 11,
+   "n_under2": 0,
+   "mean_z_marked": 1.555338653593726,
+   "mean_z_control": -0.18935234031734957,
+   "verdict": "THIN — no test"
+  },
+  "illumination": {
+   "n_marked": 0,
+   "n_control": 0,
+   "n_gradient": 0,
+   "n_under2": 35,
+   "mean_z_marked": null,
+   "mean_z_control": null,
+   "verdict": "THIN — no test"
+  },
+  "temporal": {
+   "n_marked": 7,
+   "n_control": 23,
+   "n_gradient": 8,
+   "n_under2": 0,
+   "mean_z_marked": -0.8430050396395515,
+   "mean_z_control": -0.7072440473827789,
+   "verdict": "THIN — no test"
+  }
+ },
+ "gradient_bins": {
+  "0.0-0.2": {
+   "n": 41,
+   "mean_z": -0.09737093058543667
+  },
+  "0.2-0.4": {
+   "n": 19,
+   "mean_z": -0.3275159759652525
+  },
+  "0.4-0.5": {
+   "n": 3,
+   "mean_z": 0.4052488337419667
+  },
+  "ref_MARKED_f>=0.5": {
+   "n": 15,
+   "mean_z": 0.1835481050213117
+  },
+  "ref_CONTROL_f==0": {
+   "n": 175,
+   "mean_z": -0.2931930511839749
+  }
+ },
+ "loom_line": {
+  "board": "tiaotiao",
+  "field": "sound",
+  "line_no": 4,
+  "source_rid": "zh:gushi19_10",
+  "n_covered": 6,
+  "n_fired": 6,
+  "frac_fired": 1.0,
+  "source_z": 0.9921584033160021,
+  "label": "MARKED",
+  "expected": "MARKED"
+ },
+ "mt_excluded_labels": {
+  "color": {
+   "n_marked": 1,
+   "n_control": 89,
+   "n_gradient": 38,
+   "n_under2": 0
+  },
+  "plant": {
+   "n_marked": 1,
+   "n_control": 36,
+   "n_gradient": 6,
+   "n_under2": 0
+  },
+  "sound": {
+   "n_marked": 7,
+   "n_control": 27,
+   "n_gradient": 10,
+   "n_under2": 0
+  },
+  "illumination": {
+   "n_marked": 0,
+   "n_control": 0,
+   "n_gradient": 0,
+   "n_under2": 35
+  },
+  "temporal": {
+   "n_marked": 8,
+   "n_control": 23,
+   "n_gradient": 7,
+   "n_under2": 0
+  }
+ }
+}

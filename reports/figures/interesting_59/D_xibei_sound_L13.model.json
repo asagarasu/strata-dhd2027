@@ -1,0 +1,462 @@
+{
+ "board": "xibei",
+ "line_idx": 12,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "zh:gushi19_05",
+ "seats": [
+  {
+   "rid": "zh:gushi19_05",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "不惜歌者苦，",
+   "v": 0.09587819274973536,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 2.3038654262332168,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "歌",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": false,
+   "top_tok": {
+    "token": "歌者",
+    "delta": 0.1089623797249818,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "歌[釋樂]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "歌者",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "I don't pity the singer's bitterness,",
+   "v": 0.12795360235172543,
+   "rank": 5,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.457199499074847,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "singer's",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": true,
+   "top_tok": {
+    "token": "singer's",
+    "delta": 0.10983227464214734,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "singer's",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "singer's",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "It is not the singer's toil that brings such pain,",
+   "v": 0.12112384979158254,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.26600133258784,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "singer's",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": false,
+   "top_tok": {
+    "token": "singer's",
+    "delta": 0.06642598880224955,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "singer's",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "singer's",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "I don't care that the singer feels pain,",
+   "v": 0.12532100061729023,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.383500105095046,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "pain",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": true,
+   "top_tok": {
+    "token": "pain",
+    "delta": 0.07503856456625234,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "pain",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "pain",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "She does not regret that she is left so sad,",
+   "v": 0.000537701341642138,
+   "rank": 12,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.10979453766200249,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "regret",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": true,
+   "top_tok": {
+    "token": "regret",
+    "delta": 0.047157217018946436,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "regret",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "regret",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "It is not the singer's grief I pity,",
+   "v": 0.11587818154658416,
+   "rank": 3,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.1191494310568975,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "singer's",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": true,
+   "top_tok": {
+    "token": "singer's",
+    "delta": 0.1097264744748609,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "singer's",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "singer's",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "For the musician out of view,",
+   "v": 0.09038058187659215,
+   "rank": 8,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.4053469523005964,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "musician",
+   "folded_from": null,
+   "carrier_line": 13,
+   "star": true,
+   "top_tok": {
+    "token": "musician",
+    "delta": 0.16536185249197038,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "musician",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "musician",
+   "transmission": "ECHO"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

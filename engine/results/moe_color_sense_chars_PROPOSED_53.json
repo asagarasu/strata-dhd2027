@@ -1,0 +1,616 @@
+{
+  "title": "MOE single-char colour-sense headwords — hardened derivation (PROPOSED)",
+  "status": "PROPOSED — concludes nothing; field owner adopts/amends/rejects",
+  "date": "2026-07-20",
+  "n_single_char_headwords_scanned": 11056,
+  "n_charged": 53,
+  "charged_chars": "丹夏彤棕橙檀殷漆火犁玄玈白皁盧盭碧紅素紫絳綠緅緇緋緗緹縞翠茜菼蒼藍蠟袾赤赭赮雪霜青靛韎騂髹鶴黃黑黔黛黝黧黲",
+  "colorseed_initial": "丹彤朱棕橙灰白皂碧紅紫絳綠緋红绛绯绿翠苍蒼蓝藍褐赤青靛黃黄黑",
+  "fixpoint": {
+    "rounds": [
+      {
+        "round": 1,
+        "n_charged": 53,
+        "added_this_round": [
+          "丹",
+          "夏",
+          "彤",
+          "棕",
+          "橙",
+          "檀",
+          "殷",
+          "漆",
+          "火",
+          "犁",
+          "玄",
+          "玈",
+          "白",
+          "皁",
+          "盧",
+          "盭",
+          "碧",
+          "紅",
+          "素",
+          "紫",
+          "絳",
+          "綠",
+          "緅",
+          "緇",
+          "緋",
+          "緗",
+          "緹",
+          "縞",
+          "翠",
+          "茜",
+          "菼",
+          "蒼",
+          "藍",
+          "蠟",
+          "袾",
+          "赤",
+          "赭",
+          "赮",
+          "雪",
+          "霜",
+          "青",
+          "靛",
+          "韎",
+          "騂",
+          "髹",
+          "鶴",
+          "黃",
+          "黑",
+          "黔",
+          "黛",
+          "黝",
+          "黧",
+          "黲"
+        ]
+      },
+      {
+        "round": 2,
+        "n_charged": 53,
+        "added_this_round": []
+      }
+    ],
+    "n_rounds_to_fixpoint": 2,
+    "note": "converged at round 2; round-2 additions = [] (empty means every discovered ADJ descriptor references an initial-seed char, so the fixpoint certifies stability with no growth)"
+  },
+  "quality_white_guard": {
+    "ruling": "皓-class 潔白/雪白/純白 phrasings are quality-of-white, not colour",
+    "senses_excluded": [
+      "潔淨"
+    ],
+    "note": "皓 itself matches NO route (its MOE senses 白、潔白 / 光明、明亮 / 姓 carry no 色/顏色 frame); the guard additionally caught 皜 (皓-variant, 潔白) and 汩 (潔淨)."
+  },
+  "hownet_gap": {
+    "moe_only_chars": "夏棕橙檀殷漆火犁玈皁盧盭紅絳綠緇緋緗緹縞菼蒼藍蠟袾赭赮雪韎騂髹鶴黃黛黲",
+    "n_moe_only": 35,
+    "note": "chars charged by MOE whose single-char HowNet DEF carries NO colour sememe — the incompleteness this list repairs. 橙 is the headline (HowNet 橙 = {fruit|水果}); the sensor union fires these with provenance moe_color_sense_PROPOSED."
+  },
+  "chars": {
+    "丹": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": true
+    },
+    "夏": {
+      "route": "polychrome",
+      "fixpoint_round": 1,
+      "matched_sense": "五彩的顏色",
+      "matched_snippet": "五彩的顏色",
+      "hownet_had_it": false
+    },
+    "彤": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "赤紅色的",
+      "matched_snippet": "赤紅色的",
+      "hownet_had_it": true
+    },
+    "棕": {
+      "route": "noun:像…的顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "像棕毛一樣的顏色",
+      "matched_snippet": "像棕毛一樣的顏色",
+      "hownet_had_it": false
+    },
+    "橙": {
+      "route": "noun:一種…顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "一種黃中帶著微紅的顏色",
+      "matched_snippet": "一種黃中帶著微紅的顏色",
+      "hownet_had_it": false
+    },
+    "檀": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "淺紅色的",
+      "matched_snippet": "淺紅色的",
+      "hownet_had_it": false
+    },
+    "殷": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅黑色的",
+      "matched_snippet": "紅黑色的",
+      "hownet_had_it": false
+    },
+    "漆": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "火": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "赤紅色的",
+      "matched_snippet": "赤紅色的",
+      "hownet_had_it": false
+    },
+    "犁": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "玄": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": true
+    },
+    "玈": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "白": {
+      "route": "noun:像…的顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "像雪或乳汁般素淨的顏色",
+      "matched_snippet": "像雪或乳汁般素淨的顏色",
+      "hownet_had_it": true
+    },
+    "皁": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "盧": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "盭": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "綠色的",
+      "matched_snippet": "綠色的",
+      "hownet_had_it": false
+    },
+    "碧": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青綠色的",
+      "matched_snippet": "青綠色的",
+      "hownet_had_it": true
+    },
+    "紅": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "似血的顏色",
+      "matched_snippet": "似血的顏色",
+      "hownet_had_it": false
+    },
+    "素": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "白色的",
+      "matched_snippet": "白色的",
+      "hownet_had_it": true
+    },
+    "紫": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅、藍合成的顏色",
+      "matched_snippet": "紅、藍合成的顏色",
+      "hownet_had_it": true
+    },
+    "絳": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "大紅色的",
+      "matched_snippet": "大紅色的",
+      "hownet_had_it": false
+    },
+    "綠": {
+      "route": "noun:一種…顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "一種像青草、樹葉的顏色，可用藍色和黃色顏料混合而成",
+      "matched_snippet": "一種像青草、樹葉的顏色",
+      "hownet_had_it": false
+    },
+    "緅": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青赤色的",
+      "matched_snippet": "青赤色的",
+      "hownet_had_it": true
+    },
+    "緇": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": false
+    },
+    "緋": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": false
+    },
+    "緗": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "淺黃色的",
+      "matched_snippet": "淺黃色的",
+      "hownet_had_it": false
+    },
+    "緹": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "橘紅色的",
+      "matched_snippet": "橘紅色的",
+      "hownet_had_it": false
+    },
+    "縞": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "白色的",
+      "matched_snippet": "白色的",
+      "hownet_had_it": false
+    },
+    "翠": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青綠色的",
+      "matched_snippet": "青綠色的",
+      "hownet_had_it": true
+    },
+    "茜": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": true
+    },
+    "菼": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "介於青白之間的顏色",
+      "matched_snippet": "介於青白之間的顏色",
+      "hownet_had_it": false
+    },
+    "蒼": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青色的",
+      "matched_snippet": "青色的",
+      "hownet_had_it": false
+    },
+    "藍": {
+      "route": "noun:像…的顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "深青色。像晴空般的顏色",
+      "matched_snippet": "像晴空般的顏色",
+      "hownet_had_it": false
+    },
+    "蠟": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "淡黃似蠟的顏色",
+      "matched_snippet": "淡黃似蠟的顏色",
+      "hownet_had_it": false
+    },
+    "袾": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": false
+    },
+    "赤": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": true
+    },
+    "赭": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紫紅色的",
+      "matched_snippet": "紫紅色的",
+      "hownet_had_it": false
+    },
+    "赮": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": false
+    },
+    "雪": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "如雪般白色的",
+      "matched_snippet": "如雪般白色的",
+      "hownet_had_it": false
+    },
+    "霜": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "白色的",
+      "matched_snippet": "白色的",
+      "hownet_had_it": true
+    },
+    "青": {
+      "route": "noun:顏色：header",
+      "fixpoint_round": 1,
+      "matched_sense": "顏色：(1)綠色。。：(3)黑色",
+      "matched_snippet": "顏色：",
+      "hownet_had_it": true
+    },
+    "靛": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "藍色與紫色混合而成的顏色",
+      "matched_snippet": "藍色與紫色混合而成的顏色",
+      "hownet_had_it": true
+    },
+    "韎": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": false
+    },
+    "騂": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅色的",
+      "matched_snippet": "紅色的",
+      "hownet_had_it": false
+    },
+    "髹": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "紅黑色的",
+      "matched_snippet": "紅黑色的",
+      "hownet_had_it": false
+    },
+    "鶴": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "白色的",
+      "matched_snippet": "白色的",
+      "hownet_had_it": false
+    },
+    "黃": {
+      "route": "noun:一種…顏色",
+      "fixpoint_round": 1,
+      "matched_sense": "一種似土地的顏色。：\r",
+      "matched_snippet": "一種似土地的顏色",
+      "hownet_had_it": false
+    },
+    "黑": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "深暗如墨或煤的顏色。與相對",
+      "matched_snippet": "深暗如墨或煤的顏色",
+      "hownet_had_it": true
+    },
+    "黔": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑色的",
+      "matched_snippet": "黑色的",
+      "hownet_had_it": true
+    },
+    "黛": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青黑色的",
+      "matched_snippet": "青黑色的",
+      "hownet_had_it": false
+    },
+    "黝": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "青黑色的",
+      "matched_snippet": "青黑色的",
+      "hownet_had_it": true
+    },
+    "黧": {
+      "route": "noun:…的顏色。",
+      "fixpoint_round": 1,
+      "matched_sense": "黑中帶著蠟黃的顏色",
+      "matched_snippet": "黑中帶著蠟黃的顏色",
+      "hownet_had_it": true
+    },
+    "黲": {
+      "route": "adj:[SEED]色的。",
+      "fixpoint_round": 1,
+      "matched_sense": "淺青黑色的",
+      "matched_snippet": "淺青黑色的",
+      "hownet_had_it": false
+    }
+  },
+  "diff_vs_unhardened": {
+    "raw_61_status": "the field owner's in-session raw scan (61 candidates) is NOT persisted in the repo; a reconstructed unhardened baseline is given here under a stated definition so the hardening delta is concrete. The count will not equal 61 (their pattern/candidate set differs); the DIRECTION — hardening is net-subtractive, removing citation-leak and non-defining-mention false positives — is the reproducible result.",
+    "unhardened_baseline_definition": "loose substring patterns (一種…顏色 / X的顏色 / 像…的顏色 / 顏色: / [SEED]色的 / 五彩|五色+顏色) on the FULL 釋義 (no gloss_region, no citation strip), single pass, initial COLORSEED only",
+    "n_unhardened_baseline": 110,
+    "dropped_by_hardening": "倉堊彩旌棨渲滄烏狖狨玉瑿癜皂硫碲磏穈粉綦綪綮綸緫縉縹繭纂羖羳翰臷蒨蘢衃袢袨豉釩銅鋂鋅鐵鑭雘霉馵駹駺騏驈驒驔驤驪黎黴",
+    "n_dropped": 57,
+    "dropped_reasons": "citation-leak / non-defining-mention false positives, e.g. metals (銅鐵鋅釩碲…) whose 釋義 merely DESCRIBES the metal's 顏色; 玉/渲/豉 where 顏色 names a stone's/technique's/insect's colour, not a colour sense of the character; and chars caught only via loose mid-string 的顏色 inside example fragments",
+    "added_by_hardening": "",
+    "n_added": 0
+  },
+  "chuantong_se_crosscheck": {
+    "source": "lexical_resources/color_lexicon/chinese_colors_zerosoul_20260720.json",
+    "n_single_char_entries": 16,
+    "caught": "丹彤赤檀赭蓝黛缟素黧黝",
+    "n_caught": 11,
+    "missed": "炎绾缥黎黯",
+    "n_missed": 5,
+    "missed_note": "REPORTED gaps, never silently added: 炎/綰 = MOE carries NO colour sense at all (zerosoul's colour is an extension MOE does not lexicalise); 縹/黎/黯 = MOE DOES carry colour content but phrased OUTSIDE the specified routes (縹 「淡青色。即月白色」 and 黯 「深黑色。」 use bare 色。 not 顏色/色的; 黎 「黑色的。通黧」 has a trailing variant annotation that breaks the ≤4char+色的。 fullmatch). A bare-「…色。」 route would catch 縹/黯 and a leads-with-色的 relaxation would catch 黎 — candidate derivation extensions, NOT applied unilaterally (selection-after-results). Note 縹∈COLORSEED and HowNet 缥={blue|蓝:light}, so the SENSOR is not blind to 縹 — only the MOE derivation misses it.",
+    "entries": [
+      {
+        "name_simplified": "丹",
+        "trad_form": "丹",
+        "zerosoul_intro": "丹砂的鲜艳红色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "紅色的"
+      },
+      {
+        "name_simplified": "彤",
+        "trad_form": "彤",
+        "zerosoul_intro": "赤色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "赤紅色的"
+      },
+      {
+        "name_simplified": "炎",
+        "trad_form": "炎",
+        "zerosoul_intro": "引申为红色",
+        "caught": false,
+        "moe_gloss_stripped": "[動]\n1.火光上升。：：孔穎達正義引王肅曰：\n2.焚燒。：引\n[名]\n1.得病時發熱、紅腫、疼痛的現象。、、。\n2.比喻擁有炙人權勢者。\n3.炎帝，即上古傳說中之神農氏，與黃帝合稱。：：\n4.火光，火焰。\n[形]\n酷熱、極熱。、。："
+      },
+      {
+        "name_simplified": "赤",
+        "trad_form": "赤",
+        "zerosoul_intro": "本义火的颜色，即红色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "紅色的"
+      },
+      {
+        "name_simplified": "绾",
+        "trad_form": "绾",
+        "zerosoul_intro": "绛色；浅绛色",
+        "caught": false,
+        "moe_gloss_stripped": "[動]\n1.繫。：：\n2.盤結。\n3.貫穿。："
+      },
+      {
+        "name_simplified": "檀",
+        "trad_form": "檀",
+        "zerosoul_intro": "浅红色，浅绛色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "淺紅色的"
+      },
+      {
+        "name_simplified": "赭",
+        "trad_form": "赭",
+        "zerosoul_intro": "赤红如赭土的颜料,古人用以饰面",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "紫紅色的"
+      },
+      {
+        "name_simplified": "缥",
+        "trad_form": "縹",
+        "zerosoul_intro": "绿色而微白",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n青白色的綢布。：\n[形]\n淡青色。即月白色。\n(一)之又音。"
+      },
+      {
+        "name_simplified": "蓝",
+        "trad_form": "藍",
+        "zerosoul_intro": "三原色的一种。像晴天天空的颜色（这里的蓝色指的不是RGB色彩中的B，而是CMY色彩中的C）",
+        "caught": true,
+        "route": "noun:像…的顏色",
+        "moe_sense": "深青色。像晴空般的顏色"
+      },
+      {
+        "name_simplified": "黛",
+        "trad_form": "黛",
+        "zerosoul_intro": "别名：黛色，黛螺。青黑色的颜料。古代女子用以画眉。绘画或画眉所使用的青黑色颜料，代指女子眉妩。",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "青黑色的"
+      },
+      {
+        "name_simplified": "缟",
+        "trad_form": "缟",
+        "zerosoul_intro": "白色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "白色的"
+      },
+      {
+        "name_simplified": "素",
+        "trad_form": "素",
+        "zerosoul_intro": "白色，无色",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "白色的"
+      },
+      {
+        "name_simplified": "黧",
+        "trad_form": "黧",
+        "zerosoul_intro": "黑中带黄的颜色",
+        "caught": true,
+        "route": "noun:…的顏色。",
+        "moe_sense": "黑中帶著蠟黃的顏色"
+      },
+      {
+        "name_simplified": "黎",
+        "trad_form": "黎",
+        "zerosoul_intro": "黑中带黄似黎草色",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\r\n1.眾多的。。：\r\n2.黑色的。通。：\r\n[副]\r\n及、將。參見條。\r\n[名]\r\n1.中國少數民族之一。分布於大陸地區廣東、廣西兩省，而以海南島黎母嶺下人數最多。：\r\n2.古國名。殷商時的諸侯國，商末為周文王所滅。故城在今大陸地區山西省長治縣西南。\r\n3.姓。如北周時有黎景熙。"
+      },
+      {
+        "name_simplified": "黝",
+        "trad_form": "黝",
+        "zerosoul_intro": "本义为淡黑色或微青黑色。",
+        "caught": true,
+        "route": "adj:[SEED]色的。",
+        "moe_sense": "青黑色的"
+      },
+      {
+        "name_simplified": "黯",
+        "trad_form": "黯",
+        "zerosoul_intro": "深黑色、泛指黑色",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n深黑色。：\n[副]\n1.暗淡沒有光澤。。\n2.失色、頹喪感傷。"
+      }
+    ]
+  },
+  "provenance": {
+    "witness_module": "definition_witness_zh_53.py (parse_moe/gloss_region/s2t exec'd verbatim from the definitional prefix; pipeline NOT run)",
+    "witness_sha256": "8432bfa9c332540788bc1006bdb6d968d777256017b739d0ab75704f8e27c9a0",
+    "moe_xlsx": "lexical_resources/zh_dict_prose/dict_revised_2015_20260625.xlsx",
+    "moe_xlsx_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+    "zerosoul_sha256": "72a4f472572873e782f52214ce2af100ad4bf8debee7de959864d70048fa48f9",
+    "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb"
+  }
+}

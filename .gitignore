@@ -1,0 +1,60 @@
+# rebuildable embedding/lexicon blobs — fingerprints documented in
+# marking/map_session_20260711/BUILD_NOTES.md; fetch via gensim-data
+# fetch-only bulk in vectors/ (REBUILD.md refetches); redistributable lexica are tracked
+marking/tools/vectors/glove-wiki-gigaword-50.txt
+marking/tools/vectors/WNdb-3.0.tar.gz
+marking/tools/vectors/Unihan.zip
+.DS_Store
+*.pyc
+__pycache__/
+
+# corpus payloads — deliberately untracked, sha-pinned in their PROVENANCE files
+lexical_resources/leipzig_zh/leipzig_tokenized.txt
+lexical_resources/leipzig_zh/zho_news_2020_300K.tar.gz
+lexical_resources/leipzig_zh/zho_news_2020_300K/
+lexical_resources/ru/
+lexical_resources/etym/*.xml
+lexical_resources/etym/*_raw.txt
+
+# vendored dictionary/corpus payloads #53 (sha-pinned in each dir's PROVENANCE/CHECKSUMS)
+lexical_resources/en_dict_prose/gcide-0.54.tar.gz
+lexical_resources/en_dict_prose/gcide-0.54/
+lexical_resources/en_dict_prose/kaikki.org-dictionary-English.jsonl.gz
+lexical_resources/coco_cn/coco-cn-version1805v1.1.tar.gz
+lexical_resources/coco_cn/coco-cn-version1805v1.1/
+lexical_resources/coco_cn/coco-cn_ext.icap2020.txt
+lexical_resources/coco_cn/conceptscn655.txt
+lexical_resources/coco_cn/detected-typos.txt
+lexical_resources/leipzig_en/eng_news_2025_1M.tar.gz
+lexical_resources/leipzig_en/leipzig_en_sentences.txt
+lexical_resources/zh_dict_prose/dict_revised_2015_20260625.xlsx
+lexical_resources/zh_dict_prose/dict_revised_2015_20260625.zip
+engine/nltk_data/
+# payload-law blobs (regenerable; shas travel in committed artifacts)
+engine/results/host_frames_53.json
+engine/results/substitution_ensembles_53.json
+# impression-norms payloads (sha-pinned in impression_norms/PROVENANCE.md)
+lexical_resources/impression_norms/Lancaster_sensorimotor_norms_for_39707_words.csv
+lexical_resources/impression_norms/Buchanan_2019_final_words.xlsx
+lexical_resources/impression_norms/zhong2022_data/Sample Survey.pdf
+lexical_resources/impression_norms/zhong2022_data/main_study.*
+lexical_resources/impression_norms/zhong2022_data/data_analysis/*.csv
+lexical_resources/impression_norms/zhong2022_data/data_analysis/*.xlsx
+lexical_resources/impression_norms/zhong2022_tables/*.csv
+
+# scene-witness payload #54 (sha-pinned in lexical_resources/places365/PROVENANCE.md)
+lexical_resources/places365/val_256.tar
+lexical_resources/places365/val_256/
+lexical_resources/places365/filelist_places365-standard.tar
+lexical_resources/places365/categories_places365.txt
+lexical_resources/places365/places365_val.txt
+
+# entire lexical_resources tree — her word 07-22 (10K untracked noise in her
+# IDE). Tracked files (PROVENANCE/CHECKSUMS/norm tables already committed)
+# stay tracked; this silences untracked payloads only.
+# (public repo: the lab's blanket lexical_resources/ ignore is DROPPED here —
+#  payload rules above cover bulk; the tracked lexicon artifacts add normally)
+lexical_resources/sewrl/datasets/
+
+# belt-and-braces (#69 reorg): model weights never enter git
+engine/models/

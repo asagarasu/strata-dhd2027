@@ -1,0 +1,17 @@
+{
+ "n_whiten": 6000,
+ "seed": 48,
+ "certificate_drift": 0.0,
+ "corpus": "lexical_resources/leipzig_en/leipzig_en_sentences.txt",
+ "corpus_sha256": "19ca4fb4d30f327860af26b7c3f3458976e4adb8703d98e484d9857b8a7ae7b0",
+ "kept": 728306,
+ "excluded_task_word": 271694,
+ "empty": 0,
+ "banned_vocab_n": 301,
+ "npz_sha256": "6cbfb561a40a0b812773c6ace18b35148f3f15349ce6a47574d3e578e90d1e6b",
+ "mu_sha16": "91d72e4988ea0434",
+ "W_sha16": "dc9db3f60239a1b2",
+ "mu_dtype": "float32",
+ "W_dtype": "float64",
+ "law_source": "illum_polarity_axis_48.py:70-72 (fit) + :73-75 (whitening); copied to axis npzs by field_ruler_48.py"
+}

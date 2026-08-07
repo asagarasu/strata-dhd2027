@@ -1,0 +1,33 @@
+# Dye/stain/saturation probes (de+en) — PURIFIED: darkness/luminance vocabulary removed
+# (dark/dunkel/finster/schwarz/midnight banned; "tief/deep" kept — saturation, not luminance).
+# Paired 1:1 by line with neutral.txt. Antigone vocabulary excluded.
+Sie färbte den Stoff tiefrot.
+Der Saft färbte seine Finger violett.
+Die Beeren hinterließen violette Flecken auf dem Tuch.
+Das Abendrot färbte den Himmel purpurn.
+Der blaue Fleck auf ihrem Arm schimmerte violett.
+Die Tinte durchtränkte das Papier und färbte es tiefblau.
+Der Wein hinterließ einen purpurroten Rand im Glas.
+Er tauchte die Wolle in den Farbkessel.
+Ihre Wangen röteten sich tief.
+Das Blut sickerte durch den Verband und färbte ihn rostrot.
+Der Farbstoff zog langsam in die Fasern ein.
+Purpur war die Farbe der Könige, gewonnen aus Schnecken.
+Die Chemikalie verfärbte das Wasser tiefviolett.
+Sein Gesicht lief rot an vor Anstrengung.
+Die Flechten färbten den Fels rostrot.
+She dyed the cloth a deep crimson.
+The berries stained his fingers purple.
+The sunset soaked the sky in violet.
+The bruise on her shoulder turned deep purple.
+Ink bled through the pages, staining them deep blue.
+The wine left a crimson ring in the glass.
+He dipped the wool into the vat of dye.
+Her cheeks flushed a deep red.
+Blood seeped through the bandage, turning it rust-red.
+The crushed mulberries left purple smears on the stone.
+The turmeric stained the wooden spoon yellow-orange.
+Beet juice dyed the tablecloth a stubborn magenta.
+The old tattoo had faded from ink-blue to bruised purple.
+Rust bled orange streaks down the white wall.
+She soaked the linen in indigo until it turned deep blue.

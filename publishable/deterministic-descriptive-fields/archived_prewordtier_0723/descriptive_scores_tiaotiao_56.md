@@ -1,0 +1,134 @@
+# Descriptive-field scores — board tiaotiao (e7 corpus-breadth, #56)
+
+*Instruments only (no LLM marks anything). THE SCALAR IS THE PAPER.*
+*Certificate (re-order, batch_size=1): 0.00e+00 — seed 48. Scalar space = LaBSE + each axis npz's own mu/W.*
+*Source lang: zh · registration caesitas_proto/registrations/corpus_breadth_scoring_registration_56.md §C/§D.*
+
+Flags: F1 grain=poem · F2 booleans en+zh only (de/jp/fr field states UNAVAILABLE) · F3 raw scalar deltas NON-TRANSFERABLE, comparison is rank-space (§3) · F9 local-tier line text redacted.
+
+## de:forke_1899  (de, 20 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+| 1 | Tief am Himmel blinkt | +0.01 | -0.00 | +0.08 | +0.02 | -0.04 | — |
+| 2 | Hell des Hirten Stern, | -0.01 | +0.05 | +0.01 | -0.03 | +0.04 | — |
+| 3 | Und am weissen Strom | +0.10 | +0.03 | -0.06 | +0.01 | -0.08 | — |
+| 4 | Sitzt die Weberin fern. | -0.04 | +0.00 | -0.04 | -0.01 | +0.01 | — |
+| 5 | Sie fährt hin und her | +0.01 | -0.00 | -0.12 | -0.01 | +0.02 | — |
+| 6 | Mit dem Händchen fein, | -0.03 | +0.00 | +0.01 | +0.00 | -0.09 | — |
+| 7 | Webstuhl klappert laut, | -0.05 | +0.02 | +0.05 | -0.04 | -0.10 | — |
+| 8 | Schnell fliegt's Webschifflein. | -0.03 | -0.09 | -0.02 | -0.04 | -0.09 | — |
+| 9 | Wenn die Arbeit sie | +0.07 | -0.01 | -0.02 | -0.02 | -0.04 | — |
+| 10 | Abends nicht vollbracht, | -0.02 | +0.03 | -0.03 | -0.03 | +0.02 | — |
+| 11 | Weint sie manche Thrän' | +0.00 | -0.01 | -0.03 | +0.01 | -0.07 | — |
+| 12 | In der stillen Nacht. | +0.01 | +0.15 | -0.02 | -0.02 | -0.04 | — |
+| 13 | Dort der Himmelsstrom | -0.02 | +0.04 | +0.06 | +0.02 | +0.01 | — |
+| 14 | Scheint ihr klar und seicht, | +0.05 | -0.02 | -0.03 | -0.05 | -0.08 | — |
+| 15 | Zu dem Hirten hin | +0.00 | -0.03 | -0.07 | -0.02 | -0.05 | — |
+| 16 | Däucht der Weg ihr leicht. | -0.02 | +0.00 | +0.01 | -0.01 | -0.07 | — |
+| 17 | Doch da fliesst's heran | -0.01 | -0.01 | +0.06 | +0.02 | -0.03 | — |
+| 18 | Und hält sie zurück. | +0.01 | -0.01 | -0.08 | +0.03 | -0.09 | — |
+| 19 | Beide schau'n sich an | -0.00 | +0.01 | -0.03 | -0.01 | -0.03 | — |
+| 20 | Nur mit stummen Blick. | -0.03 | +0.02 | +0.01 | +0.01 | -0.14 | — |
+
+## en:birrell  (en, 10 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+*(line text REDACTED — in-copyright LOCAL_TIER, F9; file + sha in the json manifest)*
+| 1 | *(redacted)* | +0.00 | +0.01 | -0.04 | -0.03 | +0.05 | — |
+| 2 | *(redacted)* | +0.16 | +0.03 | -0.05 | -0.07 | +0.03 | color[white] sound[rep:White] |
+| 3 | *(redacted)* | +0.16 | -0.03 | -0.01 | -0.01 | -0.04 | color[white] sound[rep:Slim] |
+| 4 | *(redacted)* | -0.04 | -0.03 | +0.04 | -0.03 | -0.05 | sound[allit:Click-clack] |
+| 5 | *(redacted)* | +0.01 | -0.01 | -0.08 | +0.00 | +0.02 | temporal[day never] |
+| 6 | *(redacted)* | -0.01 | -0.08 | +0.08 | -0.02 | -0.04 | — |
+| 7 | *(redacted)* | +0.02 | +0.01 | +0.03 | -0.05 | -0.04 | — |
+| 8 | *(redacted)* | +0.01 | +0.02 | +0.02 | +0.04 | +0.10 | — |
+| 9 | *(redacted)* | -0.01 | +0.06 | -0.01 | -0.06 | +0.03 | — |
+| 10 | *(redacted)* | -0.03 | +0.02 | +0.04 | -0.00 | -0.07 | sound[rep:stares allit:without-word] |
+
+## en:owen  (en, 10 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+*(line text REDACTED — in-copyright LOCAL_TIER, F9; file + sha in the json manifest)*
+| 1 | *(redacted)* | +0.03 | +0.03 | -0.02 | -0.01 | +0.01 | — |
+| 2 | *(redacted)* | +0.06 | +0.03 | +0.00 | -0.08 | +0.03 | sound[rep:the] |
+| 3 | *(redacted)* | +0.11 | -0.01 | -0.02 | +0.00 | -0.06 | color[pale] |
+| 4 | *(redacted)* | -0.05 | -0.00 | -0.04 | -0.04 | -0.02 | temporal[time while] |
+| 5 | *(redacted)* | -0.03 | -0.08 | -0.06 | +0.01 | -0.06 | temporal[day spent] |
+| 6 | *(redacted)* | -0.01 | -0.04 | +0.04 | +0.01 | -0.05 | — |
+| 7 | *(redacted)* | +0.05 | +0.04 | +0.04 | -0.10 | +0.01 | — |
+| 8 | *(redacted)* | +0.02 | -0.04 | -0.01 | +0.03 | +0.08 | — |
+| 9 | *(redacted)* | +0.04 | -0.02 | -0.01 | -0.06 | -0.08 | sound[allit:bright-brimming] |
+| 10 | *(redacted)* | -0.00 | +0.01 | -0.02 | -0.03 | -0.01 | — |
+
+## en:waley_1918  (en, 10 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+| 1 | Far away twinkles the Herd-boy star; | -0.00 | +0.03 | +0.09 | -0.04 | +0.04 | — |
+| 2 | Brightly shines the Lady of the Han River. | +0.04 | +0.04 | +0.02 | -0.06 | -0.02 | sound[rep:the] |
+| 3 | Slender, slender she plies her white fingers. | +0.15 | +0.01 | +0.03 | -0.01 | +0.00 | color[white] sound[rep:Slender] |
+| 4 | Click, click go the wheels of her spinning-loom. | -0.01 | -0.08 | +0.03 | -0.04 | +0.01 | sound[rep:Click] |
+| 5 | At the end of the day she has not finished her task; | -0.03 | +0.01 | -0.06 | -0.02 | -0.04 | sound[rep:the] temporal[day] |
+| 6 | Her bitter tears fall like streaming rain. | +0.04 | -0.06 | +0.04 | -0.06 | -0.01 | — |
+| 7 | The Han River runs shallow and clear; | +0.01 | -0.04 | -0.01 | -0.07 | -0.00 | sound[allit:River-runs] |
+| 8 | Set between them, how short a space! | +0.02 | +0.04 | -0.07 | +0.04 | -0.06 | — |
+| 9 | But the river water will not let them pass, | +0.03 | -0.03 | -0.02 | -0.05 | +0.01 | — |
+| 10 | Gazing at each other but never able to speak. | -0.03 | -0.02 | -0.04 | -0.03 | +0.01 | temporal[never] |
+
+## en:watson  (en, 10 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+*(line text REDACTED — in-copyright LOCAL_TIER, F9; file + sha in the json manifest)*
+| 1 | *(redacted)* | +0.01 | +0.00 | +0.00 | -0.04 | +0.09 | sound[rep:Far] |
+| 2 | *(redacted)* | +0.05 | -0.02 | -0.01 | -0.07 | +0.06 | sound[rep:bright] |
+| 3 | *(redacted)* | +0.11 | -0.01 | -0.00 | -0.01 | -0.06 | color[pale] sound[rep:slim] |
+| 4 | *(redacted)* | -0.06 | -0.02 | +0.04 | -0.06 | -0.05 | sound[rep:clack] |
+| 5 | *(redacted)* | -0.01 | -0.05 | -0.03 | -0.03 | +0.02 | temporal[day never] |
+| 6 | *(redacted)* | -0.02 | -0.05 | +0.14 | -0.03 | -0.02 | — |
+| 7 | *(redacted)* | +0.04 | -0.01 | +0.01 | -0.06 | -0.00 | — |
+| 8 | *(redacted)* | -0.00 | +0.04 | +0.02 | +0.03 | +0.03 | sound[allit:little-lies] |
+| 9 | *(redacted)* | +0.03 | -0.04 | +0.05 | -0.01 | -0.09 | sound[allit:span-single] |
+| 10 | *(redacted)* | -0.01 | -0.00 | +0.00 | -0.03 | +0.01 | sound[rep:gaze] |
+
+## en:xu_yuanchong  (en, 10 lines, spec M)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+*(line text REDACTED — in-copyright LOCAL_TIER, F9; file + sha in the json manifest)*
+| 1 | *(redacted)* | -0.00 | +0.02 | -0.00 | -0.04 | +0.08 | sound[rep:Far] |
+| 2 | *(redacted)* | +0.05 | -0.07 | -0.01 | -0.10 | -0.00 | sound[rep:Bright] |
+| 3 | *(redacted)* | +0.04 | -0.01 | +0.04 | -0.01 | -0.05 | sound[rep:Slender] |
+| 4 | *(redacted)* | -0.05 | +0.04 | +0.24 | -0.03 | -0.01 | sound[rep:Clack] |
+| 5 | *(redacted)* | -0.01 | -0.02 | -0.06 | -0.02 | -0.00 | temporal[day] |
+| 6 | *(redacted)* | -0.00 | -0.07 | +0.02 | -0.01 | -0.06 | sound[rep:one] |
+| 7 | *(redacted)* | +0.03 | -0.02 | +0.01 | -0.06 | -0.01 | — |
+| 8 | *(redacted)* | +0.01 | -0.02 | -0.05 | -0.02 | +0.05 | — |
+| 9 | *(redacted)* | +0.01 | -0.04 | +0.22 | -0.03 | -0.06 | sound[rep:brimful] |
+| 10 | *(redacted)* | +0.01 | -0.01 | -0.05 | -0.02 | +0.02 | — |
+
+## zh:gushi19_10  (zh, 10 lines, spec S)
+
+| line | text | color | illum | sound | plant | temporal | booleans fired |
+|---|---|---|---|---|---|---|---|
+| 1 | 迢迢牵牛星， | -0.00 | -0.05 | +0.04 | -0.04 | +0.01 | sound[叠字:迢迢] temporal[星] |
+| 2 | 皎皎河汉女。 | +0.04 | -0.01 | -0.02 | -0.08 | +0.05 | sound[叠字:皎皎] |
+| 3 | 纤纤擢素手， | -0.01 | -0.07 | -0.02 | -0.03 | -0.07 | color[素] sound[叠字:纤纤] |
+| 4 | 札札弄机杼。 | -0.04 | +0.02 | +0.04 | -0.03 | -0.11 | sound[叠字:札札] plant[杼] |
+| 5 | 终日不成章， | -0.02 | +0.02 | -0.01 | +0.03 | +0.02 | temporal[章 日] |
+| 6 | 泣涕零如雨。 | -0.02 | -0.01 | +0.17 | -0.01 | -0.08 | temporal[如] |
+| 7 | 河汉清且浅， | +0.02 | +0.02 | +0.03 | -0.05 | +0.02 | temporal[且] |
+| 8 | 相去复几许？ | +0.00 | -0.01 | -0.02 | +0.05 | -0.02 | temporal[相] |
+| 9 | 盈盈一水间， | +0.00 | -0.03 | -0.02 | -0.05 | -0.03 | sound[叠字:盈盈] |
+| 10 | 脉脉不得语。 | -0.02 | -0.02 | +0.05 | +0.03 | -0.11 | sound[叠字:脉脉] |
+
+## Cross-side transitions (8-cell comparator, poem grain)
+
+- **en:birrell** (fields ['color', 'plant', 'sound', 'temporal']): {'SURVIVAL': ['color', 'sound', 'temporal'], 'DEFORMATION(loss)': ['plant'], 'INVENTION(gain)': [], 'counts': {'SURVIVAL': 3, 'DEFORMATION': 1}, 'fold_declared': True}
+- **en:owen** (fields ['color', 'plant', 'sound', 'temporal']): {'SURVIVAL': ['color', 'sound', 'temporal'], 'DEFORMATION(loss)': ['plant'], 'INVENTION(gain)': [], 'counts': {'SURVIVAL': 3, 'DEFORMATION': 1}, 'fold_declared': True}
+- **en:waley_1918** (fields ['color', 'plant', 'sound', 'temporal']): {'SURVIVAL': ['color', 'sound', 'temporal'], 'DEFORMATION(loss)': ['plant'], 'INVENTION(gain)': [], 'counts': {'SURVIVAL': 3, 'DEFORMATION': 1}, 'fold_declared': True}
+- **en:watson** (fields ['color', 'plant', 'sound', 'temporal']): {'SURVIVAL': ['color', 'sound', 'temporal'], 'DEFORMATION(loss)': ['plant'], 'INVENTION(gain)': [], 'counts': {'SURVIVAL': 3, 'DEFORMATION': 1}, 'fold_declared': True}
+- **en:xu_yuanchong** (fields ['color', 'plant', 'sound', 'temporal']): {'SURVIVAL': ['sound', 'temporal'], 'DEFORMATION(loss)': ['color', 'plant'], 'INVENTION(gain)': [], 'counts': {'DEFORMATION': 2, 'SURVIVAL': 2}, 'fold_declared': True}

@@ -1,0 +1,4924 @@
+{
+ "what": "deterministic LATENT rows — e7 corpus-breadth, board xibei",
+ "registration": "caesitas_proto/corpus_breadth_scoring_registration_56.md §C/§D",
+ "law": "methodology_amendment_0721_53.md §2/§4; rubric_compare 8-cell",
+ "source_lang": "zh",
+ "flags": [
+  "L-F1 folder name",
+  "L-F2 check1=scalar (applied at run)",
+  "L-F3 realized-gate layering",
+  "L-F4 en illumination no boolean",
+  "L-F5 consider/star exhibit",
+  "L-F6 referent trigger thin",
+  "F9 local-tier line text redacted"
+ ],
+ "manifest": {
+  "axes": {
+   "color_salience_axis_48.npz": {
+    "sha256": "581d378126a16b893968fb4dda6520ecea0e5ecfe2c66c7983e683f7ed12b686",
+    "key": "axis",
+    "field": "color",
+    "credential": "AUC .879 [.830-.926] (R1-gamma, RULERS A3)"
+   },
+   "illum_polarity_axis_v3_48.npz": {
+    "sha256": "52bfe9c803c41649e4fa27e89e0a88d6104deefa72699761e33debdb3d1244da",
+    "key": "dark",
+    "field": "illumination",
+    "credential": ".825 [.740-.906] (R1-beta, RULERS A1, physical VALUE dark+)"
+   },
+   "sound_salience_axis_v3_49.npz": {
+    "sha256": "80443b38810f5fd28374b370c945f703bda3e9f9c6e87378820f726d2e53ddb8",
+    "key": "axis",
+    "field": "sound",
+    "credential": ".815 [.786-.843] (R1-gamma, RULERS A5, realized)"
+   },
+   "plant_salience_axis_48.npz": {
+    "sha256": "14d4d78afbefd179c40863b9cb12e807ed3aef083a548d3d16cd543b3d701076",
+    "key": "axis",
+    "field": "plant",
+    "credential": ".801 [.756-.841] (R1-gamma, RULERS A4)"
+   },
+   "duration_value_axis_48.npz": {
+    "sha256": "d874f8c3a476d467b1a2d43fb53475df967126f5db2cec90e845112aadeedf3c",
+    "key": "axis",
+    "field": "temporal",
+    "credential": "rho .860 [.843-.875] (RULERS A7, VALUE long+ = DURATION ruler; A9 salience is a documented negative, excluded)"
+   }
+  },
+  "boolean_lexicons": {
+   "illumination_lexicon_hownet_53.json": "e0e8abe118b0cca91cb6eef6a44be8a35e5e8230ba489bac582f50f57c6a6373",
+   "trait_labelers.py": "8fd42e4ce026f58da05e591dcdbcbd57660fc9a19adcb863b80860a5b9578568",
+   "illumination_labeler_53.py": "5d80a8b3949701e865864f1b8f9fd3c3e04627da0eab0cfd99016df4ef7c1adf"
+  },
+  "comparator": {
+   "rubric_compare.py": "1b6f7c8e36bd5a611550fb6b8c6957643c9ffc7fa193d4e261d9da3769dfea19"
+  },
+  "model": {
+   "LaBSE/model.safetensors": {
+    "sha256": "77d8e1f2dbab6eb5d3c261ce9d3dbf1e3c69e02938c95f934f94f42c22dfa31f"
+   }
+  },
+  "latent_carriers": {
+   "temporal": "78f4d7e3a02240704838eae5f1bc159acbcadf94f13aac5e21defdf33bbaec4e",
+   "sound_amended": "9a487608afe4a31e09c743b3b93a33063885c1f260f9dd464ebd187b516f8aa6",
+   "plant": "34153db8636ecbad64d51a581106c0038de426566a0849025136826a96c9b167",
+   "written_labeler": "5378419bd78805cfa12e6bbf3a95cd2566a83e0b9c89105af653060fc70a0d2c",
+   "etym_chains": "311326f6bea392d6027dd4fdba86db01c45b8cbe9ce1b658d4e2c98ab34bf335",
+   "rubric_compare": "1b6f7c8e36bd5a611550fb6b8c6957643c9ffc7fa193d4e261d9da3769dfea19"
+  },
+  "seed": 48,
+  "board": "xibei",
+  "source_lang": "zh",
+  "source_rid": "zh:gushi19_05",
+  "certificate_drift": 0.0,
+  "n_inventory": 710,
+  "corpus_present": {
+   "en:birrell": {
+    "sha256": "a775688c0bb91fb1d5c350ac1846c77d0060d4cb3b2b85e8ed5150deb2e2d260",
+    "tier": "local",
+    "file": "<HOME>/garden/books/dnd2027/corpus/transcriptions/birrell_jade_terrace/xibei_you_gaolou.md",
+    "spec": "M",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": true
+   },
+   "en:owen": {
+    "sha256": "cec58a52d5dc1b8c04b8091b120ed817945a3b890b306355b9aa92c34bd2c0ff",
+    "tier": "local",
+    "file": "<HOME>/garden/books/dnd2027/corpus/transcriptions/owen_norton/xibei_you_gaolou.md",
+    "spec": "M",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": true
+   },
+   "en:waley_1918": {
+    "sha256": "ad0f8ab737305cdbe5fc97b474f3fe6478417f600cf7630667f09c69e0a5e8df",
+    "tier": "repo",
+    "file": "<LAB>/corpus/ensemble/xibei_you_gaolou/waley_en_1918.md",
+    "spec": "M",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": false
+   },
+   "en:watson": {
+    "sha256": "1bb87e0da954a5223d020880bd1bcc9870a98df7067abf00bc3c9331eba0ca87",
+    "tier": "local",
+    "file": "<HOME>/garden/books/dnd2027/corpus/transcriptions/watson_columbia/xibei_you_gaolou.md",
+    "spec": "M",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": true
+   },
+   "en:xu_yuanchong": {
+    "sha256": "27a39651f1d768bc0cde5ab4c6d0294c0b313588663a397467bbe37ed2217ab6",
+    "tier": "local",
+    "file": "<HOME>/garden/books/dnd2027/corpus/transcriptions/xu_yuanchong/xibei_you_gaolou.md",
+    "spec": "M",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": true
+   },
+   "zh:gushi19_05": {
+    "sha256": "b4a2ea98cbdeb8f763a46d6c5c57b2108201bc33799250ac6bd736f6a2747007",
+    "tier": "repo",
+    "file": "<LAB>/corpus/tang_en/zh_source/gushi19shou_05_xibei_you_gaolou.txt",
+    "spec": "S",
+    "parsed_n_lines": 16,
+    "registered_exp": 16,
+    "text_redacted_in_outputs": false
+   }
+  },
+  "corpus_missing": [],
+  "inventory_size": 710,
+  "seats_missing": []
+ },
+ "written_row": {
+  "en:birrell": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.027615831974531903,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01654929125109027,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.021908923327798906,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.05331112554971479,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.018602018416640498,
+     "carriers": [
+      "sound"
+     ],
+     "fires": [
+      {
+       "word": "sound",
+       "carriers": [
+        "sound"
+       ],
+       "etymon_terms": [
+        "brown",
+        "red",
+        "yellow"
+       ],
+       "citation": "Skeat s.v. SOUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SOUND. 575   Sour, q.v. Hence also we find A.S. stire, sorrel, Cockayne’s® SOT, "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.007185143655914562,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.01502764929604082,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.008665731643215692,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0036306120224202003,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.05673182393745062,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01681863280639897,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.007996923192987074,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.03110315190780117,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.009553265013570324,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.016163494438990553,
+     "carriers": [
+      "wild"
+     ],
+     "fires": [
+      {
+       "word": "wild",
+       "carriers": [
+        "wild"
+       ],
+       "etymon_terms": [
+        "red"
+       ],
+       "citation": "Skeat s.v. WILD",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "WILD, self-willed, violent, untamed, uncivilised, savage, desert. (E.) In Barbou"
+      }
+     ],
+     "fires_three_check": true
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": 0.0014800075750687966,
+     "carriers": [
+      "sky"
+     ],
+     "fires": [
+      {
+       "word": "sky",
+       "carriers": [
+        "sky"
+       ],
+       "etymon_terms": [
+        "blue"
+       ],
+       "citation": "Skeat s.v. SKY",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SKY, the clouds, the heavens. (Scand.) M.E. shie, skye, in the sense of ‘ cloud "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   }
+  ],
+  "en:owen": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0017500162585788077,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0029658281017182,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.025480691520165896,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.0272820324994891,
+     "carriers": [
+      "around"
+     ],
+     "fires": [
+      {
+       "word": "around",
+       "carriers": [
+        "around"
+       ],
+       "etymon_terms": [
+        "black"
+       ],
+       "citation": "Skeat s.v. AROUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "AROUND, prep. and adv., on all sides of, on every side. (Hybrid ; E. and F.) Spe"
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [
+      "around"
+     ],
+     "fires": [
+      {
+       "word": "around",
+       "carriers": [
+        "around"
+       ],
+       "etymon_terms": [
+        "black"
+       ],
+       "citation": "Skeat s.v. AROUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "AROUND, prep. and adv., on all sides of, on every side. (Hybrid ; E. and F.) Spe"
+      }
+     ]
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.02208771859171369,
+     "carriers": [
+      "sound"
+     ],
+     "fires": [
+      {
+       "word": "sound",
+       "carriers": [
+        "sound"
+       ],
+       "etymon_terms": [
+        "brown",
+        "red",
+        "yellow"
+       ],
+       "citation": "Skeat s.v. SOUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SOUND. 575   Sour, q.v. Hence also we find A.S. stire, sorrel, Cockayne’s® SOT, "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.027743549634278802,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.01465672063942668,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.051129886978770564,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.006592780926659343,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.012750306102567492,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.023530679887869645,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01417386898473672,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.030124731950508698,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.008629930559272785,
+     "carriers": [
+      "sound"
+     ],
+     "fires": [
+      {
+       "word": "sound",
+       "carriers": [
+        "sound"
+       ],
+       "etymon_terms": [
+        "brown",
+        "red",
+        "yellow"
+       ],
+       "citation": "Skeat s.v. SOUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SOUND. 575   Sour, q.v. Hence also we find A.S. stire, sorrel, Cockayne’s® SOT, "
+      }
+     ],
+     "fires_three_check": true
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.06759724699684191,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0013463960441665486,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   }
+  ],
+  "en:waley_1918": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.028393106358088966,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.006945495709731804,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.009845370756373302,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.05140935358972487,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.009326016773264036,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.015253034051036849,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.023041864399324513,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.04211717348011071,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.04055652570569036,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.012348826764407933,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0002777037633884096,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.007274422689577543,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.007854521467641939,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0124481180166581,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.05420365360033971,
+     "carriers": [
+      "wild"
+     ],
+     "fires": [
+      {
+       "word": "wild",
+       "carriers": [
+        "wild"
+       ],
+       "etymon_terms": [
+        "red"
+       ],
+       "citation": "Skeat s.v. WILD",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "WILD, self-willed, violent, untamed, uncivilised, savage, desert. (E.) In Barbou"
+      }
+     ],
+     "fires_three_check": true
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0072630513776195844,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [
+      "aloft"
+     ],
+     "fires": [
+      {
+       "word": "aloft",
+       "carriers": [
+        "aloft"
+       ],
+       "etymon_terms": [
+        "night"
+       ],
+       "citation": "Skeat s.v. ALOFT",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "ALOFT, in the air. (Scand.) 1. For on lofte. In P. Plowman, B. i. 90, we find ‘a"
+      }
+     ]
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   }
+  ],
+  "en:watson": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.01009802542713676,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": -0.003988668790490278,
+     "carriers": [
+      "sky"
+     ],
+     "fires": [
+      {
+       "word": "sky",
+       "carriers": [
+        "sky"
+       ],
+       "etymon_terms": [
+        "blue"
+       ],
+       "citation": "Skeat s.v. SKY",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SKY, the clouds, the heavens. (Scand.) M.E. shie, skye, in the sense of ‘ cloud "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.019771528768035444,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.00868385199023659,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.02154619725183789,
+     "carriers": [
+      "sound"
+     ],
+     "fires": [
+      {
+       "word": "sound",
+       "carriers": [
+        "sound"
+       ],
+       "etymon_terms": [
+        "brown",
+        "red",
+        "yellow"
+       ],
+       "citation": "Skeat s.v. SOUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SOUND. 575   Sour, q.v. Hence also we find A.S. stire, sorrel, Cockayne’s® SOT, "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0022974016642429308,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.005813585783597886,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.013053596275548163,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.013882552917716855,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.024145792688047257,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.009943806672059846,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.03605100609517399,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0386239718362124,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.012999720607330775,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.022501546073967767,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": 0.01972429672186076,
+     "carriers": [
+      "sky"
+     ],
+     "fires": [
+      {
+       "word": "sky",
+       "carriers": [
+        "sky"
+       ],
+       "etymon_terms": [
+        "blue"
+       ],
+       "citation": "Skeat s.v. SKY",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SKY, the clouds, the heavens. (Scand.) M.E. shie, skye, in the sense of ‘ cloud "
+      }
+     ],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   }
+  ],
+  "en:xu_yuanchong": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.012852007993907833,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.019065673864560262,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.03140148453082378,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.02615071535145335,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.019146801663514554,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.01930379149571699,
+     "carriers": [
+      "sound"
+     ],
+     "fires": [
+      {
+       "word": "sound",
+       "carriers": [
+        "sound"
+       ],
+       "etymon_terms": [
+        "brown",
+        "red",
+        "yellow"
+       ],
+       "citation": "Skeat s.v. SOUND",
+       "sensor": "skeat_etym_chain",
+       "entry_head": "SOUND. 575   Sour, q.v. Hence also we find A.S. stire, sorrel, Cockayne’s® SOT, "
+      }
+     ],
+     "fires_three_check": true
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.03664406247510532,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.021994066265339937,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.011265860168869261,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.012062757303738925,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -4.602807938085263e-05,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0005211146195842967,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.048039088180895986,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.006362930864994751,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0011993297761761085,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01718433200800009,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": null,
+     "informational_only": true,
+     "reason": "L-F4: no en illumination descriptive boolean (zh-only) -> not survival-counted",
+     "carriers": [],
+     "fires": []
+    },
+    "sound": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "plant": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    },
+    "temporal": {
+     "available": false,
+     "reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)"
+    }
+   }
+  ],
+  "zh:gushi19_05": [
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.015283672009310717,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.08413179805638535,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.02319380772193498,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.005606433524566924,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.06658548891821,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01667972363804275,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.022589962413206516,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0013106217989866387,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.004622521397717818,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.02068264600348429,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.034093343448470655,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0372169022338603,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.06415759633369426,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.0012604198549681558,
+     "carriers": [
+      "结"
+     ],
+     "fires": [
+      {
+       "word": "交疏结",
+       "carriers": [
+        "结"
+       ],
+       "receipts": [
+        {
+         "char": "结"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[plant]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": true
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.15419504880726098,
+     "carriers": [
+      "交"
+     ],
+     "fires": [
+      {
+       "word": "交疏结",
+       "carriers": [
+        "交"
+       ],
+       "receipts": [
+        {
+         "char": "交"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[temporal]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.017153924902839783,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.002683449347110763,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02416883985211206,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0317448499287619,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.00029369436663552635,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.03391507183488564,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02666703780928772,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.3093925558797831,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0007903766590835748,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.007718742956675203,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.00639982976949003,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.03438276087012407,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.1735865980557449,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01066428985070439,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0003803475715589465,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02633283929878378,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0008551000520069158,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.03625513611011998,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 5.088816939944306e-05,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.048213438891673135,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.01366839867995264,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02758792799142603,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.06048274948020987,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.0516114010811348,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.05976112097585093,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.016583545805107146,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.06250592963851923,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": 0.047438439657984464,
+     "carriers": [
+      "商"
+     ],
+     "fires": [
+      {
+       "word": "清商",
+       "carriers": [
+        "商"
+       ],
+       "receipts": [
+        {
+         "char": "商"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[sound]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.03468073585108079,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": -0.016789941060547785,
+     "carriers": [
+      "商",
+      "清"
+     ],
+     "fires": [
+      {
+       "word": "清商",
+       "carriers": [
+        "清",
+        "商"
+       ],
+       "receipts": [
+        {
+         "char": "清"
+        },
+        {
+         "char": "商"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[temporal]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.01915591728079916,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.035459500026726695,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.08705478807156636,
+     "carriers": [
+      "曲"
+     ],
+     "fires": [
+      {
+       "word": "中曲",
+       "carriers": [
+        "曲"
+       ],
+       "receipts": [
+        {
+         "char": "曲"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[sound]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": true
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.022578409765697145,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": -0.0691912914327233,
+     "carriers": [
+      "中"
+     ],
+     "fires": [
+      {
+       "word": "中曲",
+       "carriers": [
+        "中"
+       ],
+       "receipts": [
+        {
+         "char": "中"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[temporal]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02557612271609478,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.025945982377217604,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": true,
+     "fires_bool": true,
+     "scalar_check1": 0.14664454987371003,
+     "carriers": [
+      "弹"
+     ],
+     "fires": [
+      {
+       "word": "一弹",
+       "carriers": [
+        "弹"
+       ],
+       "receipts": [
+        {
+         "char": "弹"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[sound]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": true
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.005442657183396284,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.12680024361674178,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.011403176669028554,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.007184321285458876,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.06374344262387384,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.012658594205196553,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.05179907240900735,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.01374799334498345,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.006794957491172704,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": 0.09587819274973536,
+     "carriers": [
+      "歌"
+     ],
+     "fires": [
+      {
+       "word": "歌者",
+       "carriers": [
+        "歌"
+       ],
+       "receipts": [
+        {
+         "char": "歌"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[sound]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.0174904583447662,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.015151944909616674,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.003019685485090502,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.05397676471747159,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": false,
+     "carrier_present": true,
+     "fires_bool": false,
+     "scalar_check1": 0.1039185290253313,
+     "carriers": [
+      "音"
+     ],
+     "fires": [
+      {
+       "word": "知音",
+       "carriers": [
+        "音"
+       ],
+       "receipts": [
+        {
+         "char": "音"
+        }
+       ],
+       "sensor": "hownet_single_char_inventory[sound]",
+       "word_hownet_realized": false
+      }
+     ],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.000493396246043519,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.056600928332919465,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.02062861119275135,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.05674070640991637,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.011892750444217282,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.027210202059625058,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.03199845528989427,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   },
+   {
+    "color": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.019026598331228838,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "illumination": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.10038092026875063,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "sound": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.10876309540006748,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "plant": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": 0.010444650198267975,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    },
+    "temporal": {
+     "available": true,
+     "boolean_silent": true,
+     "carrier_present": false,
+     "fires_bool": false,
+     "scalar_check1": -0.015404140319984248,
+     "carriers": [],
+     "fires": [],
+     "fires_three_check": false
+    }
+   }
+  ]
+ },
+ "referent_row": {
+  "en:birrell": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   }
+  ],
+  "en:owen": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   }
+  ],
+  "en:waley_1918": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   }
+  ],
+  "en:watson": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   }
+  ],
+  "en:xu_yuanchong": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.",
+    "_line_redacted": true
+   }
+  ],
+  "zh:gushi19_05": [
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   },
+   {
+    "available": true,
+    "field": "color",
+    "referent_trigger_words": [],
+    "trigger_source": "committed definition-witness json (where covered)",
+    "ccfd_context_only": "lexical_resources/impression_norms/ccfd_2021 — TRUTH-side context, NEVER a trigger; cited not enumerated (openpyxl absent)",
+    "degree": "credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here."
+   }
+  ]
+ },
+ "consider_exhibit": {
+  "word": "consider",
+  "field_outside_shelf": "star",
+  "found": true,
+  "terms": [
+   "constellation",
+   "sidereal",
+   "sidus",
+   "star"
+  ],
+  "citation": "Skeat s.v. CONSIDER",
+  "note": "L-F5: the founding example (sidus/star inside consider); 'star' is OUTSIDE the five-field shelf — informational exhibit."
+ },
+ "transitions": {
+  "en:birrell": {
+   "grain": "poem",
+   "rows": [
+    [
+     "color",
+     "INVENTION"
+    ],
+    [
+     "plant",
+     "DEFORMATION"
+    ],
+    [
+     "sound",
+     "SURVIVAL"
+    ],
+    [
+     "temporal",
+     "DEFORMATION"
+    ]
+   ],
+   "both_covered_fields": [
+    "color",
+    "plant",
+    "sound",
+    "temporal"
+   ],
+   "src_latent": [
+    "plant",
+    "sound"
+   ],
+   "tr_latent": [
+    "color"
+   ]
+  },
+  "en:owen": {
+   "grain": "poem",
+   "rows": [
+    [
+     "color",
+     "INVENTION"
+    ],
+    [
+     "plant",
+     "DEFORMATION"
+    ],
+    [
+     "sound",
+     "SURVIVAL"
+    ],
+    [
+     "temporal",
+     "SURVIVAL"
+    ]
+   ],
+   "both_covered_fields": [
+    "color",
+    "plant",
+    "sound",
+    "temporal"
+   ],
+   "src_latent": [
+    "plant",
+    "sound"
+   ],
+   "tr_latent": [
+    "color"
+   ]
+  },
+  "en:waley_1918": {
+   "grain": "poem",
+   "rows": [
+    [
+     "color",
+     "LATENT-INVENTION"
+    ],
+    [
+     "plant",
+     "DEFORMATION"
+    ],
+    [
+     "sound",
+     "SURVIVAL"
+    ],
+    [
+     "temporal",
+     "DEFORMATION"
+    ]
+   ],
+   "both_covered_fields": [
+    "color",
+    "plant",
+    "sound",
+    "temporal"
+   ],
+   "src_latent": [
+    "plant",
+    "sound"
+   ],
+   "tr_latent": [
+    "color"
+   ]
+  },
+  "en:watson": {
+   "grain": "poem",
+   "rows": [
+    [
+     "color",
+     "INVENTION"
+    ],
+    [
+     "plant",
+     "DEFORMATION"
+    ],
+    [
+     "sound",
+     "SURVIVAL"
+    ],
+    [
+     "temporal",
+     "DEFORMATION"
+    ]
+   ],
+   "both_covered_fields": [
+    "color",
+    "plant",
+    "sound",
+    "temporal"
+   ],
+   "src_latent": [
+    "plant",
+    "sound"
+   ],
+   "tr_latent": []
+  },
+  "en:xu_yuanchong": {
+   "grain": "poem",
+   "rows": [
+    [
+     "color",
+     "LATENT-INVENTION"
+    ],
+    [
+     "plant",
+     "SURVIVAL"
+    ],
+    [
+     "sound",
+     "SURVIVAL"
+    ],
+    [
+     "temporal",
+     "SURVIVAL"
+    ]
+   ],
+   "both_covered_fields": [
+    "color",
+    "plant",
+    "sound",
+    "temporal"
+   ],
+   "src_latent": [
+    "plant",
+    "sound"
+   ],
+   "tr_latent": [
+    "color"
+   ]
+  }
+ }
+}

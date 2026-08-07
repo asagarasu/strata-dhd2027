@@ -1,0 +1,5677 @@
+{
+ "status": "PROPOSED — PREP ONLY. Nothing runs, nothing claims, no network.",
+ "artifact": "P3(a) time-word solar-semantics / illuminance-class table",
+ "generated": "2026-07-22",
+ "source_dictionary": "教育部重編國語辭典修訂本 (MOE Revised Mandarin Chinese Dictionary), ROC Ministry of Education; CC BY-ND 3.0 TW; 2021 Web Version 6; 釋義 prose column; read READ-ONLY. Parse = parse_moe + S2T tables + one-level cross-ref hop + gloss_region, COPIED verbatim from caesitas_proto/definition_witness_zh_53.py (module NOT imported: it writes its _53 outputs at import time).",
+ "moe_xlsx_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+ "moe_headwords": 161194,
+ "parse_seconds": 7.8,
+ "scope_note": "Dark TIME words = the committed 夜/晨/昏 group (T2, 177 members) plus the pure-time dictionary anchors 夜/天黑/黑夜; 灯 (lamp) and 鹞子 (kite) excluded as non-time. Committed tier is recorded per row (dark_pool_assembly_v2 lists only the coverage_gap/covered_strength_only subset in its md table; the gated_out 昏/夜 members are included here with their tier flagged). Bright-time words = MOE-derived candidates (LOCATE-ONLY).",
+ "classification_rule": {
+  "version": "v3 (span-aware; first token-sentence only)",
+  "step1": "Resolve word -> MOE entry (S2T lookup + one-level 參見/即/異體字/同 hop). No entry -> UNCLASSIFIABLE (no MOE headword).",
+  "step2": "GLOSS region = 釋義 with 「…」/《…》/〈…〉 removed (witness gloss_region).",
+  "step3": "Read ONLY the FIRST 'sense sentence' carrying any time token (split on 。！？newline + numbered-sense boundaries), so secondary senses (e.g. 夜's 形 昏暗的 / 動 夜行) do not leak. Receipt = that sentence, quoted verbatim.",
+  "step4_assignment_in_order": [
+   "(1) FULL_CYCLE token present -> UNCLASSIFIABLE (spans day and night; e.g. 晝夜=日夜).",
+   "(2) span definition: a DUSK token AND a DAWN token both present -> if dusk before dawn = the NIGHT between = deep_night (e.g. 夜 '從天黑到天亮之間'); if dawn before dusk = the DAY between = daylight (e.g. 白天 '日出後，日落前').",
+   "(3) NOON_CORE present -> noon; elif DAY_CORE and NIGHT_CORE co-occur -> UNCLASSIFIABLE (spans); elif DAY_CORE -> daylight; elif NIGHT_CORE -> deep_night; elif twilight (DAWN/DUSK only) -> twilight.",
+   "(4) no token -> UNCLASSIFIABLE (no clock/solar clause)."
+  ],
+  "rationale": "boundary tokens are read as bounding a span, not as the class; noon is the most solar-specific; twilight is the least-specific (boundary-only) fallback. Nothing is guessed.",
+  "token_sets": {
+   "DAWN": [
+    "日出",
+    "天亮",
+    "天大亮",
+    "天剛亮",
+    "天將明",
+    "天明",
+    "破曉",
+    "黎明",
+    "拂曉",
+    "平旦",
+    "昧旦",
+    "曙",
+    "清晨",
+    "早晨",
+    "凌晨",
+    "晨",
+    "曉"
+   ],
+   "DUSK": [
+    "日落",
+    "日入",
+    "日暮",
+    "薄暮",
+    "向晚",
+    "黃昏",
+    "傍晚",
+    "天黑",
+    "薄晚"
+   ],
+   "TWILIGHT": "DAWN ∪ DUSK",
+   "DAY_CORE": [
+    "大白天",
+    "白天",
+    "白晝",
+    "白日",
+    "日間",
+    "晝日",
+    "晝"
+   ],
+   "NOON_CORE": [
+    "日正當中",
+    "正中午",
+    "正午",
+    "中午",
+    "晌午",
+    "亭午",
+    "響午",
+    "午時",
+    "日中",
+    "正中"
+   ],
+   "NIGHT_CORE": [
+    "三更半夜",
+    "深更半夜",
+    "深夜",
+    "半夜",
+    "午夜",
+    "子夜",
+    "夜半",
+    "三更",
+    "中夜",
+    "夜間",
+    "夜晚",
+    "夜裡",
+    "晚上",
+    "黑夜",
+    "昏暗",
+    "入夜",
+    "通宵",
+    "徹夜",
+    "深宵",
+    "夜"
+   ],
+   "FULL_CYCLE": [
+    "一晝夜",
+    "晝夜不停",
+    "日夜不停",
+    "日夜",
+    "晝夜",
+    "日以繼夜",
+    "夜以繼日",
+    "旦暮",
+    "朝夕",
+    "整天整夜",
+    "全天",
+    "晝夜不息"
+   ]
+  },
+  "sentence_split_regex": "[。！？\\n\\r]+|(?<=\\D)(?=[1-9１-９]\\d?[\\.、．])",
+  "illum_poles_column": "disclosure only (witness DARK/BRIGHT token scan on the gloss); NOT used to assign the class.",
+  "assert_nothing": "Classes are DEFINITIONAL PROPOSALS; they claim nothing about any word's latent text-darkness."
+ },
+ "bright_time_derivation": {
+  "seed_morphemes": [
+   "正午",
+   "中午",
+   "晌午",
+   "亭午",
+   "響午",
+   "日中",
+   "午時",
+   "白天",
+   "白晝",
+   "白日",
+   "大白天",
+   "日間",
+   "晝"
+  ],
+  "enumeration": "MOE headwords H with 2<=len(H)<=4 and (some seed in H); dedup; sorted.",
+  "n_headwords_enumerated": 68,
+  "note": "each is classified by its own definition clause (whole-cycle words land UNCLASSIFIABLE-spanning)."
+ },
+ "counts": {
+  "dark_time_words": {
+   "total": 179,
+   "deep_night": 63,
+   "twilight": 10,
+   "daylight": 0,
+   "noon": 0,
+   "UNCLASSIFIABLE": 106,
+   "classified": 73,
+   "unclassifiable": 106
+  },
+  "bright_time_candidates": {
+   "total": 68,
+   "deep_night": 0,
+   "twilight": 0,
+   "daylight": 25,
+   "noon": 12,
+   "UNCLASSIFIABLE": 31,
+   "classified": 37,
+   "unclassifiable": 31
+  }
+ },
+ "dark_time_rows": [
+  {
+   "word": "一夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "一夜情",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "一整夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "三更半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "三更半夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": {
+    "trigger": "cross_ref_參見X條",
+    "target_raw": "五更",
+    "target_resolved": "五更"
+   },
+   "proposed_class": "deep_night",
+   "reason": "span: dusk before dawn -> the night between",
+   "receipt_clause": "2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為",
+   "matched_markers": {
+    "dawn": [
+     "清晨",
+     "晨"
+    ],
+    "dusk": [
+     "傍晚"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "1.稱長老為。古天子養老有三老五更，以父兄之禮事之。見。：\n2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為。相當於自午後七時起算，每一時段，為兩小時，至清晨五時。北齊．顏之推：也作。\n3.特指第五更，即天將亮時。第一回：第五八回：",
+   "defn_head": "1.稱長老為「五更」。古天子養老有三老五更，以父兄之禮事之。見《禮記．文王世子》。《續漢書志．第四．禮儀志上》：「養三老、五更之儀，先吉日，司徒上太傅若講師故三公人名，用其德行年耆高者一人為老，次一人為更也。」\n2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為「五更」。相當於自午後七時起算，每一時段，為兩小時，",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "上半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "上夜班",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "下半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "下半夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜晚十二點以後至天亮的時間",
+   "matched_markers": {
+    "dawn": [
+     "天亮"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "夜晚十二點以後至天亮的時間。第五一回：",
+   "defn_head": "夜晚十二點以後至天亮的時間。《二十年目睹之怪現狀》第五一回：「此時正是正月十七、八的時候，乘著下半夜的月色，鼓輪出口。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "不分昼夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "不眠之夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "今夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "今夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "今天晚上",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "今天晚上。第七回：第一七、一八回：",
+   "defn_head": "今天晚上。《三國演義》第七回：「今夜月不甚明，黃昏便可出城。」《紅樓夢》第一七、一八回：「虧你今夜不過如此，將來金殿對策，你大約連『趙錢孫李』都忘了呢！」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "今晨",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "令人昏眩",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "入夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "入夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "到了晚上",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "到了晚上。唐．李端詩：",
+   "defn_head": "到了晚上。唐．李端〈雲際中峰居喜見苗發〉詩：「經秋無客到，入夜有僧還。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "冬夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "凌晨",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "凌晨",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "清晨、黎明",
+   "matched_markers": {
+    "dawn": [
+     "黎明",
+     "清晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "清晨、黎明。唐．杜甫詩：",
+   "defn_head": "清晨、黎明。唐．杜甫〈自京赴奉先縣詠懷〉詩：「凌晨過驪山，御榻在嵽嵲。」",
+   "family": "晨",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "初夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "初夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.稱晚上七時至九時",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.稱晚上七時至九時。：宋．呂渭老詞：也作。\n2.新婚第一夜。唐．和凝詞：",
+   "defn_head": "1.稱晚上七時至九時。《後漢書．卷四七．班超傳》：「初夜，遂將吏士往奔虜營。」宋．呂渭老〈江城子．曉參垂戶宿酲醒〉詞：「敧枕欲尋初夜夢，雞唱遠，曉蟾傾。」也作「初更」。\n2.新婚第一夜。唐．和凝〈江城子．初夜含嬌入洞房〉詞：「初夜含嬌入洞房，理殘妝，柳眉長。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "前半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "前夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "前夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "前天的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "前天的夜晚。唐．杜甫：第一一六回：也作。",
+   "defn_head": "前天的夜晚。唐．杜甫〈奉先劉少府新畫山水障歌〉：「反思前夜風雨急，乃是蒲城鬼神入。」《紅樓夢》第一一六回：「前夜虧我想得開，不然幾乎又上了他的當。」也作「前晚」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "午夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "午夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "半夜",
+   "matched_markers": {
+    "night_core": [
+     "半夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "半夜。唐．唐彥謙詩：唐．戴叔倫詩：",
+   "defn_head": "半夜。唐．唐彥謙〈詠竹〉詩：「月明午夜生虛籟，誤聽風聲是雨聲。」唐．戴叔倫〈重逰長真寺〉詩：「蒲澗千年雨，松門午夜風。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "午夜时分",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "半夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜半、半宵，指深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜半",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜半、半宵，指深夜。唐．杜甫詩：第一回：",
+   "defn_head": "夜半、半宵，指深夜。唐．杜甫〈十六夜玩月〉詩：「巴童渾不寢，半夜有行舟。」《三國演義》第一回：「忽然大雷大雨，加以冰雹，落到半夜方止，壞卻房屋無數。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "半夜三更",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "半夜三更",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": {
+    "trigger": "cross_ref_參見X條",
+    "target_raw": "五更",
+    "target_resolved": "五更"
+   },
+   "proposed_class": "deep_night",
+   "reason": "span: dusk before dawn -> the night between",
+   "receipt_clause": "2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為",
+   "matched_markers": {
+    "dawn": [
+     "清晨",
+     "晨"
+    ],
+    "dusk": [
+     "傍晚"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "1.稱長老為。古天子養老有三老五更，以父兄之禮事之。見。：\n2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為。相當於自午後七時起算，每一時段，為兩小時，至清晨五時。北齊．顏之推：也作。\n3.特指第五更，即天將亮時。第一回：第五八回：",
+   "defn_head": "1.稱長老為「五更」。古天子養老有三老五更，以父兄之禮事之。見《禮記．文王世子》。《續漢書志．第四．禮儀志上》：「養三老、五更之儀，先吉日，司徒上太傅若講師故三公人名，用其德行年耆高者一人為老，次一人為更也。」\n2.舊時以漏刻計時，從傍晚到次日清晨，分為五個時段，稱為「五更」。相當於自午後七時起算，每一時段，為兩小時，",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "半夜时分",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "半夜里",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "发昏",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "發昏",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "1.昏迷。元．岳伯川第二折：\n2.糊塗、神智不清。第三五回：：",
+   "defn_head": "1.昏迷。元．岳伯川《鐵拐李》第二折：「這一會覺昏沉上來，你扶著我者。（正末發昏科）。」\n2.糊塗、神智不清。《紅樓夢》第三五回：「難道昨兒晚上你說的那話就應該的不成！當真是你發昏了。」《官話指南．卷二．官商吐屬》：「你們真是發昏了！你們打算訛我來，你們可是瞎了眼了。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "吃夜宵",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "后半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "後半夜",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "下半夜，晚上十二點到天亮之間",
+   "matched_markers": {
+    "dawn": [
+     "天亮"
+    ],
+    "night_core": [
+     "半夜",
+     "晚上",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "下半夜，晚上十二點到天亮之間。第一〇回：",
+   "defn_head": "下半夜，晚上十二點到天亮之間。《兒女英雄傳》第一〇回：「你們明日，倒要趁著後半夜的月色，早走到了牡牛山跟前。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "圣诞夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "坐夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "坐夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.喪禮中出殯前夕整夜守靈，稱為",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.喪禮中出殯前夕整夜守靈，稱為。第五七回：\n2.守夜。第五二回：",
+   "defn_head": "1.喪禮中出殯前夕整夜守靈，稱為「坐夜」。《紅樓夢》第五七回：「原來他和太太告了假，出去給他兄弟伴宿坐夜，明兒送殯去。」\n2.守夜。《西遊記》第五二回：「又有些該班坐夜的，滌滌托托，梆鈴齊響。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夙夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夙夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "2.夜未明或日未出夜未明之時",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.從早到晚。：：\n2.夜未明或日未出夜未明之時。：",
+   "defn_head": "1.從早到晚。《詩經．大雅．烝民》：「夙夜匪解，以事一人。」《大宋宣和遺事．元集》：「天久不雨，朕夙夜焦愁，無可奈何！」\n2.夜未明或日未出夜未明之時。《詩經．召南．行露》：「豈不夙夜，謂行多露。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜",
+   "route": "T1 (dictionary)",
+   "side": "dark_pool",
+   "resolved_form": "夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "span: dusk before dawn -> the night between",
+   "receipt_clause": "1.從天黑到天亮之間的一段時間",
+   "matched_markers": {
+    "dawn": [
+     "天亮"
+    ],
+    "dusk": [
+     "天黑"
+    ]
+   },
+   "illum_poles": [
+    "bright",
+    "dark"
+   ],
+   "gloss_head": "[名]\n1.從天黑到天亮之間的一段時間。如：、。：\n2.姓。如漢代有夜龍。\n[形]\n昏暗的。漢．王符：唐．盧照鄰詩：\n[動]\n夜行。唐．蘇味道詩：",
+   "defn_head": "[名]\n1.從天黑到天亮之間的一段時間。如：「夜以繼日」、「夙興夜寐」。《左傳．莊公七年》：「夏四月辛卯夜，恆星不見。」\n2.姓。如漢代有夜龍。\n[形]\n昏暗的。漢．王符《潛夫論．讚學》：「是故索物於夜室者，莫良於火。」唐．盧照鄰〈同崔錄事哭鄭員外〉詩：「夜臺無曉箭，朝奠有虛尊。」\n[動]\n夜行。唐．蘇味道〈正月十五夜",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T1"
+   ]
+  },
+  {
+   "word": "夜不归宿",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜以继日",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜作",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜作",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.夜間操作",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.夜間操作。：\n2.夜市。：",
+   "defn_head": "1.夜間操作。《後漢書．卷三一．廉范傳》：「舊制禁民夜作，以防火災。」\n2.夜市。《喻世明言．卷三六．宋四公大鬧禁魂張》：「晚飯過了，安排趙正在客房裡睡，侯興夫婦在門前做夜作。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜光",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜光",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.夜晚星月的光",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "1.夜晚星月的光。唐．張喬詩：\n2.月亮。：漢．無名氏詩：\n3.一種寶珠的名字。：\n4.螢火蟲。：熒火即炤」句下宋．邢昺．疏：",
+   "defn_head": "1.夜晚星月的光。唐．張喬〈再題敬亭清越上人山房〉詩：「石窗清吹入，河漢夜光流。」\n2.月亮。《楚辭．屈原．天問》：「夜光何德？死則又育。」漢．無名氏〈蘭若生春陽〉詩：「夜光照玄陰，長歎戀所思。」\n3.一種寶珠的名字。《抱朴子．內篇．袪惑》：「凡探明珠，不於合浦之淵，不得驪龍之夜光也。」\n4.螢火蟲。《爾雅．釋蟲》：熒",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜光表",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜分",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜分",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "半夜時候",
+   "matched_markers": {
+    "night_core": [
+     "半夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "半夜時候。：宋．無名氏：",
+   "defn_head": "半夜時候。《文選．曹植．上責躬應詔詩表》：「晝分而食，夜分而寢。」宋．無名氏《梅妃傳》：「梅開賦賞，至夜分尚顧戀花下不能去。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜勤",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜勤",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜間服務",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜間服務。多指警察或醫院工作人員而言。",
+   "defn_head": "夜間服務。多指警察或醫院工作人員而言。",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜半",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜半",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "午夜",
+   "matched_markers": {
+    "night_core": [
+     "午夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "午夜。：唐．張繼詩：也作、。",
+   "defn_head": "午夜。《左傳．哀公十六年》：「醉而送之，夜半而遣之。」唐．張繼〈楓橋夜泊〉詩：「姑蘇城外寒山寺，夜半鐘聲到客船。」也作「夜中」、「夜央」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜半三更",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜半三更",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深夜時分",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深夜時分。：",
+   "defn_head": "深夜時分。《群音類選．諸腔類．卷三．十義記．付託嬰孩》：「這樣大事，夜半三更，來此看他做甚麼？」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜场",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜場",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜間表演的娛樂節目，稱為",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜間表演的娛樂節目，稱為。相對於日場而言。",
+   "defn_head": "夜間表演的娛樂節目，稱為「夜場」。相對於日場而言。",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "逐夜、每夜",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "逐夜、每夜。第九一回：卷一五：",
+   "defn_head": "逐夜、每夜。《三國演義》第九一回：「土人告說：『自丞相經過之後，夜夜只聞得水邊鬼哭神號。』」《初刻拍案驚奇》卷一五：「果然是朝朝寒食，夜夜元宵。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜宵",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜宿",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜工",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜工",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "在夜間從事工作，稱為",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "在夜間從事工作，稱為。",
+   "defn_head": "在夜間從事工作，稱為「夜工」。",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜市",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜市",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "專在夜間做買賣的市集",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "專在夜間做買賣的市集。唐．王建詩：也稱為。",
+   "defn_head": "專在夜間做買賣的市集。唐．王建〈夜看揚州市〉詩：「夜市千燈照碧雲，高樓紅袖客紛紛。」也稱為「夜市場」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜幕",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜幕",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜裡景物看不清楚，好像被大黑幕籠罩一般，因此稱為",
+   "matched_markers": {
+    "night_core": [
+     "夜裡",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜裡景物看不清楚，好像被大黑幕籠罩一般，因此稱為。如：。明．徐渭詩：",
+   "defn_head": "夜裡景物看不清楚，好像被大黑幕籠罩一般，因此稱為「夜幕」。如：「夜幕低垂」。明．徐渭〈寄上海諸友人〉詩：「天愁夜幕鈴偏急，柵暗縲藤鼠正巡。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜幕低垂",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜幕低垂",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "天色昏暗，指天黑",
+   "matched_markers": {
+    "dusk": [
+     "天黑"
+    ],
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "天色昏暗，指天黑。如：",
+   "defn_head": "天色昏暗，指天黑。如：「今天一早我們全家便到郊外踏青，直到夜幕低垂才盡興而歸。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜战",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜晚",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜晚",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜裡、晚上",
+   "matched_markers": {
+    "night_core": [
+     "夜裡",
+     "晚上",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜裡、晚上。第四五回：第三八回：",
+   "defn_head": "夜裡、晚上。《水滸傳》第四五回：「若是夜晚老公不在家時，便掇一個香卓兒出來，燒夜香為號。」《儒林外史》第三八回：「夜晚路上有虎，須要小心。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜景",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜景",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.夜間的景色",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.夜間的景色。第一八回：也作。\n2.月光。：",
+   "defn_head": "1.夜間的景色。《文明小史》第一八回：「當下幾個人並無心留戀街上的夜景，匆匆回到棧房。」也作「夜色」。\n2.月光。《文選．陶淵明．辛丑歲七月赴假還江陵夜行塗口詩》：「涼風起將夕，夜景湛虛明。」",
+   "family": "夜",
+   "committed_tier": "covered_strength_only",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜来",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜深人静",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜游",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜游神",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜漫漫",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜班",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜班",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "在夜晚上的班",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "晚上",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "在夜晚上的班。如：、。清．徐珂：",
+   "defn_head": "在夜晚上的班。如：「大夜班」、「加夜班」。清．徐珂《清稗類鈔．獄訟類．京師中興旅館案》：「檢察某者，以巡警部衛生司主事兼巡警檢察事，值夜班，留廳署。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜生活",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜盲",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜盲症",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜盲症",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "由於遺傳或缺乏維他命A，造成眼睛的視網膜桿狀細胞機能障礙，使得人對黑暗的適應力遲緩，在薄暮或光線不足時不能見物",
+   "matched_markers": {
+    "dusk": [
+     "薄暮"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "病名。由於遺傳或缺乏維他命A，造成眼睛的視網膜桿狀細胞機能障礙，使得人對黑暗的適應力遲緩，在薄暮或光線不足時不能見物。也稱為、。",
+   "defn_head": "病名。由於遺傳或缺乏維他命A，造成眼睛的視網膜桿狀細胞機能障礙，使得人對黑暗的適應力遲緩，在薄暮或光線不足時不能見物。也稱為「雀瞀」、「雀盲眼」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜礼服",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜视",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜视仪",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜课",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜路",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜车",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜車",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.在夜間行駛的車子",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.在夜間行駛的車子。如：也稱為。\n2.在夜間工作或讀書。如：",
+   "defn_head": "1.在夜間行駛的車子。如：「坐夜車回家。」也稱為「晚車」。\n2.在夜間工作或讀書。如：「為了明天的考試，今晚只好開夜車。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜里",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜间",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜間",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜晚。第五二回：也稱為。",
+   "defn_head": "夜晚。《紅樓夢》第五二回：「晴雯服了藥，至晚間又服二和，夜間雖有些汗，還未見效。」也稱為「夜裡」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜间工作",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜阑",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜阑人静",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜静更深",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜餐",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夜饭",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夜飯",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "晚飯。：卷一三：",
+   "defn_head": "晚飯。《朱子語類．卷一三八．雜類》：「俗語：『夜飯減一口，活得九十九。』」《初刻拍案驚奇》卷一三：「看看天色晚來，六老吃了些夜飯，自睡。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "夤夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "夤夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深夜。第二一回：明．凌濛初第一齣：",
+   "defn_head": "深夜。《三國演義》第二一回：「國舅夤夜至此，必有事故。」明．凌濛初《紅拂記》第一齣：「素昧平生，緣何夤夜到此？」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "大半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "大年夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "大年夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "為陰曆十二月最末一日的晚上",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "農曆除夕。為陰曆十二月最末一日的晚上。也稱為。",
+   "defn_head": "農曆除夕。為陰曆十二月最末一日的晚上。也稱為「大年節」。",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "天昏地暗",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "天昏地暗",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.天色昏暗無光",
+   "matched_markers": {
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "1.天色昏暗無光。第二回：也作。\n2.形容極度的行為。第五回：\n3.比喻政治腐敗，綱紀紊亂。如：",
+   "defn_head": "1.天色昏暗無光。《封神演義》第二回：「天昏地暗排兵，月下星前布陣。」也作「天昏地黑」。\n2.形容極度的行為。《儒林外史》第五回：「披頭散髮，滿地打滾，哭的天昏地暗。」\n3.比喻政治腐敗，綱紀紊亂。如：「清末官僚腐敗，使得當時朝政天昏地暗。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "天黑",
+   "route": "T1 (dictionary)",
+   "side": "dark_pool",
+   "resolved_form": "天黑",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "天色暗黑。第五八回：",
+   "defn_head": "天色暗黑。《文明小史》第五八回：「少爺一早上制臺衙門去了，總得天黑才回，大人有什麼事商量，明天再說罷。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T1"
+   ]
+  },
+  {
+   "word": "头昏",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "头昏目眩",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "头昏眼花",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "头昏脑胀",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "子夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "子夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "即半夜子時十一點到一點",
+   "matched_markers": {
+    "night_core": [
+     "半夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "即半夜子時十一點到一點。唐．呂溫詩：唐．皇甫枚：",
+   "defn_head": "即半夜子時十一點到一點。唐．呂溫〈奉和張舍人閣中直夜思聞雅琴因書事通簡僚友〉詩：「涼生子夜後，月照禁垣深。」唐．皇甫枚《王知古》：「不謂寵及迷津，慶逢子夜。聆好音於魯館，逼佳氣於秦臺。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "守夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "守夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "值夜，掌報夜間的時刻",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "值夜，掌報夜間的時刻。卷二：：",
+   "defn_head": "值夜，掌報夜間的時刻。《韓詩外傳》卷二：「守夜不失時，信也。」《後漢書．卷五四．楊震傳》：「宦豎之官，本在給使省闥，司昏守夜，而今猥受過寵，執政操權。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "宵夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "宵夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜間的點心",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜間的點心。如：",
+   "defn_head": "夜間的點心。如：「他準備了清粥小菜，打算好好享受一頓宵夜。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "寒夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "小半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "小年夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "巡夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "巡夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "在夜間巡邏警戒",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "在夜間巡邏警戒。",
+   "defn_head": "在夜間巡邏警戒。",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "年夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "年夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "除夕夜，農曆十二月最後一天的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "除夕夜，農曆十二月最後一天的夜晚。如：、",
+   "defn_head": "除夕夜，農曆十二月最後一天的夜晚。如：「年夜飯」、「年夜已排定值班，恐怕得獨自在公司渡過了。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "年夜饭",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "年夜飯",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "除夕夜家人團聚所吃的餐宴",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "除夕夜家人團聚所吃的餐宴。如：也稱為。",
+   "defn_head": "除夕夜家人團聚所吃的餐宴。如：「一家大小圍著圓桌吃年夜飯，享天倫樂，溫馨無比。」也稱為「年飯」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "开夜车",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "当夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "彻夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "彻夜不眠",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "彻夜未眠",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "成夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "成夜不睡",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "成日成夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "打夜作",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "打夜作",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "作夜工",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "作夜工。指夜間加班、趕工。如：",
+   "defn_head": "作夜工。指夜間加班、趕工。如：「今晚輪到小林打夜作。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "整夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "整夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "整個晚上",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "整個晚上。如：、",
+   "defn_head": "整個晚上。如：「整夜失眠」、「整夜燈火通明。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "整天整夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "日以继夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "日夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "日夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "白天與黑夜",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "黑夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天與黑夜。泛指全天。如：",
+   "defn_head": "白天與黑夜。泛指全天。如：「那位母親日夜思念到外地讀書的兒子而致病，這種深切親情令人動容。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "日夜兼程",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "日日夜夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "日日夜夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "每天每夜",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "每天每夜。形容時時刻刻、隨時。如：",
+   "defn_head": "每天每夜。形容時時刻刻、隨時。如：「與其日日夜夜空思妄想，倒不如付諸實際行動。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "早晨",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "早晨",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "清晨、天明之際",
+   "matched_markers": {
+    "dawn": [
+     "天明",
+     "清晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "清晨、天明之際。南朝宋．鮑照：第二〇回：",
+   "defn_head": "清晨、天明之際。南朝宋．鮑照〈舞鶴賦〉：「感寒雞之早晨，憐霜雁之違漠。」《文明小史》第二〇回：「上海地方早晨，是無所事事的。」",
+   "family": "晨",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "早晨好",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏乱",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏倒",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏倒",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "失去意識而癱倒。第三一回：第三回：",
+   "defn_head": "失去意識而癱倒。《三國演義》第三一回：「紹抱三子痛哭一場，不覺昏倒。」《儒林外史》第三回：「范進因這一個嘴巴，卻也打暈了，昏倒於地。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏厥",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏厥",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "因心情緊張、悲痛或疾病大量出血而暫時失去知覺。如：",
+   "defn_head": "因心情緊張、悲痛或疾病大量出血而暫時失去知覺。如：「她一聽到這個壞消息，就悲傷得昏厥倒地。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏天黑地",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏天黑地",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.光線昏暗，無法辨別方向",
+   "matched_markers": {
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "1.光線昏暗，無法辨別方向。：第五回：\n2.神智迷亂。卷二五：第五二回：\n3.形容人行為放蕩，生活靡爛。第一〇〇回：第九五回：\n4.形容秩序混亂。卷二：\n5.形容社會黑暗。如：",
+   "defn_head": "1.光線昏暗，無法辨別方向。《喻世明言．卷一三．張道陵七試趙昇》：「鬼帥再變五色雲霧，昏天黑地。真人變化一輪紅日，升於九霄。」《東歐女豪傑》第五回：「忽然街上的電燈不知為著什麼原故，霎時間全行熄滅，變了一個昏天黑地的世界。」\n2.神智迷亂。《二刻拍案驚奇》卷二五：「鄭蕊珠昏天黑地，不認得這條路是那裡？離家是近是遠？」《",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏头",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏头转向",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏庸",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏庸",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "昏昧平庸。宋．蘇軾：第二四回：",
+   "defn_head": "昏昧平庸。宋．蘇軾〈思子臺賦〉：「彼昏庸者固不足告也，吾將以為明王之龜策。」《儒林外史》第二四回：「這日叫幕客敘了揭帖稿，取來燈下自己細看：『為特參昏庸不職之縣令以肅官方事』。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏愦",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏昏沉沉",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏昏沉沉",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "形容昏迷不清醒的樣子。第三回：第三四回：",
+   "defn_head": "形容昏迷不清醒的樣子。《儒林外史》第三回：「我這半日，昏昏沉沉，如在夢裡一般。」《紅樓夢》第三四回：「寶玉只喝了兩口湯，便昏昏沉沉的睡去。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏昏迷迷",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏昧",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏昧",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.光線昏暗不明",
+   "matched_markers": {
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "1.光線昏暗不明。：\n2.神智模糊不清。如：\n3.昏庸愚昧，不明事理。如：也作。\n4.時代黑暗，政治腐敗。晉．潘岳：",
+   "defn_head": "1.光線昏暗不明。《七國春秋平話．卷上》：「貧道見燕、齊、韓、魏，將星昏昧。」\n2.神智模糊不清。如：「昨天一整夜沒睡，所以現在精神昏昧，錯誤百出。」\n3.昏庸愚昧，不明事理。如：「這位老先生年紀大了，處理事情越來越昏昧獨斷了。」也作「昏愚」。\n4.時代黑暗，政治腐敗。晉．潘岳〈螢火賦〉：「猶賢哲之處時，時昏昧而道明。",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏暗",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏暗",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "陰暗不明。第一〇三回：第四二回：",
+   "defn_head": "陰暗不明。《三國演義》第一〇三回：「主星幽隱，相輔列曜，其光昏暗。」《英烈傳》第四二回：「上面都是頑石生成，止有一個洞口，倒影天光，便不十分昏暗。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏死",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏沉",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏沉",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "2.昏暗不明",
+   "matched_markers": {
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "1.神智不清，眼睛昏花。元．岳伯川第二折：第九九回：\n2.昏暗不明。如：。",
+   "defn_head": "1.神智不清，眼睛昏花。元．岳伯川《鐵拐李》第二折：「這一會覺昏沉上來，你扶著我者。」《三國演義》第九九回：「吾自覺昏沉，不能理事。」\n2.昏暗不明。如：「夜色昏沉」。",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏沉沉",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏眩",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏眩",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "神智模糊，眼睛昏花。如：",
+   "defn_head": "神智模糊，眼睛昏花。如：「在烈日中站了半小時，她感到一陣昏眩，不支倒地。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏聩",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏过去",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏迷",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏迷",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "1.思緒昏亂迷惘。南朝梁．劉勰：第七七回：\n2.愚昧不明事理。：第一〇六回：\n3.沉迷。第一回：\n4.失去知覺、意識。第四九回：第六九回：",
+   "defn_head": "1.思緒昏亂迷惘。南朝梁．劉勰《文心雕龍．諧讔》：「謎也者，迴互其辭，使昏迷也。」《三國演義》第七七回：「起坐內室，秉燭看書，覺神思昏迷，伏几而臥。」\n2.愚昧不明事理。《文選．張協．雜詩》：「流俗多昏迷，此理誰能察？」《東周列國志》第一〇六回：「趙王一向昏迷，惟郭開之言是聽。」\n3.沉迷。《英烈傳》第一回：「順帝那裡",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏黄",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏黃",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "光線昏暗",
+   "matched_markers": {
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "光線昏暗。唐．韓偓詩：",
+   "defn_head": "光線昏暗。唐．韓偓〈曲江晚思〉詩：「水冷鷺鷥立，煙月愁昏黃。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昏黑",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昏黑",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "多指傍晚黃昏時的天色",
+   "matched_markers": {
+    "dusk": [
+     "黃昏",
+     "傍晚"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "光線昏黃黑暗。多指傍晚黃昏時的天色。唐．杜甫：卷五：",
+   "defn_head": "光線昏黃黑暗。多指傍晚黃昏時的天色。唐．杜甫〈茅屋為秋風所破歌〉：「俄頃風定雲墨色，秋天漠漠向昏黑。」《初刻拍案驚奇》卷五：「那時夜已昏黑，雖然聚得些人起來，四目相視，束手無策。」",
+   "family": "昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "星夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "星夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "有星辰的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "有星辰的夜晚。泛指夜晚。第六回：卷二二回：",
+   "defn_head": "有星辰的夜晚。泛指夜晚。《三國演義》第六回：「遂引呂布星夜回洛陽，商議遷都。」《初刻拍案驚奇》卷二二回：「而今衣錦榮歸，省看家里，隨即星夜到任去。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "春夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昨夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "昨夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "昨天晚上",
+   "matched_markers": {
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "昨天晚上。第五八回：第一五回：",
+   "defn_head": "昨天晚上。《紅樓夢》第五八回：「我昨夜作了一個夢，夢見杏花神和我要一掛白錢，不可叫本房人燒，要一個生人替我燒了，我的病就好的快。」《文明小史》第一五回：「賈子猷看了看，只有昨夜幾個吃鴉片煙的，兀自蒙被而臥。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昨天夜间",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "昼夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晓行夜宿",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨光",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨光",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "清晨的陽光",
+   "matched_markers": {
+    "dawn": [
+     "清晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "清晨的陽光。：唐．杜甫詩：",
+   "defn_head": "清晨的陽光。《文選．陶淵明．歸去來辭》：「問征夫以前路，恨晨光之熹微。」唐．杜甫〈甘林〉詩：「晨光映遠岫，夕露見日晞。」",
+   "family": "晨",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨夕",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨夕",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "早晚、旦暮",
+   "matched_markers": {
+    "full_cycle": [
+     "旦暮"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "早晚、旦暮。晉．陶淵明詩二首之一：宋．秦醇：",
+   "defn_head": "早晚、旦暮。晉．陶淵明〈居〉詩二首之一：「聞多素心人，樂與數晨夕。」宋．秦醇《譚意哥傳》：「晨夕浸沒，則心為愛奪，情由利遷。」",
+   "family": "晨",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨报",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨操",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨操",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "早晨所做的體操",
+   "matched_markers": {
+    "dawn": [
+     "早晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "早晨所做的體操。如：",
+   "defn_head": "早晨所做的體操。如：「他每天習慣到公園做晨操。」「他每天都是做完晨操後才去上班。」",
+   "family": "晨",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨昏",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨昏",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "2.晨昏定省",
+   "matched_markers": {
+    "dawn": [
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.早晚。唐．張九齡詩：卷一九：\n2.晨昏定省。指早晚對父母的服侍問候。唐．孟郊詩：第五一回：",
+   "defn_head": "1.早晚。唐．張九齡〈奉使自藍田玉山南行〉詩：「匪唯徇行役，兼得慰晨昏。」《初刻拍案驚奇》卷一九：「晚間便歸寺中安宿，晨昏隨著淨悟做功果，稽首佛前。」\n2.晨昏定省。指早晚對父母的服侍問候。唐．孟郊〈殺氣不在邊〉詩：「況余隔晨昏，去家成阻修。」《花月痕》第五一回：「先君遠遊日多，小子稚弱，生既未侍晨昏，沒復未親含殮。」",
+   "family": "晨昏",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨曦",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨曦",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "早晨太陽的光輝",
+   "matched_markers": {
+    "dawn": [
+     "早晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "早晨太陽的光輝。晉．陶淵明：唐．皎然詩：",
+   "defn_head": "早晨太陽的光輝。晉．陶淵明〈閒情賦〉：「悲晨曦之易夕，感人生之長勤。」唐．皎然〈效古〉詩：「日出天地正，煌煌闢晨曦。」",
+   "family": "晨",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨练",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "晨練",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "大陸地區指早晨鍛鍊身體",
+   "matched_markers": {
+    "dawn": [
+     "早晨",
+     "晨"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "大陸地區指早晨鍛鍊身體。如：",
+   "defn_head": "大陸地區指早晨鍛鍊身體。如：「今天天氣不錯，公園裡有很多晨練的民眾。」",
+   "family": "晨",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨露未晞",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "晨风",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "暗夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "更深夜静",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "月夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "月夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "有月光的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "有月光的夜晚。唐．杜甫詩八首之七：",
+   "defn_head": "有月光的夜晚。唐．杜甫〈秋興〉詩八首之七：「織女機絲虛月夜，石鯨鱗甲動秋風。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "月色昏黄",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "极夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "查夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "查夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "軍警夜間巡視查看",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "軍警夜間巡視查看。第四〇回：",
+   "defn_head": "軍警夜間巡視查看。《儒林外史》第四〇回：「約有二更盡鼓，店家吆呼道：『客人們起來！木總爺來查夜！』」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "每夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "每夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "每個夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "每個夜晚。第四回：第四五回：",
+   "defn_head": "每個夜晚。《三國演義》第四回：「自此每夜入宮，姦淫宮女，夜宿龍床。」《紅樓夢》第四五回：「橫豎每夜各處有幾個上夜的人，誤了更也不好，不如會個夜局。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "没日没夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "消夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "消夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.夜間的點心",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.夜間的點心。宋．吳自牧：元．周密：\n2.消磨永夜、度過夜晚的時間。唐．方干詩：元．孟漢卿第一折：",
+   "defn_head": "1.夜間的點心。宋．吳自牧《夢粱錄．卷六．除夜》：「是日，內司意思局進呈精巧消夜果子合，合內簇諸般細果、時果、蜜煎、糖煎及市食。」元．周密《武林舊事．卷三．歲除》：「後苑修內司各進消夜果兒，以大合簇飣凡百餘種。」\n2.消磨永夜、度過夜晚的時間。唐．方干〈冬夜泊僧舍〉詩：「無酒能消夜，隨僧早閉門。」元．孟漢卿《魔合羅》第",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "深夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "深夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深更半夜，入夜已久的時候",
+   "matched_markers": {
+    "night_core": [
+     "深更半夜",
+     "半夜",
+     "入夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深更半夜，入夜已久的時候。",
+   "defn_head": "深更半夜，入夜已久的時候。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "深夜航班",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "深更半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "深更半夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深夜。元．李六蔚第三折：第四五回：也作。",
+   "defn_head": "深夜。元．李六蔚《燕青博魚》第三折：「兄弟，深更半夜，你喚我做什麼？」《醒世姻緣傳》第四五回：「這深更半夜的，你關了他外頭是怎麼說？」也作「三更半夜」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "清夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "清夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "寂靜的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "寂靜的夜晚。三國．魏．曹丕詩：第四十六回：",
+   "defn_head": "寂靜的夜晚。三國．魏．曹丕〈於譙作〉詩：「清夜延貴客，明燭發高光。」《花月痕》第四十六回：「清夜捫心，其能自慰乎？」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "清晨",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "清晨",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "twilight",
+   "reason": "twilight (dawn/dusk boundary) token present, no full-day/night core",
+   "receipt_clause": "天剛亮時",
+   "matched_markers": {
+    "dawn": [
+     "天剛亮"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "天剛亮時。第六十二回：第六回：也作、。",
+   "defn_head": "天剛亮時。《紅樓夢》第六十二回：「這日寶玉清晨起來，梳洗已畢。」《老殘遊記二編》第六回：「次日清晨，老殘果隨逸雲將環翠兄弟送去。」也作「清曉」、「清早」。",
+   "family": "晨",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "漏夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "漏夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深夜。如：。",
+   "defn_head": "深夜。如：「漏夜趕路」。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "漫漫长夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "熬夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "熬夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜間因事而支撐不睡",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜間因事而支撐不睡。：",
+   "defn_head": "夜間因事而支撐不睡。《官話指南．卷一．應對須知》：「這個孩子有出息兒，又能熬夜，又能作活。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "白夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "白夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "由於地球自轉軸傾斜，高緯度地區在某些日子，太陽雖落至地平線下，但始終在六度以內，以致天光不會全黑的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "由於地球自轉軸傾斜，高緯度地區在某些日子，太陽雖落至地平線下，但始終在六度以內，以致天光不會全黑的夜晚。",
+   "defn_head": "由於地球自轉軸傾斜，高緯度地區在某些日子，太陽雖落至地平線下，但始終在六度以內，以致天光不會全黑的夜晚。",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "白天黑夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "神志昏迷",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "秋夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "终夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "肝昏迷",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "走夜路",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "起夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "起夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "夜間因大小便而起床",
+   "matched_markers": {
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "夜間因大小便而起床。如：",
+   "defn_head": "夜間因大小便而起床。如：「你昨晚睡覺幹麼老起夜？」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "过夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "连夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "通夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "通夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "整夜",
+   "matched_markers": {
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "整夜。：：",
+   "defn_head": "整夜。《晉書．卷九五．藝術傳．佛圖澄傳》：「通夜不寢，思欲見澄。」《文選．曹丕．與吳質書》：「時有所慮，至通夜不瞑。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "长夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "長夜",
+   "lookup_method": "simp2trad",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "1.漫長難挨的夜晚",
+   "matched_markers": {
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "1.漫長難挨的夜晚。：晉．陶淵明詩二〇首之一六：\n2.人死葬於地下，不復見天日，故亦稱埋葬為。：句下晉．杜預．注：：\n3.比喻漫長的黑暗時代。如：",
+   "defn_head": "1.漫長難挨的夜晚。《文選．古詩十九首．凜凜歲云暮》：「獨宿累長夜，夢想見容輝。」晉．陶淵明〈飲酒〉詩二〇首之一六：「披褐守長夜，晨雞不肯鳴。」\n2.人死葬於地下，不復見天日，故亦稱埋葬為「長夜」。《左傳．襄公十二年》：「春秋窀穸之事」句下晉．杜預．注：「窀，厚也。穸，夜也。厚夜，猶長夜。春秋，謂祭祀。長夜，謂葬埋。」",
+   "family": "夜",
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "除夕夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "雨夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "雪夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": null,
+   "lookup_method": null,
+   "has_entry": false,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "no MOE headword",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": null,
+   "defn_head": null,
+   "committed_tier": "coverage_gap",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  },
+  {
+   "word": "黑夜",
+   "route": "T1+T2 (dictionary + group-char)",
+   "side": "dark_pool",
+   "resolved_form": "黑夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "暗夜、深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "暗夜、深夜。第一八回：",
+   "defn_head": "暗夜、深夜。《三國演義》第一八回：「操乃令眾軍黑夜鑿險開道，暗伏奇兵。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "word": "黑更半夜",
+   "route": "T2 (夜/晨/昏 group-char)",
+   "side": "dark_pool",
+   "resolved_form": "黑更半夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "deep_night",
+   "reason": "deep-night core token present",
+   "receipt_clause": "深夜",
+   "matched_markers": {
+    "night_core": [
+     "深夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "深夜。第七回：",
+   "defn_head": "深夜。《紅樓夢》第七回：「有了好差事就派別人，像這樣黑更半夜送人的事就派我。」",
+   "family": "夜",
+   "committed_tier": "gated_out",
+   "committed_triggers_fired": [
+    "T2"
+   ]
+  }
+ ],
+ "bright_time_rows": [
+  {
+   "word": "上晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "上晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "上午。第四八回：",
+   "defn_head": "上午。《儒林外史》第四八回：「那還是上晝時分，這船到晚纔開。」"
+  },
+  {
+   "word": "下晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "下晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "下午。卷一一：",
+   "defn_head": "下午。《初刻拍案驚奇》卷一一：「下晝時節，是有一個湖州姓呂的客人，叫我的船過渡。」"
+  },
+  {
+   "word": "不分晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "不分晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "不論白天或晚上，表示動作的持續進行",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "不論白天或晚上，表示動作的持續進行。如：",
+   "defn_head": "不論白天或晚上，表示動作的持續進行。如：「在施工單位不分晝夜地全力趕工下，坍方受阻的道路終於搶通。」"
+  },
+  {
+   "word": "不捨晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "不捨晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "日夜不停、持續不斷",
+   "matched_markers": {
+    "full_cycle": [
+     "日夜不停",
+     "日夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日夜不停、持續不斷。如：也作。",
+   "defn_head": "日夜不停、持續不斷。如：「為了提早完工，他們不捨晝夜的繼續工作。」也作「不舍晝夜」。"
+  },
+  {
+   "word": "不舍晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "不舍晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "日夜不停、持續不斷",
+   "matched_markers": {
+    "full_cycle": [
+     "日夜不停",
+     "日夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日夜不停、持續不斷。：唐．張說：也作。",
+   "defn_head": "日夜不停、持續不斷。《論語．子罕》：「子在川上曰：『逝者如斯夫，不舍晝夜。』」唐．張說〈四門助教尹先生墓誌銘〉：「故每外和內厲，元元本本，學者如斯，不舍晝夜。」也作「不捨晝夜」。"
+  },
+  {
+   "word": "中午",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "中午",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "白天十二點左右的時間",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "noon_core": [
+     "十二點"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天十二點左右的時間。如：",
+   "defn_head": "白天十二點左右的時間。如：「中午時分，豔陽高照，出去閒逛不晒暈了才怪！」"
+  },
+  {
+   "word": "亭午",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "亭午",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "正午、中午",
+   "matched_markers": {
+    "noon_core": [
+     "正午",
+     "中午"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "正午、中午。：：也作。",
+   "defn_head": "正午、中午。《文選．孫綽．遊天台山賦》：「爾乃羲和亭午，遊氣高褰。」《聊齋志異．卷一．王成》：「待至亭午，始漸燥。」也作「庭午」。"
+  },
+  {
+   "word": "亭午夜分",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "亭午夜分",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "正午與半夜",
+   "matched_markers": {
+    "noon_core": [
+     "正午"
+    ],
+    "night_core": [
+     "半夜",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "正午與半夜。文獻異文作。北魏．酈道元：",
+   "defn_head": "正午與半夜。「亭」文獻異文作「停」。北魏．酈道元《水經注．江水注》：「重巖疊嶂，隱天蔽日：自非亭午夜分，不見曦月。」"
+  },
+  {
+   "word": "作白日夢",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "作白日夢",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "比喻想一些不切實際的念頭。如：",
+   "defn_head": "比喻想一些不切實際的念頭。如：「就憑這點伎倆就想取代我們？別作白日夢了！」"
+  },
+  {
+   "word": "俾晝作夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "俾晝作夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "以白晝作夜間",
+   "matched_markers": {
+    "day_core": [
+     "白晝",
+     "晝"
+    ],
+    "night_core": [
+     "夜間",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "以白晝作夜間。指日夜生活顛倒。：第四四回：",
+   "defn_head": "以白晝作夜間。指日夜生活顛倒。《詩經．大雅．蕩》：「式號式呼，俾晝作夜。」《文明小史》第四四回：「又說他每天總要睡到下午才起來，有俾晝作夜，公事廢弛各等語。」"
+  },
+  {
+   "word": "兩白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "兩白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "指大白天",
+   "matched_markers": {
+    "day_core": [
+     "大白天",
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "兩，加重語氣之詞。指大白天。元．高文秀第一折：",
+   "defn_head": "兩，加重語氣之詞。「兩白日」指大白天。元．高文秀《黑旋風》第一折：「若有人將哥哥廝欺負，我和他兩白日便見那簸箕星。」"
+  },
+  {
+   "word": "午時",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "午時",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "舊稱上午十一點到下午一點的時段為午時",
+   "matched_markers": {
+    "noon_core": [
+     "午時"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "舊稱上午十一點到下午一點的時段為午時。後指中午十二時左右。唐．白居易詩：第四八回：",
+   "defn_head": "舊稱上午十一點到下午一點的時段為午時。後指中午十二時左右。唐．白居易〈晝寢〉詩：「不作午時眠，長日安可度？」《儒林外史》第四八回：「三姑娘餓了八日，在今日午時去世了。」"
+  },
+  {
+   "word": "卜夜卜晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "卜夜卜晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": {
+    "trigger": "cross_ref_參見X條",
+    "target_raw": "卜晝卜夜",
+    "target_resolved": "卜晝卜夜"
+   },
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "占卜白天和夜晚飲酒的吉凶",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "占卜白天和夜晚飲酒的吉凶。語本：後用以形容宴樂無度，夜以繼日。也作。",
+   "defn_head": "占卜白天和夜晚飲酒的吉凶。語本《左傳．莊公二十二年》：「飲桓公酒，樂。公曰：『以火繼之。』辭曰：『臣卜其晝，未卜其夜，不敢。』」後用以形容宴樂無度，夜以繼日。也作「卜夜卜晝」。"
+  },
+  {
+   "word": "卜晝卜夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "卜晝卜夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "占卜白天和夜晚飲酒的吉凶",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "占卜白天和夜晚飲酒的吉凶。語本：後用以形容宴樂無度，夜以繼日。也作。",
+   "defn_head": "占卜白天和夜晚飲酒的吉凶。語本《左傳．莊公二十二年》：「飲桓公酒，樂。公曰：『以火繼之。』辭曰：『臣卜其晝，未卜其夜，不敢。』」後用以形容宴樂無度，夜以繼日。也作「卜夜卜晝」。"
+  },
+  {
+   "word": "夜以繼晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "夜以繼晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": {
+    "trigger": "cross_ref_參見X條",
+    "target_raw": "夜以繼日",
+    "target_resolved": "夜以繼日"
+   },
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "語出：表示夜晚接著白天，一直不歇息",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "語出：表示夜晚接著白天，一直不歇息。：：也作、、、。",
+   "defn_head": "語出《孟子．離婁下》：「周公思兼三王，以施四事，其有不合者，仰而思之，夜以繼日。幸而得之，坐以待旦。」表示夜晚接著白天，一直不歇息。《漢書．卷五〇．鄭當時傳》：「常置驛馬長安諸郊，請謝賓客，夜以繼日，至明旦，常恐不遍。」《大宋宣和遺事．利集》：「車駕入城，金人摽掠尤甚，小民號泣，夜以繼日，凡七日。」也作「日以繼夜」、「"
+  },
+  {
+   "word": "夜行晝伏",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "夜行晝伏",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "白天潛伏，晚上趕路",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天潛伏，晚上趕路。第一〇〇回：",
+   "defn_head": "白天潛伏，晚上趕路。《三國演義》第一〇〇回：「斜谷若有魏兵守把，汝二人引本部軍越山嶺，夜行晝伏，速出祁山之左，舉火為號。」"
+  },
+  {
+   "word": "大天白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "大天白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "大白天",
+   "matched_markers": {
+    "day_core": [
+     "大白天",
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "大白天。第一二回：",
+   "defn_head": "大白天。《紅樓夢》第一二回：「大天白日，人來人往，你就在這裡也不方便。」"
+  },
+  {
+   "word": "大白天",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "大白天",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天。第八八回：",
+   "defn_head": "白天。《二十年目睹之怪現狀》第八八回：「你們真幹的好事！大白天的把個房門關上，好看呢！」"
+  },
+  {
+   "word": "如日中天",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "如日中天",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "好像太陽正當中午，熾熱光明",
+   "matched_markers": {
+    "noon_core": [
+     "中午"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "好像太陽正當中午，熾熱光明。比喻事物正發展到十分興盛的地步。如：也作。",
+   "defn_head": "好像太陽正當中午，熾熱光明。比喻事物正發展到十分興盛的地步。如：「他的威望如日中天，無人可比。」也作「如日方中」。"
+  },
+  {
+   "word": "心貫白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "心貫白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "形容真心誠意可與光明的太陽相比擬而無愧。：",
+   "defn_head": "形容真心誠意可與光明的太陽相比擬而無愧。《晉書．卷一．宣帝紀》：「國家委將軍以疆埸之任，任將軍以圖蜀之事，可謂心貫白日。」"
+  },
+  {
+   "word": "忠貫白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "忠貫白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "忠誠的心可上達白日",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "忠誠的心可上達白日。形容極為忠心。：也作。",
+   "defn_head": "忠誠的心可上達白日。形容極為忠心。《宣和書譜．卷三．正書．顏真卿》：「惟其忠貫白日，識高天下，故精神見於翰墨之表者，特立而兼括。」也作「忠心貫日」。"
+  },
+  {
+   "word": "日中",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日中",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "1.正午",
+   "matched_markers": {
+    "noon_core": [
+     "正午"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.正午。南朝宋．劉義慶：第一三回：\n2.春分或秋分。：漢．孔安國．傳：",
+   "defn_head": "1.正午。南朝宋．劉義慶《世說新語．方正》：「陳太丘與友期行，期日中。」《儒林外史》第一三回：「宦成這奴才喫了個盡醉，兩口子睡到日中還不起來。」\n2.春分或秋分。《書經．堯典》：「日中星鳥，以殷仲春。」漢．孔安國．傳：「日中，謂春分之日。」"
+  },
+  {
+   "word": "日中則昃",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日中則昃",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "日中則昃指過了中午，太陽就要西斜",
+   "matched_markers": {
+    "noon_core": [
+     "中午",
+     "日中"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "昃，太陽向西。日中則昃指過了中午，太陽就要西斜。比喻事物盛極而衰。：元．無名氏第二折：",
+   "defn_head": "昃，太陽向西。日中則昃指過了中午，太陽就要西斜。比喻事物盛極而衰。《易經．豐卦．彖曰》：「日中則昃，月盈則食。」元．無名氏《來生債》第二折：「你但看日中則昃，月滿則虧，這都是無往不復。」"
+  },
+  {
+   "word": "日中則移",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日中則移",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "過了正午，太陽即向西移",
+   "matched_markers": {
+    "noon_core": [
+     "正午"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "過了正午，太陽即向西移。比喻事物極盛後必然漸漸衰敗。：",
+   "defn_head": "過了正午，太陽即向西移。比喻事物極盛後必然漸漸衰敗。《戰國策．秦策三》：「日中則移，月滿則虧，物盛則衰，天之常數也。」"
+  },
+  {
+   "word": "日中必彗",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日中必彗",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "日中必彗指要晒東西須趁正中午的時候",
+   "matched_markers": {
+    "noon_core": [
+     "正中午",
+     "中午",
+     "日中",
+     "正中"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "彗，曝晒。日中必彗指要晒東西須趁正中午的時候。比喻作事要把握良機。：",
+   "defn_head": "彗，曝晒。日中必彗指要晒東西須趁正中午的時候。比喻作事要把握良機。《六韜．卷一．文韜．守士》：「日中必彗，操刀必割，執斧必伐，日中不彗，是謂失時。」"
+  },
+  {
+   "word": "日間",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日間",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天。第二二回：第六四回：",
+   "defn_head": "白天。《三國演義》第二二回：「傳令今夜二更去劫寨，日間卻在帳中飲酒詐醉。」《紅樓夢》第六四回：「外面僕婦，不過晚間巡更，日間看守門戶。」"
+  },
+  {
+   "word": "日間部",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "日間部",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "學校裡學生在白天上課的行政單位",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "學校裡學生在白天上課的行政單位。如：",
+   "defn_head": "學校裡學生在白天上課的行政單位。如：「他白天在日間部上課，晚上則四處兼差打工，賺取學費。」"
+  },
+  {
+   "word": "旦晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "旦晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白晝",
+   "matched_markers": {
+    "day_core": [
+     "白晝",
+     "晝"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白晝。：",
+   "defn_head": "白晝。《孟子．告子上》：「其旦晝之所為，有梏亡之矣！」"
+  },
+  {
+   "word": "晌午",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晌午",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "中午",
+   "matched_markers": {
+    "noon_core": [
+     "中午"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "中午。第四回：第九三回：",
+   "defn_head": "中午。《水滸傳》第四回：「未及晌午，馬已到來，員外便請魯提轄上馬，叫莊客擔了行李。」《紅樓夢》第九三回：「過了晌午，便擺開桌子吃酒。」"
+  },
+  {
+   "word": "晌午歪",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晌午歪",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "下午一到兩點之間。",
+   "defn_head": "下午一到兩點之間。"
+  },
+  {
+   "word": "晝伏",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝伏",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天時潛伏隱藏不活動",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天時潛伏隱藏不活動。第一〇〇回：",
+   "defn_head": "白天時潛伏隱藏不活動。《三國演義》第一〇〇回：「斜谷若有魏兵守把，汝二人引本部軍越山嶺，夜行晝伏，速出祁山之左，舉火為號。」"
+  },
+  {
+   "word": "晝伏夜出",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝伏夜出",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "白天時潛伏休息，晚上才出來活動",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天時潛伏休息，晚上才出來活動。如：：",
+   "defn_head": "白天時潛伏休息，晚上才出來活動。如：「那人每天晝伏夜出，形蹤詭祕，實在令人好奇。」《明史．卷二四四．魏大中列傳》：「既抵都，邏卒四布，變姓名匿旅舍，晝伏夜出，稱貸以完父贓。」"
+  },
+  {
+   "word": "晝伏夜游",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝伏夜游",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "白天潛伏隱藏，晚上出來活動",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天潛伏隱藏，晚上出來活動。：",
+   "defn_head": "白天潛伏隱藏，晚上出來活動。《隋書．卷二．高祖紀下》：「歷陽、廣陵，窺覦相繼，或謀圖城邑，或劫剝吏人，晝伏夜游，鼠竄狗盜。」"
+  },
+  {
+   "word": "晝分",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝分",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "中午",
+   "matched_markers": {
+    "noon_core": [
+     "中午"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "中午。：",
+   "defn_head": "中午。《文選．曹植．上責躬應詔詩表》：「刻肌刻骨，追思罪戾，晝分而食，夜分而寢。」"
+  },
+  {
+   "word": "晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "日夜",
+   "matched_markers": {
+    "full_cycle": [
+     "日夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日夜。：第四回：",
+   "defn_head": "日夜。《論語．子罕》：「子在川上，曰：『逝者如斯夫，不舍晝夜！』」《儒林外史》第四回：「眾和尚喫完了齋，洗了臉和手，吹打拜懺，行香放燈，施食散花，跑五方，整整鬧了三晝夜，方纔散了。」"
+  },
+  {
+   "word": "晝夜停勻",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝夜停勻",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "日夜等長",
+   "matched_markers": {
+    "full_cycle": [
+     "日夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日夜等長。第一回：",
+   "defn_head": "日夜等長。《老殘遊記》第一回：「秋天雖是晝夜停勻時候，究竟日出日入，有蒙氣傳光，還覺得夜是短的。」"
+  },
+  {
+   "word": "晝夜兼行",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝夜兼行",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "日以繼夜的趕路",
+   "matched_markers": {
+    "full_cycle": [
+     "日以繼夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日以繼夜的趕路。：第九六回：",
+   "defn_head": "日以繼夜的趕路。《舊五代史．卷四六．唐書．末帝本紀上》：「明宗將前軍，帝率勁騎以從，晝夜兼行，率先下汴城。」《東周列國志》第九六回：「趙奢既遣秦使，約三日，度其可至秦軍，遂出令選騎兵善射慣戰者萬人為前鋒，大軍在後，銜枚卷甲，晝夜兼行。」"
+  },
+  {
+   "word": "晝寢",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝寢",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天睡覺",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天睡覺。第三八回：",
+   "defn_head": "白天睡覺。《三國演義》第三八回：「今日先生雖在家，但今在草堂上晝寢未醒。」"
+  },
+  {
+   "word": "晝日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "2.白日",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.一天。：：\n2.白日。：：",
+   "defn_head": "1.一天。《易經．晉卦》：「《彖》曰：『是以康侯用錫馬蕃庶，晝日三接也。』」《舊唐書．卷一六〇．列傳．韓愈》：「唯梁武帝在位四十八年，前後三度捨身施佛，宗廟之祭，不用牲牢，晝日一食，止於菜果；其後竟為侯景所逼，餓死臺城，國亦尋滅，事佛求福，乃更得禍。」\n2.白日。《後漢書．卷八〇．文苑列傳上．邊韶》：「韶口辯，曾晝日假"
+  },
+  {
+   "word": "晝日晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝日晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "整日、從早到晚。第二二回：",
+   "defn_head": "整日、從早到晚。《儒林外史》第二二回：「還有那分了題，限了韻來要求教的，晝日晝夜，打發不清。」"
+  },
+  {
+   "word": "晝暝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝暝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "白日天色昏暗",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ],
+    "night_core": [
+     "昏暗"
+    ]
+   },
+   "illum_poles": [
+    "dark"
+   ],
+   "gloss_head": "白日天色昏暗。：",
+   "defn_head": "白日天色昏暗。《聊齋志異．卷一．嬌娜》：「果見陰雲晝暝，昏黑如瑿。」"
+  },
+  {
+   "word": "晝短夜長",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝短夜長",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "地球繞著太陽公轉，當太陽位在南（北）半球上方時，北（南）半球會形成白天短，晚上長的情形",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "晚上"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "地球繞著太陽公轉，當太陽位在南（北）半球上方時，北（南）半球會形成白天短，晚上長的情形。",
+   "defn_head": "地球繞著太陽公轉，當太陽位在南（北）半球上方時，北（南）半球會形成白天短，晚上長的情形。"
+  },
+  {
+   "word": "晝錦之榮",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝錦之榮",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天穿著錦衣，光耀醒目",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天穿著錦衣，光耀醒目。楚項羽初定天下，決意定都彭城故里，旁人勸其留在關中，項羽說：典出。後以晝錦之榮比喻富貴顯達後，炫耀的榮歸故里。宋．胡仔：",
+   "defn_head": "白天穿著錦衣，光耀醒目。楚項羽初定天下，決意定都彭城故里，旁人勸其留在關中，項羽說：「富貴不歸故鄉，如衣繡夜行，誰知之者？」典出《史記．卷七．項羽本紀》。後以晝錦之榮比喻富貴顯達後，炫耀的榮歸故里。宋．胡仔《苕溪漁隱叢話後集．卷三五．本朝雜記上》：「近世士人與上官詩，無非諛詞，未聞有規勸之語者。或者獻詩於魏公，勸其辭分"
+  },
+  {
+   "word": "晝錦堂",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝錦堂",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "1.宋朝名相韓琦的故宅，位於河南省安陽縣城東南隅，乃韓琦拜相後返鄉重建，歐陽修曾為之作有名的。\n2.詞牌名。有平韻、仄韻兩體。\n3.曲牌名。為南曲入仙呂宮正曲。",
+   "defn_head": "1.宋朝名相韓琦的故宅，位於河南省安陽縣城東南隅，乃韓琦拜相後返鄉重建，歐陽修曾為之作有名的〈晝錦堂記〉。\n2.詞牌名。有平韻、仄韻兩體。\n3.曲牌名。為南曲入仙呂宮正曲。"
+  },
+  {
+   "word": "晝錦榮歸",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "晝錦榮歸",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": {
+    "trigger": "cross_ref_參見X條",
+    "target_raw": "晝錦之榮",
+    "target_resolved": "晝錦之榮"
+   },
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天穿著錦衣，光耀醒目",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天穿著錦衣，光耀醒目。楚項羽初定天下，決意定都彭城故里，旁人勸其留在關中，項羽說：典出。後以晝錦之榮比喻富貴顯達後，炫耀的榮歸故里。宋．胡仔：",
+   "defn_head": "白天穿著錦衣，光耀醒目。楚項羽初定天下，決意定都彭城故里，旁人勸其留在關中，項羽說：「富貴不歸故鄉，如衣繡夜行，誰知之者？」典出《史記．卷七．項羽本紀》。後以晝錦之榮比喻富貴顯達後，炫耀的榮歸故里。宋．胡仔《苕溪漁隱叢話後集．卷三五．本朝雜記上》：「近世士人與上官詩，無非諛詞，未聞有規勸之語者。或者獻詩於魏公，勸其辭分"
+  },
+  {
+   "word": "月明如晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "月明如晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "形容月光明亮。第六回：清．洪昇第一四齣：",
+   "defn_head": "形容月光明亮。《三國演義》第六回：「走至一荒山腳下，時約二更，月明如晝。」清．洪昇《長生殿》第一四齣：「不免袖了鐵笛，來到驪山，趁此月明如晝，竊聽一回。」"
+  },
+  {
+   "word": "正午",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "正午",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "noon",
+   "reason": "noon core token present",
+   "receipt_clause": "中午十二點鐘",
+   "matched_markers": {
+    "noon_core": [
+     "中午",
+     "十二點"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "中午十二點鐘。唐．李廓詩：第一六回：",
+   "defn_head": "中午十二點鐘。唐．李廓〈夏日途中〉詩：「樹夾炎風路，行人正午稀。」《文明小史》第一六回：「一天到晚，只吃兩頓飯，每日正午一頓飯，黑天七點鐘一頓。」"
+  },
+  {
+   "word": "永晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "永晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "漫長的白日",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "漫長的白日。第一回：",
+   "defn_head": "漫長的白日。《紅樓夢》第一回：「兄來得正妙，請入小齋一談，彼此皆可消此永晝。」"
+  },
+  {
+   "word": "沒晝夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "沒晝夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "不分白天夜晚",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "不分白天夜晚。第四九回：",
+   "defn_head": "不分白天夜晚。《紅樓夢》第四九回：「那史湘雲又是極愛說話的，那裡禁得起香菱又請教他談詩，越發高了興，沒晝夜高談闊論起來。」"
+  },
+  {
+   "word": "炫晝縞夜",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "炫晝縞夜",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — day-core and night-core co-occur",
+   "receipt_clause": "炫晝縞夜本指桃花在白天顯得十分耀眼，而李花則於夜晚才顯現出明亮的白色",
+   "matched_markers": {
+    "day_core": [
+     "白天",
+     "晝"
+    ],
+    "night_core": [
+     "夜晚",
+     "夜"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "炫，耀眼。縞，白。炫晝縞夜本指桃花在白天顯得十分耀眼，而李花則於夜晚才顯現出明亮的白色。形容不分晝夜皆光亮耀眼。宋．楊萬里：",
+   "defn_head": "炫，耀眼。縞，白。炫晝縞夜本指桃花在白天顯得十分耀眼，而李花則於夜晚才顯現出明亮的白色。形容不分晝夜皆光亮耀眼。宋．楊萬里〈讀退之李花詩．序〉：「桃李歲歲同時并開，而退之有『花不見桃惟見李』之句，殊不可解；因晚登碧落堂，望隔江桃皆暗，而李獨明，乃悟其妙，蓋炫晝縞夜云。」"
+  },
+  {
+   "word": "照如白晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "照如白晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "光線把四周景物照耀得如同白天一樣明亮",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [
+    "bright"
+   ],
+   "gloss_head": "光線把四周景物照耀得如同白天一樣明亮。第一三回：",
+   "defn_head": "光線把四周景物照耀得如同白天一樣明亮。《紅樓夢》第一三回：「只見府門洞開，兩邊燈籠照如白晝，亂烘烘人來人往，裡面哭聲搖山振岳。」"
+  },
+  {
+   "word": "白天",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白天",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "span: dawn before dusk -> the day between",
+   "receipt_clause": "日出後，日落前的時間",
+   "matched_markers": {
+    "dawn": [
+     "日出"
+    ],
+    "dusk": [
+     "日落"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日出後，日落前的時間。如：第三九回：也稱為。",
+   "defn_head": "日出後，日落前的時間。如：「現在是白天又不是黑夜，你怕什麼怕！」《二十年目睹之怪現狀》第三九回：「他此刻白天學生意，晚上念洋書。」也稱為「白晝」。"
+  },
+  {
+   "word": "白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "2.白天",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.太陽。：唐．王之渙詩：\n2.白天。自日出之後、日落之前的一段時間。第二一回：",
+   "defn_head": "1.太陽。《文選．宋玉．神女賦序》：「其始來也，耀乎若白日初出照屋梁。」唐．王之渙〈登鸛雀樓〉詩：「白日依山盡，黃河入海流。」\n2.白天。自日出之後、日落之前的一段時間。《三國演義》第二一回：「白日乘馬相訪，恐操見疑，故黑夜相見。」"
+  },
+  {
+   "word": "白日夢",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日夢",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "大白天做夢",
+   "matched_markers": {
+    "day_core": [
+     "大白天",
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "大白天做夢。比喻不切實際的幻想、妄想。如：",
+   "defn_head": "大白天做夢。比喻不切實際的幻想、妄想。如：「他想成為億萬富翁，卻不努力工作，簡直是在做白日夢！」"
+  },
+  {
+   "word": "白日撞",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日撞",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "稱招搖撞騙的賊人，或指行為放縱、散漫的人。：也稱為。",
+   "defn_head": "稱招搖撞騙的賊人，或指行為放縱、散漫的人。《喻世明言．卷四〇．沈小霞相會出師表》：「這門上是我的干紀，出入都是我通稟，你卻說這等鬼話，你莫非是白日撞麼？強裝麼公差名色，掏摸東西的。」也稱為「白日鬼」。"
+  },
+  {
+   "word": "白日昇天",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日昇天",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "1.古人以為服食仙丹，或積累善行，便可以在白日昇天成仙",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.古人以為服食仙丹，或積累善行，便可以在白日昇天成仙。：也作。\n2.比喻向來貧寒的人突然間富貴起來。如：",
+   "defn_head": "1.古人以為服食仙丹，或積累善行，便可以在白日昇天成仙。《魏書．卷一一四．釋老志》：「其為教也，咸蠲去邪累，澡雪心神，積行樹功，累德增善，乃至白日昇天，長生世上。」也作「白日飛昇」。\n2.比喻向來貧寒的人突然間富貴起來。如：「自從他得到那份獎金後，便有如白日昇天似的，完全變了一個樣。」"
+  },
+  {
+   "word": "白日衣繡",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日衣繡",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "穿著錦繡的衣服在白天出行",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "穿著錦繡的衣服在白天出行。比喻得到功名富貴之後向鄉里誇耀。漢．應劭：",
+   "defn_head": "穿著錦繡的衣服在白天出行。比喻得到功名富貴之後向鄉里誇耀。漢．應劭《風俗通義．卷九．怪神》：「其年司空辟侍御史兗州刺史，以二千石之尊，過鄉里，薦祝祖考；白日衣繡，榮羨如此。」"
+  },
+  {
+   "word": "白日見鬼",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日見鬼",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "1.比喻官員、官衙非常清閑。宋．陸游卷六：\n2.比喻事情離奇古怪或無中生有。卷九：",
+   "defn_head": "1.比喻官員、官衙非常清閑。宋．陸游《老學庵筆記》卷六：「自元豐官制，尚書省復二十四曹，繁簡絕異，在京師時有語曰：『吏、勛、封、考，筆頭不倒……工、屯、虞、水，白日見鬼。』」\n2.比喻事情離奇古怪或無中生有。《二刻拍案驚奇》卷九：「龍香嘻的一笑道：『白日見鬼！枉著人急了這許多時。』」"
+  },
+  {
+   "word": "白日賊",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日賊",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "騙子。元．周密：",
+   "defn_head": "騙子。元．周密《武林舊事．卷六．游手》：「又有賣買物貨，以偽易真，至以紙為衣，銅鉛為金銀，土木為香藥，變換如神，謂之『白日賊』。」"
+  },
+  {
+   "word": "白日間",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日間",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天。第五回：第六三回：兩個字，改兩個字。』眾人便知他趣白日間湘雲醉臥的事，都笑了。」",
+   "defn_head": "白天。《水滸傳》第五回：「且說魯智深自離了五臺山文殊院，取路投東京來。行了半月之上，於路不投寺院去歇，只是客店內打火安身，白日間酒肆裡買吃。」《紅樓夢》第六三回：「黛玉笑道：『「夜深」兩個字，改「石涼」兩個字。』眾人便知他趣白日間湘雲醉臥的事，都笑了。」"
+  },
+  {
+   "word": "白日飛昇",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日飛昇",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "古人以為服食仙丹，或積累善行，便可以在白晝升入天界成仙",
+   "matched_markers": {
+    "day_core": [
+     "白晝",
+     "晝"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "古人以為服食仙丹，或積累善行，便可以在白晝升入天界成仙。也作。",
+   "defn_head": "古人以為服食仙丹，或積累善行，便可以在白晝升入天界成仙。也作「白日昇天」。"
+  },
+  {
+   "word": "白日鬼",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白日鬼",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "招搖撞騙的賊人，或行為放縱、散漫的人。引劉跂：也稱為。",
+   "defn_head": "招搖撞騙的賊人，或行為放縱、散漫的人。《稱謂錄．卷二九．盜賊．白日鬼》引劉跂《暇日記》：「宋時指賊人曰『白日鬼』，見誕謾者亦曰『白日鬼』。」也稱為「白日撞」。"
+  },
+  {
+   "word": "白晝",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "白晝",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "span: dawn before dusk -> the day between",
+   "receipt_clause": "日出後，日落前的時間",
+   "matched_markers": {
+    "dawn": [
+     "日出"
+    ],
+    "dusk": [
+     "日落"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "日出後，日落前的時間。唐．吳融詩：也稱為。",
+   "defn_head": "日出後，日落前的時間。唐．吳融〈廢宅〉詩：「幾樹好花閒白晝，滿庭荒草易黃昏。」也稱為「白天」。"
+  },
+  {
+   "word": "精貫白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "精貫白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "definition carries no time-of-day/solar clause",
+   "receipt_clause": null,
+   "matched_markers": {},
+   "illum_poles": [],
+   "gloss_head": "正義凜然的精神可以感通上天。：：也作。",
+   "defn_head": "正義凜然的精神可以感通上天。《三國志．卷一．魏書．武帝紀》：「君執大節，精貫白日，奮其武怒，運其神策。」《新唐書．卷二〇三．文藝傳下．李華傳》：「慢叱兇徒，精貫白日。」也作「精誠貫日」。"
+  },
+  {
+   "word": "衣繡晝行",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "衣繡晝行",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天穿著錦繡華服在路上行走",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天穿著錦繡華服在路上行走。比喻身居官職，榮耀異常。：也作。",
+   "defn_head": "白天穿著錦繡華服在路上行走。比喻身居官職，榮耀異常。《三國志．卷一五．魏書．張既傳》：「太祖謂既曰：『還君本州，可謂衣繡晝行矣。』」也作「衣錦晝游」。"
+  },
+  {
+   "word": "衣錦晝游",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "衣錦晝游",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白天穿著錦繡華衣在路上行走",
+   "matched_markers": {
+    "day_core": [
+     "白天"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "白天穿著錦繡華衣在路上行走。比喻身居官職，榮耀異常。：也作。",
+   "defn_head": "白天穿著錦繡華衣在路上行走。比喻身居官職，榮耀異常。《魏書．卷六八．甄琛傳》：「未幾，除征北將軍、定州刺史，衣錦晝游，大為稱滿。」也作「衣繡晝行」。"
+  },
+  {
+   "word": "青天白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "青天白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "daylight",
+   "reason": "daylight core token present",
+   "receipt_clause": "白日，明耀的太陽",
+   "matched_markers": {
+    "day_core": [
+     "白日"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "1.青天，晴空。白日，明耀的太陽。青天白日指大白天。卷二：第十九回：\n2.比喻清明廉潔。唐．韓愈：\n3.中國國民黨的黨徽，象徵自由平等。",
+   "defn_head": "1.青天，晴空。白日，明耀的太陽。青天白日指大白天。《初刻拍案驚奇》卷二：「你既說留我到此坐著，報我家中，青天白日，暗地拐人來家，要行局騙。」《紅樓夢》第十九回：「青天白日，這是怎麼說！珍大爺知道，你是死是活！」\n2.比喻清明廉潔。唐．韓愈〈與崔群書〉：「青天白日，奴隸亦知其清明。」\n3.中國國民黨的黨徽，象徵自由平等"
+  },
+  {
+   "word": "黑家白日",
+   "route": "MOE-derived bright-time candidate (LOCATE-ONLY; no pipeline)",
+   "side": "bright_derived",
+   "resolved_form": "黑家白日",
+   "lookup_method": "direct",
+   "has_entry": true,
+   "hop": null,
+   "proposed_class": "UNCLASSIFIABLE",
+   "reason": "spans day and night — no single illuminance (full-cycle token)",
+   "receipt_clause": "整天整夜，一天到晚",
+   "matched_markers": {
+    "full_cycle": [
+     "整天整夜"
+    ],
+    "night_core": [
+     "夜"
+    ]
+   },
+   "illum_poles": [],
+   "gloss_head": "整天整夜，一天到晚。第二一回：",
+   "defn_head": "整天整夜，一天到晚。《紅樓夢》第二一回：「姊妹們和氣，也有個分寸禮節，也沒個黑家白日鬧的。」"
+  }
+ ]
+}

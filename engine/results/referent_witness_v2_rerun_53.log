@@ -1,0 +1,14 @@
+[1/4] Route A (pixels) ...
+      used=13714 skipped=116
+[2/4] DRIFT CHECK vs v1 ...
+      VERDICT: DRIFT | top-bin match 74/80, hist-exact 19/80
+      gate carrot    target ['orange', 0.86] rebuild ['orange', 0.86] reproduced=True
+      gate orange    target ['orange', 0.621] rebuild ['orange', 0.6041] reproduced=False
+      gate banana    target ['yellow', 0.485] rebuild ['yellow', 0.485] reproduced=True
+      gate broccoli  target ['green', 0.48] rebuild ['green', 0.48] reproduced=True
+[3/4] Route B (cross-language) ...
+      EN base 0.027924 (27924) | ZH base 0.022655 (4734) | EN terms 395 ZH terms 687
+[4/4] Extensions A/B + re-sweep ... (CAVEATED: pixel base failed exact v1 reproduction)
+      color overlap=59  illum overlap=43  animals killed=5/5
+wrote <LAB>/caesitas_proto/results/referent_witness_v2_PROPOSED_53.json
+wrote <LAB>/caesitas_proto/referent_witness_v2_PROPOSED_53.md

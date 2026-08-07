@@ -1,0 +1,733 @@
+{
+ "what": "EN temporal-REFERENT organ pass — descriptive-row furniture (temporal-referent row, en side)",
+ "ruling": "her word 07-23 morning: \"Let's put temporal-referent organ en in as well.\"",
+ "organ_of_record": "caesitas_proto/en_temporal_referent_organ_55b.py (ADOPTED post-55b split; e4 BUILT #55, 55b split, #55.1 F16 root re-export shim; ADOPTED 07-23)",
+ "registration": "caesitas_proto/en_temporal_referent_organ_pass_registration_56.md",
+ "source_set": "xibei",
+ "row_charge_classes": [
+  "ephemeral",
+  "enduring",
+  "seasonal"
+ ],
+ "bygone_informational_rule": "bygone is NOT a scored row charge under the adopted post-split state: it lives in the known-uncaptured register.  This pass EMITS bygone matches as INFORMATIONAL furniture (clearly labeled non-row) and NEVER counts them in a per-line row-class rollup.",
+ "out_of_scope": "Every fr / de / jp / zh seat of every board is OUT OF SCOPE and NOT scored by this pass — the organ's referents are English WordNet lemmas; non-en seats are not looked up.",
+ "parse_law": "corpus_breadth_runner_56.parse_seat (specs S/M/X, verbatim)",
+ "wordnet_version": "3.0",
+ "seats_scored": [
+  {
+   "rid": "en:waley_1918",
+   "tier": "repo",
+   "parse_spec": "M",
+   "redacted_f9": false,
+   "n_lines": 16,
+   "registered_exp": null,
+   "count_matches_registered": null,
+   "source_file": {
+    "path": "corpus/ensemble/xibei_you_gaolou/waley_en_1918.md",
+    "sha256": "ad0f8ab737305cdbe5fc97b474f3fe6478417f600cf7630667f09c69e0a5e8df"
+   },
+   "lines": [
+    {
+     "line_no": 1,
+     "text": "In the north-west there is a high house,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 2,
+     "text": "Its top level with the floating clouds.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 3,
+     "text": "Embroidered curtains thinly screen its windows,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 4,
+     "text": "Its storied tower is built on three steps.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 5,
+     "text": "From above there comes a noise of playing and singing,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 6,
+     "text": "The tune sounding, oh! how sad!",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 7,
+     "text": "Who can it be, playing so sad a tune?",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 8,
+     "text": "Surely it must be Ch’i Liang’s wife.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 9,
+     "text": "The tranquil “D” follows the wind’s rising,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 10,
+     "text": "The middle lay lingers indecisive.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 11,
+     "text": "To each note, two or three sobs,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 12,
+     "text": "Her high will conquered by overwhelming grief.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 13,
+     "text": "She does not regret that she is left so sad,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 14,
+     "text": "But minds that so few can understand her song.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 15,
+     "text": "She wants to become those two wild geese",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 16,
+     "text": "That with beating wings rise high aloft.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    }
+   ]
+  },
+  {
+   "rid": "en:owen",
+   "tier": "local",
+   "parse_spec": "M",
+   "redacted_f9": true,
+   "n_lines": 16,
+   "registered_exp": null,
+   "count_matches_registered": null,
+   "source_file": {
+    "path": "<HOME>/garden/books/dnd2027/corpus/transcriptions/owen_norton/xibei_you_gaolou.md",
+    "sha256": "cec58a52d5dc1b8c04b8091b120ed817945a3b890b306355b9aa92c34bd2c0ff"
+   },
+   "lines": [
+    {
+     "line_no": 1,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 2,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 3,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 4,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 5,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 6,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 7,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 8,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 9,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 10,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 11,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 12,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 13,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 14,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 15,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 16,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    }
+   ]
+  },
+  {
+   "rid": "en:birrell",
+   "tier": "local",
+   "parse_spec": "M",
+   "redacted_f9": true,
+   "n_lines": 16,
+   "registered_exp": null,
+   "count_matches_registered": null,
+   "source_file": {
+    "path": "<HOME>/garden/books/dnd2027/corpus/transcriptions/birrell_jade_terrace/xibei_you_gaolou.md",
+    "sha256": "a775688c0bb91fb1d5c350ac1846c77d0060d4cb3b2b85e8ed5150deb2e2d260"
+   },
+   "lines": [
+    {
+     "line_no": 1,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 2,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 3,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 4,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 5,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 6,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 7,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 8,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 9,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 10,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 11,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 12,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 13,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 14,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 15,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 16,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    }
+   ]
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "tier": "local",
+   "parse_spec": "M",
+   "redacted_f9": true,
+   "n_lines": 16,
+   "registered_exp": null,
+   "count_matches_registered": null,
+   "source_file": {
+    "path": "<HOME>/garden/books/dnd2027/corpus/transcriptions/xu_yuanchong/xibei_you_gaolou.md",
+    "sha256": "27a39651f1d768bc0cde5ab4c6d0294c0b313588663a397467bbe37ed2217ab6"
+   },
+   "lines": [
+    {
+     "line_no": 1,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 2,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 3,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 4,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 5,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 6,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 7,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 8,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 9,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 10,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 11,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 12,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 13,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 14,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 15,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    },
+    {
+     "line_no": 16,
+     "text": null,
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0,
+     "text_redacted": "in-copyright LOCAL_TIER transcription — full-line text never enters publishable/ (F9); fired words + charges only; file + sha in manifest"
+    }
+   ]
+  }
+ ],
+ "seats_declared_absent": [
+  {
+   "rid": "en:watson",
+   "path": "<HOME>/garden/books/dnd2027/corpus/transcriptions/watson_chinese_lyricism/xibei_you_gaolou.md",
+   "reason": "declared in scope, not on disk — not scored"
+  }
+ ],
+ "manifest": {
+  "organ_script": {
+   "path": "caesitas_proto/en_temporal_referent_organ_55b.py",
+   "sha256": "44bbe5bf79f5bf8bb7af2694fbacd3214e24776c9fbddc4dc7612a67475fe667",
+   "note": "ADOPTED organ of record (post-55b split); this pass reimplements none of it"
+  },
+  "organ_receipts": {
+   "path": "caesitas_proto/results/en_temporal_referent_organ_55b_receipts.jsonl",
+   "sha256": "baac46c705178ab62ea119fafae46f307f046bef2e190f27a3409a7a5dac85a6"
+  },
+  "organ_root_shim": {
+   "path": "caesitas_proto/en_temporal_referent_organ_55.py",
+   "sha256": "285707e1e420ff2282e7cd1740d18c70c4e90f00270bb6d70c74d83896216924",
+   "note": "#55.1 F16 re-export shim -> superseded record"
+  },
+  "organ_superseded_record": {
+   "path": "caesitas_proto/superseded/en_temporal_referent_organ_55.py",
+   "sha256": "4babeb03cb182e4482ba3740778d5ee2cd5a0a76bc5ac3511374151ed03a55aa"
+  },
+  "wordnet_zip": {
+   "path": "caesitas_proto/nltk_data/corpora/wordnet.zip",
+   "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+  }
+ }
+}

@@ -1,0 +1,8753 @@
+{
+ "generated": "2026-07-20",
+ "total_captions_parsed": 26930,
+ "citation_rule": "Each sentence cited by (image_id, source, lineno). image_id = numeric portion of the COCO key. source='main' = coco-cn-version1805v1.1/imageid.human-written-caption.txt; source='ext' = coco-cn_ext.icap2020.txt. lineno is 1-based within each file.",
+ "substring_rule": "Word matched as raw substring in caption text (captions are unsegmented prose). n_caption_hosts_substr counts sentences containing word as substring.",
+ "jieba_rule": "n_caption_hosts_jieba counts sentences where word appears as a whole token in jieba.cut() output over the matching sentence set (not re-run over all captions, only over substring hits). jieba_available=True",
+ "pred_subs_rule": "pred_subs_class='subs' if color_adjacent_any=True, else 'pred'. Derived from pools_definition_leg_53.json color_adjacent_any field.",
+ "entries": [
+  {
+   "surface": "受",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 14,
+   "n_caption_hosts_jieba": 1,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 14,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000337120",
+     "source": "main",
+     "lineno": 2713,
+     "sentence": "接到对面的墙上挂着钟表和耶稣受难雕像"
+    },
+    {
+     "image_id": "000000271789",
+     "source": "main",
+     "lineno": 3642,
+     "sentence": "一只仿佛受了委屈的浅棕色玩具泰迪熊"
+    },
+    {
+     "image_id": "000000093639",
+     "source": "main",
+     "lineno": 5100,
+     "sentence": "野外一群受惊的斑马站在一片草地上。"
+    },
+    {
+     "image_id": "000000545187",
+     "source": "main",
+     "lineno": 5179,
+     "sentence": "一群人享受一些美味的饮料"
+    },
+    {
+     "image_id": "000000053642",
+     "source": "main",
+     "lineno": 7257,
+     "sentence": "一个严重受伤的男人躺在医院床上接受急救。"
+    },
+    {
+     "image_id": "000000517318",
+     "source": "main",
+     "lineno": 9704,
+     "sentence": "长颈鹿正在接受一名女士的喂食。"
+    },
+    {
+     "image_id": "000000513066",
+     "source": "main",
+     "lineno": 9918,
+     "sentence": "医生在为受伤的人缝腿上的伤口"
+    },
+    {
+     "image_id": "000000254629",
+     "source": "main",
+     "lineno": 11744,
+     "sentence": "人们在沙滩上享受着阳光。"
+    },
+    {
+     "image_id": "000000086750",
+     "source": "main",
+     "lineno": 13506,
+     "sentence": "两个人正在享受着很大的披萨"
+    },
+    {
+     "image_id": "000000032206",
+     "source": "main",
+     "lineno": 15596,
+     "sentence": "足球场上一名队员受伤倒地"
+    },
+    {
+     "image_id": "000000086512",
+     "source": "main",
+     "lineno": 18277,
+     "sentence": "在棒球场上，一名棒球运动员正在接受采访"
+    },
+    {
+     "image_id": "000000446909",
+     "source": "main",
+     "lineno": 19385,
+     "sentence": "一个男人坐在公园里的绿色长椅上享受阳光。"
+    },
+    {
+     "image_id": "000000369986",
+     "source": "main",
+     "lineno": 20686,
+     "sentence": "餐桌对面一位女士正准备享受面前的比萨饼"
+    },
+    {
+     "image_id": "000000515053",
+     "source": "ext",
+     "lineno": 4247,
+     "sentence": "一个总统在接受采访，英国总统。"
+    }
+   ],
+   "combined_hosts": 14
+  },
+  {
+   "surface": "坦言",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 197,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 197
+  },
+  {
+   "surface": "夜",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "illumination_set",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "bright",
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 291,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 291,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000542079",
+     "source": "main",
+     "lineno": 93,
+     "sentence": "夜晚中一辆公交车进站的照片。"
+    },
+    {
+     "image_id": "000000037183",
+     "source": "main",
+     "lineno": 145,
+     "sentence": "夜晚的街道上，一群骑自行车的人停在了路边。"
+    },
+    {
+     "image_id": "000000534903",
+     "source": "main",
+     "lineno": 296,
+     "sentence": "夜晚雪山上有一个人在滑雪"
+    },
+    {
+     "image_id": "000000376502",
+     "source": "main",
+     "lineno": 514,
+     "sentence": "夜晚两个人在路边拿在纸盘子吃着披萨。"
+    },
+    {
+     "image_id": "000000054162",
+     "source": "main",
+     "lineno": 646,
+     "sentence": "夜晚，一位滑雪运动员正在表演滑雪翻转特技。"
+    },
+    {
+     "image_id": "000000185210",
+     "source": "main",
+     "lineno": 702,
+     "sentence": "夜晚的城市街道上挤满了许多汽车。"
+    },
+    {
+     "image_id": "000000329477",
+     "source": "main",
+     "lineno": 794,
+     "sentence": "一个夜晚的路边一个空旷的人行道。"
+    },
+    {
+     "image_id": "000000514249",
+     "source": "main",
+     "lineno": 809,
+     "sentence": "夜晚街道的一角，有报纸箱、消火栓和捐赠箱。"
+    },
+    {
+     "image_id": "000000117060",
+     "source": "main",
+     "lineno": 1571,
+     "sentence": "夜晚的街道上有许多车在行驶，街道边有一个白色的消防栓"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1590,
+     "sentence": "一列橙色涂装的夜行火车正停在火车站台。"
+    },
+    {
+     "image_id": "000000463414",
+     "source": "main",
+     "lineno": 1806,
+     "sentence": "夜晚一位男子在街边的抽水马桶边呕吐。"
+    },
+    {
+     "image_id": "000000480951",
+     "source": "main",
+     "lineno": 1987,
+     "sentence": "夜晚的街道上有许多汽车在行驶"
+    },
+    {
+     "image_id": "000000446481",
+     "source": "main",
+     "lineno": 1992,
+     "sentence": "夜晚里一个繁华的有红绿灯的街道的汽车和建筑物。"
+    },
+    {
+     "image_id": "000000028525",
+     "source": "main",
+     "lineno": 2020,
+     "sentence": "这张黑白照片是夜晚的街边停了两辆大卡车，行人在边上走着，一个男人站在最前方，双手插着裤兜。"
+    },
+    {
+     "image_id": "000000434316",
+     "source": "main",
+     "lineno": 2056,
+     "sentence": "夜晚，空空荡荡的街道上路灯在闪耀着。"
+    },
+    {
+     "image_id": "000000389182",
+     "source": "main",
+     "lineno": 2126,
+     "sentence": "公交车在夜晚街道上行驶。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2166,
+     "sentence": "路灯照亮了夜晚的十字路口。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2167,
+     "sentence": "夜晚的街道。"
+    },
+    {
+     "image_id": "000000415413",
+     "source": "main",
+     "lineno": 2386,
+     "sentence": "夜晚的街道上有很多汽车，远处有一座钟楼"
+    },
+    {
+     "image_id": "000000319747",
+     "source": "main",
+     "lineno": 2427,
+     "sentence": "夜晚的城市里街道上车流不息，商店挂出的各色招牌流光溢彩。"
+    },
+    {
+     "image_id": "000000318437",
+     "source": "main",
+     "lineno": 2457,
+     "sentence": "夜色中驶过一辆列车。"
+    },
+    {
+     "image_id": "000000257897",
+     "source": "main",
+     "lineno": 2509,
+     "sentence": "这是一张夜晚的灯塔的黑白照片"
+    },
+    {
+     "image_id": "000000562448",
+     "source": "main",
+     "lineno": 2547,
+     "sentence": "夜间在街上行驶的汽车。"
+    },
+    {
+     "image_id": "000000060046",
+     "source": "main",
+     "lineno": 2601,
+     "sentence": "一个男孩在夜晚玩滑板"
+    },
+    {
+     "image_id": "000000283277",
+     "source": "main",
+     "lineno": 2755,
+     "sentence": "夜晚的城市街道上的路灯照亮了黑暗"
+    },
+    {
+     "image_id": "000000049782",
+     "source": "main",
+     "lineno": 3039,
+     "sentence": "夜晚，一个女人坐在路边看着手机。"
+    },
+    {
+     "image_id": "000000330455",
+     "source": "main",
+     "lineno": 3277,
+     "sentence": "夜晚道路上有一辆公交车和一辆轿车"
+    },
+    {
+     "image_id": "000000277025",
+     "source": "main",
+     "lineno": 3454,
+     "sentence": "夜晚，一个男人坐在光线幽暗的餐厅的窗户旁边，桌上摆着酒杯。"
+    },
+    {
+     "image_id": "000000152483",
+     "source": "main",
+     "lineno": 3510,
+     "sentence": "夜晚下，树林前的一个长椅在月光下露出了长长的影子"
+    },
+    {
+     "image_id": "000000068860",
+     "source": "main",
+     "lineno": 3515,
+     "sentence": "夜晚，一个男人手里拿着一个热狗"
+    },
+    {
+     "image_id": "000000172778",
+     "source": "main",
+     "lineno": 3654,
+     "sentence": "一张夜晚里街道的照片。"
+    },
+    {
+     "image_id": "000000027151",
+     "source": "main",
+     "lineno": 3788,
+     "sentence": "一家餐馆在夜晚亮着灯。"
+    },
+    {
+     "image_id": "000000404235",
+     "source": "main",
+     "lineno": 3980,
+     "sentence": "夜晚朦胧的灯光下，街道边的信箱旁停着一辆汽车"
+    },
+    {
+     "image_id": "000000098989",
+     "source": "main",
+     "lineno": 4026,
+     "sentence": "夜晚的街道上，有许多汽车正在等红灯"
+    },
+    {
+     "image_id": "000000088398",
+     "source": "main",
+     "lineno": 4074,
+     "sentence": "夜晚一列火车穿越过隧道。"
+    },
+    {
+     "image_id": "000000459731",
+     "source": "main",
+     "lineno": 4298,
+     "sentence": "黑夜里，一辆火车头缓缓驶出站台。"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4408,
+     "sentence": "夜晚下的指路牌"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4411,
+     "sentence": "夜晚一家土耳其烤肉店对面的街道标志"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4412,
+     "sentence": "夜晚满是霓虹灯的街道。"
+    },
+    {
+     "image_id": "000000452831",
+     "source": "main",
+     "lineno": 4466,
+     "sentence": "一辆在夜间行驶的公交车"
+    },
+    {
+     "image_id": "000000261829",
+     "source": "main",
+     "lineno": 4520,
+     "sentence": "一个女人独自走在夜晚的街道上"
+    },
+    {
+     "image_id": "000000392364",
+     "source": "main",
+     "lineno": 4757,
+     "sentence": "夜晚，一座钟塔附近一个圆台上有一座骑马的人的雕像。"
+    },
+    {
+     "image_id": "000000392364",
+     "source": "main",
+     "lineno": 4758,
+     "sentence": "夜晚，一座钟塔附近一个圆台上有一座骑马的人的雕像。"
+    },
+    {
+     "image_id": "000000548331",
+     "source": "main",
+     "lineno": 4796,
+     "sentence": "夜色里一只小狗在追着一只飞盘。"
+    },
+    {
+     "image_id": "000000123142",
+     "source": "main",
+     "lineno": 4883,
+     "sentence": "夜晚的城市里许多建筑物亮着灯。"
+    },
+    {
+     "image_id": "000000172637",
+     "source": "main",
+     "lineno": 4894,
+     "sentence": "夜晚的街道上一排停车计时器。"
+    },
+    {
+     "image_id": "000000167964",
+     "source": "main",
+     "lineno": 5417,
+     "sentence": "夜晚的街道亮起了灯光。"
+    },
+    {
+     "image_id": "000000246087",
+     "source": "main",
+     "lineno": 5611,
+     "sentence": "夜晚一个男人站在一家商铺的门框下。"
+    },
+    {
+     "image_id": "000000311031",
+     "source": "main",
+     "lineno": 5708,
+     "sentence": "夜间的街道上的雪里有一个消防栓"
+    },
+    {
+     "image_id": "000000095752",
+     "source": "main",
+     "lineno": 5727,
+     "sentence": "黑夜里一个人在玩滑板。"
+    }
+   ],
+   "combined_hosts": 291
+  },
+  {
+   "surface": "大象",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 429,
+   "n_caption_hosts_jieba": 429,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 429,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000015690",
+     "source": "main",
+     "lineno": 19,
+     "sentence": "两只大象站在河边"
+    },
+    {
+     "image_id": "000000125725",
+     "source": "main",
+     "lineno": 28,
+     "sentence": "一群大象和一群人走在棚子下"
+    },
+    {
+     "image_id": "000000297645",
+     "source": "main",
+     "lineno": 45,
+     "sentence": "人们在排队摸大象。"
+    },
+    {
+     "image_id": "000000269199",
+     "source": "main",
+     "lineno": 56,
+     "sentence": "两只大象站在树林间的小溪中喝水"
+    },
+    {
+     "image_id": "000000176179",
+     "source": "main",
+     "lineno": 68,
+     "sentence": "一个男人和一只大象在水里"
+    },
+    {
+     "image_id": "000000188552",
+     "source": "main",
+     "lineno": 88,
+     "sentence": "一群人骑在一群大象背上列队前行。"
+    },
+    {
+     "image_id": "000000260942",
+     "source": "main",
+     "lineno": 164,
+     "sentence": "空旷的草原上一只小象跟在一只大象后面。"
+    },
+    {
+     "image_id": "000000168994",
+     "source": "main",
+     "lineno": 211,
+     "sentence": "动物园围栏里，有两只大象在泥土中玩耍。"
+    },
+    {
+     "image_id": "000000485219",
+     "source": "main",
+     "lineno": 267,
+     "sentence": "一头大象在小水池边喝水"
+    },
+    {
+     "image_id": "000000456068",
+     "source": "main",
+     "lineno": 399,
+     "sentence": "男人们在水里照顾大象。"
+    },
+    {
+     "image_id": "000000406170",
+     "source": "main",
+     "lineno": 420,
+     "sentence": "一个白色箱子上喷着红色的油漆，上面有白色的字，箱子顶上放着一张大象的画。"
+    },
+    {
+     "image_id": "000000412899",
+     "source": "main",
+     "lineno": 470,
+     "sentence": "草地上两个男人正围着一头倒地的大象"
+    },
+    {
+     "image_id": "000000530987",
+     "source": "main",
+     "lineno": 526,
+     "sentence": "一群人骑着大象行走在树林里"
+    },
+    {
+     "image_id": "000000018896",
+     "source": "main",
+     "lineno": 531,
+     "sentence": "一个人正试图爬到一头大象身上。"
+    },
+    {
+     "image_id": "000000010449",
+     "source": "main",
+     "lineno": 545,
+     "sentence": "三头大象在野外的小溪里正在喝水"
+    },
+    {
+     "image_id": "000000037041",
+     "source": "main",
+     "lineno": 574,
+     "sentence": "一头大象把鼻子伸出栅栏。"
+    },
+    {
+     "image_id": "000000037041",
+     "source": "main",
+     "lineno": 575,
+     "sentence": "动物园里一头大象被关在栅栏里面。"
+    },
+    {
+     "image_id": "000000371179",
+     "source": "main",
+     "lineno": 614,
+     "sentence": "一群大象在荒凉的大自然的一条饮水。"
+    },
+    {
+     "image_id": "000000367285",
+     "source": "main",
+     "lineno": 630,
+     "sentence": "一群大象站在草地上。"
+    },
+    {
+     "image_id": "000000259625",
+     "source": "main",
+     "lineno": 647,
+     "sentence": "在动物园的围栏里有一头大象"
+    },
+    {
+     "image_id": "000000129431",
+     "source": "main",
+     "lineno": 735,
+     "sentence": "一只大象在大自然的土路上行走。"
+    },
+    {
+     "image_id": "000000500214",
+     "source": "main",
+     "lineno": 825,
+     "sentence": "一只幼象正站在一只成年大象旁边。"
+    },
+    {
+     "image_id": "000000347811",
+     "source": "main",
+     "lineno": 844,
+     "sentence": "几只灰色的大象在草原上散步。"
+    },
+    {
+     "image_id": "000000328101",
+     "source": "main",
+     "lineno": 966,
+     "sentence": "一个男人在马戏团里指挥大象进行表演"
+    },
+    {
+     "image_id": "000000121123",
+     "source": "main",
+     "lineno": 1028,
+     "sentence": "三个人骑着一头大象在公园里"
+    },
+    {
+     "image_id": "000000183971",
+     "source": "main",
+     "lineno": 1097,
+     "sentence": "一只大象站在一个木栅栏的后面，鼻子伸向草地上的鲜花"
+    },
+    {
+     "image_id": "000000074759",
+     "source": "main",
+     "lineno": 1205,
+     "sentence": "有三头大象正在台上表演杂技"
+    },
+    {
+     "image_id": "000000557334",
+     "source": "main",
+     "lineno": 1220,
+     "sentence": "一只大象在动物园的围栏里散步。"
+    },
+    {
+     "image_id": "000000282354",
+     "source": "main",
+     "lineno": 1228,
+     "sentence": "一个小女孩抚摸着大象的鼻子。"
+    },
+    {
+     "image_id": "000000021365",
+     "source": "main",
+     "lineno": 1288,
+     "sentence": "这是一张一个人凑近去看他笔记本电脑上的大象图像的黑白照片"
+    },
+    {
+     "image_id": "000000117062",
+     "source": "main",
+     "lineno": 1569,
+     "sentence": "一只大象站在一片平原上的一条河边。"
+    },
+    {
+     "image_id": "000000506920",
+     "source": "main",
+     "lineno": 1673,
+     "sentence": "有一头大象正在闻一个女孩的脸"
+    },
+    {
+     "image_id": "000000403535",
+     "source": "main",
+     "lineno": 1686,
+     "sentence": "两只棕色的大象在草地上嬉戏"
+    },
+    {
+     "image_id": "000000070685",
+     "source": "main",
+     "lineno": 1788,
+     "sentence": "几头大象在池塘前喝水。"
+    },
+    {
+     "image_id": "000000489167",
+     "source": "main",
+     "lineno": 1791,
+     "sentence": "草地前的两头大象，后面一头的鼻子牵着前一头的尾巴"
+    },
+    {
+     "image_id": "000000257302",
+     "source": "main",
+     "lineno": 1821,
+     "sentence": "两个人骑着大象穿过一条浅河"
+    },
+    {
+     "image_id": "000000415434",
+     "source": "main",
+     "lineno": 1854,
+     "sentence": "两只大象在野外的草地上散步。"
+    },
+    {
+     "image_id": "000000415434",
+     "source": "main",
+     "lineno": 1855,
+     "sentence": "两只大象在野外的草地上散步。"
+    },
+    {
+     "image_id": "000000027070",
+     "source": "main",
+     "lineno": 1859,
+     "sentence": "两个人赶着两头大象在草地上走。"
+    },
+    {
+     "image_id": "000000027070",
+     "source": "main",
+     "lineno": 1860,
+     "sentence": "草地上有两个人和两头大象"
+    },
+    {
+     "image_id": "000000273217",
+     "source": "main",
+     "lineno": 1947,
+     "sentence": "一个蓝色的玩具大象坐在机场行李传送带附近。"
+    },
+    {
+     "image_id": "000000269503",
+     "source": "main",
+     "lineno": 2039,
+     "sentence": "在人群中站着两头用来表演的大象"
+    },
+    {
+     "image_id": "000000269503",
+     "source": "main",
+     "lineno": 2040,
+     "sentence": "一个男人、女人和两头大象在表演。"
+    },
+    {
+     "image_id": "000000155571",
+     "source": "main",
+     "lineno": 2062,
+     "sentence": "一只大象漫步在草坪上"
+    },
+    {
+     "image_id": "000000214261",
+     "source": "main",
+     "lineno": 2089,
+     "sentence": "动物园里两头大象正在被冲洗。"
+    },
+    {
+     "image_id": "000000447934",
+     "source": "main",
+     "lineno": 2108,
+     "sentence": "两头大象正在草地上行走，它们的后面还有一头大象"
+    },
+    {
+     "image_id": "000000334216",
+     "source": "main",
+     "lineno": 2152,
+     "sentence": "森林里有三头大象和两只小象在一起走路"
+    },
+    {
+     "image_id": "000000123415",
+     "source": "main",
+     "lineno": 2185,
+     "sentence": "在大自然里，一头幼年大象在一头成年大象的头下走动。"
+    },
+    {
+     "image_id": "000000494911",
+     "source": "main",
+     "lineno": 2191,
+     "sentence": "一群大象在广阔的草原上漫步。"
+    },
+    {
+     "image_id": "000000258834",
+     "source": "main",
+     "lineno": 2263,
+     "sentence": "一群大象正在穿过一片草地。"
+    }
+   ],
+   "combined_hosts": 429
+  },
+  {
+   "surface": "天黑",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 19,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 19
+  },
+  {
+   "surface": "定",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 12,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 12,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000456142",
+     "source": "main",
+     "lineno": 3209,
+     "sentence": "厨房窗子旁边的固定勾上放着许多装有调味品的小瓶子"
+    },
+    {
+     "image_id": "000000478418",
+     "source": "main",
+     "lineno": 6354,
+     "sentence": "一个穿黄色衣服戴墨镜的人站在特定时间禁止左转的标志下。"
+    },
+    {
+     "image_id": "000000176265",
+     "source": "main",
+     "lineno": 8010,
+     "sentence": "两位厨师和一位男士正在决定如何切一个白色双层蛋糕"
+    },
+    {
+     "image_id": "000000568529",
+     "source": "main",
+     "lineno": 11568,
+     "sentence": "一根厚木板下面固定着两个摞起来的铁盒"
+    },
+    {
+     "image_id": "000000295970",
+     "source": "main",
+     "lineno": 11729,
+     "sentence": "橙子上面固定了一个便签。"
+    },
+    {
+     "image_id": "000000332875",
+     "source": "main",
+     "lineno": 13408,
+     "sentence": "餐馆里一群顾客正围在一张桌子上预定食物"
+    },
+    {
+     "image_id": "000000579247",
+     "source": "main",
+     "lineno": 15490,
+     "sentence": "在街道一旁的建筑物边上立着一个固定着许多标识的杆子"
+    },
+    {
+     "image_id": "000000060177",
+     "source": "main",
+     "lineno": 16892,
+     "sentence": "一架三轮车上固定着一把打开的伞。"
+    },
+    {
+     "image_id": "000000350879",
+     "source": "main",
+     "lineno": 19413,
+     "sentence": "固定在橱柜里的一个烤箱"
+    },
+    {
+     "image_id": "000000367666",
+     "source": "main",
+     "lineno": 21663,
+     "sentence": "办公室里有一个被支架固定住的手机"
+    },
+    {
+     "image_id": "000000104683",
+     "source": "main",
+     "lineno": 21875,
+     "sentence": "一把撑着的太阳伞被用架子固定，放在一把高高的椅子旁边"
+    },
+    {
+     "image_id": "000000237160",
+     "source": "main",
+     "lineno": 21998,
+     "sentence": "一位西装革履的男士眼神坚定的望着前方"
+    }
+   ],
+   "combined_hosts": 12
+  },
+  {
+   "surface": "带",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 662,
+   "n_caption_hosts_jieba": 318,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 662,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000240605",
+     "source": "main",
+     "lineno": 22,
+     "sentence": "一件行李放在传送带上，旁边的仪器表盘上显示着它的重量"
+    },
+    {
+     "image_id": "000000542866",
+     "source": "main",
+     "lineno": 78,
+     "sentence": "滑雪场里，一个带着墨镜穿着白色滑雪装备的男人抱着一只泰迪熊对着镜头微笑，他的身后有许多人正在滑雪"
+    },
+    {
+     "image_id": "000000466800",
+     "source": "main",
+     "lineno": 129,
+     "sentence": "一个带着浴帘的蓝色衬里的浴室。"
+    },
+    {
+     "image_id": "000000143665",
+     "source": "main",
+     "lineno": 225,
+     "sentence": "地铁车厢内部的照片，有人站着有人坐着，一位女士带了一条白狗。"
+    },
+    {
+     "image_id": "000000366349",
+     "source": "main",
+     "lineno": 233,
+     "sentence": "一直带着黑框眼镜的泰迪熊盖着书本躺在床上。"
+    },
+    {
+     "image_id": "000000104621",
+     "source": "main",
+     "lineno": 297,
+     "sentence": "有两个背着背包带着头盔骑着摩托车的人，其中一个行驶在道路上，另一个双腿撑着地停了下来"
+    },
+    {
+     "image_id": "000000458596",
+     "source": "main",
+     "lineno": 300,
+     "sentence": "一个穿绿色裙子的年轻女人双手举着红飘带站在河岸上"
+    },
+    {
+     "image_id": "000000305030",
+     "source": "main",
+     "lineno": 307,
+     "sentence": "建筑物旁一块带有钟表的红色标志。"
+    },
+    {
+     "image_id": "000000056486",
+     "source": "main",
+     "lineno": 353,
+     "sentence": "一个带有蘑菇、香肠、奶酪和蔬菜的比萨饼。"
+    },
+    {
+     "image_id": "000000136681",
+     "source": "main",
+     "lineno": 402,
+     "sentence": "放在一起的七八条印花领带在亮光下光彩夺目"
+    },
+    {
+     "image_id": "000000211775",
+     "source": "main",
+     "lineno": 432,
+     "sentence": "那女人穿着一件蓝色衬衫，面带微笑。"
+    },
+    {
+     "image_id": "000000303543",
+     "source": "main",
+     "lineno": 443,
+     "sentence": "两个人带着狗在水里准备冲浪。"
+    },
+    {
+     "image_id": "000000146084",
+     "source": "main",
+     "lineno": 521,
+     "sentence": "一个男孩带着冲浪板蹲在沙滩上，面对着蓝色海浪。"
+    },
+    {
+     "image_id": "000000475229",
+     "source": "main",
+     "lineno": 533,
+     "sentence": "一个带头盔的滑雪者手拿滑雪板站在满是雪的山坡上。"
+    },
+    {
+     "image_id": "000000083257",
+     "source": "main",
+     "lineno": 555,
+     "sentence": "一个带着照相机打着领带的男人站在模型旁边合影"
+    },
+    {
+     "image_id": "000000542069",
+     "source": "main",
+     "lineno": 597,
+     "sentence": "办公室里有一个大的办公桌上面放着各种材料，旁边的衣柜上挂着一个领带"
+    },
+    {
+     "image_id": "000000089894",
+     "source": "main",
+     "lineno": 641,
+     "sentence": "一个白色花瓶里有一束带绿叶子的红色玫瑰。"
+    },
+    {
+     "image_id": "000000006996",
+     "source": "main",
+     "lineno": 667,
+     "sentence": "一个男孩在路上骑自行车带着一个女孩。"
+    },
+    {
+     "image_id": "000000537157",
+     "source": "main",
+     "lineno": 678,
+     "sentence": "盒子里装有各种颜色的领带"
+    },
+    {
+     "image_id": "000000239113",
+     "source": "main",
+     "lineno": 697,
+     "sentence": "一个撑着太阳伞的女人带着一个孩子来到海边的沙滩上，远处有许多人在沙滩上嬉戏或休息。"
+    },
+    {
+     "image_id": "000000525020",
+     "source": "main",
+     "lineno": 784,
+     "sentence": "一个带有街头标志和涂鸦的石头建筑物的角落。"
+    },
+    {
+     "image_id": "000000162398",
+     "source": "main",
+     "lineno": 792,
+     "sentence": "一个人手里拿着一条上面满是花朵图案的领带。"
+    },
+    {
+     "image_id": "000000100627",
+     "source": "main",
+     "lineno": 929,
+     "sentence": "一个带有洋葱、蘑菇和花椰菜的比萨饼。"
+    },
+    {
+     "image_id": "000000553736",
+     "source": "main",
+     "lineno": 952,
+     "sentence": "一个面带微笑的男人站在厨房的柜台后面。"
+    },
+    {
+     "image_id": "000000244406",
+     "source": "main",
+     "lineno": 972,
+     "sentence": "一间带白色马桶、浴帘和花洒的浴室"
+    },
+    {
+     "image_id": "000000536145",
+     "source": "main",
+     "lineno": 1040,
+     "sentence": "街道上，有一大群赤膊的身上画有各类图案的人带着头盔骑着自行车。"
+    },
+    {
+     "image_id": "000000249301",
+     "source": "main",
+     "lineno": 1044,
+     "sentence": "一个骑着摩托车的人带着一个人在道路上飞驰"
+    },
+    {
+     "image_id": "000000416320",
+     "source": "main",
+     "lineno": 1082,
+     "sentence": "一个穿着衬衣的男人正在梳理自己的领带。"
+    },
+    {
+     "image_id": "000000261458",
+     "source": "main",
+     "lineno": 1114,
+     "sentence": "一个黑人女人穿着灰色的毛衣和白色的衬衫，戴着灰色的领带。"
+    },
+    {
+     "image_id": "000000411733",
+     "source": "main",
+     "lineno": 1152,
+     "sentence": "一个带着眼镜的男性乘客坐在列车的窗户边使用笔记本电脑。"
+    },
+    {
+     "image_id": "000000152965",
+     "source": "main",
+     "lineno": 1240,
+     "sentence": "一只头上带着帽子的黑狗和两个人一起坐在桌子旁。"
+    },
+    {
+     "image_id": "000000352751",
+     "source": "main",
+     "lineno": 1243,
+     "sentence": "蔚蓝的天空下，一个穿着蓝色带帽衫的男孩正在玩飞盘。"
+    },
+    {
+     "image_id": "000000074223",
+     "source": "main",
+     "lineno": 1245,
+     "sentence": "一个穿着西装，戴着领带的男人站在海滩前。"
+    },
+    {
+     "image_id": "000000547147",
+     "source": "main",
+     "lineno": 1292,
+     "sentence": "一个带着防毒面具的人和一把剪刀。"
+    },
+    {
+     "image_id": "000000403558",
+     "source": "main",
+     "lineno": 1360,
+     "sentence": "乌云下面的带有钟表的一座建筑物。"
+    },
+    {
+     "image_id": "000000172087",
+     "source": "main",
+     "lineno": 1382,
+     "sentence": "一个带着蓝色领带的人在微笑。"
+    },
+    {
+     "image_id": "000000134807",
+     "source": "main",
+     "lineno": 1387,
+     "sentence": "一个男人穿着白衬衣打着花领带。"
+    },
+    {
+     "image_id": "000000054521",
+     "source": "main",
+     "lineno": 1399,
+     "sentence": "一只带着零星黑斑的白猫正踩在冰箱门口。"
+    },
+    {
+     "image_id": "000000198037",
+     "source": "main",
+     "lineno": 1407,
+     "sentence": "一个带有木质狗头雕塑的镜框"
+    },
+    {
+     "image_id": "000000484312",
+     "source": "main",
+     "lineno": 1466,
+     "sentence": "一个穿着礼服带着帽子的男人抱着只玩具熊看着上方。"
+    },
+    {
+     "image_id": "000000267411",
+     "source": "main",
+     "lineno": 1480,
+     "sentence": "三个老男人站在一起合影，其中两个只穿着衬衫，另一个穿着西装打着领带"
+    },
+    {
+     "image_id": "000000368249",
+     "source": "main",
+     "lineno": 1493,
+     "sentence": "一张黑白照片里，带着帽子的小贩正看着街上打着伞的行人"
+    },
+    {
+     "image_id": "000000392010",
+     "source": "main",
+     "lineno": 1503,
+     "sentence": "一个男人带着一个小女孩在草地上放风筝"
+    },
+    {
+     "image_id": "000000540039",
+     "source": "main",
+     "lineno": 1516,
+     "sentence": "一个女人正拿着手机给一个穿着西装带着高帽嘴里叼着玫瑰花的男人拍照"
+    },
+    {
+     "image_id": "000000093720",
+     "source": "main",
+     "lineno": 1551,
+     "sentence": "一间带有马桶、洗手池、浴缸等的卫生间"
+    },
+    {
+     "image_id": "000000238557",
+     "source": "main",
+     "lineno": 1567,
+     "sentence": "一个带雨伞的女人穿着一件红色的外套"
+    },
+    {
+     "image_id": "000000109783",
+     "source": "main",
+     "lineno": 1700,
+     "sentence": "蓝天下一栋顶端带有钟塔的欧式建筑。"
+    },
+    {
+     "image_id": "000000233153",
+     "source": "main",
+     "lineno": 1729,
+     "sentence": "红衣的女人和一个红领带正装的男人合影"
+    },
+    {
+     "image_id": "000000297439",
+     "source": "main",
+     "lineno": 1735,
+     "sentence": "一些热带水域附近的海岸上有几头奶牛在吃草。"
+    },
+    {
+     "image_id": "000000143450",
+     "source": "main",
+     "lineno": 1755,
+     "sentence": "一个带有美国国旗的巧克力蛋糕旁边放着一个勺子。"
+    }
+   ],
+   "combined_hosts": 662
+  },
+  {
+   "surface": "悠悠",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "抹黑",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 67,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 67
+  },
+  {
+   "surface": "斑马",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 387,
+   "n_caption_hosts_jieba": 374,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 387,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000238700",
+     "source": "main",
+     "lineno": 84,
+     "sentence": "野生动物园的草地上有一头长颈鹿和一头斑马。"
+    },
+    {
+     "image_id": "000000109212",
+     "source": "main",
+     "lineno": 106,
+     "sentence": "两只斑马在树林后面的草地上吃草。"
+    },
+    {
+     "image_id": "000000186255",
+     "source": "main",
+     "lineno": 118,
+     "sentence": "两只斑马在一块大石头前面"
+    },
+    {
+     "image_id": "000000186255",
+     "source": "main",
+     "lineno": 119,
+     "sentence": "两只斑马交颈站立"
+    },
+    {
+     "image_id": "000000186255",
+     "source": "main",
+     "lineno": 120,
+     "sentence": "两只斑马头碰头在打架"
+    },
+    {
+     "image_id": "000000186255",
+     "source": "main",
+     "lineno": 121,
+     "sentence": "两匹斑马靠在一起，其中一只斑马背对着镜头"
+    },
+    {
+     "image_id": "000000186255",
+     "source": "main",
+     "lineno": 122,
+     "sentence": "两头斑马互相摩擦着脖子。"
+    },
+    {
+     "image_id": "000000542173",
+     "source": "main",
+     "lineno": 303,
+     "sentence": "草地上一只斑马在吃草，身后有一只鸵鸟在梳理羽毛。"
+    },
+    {
+     "image_id": "000000294104",
+     "source": "main",
+     "lineno": 320,
+     "sentence": "两头斑马在一个已经枯死的树干旁嬉戏。"
+    },
+    {
+     "image_id": "000000236730",
+     "source": "main",
+     "lineno": 343,
+     "sentence": "一只斑马在沙漠中的特写镜头。"
+    },
+    {
+     "image_id": "000000555495",
+     "source": "main",
+     "lineno": 472,
+     "sentence": "草原上一只小斑马正在吃它妈妈的奶"
+    },
+    {
+     "image_id": "000000114203",
+     "source": "main",
+     "lineno": 489,
+     "sentence": "动物园里两只长颈鹿和三只正在吃草的斑马隔着围栏站在草坪上"
+    },
+    {
+     "image_id": "000000506640",
+     "source": "main",
+     "lineno": 662,
+     "sentence": "几个斑马在湖边"
+    },
+    {
+     "image_id": "000000215245",
+     "source": "main",
+     "lineno": 775,
+     "sentence": "平坦的草原上有两群斑马"
+    },
+    {
+     "image_id": "000000220651",
+     "source": "main",
+     "lineno": 840,
+     "sentence": "动物园里的三只斑马"
+    },
+    {
+     "image_id": "000000310789",
+     "source": "main",
+     "lineno": 983,
+     "sentence": "草原上，四头斑马正低着头在湖边喝水。"
+    },
+    {
+     "image_id": "000000002684",
+     "source": "main",
+     "lineno": 998,
+     "sentence": "一群斑马在沙地上散步"
+    },
+    {
+     "image_id": "000000013150",
+     "source": "main",
+     "lineno": 1276,
+     "sentence": "一群斑马走过草原。"
+    },
+    {
+     "image_id": "000000053907",
+     "source": "main",
+     "lineno": 1297,
+     "sentence": "一群斑马正在非洲大平原上漫步"
+    },
+    {
+     "image_id": "000000289027",
+     "source": "main",
+     "lineno": 1417,
+     "sentence": "斑马群的特写。"
+    },
+    {
+     "image_id": "000000503647",
+     "source": "main",
+     "lineno": 1659,
+     "sentence": "一只斑马站在铁丝网围起的沙地上"
+    },
+    {
+     "image_id": "000000330419",
+     "source": "main",
+     "lineno": 1712,
+     "sentence": "动物园里，一只斑马正在石头墙旁边吃草。"
+    },
+    {
+     "image_id": "000000344314",
+     "source": "main",
+     "lineno": 1943,
+     "sentence": "两只斑马在草地上吃草，草地上有一个标识"
+    },
+    {
+     "image_id": "000000344314",
+     "source": "main",
+     "lineno": 1944,
+     "sentence": "两只斑马站在一块“请勿喂食”的标志牌后面"
+    },
+    {
+     "image_id": "000000196244",
+     "source": "main",
+     "lineno": 2030,
+     "sentence": "一只大斑马靠着一只小斑马站在地上。"
+    },
+    {
+     "image_id": "000000225202",
+     "source": "main",
+     "lineno": 2067,
+     "sentence": "两只斑马在荒草丛生的草原上觅食"
+    },
+    {
+     "image_id": "000000314597",
+     "source": "main",
+     "lineno": 2372,
+     "sentence": "两只斑马站在一起吃草"
+    },
+    {
+     "image_id": "000000379235",
+     "source": "main",
+     "lineno": 2508,
+     "sentence": "三只斑马在草地上吃草"
+    },
+    {
+     "image_id": "000000247723",
+     "source": "main",
+     "lineno": 2659,
+     "sentence": "两匹斑马在草地上奔跑"
+    },
+    {
+     "image_id": "000000355796",
+     "source": "main",
+     "lineno": 2674,
+     "sentence": "一群斑马和水牛站在草地上。"
+    },
+    {
+     "image_id": "000000011926",
+     "source": "main",
+     "lineno": 2684,
+     "sentence": "一群斑马在树下吃草。"
+    },
+    {
+     "image_id": "000000133152",
+     "source": "main",
+     "lineno": 2745,
+     "sentence": "几只斑马在草原上行走。"
+    },
+    {
+     "image_id": "000000277498",
+     "source": "main",
+     "lineno": 2794,
+     "sentence": "两只斑马在草地上吃草"
+    },
+    {
+     "image_id": "000000310804",
+     "source": "main",
+     "lineno": 2881,
+     "sentence": "一群斑马在树丛中觅食"
+    },
+    {
+     "image_id": "000000161569",
+     "source": "main",
+     "lineno": 3007,
+     "sentence": "一只斑马站在一片茂密的绿色草地上。"
+    },
+    {
+     "image_id": "000000452412",
+     "source": "main",
+     "lineno": 3065,
+     "sentence": "一群斑马站在草原上。"
+    },
+    {
+     "image_id": "000000309499",
+     "source": "main",
+     "lineno": 3147,
+     "sentence": "草原上有一大一小两匹斑马"
+    },
+    {
+     "image_id": "000000498354",
+     "source": "main",
+     "lineno": 3285,
+     "sentence": "两只斑马并排跑在雪地里。"
+    },
+    {
+     "image_id": "000000498354",
+     "source": "main",
+     "lineno": 3286,
+     "sentence": "有两只斑马在雪地里奔跑。"
+    },
+    {
+     "image_id": "000000503385",
+     "source": "main",
+     "lineno": 3420,
+     "sentence": "一群斑马和野牛在草地上吃草。"
+    },
+    {
+     "image_id": "000000473929",
+     "source": "main",
+     "lineno": 3543,
+     "sentence": "野外的草原上，一群斑马集聚在一起吃草歇息。"
+    },
+    {
+     "image_id": "000000168185",
+     "source": "main",
+     "lineno": 3690,
+     "sentence": "两头斑马在枯黄的草原上嬉戏"
+    },
+    {
+     "image_id": "000000554136",
+     "source": "main",
+     "lineno": 3811,
+     "sentence": "一只斑马在公园里吃草"
+    },
+    {
+     "image_id": "000000351154",
+     "source": "main",
+     "lineno": 3913,
+     "sentence": "一群斑马在草原上吃草。"
+    },
+    {
+     "image_id": "000000532419",
+     "source": "main",
+     "lineno": 3971,
+     "sentence": "两匹斑马站在雪地里"
+    },
+    {
+     "image_id": "000000504187",
+     "source": "main",
+     "lineno": 4048,
+     "sentence": "两只斑马正在笼子里的一棵树旁边低头吃草"
+    },
+    {
+     "image_id": "000000301970",
+     "source": "main",
+     "lineno": 4174,
+     "sentence": "几只非常漂亮的斑马站在野生动物园中的草地上。"
+    },
+    {
+     "image_id": "000000050322",
+     "source": "main",
+     "lineno": 4217,
+     "sentence": "草地上站着两匹大斑马和一匹小斑马，小斑马在吃草。"
+    },
+    {
+     "image_id": "000000206548",
+     "source": "main",
+     "lineno": 4268,
+     "sentence": "一头斑马正在低头吃干草。"
+    },
+    {
+     "image_id": "000000269704",
+     "source": "main",
+     "lineno": 4324,
+     "sentence": "三只斑马站在野外的草丛中"
+    }
+   ],
+   "combined_hosts": 387
+  },
+  {
+   "surface": "柰",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "green",
+    "red",
+    "white",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "椅",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "brown",
+    "green",
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 882,
+   "n_caption_hosts_jieba": 3,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 882,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000496606",
+     "source": "main",
+     "lineno": 2,
+     "sentence": "一只黄色的小狗趴在长椅上"
+    },
+    {
+     "image_id": "000000574392",
+     "source": "main",
+     "lineno": 5,
+     "sentence": "一个木制的公园长椅在森林里。"
+    },
+    {
+     "image_id": "000000021183",
+     "source": "main",
+     "lineno": 10,
+     "sentence": "一个年龄比较大，坐在街道旁座椅上的男人手里握着一个装着写有标语的板子的手推车"
+    },
+    {
+     "image_id": "000000021183",
+     "source": "main",
+     "lineno": 11,
+     "sentence": "一个年老的男人坐在街道上的长椅上，手搭在面前放着告示牌的小推车上"
+    },
+    {
+     "image_id": "000000016451",
+     "source": "main",
+     "lineno": 71,
+     "sentence": "海边沙滩上有一条沙滩毯和两块冲浪板，一把撑起的阳伞下摆放了两张躺椅。"
+    },
+    {
+     "image_id": "000000077095",
+     "source": "main",
+     "lineno": 87,
+     "sentence": "火车的其中一节里有座椅还有一个小厨房，有相关的设备可以使用。"
+    },
+    {
+     "image_id": "000000438446",
+     "source": "main",
+     "lineno": 206,
+     "sentence": "昏暗的空间里，一个女人坐在长椅上等候"
+    },
+    {
+     "image_id": "000000455325",
+     "source": "main",
+     "lineno": 263,
+     "sentence": "教堂里有很多排长椅。"
+    },
+    {
+     "image_id": "000000566436",
+     "source": "main",
+     "lineno": 270,
+     "sentence": "一个穿牛仔裤的人坐在公园长椅的靠背上"
+    },
+    {
+     "image_id": "000000301998",
+     "source": "main",
+     "lineno": 301,
+     "sentence": "一个女人坐在金属栅栏前的金属椅子上，另一个女人站着给她拍照。"
+    },
+    {
+     "image_id": "000000248320",
+     "source": "main",
+     "lineno": 351,
+     "sentence": "汽车的座椅上放着一个粉色的包。"
+    },
+    {
+     "image_id": "000000005962",
+     "source": "main",
+     "lineno": 366,
+     "sentence": "公园里一个男人站在两个坐在长椅上吃东西的女孩旁边。"
+    },
+    {
+     "image_id": "000000012547",
+     "source": "main",
+     "lineno": 390,
+     "sentence": "一对夫妇坐在街边的长椅上。"
+    },
+    {
+     "image_id": "000000415048",
+     "source": "main",
+     "lineno": 393,
+     "sentence": "整洁的客厅里有一张皮沙发和两把座椅。"
+    },
+    {
+     "image_id": "000000460461",
+     "source": "main",
+     "lineno": 396,
+     "sentence": "几个人坐在树林附近的长椅上。"
+    },
+    {
+     "image_id": "000000082678",
+     "source": "main",
+     "lineno": 416,
+     "sentence": "一个可以向大海望去的长椅。"
+    },
+    {
+     "image_id": "000000200231",
+     "source": "main",
+     "lineno": 481,
+     "sentence": "一个扶手椅上堆满了熊玩偶、鲜花、礼品袋等礼物。"
+    },
+    {
+     "image_id": "000000409182",
+     "source": "main",
+     "lineno": 549,
+     "sentence": "码头边有几排长椅，天空中有许多云彩。"
+    },
+    {
+     "image_id": "000000499225",
+     "source": "main",
+     "lineno": 578,
+     "sentence": "一只狗睡在舒适的椅子上。"
+    },
+    {
+     "image_id": "000000511070",
+     "source": "main",
+     "lineno": 583,
+     "sentence": "一只灰色的猫坐在一把椅子上。"
+    },
+    {
+     "image_id": "000000380859",
+     "source": "main",
+     "lineno": 594,
+     "sentence": "两个女人坐在树旁的长椅上"
+    },
+    {
+     "image_id": "000000467151",
+     "source": "main",
+     "lineno": 632,
+     "sentence": "上图是一个女人在奔跑，下图是一张白色花纹长椅"
+    },
+    {
+     "image_id": "000000340699",
+     "source": "main",
+     "lineno": 634,
+     "sentence": "汽车座椅上有一个灰色的旅行箱。"
+    },
+    {
+     "image_id": "000000522034",
+     "source": "main",
+     "lineno": 709,
+     "sentence": "这是遮阳伞及桌椅在水面中的倒影"
+    },
+    {
+     "image_id": "000000345429",
+     "source": "main",
+     "lineno": 721,
+     "sentence": "在草地上的一个木制的长椅"
+    },
+    {
+     "image_id": "000000119404",
+     "source": "main",
+     "lineno": 791,
+     "sentence": "街道的一旁有一排长椅。"
+    },
+    {
+     "image_id": "000000255983",
+     "source": "main",
+     "lineno": 850,
+     "sentence": "一对新娘和新郎坐在一个石头长椅上。"
+    },
+    {
+     "image_id": "000000553361",
+     "source": "main",
+     "lineno": 901,
+     "sentence": "房间里有床，桌柜和一把椅子。"
+    },
+    {
+     "image_id": "000000512736",
+     "source": "main",
+     "lineno": 911,
+     "sentence": "家里放着桌子椅子桌子沙发等很多家具"
+    },
+    {
+     "image_id": "000000257176",
+     "source": "main",
+     "lineno": 937,
+     "sentence": "一座桥横跨河流，河流一侧的草地上摆放着几张长椅，对岸是一座山峰"
+    },
+    {
+     "image_id": "000000332512",
+     "source": "main",
+     "lineno": 1007,
+     "sentence": "一个房间中有一张床、一张桌子、一把椅子和一个水槽，桌子上有一台笔记本电脑"
+    },
+    {
+     "image_id": "000000332512",
+     "source": "main",
+     "lineno": 1008,
+     "sentence": "狭窄的小房间里有一张床、一张桌子和椅子，和一个水槽。"
+    },
+    {
+     "image_id": "000000394104",
+     "source": "main",
+     "lineno": 1037,
+     "sentence": "一个海滩上的长椅"
+    },
+    {
+     "image_id": "000000146981",
+     "source": "main",
+     "lineno": 1061,
+     "sentence": "一只黑色的小猫坐在公园里一张木质长椅上。"
+    },
+    {
+     "image_id": "000000146981",
+     "source": "main",
+     "lineno": 1062,
+     "sentence": "一只黑白相间的猫坐在一个木制的长椅上。"
+    },
+    {
+     "image_id": "000000519598",
+     "source": "main",
+     "lineno": 1096,
+     "sentence": "客厅里放着时钟、椅子、书柜和一台计算机。"
+    },
+    {
+     "image_id": "000000435466",
+     "source": "main",
+     "lineno": 1154,
+     "sentence": "一个房间里摆放着椅子和柜子等家具"
+    },
+    {
+     "image_id": "000000139712",
+     "source": "main",
+     "lineno": 1164,
+     "sentence": "有一辆火车正在驶出站台，站台上有一个长椅。"
+    },
+    {
+     "image_id": "000000005907",
+     "source": "main",
+     "lineno": 1171,
+     "sentence": "一群海鸥站在沙滩上，中间有一把蓝色的椅子。"
+    },
+    {
+     "image_id": "000000090501",
+     "source": "main",
+     "lineno": 1187,
+     "sentence": "在一排白色的二层小楼前面有一条绿色的长椅"
+    },
+    {
+     "image_id": "000000153620",
+     "source": "main",
+     "lineno": 1268,
+     "sentence": "客厅里一台打开的电视旁边有一个人坐在椅子上用电脑"
+    },
+    {
+     "image_id": "000000153620",
+     "source": "main",
+     "lineno": 1269,
+     "sentence": "一个男人坐在客厅的电视机旁的椅子上用电脑。"
+    },
+    {
+     "image_id": "000000153620",
+     "source": "main",
+     "lineno": 1271,
+     "sentence": "客厅里一个男人坐在一把白色椅子上看着一台笔记本电脑，边上有一台开着的电视机。"
+    },
+    {
+     "image_id": "000000565405",
+     "source": "main",
+     "lineno": 1290,
+     "sentence": "桌子上有两台笔记本电脑在工作，旁边还有一些桌椅。"
+    },
+    {
+     "image_id": "000000210976",
+     "source": "main",
+     "lineno": 1343,
+     "sentence": "运动场的围栏外有一排长椅"
+    },
+    {
+     "image_id": "000000346425",
+     "source": "main",
+     "lineno": 1347,
+     "sentence": "公园的草地中央有一张长椅"
+    },
+    {
+     "image_id": "000000013876",
+     "source": "main",
+     "lineno": 1371,
+     "sentence": "一张摆在窗外的长椅的黑白照片"
+    },
+    {
+     "image_id": "000000544485",
+     "source": "main",
+     "lineno": 1390,
+     "sentence": "一位坐在椅子上的男孩拿着棒球棒。"
+    },
+    {
+     "image_id": "000000208971",
+     "source": "main",
+     "lineno": 1435,
+     "sentence": "白色的房间里有一张白色的双人床和白色的椅子。"
+    },
+    {
+     "image_id": "000000284148",
+     "source": "main",
+     "lineno": 1464,
+     "sentence": "一只猫在汽车方向盘下望向座椅。"
+    }
+   ],
+   "combined_hosts": 882
+  },
+  {
+   "surface": "椰菜",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "blue"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 43,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 43,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000530958",
+     "source": "main",
+     "lineno": 163,
+     "sentence": "一盘煮好的西兰花和花椰菜"
+    },
+    {
+     "image_id": "000000029906",
+     "source": "main",
+     "lineno": 362,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000100627",
+     "source": "main",
+     "lineno": 929,
+     "sentence": "一个带有洋葱、蘑菇和花椰菜的比萨饼。"
+    },
+    {
+     "image_id": "000000374934",
+     "source": "main",
+     "lineno": 1018,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000057334",
+     "source": "main",
+     "lineno": 1089,
+     "sentence": "一颗绿色的花椰菜在阳光下生长。"
+    },
+    {
+     "image_id": "000000473438",
+     "source": "main",
+     "lineno": 1629,
+     "sentence": "胡萝卜和花椰菜分别放在两个篮子里"
+    },
+    {
+     "image_id": "000000226170",
+     "source": "main",
+     "lineno": 1839,
+     "sentence": "一道菜里有花椰菜、胡萝卜和绿豆。"
+    },
+    {
+     "image_id": "000000253432",
+     "source": "main",
+     "lineno": 4032,
+     "sentence": "刀和叉旁边放着装着花椰菜、土豆的盘子"
+    },
+    {
+     "image_id": "000000284684",
+     "source": "main",
+     "lineno": 4099,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000233746",
+     "source": "main",
+     "lineno": 4149,
+     "sentence": "一碗有胡萝卜、花椰菜等各种蔬菜的杂烩汤"
+    },
+    {
+     "image_id": "000000233746",
+     "source": "main",
+     "lineno": 4150,
+     "sentence": "花椰菜、胡萝卜、洋葱和肉构成了一道丰盛的晚餐"
+    },
+    {
+     "image_id": "000000506321",
+     "source": "main",
+     "lineno": 7265,
+     "sentence": "桌子上面有一份带有番茄酱，花椰菜和奶酪的比萨。"
+    },
+    {
+     "image_id": "000000035397",
+     "source": "main",
+     "lineno": 7540,
+     "sentence": "一盘食物，包括花椰菜和肉。"
+    },
+    {
+     "image_id": "000000433446",
+     "source": "main",
+     "lineno": 7617,
+     "sentence": "一盘食物放在桌子上，包括花椰菜和肉 。"
+    },
+    {
+     "image_id": "000000380477",
+     "source": "main",
+     "lineno": 7840,
+     "sentence": "碗里有花椰菜和面条"
+    },
+    {
+     "image_id": "000000354606",
+     "source": "main",
+     "lineno": 7944,
+     "sentence": "一只仓鼠正在啃一块花椰菜。"
+    },
+    {
+     "image_id": "000000282675",
+     "source": "main",
+     "lineno": 8111,
+     "sentence": "一头花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000336354",
+     "source": "main",
+     "lineno": 8724,
+     "sentence": "一盘花椰菜、豌豆、土豆和肉"
+    },
+    {
+     "image_id": "000000210584",
+     "source": "main",
+     "lineno": 9295,
+     "sentence": "一张蓝色条纹桌布上有一盘装有花椰菜，肉和土豆泥的盘子"
+    },
+    {
+     "image_id": "000000098044",
+     "source": "main",
+     "lineno": 9352,
+     "sentence": "一盘食物中含有肉类和花椰菜。"
+    },
+    {
+     "image_id": "000000579631",
+     "source": "main",
+     "lineno": 9813,
+     "sentence": "一道有花椰菜、香肠和洋葱的菜"
+    },
+    {
+     "image_id": "000000419800",
+     "source": "main",
+     "lineno": 9852,
+     "sentence": "一个小女孩似乎犹豫着吃一些花椰菜。"
+    },
+    {
+     "image_id": "000000174845",
+     "source": "main",
+     "lineno": 10844,
+     "sentence": "一碟沙拉拌花椰菜"
+    },
+    {
+     "image_id": "000000242619",
+     "source": "main",
+     "lineno": 11722,
+     "sentence": "一个盘子里有肉、柠檬和花椰菜。"
+    },
+    {
+     "image_id": "000000168422",
+     "source": "main",
+     "lineno": 12346,
+     "sentence": "一盘花椰菜和肉放在桌子上。"
+    },
+    {
+     "image_id": "000000547367",
+     "source": "main",
+     "lineno": 12481,
+     "sentence": "一颗花椰菜在菜园里生长得很好。"
+    },
+    {
+     "image_id": "000000071429",
+     "source": "main",
+     "lineno": 14273,
+     "sentence": "一颗花椰菜在阳光下生长。"
+    },
+    {
+     "image_id": "000000028728",
+     "source": "main",
+     "lineno": 15597,
+     "sentence": "锅里有炒熟了的花椰菜和蘑菇。"
+    },
+    {
+     "image_id": "000000542154",
+     "source": "main",
+     "lineno": 15656,
+     "sentence": "一个带有香肠、花椰菜、鸡蛋和奶酪的比萨饼"
+    },
+    {
+     "image_id": "000000542154",
+     "source": "main",
+     "lineno": 15657,
+     "sentence": "带有柠檬、花椰菜、鸡肉和奶酪的比萨。"
+    },
+    {
+     "image_id": "000000432153",
+     "source": "main",
+     "lineno": 16398,
+     "sentence": "盘子里装着花椰菜、土豆泥和牛排。"
+    },
+    {
+     "image_id": "000000527365",
+     "source": "main",
+     "lineno": 16883,
+     "sentence": "盘子有一小块肉和许多花椰菜。"
+    },
+    {
+     "image_id": "000000522703",
+     "source": "main",
+     "lineno": 17153,
+     "sentence": "桌子上有一个托盘，托盘上有一块花椰菜和奶酪构成的比萨饼。"
+    },
+    {
+     "image_id": "000000370117",
+     "source": "main",
+     "lineno": 18015,
+     "sentence": "一片花椰菜在阳光下生长。"
+    },
+    {
+     "image_id": "000000126653",
+     "source": "main",
+     "lineno": 18104,
+     "sentence": "一个白色盘子上放着一些红黄相间的食物和一些花椰菜沙拉。"
+    },
+    {
+     "image_id": "000000000370",
+     "source": "main",
+     "lineno": 19529,
+     "sentence": "一个金发小女孩笑着将手里的花椰菜举到镜头前"
+    },
+    {
+     "image_id": "000000358678",
+     "source": "main",
+     "lineno": 20173,
+     "sentence": "盘子里放有一个带有番茄、花椰菜、鸡肉和奶酪的比萨饼"
+    },
+    {
+     "image_id": "000000253718",
+     "source": "main",
+     "lineno": 21143,
+     "sentence": "一个平底锅里装满了花椰菜和一些肉类。"
+    },
+    {
+     "image_id": "000000267770",
+     "source": "main",
+     "lineno": 21176,
+     "sentence": "特写镜头中有一些花椰菜，红米饭和薯片。"
+    },
+    {
+     "image_id": "000000345497",
+     "source": "ext",
+     "lineno": 1699,
+     "sentence": "黑白相间的荷兰猪正在吃花椰菜"
+    },
+    {
+     "image_id": "000000370329",
+     "source": "ext",
+     "lineno": 2208,
+     "sentence": "一个餐盘里装满配有胡萝卜和花椰菜的面条"
+    },
+    {
+     "image_id": "000000492055",
+     "source": "ext",
+     "lineno": 3069,
+     "sentence": "一堆被割下的绿色的花椰菜的特写"
+    },
+    {
+     "image_id": "000000549962",
+     "source": "ext",
+     "lineno": 3357,
+     "sentence": "碗里盛放着西兰花和花椰菜"
+    }
+   ],
+   "combined_hosts": 43
+  },
+  {
+   "surface": "橘黄",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 4,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 4,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000094168",
+     "source": "main",
+     "lineno": 11090,
+     "sentence": "一列橘黄色的火车驶过荒野"
+    },
+    {
+     "image_id": "000000014804",
+     "source": "main",
+     "lineno": 12843,
+     "sentence": "书桌上的台灯发出橘黄色的灯光，一只猫慵懒地趴在台灯前。"
+    },
+    {
+     "image_id": "000000311629",
+     "source": "ext",
+     "lineno": 2514,
+     "sentence": "一架橘黄色的飞机在天空中飞过。"
+    },
+    {
+     "image_id": "000000063857",
+     "source": "ext",
+     "lineno": 2989,
+     "sentence": "一张橘黄色的桌子上摆放着一个有条纹的盘子、一把叉子和一个透明的杯子"
+    }
+   ],
+   "combined_hosts": 4
+  },
+  {
+   "surface": "橙",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "green",
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 278,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 278,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000171737",
+     "source": "main",
+     "lineno": 269,
+     "sentence": "一个穿着白色短裤橙色上衣的男网球运动员正在准备击球。"
+    },
+    {
+     "image_id": "000000331876",
+     "source": "main",
+     "lineno": 335,
+     "sentence": "一个白色与橙色的标识牌立在满地绿叶上"
+    },
+    {
+     "image_id": "000000257076",
+     "source": "main",
+     "lineno": 447,
+     "sentence": "一个老人拿着一把伞和一面旗，身后有条橙色的小船。"
+    },
+    {
+     "image_id": "000000078283",
+     "source": "main",
+     "lineno": 515,
+     "sentence": "水果摊上有苹果和橙子等水果"
+    },
+    {
+     "image_id": "000000277869",
+     "source": "main",
+     "lineno": 553,
+     "sentence": "一辆橙色的双层公共汽车停靠在路上。"
+    },
+    {
+     "image_id": "000000226613",
+     "source": "main",
+     "lineno": 561,
+     "sentence": "一个穿着黑色泳裤的男人从水中跃出去抓空中的一个橙红色的东西"
+    },
+    {
+     "image_id": "000000184320",
+     "source": "main",
+     "lineno": 677,
+     "sentence": "一名穿橙色短袖的男子正准备伸手接一个朝他脸上飞来的黄色飞盘"
+    },
+    {
+     "image_id": "000000203618",
+     "source": "main",
+     "lineno": 739,
+     "sentence": "架子上放了许多番石榴、橙子、猕猴桃、西柚和菠萝。"
+    },
+    {
+     "image_id": "000000224168",
+     "source": "main",
+     "lineno": 758,
+     "sentence": "一只橙色的猫蜷缩在桌子上的一只碗里"
+    },
+    {
+     "image_id": "000000421536",
+     "source": "main",
+     "lineno": 773,
+     "sentence": "一辆橙色的公交汽车停在马路边，一个女人正在前车门准备上车。"
+    },
+    {
+     "image_id": "000000421536",
+     "source": "main",
+     "lineno": 774,
+     "sentence": "人们正在登上一辆车头涂成橙色的公交车"
+    },
+    {
+     "image_id": "000000409099",
+     "source": "main",
+     "lineno": 881,
+     "sentence": "桌子上有一个新烤制的蛋糕，旁边的果盘里有一些香蕉和橙子，桌上还有一个白色的茶壶以及一些封装的干果。"
+    },
+    {
+     "image_id": "000000298151",
+     "source": "main",
+     "lineno": 1163,
+     "sentence": "盘子里放着两个橙子和一些饼干"
+    },
+    {
+     "image_id": "000000310013",
+     "source": "main",
+     "lineno": 1199,
+     "sentence": "公园里一个戴着帽子穿着花格子衬衫的男人正踩着滑板越过一个橙色的障碍物"
+    },
+    {
+     "image_id": "000000129843",
+     "source": "main",
+     "lineno": 1351,
+     "sentence": "盘子里盛着一块巧克力蛋糕，后面是几个橙子"
+    },
+    {
+     "image_id": "000000573181",
+     "source": "main",
+     "lineno": 1400,
+     "sentence": "一只橙白毛色的猫站在沙发和窗台上。"
+    },
+    {
+     "image_id": "000000510169",
+     "source": "main",
+     "lineno": 1546,
+     "sentence": "一辆橙色的公交车被改装成了移动图书馆"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1590,
+     "sentence": "一列橙色涂装的夜行火车正停在火车站台。"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1591,
+     "sentence": "一辆橙色、白色和灰色的火车停靠在空无一人的站台"
+    },
+    {
+     "image_id": "000000447099",
+     "source": "main",
+     "lineno": 1637,
+     "sentence": "落日时的橙色天空和半个太阳。"
+    },
+    {
+     "image_id": "000000455181",
+     "source": "main",
+     "lineno": 1730,
+     "sentence": "橙色的灯光下一只猫坐在矮柜上看着镜子中的自己。"
+    },
+    {
+     "image_id": "000000313861",
+     "source": "main",
+     "lineno": 1824,
+     "sentence": "桌子上有一些橙色水果，果酒和金色的花瓶。"
+    },
+    {
+     "image_id": "000000460296",
+     "source": "main",
+     "lineno": 1882,
+     "sentence": "桌子上黄色的盘子里放着胡萝卜，西蓝花，橙子和火腿"
+    },
+    {
+     "image_id": "000000031971",
+     "source": "main",
+     "lineno": 1955,
+     "sentence": "一张漂亮的床上有两个橙色的枕头，铺着颜色鲜艳的床单。"
+    },
+    {
+     "image_id": "000000072535",
+     "source": "main",
+     "lineno": 1989,
+     "sentence": "一只橙色的猫躺在车上的引擎盖上。"
+    },
+    {
+     "image_id": "000000237745",
+     "source": "main",
+     "lineno": 2207,
+     "sentence": "一个人穿着冲浪服踩着橙色的冲浪板在海上冲浪"
+    },
+    {
+     "image_id": "000000346752",
+     "source": "main",
+     "lineno": 2214,
+     "sentence": "一盘用橙子皮装着的橙色果冻。"
+    },
+    {
+     "image_id": "000000412955",
+     "source": "main",
+     "lineno": 2422,
+     "sentence": "一只橙色的猫睡着了。"
+    },
+    {
+     "image_id": "000000497855",
+     "source": "main",
+     "lineno": 2485,
+     "sentence": "黄色的香蕉与橙色的苹果放在了一起，并且一些苹果已经熟的太透了"
+    },
+    {
+     "image_id": "000000431008",
+     "source": "main",
+     "lineno": 2551,
+     "sentence": "橙色的工具箱里装着剪刀、钳子等各种工具。"
+    },
+    {
+     "image_id": "000000297304",
+     "source": "main",
+     "lineno": 2709,
+     "sentence": "一列红色火车停在一栋橙色建筑物前"
+    },
+    {
+     "image_id": "000000428113",
+     "source": "main",
+     "lineno": 2834,
+     "sentence": "桌子上放着两个橙子和一碗盖着鱼和菜的饭"
+    },
+    {
+     "image_id": "000000531828",
+     "source": "main",
+     "lineno": 3223,
+     "sentence": "一个人正拿着一个橙色的甜甜圈。"
+    },
+    {
+     "image_id": "000000359519",
+     "source": "main",
+     "lineno": 3323,
+     "sentence": "一只狗和一只猫躺在一个橙色的沙发上。"
+    },
+    {
+     "image_id": "000000051540",
+     "source": "main",
+     "lineno": 3332,
+     "sentence": "水果市场上一个卖橙子和牛油果的小摊，上面挂着一个称。"
+    },
+    {
+     "image_id": "000000439199",
+     "source": "main",
+     "lineno": 3467,
+     "sentence": "地板上一个黑色和橙色相间的滑板"
+    },
+    {
+     "image_id": "000000577051",
+     "source": "main",
+     "lineno": 3536,
+     "sentence": "一个小孩拖着一个橙色的玩具狗。"
+    },
+    {
+     "image_id": "000000106003",
+     "source": "main",
+     "lineno": 3591,
+     "sentence": "河岸码头上放着一个橙色行李箱"
+    },
+    {
+     "image_id": "000000106003",
+     "source": "main",
+     "lineno": 3592,
+     "sentence": "河流边有一个橙色的行李箱。"
+    },
+    {
+     "image_id": "000000088917",
+     "source": "main",
+     "lineno": 3618,
+     "sentence": "桌子上有一把橙色的剪刀和一盒散落的彩色钉子。"
+    },
+    {
+     "image_id": "000000140563",
+     "source": "main",
+     "lineno": 3754,
+     "sentence": "许多身穿西装的男人头顶都戴了一个橙色的盒子。"
+    },
+    {
+     "image_id": "000000004843",
+     "source": "main",
+     "lineno": 3804,
+     "sentence": "一个小孩拿着一把橙色的太阳伞，后面站着几个大人"
+    },
+    {
+     "image_id": "000000004843",
+     "source": "main",
+     "lineno": 3805,
+     "sentence": "一个小男孩举着一把橙色的雨伞站在人群旁"
+    },
+    {
+     "image_id": "000000053436",
+     "source": "main",
+     "lineno": 3822,
+     "sentence": "一个橙色的消防栓"
+    },
+    {
+     "image_id": "000000012902",
+     "source": "main",
+     "lineno": 3871,
+     "sentence": "一只碗里放着许多橙子。"
+    },
+    {
+     "image_id": "000000317622",
+     "source": "main",
+     "lineno": 3921,
+     "sentence": "橙色和蓝色的两辆公交车在停车场里"
+    },
+    {
+     "image_id": "000000318462",
+     "source": "main",
+     "lineno": 4101,
+     "sentence": "一只黑猫在一把黄色的伞旁边盯着一个橙色的小球"
+    },
+    {
+     "image_id": "000000129379",
+     "source": "main",
+     "lineno": 4508,
+     "sentence": "一个穿着橙色衣服的女孩坐在路旁，沮丧地打着电话"
+    },
+    {
+     "image_id": "000000255089",
+     "source": "main",
+     "lineno": 4559,
+     "sentence": "桌上摆着一盘切好的橙子和柠檬"
+    },
+    {
+     "image_id": "000000431874",
+     "source": "main",
+     "lineno": 4573,
+     "sentence": "橙色的盘子里装着一个汉堡包"
+    }
+   ],
+   "combined_hosts": 278
+  },
+  {
+   "surface": "橙子",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 73,
+   "n_caption_hosts_jieba": 73,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 73,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000078283",
+     "source": "main",
+     "lineno": 515,
+     "sentence": "水果摊上有苹果和橙子等水果"
+    },
+    {
+     "image_id": "000000203618",
+     "source": "main",
+     "lineno": 739,
+     "sentence": "架子上放了许多番石榴、橙子、猕猴桃、西柚和菠萝。"
+    },
+    {
+     "image_id": "000000409099",
+     "source": "main",
+     "lineno": 881,
+     "sentence": "桌子上有一个新烤制的蛋糕，旁边的果盘里有一些香蕉和橙子，桌上还有一个白色的茶壶以及一些封装的干果。"
+    },
+    {
+     "image_id": "000000298151",
+     "source": "main",
+     "lineno": 1163,
+     "sentence": "盘子里放着两个橙子和一些饼干"
+    },
+    {
+     "image_id": "000000129843",
+     "source": "main",
+     "lineno": 1351,
+     "sentence": "盘子里盛着一块巧克力蛋糕，后面是几个橙子"
+    },
+    {
+     "image_id": "000000460296",
+     "source": "main",
+     "lineno": 1882,
+     "sentence": "桌子上黄色的盘子里放着胡萝卜，西蓝花，橙子和火腿"
+    },
+    {
+     "image_id": "000000346752",
+     "source": "main",
+     "lineno": 2214,
+     "sentence": "一盘用橙子皮装着的橙色果冻。"
+    },
+    {
+     "image_id": "000000428113",
+     "source": "main",
+     "lineno": 2834,
+     "sentence": "桌子上放着两个橙子和一碗盖着鱼和菜的饭"
+    },
+    {
+     "image_id": "000000051540",
+     "source": "main",
+     "lineno": 3332,
+     "sentence": "水果市场上一个卖橙子和牛油果的小摊，上面挂着一个称。"
+    },
+    {
+     "image_id": "000000012902",
+     "source": "main",
+     "lineno": 3871,
+     "sentence": "一只碗里放着许多橙子。"
+    },
+    {
+     "image_id": "000000255089",
+     "source": "main",
+     "lineno": 4559,
+     "sentence": "桌上摆着一盘切好的橙子和柠檬"
+    },
+    {
+     "image_id": "000000336291",
+     "source": "main",
+     "lineno": 5160,
+     "sentence": "人们在铺满橙子的水果摊上买水果。"
+    },
+    {
+     "image_id": "000000267349",
+     "source": "main",
+     "lineno": 5350,
+     "sentence": "桌子上有一个碟子，碟子里放着一个碗和两个李子，碗里放着一串葡萄、一个梨和一个橙子"
+    },
+    {
+     "image_id": "000000163180",
+     "source": "main",
+     "lineno": 5639,
+     "sentence": "桌上有香蕉、菠萝、橙子和苹果四种水果"
+    },
+    {
+     "image_id": "000000031000",
+     "source": "main",
+     "lineno": 5668,
+     "sentence": "盘子中有很多橙子"
+    },
+    {
+     "image_id": "000000325548",
+     "source": "main",
+     "lineno": 6583,
+     "sentence": "两个袋子里有许多橙子，袋子旁边放着四个其他水果"
+    },
+    {
+     "image_id": "000000531143",
+     "source": "main",
+     "lineno": 6981,
+     "sentence": "两只蝴蝶站在半个橙子上"
+    },
+    {
+     "image_id": "000000362816",
+     "source": "main",
+     "lineno": 7131,
+     "sentence": "一个人在市场里卖橙子"
+    },
+    {
+     "image_id": "000000540164",
+     "source": "main",
+     "lineno": 8338,
+     "sentence": "盘子里放着香蕉，橙子，苹果。"
+    },
+    {
+     "image_id": "000000569101",
+     "source": "main",
+     "lineno": 8693,
+     "sentence": "一只蝴蝶落在一个盘子边缘，盘子上放着切开的橙子"
+    },
+    {
+     "image_id": "000000204981",
+     "source": "main",
+     "lineno": 9133,
+     "sentence": "餐桌上摆放着盛有海鲜、蔬菜和橙子的餐盘。"
+    },
+    {
+     "image_id": "000000550844",
+     "source": "main",
+     "lineno": 9706,
+     "sentence": "一些橙子放在装满食物的碗的旁边"
+    },
+    {
+     "image_id": "000000120491",
+     "source": "main",
+     "lineno": 9719,
+     "sentence": "一个橙子旁边有一瓶橙汁。"
+    },
+    {
+     "image_id": "000000382103",
+     "source": "main",
+     "lineno": 9991,
+     "sentence": "水果市场上有一些橙子和梨子。"
+    },
+    {
+     "image_id": "000000574692",
+     "source": "main",
+     "lineno": 10004,
+     "sentence": "一个水果摊上堆满了新鲜采摘的橙子。"
+    },
+    {
+     "image_id": "000000543010",
+     "source": "main",
+     "lineno": 10642,
+     "sentence": "一张桌子上的一块板上摆放了橙子、杏仁和一盘子松糕。"
+    },
+    {
+     "image_id": "000000176521",
+     "source": "main",
+     "lineno": 10744,
+     "sentence": "一个新鲜的橙子切成2半的照片。"
+    },
+    {
+     "image_id": "000000491765",
+     "source": "main",
+     "lineno": 10771,
+     "sentence": "袋子上放着一堆炸薯条、番茄酱和半个橙子"
+    },
+    {
+     "image_id": "000000562897",
+     "source": "main",
+     "lineno": 10856,
+     "sentence": "一个盘子上放着一排切好的橙子和一把叉子。"
+    },
+    {
+     "image_id": "000000042641",
+     "source": "main",
+     "lineno": 11194,
+     "sentence": "桌上有橙子、梨和香蕉。"
+    },
+    {
+     "image_id": "000000544449",
+     "source": "main",
+     "lineno": 11363,
+     "sentence": "许多青苹果上面放着一个橙子。"
+    },
+    {
+     "image_id": "000000212462",
+     "source": "main",
+     "lineno": 11364,
+     "sentence": "玻璃盘中摆了菠萝香蕉和橙子。"
+    },
+    {
+     "image_id": "000000323592",
+     "source": "main",
+     "lineno": 11484,
+     "sentence": "桌上放着西兰花、苹果、梨、橙子、土豆等蔬果"
+    },
+    {
+     "image_id": "000000295970",
+     "source": "main",
+     "lineno": 11729,
+     "sentence": "橙子上面固定了一个便签。"
+    },
+    {
+     "image_id": "000000036068",
+     "source": "main",
+     "lineno": 11764,
+     "sentence": "市场区有南瓜、橙子、香瓜等各种瓜类"
+    },
+    {
+     "image_id": "000000485724",
+     "source": "main",
+     "lineno": 12375,
+     "sentence": "多个篮子里装满了水果，包括橙子。"
+    },
+    {
+     "image_id": "000000258073",
+     "source": "main",
+     "lineno": 12565,
+     "sentence": "市场上的水果摊里陈列着许多不同的水果，包括柠檬和橙子，每种水果上面还有一块价格牌。"
+    },
+    {
+     "image_id": "000000509157",
+     "source": "main",
+     "lineno": 12762,
+     "sentence": "超市里有一堆大而圆的熟橙子。"
+    },
+    {
+     "image_id": "000000509157",
+     "source": "main",
+     "lineno": 12763,
+     "sentence": "水果摊摆放着许多新鲜的橙子。"
+    },
+    {
+     "image_id": "000000119452",
+     "source": "main",
+     "lineno": 13050,
+     "sentence": "篮子里有香蕉，橙子等水果。"
+    },
+    {
+     "image_id": "000000120644",
+     "source": "main",
+     "lineno": 13625,
+     "sentence": "桌子上放着一盘橙子和许多饼干"
+    },
+    {
+     "image_id": "000000563730",
+     "source": "main",
+     "lineno": 13671,
+     "sentence": "一个橙子和一个绿色的勺子"
+    },
+    {
+     "image_id": "000000463102",
+     "source": "main",
+     "lineno": 13797,
+     "sentence": "桌子上放着橙子，蛋糕和一杯饮品。"
+    },
+    {
+     "image_id": "000000283070",
+     "source": "main",
+     "lineno": 14541,
+     "sentence": "木板上放着橙子，左边是一个完整的橙子，中间是半个橙子，最右边放着切成三瓣的橙子。"
+    },
+    {
+     "image_id": "000000050679",
+     "source": "main",
+     "lineno": 15325,
+     "sentence": "一张一个橙子放在马路上的特写照片。"
+    },
+    {
+     "image_id": "000000141741",
+     "source": "main",
+     "lineno": 15480,
+     "sentence": "桌子上的果盘放满了水果，有香蕉、橙子和苹果。"
+    },
+    {
+     "image_id": "000000530497",
+     "source": "main",
+     "lineno": 15618,
+     "sentence": "一个盘子中有一把刀、一个叉子和一瓣橙子"
+    },
+    {
+     "image_id": "000000292538",
+     "source": "main",
+     "lineno": 16266,
+     "sentence": "桌上放着两个橙子、一个苹果、一个盘子和一副刀叉"
+    },
+    {
+     "image_id": "000000351595",
+     "source": "main",
+     "lineno": 16675,
+     "sentence": "一只小狗望着一个女人吃橙子。"
+    },
+    {
+     "image_id": "000000184791",
+     "source": "main",
+     "lineno": 16943,
+     "sentence": "一幅画着橙子、蜡烛和茶壶的油画"
+    }
+   ],
+   "combined_hosts": 73
+  },
+  {
+   "surface": "橙色",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 194,
+   "n_caption_hosts_jieba": 194,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 194,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000171737",
+     "source": "main",
+     "lineno": 269,
+     "sentence": "一个穿着白色短裤橙色上衣的男网球运动员正在准备击球。"
+    },
+    {
+     "image_id": "000000331876",
+     "source": "main",
+     "lineno": 335,
+     "sentence": "一个白色与橙色的标识牌立在满地绿叶上"
+    },
+    {
+     "image_id": "000000257076",
+     "source": "main",
+     "lineno": 447,
+     "sentence": "一个老人拿着一把伞和一面旗，身后有条橙色的小船。"
+    },
+    {
+     "image_id": "000000277869",
+     "source": "main",
+     "lineno": 553,
+     "sentence": "一辆橙色的双层公共汽车停靠在路上。"
+    },
+    {
+     "image_id": "000000184320",
+     "source": "main",
+     "lineno": 677,
+     "sentence": "一名穿橙色短袖的男子正准备伸手接一个朝他脸上飞来的黄色飞盘"
+    },
+    {
+     "image_id": "000000224168",
+     "source": "main",
+     "lineno": 758,
+     "sentence": "一只橙色的猫蜷缩在桌子上的一只碗里"
+    },
+    {
+     "image_id": "000000421536",
+     "source": "main",
+     "lineno": 773,
+     "sentence": "一辆橙色的公交汽车停在马路边，一个女人正在前车门准备上车。"
+    },
+    {
+     "image_id": "000000421536",
+     "source": "main",
+     "lineno": 774,
+     "sentence": "人们正在登上一辆车头涂成橙色的公交车"
+    },
+    {
+     "image_id": "000000310013",
+     "source": "main",
+     "lineno": 1199,
+     "sentence": "公园里一个戴着帽子穿着花格子衬衫的男人正踩着滑板越过一个橙色的障碍物"
+    },
+    {
+     "image_id": "000000510169",
+     "source": "main",
+     "lineno": 1546,
+     "sentence": "一辆橙色的公交车被改装成了移动图书馆"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1590,
+     "sentence": "一列橙色涂装的夜行火车正停在火车站台。"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1591,
+     "sentence": "一辆橙色、白色和灰色的火车停靠在空无一人的站台"
+    },
+    {
+     "image_id": "000000447099",
+     "source": "main",
+     "lineno": 1637,
+     "sentence": "落日时的橙色天空和半个太阳。"
+    },
+    {
+     "image_id": "000000455181",
+     "source": "main",
+     "lineno": 1730,
+     "sentence": "橙色的灯光下一只猫坐在矮柜上看着镜子中的自己。"
+    },
+    {
+     "image_id": "000000313861",
+     "source": "main",
+     "lineno": 1824,
+     "sentence": "桌子上有一些橙色水果，果酒和金色的花瓶。"
+    },
+    {
+     "image_id": "000000031971",
+     "source": "main",
+     "lineno": 1955,
+     "sentence": "一张漂亮的床上有两个橙色的枕头，铺着颜色鲜艳的床单。"
+    },
+    {
+     "image_id": "000000072535",
+     "source": "main",
+     "lineno": 1989,
+     "sentence": "一只橙色的猫躺在车上的引擎盖上。"
+    },
+    {
+     "image_id": "000000237745",
+     "source": "main",
+     "lineno": 2207,
+     "sentence": "一个人穿着冲浪服踩着橙色的冲浪板在海上冲浪"
+    },
+    {
+     "image_id": "000000346752",
+     "source": "main",
+     "lineno": 2214,
+     "sentence": "一盘用橙子皮装着的橙色果冻。"
+    },
+    {
+     "image_id": "000000412955",
+     "source": "main",
+     "lineno": 2422,
+     "sentence": "一只橙色的猫睡着了。"
+    },
+    {
+     "image_id": "000000497855",
+     "source": "main",
+     "lineno": 2485,
+     "sentence": "黄色的香蕉与橙色的苹果放在了一起，并且一些苹果已经熟的太透了"
+    },
+    {
+     "image_id": "000000431008",
+     "source": "main",
+     "lineno": 2551,
+     "sentence": "橙色的工具箱里装着剪刀、钳子等各种工具。"
+    },
+    {
+     "image_id": "000000297304",
+     "source": "main",
+     "lineno": 2709,
+     "sentence": "一列红色火车停在一栋橙色建筑物前"
+    },
+    {
+     "image_id": "000000531828",
+     "source": "main",
+     "lineno": 3223,
+     "sentence": "一个人正拿着一个橙色的甜甜圈。"
+    },
+    {
+     "image_id": "000000359519",
+     "source": "main",
+     "lineno": 3323,
+     "sentence": "一只狗和一只猫躺在一个橙色的沙发上。"
+    },
+    {
+     "image_id": "000000439199",
+     "source": "main",
+     "lineno": 3467,
+     "sentence": "地板上一个黑色和橙色相间的滑板"
+    },
+    {
+     "image_id": "000000577051",
+     "source": "main",
+     "lineno": 3536,
+     "sentence": "一个小孩拖着一个橙色的玩具狗。"
+    },
+    {
+     "image_id": "000000106003",
+     "source": "main",
+     "lineno": 3591,
+     "sentence": "河岸码头上放着一个橙色行李箱"
+    },
+    {
+     "image_id": "000000106003",
+     "source": "main",
+     "lineno": 3592,
+     "sentence": "河流边有一个橙色的行李箱。"
+    },
+    {
+     "image_id": "000000088917",
+     "source": "main",
+     "lineno": 3618,
+     "sentence": "桌子上有一把橙色的剪刀和一盒散落的彩色钉子。"
+    },
+    {
+     "image_id": "000000140563",
+     "source": "main",
+     "lineno": 3754,
+     "sentence": "许多身穿西装的男人头顶都戴了一个橙色的盒子。"
+    },
+    {
+     "image_id": "000000004843",
+     "source": "main",
+     "lineno": 3804,
+     "sentence": "一个小孩拿着一把橙色的太阳伞，后面站着几个大人"
+    },
+    {
+     "image_id": "000000004843",
+     "source": "main",
+     "lineno": 3805,
+     "sentence": "一个小男孩举着一把橙色的雨伞站在人群旁"
+    },
+    {
+     "image_id": "000000053436",
+     "source": "main",
+     "lineno": 3822,
+     "sentence": "一个橙色的消防栓"
+    },
+    {
+     "image_id": "000000317622",
+     "source": "main",
+     "lineno": 3921,
+     "sentence": "橙色和蓝色的两辆公交车在停车场里"
+    },
+    {
+     "image_id": "000000318462",
+     "source": "main",
+     "lineno": 4101,
+     "sentence": "一只黑猫在一把黄色的伞旁边盯着一个橙色的小球"
+    },
+    {
+     "image_id": "000000129379",
+     "source": "main",
+     "lineno": 4508,
+     "sentence": "一个穿着橙色衣服的女孩坐在路旁，沮丧地打着电话"
+    },
+    {
+     "image_id": "000000431874",
+     "source": "main",
+     "lineno": 4573,
+     "sentence": "橙色的盘子里装着一个汉堡包"
+    },
+    {
+     "image_id": "000000487938",
+     "source": "main",
+     "lineno": 4686,
+     "sentence": "一个透明的花瓶里有一束橙色的花。"
+    },
+    {
+     "image_id": "000000358836",
+     "source": "main",
+     "lineno": 4724,
+     "sentence": "一张橙色古色古香的沙发。"
+    },
+    {
+     "image_id": "000000298914",
+     "source": "main",
+     "lineno": 4790,
+     "sentence": "许多奶油的纸杯蛋糕，上面是撒上了橙色的装饰饼干。"
+    },
+    {
+     "image_id": "000000408607",
+     "source": "main",
+     "lineno": 4825,
+     "sentence": "一只橙色的猫坐在窗台上。"
+    },
+    {
+     "image_id": "000000483139",
+     "source": "main",
+     "lineno": 4853,
+     "sentence": "一只橙色和白色相见的猫躺在桌子上。"
+    },
+    {
+     "image_id": "000000249025",
+     "source": "main",
+     "lineno": 4960,
+     "sentence": "花瓶里有两朵橙色的花"
+    },
+    {
+     "image_id": "000000400803",
+     "source": "main",
+     "lineno": 5102,
+     "sentence": "大海中有一艘橙色的小船"
+    },
+    {
+     "image_id": "000000574388",
+     "source": "main",
+     "lineno": 5199,
+     "sentence": "一只橙色的猫旁边有一个黑色的键盘。"
+    },
+    {
+     "image_id": "000000435047",
+     "source": "main",
+     "lineno": 5242,
+     "sentence": "一辆橙色的货车旁有几只气球。"
+    },
+    {
+     "image_id": "000000287846",
+     "source": "main",
+     "lineno": 5558,
+     "sentence": "一只黑白相间的短腿猎犬全身湿湿的站在水边，嘴里叼了一个橙色小球。"
+    },
+    {
+     "image_id": "000000082530",
+     "source": "main",
+     "lineno": 5660,
+     "sentence": "干净的厕所里有一个盖子漆成橙色的马桶"
+    },
+    {
+     "image_id": "000000182974",
+     "source": "main",
+     "lineno": 5742,
+     "sentence": "房间里的墙壁是 橙色的，窗户边有一张红色的桌子。"
+    }
+   ],
+   "combined_hosts": 194
+  },
+  {
+   "surface": "橙黄",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 3,
+   "n_caption_hosts_jieba": 1,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 3,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000171809",
+     "source": "main",
+     "lineno": 9741,
+     "sentence": "一只橙黄相间的毛趴在长椅上。"
+    },
+    {
+     "image_id": "000000283120",
+     "source": "main",
+     "lineno": 17841,
+     "sentence": "一个穿着橙黄色外套的人踏着滑雪板做特技动作。"
+    },
+    {
+     "image_id": "000000357812",
+     "source": "main",
+     "lineno": 18440,
+     "sentence": "客厅里有两张橙黄色的沙发和一张桌子。"
+    }
+   ],
+   "combined_hosts": 3
+  },
+  {
+   "surface": "没",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 39,
+   "n_caption_hosts_jieba": 9,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 39,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000494404",
+     "source": "main",
+     "lineno": 314,
+     "sentence": "大水淹没了马路，只能看到信号灯和路标的上半部分。"
+    },
+    {
+     "image_id": "000000238187",
+     "source": "main",
+     "lineno": 339,
+     "sentence": "桌子上放着半个苹果和几块没有皮的香蕉。"
+    },
+    {
+     "image_id": "000000388911",
+     "source": "main",
+     "lineno": 466,
+     "sentence": "卫生间里马桶洗手池还都没有安装好，正等着装潢。"
+    },
+    {
+     "image_id": "000000065567",
+     "source": "main",
+     "lineno": 3350,
+     "sentence": "空旷的田野中一条高速公路穿过，公路上一辆车也没有。"
+    },
+    {
+     "image_id": "000000216462",
+     "source": "main",
+     "lineno": 3612,
+     "sentence": "海滩上没有打开的帐篷前面有一个大型机器"
+    },
+    {
+     "image_id": "000000453001",
+     "source": "main",
+     "lineno": 3887,
+     "sentence": "两个女人站在花园，其中一个拉着行李箱的女人没有站稳"
+    },
+    {
+     "image_id": "000000121610",
+     "source": "main",
+     "lineno": 4629,
+     "sentence": "开满鲜花的花园里有一个没坐人的木制座椅。"
+    },
+    {
+     "image_id": "000000263229",
+     "source": "main",
+     "lineno": 5434,
+     "sentence": "一个没穿上衣的男人靠在椅子上玩笔记本电脑。"
+    },
+    {
+     "image_id": "000000287228",
+     "source": "main",
+     "lineno": 5669,
+     "sentence": "河水淹没了一个黄色消防栓周边的道路"
+    },
+    {
+     "image_id": "000000184207",
+     "source": "main",
+     "lineno": 5712,
+     "sentence": "一个男孩站在一棵还没成熟的香蕉树旁"
+    },
+    {
+     "image_id": "000000141304",
+     "source": "main",
+     "lineno": 5961,
+     "sentence": "街道上基本没有车，路的一边停了一辆厢式货车。"
+    },
+    {
+     "image_id": "000000549104",
+     "source": "main",
+     "lineno": 6187,
+     "sentence": "一个紧挨海岸的长椅上面正没有人。"
+    },
+    {
+     "image_id": "000000454230",
+     "source": "main",
+     "lineno": 6512,
+     "sentence": "一棵没有叶子的树下有一块指示路牌。"
+    },
+    {
+     "image_id": "000000464751",
+     "source": "main",
+     "lineno": 6952,
+     "sentence": "一个没穿上衣的男人正在用牙刷刷牙。"
+    },
+    {
+     "image_id": "000000298987",
+     "source": "main",
+     "lineno": 9236,
+     "sentence": "一个小男孩在广场上拿着自己还没有放上天的风筝。"
+    },
+    {
+     "image_id": "000000441180",
+     "source": "main",
+     "lineno": 9331,
+     "sentence": "一个没有穿衣服的婴儿手里拿着牙刷，坐在浴缸里洗澡，瞪大了眼睛。"
+    },
+    {
+     "image_id": "000000162156",
+     "source": "main",
+     "lineno": 9503,
+     "sentence": "一个狭窄但干净整洁的酒店客房里有一张大床，墙上有一台电视，浴室在离床很近的地方，这个房间里没有太大的活动空间。"
+    },
+    {
+     "image_id": "000000173132",
+     "source": "main",
+     "lineno": 9637,
+     "sentence": "阴暗的天色里，十字路口的红色信号灯前没有一辆车。"
+    },
+    {
+     "image_id": "000000222083",
+     "source": "main",
+     "lineno": 9660,
+     "sentence": "厕所中有一个没有盖子的马桶"
+    },
+    {
+     "image_id": "000000444203",
+     "source": "main",
+     "lineno": 10349,
+     "sentence": "灌木丛旁有一张木制的长椅，上面没有坐人。"
+    },
+    {
+     "image_id": "000000254418",
+     "source": "main",
+     "lineno": 10435,
+     "sentence": "被洪水淹没的街道上的交通灯。"
+    },
+    {
+     "image_id": "000000010615",
+     "source": "main",
+     "lineno": 10525,
+     "sentence": "一辆没有车门的卡车停在海边"
+    },
+    {
+     "image_id": "000000290144",
+     "source": "main",
+     "lineno": 10973,
+     "sentence": "一间铺着白色瓷砖的厕所里有一个马桶，墙上的盒子里已经没有卫生纸了。"
+    },
+    {
+     "image_id": "000000320680",
+     "source": "main",
+     "lineno": 11082,
+     "sentence": "大象正在过一条河流，几乎淹没其中。"
+    },
+    {
+     "image_id": "000000426469",
+     "source": "main",
+     "lineno": 11413,
+     "sentence": "一个没穿上衣的男孩在海里玩冲浪。"
+    },
+    {
+     "image_id": "000000047627",
+     "source": "main",
+     "lineno": 11481,
+     "sentence": "一个女人没有穿衣服躺在房间里的床上，阳光从拉起的窗帘外照进来。"
+    },
+    {
+     "image_id": "000000175135",
+     "source": "main",
+     "lineno": 13476,
+     "sentence": "一个肮脏的房间里有一排还没有完成的马桶。"
+    },
+    {
+     "image_id": "000000510304",
+     "source": "main",
+     "lineno": 14695,
+     "sentence": "雪还没化的街道上空无一人"
+    },
+    {
+     "image_id": "000000441072",
+     "source": "main",
+     "lineno": 15551,
+     "sentence": "一间病房里有三张可移动的病床，但没病人。"
+    },
+    {
+     "image_id": "000000385103",
+     "source": "main",
+     "lineno": 18791,
+     "sentence": "房间里有一个冰箱一个灭火器和没放东西的柜台"
+    },
+    {
+     "image_id": "000000182362",
+     "source": "main",
+     "lineno": 19260,
+     "sentence": "一个男孩坐在苹果笔记本电脑前正在使用电脑，旁边有没吃完的食物和一瓶可乐。"
+    },
+    {
+     "image_id": "000000389304",
+     "source": "main",
+     "lineno": 22081,
+     "sentence": "一个没有打开的交通灯上方有一个标识牌。"
+    },
+    {
+     "image_id": "000000297514",
+     "source": "ext",
+     "lineno": 508,
+     "sentence": "人们骑着大象从河中走向光秃秃没有植被的岸上"
+    },
+    {
+     "image_id": "000000207151",
+     "source": "ext",
+     "lineno": 1385,
+     "sentence": "一个菜板上放着一个没吃完的披萨饼"
+    },
+    {
+     "image_id": "000000107367",
+     "source": "ext",
+     "lineno": 1571,
+     "sentence": "一个没穿上衣的男人手里拿着冲浪板站在石头上摆拍"
+    },
+    {
+     "image_id": "000000525691",
+     "source": "ext",
+     "lineno": 1592,
+     "sentence": "草地上摆放着几个没有头的动物模型"
+    },
+    {
+     "image_id": "000000265243",
+     "source": "ext",
+     "lineno": 3349,
+     "sentence": "流光溢彩的城市街道上没有一辆车。"
+    },
+    {
+     "image_id": "000000108758",
+     "source": "ext",
+     "lineno": 3636,
+     "sentence": "两只没有拆封的黑、红、黄拼色的牙刷"
+    },
+    {
+     "image_id": "000000531569",
+     "source": "ext",
+     "lineno": 4343,
+     "sentence": "旅馆的厕所还在装修，地面的纸板还没有拿去。"
+    }
+   ],
+   "combined_hosts": 39
+  },
+  {
+   "surface": "沦",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "灯",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "illumination_set",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "bright",
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 554,
+   "n_caption_hosts_jieba": 41,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 554,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000187473",
+     "source": "main",
+     "lineno": 12,
+     "sentence": "一辆卡车在交叉路口等待红绿灯。"
+    },
+    {
+     "image_id": "000000038722",
+     "source": "main",
+     "lineno": 102,
+     "sentence": "一个穿红色衣服背包的男人拿着一个盒子走进了屋子里准备上楼，起居室里亮着灯。"
+    },
+    {
+     "image_id": "000000235701",
+     "source": "main",
+     "lineno": 108,
+     "sentence": "女孩坐在台灯旁边的沙发上，身边的墙壁挂着一幅壁画"
+    },
+    {
+     "image_id": "000000385641",
+     "source": "main",
+     "lineno": 124,
+     "sentence": "桌子上面有一台苹果笔记本电脑，一个鼠标和一个亮着的台灯。"
+    },
+    {
+     "image_id": "000000374448",
+     "source": "main",
+     "lineno": 199,
+     "sentence": "一个采光并不好的餐厅里装了很多吊灯，许多顾客正在餐厅里吃饭。"
+    },
+    {
+     "image_id": "000000212429",
+     "source": "main",
+     "lineno": 201,
+     "sentence": "这个路口的交通灯看起来像一棵圣诞树。"
+    },
+    {
+     "image_id": "000000322866",
+     "source": "main",
+     "lineno": 299,
+     "sentence": "一张书桌上有一个打开的台灯，一台合着的笔记本电脑和许多的文具。"
+    },
+    {
+     "image_id": "000000494404",
+     "source": "main",
+     "lineno": 314,
+     "sentence": "大水淹没了马路，只能看到信号灯和路标的上半部分。"
+    },
+    {
+     "image_id": "000000040930",
+     "source": "main",
+     "lineno": 368,
+     "sentence": "一条街上的交通灯都挂在电线上，街道上 有汽车驶过。"
+    },
+    {
+     "image_id": "000000316676",
+     "source": "main",
+     "lineno": 378,
+     "sentence": "街道上的交通灯被雪掩埋了。"
+    },
+    {
+     "image_id": "000000137694",
+     "source": "main",
+     "lineno": 568,
+     "sentence": "一个骑着自行车的老人停在路口等待红绿灯"
+    },
+    {
+     "image_id": "000000528386",
+     "source": "main",
+     "lineno": 592,
+     "sentence": "空荡荡的酒吧亮着五颜六色的小串灯。"
+    },
+    {
+     "image_id": "000000039288",
+     "source": "main",
+     "lineno": 613,
+     "sentence": "桌子上有一个台灯和各种水果"
+    },
+    {
+     "image_id": "000000259703",
+     "source": "main",
+     "lineno": 699,
+     "sentence": "街道旁街灯灯柱上的标识指示着这里是主街道。"
+    },
+    {
+     "image_id": "000000323828",
+     "source": "main",
+     "lineno": 805,
+     "sentence": "一列亮着灯的火车在铁路上行驶"
+    },
+    {
+     "image_id": "000000043243",
+     "source": "main",
+     "lineno": 820,
+     "sentence": "电视旁放着一盏灯和各种各样的相机"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 973,
+     "sentence": "在城市街道的人行道上，有一个红绿灯和电话亭"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 974,
+     "sentence": "电话亭旁的交通灯的绿灯亮起，交通灯旁边是指路牌"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 977,
+     "sentence": "在街道对面的交通灯。"
+    },
+    {
+     "image_id": "000000018460",
+     "source": "main",
+     "lineno": 1042,
+     "sentence": "透过铺着蓝色单子的卧铺车厢的窗户可以看到外面昏黄的灯光"
+    },
+    {
+     "image_id": "000000038321",
+     "source": "main",
+     "lineno": 1059,
+     "sentence": "街道上的红绿灯现在是红色"
+    },
+    {
+     "image_id": "000000395007",
+     "source": "main",
+     "lineno": 1235,
+     "sentence": "一座建筑物顶部的白色灯塔"
+    },
+    {
+     "image_id": "000000231907",
+     "source": "main",
+     "lineno": 1325,
+     "sentence": "两旁都是复古式建筑的街道上，交通灯正亮着红灯"
+    },
+    {
+     "image_id": "000000231907",
+     "source": "main",
+     "lineno": 1326,
+     "sentence": "一个交通灯和一个繁忙的街道在砖高层建筑前。"
+    },
+    {
+     "image_id": "000000396073",
+     "source": "main",
+     "lineno": 1397,
+     "sentence": "街道上有一个绿色的交通信号灯"
+    },
+    {
+     "image_id": "000000138434",
+     "source": "main",
+     "lineno": 1432,
+     "sentence": "傍晚，一个红绿灯旁边的天空显得格外地明亮"
+    },
+    {
+     "image_id": "000000341335",
+     "source": "main",
+     "lineno": 1547,
+     "sentence": "吊灯旁边的墙上挂着一个牛头"
+    },
+    {
+     "image_id": "000000015272",
+     "source": "main",
+     "lineno": 1577,
+     "sentence": "樱花旁边有一个交通信号灯"
+    },
+    {
+     "image_id": "000000523959",
+     "source": "main",
+     "lineno": 1604,
+     "sentence": "一个高高的钟塔旁边有一个正亮着红灯的交通灯"
+    },
+    {
+     "image_id": "000000343596",
+     "source": "main",
+     "lineno": 1618,
+     "sentence": "一个时钟在底座灯的照耀下反射着金色的光"
+    },
+    {
+     "image_id": "000000488403",
+     "source": "main",
+     "lineno": 1653,
+     "sentence": "一个斜拍的街景，艳阳下车辆川流不息，一个红绿灯标志在镜头最前面"
+    },
+    {
+     "image_id": "000000110282",
+     "source": "main",
+     "lineno": 1724,
+     "sentence": "信号灯右转方向正显示红灯。"
+    },
+    {
+     "image_id": "000000455181",
+     "source": "main",
+     "lineno": 1730,
+     "sentence": "橙色的灯光下一只猫坐在矮柜上看着镜子中的自己。"
+    },
+    {
+     "image_id": "000000579440",
+     "source": "main",
+     "lineno": 1742,
+     "sentence": "两个女人和一个男人在亮着黄色灯光的客厅里看电视"
+    },
+    {
+     "image_id": "000000116741",
+     "source": "main",
+     "lineno": 1749,
+     "sentence": "一个路灯杆上挂着路标和红绿灯。"
+    },
+    {
+     "image_id": "000000006527",
+     "source": "main",
+     "lineno": 1754,
+     "sentence": "罗马数字的钟表旁有一盏小灯。"
+    },
+    {
+     "image_id": "000000178418",
+     "source": "main",
+     "lineno": 1848,
+     "sentence": "一条街道的转角处正亮起了红灯"
+    },
+    {
+     "image_id": "000000526071",
+     "source": "main",
+     "lineno": 1896,
+     "sentence": "阴雨天一辆汽车行驶在公路上，车前方有一个亮着红灯的信号灯。"
+    },
+    {
+     "image_id": "000000012416",
+     "source": "main",
+     "lineno": 1920,
+     "sentence": "傍晚，一栋建筑物旁边的街道交通灯亮着红灯"
+    },
+    {
+     "image_id": "000000446481",
+     "source": "main",
+     "lineno": 1992,
+     "sentence": "夜晚里一个繁华的有红绿灯的街道的汽车和建筑物。"
+    },
+    {
+     "image_id": "000000434316",
+     "source": "main",
+     "lineno": 2056,
+     "sentence": "夜晚，空空荡荡的街道上路灯在闪耀着。"
+    },
+    {
+     "image_id": "000000505965",
+     "source": "main",
+     "lineno": 2088,
+     "sentence": "一个交通灯在一个多云的蓝天下方。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2166,
+     "sentence": "路灯照亮了夜晚的十字路口。"
+    },
+    {
+     "image_id": "000000255525",
+     "source": "main",
+     "lineno": 2243,
+     "sentence": "洗手池上方有一条亮着的灯管，镜子里映射着两个厕所。"
+    },
+    {
+     "image_id": "000000312334",
+     "source": "main",
+     "lineno": 2275,
+     "sentence": "傍晚空无一人的街道上的一个红绿灯"
+    },
+    {
+     "image_id": "000000193293",
+     "source": "main",
+     "lineno": 2292,
+     "sentence": "一个绿色的交通灯下面有几辆车驶过"
+    },
+    {
+     "image_id": "000000193293",
+     "source": "main",
+     "lineno": 2293,
+     "sentence": "信号灯下有几辆汽车在下过雪的街道上行驶"
+    },
+    {
+     "image_id": "000000023695",
+     "source": "main",
+     "lineno": 2314,
+     "sentence": "小城市街道的一个路口，路牌和红绿灯附近有交通警察在指挥交通。"
+    },
+    {
+     "image_id": "000000179948",
+     "source": "main",
+     "lineno": 2337,
+     "sentence": "落满积雪的台阶旁竖着一盏交通灯和一个标识杆。"
+    },
+    {
+     "image_id": "000000256908",
+     "source": "main",
+     "lineno": 2406,
+     "sentence": "一面被涂上了蓝白两种涂料的墙上挂着一个画着奶牛的钟表和一盏灯"
+    }
+   ],
+   "combined_hosts": 554
+  },
+  {
+   "surface": "煤",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "illumination_set",
+   "color_families": [
+    "black",
+    "brown"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 6,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 6,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000571808",
+     "source": "main",
+     "lineno": 3356,
+     "sentence": "整体呈现白色的厨房有一个煤气灶"
+    },
+    {
+     "image_id": "000000271157",
+     "source": "main",
+     "lineno": 6467,
+     "sentence": "厨房里的煤气灶上放着一个不锈钢汤锅和一个平底锅。"
+    },
+    {
+     "image_id": "000000212181",
+     "source": "main",
+     "lineno": 12050,
+     "sentence": "有木柜和煤气灶的厨房。"
+    },
+    {
+     "image_id": "000000454907",
+     "source": "main",
+     "lineno": 19110,
+     "sentence": "厨房里有橱柜、煤气炉、吸油烟机、烤箱以及电冰箱。"
+    },
+    {
+     "image_id": "000000259721",
+     "source": "ext",
+     "lineno": 1183,
+     "sentence": "厨房中黑色大烤箱上是几个煤气灶"
+    },
+    {
+     "image_id": "000000097427",
+     "source": "ext",
+     "lineno": 1613,
+     "sentence": "一个铺着深色地砖的厨房里有一个白色的冰箱和一个白色的煤气灶台"
+    }
+   ],
+   "combined_hosts": 6
+  },
+  {
+   "surface": "瓶",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 446,
+   "n_caption_hosts_jieba": 4,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 446,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000460950",
+     "source": "main",
+     "lineno": 32,
+     "sentence": "桌上有一个热狗、一盘面条和一瓶饮料"
+    },
+    {
+     "image_id": "000000341725",
+     "source": "main",
+     "lineno": 54,
+     "sentence": "窗台上蓝色的花瓶里有一束粉色的郁金香。"
+    },
+    {
+     "image_id": "000000077099",
+     "source": "main",
+     "lineno": 91,
+     "sentence": "一个女人把一瓶酒倒进杯子里。"
+    },
+    {
+     "image_id": "000000456145",
+     "source": "main",
+     "lineno": 242,
+     "sentence": "窗台上放着四个瓷花瓶。"
+    },
+    {
+     "image_id": "000000178634",
+     "source": "main",
+     "lineno": 317,
+     "sentence": "地上放有一瓶可口可乐罐和一个土豆泥面包"
+    },
+    {
+     "image_id": "000000221696",
+     "source": "main",
+     "lineno": 318,
+     "sentence": "桌子上有一碗面条和一瓶啤酒"
+    },
+    {
+     "image_id": "000000024072",
+     "source": "main",
+     "lineno": 369,
+     "sentence": "一个人用奶瓶喂新生小猫。"
+    },
+    {
+     "image_id": "000000393989",
+     "source": "main",
+     "lineno": 418,
+     "sentence": "水晶玻璃瓶子装着蓝色的花朵"
+    },
+    {
+     "image_id": "000000013632",
+     "source": "main",
+     "lineno": 461,
+     "sentence": "一个白色的陶瓷花瓶放在桌子上。"
+    },
+    {
+     "image_id": "000000003899",
+     "source": "main",
+     "lineno": 477,
+     "sentence": "一间漂亮的厨房，里面有冰箱和桌子，桌子上有一瓶酒和一些食物"
+    },
+    {
+     "image_id": "000000228214",
+     "source": "main",
+     "lineno": 590,
+     "sentence": "一个穿着制服的男子拿着水瓶子玩手机"
+    },
+    {
+     "image_id": "000000353817",
+     "source": "main",
+     "lineno": 635,
+     "sentence": "窗户旁边摆着呈有植株的玻璃瓶"
+    },
+    {
+     "image_id": "000000089894",
+     "source": "main",
+     "lineno": 641,
+     "sentence": "一个白色花瓶里有一束带绿叶子的红色玫瑰。"
+    },
+    {
+     "image_id": "000000548742",
+     "source": "main",
+     "lineno": 685,
+     "sentence": "一个穿着白T恤的男子站在放了多个玻璃杯和几瓶葡萄酒的铺着白桌布的桌子旁边"
+    },
+    {
+     "image_id": "000000548742",
+     "source": "main",
+     "lineno": 686,
+     "sentence": "一张桌子上摆满了酒杯和酒瓶。"
+    },
+    {
+     "image_id": "000000265879",
+     "source": "main",
+     "lineno": 751,
+     "sentence": "一个男人坐在一张放着酒瓶、盘子的桌子旁。"
+    },
+    {
+     "image_id": "000000056160",
+     "source": "main",
+     "lineno": 845,
+     "sentence": "一个精致的花瓶里充满了各种各样的干花和填充物。"
+    },
+    {
+     "image_id": "000000257729",
+     "source": "main",
+     "lineno": 862,
+     "sentence": "厨房的桌子上放着一瓶食用油。"
+    },
+    {
+     "image_id": "000000401622",
+     "source": "main",
+     "lineno": 967,
+     "sentence": "花瓶里装着色彩斑斓的鲜花。"
+    },
+    {
+     "image_id": "000000129733",
+     "source": "main",
+     "lineno": 1307,
+     "sentence": "一个玻璃窗后面有一个插满了花的花瓶。"
+    },
+    {
+     "image_id": "000000353298",
+     "source": "main",
+     "lineno": 1440,
+     "sentence": "桌子上有一只盛满漂亮的粉红色花的花瓶"
+    },
+    {
+     "image_id": "000000109483",
+     "source": "main",
+     "lineno": 1639,
+     "sentence": "一只猫坐在窗台望着窗外，旁边放着一瓶酒"
+    },
+    {
+     "image_id": "000000248640",
+     "source": "main",
+     "lineno": 1689,
+     "sentence": "窗边站着两只猫，放着一个花瓶"
+    },
+    {
+     "image_id": "000000421923",
+     "source": "main",
+     "lineno": 1705,
+     "sentence": "一个木桌子上有花瓶、雕像和书架。"
+    },
+    {
+     "image_id": "000000382887",
+     "source": "main",
+     "lineno": 1715,
+     "sentence": "桌上摆着一个烛台、一瓶酒和一个酒杯。"
+    },
+    {
+     "image_id": "000000382443",
+     "source": "main",
+     "lineno": 1727,
+     "sentence": "一只黑白棕相间的狗嘴里咬着一个瓶子看向镜头"
+    },
+    {
+     "image_id": "000000108045",
+     "source": "main",
+     "lineno": 1745,
+     "sentence": "桌子上有一个笼子，笼子里有几瓶花"
+    },
+    {
+     "image_id": "000000128254",
+     "source": "main",
+     "lineno": 1783,
+     "sentence": "破旧的厨房里摆满了瓶瓶罐罐。"
+    },
+    {
+     "image_id": "000000313861",
+     "source": "main",
+     "lineno": 1824,
+     "sentence": "桌子上有一些橙色水果，果酒和金色的花瓶。"
+    },
+    {
+     "image_id": "000000167240",
+     "source": "main",
+     "lineno": 1968,
+     "sentence": "一个红蓝相间的花瓶放在桌面上，后面是一幅地图。"
+    },
+    {
+     "image_id": "000000071631",
+     "source": "main",
+     "lineno": 2021,
+     "sentence": "餐桌上放着一个花瓶和四份餐具，客厅里放着一张沙发和一台电视"
+    },
+    {
+     "image_id": "000000088744",
+     "source": "main",
+     "lineno": 2103,
+     "sentence": "一个花瓶被陈列在各种各样的植物上。"
+    },
+    {
+     "image_id": "000000227035",
+     "source": "main",
+     "lineno": 2239,
+     "sentence": "一瓶透明液体和一个泰迪熊玩偶放在一摞书上。"
+    },
+    {
+     "image_id": "000000578481",
+     "source": "main",
+     "lineno": 2351,
+     "sentence": "一个黑色波点的花瓶里有一束人造的花。"
+    },
+    {
+     "image_id": "000000434525",
+     "source": "main",
+     "lineno": 2369,
+     "sentence": "展柜里有三个瓷瓶。"
+    },
+    {
+     "image_id": "000000486568",
+     "source": "main",
+     "lineno": 2398,
+     "sentence": "一个穿着西装的男人手里拿着一个瓶子，回头看着书架。"
+    },
+    {
+     "image_id": "000000144475",
+     "source": "main",
+     "lineno": 2501,
+     "sentence": "一个蓝色的玻璃花瓶放在玻璃桌面上"
+    },
+    {
+     "image_id": "000000369601",
+     "source": "main",
+     "lineno": 2717,
+     "sentence": "一只猫站在几个空啤酒瓶旁边。"
+    },
+    {
+     "image_id": "000000505597",
+     "source": "main",
+     "lineno": 2778,
+     "sentence": "一个花瓶里插着红色枫叶和一枝紫色的花朵。"
+    },
+    {
+     "image_id": "000000221045",
+     "source": "main",
+     "lineno": 2863,
+     "sentence": "一碗混合燕麦食物和一瓶饮料。"
+    },
+    {
+     "image_id": "000000476093",
+     "source": "main",
+     "lineno": 2934,
+     "sentence": "厨房里的桌子上放着一台榨汁机、一瓶洗洁精和一堆碗筷"
+    },
+    {
+     "image_id": "000000479042",
+     "source": "main",
+     "lineno": 2954,
+     "sentence": "桌子上啤酒瓶旁边有个电器设备。"
+    },
+    {
+     "image_id": "000000369701",
+     "source": "main",
+     "lineno": 2972,
+     "sentence": "一个小婴儿躺着拿着一个瓶子在喝东西。"
+    },
+    {
+     "image_id": "000000122688",
+     "source": "main",
+     "lineno": 3073,
+     "sentence": "房子里有一个桌子，上面摆了一瓶鲜花，墙上挂着一个钟表。"
+    },
+    {
+     "image_id": "000000490908",
+     "source": "main",
+     "lineno": 3106,
+     "sentence": "白色花瓶里插着白色鲜花。"
+    },
+    {
+     "image_id": "000000247263",
+     "source": "main",
+     "lineno": 3171,
+     "sentence": "桌子上花瓶里有一些白花。"
+    },
+    {
+     "image_id": "000000495125",
+     "source": "main",
+     "lineno": 3205,
+     "sentence": "一张桌子上摆满了酒杯和酒瓶。"
+    },
+    {
+     "image_id": "000000456142",
+     "source": "main",
+     "lineno": 3209,
+     "sentence": "厨房窗子旁边的固定勾上放着许多装有调味品的小瓶子"
+    },
+    {
+     "image_id": "000000469737",
+     "source": "main",
+     "lineno": 3251,
+     "sentence": "在桌子上放满了鲜花的小花瓶，旁边有一个猫头鹰雕塑。"
+    },
+    {
+     "image_id": "000000065969",
+     "source": "main",
+     "lineno": 3343,
+     "sentence": "一瓶插花和一瓶饮料放在桌子上"
+    }
+   ],
+   "combined_hosts": 446
+  },
+  {
+   "surface": "生",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 293,
+   "n_caption_hosts_jieba": 4,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 293,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000257706",
+     "source": "main",
+     "lineno": 58,
+     "sentence": "一个充满艺术气息的生日蛋糕 被放置在蓝色桌布上"
+    },
+    {
+     "image_id": "000000238700",
+     "source": "main",
+     "lineno": 84,
+     "sentence": "野生动物园的草地上有一头长颈鹿和一头斑马。"
+    },
+    {
+     "image_id": "000000304360",
+     "source": "main",
+     "lineno": 125,
+     "sentence": "一个穿蓝色上衣的男生正在玩滑板，他身后有几个人坐在面包车后面，还有几个人在架子鼓旁边说话。"
+    },
+    {
+     "image_id": "000000227526",
+     "source": "main",
+     "lineno": 358,
+     "sentence": "生的比萨上有奶酪和黄瓜片。"
+    },
+    {
+     "image_id": "000000029906",
+     "source": "main",
+     "lineno": 362,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000024072",
+     "source": "main",
+     "lineno": 369,
+     "sentence": "一个人用奶瓶喂新生小猫。"
+    },
+    {
+     "image_id": "000000425320",
+     "source": "main",
+     "lineno": 436,
+     "sentence": "一个年轻男生和一个年轻女生在聚会上拿着遥控器玩游戏。"
+    },
+    {
+     "image_id": "000000388911",
+     "source": "main",
+     "lineno": 466,
+     "sentence": "卫生间里马桶洗手池还都没有安装好，正等着装潢。"
+    },
+    {
+     "image_id": "000000578493",
+     "source": "main",
+     "lineno": 513,
+     "sentence": "两只长着犄角的野生动物卧在绿色的草地上。"
+    },
+    {
+     "image_id": "000000353884",
+     "source": "main",
+     "lineno": 858,
+     "sentence": "一个夹了油炸的鸡排，火腿肠，生菜的汉堡包摆在桌上。"
+    },
+    {
+     "image_id": "000000395039",
+     "source": "main",
+     "lineno": 926,
+     "sentence": "一个穿着白色短袖和红色裤子的男生站在街道上，手里拿着一个倒扣的白色盘子。"
+    },
+    {
+     "image_id": "000000095358",
+     "source": "main",
+     "lineno": 928,
+     "sentence": "一个戴墨镜的女生背着背包，手里还扶着一个很大的登山包"
+    },
+    {
+     "image_id": "000000393379",
+     "source": "main",
+     "lineno": 996,
+     "sentence": "一道出锅的菜，西兰花炒鸡肉，辅料还有花生。"
+    },
+    {
+     "image_id": "000000374934",
+     "source": "main",
+     "lineno": 1018,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000057334",
+     "source": "main",
+     "lineno": 1089,
+     "sentence": "一颗绿色的花椰菜在阳光下生长。"
+    },
+    {
+     "image_id": "000000471085",
+     "source": "main",
+     "lineno": 1135,
+     "sentence": "卫生间里有两个坐便器"
+    },
+    {
+     "image_id": "000000534954",
+     "source": "main",
+     "lineno": 1324,
+     "sentence": "一个女孩站在草地上放生一只鸟"
+    },
+    {
+     "image_id": "000000018873",
+     "source": "main",
+     "lineno": 1338,
+     "sentence": "一个生日蛋糕上画了一个蓝色的火车。"
+    },
+    {
+     "image_id": "000000296317",
+     "source": "main",
+     "lineno": 1378,
+     "sentence": "一群野生动物在草地中散步。"
+    },
+    {
+     "image_id": "000000094858",
+     "source": "main",
+     "lineno": 1544,
+     "sentence": "一个狭窄的卫生间的黑白照片"
+    },
+    {
+     "image_id": "000000093720",
+     "source": "main",
+     "lineno": 1551,
+     "sentence": "一间带有马桶、洗手池、浴缸等的卫生间"
+    },
+    {
+     "image_id": "000000418854",
+     "source": "main",
+     "lineno": 1751,
+     "sentence": "一个卫生间内部的黑白照片，洗手池、浴缸、马桶等设施都很全。"
+    },
+    {
+     "image_id": "000000225202",
+     "source": "main",
+     "lineno": 2067,
+     "sentence": "两只斑马在荒草丛生的草原上觅食"
+    },
+    {
+     "image_id": "000000340962",
+     "source": "main",
+     "lineno": 2179,
+     "sentence": "一个穿着救生衣的女人拉着绑在船上的牵引绳冲浪"
+    },
+    {
+     "image_id": "000000366665",
+     "source": "main",
+     "lineno": 2286,
+     "sentence": "一个男生在炫酷的玩滑板。"
+    },
+    {
+     "image_id": "000000090108",
+     "source": "main",
+     "lineno": 2429,
+     "sentence": "一个主色调为蓝色和白色的卫生间。"
+    },
+    {
+     "image_id": "000000230646",
+     "source": "main",
+     "lineno": 2520,
+     "sentence": "两个女人面前摆放的生日蛋糕上插着许多蜡烛。"
+    },
+    {
+     "image_id": "000000381244",
+     "source": "main",
+     "lineno": 2769,
+     "sentence": "一个老人在切她的生日蛋糕"
+    },
+    {
+     "image_id": "000000491084",
+     "source": "main",
+     "lineno": 2829,
+     "sentence": "桌上有一个涂了奶酪的生的披萨饼。"
+    },
+    {
+     "image_id": "000000335503",
+     "source": "main",
+     "lineno": 2908,
+     "sentence": "一个彩色的生日蛋糕放在桌子上，蛋糕上有棒棒糖"
+    },
+    {
+     "image_id": "000000333480",
+     "source": "main",
+     "lineno": 3061,
+     "sentence": "一个夹有牛肉、番茄和生菜的汉堡包"
+    },
+    {
+     "image_id": "000000428218",
+     "source": "main",
+     "lineno": 3167,
+     "sentence": "院子里的草坪旁生长着几棵树，两个人站在草坪上玩耍"
+    },
+    {
+     "image_id": "000000228604",
+     "source": "main",
+     "lineno": 3379,
+     "sentence": "一个男人和一个女孩在卫生间里对着镜子，男人在用手机拍照。"
+    },
+    {
+     "image_id": "000000450125",
+     "source": "main",
+     "lineno": 3610,
+     "sentence": "卫生间的洗手池上摆满了各种洗漱用品"
+    },
+    {
+     "image_id": "000000246233",
+     "source": "main",
+     "lineno": 3655,
+     "sentence": "雪地上停着一艘已经废弃生锈了的船。"
+    },
+    {
+     "image_id": "000000207177",
+     "source": "main",
+     "lineno": 3755,
+     "sentence": "一个穿着救生衣的男子躺在河滩上的皮划艇里，手里拿着一把桨"
+    },
+    {
+     "image_id": "000000385844",
+     "source": "main",
+     "lineno": 3807,
+     "sentence": "贴着瓷砖的卫生间里有一个马桶。"
+    },
+    {
+     "image_id": "000000254853",
+     "source": "main",
+     "lineno": 3940,
+     "sentence": "有个卫生间里门开着，里面有个马桶。"
+    },
+    {
+     "image_id": "000000188657",
+     "source": "main",
+     "lineno": 3995,
+     "sentence": "一个男人和一个小男孩前有一个生日蛋糕"
+    },
+    {
+     "image_id": "000000188657",
+     "source": "main",
+     "lineno": 3996,
+     "sentence": "一个父亲和孩子面前放着一个插着蜡烛，写着32的生日蛋糕。"
+    },
+    {
+     "image_id": "000000284684",
+     "source": "main",
+     "lineno": 4099,
+     "sentence": "一块花椰菜在花园里生长得很好。"
+    },
+    {
+     "image_id": "000000301970",
+     "source": "main",
+     "lineno": 4174,
+     "sentence": "几只非常漂亮的斑马站在野生动物园中的草地上。"
+    },
+    {
+     "image_id": "000000435703",
+     "source": "main",
+     "lineno": 4730,
+     "sentence": "街道一角有一个生锈的消防栓。"
+    },
+    {
+     "image_id": "000000348479",
+     "source": "main",
+     "lineno": 4754,
+     "sentence": "一个干净的厕所里有一个马桶和一卷卫生纸"
+    },
+    {
+     "image_id": "000000419387",
+     "source": "main",
+     "lineno": 4785,
+     "sentence": "城市的街角打伞做生意的人"
+    },
+    {
+     "image_id": "000000547003",
+     "source": "main",
+     "lineno": 4982,
+     "sentence": "这是一个装有热水器、马桶、水槽的卫生间。"
+    },
+    {
+     "image_id": "000000253464",
+     "source": "main",
+     "lineno": 5065,
+     "sentence": "卫生间里的梳妆台上方有一面镜子，边上有一个马桶"
+    },
+    {
+     "image_id": "000000253464",
+     "source": "main",
+     "lineno": 5066,
+     "sentence": "一间干净整洁的卫生间。"
+    },
+    {
+     "image_id": "000000334483",
+     "source": "main",
+     "lineno": 5121,
+     "sentence": "几位女士和一群孩子围在野餐桌旁分享生日蛋糕"
+    },
+    {
+     "image_id": "000000440652",
+     "source": "main",
+     "lineno": 5337,
+     "sentence": "一个男生在运动场地上练习击球"
+    }
+   ],
+   "combined_hosts": 293
+  },
+  {
+   "surface": "簿",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "红绿灯",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "green",
+    "red"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 96,
+   "n_caption_hosts_jieba": 96,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 96,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000187473",
+     "source": "main",
+     "lineno": 12,
+     "sentence": "一辆卡车在交叉路口等待红绿灯。"
+    },
+    {
+     "image_id": "000000137694",
+     "source": "main",
+     "lineno": 568,
+     "sentence": "一个骑着自行车的老人停在路口等待红绿灯"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 973,
+     "sentence": "在城市街道的人行道上，有一个红绿灯和电话亭"
+    },
+    {
+     "image_id": "000000038321",
+     "source": "main",
+     "lineno": 1059,
+     "sentence": "街道上的红绿灯现在是红色"
+    },
+    {
+     "image_id": "000000138434",
+     "source": "main",
+     "lineno": 1432,
+     "sentence": "傍晚，一个红绿灯旁边的天空显得格外地明亮"
+    },
+    {
+     "image_id": "000000488403",
+     "source": "main",
+     "lineno": 1653,
+     "sentence": "一个斜拍的街景，艳阳下车辆川流不息，一个红绿灯标志在镜头最前面"
+    },
+    {
+     "image_id": "000000116741",
+     "source": "main",
+     "lineno": 1749,
+     "sentence": "一个路灯杆上挂着路标和红绿灯。"
+    },
+    {
+     "image_id": "000000446481",
+     "source": "main",
+     "lineno": 1992,
+     "sentence": "夜晚里一个繁华的有红绿灯的街道的汽车和建筑物。"
+    },
+    {
+     "image_id": "000000312334",
+     "source": "main",
+     "lineno": 2275,
+     "sentence": "傍晚空无一人的街道上的一个红绿灯"
+    },
+    {
+     "image_id": "000000023695",
+     "source": "main",
+     "lineno": 2314,
+     "sentence": "小城市街道的一个路口，路牌和红绿灯附近有交通警察在指挥交通。"
+    },
+    {
+     "image_id": "000000453287",
+     "source": "main",
+     "lineno": 2641,
+     "sentence": "一个有许多窗户的高高的建筑物前面有红绿灯标志杆。"
+    },
+    {
+     "image_id": "000000524520",
+     "source": "main",
+     "lineno": 2672,
+     "sentence": "一辆行驶在江边的汽车等待红绿灯。"
+    },
+    {
+     "image_id": "000000241010",
+     "source": "main",
+     "lineno": 2731,
+     "sentence": "街道拐角处有一个红绿灯和一个绿色的标识牌"
+    },
+    {
+     "image_id": "000000457453",
+     "source": "main",
+     "lineno": 2753,
+     "sentence": "公园里街道旁的红绿灯亮起了红灯。"
+    },
+    {
+     "image_id": "000000319607",
+     "source": "main",
+     "lineno": 3041,
+     "sentence": "街头的一个红绿灯在亮着。"
+    },
+    {
+     "image_id": "000000411845",
+     "source": "main",
+     "lineno": 3266,
+     "sentence": "街道上一个亮着红色的红绿灯。"
+    },
+    {
+     "image_id": "000000181524",
+     "source": "main",
+     "lineno": 3393,
+     "sentence": "街道上的加油站附近有一个红绿灯。"
+    },
+    {
+     "image_id": "000000429844",
+     "source": "main",
+     "lineno": 3562,
+     "sentence": "空旷的街道上有几个红绿灯"
+    },
+    {
+     "image_id": "000000346445",
+     "source": "main",
+     "lineno": 3718,
+     "sentence": "一辆车驶过一个有着红绿灯的路口。"
+    },
+    {
+     "image_id": "000000565921",
+     "source": "main",
+     "lineno": 3818,
+     "sentence": "两个人坐在红绿灯上挥舞着旗帜"
+    },
+    {
+     "image_id": "000000130032",
+     "source": "main",
+     "lineno": 3929,
+     "sentence": "林间道路的岔路口上方有好多个红绿灯"
+    },
+    {
+     "image_id": "000000473420",
+     "source": "main",
+     "lineno": 4011,
+     "sentence": "一群小鸟停在红绿灯上。"
+    },
+    {
+     "image_id": "000000134309",
+     "source": "main",
+     "lineno": 4121,
+     "sentence": "有一些街道标志的红绿灯杆。"
+    },
+    {
+     "image_id": "000000448280",
+     "source": "main",
+     "lineno": 4451,
+     "sentence": "街道边的一个红绿灯标识"
+    },
+    {
+     "image_id": "000000431876",
+     "source": "main",
+     "lineno": 4472,
+     "sentence": "几个骑着马额达警察在马路一边等红绿灯"
+    },
+    {
+     "image_id": "000000376187",
+     "source": "main",
+     "lineno": 4625,
+     "sentence": "街道上有一个红绿灯，上方有指路牌，远处的建筑物上插着一面美国国旗"
+    },
+    {
+     "image_id": "000000064390",
+     "source": "main",
+     "lineno": 4667,
+     "sentence": "马路上一个行人红绿灯的红灯亮起来了。"
+    },
+    {
+     "image_id": "000000556540",
+     "source": "main",
+     "lineno": 4829,
+     "sentence": "一个红绿灯挂在一座高架桥下的主梁上。"
+    },
+    {
+     "image_id": "000000334234",
+     "source": "main",
+     "lineno": 5078,
+     "sentence": "许多各个方向的漆着绿漆的红绿灯。"
+    },
+    {
+     "image_id": "000000484951",
+     "source": "main",
+     "lineno": 5112,
+     "sentence": "一个戴着红绿灯图案的领带，身着西装的男人身后有一个男人，一个女人"
+    },
+    {
+     "image_id": "000000435750",
+     "source": "main",
+     "lineno": 5251,
+     "sentence": "阴天下的红绿灯"
+    },
+    {
+     "image_id": "000000255036",
+     "source": "main",
+     "lineno": 5458,
+     "sentence": "空旷的街道上有几个红绿灯"
+    },
+    {
+     "image_id": "000000438481",
+     "source": "main",
+     "lineno": 5590,
+     "sentence": "一张红绿灯和前进标志的特写"
+    },
+    {
+     "image_id": "000000178171",
+     "source": "main",
+     "lineno": 5732,
+     "sentence": "街道上有几辆汽车在一个路口等红绿灯"
+    },
+    {
+     "image_id": "000000429833",
+     "source": "main",
+     "lineno": 6331,
+     "sentence": "一辆车停在红绿灯前，它前面还停着轿车和皮卡。"
+    },
+    {
+     "image_id": "000000301376",
+     "source": "main",
+     "lineno": 6338,
+     "sentence": "城市里来往的车流，按照红绿灯的指示有条不紊地行使着。"
+    },
+    {
+     "image_id": "000000227125",
+     "source": "main",
+     "lineno": 6877,
+     "sentence": "一个正亮着红灯的红绿灯"
+    },
+    {
+     "image_id": "000000381514",
+     "source": "main",
+     "lineno": 7159,
+     "sentence": "积雪的路面上几辆深色汽车正从一个红绿灯下驶过。"
+    },
+    {
+     "image_id": "000000541631",
+     "source": "main",
+     "lineno": 7504,
+     "sentence": "一个空旷的街道旁有一个红绿灯。"
+    },
+    {
+     "image_id": "000000574790",
+     "source": "main",
+     "lineno": 8046,
+     "sentence": "一个繁忙的路口有一个红绿灯和许多汽车。"
+    },
+    {
+     "image_id": "000000427633",
+     "source": "main",
+     "lineno": 8092,
+     "sentence": "一张红绿灯交通标志的特写照片。"
+    },
+    {
+     "image_id": "000000101180",
+     "source": "main",
+     "lineno": 8232,
+     "sentence": "街道上方的有两个红绿灯以及一个指路标志悬挂在金属杆上。"
+    },
+    {
+     "image_id": "000000008469",
+     "source": "main",
+     "lineno": 8275,
+     "sentence": "一辆火车头正在通过一个红绿灯。"
+    },
+    {
+     "image_id": "000000420276",
+     "source": "main",
+     "lineno": 8358,
+     "sentence": "汽车在等待街道中的红绿灯"
+    },
+    {
+     "image_id": "000000499353",
+     "source": "main",
+     "lineno": 8510,
+     "sentence": "街道拐角的建筑物前有一个古老的红绿灯。"
+    },
+    {
+     "image_id": "000000362713",
+     "source": "main",
+     "lineno": 8545,
+     "sentence": "建筑物旁的街道上方悬挂着一个有街道标志的红绿灯"
+    },
+    {
+     "image_id": "000000538828",
+     "source": "main",
+     "lineno": 9472,
+     "sentence": "红绿灯和标志杆。"
+    },
+    {
+     "image_id": "000000063206",
+     "source": "main",
+     "lineno": 9739,
+     "sentence": "路口的红绿灯和路标"
+    },
+    {
+     "image_id": "000000275613",
+     "source": "main",
+     "lineno": 10684,
+     "sentence": "红绿灯旁边有协警和等待通过的行人"
+    },
+    {
+     "image_id": "000000231654",
+     "source": "main",
+     "lineno": 10830,
+     "sentence": "街道上有一个红绿灯和一辆汽车。"
+    }
+   ],
+   "combined_hosts": 96
+  },
+  {
+   "surface": "练",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 67,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 67,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000498807",
+     "source": "main",
+     "lineno": 277,
+     "sentence": "一个穿着黑色湿衣服的女孩在练习冲浪。"
+    },
+    {
+     "image_id": "000000151351",
+     "source": "main",
+     "lineno": 576,
+     "sentence": "许多小孩在草地上练习打棒球。"
+    },
+    {
+     "image_id": "000000064809",
+     "source": "main",
+     "lineno": 835,
+     "sentence": "有一个穿着蓝衣服小男孩在公园中的球场练习打网球"
+    },
+    {
+     "image_id": "000000513456",
+     "source": "main",
+     "lineno": 2169,
+     "sentence": "一个身穿蓝色球衣的运动员在练习打棒球"
+    },
+    {
+     "image_id": "000000531591",
+     "source": "main",
+     "lineno": 2496,
+     "sentence": "在一个棒球训练场上，几个男子正在打棒球，一个击球员正准备击球。"
+    },
+    {
+     "image_id": "000000406070",
+     "source": "main",
+     "lineno": 3346,
+     "sentence": "一个男子正在街头熟练地玩着滑板，越过了一个黄帽消防栓。"
+    },
+    {
+     "image_id": "000000276639",
+     "source": "main",
+     "lineno": 3934,
+     "sentence": "一群观众在看竞技场上的几个小孩训练的羊比赛。"
+    },
+    {
+     "image_id": "000000376911",
+     "source": "main",
+     "lineno": 4080,
+     "sentence": "一个穿着黑色背心的男孩在家里练习棒球"
+    },
+    {
+     "image_id": "000000066003",
+     "source": "main",
+     "lineno": 4097,
+     "sentence": "网球练习场上，一个男人手里拿着球拍正把球抛起发球。"
+    },
+    {
+     "image_id": "000000340602",
+     "source": "main",
+     "lineno": 4554,
+     "sentence": "一名男子正在房屋前的雪地里练习单板滑雪"
+    },
+    {
+     "image_id": "000000142742",
+     "source": "main",
+     "lineno": 4672,
+     "sentence": "一个棒球运动员在击球前练习击球。"
+    },
+    {
+     "image_id": "000000440652",
+     "source": "main",
+     "lineno": 5337,
+     "sentence": "一个男生在运动场地上练习击球"
+    },
+    {
+     "image_id": "000000048558",
+     "source": "main",
+     "lineno": 5721,
+     "sentence": "栅栏旁的树下有一个男人在练习棒球"
+    },
+    {
+     "image_id": "000000156236",
+     "source": "main",
+     "lineno": 5943,
+     "sentence": "一个男孩在操场上练习打球。"
+    },
+    {
+     "image_id": "000000337707",
+     "source": "main",
+     "lineno": 6074,
+     "sentence": "一个纹着纹身穿着白背心棕色短裤的男人在沙滩上练习特技"
+    },
+    {
+     "image_id": "000000058627",
+     "source": "main",
+     "lineno": 6185,
+     "sentence": "一个小姑娘在练习打棒球。"
+    },
+    {
+     "image_id": "000000207647",
+     "source": "main",
+     "lineno": 6345,
+     "sentence": "一个小孩在练习打棒球。"
+    },
+    {
+     "image_id": "000000215012",
+     "source": "main",
+     "lineno": 6383,
+     "sentence": "两个男人正在动物园里训练一头熊"
+    },
+    {
+     "image_id": "000000027307",
+     "source": "main",
+     "lineno": 6625,
+     "sentence": "五个人穿着棒球服在草地上练习棒球。"
+    },
+    {
+     "image_id": "000000208220",
+     "source": "main",
+     "lineno": 6873,
+     "sentence": "一个人在一个户外练习场上表演特技自行车，正骑着自行车跃向空中表演各种难度动作。"
+    },
+    {
+     "image_id": "000000141574",
+     "source": "main",
+     "lineno": 8197,
+     "sentence": "一群人在海上练习冲浪。"
+    },
+    {
+     "image_id": "000000064240",
+     "source": "main",
+     "lineno": 8276,
+     "sentence": "四名摩托车骑手在户外场地上正在进行训练"
+    },
+    {
+     "image_id": "000000336532",
+     "source": "main",
+     "lineno": 8766,
+     "sentence": "球场中有一个小男孩在练习打棒球"
+    },
+    {
+     "image_id": "000000418557",
+     "source": "main",
+     "lineno": 8773,
+     "sentence": "一个戴头盔的男子正在练习打网球。"
+    },
+    {
+     "image_id": "000000048304",
+     "source": "main",
+     "lineno": 9522,
+     "sentence": "一个年轻女孩观看一个年长的人练习滑板。"
+    },
+    {
+     "image_id": "000000411044",
+     "source": "main",
+     "lineno": 9586,
+     "sentence": "大树旁的一个封闭网球场上，有两个男人正在练习打网球。"
+    },
+    {
+     "image_id": "000000200267",
+     "source": "main",
+     "lineno": 9670,
+     "sentence": "一个女人在一个简陋的草地球场上练习打网球，她身后的红色广告挡布后有一群人在围观这场练习。"
+    },
+    {
+     "image_id": "000000337843",
+     "source": "main",
+     "lineno": 9689,
+     "sentence": "一个年轻人在练习滑板特技。"
+    },
+    {
+     "image_id": "000000066502",
+     "source": "main",
+     "lineno": 10042,
+     "sentence": "一个人踩在冲浪板上练习冲浪，旁边四个人看着她。"
+    },
+    {
+     "image_id": "000000044575",
+     "source": "main",
+     "lineno": 10084,
+     "sentence": "几个穿着橙色衣服的小孩和教练正在场地里打棒球"
+    },
+    {
+     "image_id": "000000078016",
+     "source": "main",
+     "lineno": 10458,
+     "sentence": "滑雪场里两个男人在练习滑雪。"
+    },
+    {
+     "image_id": "000000021194",
+     "source": "main",
+     "lineno": 10806,
+     "sentence": "很多人在网球场练习打网球。"
+    },
+    {
+     "image_id": "000000011411",
+     "source": "main",
+     "lineno": 10922,
+     "sentence": "两个小男孩正在训练场里打棒球，其中穿黄色球衣的男孩背对着镜头，而穿蓝色球衣的男孩正在挥动球棒"
+    },
+    {
+     "image_id": "000000466544",
+     "source": "main",
+     "lineno": 10990,
+     "sentence": "一个 棒球运动员站在场地中和教练交流"
+    },
+    {
+     "image_id": "000000056126",
+     "source": "main",
+     "lineno": 11187,
+     "sentence": "很多人在动物园参观驯兽员训练山羊。"
+    },
+    {
+     "image_id": "000000411443",
+     "source": "main",
+     "lineno": 11455,
+     "sentence": "一位男子带着一个小孩在网球场练习打网球。"
+    },
+    {
+     "image_id": "000000403720",
+     "source": "main",
+     "lineno": 12512,
+     "sentence": "饲养员在向观众展示训练有素的狗"
+    },
+    {
+     "image_id": "000000558213",
+     "source": "main",
+     "lineno": 13008,
+     "sentence": "一个人在空地上练习滑板，另一个人在一旁看着。"
+    },
+    {
+     "image_id": "000000367856",
+     "source": "main",
+     "lineno": 13720,
+     "sentence": "穿着蓝色训练服的足球门将正在练习扑救。"
+    },
+    {
+     "image_id": "000000577843",
+     "source": "main",
+     "lineno": 13785,
+     "sentence": "许多男孩在练习棒球。"
+    },
+    {
+     "image_id": "000000176736",
+     "source": "main",
+     "lineno": 14037,
+     "sentence": "海边沙滩上有许多休闲游玩的人，近处的五个女人趴在蓝色的冲浪板上，好像在做运动前的训练，一个穿花短裤的男人在前面指导她们。"
+    },
+    {
+     "image_id": "000000046303",
+     "source": "main",
+     "lineno": 14698,
+     "sentence": "一个男人利用空地上的装置在练习滑板"
+    },
+    {
+     "image_id": "000000113975",
+     "source": "main",
+     "lineno": 15209,
+     "sentence": "一个女人正在场地里训练一只狗接飞盘"
+    },
+    {
+     "image_id": "000000153716",
+     "source": "main",
+     "lineno": 16321,
+     "sentence": "在黑暗中的路边练习滑板的男人"
+    },
+    {
+     "image_id": "000000410266",
+     "source": "main",
+     "lineno": 16349,
+     "sentence": "一个穿红色体恤的小男孩在网球场练习打网球。"
+    },
+    {
+     "image_id": "000000132038",
+     "source": "main",
+     "lineno": 16903,
+     "sentence": "三名男子正在网球场练习发球。"
+    },
+    {
+     "image_id": "000000374166",
+     "source": "main",
+     "lineno": 17343,
+     "sentence": "一个网球运动员在户外网球场上练习。"
+    },
+    {
+     "image_id": "000000479946",
+     "source": "main",
+     "lineno": 17564,
+     "sentence": "一个年轻人正在山下一个空旷的练习场上的斜坡玩滑板。"
+    },
+    {
+     "image_id": "000000492605",
+     "source": "main",
+     "lineno": 17675,
+     "sentence": "男孩在棒球场上练习打棒球。"
+    },
+    {
+     "image_id": "000000118186",
+     "source": "main",
+     "lineno": 17783,
+     "sentence": "几个年轻人在球场上练习打棒球，戴着头盔的小女孩正在跑垒，旁边的女孩在练习接球。"
+    }
+   ],
+   "combined_hosts": 67
+  },
+  {
+   "surface": "缚",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "缥缈",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 6,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 6
+  },
+  {
+   "surface": "胡萝卜",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "purple",
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 112,
+   "n_caption_hosts_jieba": 112,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 112,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000519617",
+     "source": "main",
+     "lineno": 830,
+     "sentence": "雪地中的一个雪人拿着一个胡萝卜。"
+    },
+    {
+     "image_id": "000000259465",
+     "source": "main",
+     "lineno": 1111,
+     "sentence": "一个小女孩在户外的聚会上吃胡萝卜。"
+    },
+    {
+     "image_id": "000000259465",
+     "source": "main",
+     "lineno": 1112,
+     "sentence": "一个小女孩在户外吃胡萝卜。"
+    },
+    {
+     "image_id": "000000354019",
+     "source": "main",
+     "lineno": 1212,
+     "sentence": "一道菜里有肉丸子、胡萝卜和西兰花。"
+    },
+    {
+     "image_id": "000000354019",
+     "source": "main",
+     "lineno": 1213,
+     "sentence": "一道菜里有胡萝卜、洋葱和其他蔬菜。"
+    },
+    {
+     "image_id": "000000473438",
+     "source": "main",
+     "lineno": 1629,
+     "sentence": "胡萝卜和花椰菜分别放在两个篮子里"
+    },
+    {
+     "image_id": "000000226170",
+     "source": "main",
+     "lineno": 1839,
+     "sentence": "一道菜里有花椰菜、胡萝卜和绿豆。"
+    },
+    {
+     "image_id": "000000460296",
+     "source": "main",
+     "lineno": 1882,
+     "sentence": "桌子上黄色的盘子里放着胡萝卜，西蓝花，橙子和火腿"
+    },
+    {
+     "image_id": "000000365329",
+     "source": "main",
+     "lineno": 1907,
+     "sentence": "一个盘子里有土豆泥、烤鱼、胡萝卜和青菜"
+    },
+    {
+     "image_id": "000000103843",
+     "source": "main",
+     "lineno": 2348,
+     "sentence": "白色的盘子里放着胡萝卜和饼。"
+    },
+    {
+     "image_id": "000000509000",
+     "source": "main",
+     "lineno": 2629,
+     "sentence": "一只黑白相间的猫抓着一只胡萝卜玩具"
+    },
+    {
+     "image_id": "000000202364",
+     "source": "main",
+     "lineno": 2842,
+     "sentence": "一个人正用一把锋利的刀在切板上切胡萝卜。"
+    },
+    {
+     "image_id": "000000326454",
+     "source": "main",
+     "lineno": 2870,
+     "sentence": "沙拉里有洋葱、胡萝卜和绿色蔬菜。"
+    },
+    {
+     "image_id": "000000042808",
+     "source": "main",
+     "lineno": 3025,
+     "sentence": "厨房里，一个人手拿着一个土豆和一根胡萝卜。"
+    },
+    {
+     "image_id": "000000152488",
+     "source": "main",
+     "lineno": 3519,
+     "sentence": "一只黑色的狗趴在地板上灰色的垫子上，抱着一个胡萝卜咀嚼玩具。"
+    },
+    {
+     "image_id": "000000431323",
+     "source": "main",
+     "lineno": 3636,
+     "sentence": "盘子里放着西红柿、胡萝卜、洋葱和大蒜"
+    },
+    {
+     "image_id": "000000234749",
+     "source": "main",
+     "lineno": 3897,
+     "sentence": "桌子上摆着一盘了胡萝卜炒西兰花，一碗杂粮米饭，和一大盘鸭蛋黄蒸蛋。"
+    },
+    {
+     "image_id": "000000086399",
+     "source": "main",
+     "lineno": 3914,
+     "sentence": "陶瓷盆里有一堆胡萝卜，西兰花和一个碗"
+    },
+    {
+     "image_id": "000000476851",
+     "source": "main",
+     "lineno": 4000,
+     "sentence": "砧板上有切成块的胡萝卜和白色蔬菜，还有削好皮的土豆"
+    },
+    {
+     "image_id": "000000233746",
+     "source": "main",
+     "lineno": 4149,
+     "sentence": "一碗有胡萝卜、花椰菜等各种蔬菜的杂烩汤"
+    },
+    {
+     "image_id": "000000233746",
+     "source": "main",
+     "lineno": 4150,
+     "sentence": "花椰菜、胡萝卜、洋葱和肉构成了一道丰盛的晚餐"
+    },
+    {
+     "image_id": "000000232123",
+     "source": "main",
+     "lineno": 4205,
+     "sentence": "盘子里盛放着胡萝卜，杏仁等蔬菜组合。"
+    },
+    {
+     "image_id": "000000462984",
+     "source": "main",
+     "lineno": 4263,
+     "sentence": "一只北极熊在岩石上吃胡萝卜。"
+    },
+    {
+     "image_id": "000000531875",
+     "source": "main",
+     "lineno": 4442,
+     "sentence": "桌上摆了几根胡萝卜和一瓶胡萝卜汁。"
+    },
+    {
+     "image_id": "000000059996",
+     "source": "main",
+     "lineno": 4443,
+     "sentence": "桌子上摆放着一根香蕉，一个彩椒，一个苹果和一根胡萝卜。"
+    },
+    {
+     "image_id": "000000095278",
+     "source": "main",
+     "lineno": 4445,
+     "sentence": "站在人群中的一个女孩手里拿着一把胡萝卜"
+    },
+    {
+     "image_id": "000000065668",
+     "source": "main",
+     "lineno": 4767,
+     "sentence": "繁忙的市场中，一个卖青菜和胡萝卜的摊位"
+    },
+    {
+     "image_id": "000000098582",
+     "source": "main",
+     "lineno": 4903,
+     "sentence": "桌子上放了面包，大葱，胡萝卜，鸡蛋等各种食物。"
+    },
+    {
+     "image_id": "000000555387",
+     "source": "main",
+     "lineno": 4913,
+     "sentence": "一个白色盘子里有一些蔬菜，旁边是一些小胡萝卜。"
+    },
+    {
+     "image_id": "000000266756",
+     "source": "main",
+     "lineno": 5190,
+     "sentence": "一个男人正在用一把小刀切胡萝卜。"
+    },
+    {
+     "image_id": "000000167189",
+     "source": "main",
+     "lineno": 5233,
+     "sentence": "一个人拿胡萝卜喂长颈鹿。"
+    },
+    {
+     "image_id": "000000459325",
+     "source": "main",
+     "lineno": 5329,
+     "sentence": "餐盒里盛着炖有莲藕和胡萝卜的菜"
+    },
+    {
+     "image_id": "000000572024",
+     "source": "main",
+     "lineno": 5893,
+     "sentence": "碗里装有胡萝卜，色拉，肉"
+    },
+    {
+     "image_id": "000000270639",
+     "source": "main",
+     "lineno": 6080,
+     "sentence": "一只北极熊在岩石上吃胡萝卜。"
+    },
+    {
+     "image_id": "000000241916",
+     "source": "main",
+     "lineno": 6168,
+     "sentence": "一个装满胡萝卜蔬菜沙拉的木碗。"
+    },
+    {
+     "image_id": "000000523189",
+     "source": "main",
+     "lineno": 6179,
+     "sentence": "橱柜上放了许多蔬菜，包括茄子、西红柿、胡萝卜、南瓜等。"
+    },
+    {
+     "image_id": "000000366025",
+     "source": "main",
+     "lineno": 6339,
+     "sentence": "厨房里有一个放着一把刀的菜板和一个装满胡萝卜的榨汁机"
+    },
+    {
+     "image_id": "000000058172",
+     "source": "main",
+     "lineno": 7650,
+     "sentence": "一堆蔬菜包括西兰花、胡萝卜和生菜。"
+    },
+    {
+     "image_id": "000000500190",
+     "source": "main",
+     "lineno": 7919,
+     "sentence": "案板上放着切好的胡萝卜和红薯"
+    },
+    {
+     "image_id": "000000033130",
+     "source": "main",
+     "lineno": 8321,
+     "sentence": "一个人把胡萝卜切成了小丁。"
+    },
+    {
+     "image_id": "000000580957",
+     "source": "main",
+     "lineno": 8504,
+     "sentence": "桌子上的碗里装满了食物，有胡萝卜。"
+    },
+    {
+     "image_id": "000000177516",
+     "source": "main",
+     "lineno": 8882,
+     "sentence": "一碗胡萝卜面条。"
+    },
+    {
+     "image_id": "000000178520",
+     "source": "main",
+     "lineno": 9040,
+     "sentence": "桌上有许多胡萝卜和切好的肉。"
+    },
+    {
+     "image_id": "000000026611",
+     "source": "main",
+     "lineno": 9062,
+     "sentence": "一个金属锅里有许多胡萝卜"
+    },
+    {
+     "image_id": "000000361547",
+     "source": "main",
+     "lineno": 10130,
+     "sentence": "在一条狗的注视下，一个人正在用刀把胡萝卜切成丁"
+    },
+    {
+     "image_id": "000000485972",
+     "source": "main",
+     "lineno": 10150,
+     "sentence": "盘子里有一个还未开动巧克力蛋糕，旁边放着一只叉子，远处还有三根胡萝卜。"
+    },
+    {
+     "image_id": "000000453565",
+     "source": "main",
+     "lineno": 10256,
+     "sentence": "一双筷子架在装有西兰花炒肉、胡萝卜、米饭的饭盒里"
+    },
+    {
+     "image_id": "000000064622",
+     "source": "main",
+     "lineno": 10327,
+     "sentence": "蔬菜摊上放着一束胡萝卜花。"
+    },
+    {
+     "image_id": "000000425582",
+     "source": "main",
+     "lineno": 10422,
+     "sentence": "盆里放着南瓜和胡萝卜等食物"
+    },
+    {
+     "image_id": "000000219680",
+     "source": "main",
+     "lineno": 10680,
+     "sentence": "饭盒里装着胡萝卜、西兰花和几片水果"
+    }
+   ],
+   "combined_hosts": 112
+  },
+  {
+   "surface": "膺",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "芭蕉",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "black",
+    "green",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 2,
+   "n_caption_hosts_jieba": 2,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 2,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000573892",
+     "source": "main",
+     "lineno": 1589,
+     "sentence": "一个水果摊上有许多香蕉和芭蕉。"
+    },
+    {
+     "image_id": "000000215873",
+     "source": "main",
+     "lineno": 3502,
+     "sentence": "花园里的芭蕉"
+    }
+   ],
+   "combined_hosts": 2
+  },
+  {
+   "surface": "苹果",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "green",
+    "red",
+    "white",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 172,
+   "n_caption_hosts_jieba": 150,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 172,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000385641",
+     "source": "main",
+     "lineno": 124,
+     "sentence": "桌子上面有一台苹果笔记本电脑，一个鼠标和一个亮着的台灯。"
+    },
+    {
+     "image_id": "000000238187",
+     "source": "main",
+     "lineno": 339,
+     "sentence": "桌子上放着半个苹果和几块没有皮的香蕉。"
+    },
+    {
+     "image_id": "000000475887",
+     "source": "main",
+     "lineno": 442,
+     "sentence": "苹果公司的电子产品。"
+    },
+    {
+     "image_id": "000000078283",
+     "source": "main",
+     "lineno": 515,
+     "sentence": "水果摊上有苹果和橙子等水果"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 654,
+     "sentence": "一个香蕉、一个苹果和一个键盘放在一起"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 655,
+     "sentence": "桌子上有一个苹果、香蕉和键盘。"
+    },
+    {
+     "image_id": "000000322175",
+     "source": "main",
+     "lineno": 719,
+     "sentence": "一个不新鲜的苹果摆放在一些其他水果旁边。"
+    },
+    {
+     "image_id": "000000450686",
+     "source": "main",
+     "lineno": 799,
+     "sentence": "一个人拿着苹果手机展示。"
+    },
+    {
+     "image_id": "000000066761",
+     "source": "main",
+     "lineno": 849,
+     "sentence": "三张苹果手机的照片"
+    },
+    {
+     "image_id": "000000332706",
+     "source": "main",
+     "lineno": 878,
+     "sentence": "一张办公桌上放着电话、剪刀、白纸、杂志、键盘和苹果电脑的显示器"
+    },
+    {
+     "image_id": "000000431044",
+     "source": "main",
+     "lineno": 1021,
+     "sentence": "两个苹果和两根香蕉，看起来都已经放了很久。"
+    },
+    {
+     "image_id": "000000153620",
+     "source": "main",
+     "lineno": 1272,
+     "sentence": "一个人站在一个客厅的电视机前使用苹果笔记本电脑。"
+    },
+    {
+     "image_id": "000000340529",
+     "source": "main",
+     "lineno": 1310,
+     "sentence": "市场上摆着一些香蕉、梨、桃和苹果。"
+    },
+    {
+     "image_id": "000000128466",
+     "source": "main",
+     "lineno": 1340,
+     "sentence": "苹果树上有一串成熟的苹果"
+    },
+    {
+     "image_id": "000000146047",
+     "source": "main",
+     "lineno": 1500,
+     "sentence": "一个金属桶里装满了红色的苹果。"
+    },
+    {
+     "image_id": "000000359945",
+     "source": "main",
+     "lineno": 1554,
+     "sentence": "刀上放着一个被雕刻过的苹果"
+    },
+    {
+     "image_id": "000000006012",
+     "source": "main",
+     "lineno": 1701,
+     "sentence": "一串香蕉和一个苹果"
+    },
+    {
+     "image_id": "000000275656",
+     "source": "main",
+     "lineno": 1769,
+     "sentence": "一台苹果笔记本电脑在墙挂式桌子上。"
+    },
+    {
+     "image_id": "000000177277",
+     "source": "main",
+     "lineno": 2080,
+     "sentence": "图书馆里的书桌上摆放着苹果电脑，一个人正在屏幕前伸出左手竖起了大拇指。"
+    },
+    {
+     "image_id": "000000046924",
+     "source": "main",
+     "lineno": 2347,
+     "sentence": "一个人手里拿着苹果手机，旁边的桌子上放着一堆文件，文件上放着一摞纸杯"
+    },
+    {
+     "image_id": "000000186282",
+     "source": "main",
+     "lineno": 2412,
+     "sentence": "桌子上放着一台亮着屏幕的苹果电脑"
+    },
+    {
+     "image_id": "000000497855",
+     "source": "main",
+     "lineno": 2485,
+     "sentence": "黄色的香蕉与橙色的苹果放在了一起，并且一些苹果已经熟的太透了"
+    },
+    {
+     "image_id": "000000323853",
+     "source": "main",
+     "lineno": 2903,
+     "sentence": "苹果树上长着一些粉红色的苹果。"
+    },
+    {
+     "image_id": "000000351686",
+     "source": "main",
+     "lineno": 2993,
+     "sentence": "一个容器里有香蕉、苹果、橘子等水果和蔬菜。"
+    },
+    {
+     "image_id": "000000114807",
+     "source": "main",
+     "lineno": 3146,
+     "sentence": "一个白色的盘子里放着一个苹果、一个猕猴桃、一片铺着奶酪和巧克力酱的面包片、一片铺着香蕉的面包片和刀子、勺子"
+    },
+    {
+     "image_id": "000000305441",
+     "source": "main",
+     "lineno": 3550,
+     "sentence": "一堆青苹果掉到了地上。"
+    },
+    {
+     "image_id": "000000433397",
+     "source": "main",
+     "lineno": 3641,
+     "sentence": "一个男人手里拿着一台苹果笔记本电脑"
+    },
+    {
+     "image_id": "000000323475",
+     "source": "main",
+     "lineno": 4008,
+     "sentence": "一盘水果，有橘子和苹果"
+    },
+    {
+     "image_id": "000000486232",
+     "source": "main",
+     "lineno": 4102,
+     "sentence": "一只手拿着一个绿色的苹果和一个红色的苹果。"
+    },
+    {
+     "image_id": "000000417804",
+     "source": "main",
+     "lineno": 4147,
+     "sentence": "桌子上放着的苹果键盘和鼠标特写"
+    },
+    {
+     "image_id": "000000320972",
+     "source": "main",
+     "lineno": 4197,
+     "sentence": "香蕉、苹果和橘子的特写。"
+    },
+    {
+     "image_id": "000000059996",
+     "source": "main",
+     "lineno": 4443,
+     "sentence": "桌子上摆放着一根香蕉，一个彩椒，一个苹果和一根胡萝卜。"
+    },
+    {
+     "image_id": "000000395169",
+     "source": "main",
+     "lineno": 4521,
+     "sentence": "一本书上放着一根香蕉，旁边有一个苹果和一个李子"
+    },
+    {
+     "image_id": "000000336404",
+     "source": "main",
+     "lineno": 4638,
+     "sentence": "一位老人正在使用苹果手机"
+    },
+    {
+     "image_id": "000000339862",
+     "source": "main",
+     "lineno": 4959,
+     "sentence": "桌子上的玻璃碗里放了很多红苹果。"
+    },
+    {
+     "image_id": "000000173856",
+     "source": "main",
+     "lineno": 4974,
+     "sentence": "书桌上放了一台苹果电脑，一个键盘，一台相机，一个小笔记本，一本书和一些其他的物品。"
+    },
+    {
+     "image_id": "000000265708",
+     "source": "main",
+     "lineno": 5048,
+     "sentence": "白色的盘子里摆着一个苹果和一串葡萄"
+    },
+    {
+     "image_id": "000000163180",
+     "source": "main",
+     "lineno": 5639,
+     "sentence": "桌上有香蕉、菠萝、橙子和苹果四种水果"
+    },
+    {
+     "image_id": "000000369167",
+     "source": "main",
+     "lineno": 5735,
+     "sentence": "一个小男孩躺在床上，手里拿着苹果笔记本电脑"
+    },
+    {
+     "image_id": "000000240273",
+     "source": "main",
+     "lineno": 5950,
+     "sentence": "篮子里有一串发绿的香蕉和一堆苹果。"
+    },
+    {
+     "image_id": "000000308257",
+     "source": "main",
+     "lineno": 5981,
+     "sentence": "一个女孩盘着腿坐在石阶上使用苹果笔记本"
+    },
+    {
+     "image_id": "000000058796",
+     "source": "main",
+     "lineno": 6033,
+     "sentence": "六幅零食的图片，分别是饼干、一个苹果和一杯咖啡，一碗汤、一个多层的夹心面包、一个棒棒糖和薯条汉堡。"
+    },
+    {
+     "image_id": "000000066628",
+     "source": "main",
+     "lineno": 6038,
+     "sentence": "盘子里有三块苹果、两片奶酪和其他食物。"
+    },
+    {
+     "image_id": "000000026041",
+     "source": "main",
+     "lineno": 6410,
+     "sentence": "一些香蕉、苹果和橘子放在盘子里"
+    },
+    {
+     "image_id": "000000545111",
+     "source": "main",
+     "lineno": 6723,
+     "sentence": "柠檬和苹果放在了一个装着水的透明盒子里"
+    },
+    {
+     "image_id": "000000014764",
+     "source": "main",
+     "lineno": 6892,
+     "sentence": "一张床上放着苹果笔记本电脑和几本书"
+    },
+    {
+     "image_id": "000000363574",
+     "source": "main",
+     "lineno": 7041,
+     "sentence": "一堆红苹果躺在草地上。"
+    },
+    {
+     "image_id": "000000201717",
+     "source": "main",
+     "lineno": 7059,
+     "sentence": "一个盒子里放着昌平产的苹果"
+    },
+    {
+     "image_id": "000000463110",
+     "source": "main",
+     "lineno": 7084,
+     "sentence": "桌子上放着两盘装着香蕉、苹果等水果的盘子。"
+    },
+    {
+     "image_id": "000000332891",
+     "source": "main",
+     "lineno": 7308,
+     "sentence": "花边窗帘旁边的柜子上放了一盒葡萄，一盒油桃，一盒李子，水果盘里还有香蕉、苹果和杏。"
+    }
+   ],
+   "combined_hosts": 172
+  },
+  {
+   "surface": "著",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "袢",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "西红柿",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 20,
+   "n_caption_hosts_substr": 32,
+   "n_caption_hosts_jieba": 32,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 32,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000005540",
+     "source": "main",
+     "lineno": 883,
+     "sentence": "盘子里有面包，西红柿，熏肉等食物"
+    },
+    {
+     "image_id": "000000220270",
+     "source": "main",
+     "lineno": 1281,
+     "sentence": "桌子上放着一个夹着培根、西红柿和绿叶菜的三明治"
+    },
+    {
+     "image_id": "000000425626",
+     "source": "main",
+     "lineno": 2424,
+     "sentence": "一个白色的盘子里盛着四块切好的披萨饼，旁边放着几个小西红柿做点缀"
+    },
+    {
+     "image_id": "000000212363",
+     "source": "main",
+     "lineno": 3336,
+     "sentence": "桌子上放着一杯牛奶和一个餐盘，餐盘里放着刀叉和奶酪、西红柿、酸黄瓜等食物"
+    },
+    {
+     "image_id": "000000212363",
+     "source": "main",
+     "lineno": 3338,
+     "sentence": "一份带有煎鸡蛋三明治、西红柿和腌黄瓜的早餐"
+    },
+    {
+     "image_id": "000000114108",
+     "source": "main",
+     "lineno": 3429,
+     "sentence": "餐馆的桌上摆了两个西红柿韦德披萨饼。"
+    },
+    {
+     "image_id": "000000431323",
+     "source": "main",
+     "lineno": 3636,
+     "sentence": "盘子里放着西红柿、胡萝卜、洋葱和大蒜"
+    },
+    {
+     "image_id": "000000353028",
+     "source": "main",
+     "lineno": 5023,
+     "sentence": "盘子里盛着一张满是奶酪和西红柿的比萨"
+    },
+    {
+     "image_id": "000000577140",
+     "source": "main",
+     "lineno": 5271,
+     "sentence": "一些水果和西红柿放在桌子上准备被切。"
+    },
+    {
+     "image_id": "000000578385",
+     "source": "main",
+     "lineno": 5684,
+     "sentence": "桌上有三盘食物，包括西红柿，火腿肠等。"
+    },
+    {
+     "image_id": "000000363078",
+     "source": "main",
+     "lineno": 5999,
+     "sentence": "有西红柿、黄瓜等各种各样食材的素食比萨。"
+    },
+    {
+     "image_id": "000000523189",
+     "source": "main",
+     "lineno": 6179,
+     "sentence": "橱柜上放了许多蔬菜，包括茄子、西红柿、胡萝卜、南瓜等。"
+    },
+    {
+     "image_id": "000000021397",
+     "source": "main",
+     "lineno": 8922,
+     "sentence": "一个黄色的塑料盘子里放着面包、煎鸡蛋和西红柿等食物。"
+    },
+    {
+     "image_id": "000000182424",
+     "source": "main",
+     "lineno": 9043,
+     "sentence": "一个穿着白T恤的男人正拿着刀处理西红柿，他身后的架子上摆着一排酒"
+    },
+    {
+     "image_id": "000000129293",
+     "source": "main",
+     "lineno": 9699,
+     "sentence": "盘子里盛满了西兰花，火腿和西红柿等混合的沙拉。"
+    },
+    {
+     "image_id": "000000004673",
+     "source": "main",
+     "lineno": 9804,
+     "sentence": "餐巾纸上放着生菜、西红柿和奶酪汉堡。"
+    },
+    {
+     "image_id": "000000104355",
+     "source": "main",
+     "lineno": 9828,
+     "sentence": "桌子上摆了各式各样的蔬菜和水果，有苹果，玉米，花菜，樱桃，西红柿等。"
+    },
+    {
+     "image_id": "000000141108",
+     "source": "main",
+     "lineno": 10468,
+     "sentence": "一个盘子里装着沙拉，里面有西红柿、鸡蛋和青菜。"
+    },
+    {
+     "image_id": "000000120398",
+     "source": "main",
+     "lineno": 10866,
+     "sentence": "白色餐盒里装着一个夹有西红柿片和黄瓜等食材的热狗"
+    },
+    {
+     "image_id": "000000580264",
+     "source": "main",
+     "lineno": 11707,
+     "sentence": "一张桌子上摆了几盘小西红柿、葡萄等水果。"
+    },
+    {
+     "image_id": "000000015156",
+     "source": "main",
+     "lineno": 13575,
+     "sentence": "厨房的柜台上有很多西红柿，旁边有一个杯子。"
+    },
+    {
+     "image_id": "000000154279",
+     "source": "main",
+     "lineno": 13936,
+     "sentence": "一个玻璃碗里装满了胡萝卜、西红柿等蔬菜。"
+    },
+    {
+     "image_id": "000000012930",
+     "source": "main",
+     "lineno": 14948,
+     "sentence": "桌子上有两块鸡蛋西红柿三明治和一份报纸"
+    },
+    {
+     "image_id": "000000135167",
+     "source": "main",
+     "lineno": 15215,
+     "sentence": "一个白色的盘子里放着鸡蛋、小西红柿和肉类"
+    },
+    {
+     "image_id": "000000400792",
+     "source": "main",
+     "lineno": 15227,
+     "sentence": "铺着花布的台子上放着各种水果，有香蕉、西红柿、牛油果等。"
+    },
+    {
+     "image_id": "000000260512",
+     "source": "main",
+     "lineno": 15612,
+     "sentence": "一个人把西红柿和香肠放入烤箱。"
+    },
+    {
+     "image_id": "000000322749",
+     "source": "main",
+     "lineno": 17670,
+     "sentence": "盘子里盛放着撒了胡椒粉的西兰花和西红柿。"
+    },
+    {
+     "image_id": "000000549897",
+     "source": "main",
+     "lineno": 18800,
+     "sentence": "比萨饼上有香肠、西红柿和奶酪。"
+    },
+    {
+     "image_id": "000000320390",
+     "source": "main",
+     "lineno": 19324,
+     "sentence": "苹果、橘子、西红柿等许多水果摆在商店里出售"
+    },
+    {
+     "image_id": "000000409884",
+     "source": "ext",
+     "lineno": 1647,
+     "sentence": "桌子上放着西红柿西兰花西葫芦等蔬菜"
+    },
+    {
+     "image_id": "000000274054",
+     "source": "ext",
+     "lineno": 3701,
+     "sentence": "洒满西红柿洋葱等蔬菜和奶酪的比萨饼"
+    },
+    {
+     "image_id": "000000015653",
+     "source": "ext",
+     "lineno": 4002,
+     "sentence": "案板上有许多蔬菜，有胡萝卜、青椒、大蒜、西红柿"
+    }
+   ],
+   "combined_hosts": 52
+  },
+  {
+   "surface": "负",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 1,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 1,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000101636",
+     "source": "main",
+     "lineno": 15771,
+     "sentence": "载着备用自行车的汽车在自行车比赛中负责支援自行车损坏的选手。"
+    }
+   ],
+   "combined_hosts": 1
+  },
+  {
+   "surface": "赤字",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "red"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 30,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 30
+  },
+  {
+   "surface": "遥",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 123,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 123,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000284257",
+     "source": "main",
+     "lineno": 209,
+     "sentence": "一个男人拿着遥控器站在一个木制房间里。"
+    },
+    {
+     "image_id": "000000275316",
+     "source": "main",
+     "lineno": 250,
+     "sentence": "一个站在山顶上遥控一架电子飞机的人。"
+    },
+    {
+     "image_id": "000000568597",
+     "source": "main",
+     "lineno": 312,
+     "sentence": "一群人正在用遥控器操作着什么。"
+    },
+    {
+     "image_id": "000000425320",
+     "source": "main",
+     "lineno": 436,
+     "sentence": "一个年轻男生和一个年轻女生在聚会上拿着遥控器玩游戏。"
+    },
+    {
+     "image_id": "000000200801",
+     "source": "main",
+     "lineno": 608,
+     "sentence": "一只手拿着黑色的遥控器对着一台电视机。"
+    },
+    {
+     "image_id": "000000304357",
+     "source": "main",
+     "lineno": 609,
+     "sentence": "一只猫趴在地毯上，旁边放着一个遥控器"
+    },
+    {
+     "image_id": "000000280766",
+     "source": "main",
+     "lineno": 1132,
+     "sentence": "一个男人正用力按着电视遥控器"
+    },
+    {
+     "image_id": "000000022949",
+     "source": "main",
+     "lineno": 1462,
+     "sentence": "一个人正在拿着遥控器看电视。"
+    },
+    {
+     "image_id": "000000476810",
+     "source": "main",
+     "lineno": 2301,
+     "sentence": "一只黑白相间的猫趴在一个遥控器旁。"
+    },
+    {
+     "image_id": "000000212967",
+     "source": "main",
+     "lineno": 2316,
+     "sentence": "一个男人一只手拿着酒杯，一只手拿着体感游戏遥控器。"
+    },
+    {
+     "image_id": "000000357365",
+     "source": "main",
+     "lineno": 2532,
+     "sentence": "一个人用左手拿着一个白色的遥控器，对着某处正要按下去。"
+    },
+    {
+     "image_id": "000000471955",
+     "source": "main",
+     "lineno": 2533,
+     "sentence": "一只手拿着遥控器指向电视机。"
+    },
+    {
+     "image_id": "000000453945",
+     "source": "main",
+     "lineno": 2756,
+     "sentence": "一个遥控器的特写。"
+    },
+    {
+     "image_id": "000000006422",
+     "source": "main",
+     "lineno": 3090,
+     "sentence": "桌子上有两个遥控器摞在一起。"
+    },
+    {
+     "image_id": "000000460484",
+     "source": "main",
+     "lineno": 3160,
+     "sentence": "一个男人拿着遥控坐在椅子上。"
+    },
+    {
+     "image_id": "000000032416",
+     "source": "main",
+     "lineno": 3330,
+     "sentence": "在桌子上排列着各种各样的遥控器。"
+    },
+    {
+     "image_id": "000000511143",
+     "source": "main",
+     "lineno": 3495,
+     "sentence": "一个黑色的遥控器放在灰色的沙发上面。"
+    },
+    {
+     "image_id": "000000510652",
+     "source": "main",
+     "lineno": 3598,
+     "sentence": "桌上有一个笔记本电脑、一个水杯、一个遥控器和几个笔记本"
+    },
+    {
+     "image_id": "000000245460",
+     "source": "main",
+     "lineno": 4087,
+     "sentence": "一个戴着帽子的小男孩拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000053404",
+     "source": "main",
+     "lineno": 4090,
+     "sentence": "一个男人手中拿着遥控器"
+    },
+    {
+     "image_id": "000000441738",
+     "source": "main",
+     "lineno": 4155,
+     "sentence": "一款遥控器从五个方向被展示。"
+    },
+    {
+     "image_id": "000000523608",
+     "source": "main",
+     "lineno": 4227,
+     "sentence": "一个女人拿着遥控器站在沙发旁边"
+    },
+    {
+     "image_id": "000000396578",
+     "source": "main",
+     "lineno": 4432,
+     "sentence": "一只花猫枕着遥控器在沙发上睡着了。"
+    },
+    {
+     "image_id": "000000561821",
+     "source": "main",
+     "lineno": 4440,
+     "sentence": "一只手伸向床单上的文件和旁边的黑色遥控器。"
+    },
+    {
+     "image_id": "000000414034",
+     "source": "main",
+     "lineno": 4641,
+     "sentence": "一个婴儿拿着遥控器与饮料坐在床上"
+    },
+    {
+     "image_id": "000000323226",
+     "source": "main",
+     "lineno": 5086,
+     "sentence": "一个男人举着遥控站在投影屏幕前"
+    },
+    {
+     "image_id": "000000168367",
+     "source": "main",
+     "lineno": 5228,
+     "sentence": "一个按钮很少的遥控器。"
+    },
+    {
+     "image_id": "000000187047",
+     "source": "main",
+     "lineno": 5932,
+     "sentence": "一只手拿着一把灰色遥控器，上面有许多按钮。"
+    },
+    {
+     "image_id": "000000070164",
+     "source": "main",
+     "lineno": 6012,
+     "sentence": "白色的方块上放着一个遥控器和乐高拼成的玩具"
+    },
+    {
+     "image_id": "000000062455",
+     "source": "main",
+     "lineno": 6127,
+     "sentence": "三个人正坐在沙发上看着手里的白色遥控器。"
+    },
+    {
+     "image_id": "000000094271",
+     "source": "main",
+     "lineno": 6389,
+     "sentence": "一个男孩儿抱着黑色的狗，枕着红色的枕头在床上睡着了，男孩手里还拿着遥控器。"
+    },
+    {
+     "image_id": "000000469667",
+     "source": "main",
+     "lineno": 6499,
+     "sentence": "一个男孩坐在沙发上，靠着一个深红色的靠垫，手里拿着一个很像遥控器的东西。"
+    },
+    {
+     "image_id": "000000259104",
+     "source": "main",
+     "lineno": 6643,
+     "sentence": "五个不同型号的遥控器并排整齐的放在桌子上"
+    },
+    {
+     "image_id": "000000268670",
+     "source": "main",
+     "lineno": 6695,
+     "sentence": "沙发上有一个人拿着一个遥控器和宠物猫杯子。"
+    },
+    {
+     "image_id": "000000283940",
+     "source": "main",
+     "lineno": 6826,
+     "sentence": "黑色的小狗躺在沙发上，旁边有一个遥控器"
+    },
+    {
+     "image_id": "000000403666",
+     "source": "main",
+     "lineno": 7295,
+     "sentence": "一个男人手里拿着一个遥控器"
+    },
+    {
+     "image_id": "000000403666",
+     "source": "main",
+     "lineno": 7296,
+     "sentence": "一个男人坐在沙发上，手里拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000403666",
+     "source": "main",
+     "lineno": 7297,
+     "sentence": "一个金发男人坐在沙发上，手里拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000403666",
+     "source": "main",
+     "lineno": 7298,
+     "sentence": "一个长发男子坐在沙发上，手里拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000403666",
+     "source": "main",
+     "lineno": 7299,
+     "sentence": "一个人坐在椅子上，手里拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000452806",
+     "source": "main",
+     "lineno": 7409,
+     "sentence": "一个穿短裤的男人拿着一个视频游戏的遥控器。"
+    },
+    {
+     "image_id": "000000537064",
+     "source": "main",
+     "lineno": 7856,
+     "sentence": "一个绿色顶部的灯塔和一个红色顶部的灯塔在海面上遥相呼应"
+    },
+    {
+     "image_id": "000000524056",
+     "source": "main",
+     "lineno": 8039,
+     "sentence": "桌子上放着遥控器、手机和一个罐子"
+    },
+    {
+     "image_id": "000000233463",
+     "source": "main",
+     "lineno": 8188,
+     "sentence": "两个白色的Wii遥控器"
+    },
+    {
+     "image_id": "000000111996",
+     "source": "main",
+     "lineno": 8375,
+     "sentence": "桌子上有鼠标、键盘、眼镜和遥控器。"
+    },
+    {
+     "image_id": "000000518764",
+     "source": "main",
+     "lineno": 8380,
+     "sentence": "一个女人和两个男人手里拿着游戏遥控坐在客厅的沙发上玩游戏。"
+    },
+    {
+     "image_id": "000000151408",
+     "source": "main",
+     "lineno": 8852,
+     "sentence": "一个女人手里拿着一个遥控器。"
+    },
+    {
+     "image_id": "000000489611",
+     "source": "main",
+     "lineno": 8889,
+     "sentence": "房间里一个短发小女孩正拿着遥控器玩游戏"
+    },
+    {
+     "image_id": "000000417006",
+     "source": "main",
+     "lineno": 9263,
+     "sentence": "柜子上放着七个不同种类的遥控器"
+    },
+    {
+     "image_id": "000000058254",
+     "source": "main",
+     "lineno": 9335,
+     "sentence": "这是一个电视遥控器的特写"
+    }
+   ],
+   "combined_hosts": 123
+  },
+  {
+   "surface": "邈",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "金银",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 44,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 44
+  },
+  {
+   "surface": "银杏",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 29,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 29
+  },
+  {
+   "surface": "键盘",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "black",
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 167,
+   "n_caption_hosts_jieba": 166,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 167,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000403577",
+     "source": "main",
+     "lineno": 85,
+     "sentence": "桌子上有一个键盘，一个鼠标，键盘上有一束毛发。"
+    },
+    {
+     "image_id": "000000506429",
+     "source": "main",
+     "lineno": 377,
+     "sentence": "一只绿色的鹦鹉站在在笔记本电脑键盘上。"
+    },
+    {
+     "image_id": "000000463865",
+     "source": "main",
+     "lineno": 648,
+     "sentence": "一只毛茸茸的猫坐在笔记本电脑键盘上。"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 654,
+     "sentence": "一个香蕉、一个苹果和一个键盘放在一起"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 655,
+     "sentence": "桌子上有一个苹果、香蕉和键盘。"
+    },
+    {
+     "image_id": "000000332706",
+     "source": "main",
+     "lineno": 878,
+     "sentence": "一张办公桌上放着电话、剪刀、白纸、杂志、键盘和苹果电脑的显示器"
+    },
+    {
+     "image_id": "000000420819",
+     "source": "main",
+     "lineno": 1366,
+     "sentence": "书桌上摆放着一台显示器和笔记本电脑，还有键盘、打印机等设备。"
+    },
+    {
+     "image_id": "000000361255",
+     "source": "main",
+     "lineno": 1533,
+     "sentence": "一只猫趴在桌子上在笔记本电脑下观察电脑键盘。"
+    },
+    {
+     "image_id": "000000526467",
+     "source": "main",
+     "lineno": 1548,
+     "sentence": "书桌上有一台笔记本电脑和一个外接式键盘。"
+    },
+    {
+     "image_id": "000000401287",
+     "source": "main",
+     "lineno": 1654,
+     "sentence": "一只黑白相间的猫在睡觉，它的一只脚搭在了键盘上"
+    },
+    {
+     "image_id": "000000010907",
+     "source": "main",
+     "lineno": 1813,
+     "sentence": "阳光照耀下的一个电脑键盘的特写镜头。"
+    },
+    {
+     "image_id": "000000197600",
+     "source": "main",
+     "lineno": 1819,
+     "sentence": "桌子上的键盘、鼠标和电脑显示器。"
+    },
+    {
+     "image_id": "000000118108",
+     "source": "main",
+     "lineno": 1933,
+     "sentence": "桌上有一个黑色鼠标，一个深蓝色不锈钢水杯和一个白色键盘"
+    },
+    {
+     "image_id": "000000104389",
+     "source": "main",
+     "lineno": 2102,
+     "sentence": "某人的手放在电脑的键盘上。"
+    },
+    {
+     "image_id": "000000053479",
+     "source": "main",
+     "lineno": 2315,
+     "sentence": "一台打开的笔记本电脑的键盘上堆了几本书，一只黑猫趴在上面，眼睛里发出诡异的光。"
+    },
+    {
+     "image_id": "000000162427",
+     "source": "main",
+     "lineno": 2438,
+     "sentence": "一个黑色的猫的爪子特写镜头和笔记本键盘。"
+    },
+    {
+     "image_id": "000000234475",
+     "source": "main",
+     "lineno": 2733,
+     "sentence": "一只猫坐在电脑显示屏和键盘之间的桌子上"
+    },
+    {
+     "image_id": "000000158498",
+     "source": "main",
+     "lineno": 2818,
+     "sentence": "一个键盘和一台游戏机放在一个书桌上"
+    },
+    {
+     "image_id": "000000432395",
+     "source": "main",
+     "lineno": 2840,
+     "sentence": "桌上一个键盘和两个鼠标的一个特写。"
+    },
+    {
+     "image_id": "000000432395",
+     "source": "main",
+     "lineno": 2841,
+     "sentence": "桌子上放着键盘和鼠标。"
+    },
+    {
+     "image_id": "000000427152",
+     "source": "main",
+     "lineno": 2964,
+     "sentence": "这是一个计算机键盘的特写。"
+    },
+    {
+     "image_id": "000000070932",
+     "source": "main",
+     "lineno": 3129,
+     "sentence": "办公桌上，一台开着的笔记本电脑被倾斜放起来，还外接着键盘和鼠标。"
+    },
+    {
+     "image_id": "000000576421",
+     "source": "main",
+     "lineno": 3206,
+     "sentence": "桌子上放着一个键盘，两个鼠标，两张光盘和许多书籍纸张"
+    },
+    {
+     "image_id": "000000563696",
+     "source": "main",
+     "lineno": 3252,
+     "sentence": "一个人在电脑键盘上打字"
+    },
+    {
+     "image_id": "000000417804",
+     "source": "main",
+     "lineno": 4147,
+     "sentence": "桌子上放着的苹果键盘和鼠标特写"
+    },
+    {
+     "image_id": "000000555183",
+     "source": "main",
+     "lineno": 4203,
+     "sentence": "书桌上放着一个用支架支起来的笔记本电脑，电脑下方还放着一个外接键盘"
+    },
+    {
+     "image_id": "000000493424",
+     "source": "main",
+     "lineno": 4223,
+     "sentence": "一只手拿着一个键盘的小装置。"
+    },
+    {
+     "image_id": "000000337277",
+     "source": "main",
+     "lineno": 4254,
+     "sentence": "一张桌子上放着一个笔记本电脑，一个键盘和一个屏幕"
+    },
+    {
+     "image_id": "000000270570",
+     "source": "main",
+     "lineno": 4309,
+     "sentence": "杂乱的办公桌上有电脑，键盘，电子设备，文件等。"
+    },
+    {
+     "image_id": "000000521514",
+     "source": "main",
+     "lineno": 4397,
+     "sentence": "一张桌子上有电脑屏幕、键盘和鼠标"
+    },
+    {
+     "image_id": "000000173532",
+     "source": "main",
+     "lineno": 4421,
+     "sentence": "一个键盘和一个鼠标"
+    },
+    {
+     "image_id": "000000464732",
+     "source": "main",
+     "lineno": 4570,
+     "sentence": "一个白色键盘旁有一个白色的鼠标"
+    },
+    {
+     "image_id": "000000127342",
+     "source": "main",
+     "lineno": 4747,
+     "sentence": "桌子上有一台笔记本电脑，一台仪器，一个键盘。"
+    },
+    {
+     "image_id": "000000159127",
+     "source": "main",
+     "lineno": 4816,
+     "sentence": "桌子上面摆放了一台电脑和键盘，一直黑色的猫慵懒地躺在电脑旁。"
+    },
+    {
+     "image_id": "000000173856",
+     "source": "main",
+     "lineno": 4974,
+     "sentence": "书桌上放了一台苹果电脑，一个键盘，一台相机，一个小笔记本，一本书和一些其他的物品。"
+    },
+    {
+     "image_id": "000000574388",
+     "source": "main",
+     "lineno": 5198,
+     "sentence": "一只黄色的小猫睡在了电脑键盘上。"
+    },
+    {
+     "image_id": "000000574388",
+     "source": "main",
+     "lineno": 5199,
+     "sentence": "一只橙色的猫旁边有一个黑色的键盘。"
+    },
+    {
+     "image_id": "000000561660",
+     "source": "main",
+     "lineno": 5236,
+     "sentence": "一个桌面上有很多电子设备，如鼠标、键盘、手机等。"
+    },
+    {
+     "image_id": "000000271068",
+     "source": "main",
+     "lineno": 5288,
+     "sentence": "红色的笔记本电脑键盘上放着同色系的鼠标和手机。"
+    },
+    {
+     "image_id": "000000462224",
+     "source": "main",
+     "lineno": 5293,
+     "sentence": "一个键盘的特写"
+    },
+    {
+     "image_id": "000000265586",
+     "source": "main",
+     "lineno": 5382,
+     "sentence": "一个男人坐在办公桌前指着键盘。"
+    },
+    {
+     "image_id": "000000438904",
+     "source": "main",
+     "lineno": 5637,
+     "sentence": "桌子上放着键盘，鼠标和台灯"
+    },
+    {
+     "image_id": "000000217923",
+     "source": "main",
+     "lineno": 5901,
+     "sentence": "笔记本电脑的键盘旁边站着一只绿色眼睛的棕色的猫"
+    },
+    {
+     "image_id": "000000456666",
+     "source": "main",
+     "lineno": 6032,
+     "sentence": "一个黑色的鼠标和一个黑色的键盘摆在桌上"
+    },
+    {
+     "image_id": "000000427068",
+     "source": "main",
+     "lineno": 6220,
+     "sentence": "一张手机键盘的特写"
+    },
+    {
+     "image_id": "000000502055",
+     "source": "main",
+     "lineno": 6402,
+     "sentence": "一张图片从四个不同的角度拍显示屏下边的键盘。"
+    },
+    {
+     "image_id": "000000154423",
+     "source": "main",
+     "lineno": 6552,
+     "sentence": "一个电脑桌上放着一台台式电脑、键盘和鼠标等。"
+    },
+    {
+     "image_id": "000000304587",
+     "source": "main",
+     "lineno": 7237,
+     "sentence": "一个木制的电脑桌上摆放着显示器、键盘等电脑设备。"
+    },
+    {
+     "image_id": "000000448627",
+     "source": "main",
+     "lineno": 7727,
+     "sentence": "一只猫趴在电脑键盘上。"
+    },
+    {
+     "image_id": "000000064684",
+     "source": "main",
+     "lineno": 7954,
+     "sentence": "办公室的桌子上摆着笔记本电脑、键盘和鼠标等各种办公用品"
+    }
+   ],
+   "combined_hosts": 167
+  },
+  {
+   "surface": "长颈鹿",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "brown",
+    "red",
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 568,
+   "n_caption_hosts_jieba": 568,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 568,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000404748",
+     "source": "main",
+     "lineno": 4,
+     "sentence": "两只长颈鹿站在岩石旁的草地上"
+    },
+    {
+     "image_id": "000000197406",
+     "source": "main",
+     "lineno": 7,
+     "sentence": "一个男人和一只长颈鹿站在沙滩上"
+    },
+    {
+     "image_id": "000000274331",
+     "source": "main",
+     "lineno": 76,
+     "sentence": "一头长颈鹿站在草地上，身后有一片树林。"
+    },
+    {
+     "image_id": "000000238700",
+     "source": "main",
+     "lineno": 84,
+     "sentence": "野生动物园的草地上有一头长颈鹿和一头斑马。"
+    },
+    {
+     "image_id": "000000048139",
+     "source": "main",
+     "lineno": 114,
+     "sentence": "一只长颈鹿在动物园里吃树叶。"
+    },
+    {
+     "image_id": "000000487401",
+     "source": "main",
+     "lineno": 173,
+     "sentence": "灌木丛中有一只长颈鹿"
+    },
+    {
+     "image_id": "000000443006",
+     "source": "main",
+     "lineno": 196,
+     "sentence": "一个近乎干涸的湖泊旁有几只长颈鹿正在行走"
+    },
+    {
+     "image_id": "000000520749",
+     "source": "main",
+     "lineno": 205,
+     "sentence": "动物园里的一只长颈鹿正在被喂食"
+    },
+    {
+     "image_id": "000000234990",
+     "source": "main",
+     "lineno": 273,
+     "sentence": "两只长颈鹿站在草地上，旁边有两根倒下的树干"
+    },
+    {
+     "image_id": "000000156308",
+     "source": "main",
+     "lineno": 337,
+     "sentence": "动物园里的长颈鹿自由地栖息着。"
+    },
+    {
+     "image_id": "000000043545",
+     "source": "main",
+     "lineno": 341,
+     "sentence": "一只大长颈鹿站在几只小羊旁边。"
+    },
+    {
+     "image_id": "000000415376",
+     "source": "main",
+     "lineno": 487,
+     "sentence": "几只长颈鹿在草原上行走。"
+    },
+    {
+     "image_id": "000000114203",
+     "source": "main",
+     "lineno": 489,
+     "sentence": "动物园里两只长颈鹿和三只正在吃草的斑马隔着围栏站在草坪上"
+    },
+    {
+     "image_id": "000000548915",
+     "source": "main",
+     "lineno": 538,
+     "sentence": "一只长颈鹿把头伸向石头房子的窗户"
+    },
+    {
+     "image_id": "000000226961",
+     "source": "main",
+     "lineno": 615,
+     "sentence": "三只长颈鹿站在树林里。"
+    },
+    {
+     "image_id": "000000196917",
+     "source": "main",
+     "lineno": 698,
+     "sentence": "一辆载满游客的游览车正行驶在动物园里的小道上，旁边的树下有一头长颈鹿在吃叶子。"
+    },
+    {
+     "image_id": "000000057147",
+     "source": "main",
+     "lineno": 763,
+     "sentence": "两只长颈鹿站在动物园的铁丝网旁向外张望"
+    },
+    {
+     "image_id": "000000216443",
+     "source": "main",
+     "lineno": 797,
+     "sentence": "一只长颈鹿站在荒草丛中，周围是茂盛的树木"
+    },
+    {
+     "image_id": "000000524621",
+     "source": "main",
+     "lineno": 981,
+     "sentence": "树林里有两只长颈鹿"
+    },
+    {
+     "image_id": "000000528748",
+     "source": "main",
+     "lineno": 990,
+     "sentence": "动物园的围栏里有三只长颈鹿。"
+    },
+    {
+     "image_id": "000000528748",
+     "source": "main",
+     "lineno": 991,
+     "sentence": "动物园里有三只长颈鹿在吃树叶。"
+    },
+    {
+     "image_id": "000000157098",
+     "source": "main",
+     "lineno": 1038,
+     "sentence": "三只长颈鹿在公园吃树上的叶子"
+    },
+    {
+     "image_id": "000000000136",
+     "source": "main",
+     "lineno": 1050,
+     "sentence": "两只长颈鹿站在房间的两边上。"
+    },
+    {
+     "image_id": "000000243446",
+     "source": "main",
+     "lineno": 1219,
+     "sentence": "动物园中有两只长颈鹿，其中一只的头靠在另一只的脖子上。"
+    },
+    {
+     "image_id": "000000020512",
+     "source": "main",
+     "lineno": 1225,
+     "sentence": "一只长颈鹿在荒野中低着头吃草。"
+    },
+    {
+     "image_id": "000000215357",
+     "source": "main",
+     "lineno": 1320,
+     "sentence": "动物园里的长颈鹿正站在围栏里休息。"
+    },
+    {
+     "image_id": "000000053016",
+     "source": "main",
+     "lineno": 1337,
+     "sentence": "几只长颈鹿站在公园中的树下。"
+    },
+    {
+     "image_id": "000000529353",
+     "source": "main",
+     "lineno": 1359,
+     "sentence": "一群长颈鹿走在广阔的平原上。"
+    },
+    {
+     "image_id": "000000530163",
+     "source": "main",
+     "lineno": 1376,
+     "sentence": "动物园里三只长颈鹿站在树旁"
+    },
+    {
+     "image_id": "000000376785",
+     "source": "main",
+     "lineno": 1391,
+     "sentence": "一只高高的长颈鹿正穿过田野。"
+    },
+    {
+     "image_id": "000000160510",
+     "source": "main",
+     "lineno": 1460,
+     "sentence": "两只长颈鹿在围栏里面低着头吃草。"
+    },
+    {
+     "image_id": "000000358814",
+     "source": "main",
+     "lineno": 1477,
+     "sentence": "一只长颈鹿站在吃树枝上的树叶。"
+    },
+    {
+     "image_id": "000000524575",
+     "source": "main",
+     "lineno": 1482,
+     "sentence": "一群长颈鹿和一头牛在野外徘徊。"
+    },
+    {
+     "image_id": "000000562171",
+     "source": "main",
+     "lineno": 1522,
+     "sentence": "一只长颈鹿在草地上吃草"
+    },
+    {
+     "image_id": "000000562171",
+     "source": "main",
+     "lineno": 1523,
+     "sentence": "动物园里，一只长颈鹿弯下身去吃草。"
+    },
+    {
+     "image_id": "000000442143",
+     "source": "main",
+     "lineno": 1579,
+     "sentence": "两只长颈鹿站在一块石头墙旁边。"
+    },
+    {
+     "image_id": "000000294423",
+     "source": "main",
+     "lineno": 1587,
+     "sentence": "晴朗的天气下有两只长颈鹿站在树前"
+    },
+    {
+     "image_id": "000000172265",
+     "source": "main",
+     "lineno": 1614,
+     "sentence": "围场里有六只长颈鹿，三只围在一棵大树旁。"
+    },
+    {
+     "image_id": "000000122108",
+     "source": "main",
+     "lineno": 1779,
+     "sentence": "动物园的假山旁站着两只长颈鹿"
+    },
+    {
+     "image_id": "000000033707",
+     "source": "main",
+     "lineno": 1789,
+     "sentence": "两只长颈鹿站在一条土路上。"
+    },
+    {
+     "image_id": "000000546133",
+     "source": "main",
+     "lineno": 1826,
+     "sentence": "一只长颈鹿站在一堵墙边。"
+    },
+    {
+     "image_id": "000000211613",
+     "source": "main",
+     "lineno": 1935,
+     "sentence": "围栏里有一群长颈鹿。"
+    },
+    {
+     "image_id": "000000378814",
+     "source": "main",
+     "lineno": 1940,
+     "sentence": "这是一个一只长颈鹿的头的特写镜头。"
+    },
+    {
+     "image_id": "000000152197",
+     "source": "main",
+     "lineno": 1967,
+     "sentence": "两只长颈鹿在动物园散步"
+    },
+    {
+     "image_id": "000000177453",
+     "source": "main",
+     "lineno": 2305,
+     "sentence": "一只长颈鹿站在沙地上吃高处的草"
+    },
+    {
+     "image_id": "000000329939",
+     "source": "main",
+     "lineno": 2340,
+     "sentence": "在大自然的灌木丛里有三只长颈鹿在行走。"
+    },
+    {
+     "image_id": "000000204244",
+     "source": "main",
+     "lineno": 2416,
+     "sentence": "两只长颈鹿站在动物园。"
+    },
+    {
+     "image_id": "000000074069",
+     "source": "main",
+     "lineno": 2470,
+     "sentence": "动物园里有三只长颈鹿。"
+    },
+    {
+     "image_id": "000000368253",
+     "source": "main",
+     "lineno": 2505,
+     "sentence": "一只长颈鹿在丛林中行走。"
+    },
+    {
+     "image_id": "000000089503",
+     "source": "main",
+     "lineno": 2773,
+     "sentence": "两头成年长颈鹿站在两头小长颈鹿旁边。"
+    }
+   ],
+   "combined_hosts": 568
+  },
+  {
+   "surface": "雪",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "illumination_set",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 1127,
+   "n_caption_hosts_jieba": 50,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 1127,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000230516",
+     "source": "main",
+     "lineno": 60,
+     "sentence": "一名戴头盔的男子踩着滑雪板从一个斜坡滑下。"
+    },
+    {
+     "image_id": "000000542866",
+     "source": "main",
+     "lineno": 78,
+     "sentence": "滑雪场里，一个带着墨镜穿着白色滑雪装备的男人抱着一只泰迪熊对着镜头微笑，他的身后有许多人正在滑雪"
+    },
+    {
+     "image_id": "000000100599",
+     "source": "main",
+     "lineno": 94,
+     "sentence": "一个男人和两个小孩坐在一辆马拉雪橇上"
+    },
+    {
+     "image_id": "000000082834",
+     "source": "main",
+     "lineno": 98,
+     "sentence": "一个男人在滑雪，背后是一个滑雪场。"
+    },
+    {
+     "image_id": "000000082834",
+     "source": "main",
+     "lineno": 99,
+     "sentence": "一个女人穿着雪具站在雪坡上摆拍。"
+    },
+    {
+     "image_id": "000000186254",
+     "source": "main",
+     "lineno": 117,
+     "sentence": "一个穿黄色滑雪服的人正在滑雪"
+    },
+    {
+     "image_id": "000000510387",
+     "source": "main",
+     "lineno": 150,
+     "sentence": "雪后的街道上，枯树枝上挂着雪，路边停着一辆白车"
+    },
+    {
+     "image_id": "000000180653",
+     "source": "main",
+     "lineno": 181,
+     "sentence": "两只穿着滑雪服的成年人，在一个空旷的雪地里滑雪。"
+    },
+    {
+     "image_id": "000000198530",
+     "source": "main",
+     "lineno": 256,
+     "sentence": "三个滑雪者靠在一起站在雪山山腰处"
+    },
+    {
+     "image_id": "000000534903",
+     "source": "main",
+     "lineno": 296,
+     "sentence": "夜晚雪山上有一个人在滑雪"
+    },
+    {
+     "image_id": "000000316676",
+     "source": "main",
+     "lineno": 378,
+     "sentence": "街道上的交通灯被雪掩埋了。"
+    },
+    {
+     "image_id": "000000157380",
+     "source": "main",
+     "lineno": 379,
+     "sentence": "一个滑雪的 人摔倒在雪地里"
+    },
+    {
+     "image_id": "000000508488",
+     "source": "main",
+     "lineno": 382,
+     "sentence": "一个路口上的汽车和路面都覆盖着白雪。"
+    },
+    {
+     "image_id": "000000175410",
+     "source": "main",
+     "lineno": 386,
+     "sentence": "一个戴着滑雪镜和帽子的男人拿着一个滑雪板站在雪里"
+    },
+    {
+     "image_id": "000000244931",
+     "source": "main",
+     "lineno": 411,
+     "sentence": "一个踩着滑雪板的人坐在雪地上。"
+    },
+    {
+     "image_id": "000000270123",
+     "source": "main",
+     "lineno": 415,
+     "sentence": "一个男人手里拿着滑雪杆，在雪地上滑雪。"
+    },
+    {
+     "image_id": "000000446232",
+     "source": "main",
+     "lineno": 427,
+     "sentence": "一个人在雪地上滑雪。"
+    },
+    {
+     "image_id": "000000446232",
+     "source": "main",
+     "lineno": 428,
+     "sentence": "一个人在雪地里滑雪。"
+    },
+    {
+     "image_id": "000000527447",
+     "source": "main",
+     "lineno": 459,
+     "sentence": "两个人正奋力爬上一座白雪覆盖的山。"
+    },
+    {
+     "image_id": "000000514392",
+     "source": "main",
+     "lineno": 469,
+     "sentence": "一个干净漂亮的滑雪场"
+    },
+    {
+     "image_id": "000000057172",
+     "source": "main",
+     "lineno": 476,
+     "sentence": "一个人徒步穿越白雪覆盖的山谷。"
+    },
+    {
+     "image_id": "000000335565",
+     "source": "main",
+     "lineno": 495,
+     "sentence": "一个女人踩着滑雪板站在小木屋前的雪地里"
+    },
+    {
+     "image_id": "000000359360",
+     "source": "main",
+     "lineno": 507,
+     "sentence": "一个人滑雪穿越白雪覆盖的森林"
+    },
+    {
+     "image_id": "000000475229",
+     "source": "main",
+     "lineno": 533,
+     "sentence": "一个带头盔的滑雪者手拿滑雪板站在满是雪的山坡上。"
+    },
+    {
+     "image_id": "000000536752",
+     "source": "main",
+     "lineno": 535,
+     "sentence": "一群穿着滑雪装备的人在雪地里自拍"
+    },
+    {
+     "image_id": "000000013802",
+     "source": "main",
+     "lineno": 542,
+     "sentence": "一个男人在雪山上滑雪"
+    },
+    {
+     "image_id": "000000370475",
+     "source": "main",
+     "lineno": 563,
+     "sentence": "一个人顺着一个雪坡滑雪下来"
+    },
+    {
+     "image_id": "000000054162",
+     "source": "main",
+     "lineno": 646,
+     "sentence": "夜晚，一位滑雪运动员正在表演滑雪翻转特技。"
+    },
+    {
+     "image_id": "000000465422",
+     "source": "main",
+     "lineno": 658,
+     "sentence": "一个人沿着雪坡滑下。"
+    },
+    {
+     "image_id": "000000344921",
+     "source": "main",
+     "lineno": 722,
+     "sentence": "一张人和狗在雪地里的合影。"
+    },
+    {
+     "image_id": "000000424110",
+     "source": "main",
+     "lineno": 764,
+     "sentence": "雪山下站着几位滑雪者"
+    },
+    {
+     "image_id": "000000554347",
+     "source": "main",
+     "lineno": 766,
+     "sentence": "一个男孩和一个成年人在雪地上滑雪。"
+    },
+    {
+     "image_id": "000000519617",
+     "source": "main",
+     "lineno": 830,
+     "sentence": "雪地中的一个雪人拿着一个胡萝卜。"
+    },
+    {
+     "image_id": "000000318967",
+     "source": "main",
+     "lineno": 832,
+     "sentence": "一个男孩和一个女孩拿着滑雪板合照"
+    },
+    {
+     "image_id": "000000326373",
+     "source": "main",
+     "lineno": 843,
+     "sentence": "一个男人在冰雪上滑雪。"
+    },
+    {
+     "image_id": "000000453483",
+     "source": "main",
+     "lineno": 869,
+     "sentence": "一个小女孩穿着紫色的衣服在雪地里滑雪。"
+    },
+    {
+     "image_id": "000000564743",
+     "source": "main",
+     "lineno": 887,
+     "sentence": "几个人在山上的雪地上滑雪。"
+    },
+    {
+     "image_id": "000000564743",
+     "source": "main",
+     "lineno": 888,
+     "sentence": "三个年轻人和一个孩子在松树前的雪地上滑雪"
+    },
+    {
+     "image_id": "000000564743",
+     "source": "main",
+     "lineno": 889,
+     "sentence": "几个人在雪地上学滑雪"
+    },
+    {
+     "image_id": "000000215407",
+     "source": "main",
+     "lineno": 891,
+     "sentence": "四位朋友在滑雪场合影。"
+    },
+    {
+     "image_id": "000000563912",
+     "source": "main",
+     "lineno": 896,
+     "sentence": "在空中做滑雪特技的人。"
+    },
+    {
+     "image_id": "000000398514",
+     "source": "main",
+     "lineno": 906,
+     "sentence": "几个人站在雪坡上"
+    },
+    {
+     "image_id": "000000493972",
+     "source": "main",
+     "lineno": 956,
+     "sentence": "一个人在山间的树林里滑雪"
+    },
+    {
+     "image_id": "000000493972",
+     "source": "main",
+     "lineno": 957,
+     "sentence": "密林里的雪地上，一个人踩着滑雪板跳跃到了半空中"
+    },
+    {
+     "image_id": "000000493972",
+     "source": "main",
+     "lineno": 958,
+     "sentence": "一个人在树林前跳起滑雪"
+    },
+    {
+     "image_id": "000000493972",
+     "source": "main",
+     "lineno": 959,
+     "sentence": "一个男人在白雪覆盖的山前的树林边滑雪"
+    },
+    {
+     "image_id": "000000493972",
+     "source": "main",
+     "lineno": 960,
+     "sentence": "一个人在森林前的雪地上滑雪。"
+    },
+    {
+     "image_id": "000000283650",
+     "source": "main",
+     "lineno": 962,
+     "sentence": "一个人拿着滑雪板准备去滑雪。"
+    },
+    {
+     "image_id": "000000490647",
+     "source": "main",
+     "lineno": 992,
+     "sentence": "三个人在山上滑雪，其中一人摔倒了"
+    },
+    {
+     "image_id": "000000494424",
+     "source": "main",
+     "lineno": 1030,
+     "sentence": "一大群人一起在滑雪、照相。"
+    }
+   ],
+   "combined_hosts": 1127
+  },
+  {
+   "surface": "青春",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "green"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 201,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 201
+  },
+  {
+   "surface": "顯示",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 827,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 827
+  },
+  {
+   "surface": "饼饵",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "香橙",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "green",
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "香蕉",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "yellow"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 276,
+   "n_caption_hosts_jieba": 273,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 276,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000090891",
+     "source": "main",
+     "lineno": 159,
+     "sentence": "一个院子里，几个男人旁边的空间堆满了香蕉"
+    },
+    {
+     "image_id": "000000430160",
+     "source": "main",
+     "lineno": 169,
+     "sentence": "盘子里放着两片抹着巧克力酱的面包片，其中一片上铺着香蕉片"
+    },
+    {
+     "image_id": "000000142047",
+     "source": "main",
+     "lineno": 175,
+     "sentence": "香蕉挂在香蕉树上的特写。"
+    },
+    {
+     "image_id": "000000510080",
+     "source": "main",
+     "lineno": 316,
+     "sentence": "一个男孩左手拿着香蕉抵住太阳穴"
+    },
+    {
+     "image_id": "000000238187",
+     "source": "main",
+     "lineno": 339,
+     "sentence": "桌子上放着半个苹果和几块没有皮的香蕉。"
+    },
+    {
+     "image_id": "000000469145",
+     "source": "main",
+     "lineno": 404,
+     "sentence": "一个男人拿着一个香蕉"
+    },
+    {
+     "image_id": "000000137123",
+     "source": "main",
+     "lineno": 532,
+     "sentence": "一只猴子正坐在地上吃香蕉。"
+    },
+    {
+     "image_id": "000000138103",
+     "source": "main",
+     "lineno": 631,
+     "sentence": "一个中年男子正在吃香蕉"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 654,
+     "sentence": "一个香蕉、一个苹果和一个键盘放在一起"
+    },
+    {
+     "image_id": "000000511644",
+     "source": "main",
+     "lineno": 655,
+     "sentence": "桌子上有一个苹果、香蕉和键盘。"
+    },
+    {
+     "image_id": "000000169858",
+     "source": "main",
+     "lineno": 710,
+     "sentence": "一个女人拿着一个黄色的大香蕉。"
+    },
+    {
+     "image_id": "000000093068",
+     "source": "main",
+     "lineno": 776,
+     "sentence": "一辆木板车上堆满了青色的香蕉"
+    },
+    {
+     "image_id": "000000240259",
+     "source": "main",
+     "lineno": 778,
+     "sentence": "一只猴子在汽车的后方正在吃香蕉。"
+    },
+    {
+     "image_id": "000000409099",
+     "source": "main",
+     "lineno": 881,
+     "sentence": "桌子上有一个新烤制的蛋糕，旁边的果盘里有一些香蕉和橙子，桌上还有一个白色的茶壶以及一些封装的干果。"
+    },
+    {
+     "image_id": "000000333075",
+     "source": "main",
+     "lineno": 914,
+     "sentence": "桌子上有香蕉和山竹"
+    },
+    {
+     "image_id": "000000333075",
+     "source": "main",
+     "lineno": 915,
+     "sentence": "桌子上的香蕉"
+    },
+    {
+     "image_id": "000000431044",
+     "source": "main",
+     "lineno": 1021,
+     "sentence": "两个苹果和两根香蕉，看起来都已经放了很久。"
+    },
+    {
+     "image_id": "000000177246",
+     "source": "main",
+     "lineno": 1085,
+     "sentence": "一只手拿着一根香蕉。"
+    },
+    {
+     "image_id": "000000310202",
+     "source": "main",
+     "lineno": 1147,
+     "sentence": "市场里一个妇人身前摆着一大堆香蕉。"
+    },
+    {
+     "image_id": "000000480275",
+     "source": "main",
+     "lineno": 1284,
+     "sentence": "装着四个大轮子的木板车上放着一些黄色的香蕉"
+    },
+    {
+     "image_id": "000000340529",
+     "source": "main",
+     "lineno": 1310,
+     "sentence": "市场上摆着一些香蕉、梨、桃和苹果。"
+    },
+    {
+     "image_id": "000000158722",
+     "source": "main",
+     "lineno": 1319,
+     "sentence": "一个人在市场上卖香蕉。"
+    },
+    {
+     "image_id": "000000037286",
+     "source": "main",
+     "lineno": 1330,
+     "sentence": "路边有人摆摊卖香蕉"
+    },
+    {
+     "image_id": "000000573892",
+     "source": "main",
+     "lineno": 1589,
+     "sentence": "一个水果摊上有许多香蕉和芭蕉。"
+    },
+    {
+     "image_id": "000000446670",
+     "source": "main",
+     "lineno": 1608,
+     "sentence": "书架前有一张桌子，上面有一个装满香蕉的果盘"
+    },
+    {
+     "image_id": "000000480780",
+     "source": "main",
+     "lineno": 1656,
+     "sentence": "街道旁有几颗长满香蕉的香蕉树"
+    },
+    {
+     "image_id": "000000006012",
+     "source": "main",
+     "lineno": 1701,
+     "sentence": "一串香蕉和一个苹果"
+    },
+    {
+     "image_id": "000000128256",
+     "source": "main",
+     "lineno": 1782,
+     "sentence": "桌子上放着香蕉和橘子"
+    },
+    {
+     "image_id": "000000525118",
+     "source": "main",
+     "lineno": 1866,
+     "sentence": "一把青色的香蕉被放在桌子上铺着的旧报纸上"
+    },
+    {
+     "image_id": "000000296892",
+     "source": "main",
+     "lineno": 2012,
+     "sentence": "一张桌子上有果酱、香蕉和酸奶。"
+    },
+    {
+     "image_id": "000000436306",
+     "source": "main",
+     "lineno": 2119,
+     "sentence": "一个人的手臂上挂着三根香蕉"
+    },
+    {
+     "image_id": "000000283840",
+     "source": "main",
+     "lineno": 2180,
+     "sentence": "桌上放着两个三明治，两个香蕉和一杯牛奶"
+    },
+    {
+     "image_id": "000000079992",
+     "source": "main",
+     "lineno": 2200,
+     "sentence": "一个篮子里装着几根香蕉和两个椰子"
+    },
+    {
+     "image_id": "000000497855",
+     "source": "main",
+     "lineno": 2485,
+     "sentence": "黄色的香蕉与橙色的苹果放在了一起，并且一些苹果已经熟的太透了"
+    },
+    {
+     "image_id": "000000066831",
+     "source": "main",
+     "lineno": 2696,
+     "sentence": "商店里陈列了大量香蕉。"
+    },
+    {
+     "image_id": "000000175126",
+     "source": "main",
+     "lineno": 2730,
+     "sentence": "两个男人站在一棵香蕉树旁。"
+    },
+    {
+     "image_id": "000000112577",
+     "source": "main",
+     "lineno": 2868,
+     "sentence": "两根香蕉被挂在墙上的架子上"
+    },
+    {
+     "image_id": "000000351686",
+     "source": "main",
+     "lineno": 2993,
+     "sentence": "一个容器里有香蕉、苹果、橘子等水果和蔬菜。"
+    },
+    {
+     "image_id": "000000114807",
+     "source": "main",
+     "lineno": 3146,
+     "sentence": "一个白色的盘子里放着一个苹果、一个猕猴桃、一片铺着奶酪和巧克力酱的面包片、一片铺着香蕉的面包片和刀子、勺子"
+    },
+    {
+     "image_id": "000000043338",
+     "source": "main",
+     "lineno": 3161,
+     "sentence": "桌子上放着一串香蕉和几个橘子"
+    },
+    {
+     "image_id": "000000058705",
+     "source": "main",
+     "lineno": 3470,
+     "sentence": "一个女人和一个拿着香蕉的男人在红色背景板前。"
+    },
+    {
+     "image_id": "000000215873",
+     "source": "main",
+     "lineno": 3501,
+     "sentence": "园子里的香蕉树上结了许多青色的香蕉"
+    },
+    {
+     "image_id": "000000445327",
+     "source": "main",
+     "lineno": 3658,
+     "sentence": "一些人正在挂满了香蕉的商店门前搬运香蕉。"
+    },
+    {
+     "image_id": "000000044488",
+     "source": "main",
+     "lineno": 4153,
+     "sentence": "一位老人在一个香蕉摊位前仔细端详"
+    },
+    {
+     "image_id": "000000320972",
+     "source": "main",
+     "lineno": 4197,
+     "sentence": "香蕉、苹果和橘子的特写。"
+    },
+    {
+     "image_id": "000000016123",
+     "source": "main",
+     "lineno": 4365,
+     "sentence": "一个穿着灰色条纹衬衫的男人扛着一束绿色香蕉。"
+    },
+    {
+     "image_id": "000000042003",
+     "source": "main",
+     "lineno": 4386,
+     "sentence": "一根香蕉在石台阶上，有一个喷泉在它后面。"
+    },
+    {
+     "image_id": "000000059996",
+     "source": "main",
+     "lineno": 4443,
+     "sentence": "桌子上摆放着一根香蕉，一个彩椒，一个苹果和一根胡萝卜。"
+    },
+    {
+     "image_id": "000000395169",
+     "source": "main",
+     "lineno": 4521,
+     "sentence": "一本书上放着一根香蕉，旁边有一个苹果和一个李子"
+    },
+    {
+     "image_id": "000000335107",
+     "source": "main",
+     "lineno": 4538,
+     "sentence": "架子上放着几瓶葡萄酒和一串香蕉"
+    }
+   ],
+   "combined_hosts": 276
+  },
+  {
+   "surface": "鳕鱼",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "white"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "鸢",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "brown"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 1,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 1,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000067997",
+     "source": "ext",
+     "lineno": 4308,
+     "sentence": "花瓶里有一株紫色的鸢尾花"
+    }
+   ],
+   "combined_hosts": 1
+  },
+  {
+   "surface": "鹞子",
+   "pool": "color_referent",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "black",
+    "brown",
+    "gray",
+    "white"
+   ],
+   "illum_poles": [
+    "dark"
+   ],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "黑瞎子",
+   "pool": "color_referent",
+   "pred_subs_class": "pred",
+   "origin": "coco_candidate",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "夜",
+   "pool": "illumination_salient",
+   "pred_subs_class": "pred",
+   "origin": "illumination_set",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "bright",
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 291,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 291,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000542079",
+     "source": "main",
+     "lineno": 93,
+     "sentence": "夜晚中一辆公交车进站的照片。"
+    },
+    {
+     "image_id": "000000037183",
+     "source": "main",
+     "lineno": 145,
+     "sentence": "夜晚的街道上，一群骑自行车的人停在了路边。"
+    },
+    {
+     "image_id": "000000534903",
+     "source": "main",
+     "lineno": 296,
+     "sentence": "夜晚雪山上有一个人在滑雪"
+    },
+    {
+     "image_id": "000000376502",
+     "source": "main",
+     "lineno": 514,
+     "sentence": "夜晚两个人在路边拿在纸盘子吃着披萨。"
+    },
+    {
+     "image_id": "000000054162",
+     "source": "main",
+     "lineno": 646,
+     "sentence": "夜晚，一位滑雪运动员正在表演滑雪翻转特技。"
+    },
+    {
+     "image_id": "000000185210",
+     "source": "main",
+     "lineno": 702,
+     "sentence": "夜晚的城市街道上挤满了许多汽车。"
+    },
+    {
+     "image_id": "000000329477",
+     "source": "main",
+     "lineno": 794,
+     "sentence": "一个夜晚的路边一个空旷的人行道。"
+    },
+    {
+     "image_id": "000000514249",
+     "source": "main",
+     "lineno": 809,
+     "sentence": "夜晚街道的一角，有报纸箱、消火栓和捐赠箱。"
+    },
+    {
+     "image_id": "000000117060",
+     "source": "main",
+     "lineno": 1571,
+     "sentence": "夜晚的街道上有许多车在行驶，街道边有一个白色的消防栓"
+    },
+    {
+     "image_id": "000000500423",
+     "source": "main",
+     "lineno": 1590,
+     "sentence": "一列橙色涂装的夜行火车正停在火车站台。"
+    },
+    {
+     "image_id": "000000463414",
+     "source": "main",
+     "lineno": 1806,
+     "sentence": "夜晚一位男子在街边的抽水马桶边呕吐。"
+    },
+    {
+     "image_id": "000000480951",
+     "source": "main",
+     "lineno": 1987,
+     "sentence": "夜晚的街道上有许多汽车在行驶"
+    },
+    {
+     "image_id": "000000446481",
+     "source": "main",
+     "lineno": 1992,
+     "sentence": "夜晚里一个繁华的有红绿灯的街道的汽车和建筑物。"
+    },
+    {
+     "image_id": "000000028525",
+     "source": "main",
+     "lineno": 2020,
+     "sentence": "这张黑白照片是夜晚的街边停了两辆大卡车，行人在边上走着，一个男人站在最前方，双手插着裤兜。"
+    },
+    {
+     "image_id": "000000434316",
+     "source": "main",
+     "lineno": 2056,
+     "sentence": "夜晚，空空荡荡的街道上路灯在闪耀着。"
+    },
+    {
+     "image_id": "000000389182",
+     "source": "main",
+     "lineno": 2126,
+     "sentence": "公交车在夜晚街道上行驶。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2166,
+     "sentence": "路灯照亮了夜晚的十字路口。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2167,
+     "sentence": "夜晚的街道。"
+    },
+    {
+     "image_id": "000000415413",
+     "source": "main",
+     "lineno": 2386,
+     "sentence": "夜晚的街道上有很多汽车，远处有一座钟楼"
+    },
+    {
+     "image_id": "000000319747",
+     "source": "main",
+     "lineno": 2427,
+     "sentence": "夜晚的城市里街道上车流不息，商店挂出的各色招牌流光溢彩。"
+    },
+    {
+     "image_id": "000000318437",
+     "source": "main",
+     "lineno": 2457,
+     "sentence": "夜色中驶过一辆列车。"
+    },
+    {
+     "image_id": "000000257897",
+     "source": "main",
+     "lineno": 2509,
+     "sentence": "这是一张夜晚的灯塔的黑白照片"
+    },
+    {
+     "image_id": "000000562448",
+     "source": "main",
+     "lineno": 2547,
+     "sentence": "夜间在街上行驶的汽车。"
+    },
+    {
+     "image_id": "000000060046",
+     "source": "main",
+     "lineno": 2601,
+     "sentence": "一个男孩在夜晚玩滑板"
+    },
+    {
+     "image_id": "000000283277",
+     "source": "main",
+     "lineno": 2755,
+     "sentence": "夜晚的城市街道上的路灯照亮了黑暗"
+    },
+    {
+     "image_id": "000000049782",
+     "source": "main",
+     "lineno": 3039,
+     "sentence": "夜晚，一个女人坐在路边看着手机。"
+    },
+    {
+     "image_id": "000000330455",
+     "source": "main",
+     "lineno": 3277,
+     "sentence": "夜晚道路上有一辆公交车和一辆轿车"
+    },
+    {
+     "image_id": "000000277025",
+     "source": "main",
+     "lineno": 3454,
+     "sentence": "夜晚，一个男人坐在光线幽暗的餐厅的窗户旁边，桌上摆着酒杯。"
+    },
+    {
+     "image_id": "000000152483",
+     "source": "main",
+     "lineno": 3510,
+     "sentence": "夜晚下，树林前的一个长椅在月光下露出了长长的影子"
+    },
+    {
+     "image_id": "000000068860",
+     "source": "main",
+     "lineno": 3515,
+     "sentence": "夜晚，一个男人手里拿着一个热狗"
+    },
+    {
+     "image_id": "000000172778",
+     "source": "main",
+     "lineno": 3654,
+     "sentence": "一张夜晚里街道的照片。"
+    },
+    {
+     "image_id": "000000027151",
+     "source": "main",
+     "lineno": 3788,
+     "sentence": "一家餐馆在夜晚亮着灯。"
+    },
+    {
+     "image_id": "000000404235",
+     "source": "main",
+     "lineno": 3980,
+     "sentence": "夜晚朦胧的灯光下，街道边的信箱旁停着一辆汽车"
+    },
+    {
+     "image_id": "000000098989",
+     "source": "main",
+     "lineno": 4026,
+     "sentence": "夜晚的街道上，有许多汽车正在等红灯"
+    },
+    {
+     "image_id": "000000088398",
+     "source": "main",
+     "lineno": 4074,
+     "sentence": "夜晚一列火车穿越过隧道。"
+    },
+    {
+     "image_id": "000000459731",
+     "source": "main",
+     "lineno": 4298,
+     "sentence": "黑夜里，一辆火车头缓缓驶出站台。"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4408,
+     "sentence": "夜晚下的指路牌"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4411,
+     "sentence": "夜晚一家土耳其烤肉店对面的街道标志"
+    },
+    {
+     "image_id": "000000231460",
+     "source": "main",
+     "lineno": 4412,
+     "sentence": "夜晚满是霓虹灯的街道。"
+    },
+    {
+     "image_id": "000000452831",
+     "source": "main",
+     "lineno": 4466,
+     "sentence": "一辆在夜间行驶的公交车"
+    },
+    {
+     "image_id": "000000261829",
+     "source": "main",
+     "lineno": 4520,
+     "sentence": "一个女人独自走在夜晚的街道上"
+    },
+    {
+     "image_id": "000000392364",
+     "source": "main",
+     "lineno": 4757,
+     "sentence": "夜晚，一座钟塔附近一个圆台上有一座骑马的人的雕像。"
+    },
+    {
+     "image_id": "000000392364",
+     "source": "main",
+     "lineno": 4758,
+     "sentence": "夜晚，一座钟塔附近一个圆台上有一座骑马的人的雕像。"
+    },
+    {
+     "image_id": "000000548331",
+     "source": "main",
+     "lineno": 4796,
+     "sentence": "夜色里一只小狗在追着一只飞盘。"
+    },
+    {
+     "image_id": "000000123142",
+     "source": "main",
+     "lineno": 4883,
+     "sentence": "夜晚的城市里许多建筑物亮着灯。"
+    },
+    {
+     "image_id": "000000172637",
+     "source": "main",
+     "lineno": 4894,
+     "sentence": "夜晚的街道上一排停车计时器。"
+    },
+    {
+     "image_id": "000000167964",
+     "source": "main",
+     "lineno": 5417,
+     "sentence": "夜晚的街道亮起了灯光。"
+    },
+    {
+     "image_id": "000000246087",
+     "source": "main",
+     "lineno": 5611,
+     "sentence": "夜晚一个男人站在一家商铺的门框下。"
+    },
+    {
+     "image_id": "000000311031",
+     "source": "main",
+     "lineno": 5708,
+     "sentence": "夜间的街道上的雪里有一个消防栓"
+    },
+    {
+     "image_id": "000000095752",
+     "source": "main",
+     "lineno": 5727,
+     "sentence": "黑夜里一个人在玩滑板。"
+    }
+   ],
+   "combined_hosts": 291
+  },
+  {
+   "surface": "天黑",
+   "pool": "illumination_salient",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 19,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 19
+  },
+  {
+   "surface": "灯",
+   "pool": "illumination_salient",
+   "pred_subs_class": "pred",
+   "origin": "illumination_set",
+   "color_families": [
+    "black"
+   ],
+   "illum_poles": [
+    "bright",
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 554,
+   "n_caption_hosts_jieba": 41,
+   "caption_hosts_truncated": true,
+   "caption_hosts_total": 554,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000187473",
+     "source": "main",
+     "lineno": 12,
+     "sentence": "一辆卡车在交叉路口等待红绿灯。"
+    },
+    {
+     "image_id": "000000038722",
+     "source": "main",
+     "lineno": 102,
+     "sentence": "一个穿红色衣服背包的男人拿着一个盒子走进了屋子里准备上楼，起居室里亮着灯。"
+    },
+    {
+     "image_id": "000000235701",
+     "source": "main",
+     "lineno": 108,
+     "sentence": "女孩坐在台灯旁边的沙发上，身边的墙壁挂着一幅壁画"
+    },
+    {
+     "image_id": "000000385641",
+     "source": "main",
+     "lineno": 124,
+     "sentence": "桌子上面有一台苹果笔记本电脑，一个鼠标和一个亮着的台灯。"
+    },
+    {
+     "image_id": "000000374448",
+     "source": "main",
+     "lineno": 199,
+     "sentence": "一个采光并不好的餐厅里装了很多吊灯，许多顾客正在餐厅里吃饭。"
+    },
+    {
+     "image_id": "000000212429",
+     "source": "main",
+     "lineno": 201,
+     "sentence": "这个路口的交通灯看起来像一棵圣诞树。"
+    },
+    {
+     "image_id": "000000322866",
+     "source": "main",
+     "lineno": 299,
+     "sentence": "一张书桌上有一个打开的台灯，一台合着的笔记本电脑和许多的文具。"
+    },
+    {
+     "image_id": "000000494404",
+     "source": "main",
+     "lineno": 314,
+     "sentence": "大水淹没了马路，只能看到信号灯和路标的上半部分。"
+    },
+    {
+     "image_id": "000000040930",
+     "source": "main",
+     "lineno": 368,
+     "sentence": "一条街上的交通灯都挂在电线上，街道上 有汽车驶过。"
+    },
+    {
+     "image_id": "000000316676",
+     "source": "main",
+     "lineno": 378,
+     "sentence": "街道上的交通灯被雪掩埋了。"
+    },
+    {
+     "image_id": "000000137694",
+     "source": "main",
+     "lineno": 568,
+     "sentence": "一个骑着自行车的老人停在路口等待红绿灯"
+    },
+    {
+     "image_id": "000000528386",
+     "source": "main",
+     "lineno": 592,
+     "sentence": "空荡荡的酒吧亮着五颜六色的小串灯。"
+    },
+    {
+     "image_id": "000000039288",
+     "source": "main",
+     "lineno": 613,
+     "sentence": "桌子上有一个台灯和各种水果"
+    },
+    {
+     "image_id": "000000259703",
+     "source": "main",
+     "lineno": 699,
+     "sentence": "街道旁街灯灯柱上的标识指示着这里是主街道。"
+    },
+    {
+     "image_id": "000000323828",
+     "source": "main",
+     "lineno": 805,
+     "sentence": "一列亮着灯的火车在铁路上行驶"
+    },
+    {
+     "image_id": "000000043243",
+     "source": "main",
+     "lineno": 820,
+     "sentence": "电视旁放着一盏灯和各种各样的相机"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 973,
+     "sentence": "在城市街道的人行道上，有一个红绿灯和电话亭"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 974,
+     "sentence": "电话亭旁的交通灯的绿灯亮起，交通灯旁边是指路牌"
+    },
+    {
+     "image_id": "000000183771",
+     "source": "main",
+     "lineno": 977,
+     "sentence": "在街道对面的交通灯。"
+    },
+    {
+     "image_id": "000000018460",
+     "source": "main",
+     "lineno": 1042,
+     "sentence": "透过铺着蓝色单子的卧铺车厢的窗户可以看到外面昏黄的灯光"
+    },
+    {
+     "image_id": "000000038321",
+     "source": "main",
+     "lineno": 1059,
+     "sentence": "街道上的红绿灯现在是红色"
+    },
+    {
+     "image_id": "000000395007",
+     "source": "main",
+     "lineno": 1235,
+     "sentence": "一座建筑物顶部的白色灯塔"
+    },
+    {
+     "image_id": "000000231907",
+     "source": "main",
+     "lineno": 1325,
+     "sentence": "两旁都是复古式建筑的街道上，交通灯正亮着红灯"
+    },
+    {
+     "image_id": "000000231907",
+     "source": "main",
+     "lineno": 1326,
+     "sentence": "一个交通灯和一个繁忙的街道在砖高层建筑前。"
+    },
+    {
+     "image_id": "000000396073",
+     "source": "main",
+     "lineno": 1397,
+     "sentence": "街道上有一个绿色的交通信号灯"
+    },
+    {
+     "image_id": "000000138434",
+     "source": "main",
+     "lineno": 1432,
+     "sentence": "傍晚，一个红绿灯旁边的天空显得格外地明亮"
+    },
+    {
+     "image_id": "000000341335",
+     "source": "main",
+     "lineno": 1547,
+     "sentence": "吊灯旁边的墙上挂着一个牛头"
+    },
+    {
+     "image_id": "000000015272",
+     "source": "main",
+     "lineno": 1577,
+     "sentence": "樱花旁边有一个交通信号灯"
+    },
+    {
+     "image_id": "000000523959",
+     "source": "main",
+     "lineno": 1604,
+     "sentence": "一个高高的钟塔旁边有一个正亮着红灯的交通灯"
+    },
+    {
+     "image_id": "000000343596",
+     "source": "main",
+     "lineno": 1618,
+     "sentence": "一个时钟在底座灯的照耀下反射着金色的光"
+    },
+    {
+     "image_id": "000000488403",
+     "source": "main",
+     "lineno": 1653,
+     "sentence": "一个斜拍的街景，艳阳下车辆川流不息，一个红绿灯标志在镜头最前面"
+    },
+    {
+     "image_id": "000000110282",
+     "source": "main",
+     "lineno": 1724,
+     "sentence": "信号灯右转方向正显示红灯。"
+    },
+    {
+     "image_id": "000000455181",
+     "source": "main",
+     "lineno": 1730,
+     "sentence": "橙色的灯光下一只猫坐在矮柜上看着镜子中的自己。"
+    },
+    {
+     "image_id": "000000579440",
+     "source": "main",
+     "lineno": 1742,
+     "sentence": "两个女人和一个男人在亮着黄色灯光的客厅里看电视"
+    },
+    {
+     "image_id": "000000116741",
+     "source": "main",
+     "lineno": 1749,
+     "sentence": "一个路灯杆上挂着路标和红绿灯。"
+    },
+    {
+     "image_id": "000000006527",
+     "source": "main",
+     "lineno": 1754,
+     "sentence": "罗马数字的钟表旁有一盏小灯。"
+    },
+    {
+     "image_id": "000000178418",
+     "source": "main",
+     "lineno": 1848,
+     "sentence": "一条街道的转角处正亮起了红灯"
+    },
+    {
+     "image_id": "000000526071",
+     "source": "main",
+     "lineno": 1896,
+     "sentence": "阴雨天一辆汽车行驶在公路上，车前方有一个亮着红灯的信号灯。"
+    },
+    {
+     "image_id": "000000012416",
+     "source": "main",
+     "lineno": 1920,
+     "sentence": "傍晚，一栋建筑物旁边的街道交通灯亮着红灯"
+    },
+    {
+     "image_id": "000000446481",
+     "source": "main",
+     "lineno": 1992,
+     "sentence": "夜晚里一个繁华的有红绿灯的街道的汽车和建筑物。"
+    },
+    {
+     "image_id": "000000434316",
+     "source": "main",
+     "lineno": 2056,
+     "sentence": "夜晚，空空荡荡的街道上路灯在闪耀着。"
+    },
+    {
+     "image_id": "000000505965",
+     "source": "main",
+     "lineno": 2088,
+     "sentence": "一个交通灯在一个多云的蓝天下方。"
+    },
+    {
+     "image_id": "000000326684",
+     "source": "main",
+     "lineno": 2166,
+     "sentence": "路灯照亮了夜晚的十字路口。"
+    },
+    {
+     "image_id": "000000255525",
+     "source": "main",
+     "lineno": 2243,
+     "sentence": "洗手池上方有一条亮着的灯管，镜子里映射着两个厕所。"
+    },
+    {
+     "image_id": "000000312334",
+     "source": "main",
+     "lineno": 2275,
+     "sentence": "傍晚空无一人的街道上的一个红绿灯"
+    },
+    {
+     "image_id": "000000193293",
+     "source": "main",
+     "lineno": 2292,
+     "sentence": "一个绿色的交通灯下面有几辆车驶过"
+    },
+    {
+     "image_id": "000000193293",
+     "source": "main",
+     "lineno": 2293,
+     "sentence": "信号灯下有几辆汽车在下过雪的街道上行驶"
+    },
+    {
+     "image_id": "000000023695",
+     "source": "main",
+     "lineno": 2314,
+     "sentence": "小城市街道的一个路口，路牌和红绿灯附近有交通警察在指挥交通。"
+    },
+    {
+     "image_id": "000000179948",
+     "source": "main",
+     "lineno": 2337,
+     "sentence": "落满积雪的台阶旁竖着一盏交通灯和一个标识杆。"
+    },
+    {
+     "image_id": "000000256908",
+     "source": "main",
+     "lineno": 2406,
+     "sentence": "一面被涂上了蓝白两种涂料的墙上挂着一个画着奶牛的钟表和一盏灯"
+    }
+   ],
+   "combined_hosts": 554
+  },
+  {
+   "surface": "鹞子",
+   "pool": "illumination_salient",
+   "pred_subs_class": "subs",
+   "origin": "coco_candidate",
+   "color_families": [
+    "black",
+    "brown",
+    "gray",
+    "white"
+   ],
+   "illum_poles": [
+    "dark"
+   ],
+   "color_adjacent_any": true,
+   "leipzig_hosts": 0,
+   "n_caption_hosts_substr": 0,
+   "n_caption_hosts_jieba": 0,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 0,
+   "caption_host_sentences": [],
+   "combined_hosts": 0
+  },
+  {
+   "surface": "黑夜",
+   "pool": "illumination_salient",
+   "pred_subs_class": "pred",
+   "origin": "host_frame_pool",
+   "color_families": [],
+   "illum_poles": [
+    "dark"
+   ],
+   "color_adjacent_any": false,
+   "leipzig_hosts": 29,
+   "n_caption_hosts_substr": 9,
+   "n_caption_hosts_jieba": 9,
+   "caption_hosts_truncated": false,
+   "caption_hosts_total": 9,
+   "caption_host_sentences": [
+    {
+     "image_id": "000000459731",
+     "source": "main",
+     "lineno": 4298,
+     "sentence": "黑夜里，一辆火车头缓缓驶出站台。"
+    },
+    {
+     "image_id": "000000095752",
+     "source": "main",
+     "lineno": 5727,
+     "sentence": "黑夜里一个人在玩滑板。"
+    },
+    {
+     "image_id": "000000148047",
+     "source": "main",
+     "lineno": 6163,
+     "sentence": "黑夜里，一个女人抱在一个手拿飞盘的男人身上"
+    },
+    {
+     "image_id": "000000073527",
+     "source": "main",
+     "lineno": 7401,
+     "sentence": "黑夜里的街道上有一些汽车在行驶或停靠在路边，一些人在逛街。"
+    },
+    {
+     "image_id": "000000223996",
+     "source": "main",
+     "lineno": 8783,
+     "sentence": "一个红色的标志牌在黑夜里有些模糊。"
+    },
+    {
+     "image_id": "000000025385",
+     "source": "ext",
+     "lineno": 903,
+     "sentence": "黑夜里一个男人正在汽车里打电话"
+    },
+    {
+     "image_id": "000000440959",
+     "source": "ext",
+     "lineno": 904,
+     "sentence": "黑夜里一个男人在街头玩滑板"
+    },
+    {
+     "image_id": "000000359719",
+     "source": "ext",
+     "lineno": 972,
+     "sentence": "黑夜里一个男人跳起来扔出一个飞盘的黑白照片"
+    },
+    {
+     "image_id": "000000282293",
+     "source": "ext",
+     "lineno": 1666,
+     "sentence": "黑夜中的马路边有很多行人"
+    }
+   ],
+   "combined_hosts": 38
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "board": "invitation",
+ "line_idx": 7,
+ "field": "color",
+ "cut": 0.014943544323258378,
+ "tier": "ADOPTED · flagship",
+ "line_cut": 0.045825570756125054,
+ "src_rid": "fr:baudelaire_1861",
+ "seats": [
+  {
+   "rid": "fr:baudelaire_1861",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "De ces ciels brouillés",
+   "v": 0.03624078639703046,
+   "rank": 2,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "fr",
+   "z": 1.541009426419361,
+   "z_mu": -0.0035309961608789246,
+   "z_sigma": 0.025808915815863497,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "ces",
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "ces",
+    "delta": 0.02813372661363462,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "ces",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "ces"
+  },
+  {
+   "rid": "en:aggeler",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Of those cloudy skies",
+   "v": 0.025945000486333226,
+   "rank": 2,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.9239357550090547,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "sky",
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": true,
+   "top_tok": {
+    "token": "those",
+    "delta": 0.04052880983919952,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "sky"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "those",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "skies",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:campbell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Through clouds rise and set",
+   "v": -0.050439169140893234,
+   "rank": 42,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -2.0278100853065375,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "clouds",
+    "delta": -0.025481079835542403,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "clouds",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "UNHEARD"
+  },
+  {
+   "rid": "en:millay",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "There, the half-withdrawn",
+   "v": -0.0156788668222365,
+   "rank": 31,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.6845529905716188,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "There",
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "There",
+    "delta": 0.016319806366862186,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "There",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "There",
+   "transmission": "GHOST-CARRY"
+  },
+  {
+   "rid": "en:wilbur",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Through cloud-dishevelled air",
+   "v": -0.08957383953887071,
+   "rank": 42,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -3.5401077396908995,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "cloud-dishevelled",
+    "delta": -0.056067292177052586,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "cloud-dishevelled",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "UNHEARD"
+  },
+  {
+   "rid": "zh:dai_wangshu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "在云翳的天",
+   "v": -0.049716354807932905,
+   "rank": 41,
+   "n_rank": 42,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -1.8009526450152415,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "云翳",
+    "delta": -0.023339166312483735,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "云翳",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "UNHEARD"
+  },
+  {
+   "rid": "zh:guo_hongan",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "天空昏暗了，",
+   "v": 0.03824639562100095,
+   "rank": 2,
+   "n_rank": 41,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 1.2581472000225737,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "昏暗",
+   "folded_from": [
+    8
+   ],
+   "carrier_line": 8,
+   "star": true,
+   "top_tok": {
+    "token": "昏暗",
+    "delta": 0.03010980346285064,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "昏暗",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "GHOST-CARRY"
+  },
+  {
+   "rid": "zh:qian_chunqi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "湿润的太阳，",
+   "v": -0.018119952483156888,
+   "rank": 22,
+   "n_rank": 42,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.702117638331762,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 8,
+   "star": false,
+   "top_tok": {
+    "token": "的",
+    "delta": 0.010063965492913832,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "的",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "UNHEARD"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.95,
+ "z_suppressed": false,
+ "z_line": 1.5485001367472562,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "DISCRIMINATION at line grain",
+ "n_full_stack": 3,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

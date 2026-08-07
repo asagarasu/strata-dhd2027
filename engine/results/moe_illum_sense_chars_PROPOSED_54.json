@@ -1,0 +1,3699 @@
+{
+  "title": "MOE single-char ILLUMINATION-sense headwords — hardened derivation (PROPOSED)",
+  "status": "PROPOSED — concludes nothing; field owner adopts/amends/rejects",
+  "date": "2026-07-21",
+  "session": 54,
+  "field_shape": "WHOLE FIELD per her boolean-family ruling 07-20: one list, per-char pole detail (bright/dark/both); polarity is the axis's job downstream",
+  "n_single_char_headwords_scanned": 11056,
+  "n_charged": 125,
+  "charged_chars": "㬊亮倞光冏冥嘒囧夕夜奪宵宿射幽微慘掞旦早旭昀昌明昏昔映昡昧昭昱昺晃晚晛晞晟晢晦景晷晻暉暗暝暠暮暹曀曄曉曖曙曛曜曝曦月朏朗杲杳泫潔灼炅炎炤炫炯炳烈烜烺焞焯煇煌煒煜煠照熒熙熠熲熹燡燦燭燿爍爚爛爝爽皎皓皞皦眩睄睆瞑瞢瞭窈絢耿臨芒赫輝鋩鑠闇陰霿韡顥魄魆鮮黑黯",
+  "n_bright": 93,
+  "n_dark": 29,
+  "n_both": 3,
+  "n_boundary_only": 10,
+  "illumseed_initial": "亮光明昏昧晦晻暉暗暝曀曖曙曦灼煌熠燦爛皎霾黯",
+  "fixpoint": {
+    "rounds": [
+      {
+        "round": 1,
+        "n_charged": 124,
+        "added_this_round": [
+          "㬊",
+          "亮",
+          "倞",
+          "光",
+          "冏",
+          "冥",
+          "嘒",
+          "囧",
+          "夕",
+          "夜",
+          "奪",
+          "宵",
+          "宿",
+          "射",
+          "幽",
+          "微",
+          "慘",
+          "掞",
+          "旦",
+          "早",
+          "旭",
+          "昀",
+          "昌",
+          "明",
+          "昏",
+          "昔",
+          "映",
+          "昡",
+          "昧",
+          "昭",
+          "昱",
+          "昺",
+          "晃",
+          "晚",
+          "晛",
+          "晞",
+          "晟",
+          "晢",
+          "晦",
+          "景",
+          "晷",
+          "晻",
+          "暉",
+          "暗",
+          "暝",
+          "暠",
+          "暮",
+          "暹",
+          "曀",
+          "曄",
+          "曉",
+          "曖",
+          "曙",
+          "曛",
+          "曜",
+          "曝",
+          "曦",
+          "月",
+          "朏",
+          "朗",
+          "杲",
+          "杳",
+          "泫",
+          "潔",
+          "灼",
+          "炅",
+          "炎",
+          "炤",
+          "炫",
+          "炯",
+          "炳",
+          "烈",
+          "烜",
+          "烺",
+          "焞",
+          "焯",
+          "煇",
+          "煌",
+          "煒",
+          "煜",
+          "煠",
+          "照",
+          "熒",
+          "熙",
+          "熠",
+          "熲",
+          "熹",
+          "燡",
+          "燦",
+          "燭",
+          "燿",
+          "爍",
+          "爚",
+          "爛",
+          "爝",
+          "爽",
+          "皎",
+          "皓",
+          "皞",
+          "皦",
+          "眩",
+          "睄",
+          "睆",
+          "瞑",
+          "瞢",
+          "瞭",
+          "窈",
+          "絢",
+          "耿",
+          "臨",
+          "芒",
+          "赫",
+          "輝",
+          "鋩",
+          "鑠",
+          "闇",
+          "陰",
+          "霿",
+          "韡",
+          "顥",
+          "魆",
+          "鮮",
+          "黑",
+          "黯"
+        ]
+      },
+      {
+        "round": 2,
+        "n_charged": 125,
+        "added_this_round": [
+          "魄"
+        ]
+      },
+      {
+        "round": 3,
+        "n_charged": 125,
+        "added_this_round": []
+      }
+    ],
+    "n_rounds_to_fixpoint": 3
+  },
+  "headline_flags": [
+    {
+      "char": "夜",
+      "detail": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗的",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "昏暗的",
+          "snippet": "昏暗的"
+        }
+      ],
+      "flag": "夜 charges DARK via its own MOE sense — while HowNet 夜 is temporal-only (the 黑夜 finding's substrate). IF ADOPTED, 夜-compounds become WRITTEN-CLAIMED for illumination and the v4-partition law would move 夜-group members OUT of the referent-dark pool (row purity, the 橙子 precedent). The dark run's pool design (queue item 3) turns on this cut. HERS."
+    },
+    {
+      "char": "暮",
+      "flag": "boundary:dawn-dusk ONLY — the illumination/temporal boundary class; adoption keeps or drops the route wholesale."
+    },
+    {
+      "char": "曙",
+      "flag": "boundary:dawn-dusk ONLY — the illumination/temporal boundary class; adoption keeps or drops the route wholesale."
+    }
+  ],
+  "hownet_gap": {
+    "moe_only_chars": "㬊倞冏嘒囧夕夜奪宵宿射微慘掞旦早昌昔昧昭昺晚晛晞晢景晻暉暠暮暹曀曄曉曖曙曝月朏杳泫潔炎炤烈烜烺焞焯煇煒煠熒熲燡燦燭燿爍爚爛皎皦眩睄瞭窈絢耿臨芒赫輝鋩鑠闇陰霿韡顥魄魆鮮",
+    "n_moe_only": 83,
+    "moe_only_nonboundary": "㬊倞冏嘒囧夜奪射微慘掞旦昌昧昭昺晛晢景晻暉暠暹曀曄曖曝月朏杳泫潔炎炤烈烜烺焞焯煇煒煠熒熲燡燦燭燿爍爚爛皎皦眩睄瞭窈絢耿臨芒赫輝鋩鑠闇陰霿韡顥魄魆鮮",
+    "n_moe_only_nonboundary": 73,
+    "note": "chars charged by MOE whose single-char HowNet DEF carries NO illumination sememe (dark gloss ∪ bright pairs) — the incompleteness this audit measures; the 橙-hole's twin, counted. boundary-only chars listed separately so the dawn-dusk route's contribution is severable."
+  },
+  "chars": {
+    "㬊": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "亮": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明朗、光亮",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "倞": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "光": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "冏": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "冥": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "幽暗",
+          "snippet": "幽暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "幽暗",
+          "snippet": "幽暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "嘒": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光芒微弱",
+          "snippet": "光芒微弱"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "囧": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、明亮。：：李善注引",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "夕": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "傍晚、日落時分",
+          "snippet": "傍晚"
+        },
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "泛指夜晚",
+          "snippet": "夜晚"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "夜": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗的",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "昏暗的",
+          "snippet": "昏暗的"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "奪": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "耀眼、眩目。。第二三回",
+          "snippet": "耀眼"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "宵": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "夜、夜晚",
+          "snippet": "夜晚"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "宿": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "夜晚。。第四八回",
+          "snippet": "夜晚"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "射": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光線映照",
+          "snippet": "光線映照"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "幽": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗不明的。。：第六七回",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "微": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗不明",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "慘": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "暗淡、昏暗。通",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "掞": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "旦": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "boundary:dawn-dusk",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "天剛亮的時候",
+          "snippet": "天剛亮"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮，明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "早": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "天剛亮的時候",
+          "snippet": "天剛亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "旭": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "日、月光亮的樣子",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昀": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昌": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "明": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "發亮",
+          "snippet": "發亮"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮的",
+          "snippet": "光亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "光亮的",
+          "snippet": "光亮的"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昏": {
+      "poles": [
+        "bright",
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk",
+        "bright:light-noun",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "傍晚，日暮的時候",
+          "snippet": "傍晚"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "暗，光線不明。、。：第五回",
+          "snippet": "光線不明"
+        },
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "暗，光線不明。、。：第五回",
+          "snippet": "光線不明"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昔": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "夜晚。通",
+          "snippet": "夜晚"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "映": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光、光影",
+          "snippet": "日光"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昡": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光彩耀眼",
+          "snippet": "耀眼"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昧": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗、不明",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "昭": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮、光明",
+          "snippet": "明亮"
+        },
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光線",
+          "snippet": "光線"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "昱": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "昺": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晃": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "強光閃耀、照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "晚": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "黃昏、日落時分",
+          "snippet": "黃昏"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晛": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "陽光、日光",
+          "snippet": "陽光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晞": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "破曉、露出曙光",
+          "snippet": "破曉"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晟": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "熾盛、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "晢": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晦": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "boundary:dawn-dusk",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "夜晚",
+          "snippet": "夜晚"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "不顯明。、。第八〇回",
+          "snippet": "不顯明"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "景": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "晷": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光、日影",
+          "snippet": "日光"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "晻": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "陰暗不明的樣子",
+          "snippet": "陰暗"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗的。參見條",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "暉": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀、輝映",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "暗": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "不明亮的、光線不足的、黑夜的",
+          "snippet": "不明亮"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "幽深、陰翳",
+          "snippet": "陰翳"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "無光澤的",
+          "snippet": "無光澤"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "光線變得不明亮",
+          "snippet": "不明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "暝": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "幽暗、昏暗",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "天晚的",
+          "snippet": "天晚"
+        },
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "入暮",
+          "snippet": "入暮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "暠": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮潔白",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "暮": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "天晚的",
+          "snippet": "天晚"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "暹": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光升起",
+          "snippet": "日光升起"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曀": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "天色陰暗",
+          "snippet": "陰暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "天色陰暗",
+          "snippet": "天色陰暗"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "泛指昏暗不明",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曄": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明的樣子",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曉": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "天剛亮的時刻",
+          "snippet": "天剛亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曖": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗、不明",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曙": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "boundary:dawn-dusk"
+      ],
+      "boundary_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "天剛亮，破曉時分",
+          "snippet": "破曉"
+        },
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "bright",
+          "sense": "拂曉時的",
+          "snippet": "拂曉"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曛": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "boundary:dawn-dusk",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "黃昏時刻",
+          "snippet": "黃昏"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "曜": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光、光芒",
+          "snippet": "日光"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "曝": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "在陽光底下晒",
+          "snippet": "在陽光底下晒"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "曦": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日色、日光",
+          "snippet": "日色"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "月": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "月光",
+          "snippet": "月光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "朏": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "未盛明時的月光",
+          "snippet": "未盛明時的月光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "朗": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "杲": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮的樣子",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "杳": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "幽暗、深遠",
+          "snippet": "幽暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "泫": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "露珠晶瑩發亮",
+          "snippet": "發亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "潔": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "乾淨、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "灼": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀、照亮",
+          "snippet": "照耀"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明顯、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "炅": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光、光亮、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "炎": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光上升。：：孔穎達正義引王肅曰",
+          "snippet": "火光上升"
+        },
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光，火焰",
+          "snippet": "火光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "炤": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀。同",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "炫": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀、照亮",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "炯": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明的、明亮的",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "炳": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "顯著、光明",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "烈": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、顯赫。：：三國",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "烜": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮、顯著",
+          "snippet": "明亮"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照亮",
+          "snippet": "照亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "照亮",
+          "snippet": "照亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "烺": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮、明朗。通",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "焞": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "焯": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、顯明。同",
+          "snippet": "光明"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "煇": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光、光彩。：：\r",
+          "snippet": "火光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "煌": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "煒": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮的樣子",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "煜": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "煠": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光",
+          "snippet": "火光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "照": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "日光",
+          "snippet": "日光"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "熒": {
+      "poles": [
+        "bright",
+        "dark"
+      ],
+      "routes": [
+        "bright:light-noun",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "光線微弱的",
+          "snippet": "光線微弱"
+        },
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光線微弱的",
+          "snippet": "光線微弱的"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "熙": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "熠": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光耀、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "熲": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光",
+          "snippet": "火光"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "熹": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮、光明",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "燡": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明的樣子",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "燦": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光彩鮮明、耀眼",
+          "snippet": "光彩鮮明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "燭": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照、照亮",
+          "snippet": "照亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "燿": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "爍": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮閃動的樣子。、。第一四回",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "爚": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "火光。：：三國",
+          "snippet": "火光"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮鮮明",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "爛": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、顯著",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "爝": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "爽": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "皎": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "潔白明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "潔白明亮",
+          "snippet": "潔白明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "皓": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "皞": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "潔白光亮",
+          "snippet": "光亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "潔白光亮",
+          "snippet": "潔白光亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "皦": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "潔白、明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "眩": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀、照亮。通",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "睄": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "晦暗不明。：自注",
+          "snippet": "晦暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "睆": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "瞑": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]暗的",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        },
+        {
+          "route": "adj:[SEED]暗的",
+          "pole": "dark",
+          "sense": "昏暗",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "瞢": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "晦暗不明",
+          "snippet": "晦暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "瞭": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "眼睛明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "眼睛明亮",
+          "snippet": "眼睛明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "窈": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "幽暗。：引",
+          "snippet": "幽暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "絢": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "點綴、照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "耿": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮的、光大的",
+          "snippet": "明亮"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "臨": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照、照耀",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "芒": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "四射的光線",
+          "snippet": "四射的光線"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "赫": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        },
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "明亮",
+          "snippet": "明亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "輝": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame",
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光彩、光芒",
+          "snippet": "光芒"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "照耀、照映",
+          "snippet": "照耀"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "鋩": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:light-noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:light-noun",
+          "pole": "bright",
+          "sense": "光芒、光輝",
+          "snippet": "光芒"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "鑠": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "美好光明的",
+          "snippet": "光明"
+        },
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光亮閃耀的樣子。通",
+          "snippet": "光亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "闇": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "boundary:dawn-dusk",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "陰暗、混濁",
+          "snippet": "陰暗"
+        },
+        {
+          "route": "boundary:dawn-dusk",
+          "pole": "dark",
+          "sense": "黃昏、夜",
+          "snippet": "黃昏"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "陰": {
+      "poles": [
+        "bright",
+        "dark"
+      ],
+      "routes": [
+        "adj:[SEED]亮的",
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "月亮",
+          "snippet": "月亮"
+        },
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗的。與相對。、。\r",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "霿": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "天色昏暗不清",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "韡": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "光明盛大的樣子",
+          "snippet": "光明"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "顥": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "白而發亮",
+          "snippet": "發亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "魄": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "adj:[SEED]亮的"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 2,
+      "matched": [
+        {
+          "route": "adj:[SEED]亮的",
+          "pole": "bright",
+          "sense": "月亮",
+          "snippet": "月亮"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "魆": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗的樣子",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "鮮": {
+      "poles": [
+        "bright"
+      ],
+      "routes": [
+        "bright:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "bright:frame",
+          "pole": "bright",
+          "sense": "色彩亮麗耀眼",
+          "snippet": "耀眼"
+        }
+      ],
+      "hownet_had_it": false
+    },
+    "黑": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "昏暗無光",
+          "snippet": "昏暗"
+        }
+      ],
+      "hownet_had_it": true
+    },
+    "黯": {
+      "poles": [
+        "dark"
+      ],
+      "routes": [
+        "dark:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "dark:frame",
+          "pole": "dark",
+          "sense": "暗淡沒有光澤",
+          "snippet": "暗淡"
+        }
+      ],
+      "hownet_had_it": true
+    }
+  },
+  "quality_white_boundary": {
+    "ruling_context": "fork-b ratified 07-21: white -> illumination. 潔白/雪白-only senses match NO route here (white-QUALITY is not an illumination FRAME by these routes); candidates for a future route are LISTED, never unilaterally added (selection-after-results).",
+    "chars_with_quality_white_only_senses": "汩琅白",
+    "senses_skipped_round1": [
+      "潔淨的",
+      "潔白的",
+      "潔淨"
+    ]
+  },
+  "diff_vs_unhardened": {
+    "unhardened_baseline_definition": "loose substring patterns (all frames + light-nouns + seeded 亮的/暗的) on the FULL 釋義 (no gloss_region, no citation strip), single pass, initial ILLUMSEED only",
+    "n_unhardened_baseline": 208,
+    "dropped_by_hardening": "了但低促倝傍傘僛前剛午地媚屋屧影愁愆戽打揃敦敫星晒晡晶暡曭有朔柴橫止氬沸消淹溯漠澈燁燈燐營爓甃磑磷祟篩約線繖羌耀背艮莎莫蔀蟫血褪覺謾貓輪近透釅釷鈰鏡閟霞霸霾靚餔鬼鯰鵮",
+    "n_dropped": 83,
+    "added_by_hardening": "",
+    "n_added": 0
+  },
+  "illum_lexicon_crosscheck": {
+    "source": "marking/tools/illumination_lexicon_hownet_53.json (single-char members)",
+    "n_single_char_entries": 96,
+    "caught": "亮光冥幽旭昀明昏映昡昱晃晟晦晷暗暝曛曜曦朗杲灼炅炫炯炳煌煜照熙熠熹爝爽皓皞睆瞑瞢鲜黑黯",
+    "n_caught": 43,
+    "missed": "乌墨影投晒晔晖晶暐暧棚森樾檠滟灏灯炜炬炱炷烁烛烨焕煊玄皂盏眚磨粲缁缜耀荧荫蜡辉鉴铮锃锦闪阴霞青骊黔黝黢黧黪",
+    "n_missed": 53,
+    "missed_black_color_class": "乌墨玄皂青黔黝",
+    "missed_note": "REPORTED gaps, three classes: (1) achromatic-COLOR senses (墨/黔/缁-class 黑色-frames — the COLOUR derivation's domain; achromatic→illumination routing happens at POOL level per fork-b, not at the sensor; flagged per-entry as miss_class); (2) script-form misses now mostly resolved via the s2t hop (recorded as via_traditional_form); (3) genuine phrasing-outside-routes (candidate route extensions — the sitting's, never applied unilaterally). The anchoring rule also drops referent-description senses deliberately (星 'object that 發光', 霾 'dust forming a 昏暗現象', 宿 citation-inflated core) — the referent/sense boundary cases, listed for her eyes.",
+    "entries": [
+      {
+        "char": "乌",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.烏鴉的簡稱。\n2.俗以為日中有烏，故日稱為。參見條。\n3.姓。如春秋時齊有烏餘。\n[形]\n黑色的。、。：第一四回：\n[動]\n染黑。\n[副]\n表示反問的語氣，相當於、、、。：",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "亮",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "光",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "冥",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]暗的",
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "墨",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.書畫用的黑色顏料。、。\n2.書畫用的各色顏料。、。\n3.文字、文章或知識。、、。\n4.字畫的代稱。。\n5.古代肉刑之一。在罪人臉上刺刻染墨。：\n6.墨家的簡稱。。：\n7.姓。如戰國時宋國有墨翟。\n[形]\n1.黑色如墨的。、。：\n2.貪汙的。。",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "幽",
+        "caught": true,
+        "routes": [
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "影",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.光線被遮擋而造成的陰暗形象。、、。\n2.人、物的形象或圖像。、、。第三一回：第三一回：\n[動]\n1.參見條。\n2.仿照、描摹。\n3.掩蔽、隱藏。第一六回："
+      },
+      {
+        "char": "投",
+        "caught": false,
+        "moe_gloss_stripped": "[動]\n1.扔、擲。、、。\n2.放進去。、、。\n3.跳進去。、、。\n4.發向、映照。、\n5.寄發。、、。\n6.前往、走向、迎向。、、。\n7.合。、。\n8.奔靠。、、。第二回：\n9.接近、靠近。。\n10.甩、揮。：\n11.拋棄。。：\n12.用。。\n13.贈送。：\n14.迎合。。"
+      },
+      {
+        "char": "旭",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "昀",
+        "caught": true,
+        "routes": [
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "明",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "昏",
+        "caught": true,
+        "routes": [
+          "boundary:dawn-dusk",
+          "bright:light-noun",
+          "dark:frame"
+        ],
+        "poles": [
+          "bright",
+          "dark"
+        ]
+      },
+      {
+        "char": "映",
+        "caught": true,
+        "routes": [
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "昡",
+        "caught": true,
+        "routes": [
+          "bright:frame",
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "昱",
+        "caught": true,
+        "routes": [
+          "bright:frame",
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "晃",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "晒",
+        "caught": false,
+        "moe_gloss_stripped": "[動]\n1.物體曝露在陽光下，吸收光和熱，使其乾燥。、。\n2.將浸過藥水的底片取出，使其乾燥。。"
+      },
+      {
+        "char": "晔",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "晖",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "晟",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "晦",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]暗的",
+          "boundary:dawn-dusk",
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "晶",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.光輝。：\n2.水晶的簡稱。參見條。\n[形]\n清朗、明淨。"
+      },
+      {
+        "char": "晷",
+        "caught": true,
+        "routes": [
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "暐",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\n光輝的樣子。："
+      },
+      {
+        "char": "暗",
+        "caught": true,
+        "routes": [
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "暝",
+        "caught": true,
+        "routes": [
+          "boundary:dawn-dusk",
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "暧",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "曛",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]暗的",
+          "boundary:dawn-dusk",
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "曜",
+        "caught": true,
+        "routes": [
+          "bright:frame",
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "曦",
+        "caught": true,
+        "routes": [
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "朗",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "杲",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "棚",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.樓閣。：\n2.用竹木和茅草搭蓋而成的蓬架，有遮陽擋雨的功能。、。"
+      },
+      {
+        "char": "森",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\n1.樹木濃密的樣子。：：\n2.灰暗陰冷的樣子。。\n3.整肅、不可侵犯的。。\n[副]\n眾多的。、。："
+      },
+      {
+        "char": "樾",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n樹蔭。：："
+      },
+      {
+        "char": "檠",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.輔正弓弩的器具。：\n2.燈架、燭臺。\n3.燈。\n[動]\n1.矯正。：\n2.拿、托。通。："
+      },
+      {
+        "char": "滟",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "灏",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n豆漿。：\n[形]\n1.水勢盛大。泛指盛大。通。\n2.明淨、潔淨。"
+      },
+      {
+        "char": "灯",
+        "caught": false,
+        "moe_gloss_stripped": "的異體字。"
+      },
+      {
+        "char": "灼",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "炅",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "炜",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "炫",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "炬",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.火把。、。。\n2.量詞。古代計算燈燭等的單位。"
+      },
+      {
+        "char": "炯",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "炱",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n煙氣凝結而成的黑灰。、。"
+      },
+      {
+        "char": "炳",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "炷",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.油燈的燈心。：\n2.量詞。計算線香的單位。\n[動]\n點燃。"
+      },
+      {
+        "char": "烁",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "烛",
+        "caught": false,
+        "moe_gloss_stripped": "的異體字。"
+      },
+      {
+        "char": "烨",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "焕",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "煊",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "煌",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "煜",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "照",
+        "caught": true,
+        "routes": [
+          "bright:light-noun"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "熙",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "熠",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "熹",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "爝",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "爽",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "玄",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\n1.黑色的。。\n2.深遠奧妙的。、、。第一章：\n3.虛偽、不可靠的。、\n[名]\n1.天。：\n2.指魏晉玄學。參見條。\n3.姓。如漢代有玄俗。\n4.二一四部首之一。",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "皂",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.去汙垢的鹼性用品。、、。\n2.黑色。同。。\n[形]\n黑色的。同。",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "皓",
+        "caught": true,
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "皞",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "盏",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "眚",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.眼睛長了遮蔽視線的病。：\n2.疾病、疾苦。\n3.過失。：\n4.災禍、災難。：\n[動]\n減省。通。字．"
+      },
+      {
+        "char": "睆",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]亮的",
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "瞑",
+        "caught": true,
+        "routes": [
+          "adj:[SEED]暗的",
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "瞢",
+        "caught": true,
+        "routes": [
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "磨",
+        "caught": false,
+        "moe_gloss_stripped": "[動]\n1.摩擦而使物品光滑或銳利。、。\n2.將物研細。、、。\n3.消滅、泯滅。：\n4.糾纏不休。第五回：\n[名]\n艱難、阻礙。。\n[形]\n糾纏不休的。。\n[名]\n兩塊圓形的石盤相合，當中有軸，推轉上面一石，用來碾碎穀物的器具。也稱為。、。\n[動]\n1.推動磨子將穀物碾平。、。\n2.掉轉，多指車輛。"
+      },
+      {
+        "char": "粲",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.精米。字．\n2.笑。\n[形]\n1.鮮明華美的樣子。：：\n2.明白、清楚。："
+      },
+      {
+        "char": "缁",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "缜",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\n仔細、細密。。"
+      },
+      {
+        "char": "耀",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.光輝、光彩。：\n2.比喻榮譽。。\n[動]\n1.照射。、。：\n2.自誇。、、。\n3.顯揚。。：\n(一)之又音。"
+      },
+      {
+        "char": "荧",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "荫",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "蜡",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n一種祭禮。在周朝稱為，於歲末大祭萬物。：\n(一)之又音。\n的異體字。"
+      },
+      {
+        "char": "辉",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "鉴",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "铮",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "锃",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "锦",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "闪",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "阴",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "霞",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n陽光照在雲層上所映出的紅色光彩。、。\n[形]\n彩色的。、、。"
+      },
+      {
+        "char": "青",
+        "caught": false,
+        "moe_gloss_stripped": "參見(二)條。\n[名]\n1.顏色：(1)綠色。。：(3)黑色。。\n2.綠色的草木、山脈。、、。\n3.竹皮。。\n4.地名簡稱：(1)大陸地區青海省簡稱。。(2)青島市簡稱。。\n5.二一四部首之一。\n[形]\n1.綠色的。、。\n2.藍色的。。\n3.黑色的。、。\n4.年輕的。、。",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "骊",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "鲜",
+        "caught": true,
+        "via_traditional_form": "鮮",
+        "routes": [
+          "bright:frame"
+        ],
+        "poles": [
+          "bright"
+        ]
+      },
+      {
+        "char": "黑",
+        "caught": true,
+        "routes": [
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      },
+      {
+        "char": "黔",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\n1.黑色。\n2.大陸地區貴州省的簡稱。貴州省在戰國時屬楚黔中地，故稱為。\n3.姓。如春秋時齊國有黔敖。\n[動]\n晒黑、熏黑。：\n[形]\n黑色的。：",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "黝",
+        "caught": false,
+        "moe_gloss_stripped": "[形]\n青黑色的。：。",
+        "miss_class": "achromatic-color sense (colour derivation's domain)"
+      },
+      {
+        "char": "黢",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "黧",
+        "caught": false,
+        "moe_gloss_stripped": "[名]\r\n黑中帶著蠟黃的顏色。：："
+      },
+      {
+        "char": "黪",
+        "caught": false,
+        "moe_gloss_stripped": "(not a MOE single-char headword)"
+      },
+      {
+        "char": "黯",
+        "caught": true,
+        "routes": [
+          "dark:frame"
+        ],
+        "poles": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "witness_module": "definition_witness_zh_53.py (parse_moe/gloss_region/s2t exec'd verbatim from the definitional prefix; pipeline NOT run)",
+    "witness_sha256": "8432bfa9c332540788bc1006bdb6d968d777256017b739d0ab75704f8e27c9a0",
+    "moe_xlsx": "lexical_resources/zh_dict_prose/dict_revised_2015_20260625.xlsx",
+    "moe_xlsx_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+    "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+    "illum_lexicon_sha256": "e0e8abe118b0cca91cb6eef6a44be8a35e5e8230ba489bac582f50f57c6a6373",
+    "mirror_of": "moe_color_sense_chars_53.py (the adopted colour derivation)"
+  }
+}

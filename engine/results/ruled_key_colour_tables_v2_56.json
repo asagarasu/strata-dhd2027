@@ -1,0 +1,279 @@
+{
+  "record_id": "ruled_key_colour_tables_v2_56",
+  "date": "2026-07-23",
+  "supersedes": {
+    "zh_wide_S6": "results/word_latent_v7_wide_referent_color_54.json",
+    "en_v3": "results/word_latent_en_referent_color_v3_55.json",
+    "zh_sealed_exam": "results/cu_discrimination_55.json"
+  },
+  "ruling_citation": "naming_sitting_proposal_55.md HER RULINGS Q5 (07-23): (a) strength->covariate; (b) strength-only cases marked UNKNOWN (visible, uncounted, never dropped); truth = field-specific colour production present AND production >= .20 floor.",
+  "rekey_rule": "colour-truth-positive iff (colour feature present in norm AND modal production rate >= .20). strength-only (norm-covered but NO colour feature, e.g. 键盘/古董) OR production below .20 floor (e.g. 鼓@.133) => UNKNOWN: removed from BOTH numerator and denominator; fires committed (unchanged); only truth labels move; controls unchanged (fp fixed).",
+  "wilson_formula": "Wilson score interval: center=(p+z^2/2n)/(1+z^2/n); half=z*sqrt(p(1-p)/n+z^2/4n^2)/(1+z^2/n); two-sided 95% z=1.96. Newcombe (method 10) diff LB: (p1-p2)-sqrt((p1-l1)^2+(u2-p2)^2), one-sided 95% z=1.645 (reproduces committed exam LB 0.17141).",
+  "zh_wide_S6": {
+    "run_status": "was ABORT (F1 floor, F1=0.629<0.70); re-key affects truth labels only, not the F1 abort",
+    "v1": {
+      "n_pos": 61,
+      "tp": 28,
+      "fn": 33,
+      "fp": 0,
+      "tn": 61,
+      "precision": 1.0,
+      "recall": 0.45901639344262296
+    },
+    "v2": {
+      "n_truthpos": 54,
+      "tp": 25,
+      "fn": 29,
+      "fp": 0,
+      "n_unknown": 7,
+      "unknown_fires": [
+        "古董",
+        "眼睛",
+        "键盘"
+      ],
+      "precision": 1.0,
+      "aliveness": 0.46296296296296297,
+      "aliveness_wilson95": [
+        0.46296296296296297,
+        0.33689688992410527,
+        0.5939487298374504
+      ],
+      "moved_to_unknown": [
+        {
+          "word": "古董",
+          "modal": null,
+          "rate": null,
+          "covered": true,
+          "fired": true,
+          "class": "strength_only_no_colour_feature"
+        },
+        {
+          "word": "毛毯",
+          "modal": "有-多种颜色",
+          "rate": 0.1,
+          "covered": true,
+          "fired": false,
+          "class": "below_.20_floor"
+        },
+        {
+          "word": "水",
+          "modal": null,
+          "rate": null,
+          "covered": true,
+          "fired": false,
+          "class": "strength_only_no_colour_feature"
+        },
+        {
+          "word": "眼睛",
+          "modal": "是-黑色的",
+          "rate": 0.138,
+          "covered": true,
+          "fired": true,
+          "class": "below_.20_floor"
+        },
+        {
+          "word": "老虎",
+          "modal": "是-黄色的",
+          "rate": 0.097,
+          "covered": true,
+          "fired": false,
+          "class": "below_.20_floor"
+        },
+        {
+          "word": "键盘",
+          "modal": null,
+          "rate": null,
+          "covered": true,
+          "fired": true,
+          "class": "strength_only_no_colour_feature"
+        },
+        {
+          "word": "鼓",
+          "modal": "是-红色的",
+          "rate": 0.133,
+          "covered": true,
+          "fired": false,
+          "class": "below_.20_floor"
+        }
+      ]
+    },
+    "verdict": "UNCHANGED (precision-among-classified 1.000->1.000, fp 0->0; F1-abort unaffected)",
+    "note": "3 committed fires (古董,眼睛,键盘) reclassify to UNKNOWN: the prose 'every fire colour-attested' weakens to 'every CLASSIFIED fire colour-attested; 3 fires land on UNKNOWN'. No control fired -> precision denominator = hits only = 25/25."
+  },
+  "en_v3": {
+    "strict_primary": {
+      "v1": {
+        "n_pos": 41,
+        "tp": 15,
+        "fn": 26,
+        "fp": 4,
+        "tn": 74,
+        "precision": 0.7894736842105263,
+        "recall": 0.36585365853658536
+      },
+      "v2": {
+        "n_truthpos": 35,
+        "tp": 14,
+        "fn": 21,
+        "fp": 4,
+        "n_unknown": 6,
+        "unknown_fires": [
+          "copper"
+        ],
+        "precision": 0.7777777777777778,
+        "aliveness": 0.4,
+        "aliveness_wilson95": [
+          0.4,
+          0.25550504933307244,
+          0.5642758041848053
+        ],
+        "moved_to_unknown": [
+          "acid",
+          "copper",
+          "honey",
+          "laundry",
+          "screen",
+          "wheat"
+        ]
+      }
+    },
+    "wide_all": {
+      "v1": {
+        "n_pos": 116,
+        "tp": 34,
+        "fn": 82,
+        "fp": 4,
+        "tn": 74,
+        "precision": 0.8947368421052632,
+        "recall": 0.29310344827586204
+      },
+      "v2": {
+        "n_truthpos": 67,
+        "tp": 28,
+        "fn": 39,
+        "fp": 4,
+        "n_unknown": 49,
+        "unknown_fires": [
+          "copper",
+          "diamond",
+          "gold",
+          "paint",
+          "sardine",
+          "weed"
+        ],
+        "precision": 0.875,
+        "aliveness": 0.417910447761194,
+        "aliveness_wilson95": [
+          0.417910447761194,
+          0.30742116374992556,
+          0.5373028402251399
+        ],
+        "moved_to_unknown": [
+          "acid",
+          "approach",
+          "apron",
+          "base",
+          "bay",
+          "bone",
+          "boy",
+          "broom",
+          "club",
+          "cod",
+          "comb",
+          "copper",
+          "cracker",
+          "crackers",
+          "cup",
+          "diamond",
+          "emperor",
+          "fig",
+          "galaxy",
+          "gold",
+          "hole",
+          "honey",
+          "intensity",
+          "jet",
+          "killer",
+          "lake",
+          "laundry",
+          "lens",
+          "leopard",
+          "linen",
+          "monarch",
+          "ounce",
+          "paint",
+          "pin",
+          "pizza",
+          "port",
+          "roach",
+          "sack",
+          "sardine",
+          "scooter",
+          "screen",
+          "seed",
+          "snap",
+          "stock",
+          "torch",
+          "wash",
+          "weed",
+          "wheat",
+          "wine"
+        ]
+      }
+    },
+    "s6_verdict_v1": "PASS (precision floor holds: strict fp=4 <= FA_BOUND=9)",
+    "verdict": "UNCHANGED (PASS criterion is fp<=FA_BOUND; fp=4 and FA_BOUND=9 both unchanged by truth re-keying). precision moves strict .789->.778, wide .895->.875 but precision was never the floor.",
+    "note": "EN truth = Buchanan (buchanan2019) colour-production >= .20. UNKNOWN = no buchanan colour feature (strength-only, admitted via Lancaster sensorimotor visual) OR buchanan-covered but modal<.20."
+  },
+  "zh_sealed_exam": {
+    "interpretation_note": "Disputed arm (43 covered-unsupported, modal<.20) is KEPT as the exam's constructed hard-negative cohort. The ruled-key UNKNOWN category re-keys the SUPPORTED (positive) arm's leakers only; the disputed arm was defined by exactly the ruled criterion in cu_discrimination_registration_55.md and is ratified, not dissolved, by the ruling. Disclosed for override.",
+    "v1": {
+      "rate_supported": 0.45901639344262296,
+      "n_supported": 61,
+      "x_supported": 28,
+      "rate_disputed": 0.13953488372093023,
+      "n_disputed": 43,
+      "x_disputed": 6,
+      "diff": 0.31948150972169276,
+      "one_sided_95_LB": 0.17141085034430342,
+      "ppv_at_prevalence": 0.80797481636936,
+      "ppv_61_43_corrected_in_md": 0.8235294117647058
+    },
+    "v2": {
+      "n_supported": 54,
+      "x_supported": 25,
+      "rate_supported": 0.46296296296296297,
+      "rate_supported_wilson95": [
+        0.46296296296296297,
+        0.33689688992410527,
+        0.5939487298374504
+      ],
+      "n_disputed": 43,
+      "x_disputed": 6,
+      "rate_disputed": 0.13953488372093023,
+      "rate_disputed_wilson95": [
+        0.13953488372093023,
+        0.06555634267713947,
+        0.27263876594425684
+      ],
+      "diff": 0.32342807924203276,
+      "one_sided_95_LB": 0.17105599338080577,
+      "ppv_rekeyed": 0.8064516129032258,
+      "supported_removed_to_unknown": [
+        "古董",
+        "毛毯",
+        "水",
+        "眼睛",
+        "老虎",
+        "键盘",
+        "鼓"
+      ],
+      "supported_removed_that_fired": [
+        "古董",
+        "眼睛",
+        "键盘"
+      ]
+    },
+    "verdict": "PASS UNCHANGED (one-sided 95% LB 0.1714->0.1711, still >0). PPV .824->.806."
+  }
+}

@@ -1,0 +1,2281 @@
+{
+ "_meta": {
+  "counts": {
+   "flagged": 4,
+   "leg_A": 12,
+   "leg_B_or_AB": 142,
+   "rejected": 8,
+   "shade_compounds": 99,
+   "total_fired": 143
+  },
+  "field": "color",
+  "flag_set": [
+   "gold",
+   "oliv",
+   "orange",
+   "rosa",
+   "weiß"
+  ],
+  "language": "de",
+  "law": "CITATION-ALONE per fire; canon(A) outranks derivation(B); every reject recorded (honest-drop); polysemes FLAGGED not dropped (nuit doctrine).",
+  "legs": {
+   "A": "Berlin & Kay 1969 German basic set (12; violett/lila + rosa tagged)",
+   "B": "kaikki.org German Wiktextract adj colour-sense-derived (rule: extract_kaikki_de_color.py docstring)"
+  },
+  "mirrors": "fr_color_inventory (B&K12 ∪ GLAWI) / en_color() (B&K11 ∪ XKCD) / ZH_COLOR (禮記 ∪ 中国传统色)",
+  "provenance": "lexical_resources/de/MANIFEST_de_20260728.md"
+ },
+ "rejected": {
+  "beigefarben": {
+   "gloss_head": "beige (in colour)",
+   "reason": "'beige-coloured' — the -farben deadjectival is the compound analogue (bare 'beige' kept if attested)"
+  },
+  "bleu": {
+   "gloss_head": "light blue",
+   "reason": "French loan spelling duplicating blau; single-token mis-signal"
+  },
+  "farbig": {
+   "gloss_head": "colored (of skin color other than white)",
+   "reason": "'coloured' — colour-quantity, not a hue"
+  },
+  "grell": {
+   "gloss_head": "loud, garish (of colour)",
+   "reason": "'garish/glaring' — saturation modifier, not a hue"
+  },
+  "kackbraun": {
+   "gloss_head": "an ugly type of brown, similar in color to feces",
+   "reason": "vulgar coinage; excluded (not a settled colour term)"
+  },
+  "leuchtend": {
+   "gloss_head": "vibrant (of a colour); glowing, bright",
+   "reason": "'luminous/glowing' — brightness modifier (the de vif/éclatant), not a hue"
+  },
+  "monochrom": {
+   "gloss_head": "monochrome (having only one colour)",
+   "reason": "'monochrome' — colour-quantity, not a hue"
+  },
+  "uni": {
+   "gloss_head": "unicolour, single-colour",
+   "reason": "'of a single colour' — colour-quantity, not a hue"
+  }
+ },
+ "terms": {
+  "altbraun": {
+   "flag": false,
+   "forms": [
+    "altbraun",
+    "altbraune",
+    "altbraunem",
+    "altbraunen",
+    "altbrauner",
+    "altbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: brown that is slightly faded as if with age",
+   "shade_compound": true
+  },
+  "altrosa": {
+   "flag": false,
+   "forms": [
+    "altrosa",
+    "altrosae",
+    "altrosaem",
+    "altrosaen",
+    "altrosaer",
+    "altrosaes",
+    "altrosane",
+    "altrosanem",
+    "altrosanen",
+    "altrosaner",
+    "altrosanes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: having a pink color that is slightly darkened (as if with age) and discolored with blue or grey tones"
+  },
+  "altrot": {
+   "flag": false,
+   "forms": [
+    "altrot",
+    "altrote",
+    "altrotem",
+    "altroten",
+    "altroter",
+    "altrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: red that is slightly faded as if with age",
+   "shade_compound": true
+  },
+  "amethysten": {
+   "flag": false,
+   "forms": [
+    "amethysten",
+    "amethystene",
+    "amethystenem",
+    "amethystenen",
+    "amethystener",
+    "amethystenes",
+    "amethystne",
+    "amethystnem",
+    "amethystnen",
+    "amethystner",
+    "amethystnes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: amethyst (in colour)"
+  },
+  "amethystfarben": {
+   "flag": false,
+   "forms": [
+    "amethystfarben",
+    "amethystfarbene",
+    "amethystfarbenem",
+    "amethystfarbenen",
+    "amethystfarbener",
+    "amethystfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: amethyst (in colour)",
+   "shade_compound": true
+  },
+  "anthrazitfarben": {
+   "flag": false,
+   "forms": [
+    "anthrazitfarben",
+    "anthrazitfarbene",
+    "anthrazitfarbenem",
+    "anthrazitfarbenen",
+    "anthrazitfarbener",
+    "anthrazitfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: anthracite (in colour)",
+   "shade_compound": true
+  },
+  "aquamarinblau": {
+   "flag": false,
+   "forms": [
+    "aquamarinblau",
+    "aquamarinblaue",
+    "aquamarinblauem",
+    "aquamarinblauen",
+    "aquamarinblauer",
+    "aquamarinblaues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: aquamarine (in colour)",
+   "shade_compound": true
+  },
+  "aquamarinfarben": {
+   "flag": false,
+   "forms": [
+    "aquamarinfarben",
+    "aquamarinfarbene",
+    "aquamarinfarbenem",
+    "aquamarinfarbenen",
+    "aquamarinfarbener",
+    "aquamarinfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: aquamarine (in colour)",
+   "shade_compound": true
+  },
+  "aschfarben": {
+   "flag": false,
+   "forms": [
+    "aschfarben",
+    "aschfarbene",
+    "aschfarbenem",
+    "aschfarbenen",
+    "aschfarbener",
+    "aschfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ashy (in colour)",
+   "shade_compound": true
+  },
+  "aschgrau": {
+   "flag": false,
+   "forms": [
+    "aschgrau",
+    "aschgraue",
+    "aschgrauem",
+    "aschgrauen",
+    "aschgrauer",
+    "aschgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ash-gray (in colour)",
+   "shade_compound": true
+  },
+  "auberginefarben": {
+   "flag": false,
+   "forms": [
+    "auberginefarben",
+    "auberginefarbene",
+    "auberginefarbenem",
+    "auberginefarbenen",
+    "auberginefarbener",
+    "auberginefarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: aubergine (in colour)",
+   "shade_compound": true
+  },
+  "azurblau": {
+   "flag": false,
+   "forms": [
+    "azurblau",
+    "azurblaue",
+    "azurblauem",
+    "azurblauen",
+    "azurblauer",
+    "azurblaues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: azure-blue (in colour)",
+   "shade_compound": true
+  },
+  "beinfarben": {
+   "flag": false,
+   "forms": [
+    "beinfarben",
+    "beinfarbene",
+    "beinfarbenem",
+    "beinfarbenen",
+    "beinfarbener",
+    "beinfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ivory in colour",
+   "shade_compound": true
+  },
+  "blasslila": {
+   "flag": false,
+   "forms": [
+    "blasslila",
+    "blasslilae",
+    "blasslilaem",
+    "blasslilaen",
+    "blasslilaer",
+    "blasslilaes",
+    "blasslilane",
+    "blasslilanem",
+    "blasslilanen",
+    "blasslilaner",
+    "blasslilanes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: pale lilac, purple, violet",
+   "shade_compound": true
+  },
+  "blau": {
+   "flag": false,
+   "forms": [
+    "blau",
+    "blaue",
+    "blauem",
+    "blauen",
+    "blauer",
+    "blauere",
+    "blauerem",
+    "blaueren",
+    "blauerer",
+    "blaueres",
+    "blaues",
+    "blaueste",
+    "blauestem",
+    "blauesten",
+    "blauester",
+    "blauestes",
+    "blauste",
+    "blaustem",
+    "blausten",
+    "blauster",
+    "blaustes",
+    "blauw"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: blue (color/colour)",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "bleichrot": {
+   "flag": false,
+   "forms": [
+    "bleichrot",
+    "bleichrote",
+    "bleichrotem",
+    "bleichroten",
+    "bleichroter",
+    "bleichrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: pale red",
+   "shade_compound": true
+  },
+  "bleigrau": {
+   "flag": false,
+   "forms": [
+    "bleigrau",
+    "bleigraue",
+    "bleigrauem",
+    "bleigrauen",
+    "bleigrauer",
+    "bleigraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: leaden (in colour)",
+   "shade_compound": true
+  },
+  "blutrot": {
+   "flag": false,
+   "forms": [
+    "blutrot",
+    "blutrote",
+    "blutrotem",
+    "blutroten",
+    "blutroter",
+    "blutrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: crimson (colour)",
+   "shade_compound": true
+  },
+  "braun": {
+   "flag": false,
+   "forms": [
+    "braun",
+    "braune",
+    "braunem",
+    "braunen",
+    "brauner",
+    "braunere",
+    "braunerem",
+    "brauneren",
+    "braunerer",
+    "brauneres",
+    "braunes",
+    "braunste",
+    "braunstem",
+    "braunsten",
+    "braunster",
+    "braunstes",
+    "bräuner",
+    "bräunere",
+    "bräunerem",
+    "bräuneren",
+    "bräunerer",
+    "bräuneres",
+    "bräunste",
+    "bräunstem",
+    "bräunsten",
+    "bräunster",
+    "bräunstes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: brown",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "braunrot": {
+   "flag": false,
+   "forms": [
+    "braunrot",
+    "braunrote",
+    "braunrotem",
+    "braunroten",
+    "braunroter",
+    "braunrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: a reddish-brown color; maroon",
+   "shade_compound": true
+  },
+  "braunviolett": {
+   "flag": false,
+   "forms": [
+    "braunviolett",
+    "braunviolette",
+    "braunviolettem",
+    "braunvioletten",
+    "braunvioletter",
+    "braunviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: brown-violet (in colour)",
+   "shade_compound": true
+  },
+  "bronzefarben": {
+   "flag": false,
+   "forms": [
+    "bronzefarben",
+    "bronzefarbene",
+    "bronzefarbenem",
+    "bronzefarbenen",
+    "bronzefarbener",
+    "bronzefarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: bronze in colour",
+   "shade_compound": true
+  },
+  "bräunlich": {
+   "flag": false,
+   "forms": [
+    "bräunlich",
+    "bräunliche",
+    "bräunlichem",
+    "bräunlichen",
+    "bräunlicher",
+    "bräunlichere",
+    "bräunlicherem",
+    "bräunlicheren",
+    "bräunlicherer",
+    "bräunlicheres",
+    "bräunliches",
+    "bräunlichste",
+    "bräunlichstem",
+    "bräunlichsten",
+    "bräunlichster",
+    "bräunlichstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: brownish"
+  },
+  "burgunderrot": {
+   "flag": false,
+   "forms": [
+    "burgunderrot",
+    "burgunderrote",
+    "burgunderrotem",
+    "burgunderroten",
+    "burgunderroter",
+    "burgunderrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: burgundy, claret, reddish maroon (having the colour of red wine)",
+   "shade_compound": true
+  },
+  "buttergelb": {
+   "flag": false,
+   "forms": [
+    "buttergelb",
+    "buttergelbe",
+    "buttergelbem",
+    "buttergelben",
+    "buttergelber",
+    "buttergelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: butter-yellow (in colour)",
+   "shade_compound": true
+  },
+  "creme": {
+   "flag": false,
+   "forms": [],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: cream (color/colour)"
+  },
+  "cremefarben": {
+   "flag": false,
+   "forms": [
+    "cremefarben",
+    "cremefarbene",
+    "cremefarbenem",
+    "cremefarbenen",
+    "cremefarbener",
+    "cremefarbenes",
+    "crèmefarben"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: cream-colored",
+   "shade_compound": true
+  },
+  "cremefarbig": {
+   "flag": false,
+   "forms": [
+    "cremefarbig",
+    "cremefarbige",
+    "cremefarbigem",
+    "cremefarbigen",
+    "cremefarbiger",
+    "cremefarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: cream (in colour)",
+   "shade_compound": true
+  },
+  "crèmefarben": {
+   "flag": false,
+   "forms": [
+    "crèmefarben",
+    "crèmefarbene",
+    "crèmefarbenem",
+    "crèmefarbenen",
+    "crèmefarbener",
+    "crèmefarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: Switzerland and Liechtenstein standard spelling of cremefarben",
+   "shade_compound": true
+  },
+  "dunkelblond": {
+   "flag": false,
+   "forms": [
+    "dunkelblond",
+    "dunkelblonde",
+    "dunkelblondem",
+    "dunkelblonden",
+    "dunkelblonder",
+    "dunkelblondes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: dark blond (color/colour)"
+  },
+  "dunkelbraun": {
+   "flag": false,
+   "forms": [
+    "dunkelbraun",
+    "dunkelbraune",
+    "dunkelbraunem",
+    "dunkelbraunen",
+    "dunkelbrauner",
+    "dunkelbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: dark brown; puce (in colour)",
+   "shade_compound": true
+  },
+  "dunkelgelb": {
+   "flag": false,
+   "forms": [
+    "dunkelgelb",
+    "dunkelgelbe",
+    "dunkelgelbem",
+    "dunkelgelben",
+    "dunkelgelber",
+    "dunkelgelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: dark yellow",
+   "shade_compound": true
+  },
+  "dunkelgrau": {
+   "flag": false,
+   "forms": [
+    "dunkelgrau",
+    "dunkelgraue",
+    "dunkelgrauem",
+    "dunkelgrauen",
+    "dunkelgrauer",
+    "dunkelgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: dark grey (in colour)",
+   "shade_compound": true
+  },
+  "dunkelgrün": {
+   "flag": false,
+   "forms": [
+    "dunkelgrün",
+    "dunkelgrüne",
+    "dunkelgrünem",
+    "dunkelgrünen",
+    "dunkelgrüner",
+    "dunkelgrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: dark green",
+   "shade_compound": true
+  },
+  "dunkelorange": {
+   "flag": false,
+   "forms": [
+    "dunkelorange",
+    "dunkelorangem",
+    "dunkelorangen",
+    "dunkeloranger",
+    "dunkeloranges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: dark-orange (coloured)"
+  },
+  "dunkelviolett": {
+   "flag": false,
+   "forms": [
+    "dunkelviolett",
+    "dunkelviolette",
+    "dunkelviolettem",
+    "dunkelvioletten",
+    "dunkelvioletter",
+    "dunkelviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: dark violet",
+   "shade_compound": true
+  },
+  "dunkelweiß": {
+   "flag": false,
+   "forms": [
+    "dunckelweiß",
+    "dunkelweiss",
+    "dunkelweiß",
+    "dunkelweiße",
+    "dunkelweißem",
+    "dunkelweißen",
+    "dunkelweißer",
+    "dunkelweißes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: dark white i.e. light grey",
+   "shade_compound": true
+  },
+  "ebenholzfarben": {
+   "flag": false,
+   "forms": [
+    "ebenholzfarben",
+    "ebenholzfarbene",
+    "ebenholzfarbenem",
+    "ebenholzfarbenen",
+    "ebenholzfarbener",
+    "ebenholzfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ebony (colour)",
+   "shade_compound": true
+  },
+  "eierschalenfarben": {
+   "flag": false,
+   "forms": [
+    "eierschalenfarben",
+    "eierschalenfarbene",
+    "eierschalenfarbenem",
+    "eierschalenfarbenen",
+    "eierschalenfarbener",
+    "eierschalenfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: eggshell (colour)",
+   "shade_compound": true
+  },
+  "eisenfarben": {
+   "flag": false,
+   "forms": [
+    "eisenfarben",
+    "eisenfarbene",
+    "eisenfarbenem",
+    "eisenfarbenen",
+    "eisenfarbener",
+    "eisenfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: steely (having a gray colour of iron or steel)",
+   "shade_compound": true
+  },
+  "elfenbeinfarben": {
+   "flag": false,
+   "forms": [
+    "elfenbeinfarben",
+    "elfenbeinfarbene",
+    "elfenbeinfarbenem",
+    "elfenbeinfarbenen",
+    "elfenbeinfarbener",
+    "elfenbeinfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ivory (having colour of ivory)",
+   "shade_compound": true
+  },
+  "erdbeerrot": {
+   "flag": false,
+   "forms": [
+    "erdbeerrot",
+    "erdbeerrote",
+    "erdbeerrotem",
+    "erdbeerroten",
+    "erdbeerroter",
+    "erdbeerrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: strawberry-red (in colour)",
+   "shade_compound": true
+  },
+  "erdfarben": {
+   "flag": false,
+   "forms": [
+    "erdfarben",
+    "erdfarbene",
+    "erdfarbenem",
+    "erdfarbenen",
+    "erdfarbener",
+    "erdfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: earthy in colour",
+   "shade_compound": true
+  },
+  "farbfrisch": {
+   "flag": false,
+   "forms": [
+    "farbfrischer"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: retaining its original colour"
+  },
+  "farblich": {
+   "flag": false,
+   "forms": [
+    "farblich",
+    "farbliche",
+    "farblichem",
+    "farblichen",
+    "farblicher",
+    "farbliches"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: colour; tonal"
+  },
+  "feuerfarben": {
+   "flag": false,
+   "forms": [
+    "feuerfarben",
+    "feuerfarbene",
+    "feuerfarbenem",
+    "feuerfarbenen",
+    "feuerfarbener",
+    "feuerfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: fire-coloured; having the colour of fire; red, orange",
+   "shade_compound": true
+  },
+  "flachsfarben": {
+   "flag": false,
+   "forms": [
+    "flachsfarben",
+    "flachsfarbene",
+    "flachsfarbenem",
+    "flachsfarbenen",
+    "flachsfarbener",
+    "flachsfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: flaxen (in colour)",
+   "shade_compound": true
+  },
+  "fuchsig": {
+   "flag": false,
+   "forms": [
+    "fuchsig",
+    "fuchsige",
+    "fuchsigem",
+    "fuchsigen",
+    "fuchsiger",
+    "fuchsigere",
+    "fuchsigerem",
+    "fuchsigeren",
+    "fuchsigerer",
+    "fuchsigeres",
+    "fuchsiges",
+    "fuchsigste",
+    "fuchsigstem",
+    "fuchsigsten",
+    "fuchsigster",
+    "fuchsigstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ginger (in colour, chiefly hair colour)"
+  },
+  "gedeckt": {
+   "flag": false,
+   "forms": [
+    "gedeckt",
+    "gedeckte",
+    "gedecktem",
+    "gedeckten",
+    "gedeckter",
+    "gedecktere",
+    "gedeckterem",
+    "gedeckteren",
+    "gedeckterer",
+    "gedeckteres",
+    "gedecktes",
+    "gedeckteste",
+    "gedecktestem",
+    "gedecktesten",
+    "gedecktester",
+    "gedecktestes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: sober (of a color)"
+  },
+  "gelb": {
+   "flag": false,
+   "forms": [
+    "geel",
+    "gehl",
+    "gel",
+    "gelb",
+    "gelbe",
+    "gelbem",
+    "gelben",
+    "gelber",
+    "gelbere",
+    "gelberem",
+    "gelberen",
+    "gelberer",
+    "gelberes",
+    "gelbes",
+    "gelbste",
+    "gelbstem",
+    "gelbsten",
+    "gelbster",
+    "gelbstes",
+    "gelh",
+    "gell",
+    "gäl",
+    "gälb"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: yellow",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "gelblich": {
+   "flag": false,
+   "forms": [
+    "gelblich",
+    "gelbliche",
+    "gelblichem",
+    "gelblichen",
+    "gelblicher",
+    "gelblichere",
+    "gelblicherem",
+    "gelblicheren",
+    "gelblicherer",
+    "gelblicheres",
+    "gelbliches",
+    "gelblichste",
+    "gelblichstem",
+    "gelblichsten",
+    "gelblichster",
+    "gelblichstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: yellowish"
+  },
+  "gelbrot": {
+   "flag": false,
+   "forms": [
+    "gelbrot",
+    "gelbrote",
+    "gelbrotem",
+    "gelbroten",
+    "gelbroter",
+    "gelbrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: yellow-red",
+   "shade_compound": true
+  },
+  "giftgrün": {
+   "flag": false,
+   "forms": [
+    "giftgrün",
+    "giftgrüne",
+    "giftgrünem",
+    "giftgrünen",
+    "giftgrüner",
+    "giftgrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: intense, bright green (in colour), bilious green",
+   "shade_compound": true
+  },
+  "gleichfarbig": {
+   "flag": false,
+   "forms": [
+    "gleichfarbig",
+    "gleichfarbige",
+    "gleichfarbigem",
+    "gleichfarbigen",
+    "gleichfarbiger",
+    "gleichfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: of the same colour",
+   "shade_compound": true
+  },
+  "glutrot": {
+   "flag": false,
+   "forms": [
+    "glutrot",
+    "glutrote",
+    "glutrotem",
+    "glutroten",
+    "glutroter",
+    "glutrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: dark red (in colour)",
+   "shade_compound": true
+  },
+  "goldgelb": {
+   "flag": false,
+   "forms": [
+    "goldgelb",
+    "goldgelbe",
+    "goldgelbem",
+    "goldgelben",
+    "goldgelber",
+    "goldgelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: golden-yellow (in colour)",
+   "shade_compound": true
+  },
+  "goldig": {
+   "flag": false,
+   "forms": [
+    "goldig",
+    "goldige",
+    "goldigem",
+    "goldigen",
+    "goldiger",
+    "goldigere",
+    "goldigerem",
+    "goldigeren",
+    "goldigerer",
+    "goldigeres",
+    "goldiges",
+    "goldigste",
+    "goldigstem",
+    "goldigsten",
+    "goldigster",
+    "goldigstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: golden (color)"
+  },
+  "graphitfarben": {
+   "flag": false,
+   "forms": [
+    "graphitfarben",
+    "graphitfarbene",
+    "graphitfarbenem",
+    "graphitfarbenen",
+    "graphitfarbener",
+    "graphitfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: graphite-grey (in colour)",
+   "shade_compound": true
+  },
+  "grau": {
+   "flag": false,
+   "forms": [
+    "grau",
+    "graue",
+    "grauem",
+    "grauen",
+    "grauer",
+    "grauere",
+    "grauerem",
+    "graueren",
+    "grauerer",
+    "graueres",
+    "graues",
+    "graueste",
+    "grauestem",
+    "grauesten",
+    "grauester",
+    "grauestes",
+    "grauste",
+    "graustem",
+    "grausten",
+    "grauster",
+    "graustes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: grey, gray",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "graufarben": {
+   "flag": false,
+   "forms": [
+    "graufarben",
+    "graufarbene",
+    "graufarbenem",
+    "graufarbenen",
+    "graufarbener",
+    "graufarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: grey (in colour)",
+   "shade_compound": true
+  },
+  "grauschwarz": {
+   "flag": false,
+   "forms": [
+    "grauschwarz",
+    "grauschwarze",
+    "grauschwarzem",
+    "grauschwarzen",
+    "grauschwarzer",
+    "grauschwarzes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: grayish black",
+   "shade_compound": true
+  },
+  "grauviolett": {
+   "flag": false,
+   "forms": [
+    "grauviolett",
+    "grauviolette",
+    "grauviolettem",
+    "grauvioletten",
+    "grauvioletter",
+    "grauviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: grey-violet (colour)",
+   "shade_compound": true
+  },
+  "grellfarben": {
+   "flag": false,
+   "forms": [
+    "grellfarben",
+    "grellfarbene",
+    "grellfarbenem",
+    "grellfarbenen",
+    "grellfarbener",
+    "grellfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: lurid (in colour)",
+   "shade_compound": true
+  },
+  "gräulich": {
+   "flag": false,
+   "forms": [
+    "gräulich",
+    "gräuliche",
+    "gräulichem",
+    "gräulichen",
+    "gräulicher",
+    "gräulichere",
+    "gräulicherem",
+    "gräulicheren",
+    "gräulicherer",
+    "gräulicheres",
+    "gräuliches",
+    "gräulichste",
+    "gräulichstem",
+    "gräulichsten",
+    "gräulichster",
+    "gräulichstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: greyish (somewhat grey)"
+  },
+  "grün": {
+   "flag": false,
+   "forms": [
+    "grün",
+    "grüne",
+    "grünem",
+    "grünen",
+    "grüner",
+    "grünere",
+    "grünerem",
+    "grüneren",
+    "grünerer",
+    "grüneres",
+    "grünes",
+    "grünste",
+    "grünstem",
+    "grünsten",
+    "grünster",
+    "grünstes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: green (in colour)",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "grünlich": {
+   "flag": false,
+   "forms": [
+    "grünlich",
+    "grünliche",
+    "grünlichem",
+    "grünlichen",
+    "grünlicher",
+    "grünlichere",
+    "grünlicherem",
+    "grünlicheren",
+    "grünlicherer",
+    "grünlicheres",
+    "grünliches",
+    "grünlichste",
+    "grünlichstem",
+    "grünlichsten",
+    "grünlichster",
+    "grünlichstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: greenish"
+  },
+  "hellblond": {
+   "flag": false,
+   "forms": [
+    "hellblond",
+    "hellblonde",
+    "hellblondem",
+    "hellblonden",
+    "hellblonder",
+    "hellblondes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: light blond (color/colour)"
+  },
+  "hellgelb": {
+   "flag": false,
+   "forms": [
+    "hellgelb",
+    "hellgelbe",
+    "hellgelbem",
+    "hellgelben",
+    "hellgelber",
+    "hellgelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: bright / light yellow",
+   "shade_compound": true
+  },
+  "hellgrau": {
+   "flag": false,
+   "forms": [
+    "hellgrau",
+    "hellgraue",
+    "hellgrauem",
+    "hellgrauen",
+    "hellgrauer",
+    "hellgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: light gray",
+   "shade_compound": true
+  },
+  "hellgrün": {
+   "flag": false,
+   "forms": [
+    "hellgrün",
+    "hellgrüne",
+    "hellgrünem",
+    "hellgrünen",
+    "hellgrüner",
+    "hellgrünere",
+    "hellgrünerem",
+    "hellgrüneren",
+    "hellgrünerer",
+    "hellgrüneres",
+    "hellgrünes",
+    "hellgrünste",
+    "hellgrünstem",
+    "hellgrünsten",
+    "hellgrünster",
+    "hellgrünstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: bright green",
+   "shade_compound": true
+  },
+  "hellorange": {
+   "flag": false,
+   "forms": [
+    "hellorange",
+    "hellorangem",
+    "hellorangen",
+    "helloranger",
+    "helloranges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: bright/light orange"
+  },
+  "hellrötlich": {
+   "flag": false,
+   "forms": [
+    "hellrötlich",
+    "hellrötliche",
+    "hellrötlichem",
+    "hellrötlichen",
+    "hellrötlicher",
+    "hellrötliches"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: light reddish"
+  },
+  "hellviolett": {
+   "flag": false,
+   "forms": [
+    "hellviolett",
+    "hellviolette",
+    "hellviolettem",
+    "hellvioletten",
+    "hellvioletter",
+    "hellviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: light violet; lilac",
+   "shade_compound": true
+  },
+  "hellweiß": {
+   "flag": false,
+   "forms": [
+    "hellweiss",
+    "hellweiß",
+    "hellweiße",
+    "hellweißem",
+    "hellweißen",
+    "hellweißer",
+    "hellweißes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having a bright white color",
+   "shade_compound": true
+  },
+  "herbstfarben": {
+   "flag": false,
+   "forms": [
+    "herbstfarben",
+    "herbstfarbene",
+    "herbstfarbenem",
+    "herbstfarbenen",
+    "herbstfarbener",
+    "herbstfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: autumnal (in colour)",
+   "shade_compound": true
+  },
+  "holzfarben": {
+   "flag": false,
+   "forms": [
+    "holzfarben",
+    "holzfarbene",
+    "holzfarbenem",
+    "holzfarbenen",
+    "holzfarbener",
+    "holzfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having the color of wood, wood-colored",
+   "shade_compound": true
+  },
+  "holzfarbig": {
+   "flag": false,
+   "forms": [
+    "holzfarbig",
+    "holzfarbige",
+    "holzfarbigem",
+    "holzfarbigen",
+    "holzfarbiger",
+    "holzfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having the color of wood, wood-colored",
+   "shade_compound": true
+  },
+  "indigoblau": {
+   "flag": false,
+   "forms": [
+    "indigoblau",
+    "indigoblaue",
+    "indigoblauem",
+    "indigoblauen",
+    "indigoblauer",
+    "indigoblaues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: indigo",
+   "shade_compound": true
+  },
+  "indigofarben": {
+   "flag": false,
+   "forms": [
+    "indigofarben",
+    "indigofarbene",
+    "indigofarbenem",
+    "indigofarbenen",
+    "indigofarbener",
+    "indigofarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: indigo (in colour)",
+   "shade_compound": true
+  },
+  "infrarot": {
+   "flag": false,
+   "forms": [
+    "infrarot",
+    "infrarote",
+    "infrarotem",
+    "infraroten",
+    "infraroter",
+    "infrarotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: infrared (invisible color \"below red\")",
+   "shade_compound": true
+  },
+  "jadegrün": {
+   "flag": false,
+   "forms": [
+    "jadegrün",
+    "jadegrüne",
+    "jadegrünem",
+    "jadegrünen",
+    "jadegrüner",
+    "jadegrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: jade green",
+   "shade_compound": true
+  },
+  "jeansfarben": {
+   "flag": false,
+   "forms": [
+    "jeansfarben",
+    "jeansfarbene",
+    "jeansfarbenem",
+    "jeansfarbenen",
+    "jeansfarbener",
+    "jeansfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having the colour of blue jeans",
+   "shade_compound": true
+  },
+  "kaki": {
+   "flag": false,
+   "forms": [
+    "khaki"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: khaki (color)"
+  },
+  "kakifarben": {
+   "flag": false,
+   "forms": [
+    "kakifarben",
+    "kakifarbene",
+    "kakifarbenem",
+    "kakifarbenen",
+    "kakifarbener",
+    "kakifarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: khaki (in colour)",
+   "shade_compound": true
+  },
+  "kastanienbraun": {
+   "flag": false,
+   "forms": [
+    "kastanienbraun",
+    "kastanienbraune",
+    "kastanienbraunem",
+    "kastanienbraunen",
+    "kastanienbrauner",
+    "kastanienbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having a colour like that of chestnuts: brownish maroon, auburn",
+   "shade_compound": true
+  },
+  "khaki": {
+   "flag": false,
+   "forms": [
+    "kaki"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: khaki (color)"
+  },
+  "lila": {
+   "flag": false,
+   "forms": [
+    "lila",
+    "lilae",
+    "lilaem",
+    "lilaen",
+    "lilaer",
+    "lilaes",
+    "lilane",
+    "lilanem",
+    "lilanen",
+    "lilaner",
+    "lilanes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: lilac, purple, violet (color/colour)",
+   "leg": "AB",
+   "purple_pair": true,
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set | violett/lila: German purple split; violett=formal/spectral, lila=everyday purple/mauve; both included (BCT one-vs-two-basics question). TAGGED for optional single-purple collapse."
+  },
+  "lilafarben": {
+   "flag": false,
+   "forms": [
+    "lilafarben",
+    "lilafarbene",
+    "lilafarbenem",
+    "lilafarbenen",
+    "lilafarbener",
+    "lilafarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: lilac-colored",
+   "shade_compound": true
+  },
+  "lilafarbig": {
+   "flag": false,
+   "forms": [
+    "lilafarbig",
+    "lilafarbige",
+    "lilafarbigem",
+    "lilafarbigen",
+    "lilafarbiger",
+    "lilafarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: lilac-colored",
+   "shade_compound": true
+  },
+  "lindgrün": {
+   "flag": false,
+   "forms": [
+    "lindgrün",
+    "lindgrüne",
+    "lindgrünem",
+    "lindgrünen",
+    "lindgrüner",
+    "lindgrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: lime-green",
+   "shade_compound": true
+  },
+  "maisgelb": {
+   "flag": false,
+   "forms": [
+    "maisgelb",
+    "maisgelbe",
+    "maisgelbem",
+    "maisgelben",
+    "maisgelber",
+    "maisgelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: intense yellow (the colour of maize)",
+   "shade_compound": true
+  },
+  "mattgolden": {
+   "flag": false,
+   "forms": [
+    "mattgolden",
+    "mattgoldene",
+    "mattgoldenem",
+    "mattgoldenen",
+    "mattgoldener",
+    "mattgoldenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: glossless gold (in colour)"
+  },
+  "maulwurfgrau": {
+   "flag": false,
+   "forms": [
+    "maulwurfgrau",
+    "maulwurfgraue",
+    "maulwurfgrauem",
+    "maulwurfgrauen",
+    "maulwurfgrauer",
+    "maulwurfgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: taupe",
+   "shade_compound": true
+  },
+  "mausgrau": {
+   "flag": false,
+   "forms": [
+    "mausgrau",
+    "mausgraue",
+    "mausgrauem",
+    "mausgrauen",
+    "mausgrauer",
+    "mausgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: mousy (in colour)",
+   "shade_compound": true
+  },
+  "messingfarben": {
+   "flag": false,
+   "forms": [
+    "messingfarben",
+    "messingfarbene",
+    "messingfarbenem",
+    "messingfarbenen",
+    "messingfarbener",
+    "messingfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having the color of brass",
+   "shade_compound": true
+  },
+  "messingfarbig": {
+   "flag": false,
+   "forms": [
+    "messingfarbig",
+    "messingfarbige",
+    "messingfarbigem",
+    "messingfarbigen",
+    "messingfarbiger",
+    "messingfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having the color of brass",
+   "shade_compound": true
+  },
+  "morgenrötlich": {
+   "flag": false,
+   "forms": [
+    "morgenröthlich",
+    "morgenrötlich",
+    "morgenrötliche",
+    "morgenrötlichem",
+    "morgenrötlichen",
+    "morgenrötlicher",
+    "morgenrötliches"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: in a reddish color caused by morning twilight"
+  },
+  "neongrün": {
+   "flag": false,
+   "forms": [
+    "neongrün",
+    "neongrüne",
+    "neongrünem",
+    "neongrünen",
+    "neongrüner",
+    "neongrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: bright green (like a neon sign)",
+   "shade_compound": true
+  },
+  "ocker": {
+   "flag": false,
+   "forms": [
+    "ocker",
+    "ockere",
+    "ockerem",
+    "ockeren",
+    "ockerer",
+    "ockeres"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: ochre/ocher (color)"
+  },
+  "ockerbraun": {
+   "flag": false,
+   "forms": [
+    "ockerbraun",
+    "ockerbraune",
+    "ockerbraunem",
+    "ockerbraunen",
+    "ockerbrauner",
+    "ockerbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ochre/ocher (color)",
+   "shade_compound": true
+  },
+  "ockergelb": {
+   "flag": false,
+   "forms": [
+    "ochergelb",
+    "ochrageel",
+    "ockergelb",
+    "ockergelbe",
+    "ockergelbem",
+    "ockergelben",
+    "ockergelber",
+    "ockergelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ochre/ocher (color)",
+   "shade_compound": true
+  },
+  "oliv": {
+   "flag": true,
+   "forms": [],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: olive (green)"
+  },
+  "orange": {
+   "flag": true,
+   "forms": [
+    "orange",
+    "orangem",
+    "orangen",
+    "orangene",
+    "orangenem",
+    "orangenen",
+    "orangener",
+    "orangenere",
+    "orangenerem",
+    "orangeneren",
+    "orangenerer",
+    "orangeneres",
+    "orangenes",
+    "orangenste",
+    "orangenstem",
+    "orangensten",
+    "orangenster",
+    "orangenstes",
+    "oranger",
+    "orangere",
+    "orangerem",
+    "orangeren",
+    "orangerer",
+    "orangeres",
+    "oranges",
+    "orangeste",
+    "orangestem",
+    "orangesten",
+    "orangester",
+    "orangestes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: orange",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "orangefarben": {
+   "flag": false,
+   "forms": [
+    "orangefarben",
+    "orangefarbene",
+    "orangefarbenem",
+    "orangefarbenen",
+    "orangefarbener",
+    "orangefarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: orange-coloured",
+   "shade_compound": true
+  },
+  "orangefarbig": {
+   "flag": false,
+   "forms": [
+    "orangefarbig",
+    "orangefarbige",
+    "orangefarbigem",
+    "orangefarbigen",
+    "orangefarbiger",
+    "orangefarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: orange-coloured",
+   "shade_compound": true
+  },
+  "orangerot": {
+   "flag": false,
+   "forms": [
+    "orangerot",
+    "orangerote",
+    "orangerotem",
+    "orangeroten",
+    "orangeroter",
+    "orangerotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: tangerine (orange-red colour)",
+   "shade_compound": true
+  },
+  "petrol": {
+   "flag": false,
+   "forms": [
+    "petroler"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: teal (color)"
+  },
+  "platinfarben": {
+   "flag": false,
+   "forms": [
+    "platinfarben",
+    "platinfarbene",
+    "platinfarbenem",
+    "platinfarbenen",
+    "platinfarbener",
+    "platinfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: a silvery-white color, like the color of platinum; platinum-colored",
+   "shade_compound": true
+  },
+  "purpurn": {
+   "flag": false,
+   "forms": [
+    "purpurn",
+    "purpurne",
+    "purpurnem",
+    "purpurnen",
+    "purpurner",
+    "purpurnes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: purple (colour)"
+  },
+  "purpurrot": {
+   "flag": false,
+   "forms": [
+    "purpurrot",
+    "purpurrote",
+    "purpurrotem",
+    "purpurroten",
+    "purpurroter",
+    "purpurrotere",
+    "purpurroterem",
+    "purpurroteren",
+    "purpurroterer",
+    "purpurroteres",
+    "purpurrotes",
+    "purpurroteste",
+    "purpurrotestem",
+    "purpurrotesten",
+    "purpurrotester",
+    "purpurrotestes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: crimson",
+   "shade_compound": true
+  },
+  "rosa": {
+   "flag": true,
+   "forms": [],
+   "leg": "A",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set | rosa: German pink basic (indeclinable, Latin/Italian origin); in leg A canon — the kaikki sweep does not surface it (indeclinables carry no Colors-category inflection)."
+  },
+  "rostbraun": {
+   "flag": false,
+   "forms": [
+    "rostbraun",
+    "rostbraune",
+    "rostbraunem",
+    "rostbraunen",
+    "rostbrauner",
+    "rostbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: russet",
+   "shade_compound": true
+  },
+  "rosé": {
+   "flag": false,
+   "forms": [],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: pale pink (in colour)"
+  },
+  "roséfarben": {
+   "flag": false,
+   "forms": [
+    "roséfarben",
+    "roséfarbene",
+    "roséfarbenem",
+    "roséfarbenen",
+    "roséfarbener",
+    "roséfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: rosé (pale pink in colour)",
+   "shade_compound": true
+  },
+  "rot": {
+   "flag": false,
+   "forms": [
+    "rot",
+    "rote",
+    "rotem",
+    "roten",
+    "roter",
+    "rotere",
+    "roterem",
+    "roteren",
+    "roterer",
+    "roteres",
+    "rotes",
+    "roteste",
+    "rotestem",
+    "rotesten",
+    "rotester",
+    "rotestes",
+    "roth",
+    "röter",
+    "rötere",
+    "röterem",
+    "röteren",
+    "röterer",
+    "röteres",
+    "röteste",
+    "rötestem",
+    "rötesten",
+    "rötester",
+    "rötestes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: red (colour)",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "rotbraun": {
+   "flag": false,
+   "forms": [
+    "rotbraun",
+    "rotbraune",
+    "rotbraunem",
+    "rotbraunen",
+    "rotbrauner",
+    "rotbraunes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: of a reddish brown or brownish red colour of any kind, e.g. maroon, auburn (hair), bay (horse), etc.",
+   "shade_compound": true
+  },
+  "rotgelb": {
+   "flag": false,
+   "forms": [
+    "rotgelb",
+    "rotgelbe",
+    "rotgelbem",
+    "rotgelben",
+    "rotgelber",
+    "rotgelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: red-yellow, yellow-red; synonym of gelbrot",
+   "shade_compound": true
+  },
+  "rotgolden": {
+   "flag": false,
+   "forms": [
+    "rotgolden",
+    "rotgoldene",
+    "rotgoldenem",
+    "rotgoldenen",
+    "rotgoldener",
+    "rotgoldenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: reddish-gold (in colour)"
+  },
+  "rotviolett": {
+   "flag": false,
+   "forms": [
+    "rotviolett",
+    "rotviolette",
+    "rotviolettem",
+    "rotvioletten",
+    "rotvioletter",
+    "rotviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: red-violet (in colour)",
+   "shade_compound": true
+  },
+  "rötlich": {
+   "flag": false,
+   "forms": [
+    "röthlich",
+    "rötlich",
+    "rötliche",
+    "rötlichem",
+    "rötlichen",
+    "rötlicher",
+    "rötlichere",
+    "rötlicherem",
+    "rötlicheren",
+    "rötlicherer",
+    "rötlicheres",
+    "rötliches",
+    "rötlichste",
+    "rötlichstem",
+    "rötlichsten",
+    "rötlichster",
+    "rötlichstes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: reddish"
+  },
+  "sandfarben": {
+   "flag": false,
+   "forms": [
+    "sandfarben",
+    "sandfarbene",
+    "sandfarbenem",
+    "sandfarbenen",
+    "sandfarbener",
+    "sandfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: sandy (color)",
+   "shade_compound": true
+  },
+  "saphirblau": {
+   "flag": false,
+   "forms": [
+    "saphirblau",
+    "saphirblaue",
+    "saphirblauem",
+    "saphirblauen",
+    "saphirblauer",
+    "saphirblaues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: sapphire (blue in colour)",
+   "shade_compound": true
+  },
+  "scharlachrot": {
+   "flag": false,
+   "forms": [
+    "scharlachrot",
+    "scharlachrote",
+    "scharlachrotem",
+    "scharlachroten",
+    "scharlachroter",
+    "scharlachrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: scarlet (colour)",
+   "shade_compound": true
+  },
+  "schwarz": {
+   "flag": false,
+   "forms": [
+    "schwarz",
+    "schwarze",
+    "schwarzem",
+    "schwarzen",
+    "schwarzer",
+    "schwarzere",
+    "schwarzerem",
+    "schwarzeren",
+    "schwarzerer",
+    "schwarzeres",
+    "schwarzes",
+    "schwarzeste",
+    "schwarzestem",
+    "schwarzesten",
+    "schwarzester",
+    "schwarzestes",
+    "schwärzer",
+    "schwärzere",
+    "schwärzerem",
+    "schwärzeren",
+    "schwärzerer",
+    "schwärzeres",
+    "schwärzeste",
+    "schwärzestem",
+    "schwärzesten",
+    "schwärzester",
+    "schwärzestes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: black, reflecting little or no light",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "schwarzgrau": {
+   "flag": false,
+   "forms": [
+    "schwarzgrau",
+    "schwarzgraue",
+    "schwarzgrauem",
+    "schwarzgrauen",
+    "schwarzgrauer",
+    "schwarzgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: very dark, blackish grey",
+   "shade_compound": true
+  },
+  "silberfarbig": {
+   "flag": false,
+   "forms": [
+    "silberfarbig",
+    "silberfarbige",
+    "silberfarbigem",
+    "silberfarbigen",
+    "silberfarbiger",
+    "silberfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: silver (having a color/colour like silver)",
+   "shade_compound": true
+  },
+  "silbern": {
+   "flag": false,
+   "forms": [
+    "silbern",
+    "silberne",
+    "silbernem",
+    "silbernen",
+    "silberner",
+    "silbernes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: silver-colored"
+  },
+  "smaragdgrün": {
+   "flag": false,
+   "forms": [
+    "smaragdgrün",
+    "smaragdgrüne",
+    "smaragdgrünem",
+    "smaragdgrünen",
+    "smaragdgrüner",
+    "smaragdgrünes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: emerald, emerald green (rich green colour)",
+   "shade_compound": true
+  },
+  "tiefschwarz": {
+   "flag": false,
+   "forms": [
+    "tiefschwarz",
+    "tiefschwarze",
+    "tiefschwarzem",
+    "tiefschwarzen",
+    "tiefschwarzer",
+    "tiefschwarzes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ebony (colour), deep / inky black",
+   "shade_compound": true
+  },
+  "tiefviolett": {
+   "flag": false,
+   "forms": [
+    "tiefviolett",
+    "tiefviolette",
+    "tiefviolettem",
+    "tiefvioletten",
+    "tiefvioletter",
+    "tiefviolettes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: deep violet / purple (colour)",
+   "shade_compound": true
+  },
+  "türkis": {
+   "flag": false,
+   "forms": [
+    "türkis",
+    "türkise",
+    "türkisem",
+    "türkisen",
+    "türkiser",
+    "türkises"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: turquoise (colour)"
+  },
+  "ultramarin": {
+   "flag": false,
+   "forms": [
+    "ultramarin",
+    "ultramarine",
+    "ultramarinem",
+    "ultramarinen",
+    "ultramariner",
+    "ultramarines"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: ultramarine (color)"
+  },
+  "veilchenblau": {
+   "flag": false,
+   "forms": [
+    "veilchenblau",
+    "veilchenblaue",
+    "veilchenblauem",
+    "veilchenblauen",
+    "veilchenblauer",
+    "veilchenblaues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: violet (color)",
+   "shade_compound": true
+  },
+  "veilchenfarben": {
+   "flag": false,
+   "forms": [
+    "veilchenfarben",
+    "veilchenfarbene",
+    "veilchenfarbenem",
+    "veilchenfarbenen",
+    "veilchenfarbener",
+    "veilchenfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: violet (in colour)",
+   "shade_compound": true
+  },
+  "veilchenfarbig": {
+   "flag": false,
+   "forms": [
+    "veilchenfarbig",
+    "veilchenfarbige",
+    "veilchenfarbigem",
+    "veilchenfarbigen",
+    "veilchenfarbiger",
+    "veilchenfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: violet (in colour)",
+   "shade_compound": true
+  },
+  "violett": {
+   "flag": false,
+   "forms": [
+    "violett",
+    "violette",
+    "violettem",
+    "violetten",
+    "violetter",
+    "violettere",
+    "violetterem",
+    "violetteren",
+    "violetterer",
+    "violetteres",
+    "violettes",
+    "violetteste",
+    "violettestem",
+    "violettesten",
+    "violettester",
+    "violettestes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat,gloss]: violet; purple; lilac (color/colour)",
+   "leg": "AB",
+   "purple_pair": true,
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set | violett/lila: German purple split; violett=formal/spectral, lila=everyday purple/mauve; both included (BCT one-vs-two-basics question). TAGGED for optional single-purple collapse."
+  },
+  "wachsbleich": {
+   "flag": false,
+   "forms": [
+    "wachsbleich",
+    "wachsbleiche",
+    "wachsbleichem",
+    "wachsbleichen",
+    "wachsbleicher",
+    "wachsbleiches"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: waxen, waxy (in texture & colour)"
+  },
+  "weingelb": {
+   "flag": false,
+   "forms": [
+    "weingelb",
+    "weingelbe",
+    "weingelbem",
+    "weingelben",
+    "weingelber",
+    "weingelbes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: having a pale yellowish colour (as of some German wine)",
+   "shade_compound": true
+  },
+  "weinrot": {
+   "flag": false,
+   "forms": [
+    "weinrot",
+    "weinrote",
+    "weinrotem",
+    "weinroten",
+    "weinroter",
+    "weinrotes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: burgundy, claret, reddish maroon (having the colour of red wine)",
+   "shade_compound": true
+  },
+  "weiß": {
+   "flag": true,
+   "forms": [
+    "weiss",
+    "weiß",
+    "weiße",
+    "weißem",
+    "weißen",
+    "weißer",
+    "weißere",
+    "weißerem",
+    "weißeren",
+    "weißerer",
+    "weißeres",
+    "weißes",
+    "weißeste",
+    "weißestem",
+    "weißesten",
+    "weißester",
+    "weißestes"
+   ],
+   "kaikki_receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: white",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — German Stage-VII basic set"
+  },
+  "weißgrau": {
+   "flag": false,
+   "forms": [
+    "weissgrau",
+    "weißgrau",
+    "weißgraue",
+    "weißgrauem",
+    "weißgrauen",
+    "weißgrauer",
+    "weißgraues"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[cat]: whitish gray (a very bright shade of gray)",
+   "shade_compound": true
+  },
+  "zinnfarben": {
+   "flag": false,
+   "forms": [
+    "zinnfarben",
+    "zinnfarbene",
+    "zinnfarbenem",
+    "zinnfarbenen",
+    "zinnfarbener",
+    "zinnfarbenes"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: a silvery-white color, like the color of tin",
+   "shade_compound": true
+  },
+  "zinnfarbig": {
+   "flag": false,
+   "forms": [
+    "zinnfarbig",
+    "zinnfarbige",
+    "zinnfarbigem",
+    "zinnfarbigen",
+    "zinnfarbiger",
+    "zinnfarbiges"
+   ],
+   "leg": "B",
+   "receipt": "kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), signal[gloss]: A silvery-white color, like the color of tin",
+   "shade_compound": true
+  }
+ }
+}

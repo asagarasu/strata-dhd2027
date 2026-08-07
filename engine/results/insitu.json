@@ -1,0 +1,75 @@
+{
+  "axis_d_prime": {
+    "dye": 4.566733314038887,
+    "dark": 4.583831313446944,
+    "brood": 4.793208867647437
+  },
+  "rows": {
+    "std:Jebb": {
+      "brood_iso": 0.0837,
+      "brood_framed": 0.0263,
+      "dye_iso": 0.0295,
+      "dye_framed": 0.0164
+    },
+    "std:Donner": {
+      "brood_iso": 0.0963,
+      "brood_framed": 0.0325,
+      "dye_iso": -0.0551,
+      "dye_framed": -0.0067
+    },
+    "std:Fagles": {
+      "brood_iso": 0.0875,
+      "brood_framed": 0.0456,
+      "dye_iso": 0.094,
+      "dye_framed": 0.0667
+    },
+    "std:Wyckoff": {
+      "brood_iso": 0.0612,
+      "brood_framed": 0.0188,
+      "dye_iso": -0.0033,
+      "dye_framed": 0.0219
+    },
+    "std:Weinstock": {
+      "brood_iso": 0.0102,
+      "brood_framed": 0.0187,
+      "dye_iso": 0.0198,
+      "dye_framed": 0.0342
+    },
+    "test:hoelderlin": {
+      "brood_iso": -0.0115,
+      "brood_framed": -0.0037,
+      "dye_iso": 0.1181,
+      "dye_framed": 0.1212
+    },
+    "test:hoelderlin_en_gloss": {
+      "brood_iso": 0.0139,
+      "brood_framed": 0.0141,
+      "dye_iso": 0.2085,
+      "dye_framed": 0.1278
+    },
+    "ctl:ctrl_schmieden": {
+      "brood_iso": 0.0258,
+      "brood_framed": 0.018,
+      "dye_iso": -0.0493,
+      "dye_framed": -0.0159
+    },
+    "ctl:ctrl_kauen": {
+      "brood_iso": 0.0164,
+      "brood_framed": 0.0178,
+      "dye_iso": -0.0629,
+      "dye_framed": -0.0165
+    },
+    "ctl:ctrl_wiegen": {
+      "brood_iso": 0.0116,
+      "brood_framed": 0.0177,
+      "dye_iso": -0.0711,
+      "dye_framed": -0.0097
+    },
+    "ctl:ctrl_begraben": {
+      "brood_iso": 0.0248,
+      "brood_framed": 0.0322,
+      "dye_iso": -0.0041,
+      "dye_framed": 0.0269
+    }
+  }
+}

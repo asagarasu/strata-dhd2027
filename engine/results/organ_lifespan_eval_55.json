@@ -1,0 +1,4686 @@
+{
+ "title": "Temporal-referent organs -- lifespan magnitude eval (Duration-ruler pattern, class-wise)",
+ "status": "REPORT-ONLY (registered look, evening_addons_registration_55 sec.2)",
+ "date": "2026-07-22",
+ "session": 55,
+ "note": "Organs emit CLASSES not scalars: this is separation of MEASURED lifespans by assigned class, not rank correlation. 'magnitude-verified (species subset)' is her adoption's phrase, not asserted here.",
+ "finding": "Coverage-limited. AnAge Build 15 is vertebrate-centric: the ENDURING members that map land at 10^1.6-10^3.7 yr (tortoise 177, crane 45, bristlecone pine 5062); the EPHEMERAL/tight-ephemeral referents are insects/fungi/short-lived plants (mayfly, epiphyllum, morning-mushroom) and the EN members are botanical/entomological (ferns, wallflowers, magnolia, yew) -- essentially none are in AnAge, so those classes yield 0 measurable species. AUC needs both classes populated -> not computable here; the enduring distribution alone is directionally consistent with the 'orders of magnitude' expectation. A full AUC awaits a longevity DB covering short-lived invertebrates/plants (a separate ledgered acquisition).",
+ "acquisition": {
+  "db": "AnAge Build 15 (HAGR)",
+  "date": "2023-07-03 (fetched 2026-07-22)",
+  "sha256_zip": "e3ddb66e32e973a79932859ba53013e8f60d957c6ec01c6eb573e3ea3018d630",
+  "sha256_data_txt": "98867969fbd4d0bed6bab415c2715bb19079dbd7f92bdc26e5961856aa1c1519",
+  "license": "AnAge / HAGR -- Creative Commons Attribution 3.0 Unported; \"free for all purposes, including ... research ... provided you mention the use of HAGR\". Cite: de Magalhaes et al. (2024) NAR 52(D1):D900-D908."
+ },
+ "mapping_laws": {
+  "en": "WordNet taxonomic lemmas (vendored nltk_data); organism gate = under organism.n.01",
+  "zh": "HowNet W_E glosses, one receipt per mapping; traditional->simplified via committed Unihan kSimplifiedVariant; organism gate = HowNet DEF names a living-thing category",
+  "anage_match": "exact binomial > exact common name > genus > organism HEAD-noun of common name",
+  "score": "measured Maximum longevity (yrs); representative = max over matched rows",
+  "bootstrap": "house form: seed 48, B=2000, U-stat 0.5 ties, pct[2.5,97.5]"
+ },
+ "en": {
+  "coverage": {
+   "ephemeral": {
+    "class_members": 73,
+    "species_matched": 0,
+    "sit_out_total": 73,
+    "matched_no_lifespan": 0,
+    "non_species": 59,
+    "species_unmatched": 14
+   },
+   "enduring": {
+    "class_members": 29,
+    "species_matched": 0,
+    "sit_out_total": 29,
+    "matched_no_lifespan": 0,
+    "non_species": 21,
+    "species_unmatched": 8
+   }
+  },
+  "metrics": {
+   "auc_enduring_gt_ephemeral": null,
+   "dist_ephemeral": null,
+   "dist_enduring": null,
+   "oom_gap_median_log10": null
+  },
+  "matched": {
+   "ephemeral": [],
+   "enduring": []
+  },
+  "sit_out": {
+   "ephemeral": {
+    "matched_no_lifespan": [],
+    "non_species": [
+     {
+      "synset": "absence.n.04",
+      "lemmas": [
+       "absence",
+       "absence_seizure"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "advance_death_benefit.n.01",
+      "lemmas": [
+       "advance_death_benefit"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "apnea.n.01",
+      "lemmas": [
+       "apnea"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "b-meson.n.01",
+      "lemmas": [
+       "b-meson"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "bacteremia.n.01",
+      "lemmas": [
+       "bacteremia",
+       "bacteriemia",
+       "bacteriaemia"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "bed_and_breakfast.n.01",
+      "lemmas": [
+       "bed_and_breakfast",
+       "bed-and-breakfast"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "black_hole_of_calcutta.n.01",
+      "lemmas": [
+       "Black_Hole_of_Calcutta"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "blackout.n.04",
+      "lemmas": [
+       "blackout"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "blink_of_an_eye.n.01",
+      "lemmas": [
+       "blink_of_an_eye",
+       "flash",
+       "heartbeat",
+       "instant",
+       "jiffy",
+       "split_second"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "bobble.n.01",
+      "lemmas": [
+       "bobble"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "brevity.n.02",
+      "lemmas": [
+       "brevity",
+       "briefness",
+       "transience"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "brush.n.03",
+      "lemmas": [
+       "brush",
+       "light_touch"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "calandrinia.n.01",
+      "lemmas": [
+       "Calandrinia",
+       "genus_Calandrinia"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "continuing_trespass.n.01",
+      "lemmas": [
+       "continuing_trespass"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "detention.n.01",
+      "lemmas": [
+       "detention",
+       "detainment",
+       "hold",
+       "custody"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "dew.n.01",
+      "lemmas": [
+       "dew"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "disorientation.n.02",
+      "lemmas": [
+       "disorientation"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "ephemera.n.01",
+      "lemmas": [
+       "ephemera"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "ephemerality.n.01",
+      "lemmas": [
+       "ephemerality",
+       "ephemeralness",
+       "fleetingness"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "esmolol.n.01",
+      "lemmas": [
+       "esmolol",
+       "Brevibloc"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "extrasystole.n.01",
+      "lemmas": [
+       "extrasystole"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "flash.n.02",
+      "lemmas": [
+       "flash"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "flash.n.10",
+      "lemmas": [
+       "flash",
+       "photoflash",
+       "flash_lamp",
+       "flashgun",
+       "flashbulb",
+       "flash_bulb"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "flicker.n.01",
+      "lemmas": [
+       "flicker",
+       "spark",
+       "glint"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "flying_visit.n.01",
+      "lemmas": [
+       "flying_visit"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "focal_seizure.n.01",
+      "lemmas": [
+       "focal_seizure"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "herpangia.n.01",
+      "lemmas": [
+       "herpangia"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "hostel.n.01",
+      "lemmas": [
+       "hostel",
+       "hostelry",
+       "inn",
+       "lodge",
+       "auberge"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "infatuation.n.03",
+      "lemmas": [
+       "infatuation"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "lightning.n.02",
+      "lemmas": [
+       "lightning"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "lubavitch.n.01",
+      "lemmas": [
+       "Lubavitch"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "meteor_shower.n.01",
+      "lemmas": [
+       "meteor_shower",
+       "meteor_stream"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "miles_per_hour.n.02",
+      "lemmas": [
+       "miles_per_hour",
+       "mph"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "moment.n.02",
+      "lemmas": [
+       "moment",
+       "mo",
+       "minute",
+       "second",
+       "bit"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "mushy_peas.n.01",
+      "lemmas": [
+       "mushy_peas"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "now.n.01",
+      "lemmas": [
+       "now"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "one-night_stand.n.01",
+      "lemmas": [
+       "one-night_stand"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "overnighter.n.02",
+      "lemmas": [
+       "overnighter",
+       "overnight_bag",
+       "overnight_case"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "overpressure.n.01",
+      "lemmas": [
+       "overpressure"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "petit_mal.n.02",
+      "lemmas": [
+       "petit_mal",
+       "epilepsia_minor"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "pick's_disease.n.01",
+      "lemmas": [
+       "Pick's_disease"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "pinpoint.n.01",
+      "lemmas": [
+       "pinpoint"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "popular_music.n.01",
+      "lemmas": [
+       "popular_music",
+       "popular_music_genre"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "protactinium.n.01",
+      "lemmas": [
+       "protactinium",
+       "protoactinium",
+       "Pa",
+       "atomic_number_91"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "pulsation.n.01",
+      "lemmas": [
+       "pulsation",
+       "pulsing",
+       "pulse",
+       "impulse"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "senior_moment.n.01",
+      "lemmas": [
+       "senior_moment"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "shower.n.03",
+      "lemmas": [
+       "shower",
+       "rain_shower"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "slumber_party.n.01",
+      "lemmas": [
+       "slumber_party"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "spending_spree.n.01",
+      "lemmas": [
+       "spending_spree"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "spike.n.01",
+      "lemmas": [
+       "spike"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "stir.n.01",
+      "lemmas": [
+       "stir",
+       "splash"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "subclinical_absence.n.01",
+      "lemmas": [
+       "subclinical_absence"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "temporariness.n.01",
+      "lemmas": [
+       "temporariness"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "tongue.n.03",
+      "lemmas": [
+       "tongue",
+       "knife"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "transaction_file.n.01",
+      "lemmas": [
+       "transaction_file",
+       "detail_file"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "transient.n.02",
+      "lemmas": [
+       "transient"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "valise.n.01",
+      "lemmas": [
+       "valise"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "visit.n.01",
+      "lemmas": [
+       "visit"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "wee.n.01",
+      "lemmas": [
+       "wee"
+      ],
+      "why": "not_organism"
+     }
+    ],
+    "species_unmatched": [
+     {
+      "synset": "annual_fern.n.01",
+      "lemmas": [
+       "annual_fern",
+       "Jersey_fern",
+       "Anogramma_leptophylla"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "ephemerid.n.01",
+      "lemmas": [
+       "ephemerid",
+       "ephemeropteran"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "ephemeron.n.01",
+      "lemmas": [
+       "ephemeron",
+       "ephemeral"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "flash_in_the_pan.n.01",
+      "lemmas": [
+       "flash_in_the_pan"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "flower-of-an-hour.n.01",
+      "lemmas": [
+       "flower-of-an-hour",
+       "flowers-of-an-hour",
+       "bladder_ketmia",
+       "black-eyed_Susan",
+       "Hibiscus_trionum"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "fraser_fir.n.01",
+      "lemmas": [
+       "Fraser_fir",
+       "Abies_fraseri"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "mayfly.n.01",
+      "lemmas": [
+       "mayfly",
+       "dayfly",
+       "shadfly"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "overnighter.n.01",
+      "lemmas": [
+       "overnighter"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "portulaca.n.01",
+      "lemmas": [
+       "portulaca"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "red_clover.n.01",
+      "lemmas": [
+       "red_clover",
+       "purple_clover",
+       "Trifolium_pratense"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "siberian_wall_flower.n.01",
+      "lemmas": [
+       "Siberian_wall_flower",
+       "Erysimum_allionii",
+       "Cheiranthus_allionii"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "spree_killer.n.01",
+      "lemmas": [
+       "spree_killer"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "transient.n.01",
+      "lemmas": [
+       "transient"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "western_wall_flower.n.01",
+      "lemmas": [
+       "western_wall_flower",
+       "Erysimum_asperum",
+       "Cheiranthus_asperus",
+       "Erysimum_arkansanum"
+      ],
+      "why": "organism_absent_from_anage"
+     }
+    ]
+   },
+   "enduring": {
+    "matched_no_lifespan": [],
+    "non_species": [
+     {
+      "synset": "anterograde_amnesia.n.01",
+      "lemmas": [
+       "anterograde_amnesia",
+       "posttraumatic_amnesia"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "antiquity.n.03",
+      "lemmas": [
+       "antiquity"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "blue_moon.n.01",
+      "lemmas": [
+       "blue_moon"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "chlorhexidine.n.01",
+      "lemmas": [
+       "chlorhexidine"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "cyclothymia.n.01",
+      "lemmas": [
+       "cyclothymia",
+       "cyclothymic_disorder",
+       "cyclic_disorder"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "durance.n.01",
+      "lemmas": [
+       "durance"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "eon.n.01",
+      "lemmas": [
+       "eon",
+       "aeon"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "epoch.n.03",
+      "lemmas": [
+       "epoch"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "era.n.02",
+      "lemmas": [
+       "era",
+       "geological_era"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "fossil.n.02",
+      "lemmas": [
+       "fossil"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "hangover.n.03",
+      "lemmas": [
+       "hangover",
+       "holdover"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "index_fossil.n.01",
+      "lemmas": [
+       "index_fossil",
+       "guide_fossil"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "institution.n.03",
+      "lemmas": [
+       "institution"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "longevity.n.02",
+      "lemmas": [
+       "longevity",
+       "seniority"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "macrobiotics.n.01",
+      "lemmas": [
+       "macrobiotics"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "macroevolution.n.01",
+      "lemmas": [
+       "macroevolution"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "paige.n.01",
+      "lemmas": [
+       "Paige",
+       "Satchel_Paige",
+       "Leroy_Robert_Paige"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "period.n.04",
+      "lemmas": [
+       "period",
+       "geological_period"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "relic.n.01",
+      "lemmas": [
+       "relic"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "restoration.n.06",
+      "lemmas": [
+       "restoration"
+      ],
+      "why": "not_organism"
+     },
+     {
+      "synset": "trauma.n.02",
+      "lemmas": [
+       "trauma",
+       "psychic_trauma"
+      ],
+      "why": "not_organism"
+     }
+    ],
+    "species_unmatched": [
+     {
+      "synset": "chincherinchee.n.01",
+      "lemmas": [
+       "chincherinchee",
+       "wonder_flower",
+       "Ornithogalum_thyrsoides"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "geebung.n.01",
+      "lemmas": [
+       "geebung"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "magnolia.n.02",
+      "lemmas": [
+       "magnolia"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "old_world_yew.n.01",
+      "lemmas": [
+       "Old_World_yew",
+       "English_yew",
+       "Taxus_baccata"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "pipal.n.01",
+      "lemmas": [
+       "pipal",
+       "pipal_tree",
+       "pipul",
+       "peepul",
+       "sacred_fig",
+       "bo_tree"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "slow_virus.n.01",
+      "lemmas": [
+       "slow_virus"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "spider_flower.n.01",
+      "lemmas": [
+       "spider_flower",
+       "spider_plant",
+       "Cleome_hassleriana"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "synset": "tamarind.n.01",
+      "lemmas": [
+       "tamarind",
+       "tamarind_tree",
+       "tamarindo",
+       "Tamarindus_indica"
+      ],
+      "why": "organism_absent_from_anage"
+     }
+    ]
+   }
+  }
+ },
+ "zh": {
+  "coverage": {
+   "tight_ephemeral": {
+    "class_members": 206,
+    "species_matched": 0,
+    "sit_out_total": 206,
+    "no_hownet_entry": 123,
+    "not_organism_sense": 77,
+    "species_unmatched": 6
+   },
+   "enduring": {
+    "class_members": 370,
+    "species_matched": 3,
+    "sit_out_total": 367,
+    "no_hownet_entry": 249,
+    "not_organism_sense": 115,
+    "species_unmatched": 3
+   }
+  },
+  "metrics": {
+   "auc_enduring_gt_ephemeral": null,
+   "dist_ephemeral": null,
+   "dist_enduring": {
+    "n": 3,
+    "median": 177.0,
+    "iqr": [
+     111.0,
+     2619.5
+    ],
+    "min": 45.0,
+    "max": 5062.0
+   },
+   "oom_gap_median_log10": null
+  },
+  "receipts": {
+   "tight_ephemeral": [],
+   "enduring": [
+    {
+     "zh_word": "松柏",
+     "class": "enduring",
+     "form_used": "松柏",
+     "W_E_glosses": [
+      "pine and cypress"
+     ],
+     "matched_gloss": "pine and cypress",
+     "matched_DEF": "{tree|树}",
+     "rule": "head_noun",
+     "n_db_rows": 1,
+     "db_row": {
+      "hagrid": "04664",
+      "binomial": "Pinus longaeva",
+      "common": "Great Basin bristlecone pine",
+      "max_longevity_yrs": 5062.0
+     },
+     "lifespan_yrs": 5062.0
+    },
+    {
+     "zh_word": "鶴",
+     "class": "enduring",
+     "form_used": "鶴+鹤",
+     "W_E_glosses": [
+      "",
+      "crane"
+     ],
+     "matched_gloss": "crane",
+     "matched_DEF": "{bird|禽:{contain|包含:OfPart={part|部件:PartPosition={head|头},modifier={LengthLong|长}},whole={~}}}",
+     "rule": "head_noun",
+     "n_db_rows": 10,
+     "db_row": {
+      "hagrid": "00715",
+      "binomial": "Grus vipio",
+      "common": "White-naped crane",
+      "max_longevity_yrs": 45.0
+     },
+     "lifespan_yrs": 45.0
+    },
+    {
+     "zh_word": "龜",
+     "class": "enduring",
+     "form_used": "龟",
+     "W_E_glosses": [
+      "tortoise"
+     ],
+     "matched_gloss": "tortoise",
+     "matched_DEF": "{fish|鱼}",
+     "rule": "head_noun",
+     "n_db_rows": 19,
+     "db_row": {
+      "hagrid": "03769",
+      "binomial": "Chelonoidis nigra",
+      "common": "Galapagos tortoise",
+      "max_longevity_yrs": 177.0
+     },
+     "lifespan_yrs": 177.0
+    }
+   ]
+  },
+  "sit_out": {
+   "tight_ephemeral": {
+    "no_hownet_entry": [
+     "一回",
+     "一大會兒",
+     "一念之間",
+     "一息",
+     "一晌",
+     "一會",
+     "一會子",
+     "一步",
+     "一漚",
+     "一腳地",
+     "一餉",
+     "三頭兩日",
+     "下子",
+     "不主故常",
+     "不斷電系統",
+     "不消一刻",
+     "不終朝",
+     "亂流",
+     "些兒",
+     "人生一世，草生一秋",
+     "人生如風燈",
+     "來去匆匆",
+     "促促",
+     "克希荷夫定律",
+     "八月花神",
+     "功在漏刻",
+     "動勢",
+     "動物保定",
+     "半合兒",
+     "半日片刻",
+     "半霎",
+     "半頓飯工夫",
+     "半餉",
+     "南頓",
+     "咄唶",
+     "咄嗟",
+     "咄嗟便辦",
+     "坑灰未冷",
+     "塞聲",
+     "塵捲風",
+     "夏蟲朝菌",
+     "夜燕",
+     "夢蝶",
+     "如坐鍼氈",
+     "寄命",
+     "寸陰尺璧",
+     "寸隙",
+     "尺波",
+     "尺波電謝",
+     "巡指間",
+     "巴黎公社",
+     "待一會兒",
+     "恂目",
+     "息喘",
+     "打個沉兒",
+     "掣電",
+     "政治分析",
+     "敗不旋踵",
+     "斯須",
+     "日不移晷",
+     "春夢一場",
+     "時來暫去",
+     "朝榮夕悴",
+     "朝榮夕斃",
+     "朝榮夕滅",
+     "朝榮暮落",
+     "朝生暮死",
+     "朝菌",
+     "期月有成",
+     "東風射馬耳",
+     "正反合",
+     "步進馬達",
+     "氣爆",
+     "水上漚",
+     "沒忽的",
+     "流光瞬息",
+     "浮漚",
+     "浮生瞬息",
+     "浮生若夢",
+     "漏刻之間",
+     "漏電斷路器",
+     "熱帶栽培業",
+     "狂華",
+     "疾風掃秋葉",
+     "盛筵必散",
+     "盛筵易散",
+     "盹兒",
+     "看看",
+     "眼前歡",
+     "眼前花",
+     "瞥地",
+     "瞬即",
+     "瞬得彩色電影",
+     "瞬時速度",
+     "禍不反踵",
+     "立枷",
+     "立談之間",
+     "等一下",
+     "等一會兒",
+     "菸鹼酸",
+     "萍聚",
+     "薤露",
+     "跑兔子",
+     "返照回光",
+     "速食主義",
+     "速食戀愛",
+     "過眼風燈",
+     "過路財神",
+     "長痛不如短痛",
+     "閻王叫你三更死，誰敢留人到五更",
+     "陣雲",
+     "集體行為",
+     "雲煙過眼",
+     "電光石火",
+     "電熱水器",
+     "電震",
+     "露水交道",
+     "露水姻緣",
+     "露電",
+     "頃久",
+     "飛魚飛彈",
+     "駒光",
+     "驚鴻一瞥"
+    ],
+    "not_organism_sense": [
+     {
+      "zh_word": "一向",
+      "form_used": "一向",
+      "senses": [
+       {
+        "W_E": "all along",
+        "DEF": "{always|总是}"
+       },
+       {
+        "W_E": "consistently",
+        "DEF": "{always|总是}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一時一刻",
+      "form_used": "一时一刻",
+      "senses": [
+       {
+        "W_E": "every moment",
+        "DEF": "{always|总是}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一晃",
+      "form_used": "一晃",
+      "senses": [
+       {
+        "W_E": "flash",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "pass in a flash",
+        "DEF": "{pass|度过}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一會兒",
+      "form_used": "一会儿",
+      "senses": [
+       {
+        "W_E": "in a moment",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "presently",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "now...now",
+        "DEF": "{rarely|偶尔}"
+       },
+       {
+        "W_E": "a little while",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "a short while",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一朝一夕",
+      "form_used": "一朝一夕",
+      "senses": [
+       {
+        "W_E": "in one day",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in one morning or evening",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "overnight",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一瞥",
+      "form_used": "一瞥",
+      "senses": [
+       {
+        "W_E": "glance",
+        "DEF": "{experience|感受:CoEvent={look|看}}"
+       },
+       {
+        "W_E": "peek",
+        "DEF": "{experience|感受:CoEvent={look|看}}"
+       },
+       {
+        "W_E": "brief survey",
+        "DEF": "{text|语文:concerning={result|结果:{investigate|调查:content={~}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一瞬",
+      "form_used": "一瞬",
+      "senses": [
+       {
+        "W_E": "twinkling",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一霎",
+      "form_used": "一霎",
+      "senses": [
+       {
+        "W_E": "in a moment",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in an instant",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "一霎時",
+      "form_used": "一霎时",
+      "senses": [
+       {
+        "W_E": "in a moment",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "些小",
+      "form_used": "些小",
+      "senses": [
+       {
+        "W_E": "slightly",
+        "DEF": "{ish|稍}"
+       }
+      ]
+     },
+     {
+      "zh_word": "亮相",
+      "form_used": "亮相",
+      "senses": [
+       {
+        "W_E": "strike a pose on a stage",
+        "DEF": "{appear|出现}"
+       },
+       {
+        "W_E": "debut",
+        "DEF": "{appear|出现:sequence={first|首次}}"
+       },
+       {
+        "W_E": "debut",
+        "DEF": "{appear|出现:sequence={first|首次}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "人生如夢",
+      "form_used": "人生如梦",
+      "senses": [
+       {
+        "W_E": "life is but a dream",
+        "DEF": "{be|是:descriptive={TimeShort|短时间},relevant={alive|活着}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "來不及",
+      "form_used": "来不及",
+      "senses": [
+       {
+        "W_E": "there is no time",
+        "DEF": "{OwnNot|无:possession={time|时间}}"
+       },
+       {
+        "W_E": "there is not enough time",
+        "DEF": "{OwnNot|无:possession={time|时间}}"
+       },
+       {
+        "W_E": "it be too late",
+        "DEF": "{late|迟}"
+       }
+      ]
+     },
+     {
+      "zh_word": "俄",
+      "form_used": "俄",
+      "senses": [
+       {
+        "W_E": "Russian",
+        "DEF": "{RelatingToCountry|与特定国家相关:RelateTo=\"Russia|俄罗斯}}"
+       },
+       {
+        "W_E": "Russia",
+        "DEF": "{place|地方:PlaceSect={country|国家},belong={Europe|欧洲},domain={"
+       }
+      ]
+     },
+     {
+      "zh_word": "俄然",
+      "form_used": "俄然",
+      "senses": [
+       {
+        "W_E": "suddenly",
+        "DEF": "{sudden|骤然}"
+       }
+      ]
+     },
+     {
+      "zh_word": "俯仰之間",
+      "form_used": "俯仰之间",
+      "senses": [
+       {
+        "W_E": "in a flash",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in an instant",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in the twinkling of an eye",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "分陰",
+      "form_used": "分阴",
+      "senses": [
+       {
+        "W_E": "very short time",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "刻",
+      "form_used": "刻",
+      "senses": [
+       {
+        "W_E": "carve",
+        "DEF": "{carve|雕刻}"
+       },
+       {
+        "W_E": "cut",
+        "DEF": "{carve|雕刻}"
+       },
+       {
+        "W_E": "cutting",
+        "DEF": "{carve|雕刻}"
+       },
+       {
+        "W_E": "engrave",
+        "DEF": "{carve|雕刻}"
+       },
+       {
+        "W_E": "quarter",
+        "DEF": "{time|时间:TimeSect={hour|时}}"
+       },
+       {
+        "W_E": "moment",
+        "DEF": "{time|时间:modifier={important|重要}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "剎時",
+      "form_used": "刹时",
+      "senses": [
+       {
+        "W_E": "instantly",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "半晌",
+      "form_used": "半晌",
+      "senses": [
+       {
+        "W_E": "half of the day",
+        "DEF": "{time|时间:TimeSect={day|日:quantity={half|半}}}"
+       },
+       {
+        "W_E": "long time",
+        "DEF": "{time|时间:modifier={TimeLong|长时间}}"
+       },
+       {
+        "W_E": "quite a while",
+        "DEF": "{time|时间:modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "吧",
+      "form_used": "吧",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{FuncWord|功能词:adjunct={MaChinese|语助}}"
+       },
+       {
+        "W_E": "bar",
+        "DEF": "{InstitutePlace|场所:domain={commerce|商业},{drink|喝:location={~"
+       },
+       {
+        "W_E": "barroom",
+        "DEF": "{InstitutePlace|场所:domain={commerce|商业},{drink|喝:location={~"
+       },
+       {
+        "W_E": "house",
+        "DEF": "{InstitutePlace|场所:domain={commerce|商业},{recreation|娱乐:locat"
+       },
+       {
+        "W_E": "smoke",
+        "DEF": "{addict|嗜好}"
+       },
+       {
+        "W_E": "crack",
+        "DEF": "{sound|声:{MakeSound|发声:content={~},time={break|折断}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "呼吸",
+      "form_used": "呼吸",
+      "senses": [
+       {
+        "W_E": "breath",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "breathe",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "respiration",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "respiratory",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "respire",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "suspire",
+        "DEF": "{respire|呼吸}"
+       },
+       {
+        "W_E": "take a breath",
+        "DEF": "{respire|呼吸}"
+       }
+      ]
+     },
+     {
+      "zh_word": "喘息",
+      "form_used": "喘息",
+      "senses": [
+       {
+        "W_E": "gasp for breath",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "pant",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "pant",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "wheeze",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "have a breather",
+        "DEF": "{rest|休息}"
+       },
+       {
+        "W_E": "take a breather",
+        "DEF": "{rest|休息}"
+       }
+      ]
+     },
+     {
+      "zh_word": "喘氣",
+      "form_used": "喘气",
+      "senses": [
+       {
+        "W_E": "breathe deeply",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "gasp",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "gasp",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "pant",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "pant",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "wheeze",
+        "DEF": "{pant|气喘}"
+       },
+       {
+        "W_E": "have a breather",
+        "DEF": "{rest|休息}"
+       },
+       {
+        "W_E": "take a breather",
+        "DEF": "{rest|休息}"
+       }
+      ]
+     },
+     {
+      "zh_word": "回光返照",
+      "form_used": "回光返照",
+      "senses": [
+       {
+        "W_E": "temporary flourishing before fading away",
+        "DEF": "{phenomena|现象:CoEvent={prosper|发达:manner={last|最后}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "堰塞湖",
+      "form_used": "堰塞湖",
+      "senses": [
+       {
+        "W_E": "barrier lake",
+        "DEF": "{waters|水域:modifier={planar|面},{ComeToWorld|问世:cause={mishap"
+       },
+       {
+        "W_E": "dammed lake",
+        "DEF": "{waters|水域:modifier={planar|面},{ComeToWorld|问世:cause={mishap"
+       },
+       {
+        "W_E": "earthquake-induced dammed lake",
+        "DEF": "{waters|水域:modifier={planar|面},{ComeToWorld|问世:cause={mishap"
+       }
+      ]
+     },
+     {
+      "zh_word": "壓電效應",
+      "form_used": "压电效应",
+      "senses": [
+       {
+        "W_E": "piezo effect",
+        "DEF": "{Effectivity|效果:host={electricity|电}}"
+       },
+       {
+        "W_E": "piezoelectric effect",
+        "DEF": "{Effectivity|效果:host={electricity|电}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "如坐針氈",
+      "form_used": "如坐针毡",
+      "senses": [
+       {
+        "W_E": "feel as if sitting on a bed of nails",
+        "DEF": "{uneasy|不安}"
+       },
+       {
+        "W_E": "on pins and needles",
+        "DEF": "{uneasy|不安}"
+       },
+       {
+        "W_E": "on tenterhooks",
+        "DEF": "{uneasy|不安}"
+       }
+      ]
+     },
+     {
+      "zh_word": "嫩",
+      "form_used": "嫩",
+      "senses": [
+       {
+        "W_E": "inexperienced",
+        "DEF": "{able|能:adjunct={neg|否}}"
+       },
+       {
+        "W_E": "unskilled",
+        "DEF": "{able|能:adjunct={neg|否}}"
+       },
+       {
+        "W_E": "light",
+        "DEF": "{light|淡}"
+       },
+       {
+        "W_E": "delicate",
+        "DEF": "{tender|嫩}"
+       },
+       {
+        "W_E": "tender",
+        "DEF": "{tender|嫩}"
+       }
+      ]
+     },
+     {
+      "zh_word": "小別",
+      "form_used": "小别",
+      "senses": [
+       {
+        "W_E": "part for a short time",
+        "DEF": "{farewell|离别:duration={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "小憩",
+      "form_used": "小憩",
+      "senses": [
+       {
+        "W_E": "have a short rest",
+        "DEF": "{rest|休息:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "short rest",
+        "DEF": "{rest|休息:duration={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "小睡",
+      "form_used": "小睡",
+      "senses": [
+       {
+        "W_E": "catch a wink",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "doze off",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "drowze off",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "get drowzy",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "nap",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "snooze",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "take a short sleep",
+        "DEF": "{sleep|睡:duration={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "少候",
+      "form_used": "少候",
+      "senses": [
+       {
+        "W_E": "wait a moment",
+        "DEF": "{wait|等待:duration={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "少時",
+      "form_used": "少时",
+      "senses": [
+       {
+        "W_E": "soon",
+        "DEF": "{soon|即将}"
+       }
+      ]
+     },
+     {
+      "zh_word": "少頃",
+      "form_used": "少顷",
+      "senses": [
+       {
+        "W_E": "in a short while",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "彈指",
+      "form_used": "弹指",
+      "senses": [
+       {
+        "W_E": "snap one's fingers",
+        "DEF": "{PartSelfMove|部件自移}"
+       }
+      ]
+     },
+     {
+      "zh_word": "彈指之間",
+      "form_used": "弹指之间",
+      "senses": [
+       {
+        "W_E": "in a flash",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in an instant",
+        "DEF": "{TimeShort|短时间}"
+       },
+       {
+        "W_E": "in the twinkling of an eye",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "忽",
+      "form_used": "忽",
+      "senses": [
+       {
+        "W_E": "sometimes",
+        "DEF": "{rarely|偶尔}"
+       },
+       {
+        "W_E": "suddenly",
+        "DEF": "{sudden|骤然}"
+       }
+      ]
+     },
+     {
+      "zh_word": "拔火罐",
+      "form_used": "拔火罐",
+      "senses": [
+       {
+        "W_E": "cupping",
+        "DEF": "{method|方法:belong={China|中国},{doctor|医治:method={~}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "拔罐子",
+      "form_used": "拔罐子",
+      "senses": [
+       {
+        "W_E": "cupping",
+        "DEF": "{method|方法:belong={China|中国},{doctor|医治:method={~}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "持球",
+      "form_used": "持球",
+      "senses": [
+       {
+        "W_E": "holding",
+        "DEF": "{err|出错:domain={basketball|篮球}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "日光節約時間",
+      "form_used": "日光节约时间",
+      "senses": [
+       {
+        "W_E": "daylight saving time",
+        "DEF": "{system|制度:concerning={time|时间}}"
+       },
+       {
+        "W_E": "daylight savings",
+        "DEF": "{system|制度:concerning={time|时间}}"
+       },
+       {
+        "W_E": "daylight-saving time",
+        "DEF": "{system|制度:concerning={time|时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "晌",
+      "form_used": "晌",
+      "senses": [
+       {
+        "W_E": "part of the day",
+        "DEF": "{time|时间}"
+       },
+       {
+        "W_E": "noon",
+        "DEF": "{time|时间:TimeSect={afternoon|午}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "智人",
+      "form_used": "智人",
+      "senses": [
+       {
+        "W_E": "resourceful person",
+        "DEF": "{human|人:modifier={erudite|有学问}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "會",
+      "form_used": "会",
+      "senses": [
+       {
+        "W_E": "be able",
+        "DEF": "{BeAble|能够}"
+       },
+       {
+        "W_E": "can",
+        "DEF": "{BeAble|能够}"
+       },
+       {
+        "W_E": "could",
+        "DEF": "{BeAble|能够}"
+       },
+       {
+        "W_E": "assemblage",
+        "DEF": "{ComeTogether|集聚}"
+       },
+       {
+        "W_E": "assemble",
+        "DEF": "{ComeTogether|集聚}"
+       },
+       {
+        "W_E": "get together",
+        "DEF": "{ComeTogether|集聚}"
+       },
+       {
+        "W_E": "be sure to",
+        "DEF": "{FuncWord|功能词:comment={?}}"
+       },
+       {
+        "W_E": "possibly",
+        "DEF": "{FuncWord|功能词:comment={?}}"
+       },
+       {
+        "W_E": "will",
+        "DEF": "{FuncWord|功能词:will={?}}"
+       },
+       {
+        "W_E": "opportunity",
+        "DEF": "{Possibility|可能:host={event|事件},modifier={suitable|适宜}}"
+       },
+       {
+        "W_E": "good at",
+        "DEF": "{able|能}"
+       },
+       {
+        "W_E": "skillful in",
+        "DEF": "{able|能}"
+       },
+       {
+        "W_E": "association",
+        "DEF": "{community|团体}"
+       },
+       {
+        "W_E": "union",
+        "DEF": "{community|团体}"
+       },
+       {
+        "W_E": "society",
+        "DEF": "{community|团体:RelateTo={emotion|情感:CoEvent={FondOf|喜欢},modif"
+       },
+       {
+        "W_E": "conference",
+        "DEF": "{fact|事情:CoEvent={ComeTogether|集聚}{discuss|商讨}}"
+       },
+       {
+        "W_E": "gathering",
+        "DEF": "{fact|事情:CoEvent={ComeTogether|集聚}{discuss|商讨}}"
+       },
+       {
+        "W_E": "meeting",
+        "DEF": "{fact|事情:CoEvent={ComeTogether|集聚}{discuss|商讨}}"
+       },
+       {
+        "W_E": "meet",
+        "DEF": "{meet|会面}"
+       },
+       {
+        "W_E": "see",
+        "DEF": "{meet|会面}"
+       },
+       {
+        "W_E": "pay",
+        "DEF": "{pay|付}"
+       },
+       {
+        "W_E": "a moment",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "a short time",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "grasp",
+        "DEF": "{understand|领会}"
+       },
+       {
+        "W_E": "understand",
+        "DEF": "{understand|领会}"
+       }
+      ]
+     },
+     {
+      "zh_word": "會兒",
+      "form_used": "会儿",
+      "senses": [
+       {
+        "W_E": "a moment",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "a short time",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "會子",
+      "form_used": "会子",
+      "senses": [
+       {
+        "W_E": "a moment",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "a short while",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "朝朝暮暮",
+      "form_used": "朝朝暮暮",
+      "senses": [
+       {
+        "W_E": "day and night",
+        "DEF": "{time|时间:TimeSect={daytime|白昼}};{time|时间:TimeSect={night|夜}}"
+       },
+       {
+        "W_E": "from dawn to dusk",
+        "DEF": "{time|时间:TimeSect={day|日},modifier={wholly|全面}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "朝露",
+      "form_used": "朝露",
+      "senses": [
+       {
+        "W_E": "morning dew",
+        "DEF": "{RainSnow|雨雪:time={time|时间:TimeSect={morning|晨}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "歇晌",
+      "form_used": "歇晌",
+      "senses": [
+       {
+        "W_E": "take a midday rest",
+        "DEF": "{rest|休息:time={time|时间:TimeSect={afternoon|午}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "浮光掠影",
+      "form_used": "浮光掠影",
+      "senses": [
+       {
+        "W_E": "cursorily",
+        "DEF": "{insubstantial|空洞}"
+       },
+       {
+        "W_E": "cursory",
+        "DEF": "{insubstantial|空洞}"
+       },
+       {
+        "W_E": "hastily and casually",
+        "DEF": "{insubstantial|空洞}"
+       },
+       {
+        "W_E": "hasty and casual",
+        "DEF": "{insubstantial|空洞}"
+       },
+       {
+        "W_E": "skimming over the surface",
+        "DEF": "{insubstantial|空洞}"
+       }
+      ]
+     },
+     {
+      "zh_word": "無時無刻",
+      "form_used": "无时无刻",
+      "senses": [
+       {
+        "W_E": "all the time",
+        "DEF": "{always|总是}"
+       }
+      ]
+     },
+     {
+      "zh_word": "爆發力",
+      "form_used": "爆发力",
+      "senses": [
+       {
+        "W_E": "explosive force",
+        "DEF": "{Strength|力量:host={physical|物质}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "片",
+      "form_used": "片",
+      "senses": [
+       {
+        "W_E": "piece",
+        "DEF": "{NounUnit|名量:host={inanimate|无生物}}"
+       },
+       {
+        "W_E": "slice",
+        "DEF": "{NounUnit|名量:host={inanimate|无生物}}"
+       },
+       {
+        "W_E": "cut into slices",
+        "DEF": "{cut|切削}"
+       },
+       {
+        "W_E": "fragmentary",
+        "DEF": "{fragment|部}"
+       },
+       {
+        "W_E": "partially",
+        "DEF": "{fragment|部}"
+       },
+       {
+        "W_E": "pieces of",
+        "DEF": "{fragment|部}"
+       },
+       {
+        "W_E": "incomplete",
+        "DEF": "{incomplete|缺}"
+       },
+       {
+        "W_E": "partial",
+        "DEF": "{pieced|片面}"
+       },
+       {
+        "W_E": "flake",
+        "DEF": "{shape|物形}"
+       },
+       {
+        "W_E": "flat and thin piece",
+        "DEF": "{shape|物形}"
+       },
+       {
+        "W_E": "slice",
+        "DEF": "{shape|物形}"
+       },
+       {
+        "W_E": "film",
+        "DEF": "{shows|表演物}"
+       }
+      ]
+     },
+     {
+      "zh_word": "片時",
+      "form_used": "片时",
+      "senses": [
+       {
+        "W_E": "a moment",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       },
+       {
+        "W_E": "a short while",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "生光",
+      "form_used": "生光",
+      "senses": [
+       {
+        "W_E": "third contact",
+        "DEF": "{part|部件:whole={weather|天象:CoEvent={obstruct|阻止:agent={celes"
+       }
+      ]
+     },
+     {
+      "zh_word": "癌症",
+      "form_used": "癌症",
+      "senses": [
+       {
+        "W_E": "Cancer",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "cancer",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "carcinoma",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "malignancy",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "malignant tumor",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "sarcoma",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       }
+      ]
+     },
+     {
+      "zh_word": "眨眼",
+      "form_used": "眨眼",
+      "senses": [
+       {
+        "W_E": "blink",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "nictate",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "nictitate",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "twinkle",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "twinkle",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "wink",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "wink",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       }
+      ]
+     },
+     {
+      "zh_word": "瞬",
+      "form_used": "瞬",
+      "senses": [
+       {
+        "W_E": "twinkling",
+        "DEF": "{CausePartMove|部件他移:PatientPart={part|部件:PartPosition={eye|眼"
+       },
+       {
+        "W_E": "wink",
+        "DEF": "{time|时间:modifier={TimeShort|短时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "短促",
+      "form_used": "短促",
+      "senses": [
+       {
+        "W_E": "brief",
+        "DEF": "{TimeShort|短时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "禍不旋踵",
+      "form_used": "祸不旋踵",
+      "senses": [
+       {
+        "W_E": "misfortune is not far off",
+        "DEF": "{suffer|遭受:content={misfortunate|倒霉}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "稍後",
+      "form_used": "稍后",
+      "senses": [
+       {
+        "W_E": "for a little while",
+        "DEF": "{soon|即将}"
+       },
+       {
+        "W_E": "later",
+        "DEF": "{soon|即将}"
+       }
+      ]
+     },
+     {
+      "zh_word": "等等",
+      "form_used": "等等",
+      "senses": [
+       {
+        "W_E": "and so on",
+        "DEF": "{FuncWord|功能词:and={?}}"
+       },
+       {
+        "W_E": "and so on and so forth",
+        "DEF": "{FuncWord|功能词:and={?}}"
+       },
+       {
+        "W_E": "etc",
+        "DEF": "{FuncWord|功能词:and={?}}"
+       },
+       {
+        "W_E": "wait",
+        "DEF": "{wait|等待}"
+       }
+      ]
+     },
+     {
+      "zh_word": "脈衝",
+      "form_used": "脉冲",
+      "senses": [
+       {
+        "W_E": "burst",
+        "DEF": "{phenomena|现象}"
+       },
+       {
+        "W_E": "pulse",
+        "DEF": "{phenomena|现象:CoEvent={shiver|颤动}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "觸電",
+      "form_used": "触电",
+      "senses": [
+       {
+        "W_E": "get an electric shock",
+        "DEF": "{touch|触:patient={electricity|电}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "跳水",
+      "form_used": "跳水",
+      "senses": [
+       {
+        "W_E": "diving",
+        "DEF": "{fact|事情:CoEvent={exercise|锻炼},domain={sport|体育}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "迴光返照",
+      "form_used": "回光返照",
+      "senses": [
+       {
+        "W_E": "temporary flourishing before fading away",
+        "DEF": "{phenomena|现象:CoEvent={prosper|发达:manner={last|最后}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "過客",
+      "form_used": "过客",
+      "senses": [
+       {
+        "W_E": "passing traveller",
+        "DEF": "{human|人:{tour|旅游:agent={~}}}"
+       },
+       {
+        "W_E": "transient guest",
+        "DEF": "{human|人:{tour|旅游:agent={~}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "遺像",
+      "form_used": "遗像",
+      "senses": [
+       {
+        "W_E": "portrait of the deceased",
+        "DEF": "{image|图像:concerning={human|人:{die|死:experiencer={~}}},{draw"
+       }
+      ]
+     },
+     {
+      "zh_word": "閃光",
+      "form_used": "闪光",
+      "senses": [
+       {
+        "W_E": "coruscate",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "flash",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "gleam",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "glisten",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "glitter",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "glittering",
+        "DEF": "{illuminate|照射}"
+       },
+       {
+        "W_E": "flare",
+        "DEF": "{lights|光}"
+       },
+       {
+        "W_E": "flash of light",
+        "DEF": "{lights|光}"
+       },
+       {
+        "W_E": "glimmer",
+        "DEF": "{lights|光}"
+       },
+       {
+        "W_E": "glitter",
+        "DEF": "{lights|光}"
+       }
+      ]
+     },
+     {
+      "zh_word": "閃現",
+      "form_used": "闪现",
+      "senses": [
+       {
+        "W_E": "flash",
+        "DEF": "{appear|出现:manner={fast|快}}"
+       },
+       {
+        "W_E": "crop up",
+        "DEF": "{appear|出现:manner={sudden|骤然}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "降雨",
+      "form_used": "降雨",
+      "senses": [
+       {
+        "W_E": "rainfall",
+        "DEF": "{RainSnow|雨雪:restrictive={water|水}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "陣雨",
+      "form_used": "阵雨",
+      "senses": [
+       {
+        "W_E": "internittent rain",
+        "DEF": "{RainSnow|雨雪:RelateTo={WeatherBad|坏天},modifier={strong|强}}"
+       },
+       {
+        "W_E": "shower",
+        "DEF": "{RainSnow|雨雪:RelateTo={WeatherBad|坏天},modifier={strong|强}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "露水",
+      "form_used": "露水",
+      "senses": [
+       {
+        "W_E": "dew",
+        "DEF": "{RainSnow|雨雪}"
+       }
+      ]
+     },
+     {
+      "zh_word": "韻律",
+      "form_used": "韵律",
+      "senses": [
+       {
+        "W_E": "cadence",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "gradus",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "meter",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "metre",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "number",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "rhyme scheme",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "rhythm",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       },
+       {
+        "W_E": "speech rhythm",
+        "DEF": "{Pattern|样式:host={text|语文}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "須臾",
+      "form_used": "须臾",
+      "senses": [
+       {
+        "W_E": "instant",
+        "DEF": "{soon|即将}"
+       },
+       {
+        "W_E": "instantly",
+        "DEF": "{soon|即将}"
+       }
+      ]
+     },
+     {
+      "zh_word": "餉",
+      "form_used": "餉+饷",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "pay",
+        "DEF": "{payment|酬金}"
+       }
+      ]
+     }
+    ],
+    "species_unmatched": [
+     {
+      "zh_word": "俯仰",
+      "form_used": "俯仰",
+      "organism_glosses": [
+       "lower and lift one's head"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "回頭",
+      "form_used": "回头",
+      "organism_glosses": [
+       "turn one's head",
+       "turn round",
+       "whip round"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "曇花",
+      "form_used": "昙花",
+      "organism_glosses": [
+       "epiphyllum"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "草本",
+      "form_used": "草本",
+      "organism_glosses": [
+       "herbaceous"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "蜉蝣",
+      "form_used": "蜉蝣",
+      "organism_glosses": [
+       "ephemeron",
+       "mayfly"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "須",
+      "form_used": "須+须",
+      "organism_glosses": [
+       "feeler",
+       "palpus"
+      ],
+      "why": "organism_absent_from_anage"
+     }
+    ]
+   },
+   "enduring": {
+    "no_hownet_entry": [
+     "上命",
+     "上壽",
+     "不悶",
+     "不死樹",
+     "丹砂井",
+     "久別相逢",
+     "久別重逢",
+     "久夢初醒",
+     "久客",
+     "久旱不雨",
+     "久旱逢甘霖",
+     "久視",
+     "九世之仇",
+     "五族共和",
+     "五日京兆",
+     "亞伯拉罕",
+     "人參果",
+     "仁壽",
+     "仰韶文化",
+     "修齡",
+     "倦鳥知返",
+     "傳聞異辭",
+     "元生代",
+     "八難",
+     "再生資源",
+     "十三行遺址",
+     "千歲",
+     "千秋萬世",
+     "千秋萬古",
+     "千秋萬歲",
+     "千載",
+     "千載一合",
+     "千載一會",
+     "千載一逢",
+     "千載一遇",
+     "南京市",
+     "南山壽",
+     "南極仙翁",
+     "南極呈祥",
+     "南極星輝",
+     "南門市場",
+     "印度法系",
+     "卻病延年",
+     "厚生",
+     "原生代",
+     "古厝",
+     "古屋",
+     "古廟",
+     "古瓷",
+     "古畫",
+     "吹送流",
+     "喬松之壽",
+     "國際人權組織",
+     "埃及曆",
+     "埃及阿拉伯共和國",
+     "堯齡",
+     "壙久",
+     "壽域",
+     "壽夭",
+     "壽山福海",
+     "壽數",
+     "壽星吃砒霜",
+     "壽民",
+     "夙願以償",
+     "多歷年代",
+     "多福多壽",
+     "多福多壽多男",
+     "大仙爺",
+     "天長地老",
+     "天長地遠",
+     "夭壽",
+     "孫文學說",
+     "安期生",
+     "宜興縣",
+     "富無三代享",
+     "富貴草頭露",
+     "寢丘之志",
+     "小劫",
+     "巨石文化",
+     "常便",
+     "年湮代遠",
+     "底棲生物",
+     "延壽添嗣",
+     "引年",
+     "弧帨齊輝",
+     "彩陶文化",
+     "彭殤",
+     "彭祖",
+     "彭聃",
+     "悠邈",
+     "愛之欲其生，惡之欲其死",
+     "慆慆",
+     "拉丁民族",
+     "持久之計",
+     "日久年深",
+     "日久彌新",
+     "日久月深",
+     "日久歲深",
+     "日漸月染",
+     "日濡月染",
+     "暫勞永逸",
+     "曠久",
+     "曠日引久",
+     "曠日長久",
+     "曼壽",
+     "期頤之壽",
+     "木雁",
+     "本因坊",
+     "松喬之壽",
+     "松柏之壽",
+     "松柏節操",
+     "松柏長青",
+     "松鶴延年",
+     "柏酒",
+     "椒花頌",
+     "椿壽",
+     "椿齡",
+     "極婺聯輝",
+     "橘皮",
+     "氟氯碳化物",
+     "永世無窮",
+     "永久磁鐵",
+     "永保無虞",
+     "永命",
+     "永年",
+     "永永無窮",
+     "永續",
+     "永續經營",
+     "永逸",
+     "江山不老",
+     "浣紗溪",
+     "海乾河盡",
+     "海屋添籌",
+     "海屋籌添",
+     "淹晷",
+     "湄洲",
+     "湯餅會",
+     "源深流長",
+     "溼壁畫",
+     "漸教",
+     "無始無邊",
+     "煤化",
+     "牛山歎",
+     "犀牛望月",
+     "猶太屯墾區",
+     "甘谷",
+     "發光二極體",
+     "白娘子",
+     "白蛇",
+     "白蠟樹",
+     "百年之業",
+     "百年好合",
+     "百武彗星",
+     "百歲千秋",
+     "皇家學會",
+     "益壽",
+     "眉壽",
+     "眼前花",
+     "石枯松老",
+     "石炭紀",
+     "石爛海枯",
+     "石鹼",
+     "磁鐵心",
+     "神木",
+     "福不盈眥",
+     "福壽",
+     "福壽康寧",
+     "福壽綿綿",
+     "福壽綿長",
+     "積壽",
+     "積慮",
+     "積習成常",
+     "窮年累世",
+     "築室反耕",
+     "紋眉",
+     "絕對時間",
+     "經旬累月",
+     "綿歷",
+     "繡閣長春",
+     "續通典",
+     "美意延年",
+     "美洲組織",
+     "義大利獎",
+     "老壽星",
+     "老爺車",
+     "老鳥",
+     "耐久朋",
+     "職業倦怠症",
+     "肉芝",
+     "舊症",
+     "舊邦",
+     "華封三祝",
+     "萬代千秋",
+     "萬歲千秋",
+     "萬載千秋",
+     "萱花椿樹",
+     "蜀繡",
+     "西屋科學獎",
+     "西臺人",
+     "許宣",
+     "豬腳麵線",
+     "越窯",
+     "迷你盆景",
+     "酒介齊眉",
+     "釜中生魚",
+     "錐處囊中",
+     "長便",
+     "長命富貴",
+     "長命縷",
+     "長命鎖",
+     "長川",
+     "長年菜",
+     "長思",
+     "長性",
+     "長樂",
+     "長法",
+     "長濱文化",
+     "長生不死",
+     "長生不滅",
+     "長生久視",
+     "長隨",
+     "閃族",
+     "阿利安人",
+     "隔世",
+     "雷射碟影機",
+     "靈椿",
+     "青果合作社",
+     "靜態說",
+     "頃久",
+     "顯生元",
+     "馬來亞玻里尼西亞語系",
+     "鶴壽",
+     "鶴算龜齡",
+     "鶴齡",
+     "鹼性蓄電池",
+     "麒麟文化",
+     "麥丘老人",
+     "麻了花兒",
+     "麼些族",
+     "黃髮兒齒",
+     "黃髮鮐背",
+     "龜山史前文化相",
+     "龜年",
+     "龜年鶴壽",
+     "龜鶴",
+     "龜鶴同春",
+     "龜齡",
+     "龜齡鶴算",
+     "龜龍麟鳳"
+    ],
+    "not_organism_sense": [
+     {
+      "zh_word": "上古",
+      "form_used": "上古",
+      "senses": [
+       {
+        "W_E": "ancient times",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "remote ages",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "中國畫",
+      "form_used": "中国画",
+      "senses": [
+       {
+        "W_E": "traditional Chinese painting",
+        "DEF": "{image|图像:modifier={RelatingToCountry|与特定国家相关:RelateTo=\"Chin"
+       }
+      ]
+     },
+     {
+      "zh_word": "中新世",
+      "form_used": "中新世",
+      "senses": [
+       {
+        "W_E": "Miocene",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "Miocene epoch",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "中生代",
+      "form_used": "中生代",
+      "senses": [
+       {
+        "W_E": "Mesozoic",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "Mesozoic Era",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "中華民族",
+      "form_used": "中华民族",
+      "senses": [
+       {
+        "W_E": "Chinese nation",
+        "DEF": "{tribe|族群:belong={China|中国}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "久遠",
+      "form_used": "久远",
+      "senses": [
+       {
+        "W_E": "remotely",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "ages ago",
+        "DEF": "{TimeLong|长时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "far back",
+        "DEF": "{TimeLong|长时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "remote",
+        "DEF": "{TimeLong|长时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "了局",
+      "form_used": "了局",
+      "senses": [
+       {
+        "W_E": "end",
+        "DEF": "{finish|完毕}"
+       }
+      ]
+     },
+     {
+      "zh_word": "人壽",
+      "form_used": "人寿",
+      "senses": [
+       {
+        "W_E": "life",
+        "DEF": "{time|时间:TimeSect={lifespan|终生}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "人壽年豐",
+      "form_used": "人寿年丰",
+      "senses": [
+       {
+        "W_E": "land yields good harvests and the people enjoy good health",
+        "DEF": "{happy|幸福}"
+       }
+      ]
+     },
+     {
+      "zh_word": "億萬斯年",
+      "form_used": "亿万斯年",
+      "senses": [
+       {
+        "W_E": "for billions of years",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "八輩子",
+      "form_used": "八辈子",
+      "senses": [
+       {
+        "W_E": "long time",
+        "DEF": "{time|时间:modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "劫",
+      "form_used": "劫",
+      "senses": [
+       {
+        "W_E": "calamity",
+        "DEF": "{mishap|劫难}"
+       },
+       {
+        "W_E": "disaster",
+        "DEF": "{mishap|劫难}"
+       },
+       {
+        "W_E": "misfortune",
+        "DEF": "{mishap|劫难}"
+       },
+       {
+        "W_E": "plunder",
+        "DEF": "{rob|抢}"
+       },
+       {
+        "W_E": "plunder",
+        "DEF": "{rob|抢}"
+       },
+       {
+        "W_E": "rob",
+        "DEF": "{rob|抢}"
+       },
+       {
+        "W_E": "robbery",
+        "DEF": "{rob|抢}"
+       }
+      ]
+     },
+     {
+      "zh_word": "化石",
+      "form_used": "化石",
+      "senses": [
+       {
+        "W_E": "fossil",
+        "DEF": "{stone|土石}"
+       }
+      ]
+     },
+     {
+      "zh_word": "化石學",
+      "form_used": "化石学",
+      "senses": [
+       {
+        "W_E": "paleomammalogy",
+        "DEF": "{knowledge|知识:concerning={animate|生物}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "十年樹木，百年樹人",
+      "form_used": "十年树木，百年树人",
+      "senses": [
+       {
+        "W_E": "it takes ten years to grow trees, but a hundred to cultivate people",
+        "DEF": "{difficult|难:degree={more|较},scope={cultivate|培养:patient={hu"
+       }
+      ]
+     },
+     {
+      "zh_word": "千年",
+      "form_used": "千年",
+      "senses": [
+       {
+        "W_E": "millennium",
+        "DEF": "{time|时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "千秋",
+      "form_used": "千秋",
+      "senses": [
+       {
+        "W_E": "centuries",
+        "DEF": "{time|时间:modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "千秋萬代",
+      "form_used": "千秋万代",
+      "senses": [
+       {
+        "W_E": "centuries",
+        "DEF": "{time|时间:modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "千載一時",
+      "form_used": "千载一时",
+      "senses": [
+       {
+        "W_E": "golden",
+        "DEF": "{few|少}"
+       },
+       {
+        "W_E": "only once in a thousand years",
+        "DEF": "{few|少}"
+       }
+      ]
+     },
+     {
+      "zh_word": "千載難逢",
+      "form_used": "千载难逢",
+      "senses": [
+       {
+        "W_E": "happen once in a blue moon",
+        "DEF": "{happen|发生:frequency={rarely|偶尔}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "古剎",
+      "form_used": "古刹",
+      "senses": [
+       {
+        "W_E": "ancient temple",
+        "DEF": "{facilities|设施:domain={religion|宗教},modifier={past|过去},restr"
+       }
+      ]
+     },
+     {
+      "zh_word": "古堡",
+      "form_used": "古堡",
+      "senses": [
+       {
+        "W_E": "old catsle",
+        "DEF": "{building|建筑物:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "古生物學",
+      "form_used": "古生物学",
+      "senses": [
+       {
+        "W_E": "palaeobiology",
+        "DEF": "{knowledge|知识:concerning={animate|生物:modifier={past|过去}}}"
+       },
+       {
+        "W_E": "palaeontology",
+        "DEF": "{knowledge|知识:concerning={animate|生物:modifier={past|过去}}}"
+       },
+       {
+        "W_E": "paleobiology",
+        "DEF": "{knowledge|知识:concerning={animate|生物:modifier={past|过去}}}"
+       },
+       {
+        "W_E": "paleontology",
+        "DEF": "{knowledge|知识:concerning={animate|生物:modifier={past|过去}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "古色古香",
+      "form_used": "古色古香",
+      "senses": [
+       {
+        "W_E": "antique",
+        "DEF": "{gracious|雅}"
+       },
+       {
+        "W_E": "quaint",
+        "DEF": "{gracious|雅}"
+       },
+       {
+        "W_E": "vintage",
+        "DEF": "{gracious|雅}"
+       }
+      ]
+     },
+     {
+      "zh_word": "古董",
+      "form_used": "古董",
+      "senses": [
+       {
+        "W_E": "old fogey",
+        "DEF": "{human|人:modifier={stiff|呆}}"
+       },
+       {
+        "W_E": "antique",
+        "DEF": "{treasure|珍宝:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "塵",
+      "form_used": "塵+尘",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "mote",
+        "DEF": "{place|地方:PlaceSect={world|世界}}"
+       },
+       {
+        "W_E": "this world",
+        "DEF": "{place|地方:PlaceSect={world|世界}}"
+       },
+       {
+        "W_E": "dirt",
+        "DEF": "{stone|土石:modifier={useless|无用}}"
+       },
+       {
+        "W_E": "dust",
+        "DEF": "{stone|土石:modifier={useless|无用}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "壽",
+      "form_used": "壽+寿",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "",
+        "DEF": "{surname|姓}"
+       },
+       {
+        "W_E": "birthday",
+        "DEF": "{time|时间:TimeSect={day|日},{ComeToWorld|问世:time={~}}}"
+       },
+       {
+        "W_E": "life",
+        "DEF": "{time|时间:TimeSect={lifespan|终生}}"
+       },
+       {
+        "W_E": "lifespan",
+        "DEF": "{time|时间:TimeSect={lifespan|终生}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "壽星",
+      "form_used": "寿星",
+      "senses": [
+       {
+        "W_E": "elderly person whose birthday is being celebrated",
+        "DEF": "{human|人:modifier={aged|老年}}"
+       },
+       {
+        "W_E": "god of longevity",
+        "DEF": "{human|人:modifier={aged|老年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "壽比南山",
+      "form_used": "寿比南山",
+      "senses": [
+       {
+        "W_E": "long life",
+        "DEF": "{aged|老年}"
+       }
+      ]
+     },
+     {
+      "zh_word": "壽麵",
+      "form_used": "寿面",
+      "senses": [
+       {
+        "W_E": "birthday noodles",
+        "DEF": "{food|食品:{eat|吃:patient={~},purpose={congratulate|祝贺:cause={"
+       },
+       {
+        "W_E": "longevity noodles",
+        "DEF": "{food|食品:{eat|吃:patient={~},purpose={congratulate|祝贺:cause={"
+       }
+      ]
+     },
+     {
+      "zh_word": "夙怨",
+      "form_used": "夙怨",
+      "senses": [
+       {
+        "W_E": "old resentment",
+        "DEF": "{emotion|情感:CoEvent={hate|仇恨},modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "夙敵",
+      "form_used": "夙敌",
+      "senses": [
+       {
+        "W_E": "old enemy",
+        "DEF": "{human|人:modifier={TimeLong|长时间}{enemy|敌}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "夙願",
+      "form_used": "夙愿",
+      "senses": [
+       {
+        "W_E": "long-cherished wish",
+        "DEF": "{aspiration|意愿:CoEvent={expect|期望},modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "天花",
+      "form_used": "天花",
+      "senses": [
+       {
+        "W_E": "small pox",
+        "DEF": "{disease|疾病}"
+       },
+       {
+        "W_E": "smallpox",
+        "DEF": "{disease|疾病}"
+       },
+       {
+        "W_E": "variola",
+        "DEF": "{disease|疾病}"
+       },
+       {
+        "W_E": "variolar",
+        "DEF": "{disease|疾病}"
+       },
+       {
+        "W_E": "variolous",
+        "DEF": "{disease|疾病}"
+       }
+      ]
+     },
+     {
+      "zh_word": "天長地久",
+      "form_used": "天长地久",
+      "senses": [
+       {
+        "W_E": "everlasting",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "long-lived",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "天長日久",
+      "form_used": "天长日久",
+      "senses": [
+       {
+        "W_E": "everlasting",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "太陽能電池",
+      "form_used": "太阳能电池",
+      "senses": [
+       {
+        "W_E": "solar array",
+        "DEF": "{tool|用具:{produce|制造:PatientProduct={electricity|电},instrume"
+       },
+       {
+        "W_E": "solar battery",
+        "DEF": "{tool|用具:{produce|制造:PatientProduct={electricity|电},instrume"
+       },
+       {
+        "W_E": "solar cell",
+        "DEF": "{tool|用具:{produce|制造:PatientProduct={electricity|电},instrume"
+       }
+      ]
+     },
+     {
+      "zh_word": "好景不長",
+      "form_used": "好景不长",
+      "senses": [
+       {
+        "W_E": "good times didn't last long",
+        "DEF": "{decline|衰败:scope={Circumstances|境况}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "宿怨",
+      "form_used": "宿怨",
+      "senses": [
+       {
+        "W_E": "old resentment",
+        "DEF": "{emotion|情感:CoEvent={hate|仇恨},modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "宿敵",
+      "form_used": "宿敌",
+      "senses": [
+       {
+        "W_E": "old enemy",
+        "DEF": "{human|人:modifier={TimeLong|长时间}{enemy|敌}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "宿願",
+      "form_used": "宿愿",
+      "senses": [
+       {
+        "W_E": "long-cherished wish",
+        "DEF": "{aspiration|意愿:CoEvent={expect|期望},modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "常",
+      "form_used": "常",
+      "senses": [
+       {
+        "W_E": "constant",
+        "DEF": "{constant|恒定}"
+       },
+       {
+        "W_E": "invariable",
+        "DEF": "{constant|恒定}"
+       },
+       {
+        "W_E": "normal",
+        "DEF": "{normal|正常}"
+       },
+       {
+        "W_E": "frequently",
+        "DEF": "{often|经常}"
+       },
+       {
+        "W_E": "often",
+        "DEF": "{often|经常}"
+       },
+       {
+        "W_E": "usual",
+        "DEF": "{often|经常}"
+       },
+       {
+        "W_E": "usually",
+        "DEF": "{often|经常}"
+       },
+       {
+        "W_E": "common",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "ordinary",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "permanent",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "",
+        "DEF": "{surname|姓}"
+       }
+      ]
+     },
+     {
+      "zh_word": "常設",
+      "form_used": "常设",
+      "senses": [
+       {
+        "W_E": "permanent",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "standing",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "年久失修",
+      "form_used": "年久失修",
+      "senses": [
+       {
+        "W_E": "desolate",
+        "DEF": "{wane|衰}"
+       }
+      ]
+     },
+     {
+      "zh_word": "延壽",
+      "form_used": "延寿",
+      "senses": [
+       {
+        "W_E": "Yanshou",
+        "DEF": "{place|地方:PlaceSect={county|县},belong={China|中国},modifier={P"
+       }
+      ]
+     },
+     {
+      "zh_word": "延年",
+      "form_used": "延年",
+      "senses": [
+       {
+        "W_E": "prolong life",
+        "DEF": "{MakeBetter|优化:PatientValue={aged|老年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "延年益壽",
+      "form_used": "延年益寿",
+      "senses": [
+       {
+        "W_E": "prolong life",
+        "DEF": "{MakeBetter|优化:PatientValue={aged|老年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "恆",
+      "form_used": "恆+恒",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "constant",
+        "DEF": "{constant|恒定}"
+       },
+       {
+        "W_E": "constantly",
+        "DEF": "{constant|恒定}"
+       },
+       {
+        "W_E": "common",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "commonly",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "usual",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "usually",
+        "DEF": "{ordinary|普通}"
+       },
+       {
+        "W_E": "lasting",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "permanent",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "permanently",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "恆定",
+      "form_used": "恒定",
+      "senses": [
+       {
+        "W_E": "constant",
+        "DEF": "{constant|恒定}"
+       }
+      ]
+     },
+     {
+      "zh_word": "悠",
+      "form_used": "悠",
+      "senses": [
+       {
+        "W_E": "long-drawn-out",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "leisureliness",
+        "DEF": "{idle|闲}"
+       },
+       {
+        "W_E": "leisurely",
+        "DEF": "{idle|闲}"
+       },
+       {
+        "W_E": "swing",
+        "DEF": "{wave|摆动}"
+       },
+       {
+        "W_E": "swing",
+        "DEF": "{wave|摆动}"
+       }
+      ]
+     },
+     {
+      "zh_word": "悠久",
+      "form_used": "悠久",
+      "senses": [
+       {
+        "W_E": "age-old",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long-standing",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "悠悠",
+      "form_used": "悠悠",
+      "senses": [
+       {
+        "W_E": "long",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long-drawn-out",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "remote",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "remotely",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "leisurely",
+        "DEF": "{idle|闲}"
+       }
+      ]
+     },
+     {
+      "zh_word": "悠遠",
+      "form_used": "悠远",
+      "senses": [
+       {
+        "W_E": "a long time ago",
+        "DEF": "{TimeLong|长时间:manner={past|过去}}"
+       },
+       {
+        "W_E": "distant",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "distantly",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "far away",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "far off",
+        "DEF": "{far|远}"
+       }
+      ]
+     },
+     {
+      "zh_word": "持久",
+      "form_used": "持久",
+      "senses": [
+       {
+        "W_E": "abiding",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "enduring",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "imperishable",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "lasting",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "perennial",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "protracted",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "故國",
+      "form_used": "故国",
+      "senses": [
+       {
+        "W_E": "motherland",
+        "DEF": "{place|地方:PlaceSect={country|国家},domain={politics|政},{ComeTo"
+       },
+       {
+        "W_E": "native country",
+        "DEF": "{place|地方:PlaceSect={country|国家},domain={politics|政},{ComeTo"
+       },
+       {
+        "W_E": "native soil",
+        "DEF": "{place|地方:PlaceSect={country|国家},domain={politics|政},{ComeTo"
+       }
+      ]
+     },
+     {
+      "zh_word": "新石器時代",
+      "form_used": "新石器时代",
+      "senses": [
+       {
+        "W_E": "Neolithic Age",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       },
+       {
+        "W_E": "neolithic",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "日久天長",
+      "form_used": "日久天长",
+      "senses": [
+       {
+        "W_E": "after a considerable period of time",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "旱",
+      "form_used": "旱",
+      "senses": [
+       {
+        "W_E": "dry",
+        "DEF": "{waterless|旱}"
+       }
+      ]
+     },
+     {
+      "zh_word": "曠日持久",
+      "form_used": "旷日持久",
+      "senses": [
+       {
+        "W_E": "long-drawn-out",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "prolonged",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "protracted",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "朝不謀夕",
+      "form_used": "朝不谋夕",
+      "senses": [
+       {
+        "W_E": "preoccupied with the current crisis",
+        "DEF": "{dangerous|危}"
+       },
+       {
+        "W_E": "unable to plan out one's day",
+        "DEF": "{dangerous|危}"
+       }
+      ]
+     },
+     {
+      "zh_word": "標本",
+      "form_used": "标本",
+      "senses": [
+       {
+        "W_E": "example",
+        "DEF": "{example|实例}"
+       },
+       {
+        "W_E": "model",
+        "DEF": "{example|实例}"
+       },
+       {
+        "W_E": "sample",
+        "DEF": "{example|实例}"
+       },
+       {
+        "W_E": "specimen",
+        "DEF": "{example|实例}"
+       }
+      ]
+     },
+     {
+      "zh_word": "歷久",
+      "form_used": "历久",
+      "senses": [
+       {
+        "W_E": "for a long time",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "歷久不衰",
+      "form_used": "历久不衰",
+      "senses": [
+       {
+        "W_E": "prolonged prosperity",
+        "DEF": "{prosper|发达:manner={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "歷久彌新",
+      "form_used": "历久弥新",
+      "senses": [
+       {
+        "W_E": "prolonged prosperity",
+        "DEF": "{prosper|发达:manner={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "永久",
+      "form_used": "永久",
+      "senses": [
+       {
+        "W_E": "eternal",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "everlasting",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "forever",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "perdurably",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "permanent",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "permanently",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "perpetual",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "perpetually",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "永生",
+      "form_used": "永生",
+      "senses": [
+       {
+        "W_E": "eternal",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "everlasting",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "everlastingness",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "immortal",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "沉",
+      "form_used": "沉",
+      "senses": [
+       {
+        "W_E": "heavy",
+        "DEF": "{BehaviorValue|举止值:CoEvent={joyful|喜悦:scope={sleep|睡}}}"
+       },
+       {
+        "W_E": "sink",
+        "DEF": "{GoDown|下去:RelateTo={location|位置:belong={waters|水域},modifier"
+       },
+       {
+        "W_E": "sink",
+        "DEF": "{MoveItDown|下移}"
+       },
+       {
+        "W_E": "deep",
+        "DEF": "{extreme|极}"
+       },
+       {
+        "W_E": "heavy",
+        "DEF": "{heavy|重}"
+       },
+       {
+        "W_E": "ponderous",
+        "DEF": "{heavy|重}"
+       },
+       {
+        "W_E": "weighty",
+        "DEF": "{heavy|重}"
+       }
+      ]
+     },
+     {
+      "zh_word": "泥盆紀",
+      "form_used": "泥盆纪",
+      "senses": [
+       {
+        "W_E": "Devonian period",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "海枯石爛",
+      "form_used": "海枯石烂",
+      "senses": [
+       {
+        "W_E": "even if the seas run dry and the rocks crumble",
+        "DEF": "{resolute|坚决}"
+       }
+      ]
+     },
+     {
+      "zh_word": "源遠流長",
+      "form_used": "源远流长",
+      "senses": [
+       {
+        "W_E": "date back to ancient times",
+        "DEF": "{undergo|经受:content={time|时间:modifier={TimeLong|长时间}{past|过去"
+       }
+      ]
+     },
+     {
+      "zh_word": "溜冰",
+      "form_used": "溜冰",
+      "senses": [
+       {
+        "W_E": "roller-skating",
+        "DEF": "{exercise|锻炼:domain={sport|体育},means={slide|滑}}"
+       },
+       {
+        "W_E": "skating",
+        "DEF": "{exercise|锻炼:domain={sport|体育},means={slide|滑}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "漫漫",
+      "form_used": "漫漫",
+      "senses": [
+       {
+        "W_E": "very long",
+        "DEF": "{LengthLong|长:degree={very|很}}"
+       },
+       {
+        "W_E": "very long",
+        "DEF": "{TimeLong|长时间:degree={very|很}}"
+       },
+       {
+        "W_E": "boundless",
+        "DEF": "{broad|广}"
+       }
+      ]
+     },
+     {
+      "zh_word": "熬出頭",
+      "form_used": "熬出头",
+      "senses": [
+       {
+        "W_E": "hold out",
+        "DEF": "{withstand|抗住}"
+       }
+      ]
+     },
+     {
+      "zh_word": "疚",
+      "form_used": "疚",
+      "senses": [
+       {
+        "W_E": "remorse",
+        "DEF": "{emotion|情感:CoEvent={repent|懊悔}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "癌症",
+      "form_used": "癌症",
+      "senses": [
+       {
+        "W_E": "Cancer",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "cancer",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "carcinoma",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "malignancy",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "malignant tumor",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       },
+       {
+        "W_E": "sarcoma",
+        "DEF": "{disease|疾病:CoEvent={swollen|肿胀},modifier={impossible|不会:dom"
+       }
+      ]
+     },
+     {
+      "zh_word": "百葉",
+      "form_used": "百叶",
+      "senses": [
+       {
+        "W_E": "thin sheets of bean curd",
+        "DEF": "{food|食品}"
+       }
+      ]
+     },
+     {
+      "zh_word": "益壽延年",
+      "form_used": "益寿延年",
+      "senses": [
+       {
+        "W_E": "prolong life",
+        "DEF": "{MakeBetter|优化:PatientValue={aged|老年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "積",
+      "form_used": "積+积",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "age-old",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long-pending",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long-standing",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "accumulate",
+        "DEF": "{gather|采集}"
+       },
+       {
+        "W_E": "accumulation",
+        "DEF": "{gather|采集}"
+       },
+       {
+        "W_E": "amass",
+        "DEF": "{gather|采集}"
+       },
+       {
+        "W_E": "product",
+        "DEF": "{result|结果:domain={math|数学},{DoSum|算术:result={~}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "積久",
+      "form_used": "积久",
+      "senses": [
+       {
+        "W_E": "accumulate in the course of time",
+        "DEF": "{SetAside|留存}"
+       }
+      ]
+     },
+     {
+      "zh_word": "積年累月",
+      "form_used": "积年累月",
+      "senses": [
+       {
+        "W_E": "year in year out",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "窮年累月",
+      "form_used": "穷年累月",
+      "senses": [
+       {
+        "W_E": "for years",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       },
+       {
+        "W_E": "for years on end",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       },
+       {
+        "W_E": "year in year out",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       },
+       {
+        "W_E": "yearafter year",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "紀",
+      "form_used": "紀+纪",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "discipline",
+        "DEF": "{regulation|规矩}"
+       },
+       {
+        "W_E": "",
+        "DEF": "{surname|姓}"
+       }
+      ]
+     },
+     {
+      "zh_word": "累月經年",
+      "form_used": "累月经年",
+      "senses": [
+       {
+        "W_E": "for years",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       },
+       {
+        "W_E": "year in year out",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "細水長流",
+      "form_used": "细水长流",
+      "senses": [
+       {
+        "W_E": "economize to avoid running short",
+        "DEF": "{economize|节省:purpose={exempt|免除:ResultEvent={lack|缺少}}}"
+       },
+       {
+        "W_E": "go about sth. little by little without a letup",
+        "DEF": "{engage|从事:manner={continuous|连续}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "經年",
+      "form_used": "经年",
+      "senses": [
+       {
+        "W_E": "for years",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "纏綿",
+      "form_used": "缠绵",
+      "senses": [
+       {
+        "W_E": "moving",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "movingly",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "sentimental",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "sentimentally",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "tender",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "tenderly",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "touching",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "touchingly",
+        "DEF": "{able|能:scope={excite|感动}}"
+       },
+       {
+        "W_E": "melodious",
+        "DEF": "{euphonious|好听}"
+       },
+       {
+        "W_E": "find each other congenial",
+        "DEF": "{fit|适合:scope={emotion|情感}}"
+       },
+       {
+        "W_E": "hit it off perfectly",
+        "DEF": "{fit|适合:scope={emotion|情感}}"
+       },
+       {
+        "W_E": "be lingering",
+        "DEF": "{happen|发生}"
+       }
+      ]
+     },
+     {
+      "zh_word": "老古董",
+      "form_used": "老古董",
+      "senses": [
+       {
+        "W_E": "old fogey",
+        "DEF": "{human|人:modifier={stiff|呆}}"
+       },
+       {
+        "W_E": "antique",
+        "DEF": "{treasure|珍宝:modifier={past|过去}}"
+       },
+       {
+        "W_E": "old-fashioned article",
+        "DEF": "{treasure|珍宝:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "老歌",
+      "form_used": "老歌",
+      "senses": [
+       {
+        "W_E": "golden oldie",
+        "DEF": "{music|音乐:modifier={flourishing|兴:time={past|过去}},{sing|唱:co"
+       },
+       {
+        "W_E": "oldie",
+        "DEF": "{music|音乐:modifier={flourishing|兴:time={past|过去}},{sing|唱:co"
+       }
+      ]
+     },
+     {
+      "zh_word": "考",
+      "form_used": "考",
+      "senses": [
+       {
+        "W_E": "check",
+        "DEF": "{check|查}"
+       },
+       {
+        "W_E": "check",
+        "DEF": "{check|查}"
+       },
+       {
+        "W_E": "inspect",
+        "DEF": "{check|查}"
+       },
+       {
+        "W_E": "inspection",
+        "DEF": "{check|查}"
+       },
+       {
+        "W_E": "give or take an examination",
+        "DEF": "{exam|考试}"
+       },
+       {
+        "W_E": "quiz",
+        "DEF": "{exam|考试}"
+       }
+      ]
+     },
+     {
+      "zh_word": "舊病",
+      "form_used": "旧病",
+      "senses": [
+       {
+        "W_E": "chronic disease",
+        "DEF": "{disease|疾病:modifier={TimeLong|长时间}}"
+       },
+       {
+        "W_E": "old disease",
+        "DEF": "{disease|疾病:modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "舊石器時代",
+      "form_used": "旧石器时代",
+      "senses": [
+       {
+        "W_E": "paleolithic",
+        "DEF": "{time|时间:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "萬古",
+      "form_used": "万古",
+      "senses": [
+       {
+        "W_E": "eternal",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "eternally",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "forever",
+        "DEF": "{permanent|永久性}"
+       },
+       {
+        "W_E": "through the ages",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "萬古千秋",
+      "form_used": "万古千秋",
+      "senses": [
+       {
+        "W_E": "eternal",
+        "DEF": "{permanent|永久性}"
+       }
+      ]
+     },
+     {
+      "zh_word": "萬壽無疆",
+      "form_used": "万寿无疆",
+      "senses": [
+       {
+        "W_E": "longevity",
+        "DEF": "{Age|年龄:host={animate|生物},modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "萬歲",
+      "form_used": "万岁",
+      "senses": [
+       {
+        "W_E": "Long live",
+        "DEF": "{expression|词语:{express|表示:content={~},time={ShowGoodEmotion"
+       },
+       {
+        "W_E": "banzai",
+        "DEF": "{expression|词语:{express|表示:content={~},time={ShowGoodEmotion"
+       },
+       {
+        "W_E": "emperor",
+        "DEF": "{human|人:domain={royal|皇},modifier={HeadOfState|元首}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "蒕",
+      "form_used": "蒕",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "融",
+      "form_used": "融",
+      "senses": [
+       {
+        "W_E": "blend",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "fuse",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "fusion",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "melt",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "thaw",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "thaw",
+        "DEF": "{StateChange|态变:StateFin={liquid|液}}"
+       },
+       {
+        "W_E": "be in harmony",
+        "DEF": "{fit|适合}"
+       },
+       {
+        "W_E": "",
+        "DEF": "{surname|姓}"
+       }
+      ]
+     },
+     {
+      "zh_word": "賒",
+      "form_used": "賒+赊",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "buy or sell on credit",
+        "DEF": "{OnCredit|赊:domain={commerce|商业}}"
+       },
+       {
+        "W_E": "on credit",
+        "DEF": "{OnCredit|赊:domain={commerce|商业}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "遐",
+      "form_used": "遐",
+      "senses": [
+       {
+        "W_E": "lasting",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "distant",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "distantly",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "far",
+        "DEF": "{far|远}"
+       }
+      ]
+     },
+     {
+      "zh_word": "遙遙",
+      "form_used": "遥遥",
+      "senses": [
+       {
+        "W_E": "far away",
+        "DEF": "{far|远}"
+       },
+       {
+        "W_E": "long way off",
+        "DEF": "{far|远}"
+       }
+      ]
+     },
+     {
+      "zh_word": "遺產",
+      "form_used": "遗产",
+      "senses": [
+       {
+        "W_E": "heritage",
+        "DEF": "{thing|万物:{PassOn|留给:agent={human|人:modifier={forefathers|祖先"
+       },
+       {
+        "W_E": "inheritance",
+        "DEF": "{thing|万物:{PassOn|留给:agent={human|人:modifier={forefathers|祖先"
+       },
+       {
+        "W_E": "legacy",
+        "DEF": "{thing|万物:{PassOn|留给:agent={human|人:modifier={forefathers|祖先"
+       },
+       {
+        "W_E": "patrimony",
+        "DEF": "{thing|万物:{PassOn|留给:agent={human|人:modifier={forefathers|祖先"
+       }
+      ]
+     },
+     {
+      "zh_word": "鐵器時代",
+      "form_used": "铁器时代",
+      "senses": [
+       {
+        "W_E": "Iron Age",
+        "DEF": "{time|时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長命",
+      "form_used": "长命",
+      "senses": [
+       {
+        "W_E": "long life",
+        "DEF": "{Age|年龄:host={animate|生物},modifier={TimeLong|长时间}}"
+       },
+       {
+        "W_E": "longevous",
+        "DEF": "{Age|年龄:host={animate|生物},modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長命百歲",
+      "form_used": "长命百岁",
+      "senses": [
+       {
+        "W_E": "long life",
+        "DEF": "{Age|年龄:host={animate|生物},modifier={TimeLong|长时间}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長存",
+      "form_used": "长存",
+      "senses": [
+       {
+        "W_E": "live forever",
+        "DEF": "{alive|活着:duration={time|时间:modifier={permanent|永久性}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長局",
+      "form_used": "长局",
+      "senses": [
+       {
+        "W_E": "permanent solution",
+        "DEF": "{result|结果:modifier={permanent|永久性}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長年",
+      "form_used": "长年",
+      "senses": [
+       {
+        "W_E": "all the year round",
+        "DEF": "{TimeLong|长时间:TimeSect={year|年}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長生不老",
+      "form_used": "长生不老",
+      "senses": [
+       {
+        "W_E": "live forever and never grow old",
+        "DEF": "{alive|活着:duration={time|时间:modifier={TimeLong|长时间}}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "長遠",
+      "form_used": "长远",
+      "senses": [
+       {
+        "W_E": "long-range",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "long-term",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "陳",
+      "form_used": "陳+陈",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       },
+       {
+        "W_E": "put on display",
+        "DEF": "{display|展示}"
+       },
+       {
+        "W_E": "explain",
+        "DEF": "{explain|说明}"
+       },
+       {
+        "W_E": "explanation",
+        "DEF": "{explain|说明}"
+       },
+       {
+        "W_E": "state",
+        "DEF": "{explain|说明}"
+       },
+       {
+        "W_E": "lay out",
+        "DEF": "{put|放置}"
+       },
+       {
+        "W_E": "",
+        "DEF": "{surname|姓}"
+       },
+       {
+        "W_E": "old",
+        "DEF": "{used|旧}"
+       },
+       {
+        "W_E": "stale",
+        "DEF": "{used|旧}"
+       },
+       {
+        "W_E": "staleness",
+        "DEF": "{used|旧}"
+       }
+      ]
+     },
+     {
+      "zh_word": "陳年",
+      "form_used": "陈年",
+      "senses": [
+       {
+        "W_E": "old",
+        "DEF": "{TimeLong|长时间}"
+       }
+      ]
+     },
+     {
+      "zh_word": "馬拉松",
+      "form_used": "马拉松",
+      "senses": [
+       {
+        "W_E": "marathon",
+        "DEF": "{TimeLong|长时间}"
+       },
+       {
+        "W_E": "marathon",
+        "DEF": "{fact|事情:CoEvent={exercise|锻炼},domain={sport|体育}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "骨董",
+      "form_used": "骨董",
+      "senses": [
+       {
+        "W_E": "antique",
+        "DEF": "{treasure|珍宝:modifier={past|过去}}"
+       }
+      ]
+     },
+     {
+      "zh_word": "高壽",
+      "form_used": "高寿",
+      "senses": [
+       {
+        "W_E": "long life",
+        "DEF": "{Age|年龄:host={animate|生物},modifier={TimeLong|长时间}}"
+       },
+       {
+        "W_E": "How old are you",
+        "DEF": "{expression|词语:{express|表示:content={~},time={ask|问:content={"
+       }
+      ]
+     },
+     {
+      "zh_word": "齯",
+      "form_used": "齯",
+      "senses": [
+       {
+        "W_E": "",
+        "DEF": "{character|文字:belong={China|中国}}"
+       }
+      ]
+     }
+    ],
+    "species_unmatched": [
+     {
+      "zh_word": "常綠植物",
+      "form_used": "常绿植物",
+      "organism_glosses": [
+       "evergreen"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "椿",
+      "form_used": "椿",
+      "organism_glosses": [
+       "tree of heaven"
+      ],
+      "why": "organism_absent_from_anage"
+     },
+     {
+      "zh_word": "蟠桃",
+      "form_used": "蟠桃",
+      "organism_glosses": [
+       "flat peach",
+       "peach of immortality in Chinese mythology"
+      ],
+      "why": "organism_absent_from_anage"
+     }
+    ]
+   }
+  }
+ },
+ "severable_sit_out": {
+  "en_seasonal_synsets": 805,
+  "en_bygone_synsets": 765,
+  "zh_tempo_only_SEVERABLE": 592
+ }
+}

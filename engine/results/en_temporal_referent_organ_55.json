@@ -1,0 +1,1746 @@
+{
+  "title": "EN TEMPORAL-REFERENT ORGAN — WordNet noun-gloss whole-clause sweep",
+  "status": "PROPOSED ORGAN — HER ADOPTION PENDING. The English twin of the committed zh organ (moe_temporal_referent_organ_54.py). A rule/derivation labeler, NEVER a scalar ruler. Concludes nothing; the field owner adopts / amends / severs / rejects.",
+  "date": "2026-07-22",
+  "session": 55,
+  "twin_of": "moe_temporal_referent_organ_54.py",
+  "spec": "temporal_referent_conceptualization_54.md (the discovered whole-gloss clause law)",
+  "law": {
+    "name": "whole-gloss clause law (EN)",
+    "statement": "Temporal-referent charge is read from whole-gloss clause frames; the <=8-char lead-anchor was REJECTED (it failed 2/14). Duration/era/lifespan knowledge lives in trailing clauses. Routes scan the whole gloss; a frame counts only inside ONE clause (split on ';' and sentence '.'), so cross-clause concatenation cannot forge a hit.",
+    "seed_probe": "the zh organ's en_probe() 12-word seed, confirmed 9/12 there; reproduced here as a fail=stop selftest"
+  },
+  "wordnet_version": "3.0",
+  "scope": {
+    "note": "ALL WordNet NOUN synsets and their lemmas (referents are nominal); the noun-only scan reproduces the 9/12 seed probe exactly",
+    "n_noun_synsets": 82115
+  },
+  "classes": {
+    "tight_ephemeral": "pole 'ephemeral' — bounded-short lifespan (mayfly-class)",
+    "enduring": "pole 'enduring' — long / permanent / ancient / deep-time",
+    "seasonal_SEVERABLE": "pole 'seasonal' — season-of-referent (zh 白露 analog) + plant-lifecycle",
+    "tempo_SEVERABLE": "severable instantaneity sub-route poled 'ephemeral' (mirrors zh EPH_TEMPO / the cut register tempo-592); thin & narrow by design",
+    "metaphor_tagged": "a FLAG on charged clauses carrying a figurative marker (zh 比喻 analog)"
+  },
+  "routes": [
+    {
+      "route": "ephemeral:lasting-short",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "lasting\\s+(?:less than|only|for|about|up to|a|an|one|barely)\\b[^;.]{0,30}?\\b(?:second|minute|hour|day|week|night|moment|short (?:time|while|period))s?"
+    },
+    {
+      "route": "ephemeral:short-lived",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "short[- ]lived"
+    },
+    {
+      "route": "ephemeral:transient",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\btransient\\b"
+    },
+    {
+      "route": "ephemeral:transitory",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\btransitory\\b"
+    },
+    {
+      "route": "ephemeral:ephemeral-adj",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\bephemeral\\b"
+    },
+    {
+      "route": "ephemeral:fleeting",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\bfleeting\\b"
+    },
+    {
+      "route": "ephemeral:momentary",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\bmomentary\\b"
+    },
+    {
+      "route": "ephemeral:short-time",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\b(?:very )?short time\\b"
+    },
+    {
+      "route": "ephemeral:brief-span",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "brief\\s+(?:life|lives|existence|lifespan|life span|life-span|period|duration|moment|spell|interval)"
+    },
+    {
+      "route": "ephemeral:short-life",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "short\\s+(?:life|lifespan|life span|life-span|existence|lifetime|life expectancy)"
+    },
+    {
+      "route": "ephemeral:lives-briefly",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\blives\\b[^;.]{0,20}?\\b(?:only|but|for|a|one)\\b[^;.]{0,12}?\\b(?:day|days|hour|hours|week|weeks|season)\\b"
+    },
+    {
+      "route": "ephemeral:overnight",
+      "pole": "ephemeral",
+      "kind": "core",
+      "pattern": "\\bovernight\\b"
+    },
+    {
+      "route": "ephemeral:tempo[SEVERABLE]",
+      "pole": "ephemeral",
+      "kind": "tempo",
+      "pattern": "\\bfor a second\\b|\\bin an instant\\b"
+    },
+    {
+      "route": "enduring:long-lived",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "long[- ]lived"
+    },
+    {
+      "route": "enduring:longevity",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\blongevity\\b|long[- ]lasting|\\ba long time\\b|lives\\s+(?:for\\s+)?(?:many\\s+)?(?:years|decades|centuries|a (?:very )?long time)"
+    },
+    {
+      "route": "enduring:geological-age",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "geologic(?:al)?\\s+(?:age|era|epoch|period|time)"
+    },
+    {
+      "route": "enduring:ancient",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\bancient\\b"
+    },
+    {
+      "route": "enduring:medieval",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\b(?:medieval|mediaeval)\\b"
+    },
+    {
+      "route": "enduring:antiquity",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\bantiquity\\b"
+    },
+    {
+      "route": "enduring:prehistoric",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\bprehistoric\\b"
+    },
+    {
+      "route": "enduring:former-era",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "\\b(?:in|from|of|during)\\s+(?:a\\s+|an\\s+|some\\s+|the\\s+)?(?:former|earlier|bygone|olden|ancient)\\s+(?:period|times?|age|era|days?|epoch)\\b"
+    },
+    {
+      "route": "enduring:distant-past",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "distant past|time immemorial"
+    },
+    {
+      "route": "enduring:survives-from-past",
+      "pole": "enduring",
+      "kind": "core",
+      "pattern": "surviv(?:ed|es|ing)\\s+from\\s+(?:the\\s+)?(?:distant\\s+)?(?:past|antiquity)"
+    },
+    {
+      "route": "enduring:extinct[JUDGMENT-CALL]",
+      "pole": "enduring",
+      "kind": "extinct",
+      "pattern": "\\bextinct\\b"
+    },
+    {
+      "route": "seasonal:season-of-referent[SEVERABLE]",
+      "pole": "seasonal",
+      "kind": "season",
+      "pattern": "\\b(?:in|during)\\s+(?:the\\s+)?(?:early\\s+|late\\s+|mid[- ]?)?(?:spring|summer|autumn|winter)\\b|\\bin the fall\\b|(?:flower|bloom|blossom|ripen|fruit)\\w*\\s+in\\s+(?:the\\s+)?(?:spring|summer|autumn|winter|fall)"
+    },
+    {
+      "route": "seasonal:plant-lifecycle[SEVERABLE]",
+      "pole": "seasonal",
+      "kind": "lifecycle",
+      "pattern": "\\b(?:perennial|biennial|annual)\\b"
+    }
+  ],
+  "route_notes": {
+    "clause_law": "split on ';' and sentence '.'; a frame must sit in one clause",
+    "plant_lifecycle_gate": "annual/perennial/biennial fire only with a PLANT head-word in the same clause — kills 'annual award', 'perennial complaint/stream'",
+    "former_era_gate": "leading preposition (in/from/of/during) required, so 'at an earlier AGE' (life-stage) does NOT fire while 'in a former period' does",
+    "tempo_narrowness": "bare abrupt/sudden/rapid/swift/instantaneous/periodic REJECTED — see rejected_candidate_audit; lightning survives via 'for a second'",
+    "overnight": "inherited from the blessed seed probe (dew's charge); a one-night duration cue that doubles as a WHEN-word — declared, kept to reproduce the seed faithfully",
+    "judgment_calls": [
+      "enduring:extinct — pastness-by-extinction (the referent no longer exists → past era). Declared, separable; the field owner can drop it.",
+      "seasonal is a SEVERABLE class (both sub-routes); mirrors the zh seasonal severability.",
+      "tempo is SEVERABLE and poled ephemeral; mirrors zh EPH_TEMPO and the cut tempo-592.",
+      "medieval / long-lasting / a-long-time added to enduring (clean, in-class, low-noise).",
+      "meteor / tortoise / redwood stay ∅ — honest: WordNet does not lexicalize their duration (redwood mirrors the zh 松 ruling exactly)."
+    ]
+  },
+  "determinism_double_run": {
+    "ok": true,
+    "fingerprint_run1": "bdee0a598a73e0ae9578a12a92f265aecc826ab35f7ccb508c31873b831155ad",
+    "fingerprint_run2": "bdee0a598a73e0ae9578a12a92f265aecc826ab35f7ccb508c31873b831155ad"
+  },
+  "counts": {
+    "n_noun_synsets_scanned": 82115,
+    "n_charged_synsets": 1665,
+    "n_charged_lemmas": 3516,
+    "n_ephemeral": 73,
+    "n_enduring": 792,
+    "n_seasonal": 805,
+    "n_tempo_only_SEVERABLE": 1,
+    "n_extinct_only_JUDGMENT": 163,
+    "n_lifecycle_only_SEVERABLE": 707,
+    "n_seasonal_only": 800,
+    "n_metaphor_flagged": 0,
+    "n_abstract_head": 4,
+    "by_route": {
+      "seasonal:plant-lifecycle[SEVERABLE]": 715,
+      "enduring:ancient": 484,
+      "enduring:extinct[JUDGMENT-CALL]": 175,
+      "seasonal:season-of-referent[SEVERABLE]": 93,
+      "enduring:medieval": 73,
+      "enduring:prehistoric": 25,
+      "enduring:former-era": 18,
+      "enduring:longevity": 15,
+      "ephemeral:transient": 13,
+      "ephemeral:short-lived": 12,
+      "ephemeral:short-time": 12,
+      "ephemeral:momentary": 11,
+      "enduring:antiquity": 9,
+      "ephemeral:overnight": 9,
+      "enduring:geological-age": 8,
+      "ephemeral:brief-span": 5,
+      "ephemeral:lasting-short": 5,
+      "enduring:distant-past": 3,
+      "enduring:long-lived": 3,
+      "enduring:survives-from-past": 3,
+      "ephemeral:ephemeral-adj": 3,
+      "ephemeral:transitory": 3,
+      "ephemeral:fleeting": 1,
+      "ephemeral:lives-briefly": 1,
+      "ephemeral:short-life": 1,
+      "ephemeral:tempo[SEVERABLE]": 1
+    }
+  },
+  "selftests": {
+    "all_pass": true,
+    "checks": [
+      {
+        "test": "seed probe reproduces 9 fired / 3 silent",
+        "pass": true,
+        "detail": "fired=9 silent=3"
+      },
+      {
+        "test": "seed 'mayfly' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'ephemera' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'ephemeron' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'ephemeral' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'meteor' stays ∅ (honest)",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "seed 'lightning' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'dew' fires pole=ephemeral",
+        "pass": true,
+        "detail": "poles=['ephemeral']"
+      },
+      {
+        "test": "seed 'fossil' fires pole=enduring",
+        "pass": true,
+        "detail": "poles=['enduring']"
+      },
+      {
+        "test": "seed 'antique' fires pole=enduring",
+        "pass": true,
+        "detail": "poles=['enduring']"
+      },
+      {
+        "test": "seed 'tortoise' stays ∅ (honest)",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "seed 'redwood' stays ∅ (honest)",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "seed 'relic' fires pole=enduring",
+        "pass": true,
+        "detail": "poles=['enduring']"
+      },
+      {
+        "test": "negative 'table' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'idea' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'government' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'chair' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'water' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'machine' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'happiness' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'road' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'language' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      },
+      {
+        "test": "negative 'country' silent",
+        "pass": true,
+        "detail": "poles=[]"
+      }
+    ]
+  },
+  "seed_probe_verdicts": [
+    {
+      "word": "mayfly",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "mayfly.n.01",
+          "route": "ephemeral:lasting-short",
+          "pole": "ephemeral",
+          "clause": "slender insect with delicate membranous wings having an aquatic larval stage and terrestrial adult stage usually lasting less than two days",
+          "snippet": "lasting less than two days"
+        }
+      ]
+    },
+    {
+      "word": "ephemera",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "ephemera.n.01",
+          "route": "ephemeral:transitory",
+          "pole": "ephemeral",
+          "clause": "something transitory",
+          "snippet": "transitory"
+        },
+        {
+          "synset": "ephemera.n.01",
+          "route": "ephemeral:lasting-short",
+          "pole": "ephemeral",
+          "clause": "lasting a day",
+          "snippet": "lasting a day"
+        },
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:short-lived",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "short-lived"
+        },
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:lives-briefly",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "lives only for a day"
+        }
+      ]
+    },
+    {
+      "word": "ephemeron",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:short-lived",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "short-lived"
+        },
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:lives-briefly",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "lives only for a day"
+        }
+      ]
+    },
+    {
+      "word": "ephemeral",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:short-lived",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "short-lived"
+        },
+        {
+          "synset": "ephemeron.n.01",
+          "route": "ephemeral:lives-briefly",
+          "pole": "ephemeral",
+          "clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+          "snippet": "lives only for a day"
+        }
+      ]
+    },
+    {
+      "word": "meteor",
+      "expected_pole": null,
+      "poles": [],
+      "reproduced": true,
+      "charged": false,
+      "silent_reason": "gloss lexicalizes a streak of light / vaporizing, not brevity (mirrors zh 流星: 快速 not a route token — transience is world-knowledge, not gloss-lexicalized)",
+      "receipts": []
+    },
+    {
+      "word": "lightning",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "lightning.n.02",
+          "route": "ephemeral:tempo[SEVERABLE]",
+          "pole": "ephemeral",
+          "clause": "can scintillate for a second or more",
+          "snippet": "for a second"
+        }
+      ]
+    },
+    {
+      "word": "dew",
+      "expected_pole": "ephemeral",
+      "poles": [
+        "ephemeral"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "dew.n.01",
+          "route": "ephemeral:overnight",
+          "pole": "ephemeral",
+          "clause": "water that has condensed on a cool surface overnight from water vapor in the air",
+          "snippet": "overnight"
+        }
+      ]
+    },
+    {
+      "word": "fossil",
+      "expected_pole": "enduring",
+      "poles": [
+        "enduring"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "fossil.n.02",
+          "route": "enduring:geological-age",
+          "pole": "enduring",
+          "clause": "the remains (or an impression) of a plant or animal that existed in a past geological age and that has been excavated from the soil",
+          "snippet": "geological age"
+        }
+      ]
+    },
+    {
+      "word": "antique",
+      "expected_pole": "enduring",
+      "poles": [
+        "enduring"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "antique.n.02",
+          "route": "enduring:former-era",
+          "pole": "enduring",
+          "clause": "any piece of furniture or decorative object or the like produced in a former period and valuable because of its beauty or rarity",
+          "snippet": "in a former period"
+        }
+      ]
+    },
+    {
+      "word": "tortoise",
+      "expected_pole": null,
+      "poles": [],
+      "reproduced": true,
+      "charged": false,
+      "silent_reason": "gloss carries NO longevity clause (unlike zh 龜「壽命長達百年」); the tortoise's long life is world-knowledge, not lexicalized",
+      "receipts": []
+    },
+    {
+      "word": "redwood",
+      "expected_pole": null,
+      "poles": [],
+      "reproduced": true,
+      "charged": false,
+      "silent_reason": "gloss lexicalizes HEIGHT ('reach a height of 300 feet'), not age; the sequoia's age is cultural — the exact parallel to the zh 松 ruling ('longevity is cultural, not dictionary-lexical; let it drop')",
+      "receipts": []
+    },
+    {
+      "word": "relic",
+      "expected_pole": "enduring",
+      "poles": [
+        "enduring"
+      ],
+      "reproduced": true,
+      "charged": true,
+      "silent_reason": null,
+      "receipts": [
+        {
+          "synset": "relic.n.01",
+          "route": "enduring:antiquity",
+          "pole": "enduring",
+          "clause": "an antiquity that has survived from the distant past",
+          "snippet": "antiquity"
+        },
+        {
+          "synset": "relic.n.01",
+          "route": "enduring:distant-past",
+          "pole": "enduring",
+          "clause": "an antiquity that has survived from the distant past",
+          "snippet": "distant past"
+        },
+        {
+          "synset": "relic.n.01",
+          "route": "enduring:survives-from-past",
+          "pole": "enduring",
+          "clause": "an antiquity that has survived from the distant past",
+          "snippet": "survived from the distant past"
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "word": "table",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "idea",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "government",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "chair",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "water",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "machine",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "happiness",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "road",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "language",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    },
+    {
+      "word": "country",
+      "silent": true,
+      "poles": [],
+      "receipts": []
+    }
+  ],
+  "sample_receipts": {
+    "tight_ephemeral": [
+      {
+        "synset": "absence.n.04",
+        "lemmas": [
+          "absence",
+          "absence_seizure"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:transient",
+        "gloss_clause": "the occurrence of an abrupt, transient loss or impairment of consciousness (which is not subsequently remembered), sometimes with light twitching, fluttering eyelids, etc",
+        "snippet": "transient",
+        "metaphor": false
+      },
+      {
+        "synset": "advance_death_benefit.n.01",
+        "lemmas": [
+          "advance_death_benefit"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:short-life",
+        "gloss_clause": "a percentage of death benefits paid directly to policy holders having a short life expectancy (usually 6 months)",
+        "snippet": "short life",
+        "metaphor": false
+      },
+      {
+        "synset": "annual_fern.n.01",
+        "lemmas": [
+          "Anogramma_leptophylla",
+          "Jersey_fern",
+          "annual_fern"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:short-lived",
+        "gloss_clause": "small short-lived fern of central and south america",
+        "snippet": "short-lived",
+        "metaphor": false
+      },
+      {
+        "synset": "apnea.n.01",
+        "lemmas": [
+          "apnea"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:transient",
+        "gloss_clause": "transient cessation of respiration",
+        "snippet": "transient",
+        "metaphor": false
+      },
+      {
+        "synset": "b-meson.n.01",
+        "lemmas": [
+          "b-meson"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:short-lived",
+        "gloss_clause": "exceedingly short-lived meson",
+        "snippet": "short-lived",
+        "metaphor": false
+      },
+      {
+        "synset": "bacteremia.n.01",
+        "lemmas": [
+          "bacteremia",
+          "bacteriaemia",
+          "bacteriemia"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:transient",
+        "gloss_clause": "transient presence of bacteria (or other microorganisms) in the blood",
+        "snippet": "transient",
+        "metaphor": false
+      },
+      {
+        "synset": "bed_and_breakfast.n.01",
+        "lemmas": [
+          "bed-and-breakfast",
+          "bed_and_breakfast"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:overnight",
+        "gloss_clause": "an overnight boardinghouse with breakfast",
+        "snippet": "overnight",
+        "metaphor": false
+      },
+      {
+        "synset": "black_hole_of_calcutta.n.01",
+        "lemmas": [
+          "Black_Hole_of_Calcutta"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:overnight",
+        "gloss_clause": "a dungeon (20 feet square) in a fort in calcutta where as many as 146 english prisoners were held overnight by siraj-ud-daula",
+        "snippet": "overnight",
+        "metaphor": false
+      },
+      {
+        "synset": "blackout.n.04",
+        "lemmas": [
+          "blackout"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:momentary",
+        "gloss_clause": "a momentary loss of consciousness",
+        "snippet": "momentary",
+        "metaphor": false
+      },
+      {
+        "synset": "blink_of_an_eye.n.01",
+        "lemmas": [
+          "New_York_minute",
+          "blink_of_an_eye",
+          "flash",
+          "heartbeat",
+          "instant",
+          "jiffy",
+          "split_second",
+          "trice",
+          "twinkling",
+          "wink"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:short-time",
+        "gloss_clause": "a very short time (as the time it takes the eye to blink or the heart to beat)",
+        "snippet": "very short time",
+        "metaphor": false
+      }
+    ],
+    "enduring": [
+      {
+        "synset": "abydos.n.01",
+        "lemmas": [
+          "Abydos"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "an ancient greek colony on the asiatic side of the dardanelles",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "achaea.n.01",
+        "lemmas": [
+          "Achaea"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "a region of ancient greece on the north coast of the peloponnese",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "achaean.n.01",
+        "lemmas": [
+          "Achaean",
+          "Achaian"
+        ],
+        "class": "enduring",
+        "route": "enduring:prehistoric",
+        "gloss_clause": "a member of one of four linguistic divisions of the prehistoric greeks",
+        "snippet": "prehistoric",
+        "metaphor": false
+      },
+      {
+        "synset": "achaean.n.02",
+        "lemmas": [
+          "Achaean",
+          "Arcado-Cyprians"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "the ancient greek inhabitants of achaea",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "acropolis.n.01",
+        "lemmas": [
+          "acropolis"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "the citadel in ancient greek towns",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "actium.n.01",
+        "lemmas": [
+          "Actium"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "an ancient town on a promontory in western greece",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "adapid.n.01",
+        "lemmas": [
+          "Adapid",
+          "Adapid_group"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "extinct small mostly diurnal lower primates that fed on leaves and fruit",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "aden.n.01",
+        "lemmas": [
+          "Aden"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "its strategic location has made it a major trading center of southern arabia since ancient times",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "aegean.n.01",
+        "lemmas": [
+          "Aegean",
+          "Aegean_Sea"
+        ],
+        "class": "enduring",
+        "route": "enduring:ancient",
+        "gloss_clause": "a main trade route for the ancient civilizations of crete and greece and rome and persia",
+        "snippet": "ancient",
+        "metaphor": false
+      },
+      {
+        "synset": "aegean_civilization.n.01",
+        "lemmas": [
+          "Aegean_civilisation",
+          "Aegean_civilization",
+          "Aegean_culture"
+        ],
+        "class": "enduring",
+        "route": "enduring:prehistoric",
+        "gloss_clause": "the prehistoric civilization on the islands in the aegean sea and the surrounding countries",
+        "snippet": "prehistoric",
+        "metaphor": false
+      }
+    ],
+    "seasonal": [
+      {
+        "synset": "adonis.n.02",
+        "lemmas": [
+          "Adonis",
+          "genus_Adonis"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial herbs",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "african_holly.n.01",
+        "lemmas": [
+          "African_holly",
+          "Solanum_giganteum"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "woolly-stemmed biennial arborescent shrub of tropical africa and southern asia having silvery-white prickly branches, clusters of blue or white flowers, and bright red berries resembling holly berries",
+        "snippet": "biennial",
+        "metaphor": false
+      },
+      {
+        "synset": "african_marigold.n.01",
+        "lemmas": [
+          "African_marigold",
+          "Aztec_marigold",
+          "Tagetes_erecta",
+          "big_marigold"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "a stout branching annual with large yellow to orange flower heads",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "ageratina.n.01",
+        "lemmas": [
+          "Ageratina",
+          "genus_Ageratina"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual to perennial herbs or shrubs of eastern united states and central and south america",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "agropyron.n.01",
+        "lemmas": [
+          "Agropyron",
+          "genus_Agropyron"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "perennial grasses of temperate and cool regions: wheatgrass",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "agrostis.n.01",
+        "lemmas": [
+          "Agrostis",
+          "genus_Agrostis"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial grasses cosmopolitan in northern hemisphere: bent grass (so named from `bent' meaning an area of unfenced grassland)",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "alismataceae.n.01",
+        "lemmas": [
+          "Alismataceae",
+          "family_Alismataceae",
+          "water-plantain_family"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "perennial or annual aquatic or marsh plants",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "allegheny_spurge.n.01",
+        "lemmas": [
+          "Allegheny_mountain_spurge",
+          "Allegheny_spurge",
+          "Pachysandra_procumbens"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "low semi-evergreen perennial herb having small spikes of white or pinkish flowers",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "allium.n.01",
+        "lemmas": [
+          "Allium",
+          "genus_Allium"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "large genus of perennial and biennial pungent bulbous plants: garlic",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "alopecurus.n.01",
+        "lemmas": [
+          "Alopecurus",
+          "genus_Alopecurus"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial grasses including decorative and meadow species as well as notorious agricultural weeds",
+        "snippet": "annual",
+        "metaphor": false
+      }
+    ],
+    "tempo_SEVERABLE_all": [
+      {
+        "synset": "lightning.n.02",
+        "lemmas": [
+          "lightning"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:tempo[SEVERABLE]",
+        "gloss_clause": "can scintillate for a second or more",
+        "snippet": "for a second",
+        "metaphor": false
+      }
+    ],
+    "seasonal_season_of_referent": [
+      {
+        "synset": "alpine_bearberry.n.01",
+        "lemmas": [
+          "Arctostaphylos_alpina",
+          "alpine_bearberry",
+          "black_bearberry"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "deciduous creeping shrub bright red in autumn having black or blue-black berries",
+        "snippet": "in autumn",
+        "metaphor": false
+      },
+      {
+        "synset": "american_barberry.n.01",
+        "lemmas": [
+          "American_barberry",
+          "Berberis_canadensis"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "deciduous shrub of eastern north america whose leaves turn scarlet in autumn and having racemes of yellow flowers followed by ellipsoid glossy red berries",
+        "snippet": "in autumn",
+        "metaphor": false
+      },
+      {
+        "synset": "american_hornbeam.n.01",
+        "lemmas": [
+          "American_hornbeam",
+          "Carpinus_caroliniana"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "tree or large shrub with grey bark and blue-green leaves that turn red-orange in autumn",
+        "snippet": "in autumn",
+        "metaphor": false
+      },
+      {
+        "synset": "arctic_fox.n.01",
+        "lemmas": [
+          "Alopex_lagopus",
+          "Arctic_fox",
+          "white_fox"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "brownish in summer and white in winter",
+        "snippet": "in summer",
+        "metaphor": false
+      },
+      {
+        "synset": "baffin_bay.n.01",
+        "lemmas": [
+          "Baffin_Bay"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "icebound in winter",
+        "snippet": "in winter",
+        "metaphor": false
+      },
+      {
+        "synset": "black_ash.n.01",
+        "lemmas": [
+          "Fraxinus_nigra",
+          "basket_ash",
+          "black_ash",
+          "brown_ash",
+          "hoop_ash"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "leaves turn gold in autumn",
+        "snippet": "in autumn",
+        "metaphor": false
+      },
+      {
+        "synset": "bloodroot.n.01",
+        "lemmas": [
+          "Sanguinaria_canadensis",
+          "bloodroot",
+          "puccoon",
+          "redroot",
+          "tetterwort"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "perennial woodland native of north america having a red root and red sap and bearing a solitary lobed leaf and white flower in early spring and having acrid emetic properties",
+        "snippet": "in early spring",
+        "metaphor": false
+      },
+      {
+        "synset": "blue_goose.n.01",
+        "lemmas": [
+          "Chen_caerulescens",
+          "blue_goose"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "north american wild goose having dark plumage in summer but white in winter",
+        "snippet": "in summer",
+        "metaphor": false
+      },
+      {
+        "synset": "bock.n.01",
+        "lemmas": [
+          "bock",
+          "bock_beer"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "a very strong lager traditionally brewed in the fall and aged through the winter for consumption in the spring",
+        "snippet": "in the fall",
+        "metaphor": false
+      },
+      {
+        "synset": "bridal_wreath.n.02",
+        "lemmas": [
+          "Saint_Peter's_wreath",
+          "Spiraea_prunifolia",
+          "St._Peter's_wreath",
+          "bridal-wreath",
+          "bridal_wreath"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:season-of-referent[SEVERABLE]",
+        "gloss_clause": "shrub having copious small white flowers in spring",
+        "snippet": "flowers in spring",
+        "metaphor": false
+      }
+    ],
+    "seasonal_plant_lifecycle": [
+      {
+        "synset": "adonis.n.02",
+        "lemmas": [
+          "Adonis",
+          "genus_Adonis"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial herbs",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "african_holly.n.01",
+        "lemmas": [
+          "African_holly",
+          "Solanum_giganteum"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "woolly-stemmed biennial arborescent shrub of tropical africa and southern asia having silvery-white prickly branches, clusters of blue or white flowers, and bright red berries resembling holly berries",
+        "snippet": "biennial",
+        "metaphor": false
+      },
+      {
+        "synset": "african_marigold.n.01",
+        "lemmas": [
+          "African_marigold",
+          "Aztec_marigold",
+          "Tagetes_erecta",
+          "big_marigold"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "a stout branching annual with large yellow to orange flower heads",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "ageratina.n.01",
+        "lemmas": [
+          "Ageratina",
+          "genus_Ageratina"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual to perennial herbs or shrubs of eastern united states and central and south america",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "agropyron.n.01",
+        "lemmas": [
+          "Agropyron",
+          "genus_Agropyron"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "perennial grasses of temperate and cool regions: wheatgrass",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "agrostis.n.01",
+        "lemmas": [
+          "Agrostis",
+          "genus_Agrostis"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial grasses cosmopolitan in northern hemisphere: bent grass (so named from `bent' meaning an area of unfenced grassland)",
+        "snippet": "annual",
+        "metaphor": false
+      },
+      {
+        "synset": "alismataceae.n.01",
+        "lemmas": [
+          "Alismataceae",
+          "family_Alismataceae",
+          "water-plantain_family"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "perennial or annual aquatic or marsh plants",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "allegheny_spurge.n.01",
+        "lemmas": [
+          "Allegheny_mountain_spurge",
+          "Allegheny_spurge",
+          "Pachysandra_procumbens"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "low semi-evergreen perennial herb having small spikes of white or pinkish flowers",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "allium.n.01",
+        "lemmas": [
+          "Allium",
+          "genus_Allium"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "large genus of perennial and biennial pungent bulbous plants: garlic",
+        "snippet": "perennial",
+        "metaphor": false
+      },
+      {
+        "synset": "alopecurus.n.01",
+        "lemmas": [
+          "Alopecurus",
+          "genus_Alopecurus"
+        ],
+        "class": "seasonal",
+        "route": "seasonal:plant-lifecycle[SEVERABLE]",
+        "gloss_clause": "annual or perennial grasses including decorative and meadow species as well as notorious agricultural weeds",
+        "snippet": "annual",
+        "metaphor": false
+      }
+    ],
+    "enduring_extinct_JUDGMENT": [
+      {
+        "synset": "adapid.n.01",
+        "lemmas": [
+          "Adapid",
+          "Adapid_group"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "extinct small mostly diurnal lower primates that fed on leaves and fruit",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "aegyptopithecus.n.01",
+        "lemmas": [
+          "Aegyptopithecus"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "extinct primate of about 38 million years ago",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "aepyorniformes.n.01",
+        "lemmas": [
+          "Aepyorniformes",
+          "order_Aepyorniformes"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "huge extinct flightless birds: elephant birds",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "agnatha.n.01",
+        "lemmas": [
+          "Agnatha",
+          "superclass_Agnatha"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "some extinct forms",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "algeripithecus.n.01",
+        "lemmas": [
+          "Algeripithecus",
+          "genus_Algeripithecus"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "an extinct genus of hominoidea",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "algeripithecus_minutus.n.01",
+        "lemmas": [
+          "Algeripithecus_minutus"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "tiny (150 to 300 grams) extinct primate of 46 to 50 million years ago",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "ammonite.n.01",
+        "lemmas": [
+          "ammonite",
+          "ammonoid"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "one of the coiled chambered fossil shells of extinct mollusks",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "anapsid.n.01",
+        "lemmas": [
+          "anapsid",
+          "anapsid_reptile"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "all extinct except turtles",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "anapsida.n.01",
+        "lemmas": [
+          "Anapsida",
+          "subclass_Anapsida"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "turtles and extinct permian forms",
+        "snippet": "extinct",
+        "metaphor": false
+      },
+      {
+        "synset": "anaspid.n.01",
+        "lemmas": [
+          "anaspid"
+        ],
+        "class": "enduring",
+        "route": "enduring:extinct[JUDGMENT-CALL]",
+        "gloss_clause": "extinct small freshwater jawless fish usually having a heterocercal tail and an armored head",
+        "snippet": "extinct",
+        "metaphor": false
+      }
+    ],
+    "abstract_head_carriers": [
+      {
+        "synset": "ephemera.n.01",
+        "lemmas": [
+          "ephemera"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:transitory",
+        "gloss_clause": "something transitory",
+        "snippet": "transitory",
+        "metaphor": false
+      },
+      {
+        "synset": "ephemeron.n.01",
+        "lemmas": [
+          "ephemeral",
+          "ephemeron"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:short-lived",
+        "gloss_clause": "anything short-lived, as an insect that lives only for a day in its winged form",
+        "snippet": "short-lived",
+        "metaphor": false
+      },
+      {
+        "synset": "flash_in_the_pan.n.01",
+        "lemmas": [
+          "flash_in_the_pan"
+        ],
+        "class": "ephemeral",
+        "route": "ephemeral:transient",
+        "gloss_clause": "someone who enjoys transient success but then fails",
+        "snippet": "transient",
+        "metaphor": false
+      },
+      {
+        "synset": "hangover.n.03",
+        "lemmas": [
+          "hangover",
+          "holdover"
+        ],
+        "class": "enduring",
+        "route": "enduring:survives-from-past",
+        "gloss_clause": "something that has survived from the past",
+        "snippet": "survived from the past",
+        "metaphor": false
+      }
+    ]
+  },
+  "rejected_candidate_audit": [
+    {
+      "token": "abrupt",
+      "n_noun_glosses": 29,
+      "rejected_because": "onset/manner ('abrupt onset', 'abrupt manner')",
+      "examples": [
+        {
+          "synset": "abruptness.n.01",
+          "gloss": "an abrupt discourteous manner"
+        },
+        {
+          "synset": "absence.n.04",
+          "gloss": "the occurrence of an abrupt, transient loss or impairment of consciousness (which is not subsequently remembered), sometimes with light twitching, fluttering eyelids, etc.; common in petit mal epilepsy"
+        },
+        {
+          "synset": "acute_schizophrenic_episode.n.01",
+          "gloss": "schizophrenia of abrupt onset and relatively short duration (a few weeks or months)"
+        }
+      ]
+    },
+    {
+      "token": "sudden",
+      "n_noun_glosses": 135,
+      "rejected_because": "onset ('sudden confusion/attack/onset')",
+      "examples": [
+        {
+          "synset": "acute_brain_disorder.n.01",
+          "gloss": "any disorder (as sudden confusion or disorientation) in an otherwise normal person that is due to reversible (temporary) impairment of brain tissues (as by head injuries or drugs or infection)"
+        },
+        {
+          "synset": "angioedema.n.01",
+          "gloss": "recurrent large circumscribed areas of subcutaneous edema; onset is sudden and it disappears within 24 hours; seen mainly in young women, often as an allergic reaction to food or drugs"
+        },
+        {
+          "synset": "anxiety_attack.n.01",
+          "gloss": "a sudden acute episode of intense anxiety and feelings of panic"
+        }
+      ]
+    },
+    {
+      "token": "rapid",
+      "n_noun_glosses": 107,
+      "rejected_because": "rate/manner ('rapid succession/production')",
+      "examples": [
+        {
+          "synset": "anamnestic_response.n.01",
+          "gloss": "renewed rapid production of an antibody on the second (or subsequent) encounter with the same antigen"
+        },
+        {
+          "synset": "anaphylactic_shock.n.01",
+          "gloss": "a severe and rapid and sometimes fatal hypersensitivity reaction to a substance (especially a vaccine or penicillin or shellfish or insect venom) to which the organism has become sensitized by previous exposure"
+        },
+        {
+          "synset": "apparent_motion.n.01",
+          "gloss": "an optical illusion of motion produced by viewing a rapid succession of still pictures of a moving object"
+        }
+      ]
+    },
+    {
+      "token": "swift",
+      "n_noun_glosses": 39,
+      "rejected_because": "manner + proper noun (Jonathan Swift)",
+      "examples": [
+        {
+          "synset": "bang.n.04",
+          "gloss": "the swift release of a store of affective force"
+        },
+        {
+          "synset": "blitz.n.02",
+          "gloss": "a swift and violent military offensive with intensive aerial bombardment"
+        },
+        {
+          "synset": "brobdingnag.n.01",
+          "gloss": "a land imagined by jonathan swift where everything was enormous"
+        }
+      ]
+    },
+    {
+      "token": "instantaneous",
+      "n_noun_glosses": 5,
+      "rejected_because": "calculus/physics ('instantaneous change/pressure')",
+      "examples": [
+        {
+          "synset": "derived_function.n.01",
+          "gloss": "the result of mathematical differentiation; the instantaneous change of one quantity relative to another; df(x)/dx"
+        },
+        {
+          "synset": "limiter.n.01",
+          "gloss": "(electronics) a nonlinear electronic circuit whose output is limited in amplitude; used to limit the instantaneous amplitude of a waveform (to clip off the peaks of a waveform)"
+        },
+        {
+          "synset": "sound_pressure.n.01",
+          "gloss": "the difference between the instantaneous pressure at a point in a sound field and the average pressure at that point"
+        }
+      ]
+    },
+    {
+      "token": "periodic|recurring|intermittent",
+      "n_noun_glosses": 55,
+      "rejected_because": "chemistry/physics/banking ('periodic table/wave/statement')",
+      "examples": [
+        {
+          "synset": "alkali_metal.n.01",
+          "gloss": "any of the monovalent metals of group i of the periodic table (lithium or sodium or potassium or rubidium or cesium or francium)"
+        },
+        {
+          "synset": "alkaline_earth.n.01",
+          "gloss": "any of the bivalent metals of group ii of the periodic table (calcium or strontium or barium or magnesium or beryllium)"
+        },
+        {
+          "synset": "amplitude.n.01",
+          "gloss": "(physics) the maximum displacement of a periodic wave"
+        }
+      ]
+    },
+    {
+      "token": "brief (bare)",
+      "n_noun_glosses": 61,
+      "rejected_because": "polysemous ('amicus curiae brief' = legal doc) + brief-events",
+      "examples": [
+        {
+          "synset": "afterpiece.n.01",
+          "gloss": "a brief dramatic piece (usually comic) presented after a play"
+        },
+        {
+          "synset": "amicus_curiae_brief.n.01",
+          "gloss": "a brief presented by someone interested in influencing the outcome of a lawsuit but who is not a party to it"
+        },
+        {
+          "synset": "arab-israeli_war.n.02",
+          "gloss": "tension between arabs and israeli erupted into a brief war in june 1967; israel emerged as a major power in the middle east"
+        }
+      ]
+    }
+  ],
+  "residual_miss_estimate": [
+    {
+      "token": "old (bare)",
+      "n_noun_glosses_containing": 608,
+      "declined_because": "massively polysemous: 'Old Testament', 'Old World', 'old age' — routing it is untenable",
+      "examples": [
+        {
+          "synset": "aaron.n.02",
+          "gloss": "(old testament) elder brother of moses and first high priest of the israelites; created the golden calf"
+        },
+        {
+          "synset": "abdominal_aortic_aneurysm.n.01",
+          "gloss": "an aneurysm of the abdominal aorta associated with old age and hypertension"
+        },
+        {
+          "synset": "abel.n.02",
+          "gloss": "(old testament) cain and abel were the first children of adam and eve born after the fall of man; abel was killed by cain"
+        }
+      ]
+    },
+    {
+      "token": "centuries/millennia (dating)",
+      "n_noun_glosses_containing": 79,
+      "declined_because": "historical date-placement ('in the 12th century'); many are mere dating, not the referent's own antiquity",
+      "examples": [
+        {
+          "synset": "albigenses.n.01",
+          "gloss": "a christian religious sect in southern france in the 12th and 13th centuries; believers in albigensianism"
+        },
+        {
+          "synset": "albigensianism.n.01",
+          "gloss": "a christian movement considered to be a medieval descendant of manichaeism in southern france in the 12th and 13th centuries; characterized by dualism (asserted the coexistence of two mutually opposed principles, one good and one evil); was exterminated for heresy during the inquisition"
+        },
+        {
+          "synset": "avesta.n.01",
+          "gloss": "a collection of zoroastrian texts gathered during the 4th or 6th centuries"
+        }
+      ]
+    },
+    {
+      "token": "permanent",
+      "n_noun_glosses_containing": 55,
+      "declined_because": "technical-dominated: 'permanent magnet/press/tooth/wave/residence'",
+      "examples": [
+        {
+          "synset": "alnico.n.01",
+          "gloss": "trade name for an alloy used to make high-energy permanent magnets; contains aluminum and iron and nickel plus cobalt or copper or titanium"
+        },
+        {
+          "synset": "anxiety.n.01",
+          "gloss": "(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic"
+        },
+        {
+          "synset": "aridity.n.02",
+          "gloss": "a deficiency of moisture (especially when resulting from a permanent absence of rainfall)"
+        }
+      ]
+    },
+    {
+      "token": "eternal/everlasting",
+      "n_noun_glosses_containing": 16,
+      "declined_because": "'everlasting' is largely a plant common-name (everlasting flower)",
+      "examples": [
+        {
+          "synset": "acroclinium.n.01",
+          "gloss": "genus of herbs and shrubs of australia and south africa: everlasting flower; most species usually placed in genus helipterum"
+        },
+        {
+          "synset": "agelessness.n.01",
+          "gloss": "the quality of being timeless and eternal"
+        },
+        {
+          "synset": "anaphalis.n.01",
+          "gloss": "a genus of herbs of north temperate regions having hoary leaves: pearly everlasting"
+        }
+      ]
+    },
+    {
+      "token": "immortal/perpetual",
+      "n_noun_glosses_containing": 11,
+      "declined_because": "mostly mythology ('became immortal', 'perpetual life after death')",
+      "examples": [
+        {
+          "synset": "achilles.n.01",
+          "gloss": "a mythical greek hero of the iliad; a foremost greek warrior at the siege of troy; when he was a baby his mother tried to make him immortal by bathing him in a magical river but the heel by which she held him remained vulnerable--his `achilles' heel'"
+        },
+        {
+          "synset": "ambrosia.n.04",
+          "gloss": "(classical mythology) the food and drink of the gods; mortals who ate it became immortal"
+        },
+        {
+          "synset": "collembolan.n.01",
+          "gloss": "any of numerous minute wingless primitive insects possessing a special abdominal appendage that allows the characteristic nearly perpetual springing pattern; found in soil rich in organic debris or on the surface of snow or water"
+        }
+      ]
+    },
+    {
+      "token": "for generations",
+      "n_noun_glosses_containing": 1,
+      "declined_because": "tiny; genuine endurance ('in a family for generations') left uncaught",
+      "examples": [
+        {
+          "synset": "heirloom.n.02",
+          "gloss": "something that has been in a family for generations"
+        }
+      ]
+    }
+  ],
+  "metaphor_finding": {
+    "n_charged_with_explicit_figurative_marker": 0,
+    "note": "WordNet noun glosses do NOT co-mark figurative lifespan with an explicit marker (unlike zh 比喻…短暫). The EN analog carrier is the ABSTRACT-HEAD gloss ('something transitory' / 'anything short-lived') — 4 charged synsets. This is an honest cross-lingual ∅ for the explicit-marker metaphor class."
+  },
+  "provenance": {
+    "wordnet_source": "caesitas_proto/nltk_data/ (vendored WordNet 3.0, no network)",
+    "wordnet_zip_sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+    "organ_script_sha256": "4babeb03cb182e4482ba3740778d5ee2cd5a0a76bc5ac3511374151ed03a55aa"
+  },
+  "refuses_to_do": [
+    "no ML / no generative / no LLM judgment anywhere inside the instrument — regex/string rules over glosses only",
+    "no norms as triggers (property-generation / embedding norms are not consulted)",
+    "no tuning to hit a target count — thin classes reported thin (tempo n=1; explicit-metaphor n=0)",
+    "severable classes are clearly severable (seasonal, plant-lifecycle, tempo, extinct) and tagged as such",
+    "no lead-anchor (rejected for this field); whole-gloss clause frames only",
+    "concludes nothing — PROPOSED; her adoption gates it"
+  ]
+}

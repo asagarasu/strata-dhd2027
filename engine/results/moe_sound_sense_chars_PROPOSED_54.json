@@ -1,0 +1,5113 @@
+{
+  "title": "MOE single-char SOUND-sense headwords — hardened derivation (PROPOSED)",
+  "status": "PROPOSED — concludes nothing; field owner adopts/amends/rejects",
+  "tier": "REFERENT-TIER evidence (her ruling 07-21); not written charge.",
+  "date": "2026-07-21",
+  "session": 54,
+  "queue_item": 6,
+  "field_shape": "single field boolean (is this sense about sound); no pole axis. WHOLE FIELD, one list, per-char routes recorded.",
+  "n_single_char_headwords_scanned": 11056,
+  "n_charged": 216,
+  "charged_chars": "㖪乒乾亂亮休低倒刷剨匏南叫吟吭吵吷吽呃呴呼和咚咩咻咽品哄哅唔唳唶啅啞啦啼啾喀喁喇喌喔喚喝喵嗄嗈嗖嗞嗡嗤嗲嘈嘎嘒嘚嘯嘰嘶嘹噦噫噭嚎嚗嚦嚧嚶坎壎壴奏宏尖岔巢弄弦彈彋悶戛抹拉拍搊敔板柷椌楬業槽樂欻殹汃汋汪沙泠淙湱澩濤灂牄牌牟玎球琤琯琴瑟瑲璆璈相砰磌磕磞磬窣竟竷竹竽笅笐笙笛笳筑箏管節篪簧簫籟籥絃緯繣缶罄羋聲聽聾脆腔葭號角觱訇語謈譜貝趵軫轔轟鈜鈸鉦錚錞鍠鍾鎗鎛鏗鏘鏜鏞鏦鐃鐘鐲鐸鐻鑔鑮鑼閛闋闞闟阮雊雌雷鞀韎音韻韽響颼飀飋高魶鳴鷕鼓鼕鼚鼛龠龤",
+  "n_boundary_only": 0,
+  "onomatseed_initial": "嗡嘒嘶淙潺琅轟鏗鏘鏜隆響鳴",
+  "fixpoint": {
+    "rounds": [
+      {
+        "round": 1,
+        "n_charged": 216,
+        "added_this_round": [
+          "㖪",
+          "乒",
+          "乾",
+          "亂",
+          "亮",
+          "休",
+          "低",
+          "倒",
+          "刷",
+          "剨",
+          "匏",
+          "南",
+          "叫",
+          "吟",
+          "吭",
+          "吵",
+          "吷",
+          "吽",
+          "呃",
+          "呴",
+          "呼",
+          "和",
+          "咚",
+          "咩",
+          "咻",
+          "咽",
+          "品",
+          "哄",
+          "哅",
+          "唔",
+          "唳",
+          "唶",
+          "啅",
+          "啞",
+          "啦",
+          "啼",
+          "啾",
+          "喀",
+          "喁",
+          "喇",
+          "喌",
+          "喔",
+          "喚",
+          "喝",
+          "喵",
+          "嗄",
+          "嗈",
+          "嗖",
+          "嗞",
+          "嗡",
+          "嗤",
+          "嗲",
+          "嘈",
+          "嘎",
+          "嘒",
+          "嘚",
+          "嘯",
+          "嘰",
+          "嘶",
+          "嘹",
+          "噦",
+          "噫",
+          "噭",
+          "嚎",
+          "嚗",
+          "嚦",
+          "嚧",
+          "嚶",
+          "坎",
+          "壎",
+          "壴",
+          "奏",
+          "宏",
+          "尖",
+          "岔",
+          "巢",
+          "弄",
+          "弦",
+          "彈",
+          "彋",
+          "悶",
+          "戛",
+          "抹",
+          "拉",
+          "拍",
+          "搊",
+          "敔",
+          "板",
+          "柷",
+          "椌",
+          "楬",
+          "業",
+          "槽",
+          "樂",
+          "欻",
+          "殹",
+          "汃",
+          "汋",
+          "汪",
+          "沙",
+          "泠",
+          "淙",
+          "湱",
+          "澩",
+          "濤",
+          "灂",
+          "牄",
+          "牌",
+          "牟",
+          "玎",
+          "球",
+          "琤",
+          "琯",
+          "琴",
+          "瑟",
+          "瑲",
+          "璆",
+          "璈",
+          "相",
+          "砰",
+          "磌",
+          "磕",
+          "磞",
+          "磬",
+          "窣",
+          "竟",
+          "竷",
+          "竹",
+          "竽",
+          "笅",
+          "笐",
+          "笙",
+          "笛",
+          "笳",
+          "筑",
+          "箏",
+          "管",
+          "節",
+          "篪",
+          "簧",
+          "簫",
+          "籟",
+          "籥",
+          "絃",
+          "緯",
+          "繣",
+          "缶",
+          "罄",
+          "羋",
+          "聲",
+          "聽",
+          "聾",
+          "脆",
+          "腔",
+          "葭",
+          "號",
+          "角",
+          "觱",
+          "訇",
+          "語",
+          "謈",
+          "譜",
+          "貝",
+          "趵",
+          "軫",
+          "轔",
+          "轟",
+          "鈜",
+          "鈸",
+          "鉦",
+          "錚",
+          "錞",
+          "鍠",
+          "鍾",
+          "鎗",
+          "鎛",
+          "鏗",
+          "鏘",
+          "鏜",
+          "鏞",
+          "鏦",
+          "鐃",
+          "鐘",
+          "鐲",
+          "鐸",
+          "鐻",
+          "鑔",
+          "鑮",
+          "鑼",
+          "閛",
+          "闋",
+          "闞",
+          "闟",
+          "阮",
+          "雊",
+          "雌",
+          "雷",
+          "鞀",
+          "韎",
+          "音",
+          "韻",
+          "韽",
+          "響",
+          "颼",
+          "飀",
+          "飋",
+          "高",
+          "魶",
+          "鳴",
+          "鷕",
+          "鼓",
+          "鼕",
+          "鼚",
+          "鼛",
+          "龠",
+          "龤"
+        ]
+      },
+      {
+        "round": 2,
+        "n_charged": 216,
+        "added_this_round": []
+      }
+    ],
+    "n_rounds_to_fixpoint": 2,
+    "note": "did NOT propagate: no char joined the ONOMATSEED after the initial pass (round 2 is the fixpoint-confirming pass) — EXPECTED, and a finding: MOE sound senses are noun-glosses ('…的聲音'), not adjective chains, so the seed does not propagate the way illum's descriptor web did."
+  },
+  "headline_flags": [
+    {
+      "char": "聲",
+      "routes": [
+        "music",
+        "sound:frame"
+      ],
+      "flag": "core sound char; charges MOE-sound as expected."
+    },
+    {
+      "char": "音",
+      "routes": [
+        "sound:noun"
+      ],
+      "flag": "core sound char; charges MOE-sound as expected."
+    },
+    {
+      "char": "響",
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "flag": "core sound char; charges MOE-sound as expected."
+    }
+  ],
+  "calibration_chars": {
+    "requested": "轰 鸣 响 聲 音 韻 鏗 鏘 嘒",
+    "note": "轰/鸣 are NOT MOE single-char headwords (simplified; MOE is traditional). 响 is only '的異體字' — a variant pointer to 響, content-free. The MOE-bearing sound chars calibrated on are 聲 音 韻 鏗 鏘 嘒 響 — the mirror-image of HowNet's simplified-dominance (where 轰 鸣 响 DO carry {MakeSound|发声})."
+  },
+  "hownet_gap": {
+    "moe_only_chars": "㖪乒乾亂亮休低倒刷剨匏南叫吟吷吽呃呴呼和咚咻咽品哅唔唳唶啅啞啦啼喀喁喇喌喚喝喵嗄嗈嗖嗞嗡嗤嗲嘈嘎嘒嘚嘯嘰嘶嘹噦噫噭嚎嚗嚦嚧嚶坎壎壴宏尖岔巢弄彈彋悶戛抹拍搊敔柷椌楬業槽樂欻殹汃汋汪沙泠淙湱澩濤灂牄牌牟玎球琤琯瑲璆璈相砰磌磕磞窣竟竷竹笅笐筑節簫籟籥絃緯繣罄羋聲聽聾脆葭號觱訇語謈譜貝趵軫轔轟鈜鈸鉦錚錞鍠鍾鎗鎛鏗鏘鏜鏞鏦鐃鐲鐸鐻鑔鑮鑼閛闋闞闟阮雊雌雷鞀韎韻韽響颼飀飋高魶鳴鷕鼕鼚鼛龤",
+    "n_moe_only": 188,
+    "moe_only_nonboundary": "㖪乒乾亂亮休低倒刷剨匏南叫吟吷吽呃呴呼和咚咻咽品哅唔唳唶啅啞啦啼喀喁喇喌喚喝喵嗄嗈嗖嗞嗡嗤嗲嘈嘎嘒嘚嘯嘰嘶嘹噦噫噭嚎嚗嚦嚧嚶坎壎壴宏尖岔巢弄彈彋悶戛抹拍搊敔柷椌楬業槽樂欻殹汃汋汪沙泠淙湱澩濤灂牄牌牟玎球琤琯瑲璆璈相砰磌磕磞窣竟竷竹笅笐筑節簫籟籥絃緯繣罄羋聲聽聾脆葭號觱訇語謈譜貝趵軫轔轟鈜鈸鉦錚錞鍠鍾鎗鎛鏗鏘鏜鏞鏦鐃鐲鐸鐻鑔鑮鑼閛闋闞闟阮雊雌雷鞀韎韻韽響颼飀飋高魶鳴鷕鼕鼚鼛龤",
+    "n_moe_only_nonboundary": 188,
+    "moe_only_GENUINE_attribute_gap": "乒乾亂亮休低倒刷剨匏南叫吟吷吽呃呴呼和咚咻咽品哅唔唳唶啅啞啦啼喀喁喇喌喚喝喵嗄嗈嗖嗞嗡嗤嗲嘈嘎嘒嘚嘯嘰嘶嘹噦噫噭嚎嚗嚦嚧嚶坎壎壴宏尖岔巢弄彈彋悶戛抹拍搊敔柷椌楬業槽樂欻殹汃汋汪沙泠淙湱澩濤灂牄牌牟玎球琯瑲璆璈相砰磌磕磞窣竟竷竹笅笐筑節簫籟籥絃緯繣罄羋聲聽聾脆葭號觱訇語謈譜貝趵軫轔轟鈜鈸鉦錚錞鍠鍾鎗鎛鏗鏘鏜鏞鏦鐃鐲鐸鐻鑔鑮鑼閛闋闞闟阮雊雌雷鞀韎韻韽響颼飀飋高魶鳴鷕鼕鼚鼛龤",
+    "n_moe_only_genuine": 186,
+    "moe_only_script_form_unreachable": "㖪琤",
+    "n_moe_only_script_unreachable": 2,
+    "n_hownet_only": 83,
+    "hownet_only_sample": "乐偈冬口叭号吧吱吹吼呀呖呦咆咕咝咣咬哈响哐哑哞哨哼唿商啊啧啪啷啸喳嗓嗬嘴嘻嚄嚯四埙声弹抿拼曲杼柝桴梆歌汩痖碴稿箜箫籁調词",
+    "note": "chars charged by a MOE sound SENSE whose HowNet attributes carry NO deployed sound sememe (MusicTool|乐器, MakeSound|发声, sound|声音, music|音乐) — the audit yield, the 橙-hole's sound twin. Split by gap_class: GENUINE attribute-gap = HowNet knows the char (or a reachable simplified twin) but attributes no deployed sound sememe (the real yield; includes 蘭-style {character|文字} placeholders); script-form-unreachable = no HowNet char/twin found via the partial S2T_CHAR bridge, so the gap MAY be script artefact only (no full converter available). boundary-only listed separately (severable)."
+  },
+  "chars": {
+    "㖪": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "忽然發出嚇人的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "忽然發出嚇人的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "㖪"
+      ],
+      "gap_class": "script-form-unreachable (no HowNet char/twin found; gap may be script artefact only)"
+    },
+    "乒": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬東西碰撞的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬東西碰撞的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "乒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "乾": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音清脆響亮",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "乾"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "亂": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "古代樂曲的最後一章。：\r",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "亂"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "亮": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音響亮清澈",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "亮"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "休": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "發出痛念、憐惜的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "發出痛念、憐惜的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "休"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "低": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容聲音很小",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "低"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "倒": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音沙啞",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "倒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "刷": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容迅速擦過的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容迅速擦過的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "刷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "剨": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容物體破裂的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容物體破裂的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "剨"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "匏": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。古笙竽以匏為座，故此類樂器稱為，與金、石、土、革、絲、木、竹合稱為",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "匏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "南": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "南方的樂曲",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "南"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "叫": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "昆蟲鳥獸發聲。、、、。\r",
+          "snippet": "發聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "叫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "吟": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "痛苦時發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "痛苦時發出的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "啼叫、鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "吟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "吭": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "發出聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "發出聲音",
+          "snippet": "發出聲"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "吭"
+      ]
+    },
+    "吵": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音雜亂",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "吵"
+      ]
+    },
+    "吷": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "發出小聲音",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "吷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "吽": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "吽牙：狗爭鬥的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "吽牙：狗爭鬥的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "吽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "呃": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容雞叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容雞叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "呃"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "呴": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "喉中所發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "喉中所發出的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "呴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "呼": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容風吹動的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容風吹動的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "呼"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "和": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音相應",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "和"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "咚": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬撞擊或敲鼓的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬撞擊或敲鼓的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "咚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "咩": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬羊叫的聲音。同",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬羊叫的聲音。同",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "咩"
+      ]
+    },
+    "咻": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容喘氣聲或動物的叫聲",
+          "snippet": "叫聲"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容箭或炮竹發射的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容箭或炮竹發射的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "咻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "咽": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音悲淒滯塞",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "咽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "品": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "吹奏樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "品"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "哄": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "許多人同時發聲",
+          "snippet": "發聲"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "哄"
+      ]
+    },
+    "哅": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "哅哅：喧嚷的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "哅哅：喧嚷的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "哅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "唔": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容吟詠詩書的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容吟詠詩書的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "唔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "唳": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "鳥類高聲鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "唳"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "唶": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "唶唶：形容鳥鳴叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "唶唶：形容鳥鳴叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "唶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "啅": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鳥鳴聲",
+          "snippet": "鳴聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "啅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "啞": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容烏鴉之類的叫聲",
+          "snippet": "叫聲"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容小兒學說話的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容小兒學說話的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容聲音枯澀、低沉不圓潤。、\r",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "不說話、沒聲音的",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "啞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "啦": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容歌唱、歡呼時的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容歌唱、歡呼時的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "啦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "啼": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "鳥獸的鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "啼"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "啾": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容幼兒所發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容幼兒所發出的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "啾"
+      ]
+    },
+    "喀": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容咳嗽、嘔吐的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容咳嗽、嘔吐的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喀"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喁": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "相應和的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "相應和的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喁"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喇": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容風、雨等的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容風、雨等的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喌": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "叫雞的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "叫雞的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喔": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容公雞的叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "喔"
+      ]
+    },
+    "喚": {
+      "routes": [
+        "onomat:[SEED]響鳴的"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "onomat:[SEED]響鳴的",
+          "sense": "鳴",
+          "snippet": "鳴"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喝": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音幽噎嘶啞",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喝"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "喵": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬貓叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬貓叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "喵"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗄": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音嘶啞。第五五章",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗄"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗈": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "嗈嗈：形容群鳥和鳴的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "嗈嗈：形容群鳥和鳴的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗖": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容驅鳥所發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容驅鳥所發出的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容迅速通過的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容迅速通過的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗞": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容尖銳而連續不斷的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容尖銳而連續不斷的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗡": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容昆蟲翅膀拍動的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容昆蟲翅膀拍動的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗡"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗤": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容笑的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容笑的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容撕紙的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容撕紙的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗤"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嗲": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容聲音或姿態嬌媚造作",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嗲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘈": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "一起發出聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "一起發出聲音",
+          "snippet": "發出聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘎": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容短促而響亮的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容短促而響亮的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘒": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "細微的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "細微的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘚": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬馬蹄踏地的聲音。\r",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬馬蹄踏地的聲音。\r",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘯": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "鳥類野獸長聲鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘯"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘰": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容蟬或鳥叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘰"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘶": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音沙啞",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "聲音淒愴、幽咽",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嘹": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音清脆悠揚。參見、等條",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嘹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "噦": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "噦噦：聲音輕緩有節奏",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "噦噦：形容鳥的叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "噦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "噫": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "心不平所發的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "心不平所發的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "噫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "噭": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "鳴叫、呼號",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "噭"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嚎": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嚎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嚗": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬發怒的聲音。：\r",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬發怒的聲音。：\r",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "模擬物體迸裂的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬物體迸裂的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嚗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嚦": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鳥類鳴叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容鳥類鳴叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嚦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嚧": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容喚豬的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容喚豬的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嚧"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "嚶": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鳥鳴叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容鳥鳴叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "嚶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "坎": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容砍伐樹木的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容砍伐樹木的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "坎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "壎": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。新石器時代已出土，形狀有橢圓形、管狀、魚形、蛙形、圓形等形狀不一，且音孔數多為一至五。今多為平底卵形，大小不一，吹孔在頂端，音孔數多為八至十一，雙手捧之而吹。以陶製為主，亦有石製、骨製，相傳為伏羲所創",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "壎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "壴": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "陳列的樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "壴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "奏": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "吹彈樂器",
+          "snippet": "樂器"
+        },
+        {
+          "route": "music",
+          "sense": "音樂高低抑揚的節拍",
+          "snippet": "音樂"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "奏"
+      ]
+    },
+    "宏": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音響亮",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "宏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "尖": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音頻率高而刺耳的",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "尖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "岔": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音哽咽失常",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "岔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "巢": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。屬於笙類的一種",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "巢"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "弄": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "演奏樂器",
+          "snippet": "樂器"
+        },
+        {
+          "route": "music",
+          "sense": "樂曲。、。：三國",
+          "snippet": "樂曲"
+        },
+        {
+          "route": "music",
+          "sense": "計算樂曲或演奏次數的單位",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "弄"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "弦": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "張於樂器上的絲、線，可用於彈奏發出樂音",
+          "snippet": "樂器"
+        },
+        {
+          "route": "music",
+          "sense": "彈奏弦樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "弦"
+      ]
+    },
+    "彈": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "撥弄或按弄樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "彈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "彋": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "弸彋：形容風吹帷帳的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "弸彋：形容風吹帷帳的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "彋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "悶": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音不響亮。\r",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "悶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "戛": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鳥鳴聲",
+          "snippet": "鳴聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "戛"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "抹": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "弦樂器彈奏法，食指向內為抹",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "抹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "拉": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "演奏弦樂器的方法",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "拉"
+      ]
+    },
+    "拍": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂曲的節奏",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "拍"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "搊": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "用手指撥弄樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "搊"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "敔": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。古代的敲擊樂器之一。以木製成，形狀像趴著的老虎，背上裝有二十七個金屬片，用以停止音樂的進行",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "敔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "板": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "音樂的節拍",
+          "snippet": "音樂"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "板"
+      ]
+    },
+    "柷": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。木製，箱形，上寬下窄。演奏時，以椎敲擊內壁。古時樂隊演奏時，以擊柷表示音樂開始",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "椌": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。古代樂器。形似桶，中空",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "椌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "楬": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。即敔。參見條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楬"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "業": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "古代樂器架子橫木上的大版，狀如鋸齒，可以懸掛鐘、鼓、磬等",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "業"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "槽": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "弦樂器上架弦的凹格子。：\r",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "槽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "樂": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "有規律而和諧動人的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "有規律而和諧動人的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "樂"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "欻": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容急促或有節奏的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容急促或有節奏的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "欻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "殹": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "呻吟的聲音。見字．",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "呻吟的聲音。見字．",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "殹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "汃": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬波濤相激盪的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬波濤相激盪的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "汃"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "汋": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "水波激盪的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "水波激盪的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "汋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "汪": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容狗叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "汪"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "沙": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音嘶啞。。：．",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "沙"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "泠": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音清越",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "泠"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "淙": {
+      "routes": [
+        "music",
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容水流動的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容水流動的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容樂器所發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容樂器所發出的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "music",
+          "sense": "形容樂器所發出的聲音",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "淙"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "湱": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "波濤相激盪的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "波濤相激盪的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "湱"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "澩": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容波浪激盪的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容波浪激盪的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "澩"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "濤": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "似波濤的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "似波濤的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "濤"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "灂": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容下雨的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容下雨的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "形容波浪激盪的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容波浪激盪的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "灂"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "牄": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鳥獸覓食的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容鳥獸覓食的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "牄"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "牌": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "詞或曲的曲調名稱",
+          "snippet": "曲調"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "牌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "牟": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容牛叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "牟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "玎": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬玉石相碰撞的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬玉石相碰撞的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "玎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "球": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "玉製的打擊樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "球"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "琤": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "玉器相擊所發出的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "玉器相擊所發出的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "琤"
+      ],
+      "gap_class": "script-form-unreachable (no HowNet char/twin found; gap may be script artefact only)"
+    },
+    "琯": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "以玉製成的管樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "琯"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "琴": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。最早指瑤琴（古琴）",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "琴"
+      ]
+    },
+    "瑟": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。一種彈撥弦樂器。形狀似琴，長八尺一吋，廣一尺八吋，相傳為庖犧所作。古有五十弦，後改為二十五弦，弦各有柱，可上下移動，以定聲音清濁高低",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "瑟"
+      ]
+    },
+    "瑲": {
+      "routes": [
+        "music",
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容玉石相撞擊的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容玉石相撞擊的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "music",
+          "sense": "形容音樂聲",
+          "snippet": "音樂"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "瑲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "璆": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容玉器相撞擊的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容玉器相撞擊的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "璆"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "璈": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "古代的一種樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "璈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "相": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。似鼓，敲擊以控制音樂節拍",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "相"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "砰": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬槍枝發射的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬槍枝發射的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "砰"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "磌": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容落石的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容落石的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "磌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "磕": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容石頭相撞擊的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容石頭相撞擊的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "磕"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "磞": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬斷弦的聲音。第八七回",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬斷弦的聲音。第八七回",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "磞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "磬": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器：(1)古代用玉石或金屬製成的打擊樂器。形狀像曲尺，可懸掛在架上。數量不一，有單一的特磬，也有成組排列的編磬。(2)古同。中空銅製，形狀像缽。寺觀禮佛時所敲奏的樂器。僧人於誦經、法會等活動時敲擊",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "磬"
+      ]
+    },
+    "窣": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容細小的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容細小的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "窣"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "竟": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂曲演奏完畢",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "竟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "竷": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "悅耳和諧的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "悅耳和諧的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "竷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "竹": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。笛、簫之屬",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "竹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "竽": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。形似笙而較大，三十六管，後減至二十三管。：鄭玄注引鄭司農云",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "竽"
+      ]
+    },
+    "笅": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。小排簫，古名小簫。同",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "笅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "笐": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "一種竹製的弦樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "笐"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "笙": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。源自中國的簧管樂器。用十三至十七根裝有簧片的竹管和一根吹氣管，裝在一個鍋形的底座上製成。演奏時以口接於吹管，分別以指按簧管，吹之發聲。能奏和聲，吹氣及吸氣皆能發聲，其音色清晰透亮。今常用的高音笙多為三十六簧，常用於獨奏與合奏。目前還有中音笙、次中音笙、低音笙，多用於合奏",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "笙"
+      ]
+    },
+    "笛": {
+      "routes": [
+        "music",
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。古代屬八音的竹類樂器，多為橫吹。亦名為。今在考古中所發現用動物的獸骨，所製成的吹管樂器，直吹，也被稱為骨笛。現有木、竹、金屬、塑膠等不同材質",
+          "snippet": "樂器"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "噴氣發聲的發音器，其響聲尖銳",
+          "snippet": "發聲"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "笛"
+      ]
+    },
+    "笳": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。即胡笳。參見條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "笳"
+      ]
+    },
+    "筑": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，擊弦樂器。目前所見中國最早的擊弦樂器，自戰國至隋唐廣泛流行，宋代以後失傳。形狀似琴，有五弦、十三弦、二十一弦的不同。演奏時以左手按弦一端，右手執竹片擊弦發音。陶淵明",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "筑"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "箏": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。參見條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "筝",
+        "箏"
+      ]
+    },
+    "管": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。以竹製成，上有六孔，可吹氣發聲。：近代使用的管多為木製，分大、中、小三種形制，上開八孔，前七後一，使用蘆葦製哨子吹奏。\r",
+          "snippet": "樂器"
+        },
+        {
+          "route": "music",
+          "sense": "管樂器的通稱",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "管"
+      ]
+    },
+    "節": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "音樂的拍子，以示緩急程度",
+          "snippet": "音樂"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "節"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "篪": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。是古代傳統的一種橫吹，形狀像笛的竹製樂器，有八孔。篪與笛的明顯區別是篪無膜，底端為有竹節封閉，而笛有膜，底端開放",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "篪"
+      ]
+    },
+    "簧": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器裡用金屬或其他材料製成的發聲薄片，如笙、竽、管等",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "簧"
+      ]
+    },
+    "簫": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。竹製，直吹：(1)以一組長短參差的細竹管依音階高低緊密排列而成，一管一音。吹嘴有兩種，一種是哨子型，一種是邊稜音，都通稱為。古代亦名為。(2)之簡稱。單管，管身細長，直吹，常與古琴合奏。(3)今日所稱之為單管直吹，吹孔為V字形口。其正面五孔，背面一孔。今常用於獨奏與合奏。也稱為",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "簫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "籟": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器：(1)古代的一種管樂器。三孔。：(2)簫。：裴駰集解引",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "籟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "籥": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。為遠古短管形竹製簧管樂器，中國最早的竹樂器之一。形制似笛，有三孔或六孔之分。通",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "籥"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "絃": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "裝於樂器以彈奏發聲的絲、線。同",
+          "snippet": "樂器"
+        },
+        {
+          "route": "music",
+          "sense": "弦樂器。同。三國",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "絃"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "緯": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器的弦。：\r",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "緯"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "繣": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容破裂的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容破裂的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "繣"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "缶": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。古代一種瓦製的敲擊樂器，稱",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "缶"
+      ]
+    },
+    "罄": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。中空銅製，形狀像缽。寺觀禮佛時所敲奏的樂器。僧人於誦經、法會等活動時敲擊。古同",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "罄"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "羋": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬羊叫的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬羊叫的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "羋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "聲": {
+      "routes": [
+        "music",
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "音樂",
+          "snippet": "音樂"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "量詞。計算發聲次數的單位",
+          "snippet": "發聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "聲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "聽": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "用耳朵收受聲音",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "聽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "聾": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聽覺遲鈍或聽不到聲音",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "聾"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "脆": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音清越響亮",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "脆"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "腔": {
+      "routes": [
+        "music",
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "曲調",
+          "snippet": "曲調"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "口音、說話的聲調和語氣",
+          "snippet": "的聲"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "腔"
+      ]
+    },
+    "葭": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。通",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葭"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "號": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "風發出聲響",
+          "snippet": "聲響"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "風發出聲響",
+          "snippet": "發出聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "號"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "角": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。初以動物的角製成，後改用竹、木、銅等材料，有曲形、竹筒等形狀，多用於軍隊中",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "角"
+      ]
+    },
+    "觱": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。參見、條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "觱"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "訇": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容巨大的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容巨大的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "訇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "語": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "蟲鳥野獸鳴叫",
+          "snippet": "鳴叫"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "蟲鳥等的鳴叫聲",
+          "snippet": "叫聲"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "蟲鳥等的鳴叫聲",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "語"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "謈": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "呼喊冤屈的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "呼喊冤屈的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "謈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "譜": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "特指樂曲旋律的紀錄本子",
+          "snippet": "樂曲"
+        },
+        {
+          "route": "music",
+          "sense": "按歌詞編寫樂曲",
+          "snippet": "樂曲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "譜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "貝": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。一種吹奏樂器。今藏、蒙一帶，常將貝螺尖端磨穿為吹嘴，在梵樂中使用，音色渾厚",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "貝"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "趵": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬腳踏地的聲音。：\r",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬腳踏地的聲音。：\r",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "趵"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "軫": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器上調整弦線的軸",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "軫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "轔": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容車子行走時的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容車子行走時的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "轔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "轟": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容巨大的聲響",
+          "snippet": "聲響"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容巨大的聲響",
+          "snippet": "的聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "轟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鈜": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容鐘鼓的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容鐘鼓的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鈜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鈸": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。銅製。由兩個中間凸起的圓形銅片相撞擊發聲。一般直徑從十五至六十九公分不等，亞洲民間亦有十一公分以下尺寸，而有小鈸、大鈸、低鈸之分。傳統上常用於民間音樂與戲曲。也稱為",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鈸"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鉦": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。銅製，屬鐲鐃之類。形似鐘而狹長，有長柄可執，是古代行軍樂器，用來調整或停止步伐。古代鳴金收兵，鉦為鳴金樂器之一",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鉦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "錚": {
+      "routes": [
+        "music",
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容金屬、玉石相撞的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容金屬、玉石相撞的聲音",
+          "snippet": "的聲音"
+        },
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。即，銅製，形似鐘而狹長，為古代軍中使用的樂器之一，行軍作戰時可用來調整步伐或收兵",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "錚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "錞": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器，銅製。最早出現於春秋，盛行於戰國兩漢，至南北朝而漸漸銷聲匿跡。：也作",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "錞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鍠": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "鐘鼓的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "鐘鼓的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鍠"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鍾": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "古樂器名。通。參見條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鍾"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鎗": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容敲擊金、鐘的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容敲擊金、鐘的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鎗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鎛": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。打擊樂器。即大鐘。古代的一種形制接近於鐘的打擊樂器，無甬有鈕，但不像鐘口呈弧狀，為平口。器身橫截面為橢圓形或圓形",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鎛"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鏗": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容彈擊金屬瓦石的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容彈擊金屬瓦石的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鏗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鏘": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容撞擊金石的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容撞擊金石的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鏘"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鏜": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。即小鏜鑼。一種形似小銅盤的樂器。俗稱為。\r",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鏜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鏞": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。即大鐘。古樂器，常懸吊式敲擊發聲。祭祀時放在廟堂的西邊",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鏞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鏦": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容金屬器物撞擊的響聲",
+          "snippet": "響聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鏦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鐃": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，古代金屬擊樂器：(1)青銅製，形似鈴無舌，體短而闊，有中空的短柄可安木把。一般以大、中、小三件為一組，用以止息擊鼓。：。一副兩片，形狀像鈸，但中間隆起部分較小",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鐃"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鐘": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器，金屬製。有圓形、合瓦形等形制。通",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "鐘",
+        "钟"
+      ]
+    },
+    "鐲": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。古代行軍時用以節制隊伍行進步伐的樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鐲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鐸": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。一種大鈴，通常為有柄有鈴舌，振舌發聲。古代用來宣佈政教法令或示警。材質多為金屬製或木製",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鐸"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鐻": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。形似鐘，初為木製，後改用銅鑄",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鐻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鑔": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。一種打擊樂器，似鈸，但較小。以銅製成，圓形，由兩片相互敲擊發聲",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鑔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鑮": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。即大鐘",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鑮"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鑼": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。為銅製的淺平圓盤，用槌敲擊以發聲，形制各地不同，種類繁多，用途廣泛",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鑼"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "閛": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬關門的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬關門的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "閛"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "闋": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "曲調",
+          "snippet": "曲調"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "闋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "闞": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "老虎的吼叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "闞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "闟": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬物體墮落的聲音。引",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬物體墮落的聲音。引",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "闟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "阮": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名。一種彈撥樂器。參見條",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "阮"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "雊": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "雄雉鳴叫",
+          "snippet": "鳴叫"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "雊"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "雌": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容聲音柔細",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "雌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "雷": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "比喻聲音很大",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "雷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鞀": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。古代的一種鼓。形制為鼓穿在木柄上，鼓框左右用繩繫著兩個珠狀物，手搖木柄，珠狀物來回敲擊鼓面而發聲。類似民間流行的撥浪鼓。隨柄上所穿鼓數的不同，而有路鞀、靈鞀、雷鞀的分別。一般為一至四面鼓。本用於宗廟社稷祭儀的雅樂中，漢唐以後，也用於宮廷的燕樂中",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鞀"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "韎": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "古代東夷的樂音",
+          "snippet": "樂音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "韎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "音": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲響、聲音",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "音"
+      ]
+    },
+    "韻": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "和諧的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "和諧的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "韻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "韽": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音細小不清脆",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "韽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "響": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "回聲",
+          "snippet": "回聲"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "計算聲音發出的次數。卷三六：第四六回：\r",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "發出聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "發出聲音",
+          "snippet": "發出聲"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "能發出聲音的。。第一二回：第三四回：\r",
+          "snippet": "發出聲"
+        },
+        {
+          "route": "sound:noun",
+          "sense": "聲音宏亮。：\r",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "響"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "颼": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容風吹的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容風吹的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "颼"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "飀": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "風吹動的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "風吹動的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "飀"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "飋": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容風吹的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容風吹的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "飋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "高": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "聲音尖銳激昂的",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "高"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "魶": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "即鯢。形似鮎，聲音如嬰兒",
+          "snippet": "聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "魶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鳴": {
+      "routes": [
+        "sound:frame"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:frame",
+          "sense": "昆蟲鳥獸發聲",
+          "snippet": "發聲"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "泛指一切發聲",
+          "snippet": "發聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鳴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鷕": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容雉鳥的叫聲",
+          "snippet": "叫聲"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鷕"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鼓": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。用皮革蒙在中空木桶上所製成的樂器之泛稱，常以手、木棒或鼓槌擊奏。其形狀大小不一，聲音因其大小、深淺各有不同音量與音色",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "鼓"
+      ]
+    },
+    "鼕": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "模擬敲鼓、敲門等的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "模擬敲鼓、敲門等的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鼕"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鼚": {
+      "routes": [
+        "sound:frame",
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "形容擊鼓的聲音",
+          "snippet": "聲音"
+        },
+        {
+          "route": "sound:frame",
+          "sense": "形容擊鼓的聲音",
+          "snippet": "的聲音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鼚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "鼛": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，打擊樂器。即大鼓。為古代徵召役事或役事完畢時所打擊的樂器",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "鼛"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    },
+    "龠": {
+      "routes": [
+        "music"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "music",
+          "sense": "樂器名，吹管樂器。通常用竹管編成，形狀如笛而稍短，有三孔、六孔等。也作",
+          "snippet": "樂器"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "龠"
+      ]
+    },
+    "龤": {
+      "routes": [
+        "sound:noun"
+      ],
+      "boundary_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "sound:noun",
+          "sense": "樂音和諧。同",
+          "snippet": "樂音"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "龤"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed sound sememe)"
+    }
+  },
+  "diff_vs_unhardened": {
+    "unhardened_baseline_definition": "loose substring of all sound nouns/frames/music/phonology + [響鳴]的 on the FULL 釋義 (no gloss_region, no citation strip), single pass, initial ONOMATSEED only",
+    "n_unhardened_baseline": 1037,
+    "dropped_by_hardening": "㑿㕷㟏㲲䆿䘿䠷䫄一七上不丟乃乍乞也亓亨亳仵价佈佔侊侞侻俍俔修俳俵倞倭偈偋偝偩傀僑僩僻僿儭免入八冱冼凇凱切刺剫劁劂劐務勣匯匴匸區卌博厎厖厴去反口含吱呺呻咋咯咿哨哮哷哼哽唅唏唗唲唵啑啪啽喣嗐嗒嗛嗝嗹嗻噔噠噹嚆嚱嚵囉四囝囮在圬垡城埶埻堁堉堥堽塌填塽壈壕壢壩夭奭奮妗姏姘娓娥婆婬媔媱嫭嫳嫽嬈嬛嬥嬸孖宸寎寯寰尊屧岏岝峉崛崡嶟嶡帊帕帗帘帡帣帴幅幮平幻庀庌序庣庮庵廑廙廞廠廳弆式弝弣弭弮弰彃彔彡律徥復徵徹忉忭怏思怮怲恃悁悃悇悕悷情惌惺惼愐愷慓慺憍憒憛憹懅懭懻戣戭扂打扢抔抻抽拊拎拒拗挐挨挬捍捔捩捱捵掞揊揢揵搌搕搢搫摒摓摠摦摳撥撩撮擗擤擨擷攏攛攝攣攦支斕旴昒昡昨昱晅晟晡晬暐暠暵曇曌曭曲有朘机杌杠枊枝枻柢柶栝桁桅梡梮棋棜棬棻椐楂楄楖楛榫榶槃標橑橦橿檢櫆櫫櫳欒欞欭欿歌歹殈殷毓毣毲汊沆沕泚泜波浣浬涴淰渴湣溔滃滵滾漫漼潎潝潲澓澳澶濁濊濕濜濞瀄瀿炅炔烷烺焊焞焮煞煬煻煽熅熯熰燁燂燖燡爁爆爊爓爟父爸爾牚牡牴犁犼犽狉狌狟狨狷狸猺猼獏獝獠王玟玢玥珵琭琱琲琿瑋瑣瑳璟璨瓊瓟瓦瓷瓻瓽甜畛當畷疊疋疒疚痝瘈瘟瘰癒癙癠皁盬看眭眲眵眹眽睄睍睺瞋瞘矇矊矔矗矞石砑砣砧破硥硪碆碌碏碓碥碪碫碻磉磑磣磪磼磾示祁祭祲禧禳禼秉秏稃稑稿穈穛穾笑笮笴筌筍筤箐箾範篛篣篸簆簎簜簨簿籐籓籮籰粄糪糲紟紱終絎絜絲綑綮緫緱縲縳縶繃繖繵罠罣罨罫罱羓羶翀翃翢翰翲翾耖耬耷聐聒聞肚胕胠胺能脟脭腡腶膀膞膦膱膷膹臄臐臚臞臷舞舶艤芚苙苲莎莏菆菙菝萃萆萭萷葯蒻蓰蓽蔘蕞蕻薷蘙虒虤蚹蛀蛬蜄蜙蜷蝔蝹螘蟢蟬蠁蠡蠯蠼衪衹袀袟裎裰褎褙褯褶褽褾襂襉襗襭襴觓觜訄訏訒訬詀詶調諦譕譫讌讞谽豈豔豜貘貯賁賵贇赮赯赶趷跓跕跗跮跳跼踅踆踔踖踞踫蹙蹪蹳軋軌軒軬軯輇輕輘輠轉轝轠轢辟迪追逖逩達遴邕那邴郼酘酟酳醅醑醳醼釃量金釕釗鈴鉑鉶銃銍銑銛鋟錧鍉鍖鍚鍭鍵鎏鎝鎞鏍鐐鑵鑾闒闢阫阼陌隆隻雀雁雯霎霝霣革鞞鞣鞬鞮鞴鞹韰韶頎頝頡頵顄顜顠顥顬顳飪餪餱饈馞馲駃駉駍騂騞騵驃骭骲骻髁髊髟髴髶髾鬉鬋鬘鬟魊魘鯁鯫鰫鱠鴘鴝鵊鵋鵟鵠鵮鵲鵻鶝鶯鶴鷊鷚鸏鸛麌黈黓黦黧黰鼂鼆鼙鼾齦齾",
+    "n_dropped": 822,
+    "added_by_hardening": "喚",
+    "n_added": 1
+  },
+  "hownet_side": {
+    "deployed_sound_word_rule": "field_ruler_48.py SPECS['sound'] — her sound-referent seeds verbatim; rule 'any' (any-position DEF containment)",
+    "deployed_token_set": [
+      "makesound|发声",
+      "musictool|乐器",
+      "music|音乐",
+      "sound|声音"
+    ],
+    "sound_shengyin_occurrences_in_hownet": "0 (deployed token sound|声音 is VESTIGIAL in this snapshot)",
+    "live_primitive_not_in_deployed_set": "sound|声",
+    "n_hownet_single_char_charged": 111,
+    "hownet_single_char_charged_sample": "乐偈冬口叭号吧吭吱吵吹吼呀呖呦咆咕咝咣咩咬哄哈响哐哑哞哨哼唿商啊啧啪啷啸啾喔喳嗓嗬嘴嘻嚄嚯四埙声奏弦弹抿拉拼曲杼板柝桴梆歌汩琴瑟痖碴磬稿竽笙笛笳筝箜管箫篪簧籁缶",
+    "candidate_extension_sound_sheng": {
+      "note": "chars whose single-char HowNet DEF carries sound|声 (the LIVE primitive) but NOT any deployed token — would charge if sound|声 were added to the deployed set. LISTED, never applied unilaterally (selection-after-results; the field owner rules whether sound|声 joins the deployed set).",
+      "chars": "乒乓叽吖呔呜呸咔咚咦咪咭咴咻咿哇哒哔哗哟哦哧唔唰唷啁喀喈喵嗌嗒嗖嗡嗤嗨嗯嗵嗷嘁嘟嘣嘭噌噔噗噢噫嚓字怦汨波砉砰簌訇跫铿韵飕",
+      "n": 60
+    }
+  },
+  "provenance": {
+    "witness_module": "definition_witness_zh_53.py (parse_moe/gloss_region/s2t/S2T_CHAR exec'd verbatim from the definitional prefix; pipeline NOT run)",
+    "witness_sha256": "8432bfa9c332540788bc1006bdb6d968d777256017b739d0ab75704f8e27c9a0",
+    "moe_xlsx": "lexical_resources/zh_dict_prose/dict_revised_2015_20260625.xlsx",
+    "moe_xlsx_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+    "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+    "field_ruler_sha256": "76fa8f30d6ed7ba76886997da48affb7a52a4e5eadee32773e9f2da23efceb70",
+    "sound_ruler_json_sha256": "84241b989e46c54307e9fccdd69f01dd44c85c51c1c2999c747b606e330f35d3",
+    "sound_ruler_recorded_zh_lex_size": 989,
+    "mirror_of": "moe_illum_sense_chars_54.py (queue item 4)"
+  }
+}

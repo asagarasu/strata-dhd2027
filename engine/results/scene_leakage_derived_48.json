@@ -1,0 +1,16 @@
+{
+ "diagnostic": "scene_leakage_derived_silence",
+ "auc": 0.578436990705179,
+ "ci95": [
+  0.5456754926097539,
+  0.610206803870495
+ ],
+ "n_images": [
+  150,
+  150
+ ],
+ "silence": "authored regex \u222a 133-word HowNet-derived EN light lexicon (adverbial register; denotative light not excludable by any lexicon \u2014 remaining AUC = denotative signal + scene content, inseparable)",
+ "axis_sha256_16": "4cffbb2dcb7a55a4",
+ "seed": 48,
+ "certificate": 0.0
+}

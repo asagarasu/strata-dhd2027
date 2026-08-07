@@ -1,0 +1,558 @@
+{
+ "board": "tiaotiao",
+ "line_idx": 3,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "zh:gushi19_10",
+ "seats": [
+  {
+   "rid": "zh:gushi19_10",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "札札弄机杼。",
+   "v": 0.04199111035800016,
+   "rank": 4,
+   "n_rank": 10,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 0.9921584033160021,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "弄",
+    "delta": 0.016509856291913497,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:札札"
+     ]
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "弄",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "de:forke_1899",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Webstuhl klappert laut, ⟨carrier of 2 folded: L7+L8⟩",
+   "v": 0.053027991431858934,
+   "rank": 4,
+   "n_rank": 20,
+   "full_stack": false,
+   "lang": "de",
+   "z": 1.4961836329800806,
+   "z_mu": -0.001404847796573503,
+   "z_sigma": 0.03638112196162296,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "klappert",
+   "folded_from": [
+    7,
+    8
+   ],
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "klappert",
+    "delta": 0.1508697232835721,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "klappert",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "klappert",
+   "transmission": "INVENTION *"
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Click, clack ply her loom's shuttle.",
+   "v": 0.03971562776956741,
+   "rank": 3,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.9869871735081388,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "clack",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "clack",
+    "delta": 0.04540494704856051,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "clack[wn]",
+     "line_receipts": [
+      "clack[wn]",
+      "click[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:Click-clack"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "clack",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "clack",
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "the loom clatters busily.",
+   "v": 0.13948011486264034,
+   "rank": 1,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.779882940190665,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "clatter",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "busily",
+    "delta": 0.11222976814244238,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "clatter[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "busily",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "clatters",
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "clacking, she whiles away time with the shuttle.",
+   "v": -0.038555399009954416,
+   "rank": 9,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.2042015522202947,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "clack",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "clacking",
+    "delta": 0.024864451757959663,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "clack[wn]",
+     "line_receipts": [
+      "clack[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "clacking",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "clacking",
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Click, click go the wheels of her spinning-loom.",
+   "v": 0.031352780945111444,
+   "rank": 3,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.752870202890653,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "click",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "click",
+    "delta": 0.035980655809138645,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "click[wn]",
+     "line_receipts": [
+      "click[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Click"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "click",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "Click",
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "clack clack, plying the shuttle of her loom;",
+   "v": 0.040922706944814036,
+   "rank": 3,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.0207792213282394,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "clack",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "clack",
+    "delta": 0.047426609982807656,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "clack[wn]",
+     "line_receipts": [
+      "clack[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:clack"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "clack",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "clack",
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Clack, clack her shuttle’s tune is played.",
+   "v": 0.23718245723134157,
+   "rank": 1,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 6.51504919370874,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 4,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.13477252988609306,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]",
+      "clack[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Clack"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "INVENTION"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

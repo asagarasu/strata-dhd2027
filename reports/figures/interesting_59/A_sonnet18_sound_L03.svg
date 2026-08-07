@@ -1,0 +1,342 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1980" height="910" font-family="Helvetica,Arial,sans-serif">
+<rect width="1980" height="910" fill="white"/>
+<text x="20" y="32" font-size="17" font-weight="bold">sonnet18 · line 3 · SOUND — the top-tok and its investigation · tok-cut |Δ|≥0.0242 (SUGGESTED)</text>
+<text x="20" y="52" font-size="10.5" fill="#555">highlight = the top-tok, in top-tok colour (claims live in the cells) · cascade cells = the TOP-TOK's investigation; (line: …) = context only · bar = TWO strips: TOKEN-tier (upper) <tspan fill="#d97706">●</tspan> top-tok (sign kept), dashed = cut (two-sided) — the raw line-scalar leaves the face (in the sidecar); z (lower) <tspan fill="#0f766e">●</tspan> news-normed z (±3σ, 0 = news mean; saturation = field battery grade; unnormed langs → untested) · ghost = TOKEN-tier only (her 07-28 pin; line-residual = annotation) · boxed zone = token-grain; state/transmission outside = LINE-level verdicts, word-derived: state(word) names the deriving word · * = borrowed-cut 2-state · ★ = escape · ° = untriggered/mechanical · provenance: sidecar</text>
+<rect x="20" y="60" width="8" height="8" fill="#1e293b" class="full-stack-badge-legend"/>
+<text x="32" y="67" font-size="10" fill="#555">= full channel stack (word · written · referent all run)</text>
+<rect x="875" y="96" width="460" height="18" fill="#e2e8f0"/>
+<text x="1050" y="109" font-size="10" font-weight="bold" fill="#1e293b">the top-tok's investigation（对 top-tok 的调查）</text>
+<rect x="1005" y="116" width="330" height="16" fill="#f1f5f9"/>
+<text x="1120" y="128" font-size="9.5" font-weight="bold" fill="#334155">latent</text>
+<rect x="1338" y="96" width="104" height="36" fill="#e0f2fe"/>
+<text x="1345" y="109" font-size="9.5" font-weight="bold" fill="#0369a1">organ · parallel (line)</text>
+<text x="20" y="142" font-size="10.5" font-weight="bold" fill="#333">seat</text>
+<text x="170" y="142" font-size="10.5" font-weight="bold" fill="#333">line</text>
+<text x="562" y="142" font-size="10.5" font-weight="bold" fill="#333">scalar bar</text>
+<text x="745" y="142" font-size="10.5" font-weight="bold" fill="#333">TOP-TOK</text>
+<text x="880" y="142" font-size="10.5" font-weight="bold" fill="#333">word claims it?</text>
+<text x="1010" y="142" font-size="10.5" font-weight="bold" fill="#333">written claims it?</text>
+<text x="1155" y="142" font-size="10.5" font-weight="bold" fill="#333">referent claims it?</text>
+<text x="1345" y="142" font-size="10.5" font-weight="bold" fill="#333">device</text>
+<text x="1455" y="142" font-size="10.5" font-weight="bold" fill="#333">★</text>
+<text x="1497" y="142" font-size="10.5" font-weight="bold" fill="#333">state src→seat (word-derived)</text>
+<text x="1700" y="142" font-size="10.5" font-weight="bold" fill="#333">transmission</text>
+<rect x="732" y="78" width="716" height="788" fill="none" stroke="#94a3b8" stroke-width="1.2" rx="8"/>
+<text x="740" y="72" font-size="10.5" font-weight="bold" fill="#475569">the TOP-TOK &amp; its investigation · token-grain</text>
+<text x="20" y="168" font-size="11" font-weight="bold" >en:shakespeare_1609</text>
+<text x="170" y="168" font-size="11"><tspan>ndes do shake the darling buds of </tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">Maie</tspan><tspan>,</tspan></text>
+<text x="170" y="180" font-size="9.5" fill="#475569"><tspan>…Rough </tspan><tspan font-weight="bold" fill="#d97706" text-decoration="underline">windes</tspan><tspan> do shake the darling buds of …</tspan></text>
+<rect x="740" y="148" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="164" font-size="12" fill="#d97706" font-weight="bold">Maie</text>
+<text x="746" y="178" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.050</text>
+<line x1="560" y1="159" x2="710" y2="159" stroke="#ccc"/>
+<line x1="635.0" y1="150" x2="635.0" y2="168" stroke="#999"/>
+<line x1="647.4" y1="148" x2="647.4" y2="170" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="609.3" cy="159" r="3.5" fill="#d97706"/>
+<line x1="560" y1="188" x2="710" y2="188" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="182" x2="635.0" y2="194" stroke="#cbd5e1"/>
+<circle cx="710.0" cy="188" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="692.0" y="201" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+3.4</text>
+<rect x="1338" y="144" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="168" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1010" y="152" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="152" x2="1068" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="152" x2="1010" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="181" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="168" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1345" y="168" font-size="10" fill="#0369a1">—</text>
+<text x="1455" y="168" font-size="12" fill="#d97706">★</text>
+<text x="1497" y="168" font-size="9.5" font-weight="bold">ghost(windes) (source)</text>
+<text x="1700" y="168" font-size="10.5" font-weight="bold" fill="#334155">— source —</text>
+<text x="20" y="226" font-size="11" font-weight="bold" >de:bodenstedt_1862</text>
+<text x="170" y="226" font-size="11"><tspan>Durch </tspan><tspan font-weight="bold" fill="#d97706">Maienblüthen</tspan><tspan> rauhe Winde streichen</tspan></text>
+<rect x="740" y="206" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="222" font-size="12" fill="#d97706" font-weight="bold">Maienblüt</text>
+<text x="746" y="236" font-size="9" fill="#d97706" fill-opacity="0.8">Δ+0.066</text>
+<line x1="560" y1="217" x2="710" y2="217" stroke="#ccc"/>
+<line x1="635.0" y1="208" x2="635.0" y2="226" stroke="#999"/>
+<line x1="647.4" y1="206" x2="647.4" y2="228" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="668.6" cy="217" r="3.5" fill="#d97706"/>
+<line x1="560" y1="246" x2="710" y2="246" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="240" x2="635.0" y2="252" stroke="#cbd5e1"/>
+<circle cx="710.0" cy="246" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="692.0" y="259" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+3.3</text>
+<rect x="1338" y="202" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="210" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="210" x2="938" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="210" x2="880" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="239" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="210" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="210" x2="1068" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="210" x2="1010" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="239" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="226" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="210" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="210" x2="1403" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="210" x2="1345" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="239" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="226" font-size="9.5" font-weight="bold">ghost(windes) → present*(Maienb)</text>
+<text x="1700" y="226" font-size="10.5" font-weight="bold" fill="#334155">RENDERED *</text>
+<text x="20" y="284" font-size="11" font-weight="bold" >de:george_1909</text>
+<text x="170" y="284" font-size="11"><tspan>Des maien teure knospen drehn im </tspan><tspan font-weight="bold" fill="#d97706">schlage</tspan><tspan></tspan></text>
+<rect x="740" y="264" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="280" font-size="12" fill="#d97706" font-weight="bold">schlage</text>
+<text x="746" y="294" font-size="9" fill="#d97706" fill-opacity="0.8">Δ+0.052</text>
+<line x1="560" y1="275" x2="710" y2="275" stroke="#ccc"/>
+<line x1="635.0" y1="266" x2="635.0" y2="284" stroke="#999"/>
+<line x1="647.4" y1="264" x2="647.4" y2="286" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="661.5" cy="275" r="3.5" fill="#d97706"/>
+<line x1="560" y1="304" x2="710" y2="304" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="298" x2="635.0" y2="310" stroke="#cbd5e1"/>
+<circle cx="678.4" cy="304" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="678.4" y="317" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+1.7</text>
+<rect x="1338" y="260" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="268" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="268" x2="938" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="268" x2="880" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="297" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="268" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="268" x2="1068" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="268" x2="1010" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="297" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="284" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="268" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="268" x2="1403" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="268" x2="1345" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="297" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="284" font-size="9.5" font-weight="bold">ghost(windes) → present*(schlag)</text>
+<text x="1700" y="284" font-size="10.5" font-weight="bold" fill="#334155">RENDERED *</text>
+<text x="20" y="342" font-size="11" font-weight="bold" >de:gildemeister_1871</text>
+<text x="170" y="342" font-size="11"><tspan>Der </tspan><tspan font-weight="bold" fill="#d97706">Sturm</tspan><tspan> zerzaust des Maien Blütenhage</tspan></text>
+<rect x="740" y="322" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="338" font-size="12" fill="#d97706" font-weight="bold">Sturm</text>
+<text x="746" y="352" font-size="9" fill="#d97706" fill-opacity="0.8">Δ+0.045</text>
+<line x1="560" y1="333" x2="710" y2="333" stroke="#ccc"/>
+<line x1="635.0" y1="324" x2="635.0" y2="342" stroke="#999"/>
+<line x1="647.4" y1="322" x2="647.4" y2="344" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="657.9" cy="333" r="3.5" fill="#d97706"/>
+<line x1="560" y1="362" x2="710" y2="362" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="356" x2="635.0" y2="368" stroke="#cbd5e1"/>
+<circle cx="704.8" cy="362" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="692.0" y="375" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+2.8</text>
+<rect x="1338" y="318" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="326" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="326" x2="938" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="326" x2="880" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="355" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="326" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="326" x2="1068" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="326" x2="1010" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="355" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="342" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="326" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="326" x2="1403" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="326" x2="1345" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="355" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="342" font-size="9.5" font-weight="bold">ghost(windes) → present*(Sturm)</text>
+<text x="1700" y="342" font-size="10.5" font-weight="bold" fill="#334155">RENDERED *</text>
+<text x="20" y="400" font-size="11" font-weight="bold" >de:regis_1836</text>
+<text x="170" y="400" font-size="11"><tspan>Des Maies Lieblinge jagt </tspan><tspan font-weight="bold" fill="#d97706">Sturmwind</tspan><tspan> von den Zweigen,</tspan></text>
+<rect x="740" y="380" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="396" font-size="12" fill="#d97706" font-weight="bold">Sturmwind</text>
+<text x="746" y="410" font-size="9" fill="#d97706" fill-opacity="0.8">Δ+0.059</text>
+<line x1="560" y1="391" x2="710" y2="391" stroke="#ccc"/>
+<line x1="635.0" y1="382" x2="635.0" y2="400" stroke="#999"/>
+<line x1="647.4" y1="380" x2="647.4" y2="402" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="665.0" cy="391" r="3.5" fill="#d97706"/>
+<line x1="560" y1="420" x2="710" y2="420" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="414" x2="635.0" y2="426" stroke="#cbd5e1"/>
+<circle cx="690.8" cy="420" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="690.8" y="433" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+2.2</text>
+<rect x="1338" y="376" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="384" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="384" x2="938" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="384" x2="880" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="413" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="384" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="384" x2="1068" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="384" x2="1010" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="413" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="400" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="384" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="384" x2="1403" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="384" x2="1345" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="413" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="400" font-size="9.5" font-weight="bold">ghost(windes) → present*(Sturmw)</text>
+<text x="1700" y="400" font-size="10.5" font-weight="bold" fill="#334155">RENDERED *</text>
+<text x="20" y="458" font-size="11" font-weight="bold" >de:wolff_1903</text>
+<text x="170" y="458" font-size="11"><tspan>Nach kurzer Dauer muß </tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">sein</tspan><tspan> Glanz verbleichen,</tspan></text>
+<rect x="740" y="438" width="110" height="36" fill="#d97706" fill-opacity="0.07" stroke="#d0d0d0"/>
+<text x="746" y="454" font-size="12" fill="#d97706" fill-opacity="0.75">sein</text>
+<text x="746" y="468" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.021°</text>
+<line x1="560" y1="449" x2="710" y2="449" stroke="#ccc"/>
+<line x1="635.0" y1="440" x2="635.0" y2="458" stroke="#999"/>
+<line x1="647.4" y1="438" x2="647.4" y2="460" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="624.2" cy="449" r="3.5" fill="#d97706"/>
+<line x1="560" y1="478" x2="710" y2="478" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="472" x2="635.0" y2="484" stroke="#cbd5e1"/>
+<circle cx="627.3" cy="478" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="627.3" y="491" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z-0.3</text>
+<rect x="1338" y="434" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="442" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="442" x2="938" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="442" x2="880" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="471" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="442" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="442" x2="1068" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="442" x2="1010" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="471" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="458" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="442" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="442" x2="1403" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="442" x2="1345" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="471" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="458" font-size="9.5" font-weight="bold">ghost(windes) → silent*</text>
+<text x="1700" y="458" font-size="10.5" font-weight="bold" fill="#334155">UNHEARD *</text>
+<text x="20" y="516" font-size="11" font-weight="bold" >jp:tsubouchi</text>
+<text x="170" y="516" font-size="11"><tspan>五</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">月</tspan><tspan>の可憐なる蕾は（ともすれば）烈風に搖盪せらる、</tspan></text>
+<rect x="740" y="496" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="512" font-size="12" fill="#d97706" font-weight="bold">月</text>
+<text x="746" y="526" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.030</text>
+<line x1="560" y1="507" x2="710" y2="507" stroke="#ccc"/>
+<line x1="635.0" y1="498" x2="635.0" y2="516" stroke="#999"/>
+<line x1="647.4" y1="496" x2="647.4" y2="518" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="619.7" cy="507" r="3.5" fill="#d97706"/>
+<line x1="560" y1="536" x2="710" y2="536" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="530" x2="635.0" y2="542" stroke="#cbd5e1"/>
+<rect x="620.0" y="530.0" width="30" height="12" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-bar"/>
+<line x1="620.0" y1="530.0" x2="650.0" y2="542.0" stroke="#cbd5e1" stroke-width="0.8" class="untested-bar-diag"/>
+<line x1="650.0" y1="530.0" x2="620.0" y2="542.0" stroke="#cbd5e1" stroke-width="0.8" class="untested-bar-diag"/>
+<text x="635.0" y="554" font-size="7" text-anchor="middle" fill="#cbd5e1">untested (no news norm)</text>
+<rect x="1338" y="492" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<rect x="880" y="500" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="880" y1="500" x2="938" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="938" y1="500" x2="880" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="882" y="529" font-size="7" fill="#cbd5e1">untested</text>
+<rect x="1010" y="500" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1010" y1="500" x2="1068" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1068" y1="500" x2="1010" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1012" y="529" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1155" y="516" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1345" y="500" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1345" y1="500" x2="1403" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1403" y1="500" x2="1345" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1347" y="529" font-size="7" fill="#cbd5e1">untested</text>
+<text x="1497" y="516" font-size="9.5" font-weight="bold">ghost(windes) → present*(月)</text>
+<text x="1700" y="516" font-size="10.5" font-weight="bold" fill="#334155">RENDERED *</text>
+<rect x="20" y="565" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
+<text x="32" y="574" font-size="11" font-weight="bold" fill="#64748b" font-style="italic">zh:google_translate ⟨MT⟩</text>
+<text x="170" y="574" font-size="11"><tspan>狂风摇落了</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">五月</tspan><tspan>娇嫩的花蕾，</tspan></text>
+<rect x="740" y="554" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="570" font-size="12" fill="#d97706" font-weight="bold">五月</text>
+<text x="746" y="584" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.042</text>
+<line x1="560" y1="565" x2="710" y2="565" stroke="#ccc"/>
+<line x1="635.0" y1="556" x2="635.0" y2="574" stroke="#999"/>
+<line x1="647.4" y1="554" x2="647.4" y2="576" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="613.7" cy="565" r="3.5" fill="#d97706"/>
+<line x1="560" y1="594" x2="710" y2="594" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="588" x2="635.0" y2="600" stroke="#cbd5e1"/>
+<circle cx="667.9" cy="594" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="667.9" y="607" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+1.3</text>
+<rect x="1338" y="550" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1010" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="585" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 风 z+0.8)</text>
+<text x="1345" y="574" font-size="10" fill="#0369a1">—</text>
+<text x="1497" y="574" font-size="9.5" font-weight="bold">ghost(windes) → silent</text>
+<text x="1700" y="574" font-size="10.5" font-weight="bold" fill="#334155">UNHEARD</text>
+<rect x="20" y="623" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
+<text x="32" y="632" font-size="11" font-weight="bold" >zh:gu_zhengkun</text>
+<text x="170" y="632" font-size="11"><tspan>夏风狂作常会摧落</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">五月</tspan><tspan>的娇蕊，</tspan></text>
+<rect x="740" y="612" width="110" height="36" fill="#d97706" fill-opacity="0.07" stroke="#d0d0d0"/>
+<text x="746" y="628" font-size="12" fill="#d97706" fill-opacity="0.75">五月</text>
+<text x="746" y="642" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.012°</text>
+<line x1="560" y1="623" x2="710" y2="623" stroke="#ccc"/>
+<line x1="635.0" y1="614" x2="635.0" y2="632" stroke="#999"/>
+<line x1="647.4" y1="612" x2="647.4" y2="634" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="628.7" cy="623" r="3.5" fill="#d97706"/>
+<line x1="560" y1="652" x2="710" y2="652" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="646" x2="635.0" y2="658" stroke="#cbd5e1"/>
+<circle cx="664.9" cy="652" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="664.9" y="665" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+1.2</text>
+<rect x="1338" y="608" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="632" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1010" y="632" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="632" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="643" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 风 z+0.8)</text>
+<text x="1345" y="632" font-size="10" fill="#0369a1">—</text>
+<text x="1497" y="632" font-size="9.5" font-weight="bold">ghost(windes) → silent</text>
+<text x="1700" y="632" font-size="10.5" font-weight="bold" fill="#334155">UNHEARD</text>
+<rect x="20" y="681" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
+<text x="32" y="690" font-size="11" font-weight="bold" >zh:liang_shiqiu</text>
+<text x="170" y="690" font-size="11"><tspan>狂风会把</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">五月</tspan><tspan>的花苞吹落地，</tspan></text>
+<rect x="740" y="670" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="686" font-size="12" fill="#d97706" font-weight="bold">五月</text>
+<text x="746" y="700" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.040</text>
+<line x1="560" y1="681" x2="710" y2="681" stroke="#ccc"/>
+<line x1="635.0" y1="672" x2="635.0" y2="690" stroke="#999"/>
+<line x1="647.4" y1="670" x2="647.4" y2="692" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="614.6" cy="681" r="3.5" fill="#d97706"/>
+<line x1="560" y1="710" x2="710" y2="710" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="704" x2="635.0" y2="716" stroke="#cbd5e1"/>
+<circle cx="692.7" cy="710" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="692.0" y="723" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+2.3</text>
+<rect x="1338" y="666" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="690" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="880" y="701" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 吹[釋樂])</text>
+<text x="1010" y="690" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="690" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="701" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 风 z+0.8)</text>
+<text x="1345" y="690" font-size="10" fill="#0369a1">—</text>
+<text x="1497" y="690" font-size="9.5" font-weight="bold">ghost(windes) → stated(吹)</text>
+<text x="1700" y="690" font-size="10.5" font-weight="bold" fill="#334155">RENDERED</text>
+<rect x="20" y="739" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
+<text x="32" y="748" font-size="11" font-weight="bold" >zh:liang_zongdai</text>
+<text x="170" y="748" font-size="11"><tspan>狂风把五月</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">宠爱</tspan><tspan>的嫩蕊作践，</tspan></text>
+<rect x="740" y="728" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="744" font-size="12" fill="#d97706" font-weight="bold">宠爱</text>
+<text x="746" y="758" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.066</text>
+<line x1="560" y1="739" x2="710" y2="739" stroke="#ccc"/>
+<line x1="635.0" y1="730" x2="635.0" y2="748" stroke="#999"/>
+<line x1="647.4" y1="728" x2="647.4" y2="750" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="601.3" cy="739" r="3.5" fill="#d97706"/>
+<line x1="560" y1="768" x2="710" y2="768" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="762" x2="635.0" y2="774" stroke="#cbd5e1"/>
+<circle cx="651.7" cy="768" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="651.7" y="781" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+0.7</text>
+<rect x="1338" y="724" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="748" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1010" y="748" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="748" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="759" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 风 z+0.8)</text>
+<text x="1345" y="748" font-size="10" fill="#0369a1">—</text>
+<text x="1455" y="748" font-size="12" fill="#d97706">★</text>
+<text x="1497" y="748" font-size="9.5" font-weight="bold">ghost(windes) → ghost(狂风)</text>
+<text x="1700" y="748" font-size="10.5" font-weight="bold" fill="#334155">GHOST-CARRY</text>
+<rect x="20" y="797" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
+<text x="32" y="806" font-size="11" font-weight="bold" >zh:tu_an_1955</text>
+<text x="170" y="806" font-size="11"><tspan>狂風會吹落</tspan><tspan font-weight="bold" fill="#d97706" fill-opacity="0.65">五月</tspan><tspan>裏開的好花兒，</tspan></text>
+<rect x="740" y="786" width="110" height="36" fill="#d97706" fill-opacity="0.18" stroke="#d0d0d0"/>
+<text x="746" y="802" font-size="12" fill="#d97706" font-weight="bold">五月</text>
+<text x="746" y="816" font-size="9" fill="#d97706" fill-opacity="0.8">Δ-0.042</text>
+<line x1="560" y1="797" x2="710" y2="797" stroke="#ccc"/>
+<line x1="635.0" y1="788" x2="635.0" y2="806" stroke="#999"/>
+<line x1="647.4" y1="786" x2="647.4" y2="808" stroke="#d97706" stroke-dasharray="4,3" class="cut-dash"/>
+<circle cx="613.6" cy="797" r="3.5" fill="#d97706"/>
+<line x1="560" y1="826" x2="710" y2="826" stroke="#e2e8f0" class="z-baseline"/>
+<line x1="635.0" y1="820" x2="635.0" y2="832" stroke="#cbd5e1"/>
+<circle cx="663.6" cy="826" r="4" fill="#0f766e" fill-opacity="0.55" class="z-dot"/>
+<text x="663.6" y="839" font-size="8" text-anchor="middle" fill="#0f766e" class="z-label">z+1.1</text>
+<rect x="1338" y="782" width="104" height="50" fill="#e0f2fe" fill-opacity="0.55"/>
+<text x="880" y="806" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="880" y="817" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 吹[釋樂],風[廣韻])</text>
+<text x="1010" y="806" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="806" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<text x="1155" y="817" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: 风 z+0.8)</text>
+<text x="1345" y="806" font-size="10" fill="#0369a1">—</text>
+<text x="1497" y="806" font-size="9.5" font-weight="bold">ghost(windes) → stated(吹)</text>
+<text x="1700" y="806" font-size="10.5" font-weight="bold" fill="#334155">RENDERED</text>
+<text x="20" y="886" font-size="10" fill="#666">Law: linegrain_law_60 · cascade = the TOP-TOK&#x27;s investigation (her design); (line: …) = context, never attribution · cuts promotion_threshold_59 + linecut_v2_60 · single-sourced; sidecar = provenance · z: news_norms_z_62 (±3σ clamp; saturation=line-tier grade).</text>
+<text x="20" y="900" font-size="10" fill="#666" class="key-pointer">key: KEY_exhibit_reading_guide_0728_62</text>
+</svg>

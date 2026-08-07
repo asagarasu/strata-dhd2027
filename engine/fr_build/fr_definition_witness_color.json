@@ -1,0 +1,2174 @@
+{
+ "abichite": {
+  "frame": "de couleur vert",
+  "gloss": "Arséniate naturel hydraté de cuivre, de formule Cu3AsO4(OH)3, de couleur vert foncé et de densité relative 4,3.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "africain": {
+  "frame": "à la peau noire",
+  "gloss": "Personne à la peau noire.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "ageratum": {
+  "frame": "aux fleurs bleues",
+  "gloss": "astéracée annuelle pouvant atteindre un mètre de haut aux fleurs bleues ou mauves.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "agreste": {
+  "frame": "de couleur marron",
+  "gloss": "Un insecte lépidoptère (papillon) de la famille des nymphalidés, dont les ailes sont de couleur marron foncé avec une bande submarginale jaune orangée, en bordure une frange entrecoupée et des ocelles",
+  "hue": "marron",
+  "pos": "nom"
+ },
+ "alezan": {
+  "frame": "d'une couleur fauve",
+  "gloss": "Dont la robe est d'une couleur fauve tirant sur le roux (au sujet de la robe des chevaux).",
+  "hue": "fauve",
+  "pos": "adjectif"
+ },
+ "alkékenge": {
+  "frame": "de couleur orange",
+  "gloss": "Plante d'origine européenne, vivace décorative et dont le fruit est une baie de couleur orange, comestible, légèrement aigrelette, renfermée dans une vésicule orange à rouge puis transparente, semblab",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "altaïte": {
+  "frame": "de couleur blanc",
+  "gloss": "Tellurure de plomb, de couleur blanc à jaunâtre, de densité 8,5.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "alurgite": {
+  "frame": "de couleur pourpre",
+  "gloss": "variété de muscovite de couleur pourpre de formule K(Al,SiO)20(OH), reconnue depuis 1959 comme un intermédiaire entre la leucophyllite et la muscovite.",
+  "hue": "pourpre",
+  "pos": "nom"
+ },
+ "amandin": {
+  "frame": "d'une amande",
+  "gloss": "Qui a la forme d'une amande.",
+  "hue": "amande",
+  "pos": "adjectif"
+ },
+ "amaryllis": {
+  "frame": "de couleur orange",
+  "gloss": "Un insecte lépidoptère (papillon) de jour de la famille des nymphalidés (Nymphalidae), dont le dos des ailes est de couleur orange vif avec une épaisse bordure brun foncé et à l'apex des antérieures u",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "amidine": {
+  "frame": "d'un blanc",
+  "gloss": "Substance opaque ou semi-transparente, blanche, ou d'un blanc jaunâtre, insipide, inodore ; elle se forme lorsqu'on abandonne à lui-même l'empois d'amidon à la température de l'atmosphère.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "amidone": {
+  "frame": "d'un blanc",
+  "gloss": "Substance opaque ou demi-transparente, blanche, ou d'un blanc jaunâtre, insipide, inodore ; elle se forme lorsqu'on abandonne à lui-même l'empois d'amidon à la température de l'atmosphère.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "amygdaliforme": {
+  "frame": "d'une amande",
+  "gloss": "Qui a la forme d'une amande.",
+  "hue": "amande",
+  "pos": "adjectif"
+ },
+ "amygdaloïde": {
+  "frame": "d'une amande",
+  "gloss": "Pierre qui, au milieu d'éléments d'une autre nature, renferme des parties ayant la forme d'une amande.",
+  "hue": "amande",
+  "pos": "nom"
+ },
+ "anapaite": {
+  "frame": "de couleur verte",
+  "gloss": "Pierre fine de couleur verte, de formule Ca2Fe(PO4)2. 4H2O.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "animé": {
+  "frame": "d'un jaune",
+  "gloss": "Résine d'un jaune de soufre et très odorante, qui découle d'incisions faites au tronc de lHymenaea courbaril.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "anthoxanthine": {
+  "frame": "de couleur jaune",
+  "gloss": "Colorant naturel de couleur jaune à orange, présent dans le monde végétal.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "antimoine": {
+  "frame": "d'un blanc",
+  "gloss": "Métal de cet élément, très fragile, brillant, d'un blanc bleuâtre et d'une texture lamelleuse.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "api": {
+  "frame": "d'un rouge",
+  "gloss": "Variété de pomme colorée d'un rouge vif.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "aplome": {
+  "frame": "de couleur verte",
+  "gloss": "Grenat manganèsifère de couleur verte ou brune, de densite = 3,44, c'est une variété de mélanite.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "aquilain": {
+  "frame": "de couleur fauve",
+  "gloss": "Dont la robe est de couleur fauve ou brune (pour un cheval).",
+  "hue": "fauve",
+  "pos": "adjectif"
+ },
+ "arbouse": {
+  "frame": "de couleur rouge",
+  "gloss": "Fruit charnu de l'arbousier, sphérique et couvert de petites pointes coniques, de couleur rouge à orange.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "arceau": {
+  "frame": "d'un ponceau",
+  "gloss": "Petite voûte surbaissée d'un ponceau et de certaines portes, de certaines fenêtres.",
+  "hue": "ponceau",
+  "pos": "nom"
+ },
+ "argentine": {
+  "frame": "d'un blanc",
+  "gloss": "Plante de la famille des Rosacées qui a le dessous des feuilles d'un blanc luisant et comme argenté.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "argyranthème": {
+  "frame": "d'un blanc",
+  "gloss": "Qui a des fleurs d'un blanc argenté voir corbeille d'argent.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "argyrocéphale": {
+  "frame": "d'un blanc",
+  "gloss": "Qui a la tête d'un blanc argentin.",
+  "hue": "blanc",
+  "pos": "adjectif"
+ },
+ "argyrophylle": {
+  "frame": "d'un blanc",
+  "gloss": "Qui a les feuilles d'un blanc d'argent.",
+  "hue": "blanc",
+  "pos": "adjectif"
+ },
+ "armagnac": {
+  "frame": "de couleur jaune",
+  "gloss": "Eau-de-vie très renommée de couleur jaune d'or, tirée de certains vins blancs du terroir d'Armagnac.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "aucuba": {
+  "frame": "d'un vert",
+  "gloss": "Arbrisseau ornemental (cornacée) à feuilles luisantes d'un vert panaché de jaune, coriaces et persistantes.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "augite": {
+  "frame": "De couleur brun",
+  "gloss": "Silicate de calcium, de sodium, de magnésium, de fer et d'aluminium,  formé dans les roches magmatiques. De couleur brun sombre à vert foncé.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "auricolle": {
+  "frame": "d'un jaune",
+  "gloss": "Qui a le cou d'un jaune doré.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "auxochrome": {
+  "frame": "d'un chromophore",
+  "gloss": "Groupement d'atomes ionisables pouvant changer la fréquence d'absorption d'un chromophore.",
+  "hue": "chromophore",
+  "pos": "nom"
+ },
+ "avadava": {
+  "frame": "de couleur brune",
+  "gloss": "Petit Oiseau passereau de couleur brune avec des taches blanches, un bengali.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "avellanaire": {
+  "frame": "d'une noisette",
+  "gloss": "Qui est de la grosseur d'une noisette.",
+  "hue": "noisette",
+  "pos": "adjectif"
+ },
+ "azerole": {
+  "frame": "d'une cerise",
+  "gloss": "Petit fruit aigrelet, de l'azerolier (Crataegus azarolus), de la couleur et de la grosseur d'une cerise et contenant plusieurs petits noyaux.",
+  "hue": "cerise",
+  "pos": "nom"
+ },
+ "azurer": {
+  "frame": "de couleur azur",
+  "gloss": "Rendre de couleur azur.",
+  "hue": "azur",
+  "pos": "verbe"
+ },
+ "azurin": {
+  "frame": "d'un bleu",
+  "gloss": "Qui est d'un bleu pâle, tirant sur le bleu d'azur.",
+  "hue": "bleu",
+  "pos": "adjectif"
+ },
+ "azurite": {
+  "frame": "de couleur bleue",
+  "gloss": "Minéral de couleur bleue composé à l'état naturel de carbonate de cuivre, de formule Cu3(CO3)2(OH)2, et servant de minerai de cuivre.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "aérinite": {
+  "frame": "de couleur bleue",
+  "gloss": "Silicate naturel hydraté de fer de calcium et d'aluminium, de couleur bleue parfois verte, découvert en 1876 à Caserras en Aragon. Elle a pour formule Ca4(Al,Fe,Mg,)10Si12O35(CO3)(OH)12.12H2O",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "bai": {
+  "frame": "d'un brun",
+  "gloss": "Qui est d'un brun rouge (pour la robe d'un cheval).",
+  "hue": "brun",
+  "pos": "adjectif"
+ },
+ "baiser": {
+  "frame": "d'un évêque",
+  "gloss": "Appliquer sa bouche sur le visage, sur les lèvres, sur une partie du corps d'une personne, par amitié, par amour, par civilité, par respect; et par extension, faire le même acte à un objet. -  À cause",
+  "hue": "évêque",
+  "pos": "verbe"
+ },
+ "banania": {
+  "frame": "à la peau noire",
+  "gloss": "Homme à la peau noire, originaire d'Afrique.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "barrefort": {
+  "frame": "d'un sapin",
+  "gloss": "Grosse pièce de bois qu'on tire du cœur d'un pin, d'un sapin.",
+  "hue": "sapin",
+  "pos": "nom"
+ },
+ "barretina": {
+  "frame": "de couleur rouge",
+  "gloss": "Chapeau typique et traditionnel des catalans, de couleur rouge, la plupart du temps.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "barwood": {
+  "frame": "de couleur rouge",
+  "gloss": "Teinture de couleur rouge utilisée sur la laine, et extraite du baphier.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "basilicaire": {
+  "frame": "d'un évêque",
+  "gloss": "Assistant d'un évêque, ou du pape, au cours de la liturgie.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "bayad": {
+  "frame": "d'un blanc",
+  "gloss": "Carangue du Nil, d'un blanc argenté.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "bellite": {
+  "frame": "de couleur rouge",
+  "gloss": "Minéral de la Magnet Mine en Tasmanie, de couleur rouge-orange. Contenant entre autre du plomb, du chrome et de l'arsenic. Elle a pour formule Pb5(AsO4,CrO4,SiO2)3Cl.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "berceau": {
+  "frame": "d'un noir",
+  "gloss": "Instrument du graveur en manière noire ; sorte de ciseau terminé par un biseau aigu que l'on promène - en berçant - sur le métal à graver ; on obtient ainsi une série de pointillés, de grains, de peti",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "bilirubine": {
+  "frame": "de couleur jaune",
+  "gloss": "Pigment jaune produit de dégradation des globules rouges. C'est une poudre acide de couleur jaune rougeatre de formule brute C33H36N4O6.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "biliverdine": {
+  "frame": "de couleur verte",
+  "gloss": "Pigment biliaire de couleur verte, intermédiaire de la dégradation de l'hème.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "bis": {
+  "frame": "d'un gris",
+  "gloss": "Qui est d'un gris beige foncé  ou clair .",
+  "hue": "gris",
+  "pos": "adjectif"
+ },
+ "biser": {
+  "frame": "d'un gris",
+  "gloss": "Devenir d'un gris foncé, en parlant de graines céréales qui dégénèrent.",
+  "hue": "gris",
+  "pos": "verbe"
+ },
+ "bismuth": {
+  "frame": "d'un blanc",
+  "gloss": "Métal fragile, d'un blanc gris à teinte rouge et qui cristallise facilement, de symbole Bi et de numéro atomique 83 ; il appartient à la série chimique des métaux pauvres.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "blaireau": {
+  "frame": "au pelage noir",
+  "gloss": "Une des espèces de mammifères omnivores, bas sur pattes, au pelage noir, gris et blanchâtre, qui se creusent de profonds terriers.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "blondasse": {
+  "frame": "d'un blond",
+  "gloss": "Qui est d'un blond fade.",
+  "hue": "blond",
+  "pos": "adjectif"
+ },
+ "blonde": {
+  "frame": "de couleur blonde",
+  "gloss": "Femme, ou poupée, dont la chevelure est de couleur blonde.",
+  "hue": "blond",
+  "pos": "nom"
+ },
+ "blondifier": {
+  "frame": "d'une blonde",
+  "gloss": "Donner les caractéristiques d'une blonde à .",
+  "hue": "blond",
+  "pos": "verbe"
+ },
+ "blondir": {
+  "frame": "d'un roux",
+  "gloss": "Ajouter de la farine à un corps gras chaud, jusqu'à coloration dorée et constitution d'un roux blond.",
+  "hue": "roux",
+  "pos": "verbe"
+ },
+ "boarmie": {
+  "frame": "de teinte brune",
+  "gloss": "Un insecte lépidoptère (papillon) nocturne de la famille des géométridés (Geometridae) de teinte brune ou grisâtre.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "bonamite": {
+  "frame": "de couleur bleue",
+  "gloss": "Synonyme de smithsonite; Smithsonite massive de couleur bleue à verte qui se taille en cabochon.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "boudrague": {
+  "frame": "de couleur vert",
+  "gloss": "le barbitiste des bois (Barbitistes serricauda), ressemblant à l'éphippigère avec un ovipositeur plus court, de couleur vert moyen à marron. Ces communes en sont parfois envahies durant le début de l'",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "bourbonnaise": {
+  "frame": "d'un blanc",
+  "gloss": "Race de poules, originaires de France (Auvergne), de taille moyenne, à plumes d'un blanc herminé.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "bourgeoise": {
+  "frame": "d'un rouge",
+  "gloss": "Sorte de tulipe d'un rouge vif.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "bourjanotte": {
+  "frame": "d'une couleur bleuâtre",
+  "gloss": "Figue espagnole d'une couleur bleuâtre foncée.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "bourjasotte": {
+  "frame": "d'un violet",
+  "gloss": "Variété de figue, d'un violet obscur.",
+  "hue": "violet",
+  "pos": "nom"
+ },
+ "brome": {
+  "frame": "de couleur brunâtre",
+  "gloss": "Dibrome (Br2) ; liquide de couleur brunâtre à température ambiante. Il est très volatil et ses vapeurs irritantes sont très toxiques.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "brèche": {
+  "frame": "de couleur brune",
+  "gloss": "Papillon noctuidé d'Europe et d'Afrique du Nord, dont le dos des ailes est de couleur brune à paille.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "buse": {
+  "frame": "au plumage brun",
+  "gloss": "Oiseau de proie, rapace diurne (falconiforme) de la famille des accipitridés, du genre Buteo, au plumage brun tacheté et que l'on considère comme dépourvu d'intelligence et dont il existe plusieurs es",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "cacholong": {
+  "frame": "d'un blanc",
+  "gloss": "Chalcédoine d'un blanc de lait.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "cade": {
+  "frame": "de couleur jaune",
+  "gloss": "Grande et fine galette de couleur jaune orangé consommée à Toulon, spécialité culinaire à base de farine de pois chiche originaire de Ligurie.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "cafre": {
+  "frame": "au plumage noir",
+  "gloss": "Synonyme de aigle de Verreaux, aigle africain au plumage noir.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "caféier": {
+  "frame": "d'une cerise",
+  "gloss": "Arbre de la famille des Rubiacées, dont la fleur a de la ressemblance avec celle du jasmin et dont le fruit, rouge et de la grosseur d'une cerise, contient des grains ou semences qui sont le café.",
+  "hue": "cerise",
+  "pos": "nom"
+ },
+ "calamite": {
+  "frame": "d'un gris",
+  "gloss": "désigne une trémolite d'un gris jaunâtre, en longues fibres lamellaires cannelées, de Norvège.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "callaïde": {
+  "frame": "d'un vert",
+  "gloss": "Sorte de pierre précieuse, d'un vert pâle ou d'un bleu pâle.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "callaïs": {
+  "frame": "d'un vert",
+  "gloss": "Sorte de pierre précieuse, d'un vert pâle ou d'un bleu pâle, originaire du Caucase.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "callimico": {
+  "frame": "au pelage noir",
+  "gloss": "Espèce de petit singe de la famille des callitrichidés (Callitrichidae) des forêts du haut bassin de l'Amazone en Amérique du Sud, à longue queue, au pelage noir et très rare.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "caloenas": {
+  "frame": "au plumage vert",
+  "gloss": "Oiseau (Caloenas nicobarica) à gros bec, au plumage vert doré, de la taille d'un pigeon.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "camargue": {
+  "frame": "de couleur grise",
+  "gloss": "Race de petit cheval de travail, rustique de couleur grise, dont la taille au garrot moyenne est voisine de 1,4 m, originaire de la région de Camargue, qui vit traditionnellement en liberté dans ses m",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "campari": {
+  "frame": "de couleur rouge",
+  "gloss": "Amer de couleur rouge, parfumé avec de l'écorce d'orange et diverses herbes aromatiques.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "cancan": {
+  "frame": "de couleur pourpre",
+  "gloss": "Arbrisseau à feuilles persistantes de couleur pourpre et présentant des fleurs en longs épis pendants (Acalypha wilkesiana), de la famille des Euphorbiacées.",
+  "hue": "pourpre",
+  "pos": "nom"
+ },
+ "cardinal": {
+  "frame": "de couleur orange",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de jour de la famille des nymphalidés (Nymphalidae), d'Eurasie et d'Afrique du Nord, dont le dos des ailes est de couleur orange foncé, suffusé de vert, ave",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "caroline": {
+  "frame": "de couleur rouge",
+  "gloss": "Écriture de couleur rouge.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "carrare": {
+  "frame": "d'un blanc",
+  "gloss": "Sorte de marbre d'un blanc éclatant.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "casher": {
+  "frame": "de couleur rouge",
+  "gloss": "En Algérie, le terme désigne une forme de saucisson halal souvent vendu en tranches de couleur rouge préparé avec de la viande et des olives, de la même façon que le saucisson casher autrefois consomm",
+  "hue": "rouge",
+  "pos": "adjectif"
+ },
+ "castine": {
+  "frame": "d'un gris",
+  "gloss": "Pierre calcaire, d'un gris blanchâtre, qui, mêlée avec certains minerais de fer, en facilite la fusion.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "cathèdre": {
+  "frame": "d'un évêque",
+  "gloss": "Siège d'un évêque, d'un abbé dans leur lieu de culte respectif.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "catlinite": {
+  "frame": "de couleur brun",
+  "gloss": "Variété d'argilite généralement de couleur brun-rougeâtre.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "cervantite": {
+  "frame": "de couleur ocre",
+  "gloss": "Minéral de formule Sb&lt;sup&gt;3+&lt;/sup&gt;Sb&lt;sup&gt;5+&lt;/sup&gt;O&lt;sub&gt;4&lt;/sub&gt;, de couleur ocre, sa réduction donne de l'antimoine.",
+  "hue": "ocre",
+  "pos": "nom"
+ },
+ "chacma": {
+  "frame": "au pelage gris",
+  "gloss": "Espèce de grand singe des savanes d'Afrique australe, de la famille des babouins, au pelage gris cendre brunâtre.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "chalcostybite": {
+  "frame": "de couleur grise",
+  "gloss": "Antimonio-sulfure de cuivre, de couleur grise, elle se cristallise dans le système orthorhombique sa formule est Cu Sb S2.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "chambourin": {
+  "frame": "de couleur verte",
+  "gloss": "Verre de couleur verte.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "chenevixite": {
+  "frame": "de couleur jaune",
+  "gloss": "Phosphate naturel de fer de couleur jaune-vert à vert olive. Sa formule est Cu2Fe&lt;sup&gt;3+&lt;/sup&gt;2(AsO4)2(OH)4•(H2O).",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "chlore": {
+  "frame": "d'un vert",
+  "gloss": "Gaz de dichlore (Cl2) d'un vert pâle, jaunâtre et d'une odeur désagréable, toxique et irritant.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "chrome": {
+  "frame": "d'une couleur gris",
+  "gloss": "Métal pur de cet élément, dur, d'une couleur gris acier argenté, résistant à la corrosion et au ternissement.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "chrysanthe": {
+  "frame": "d'un jaune",
+  "gloss": "Qui a des fleurs d'un jaune d'or.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "chrysarobine": {
+  "frame": "de couleur jaune",
+  "gloss": "Corps chimique de couleur jaune extrait de la poudre d'Andira araroba nommée aussi &quot;poudre de Goa&quot;. Sa formule brute est : C22H26O7. Aussi nommée 1,8-dihydroxy-3-méthyl-9-androne.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "chrysocome": {
+  "frame": "d'un jaune",
+  "gloss": "Plante exotique de la famille des composées, qui portent des fleurs d'un jaune doré.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "châtaigne": {
+  "frame": "de couleur brune",
+  "gloss": "Fruit du châtaignier (Castanea sativa), dont l'écorce est lisse, de couleur brune tirant un peu sur le rouge, enfermé à un, deux ou trois exemplaires dans une bogue, enveloppe dure et recouverte d'épi",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "cicendèle": {
+  "frame": "de couleur rouge",
+  "gloss": "Petit coléoptère de forme allongée et de couleur rouge.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "cirrhocéphale": {
+  "frame": "d'un gris",
+  "gloss": "Qui a le dessus de la tête d'un gris cendré, d'un cendré bleuâtre.",
+  "hue": "gris",
+  "pos": "adjectif"
+ },
+ "clinothulite": {
+  "frame": "de couleur rose",
+  "gloss": "Variété de clinozoïsite riche en manganèse de couleur rose, trouvée en Lombardie (Italie) et sur plusieurs sites aux États-Unis.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "coing": {
+  "frame": "de couleur jaune",
+  "gloss": "Fruit piriforme du cognassier, de couleur jaune, au goût âpre et souvent utilisé pour faire des gelées.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "coltan": {
+  "frame": "de couleur noire",
+  "gloss": "Minerai de couleur noire ou brun-rouge contenant deux minéraux associés, la colombite (Fe, Mn) (Nb, Ta)2O6 et la tantalite (Fe, Mn) (Ta, Nb)2O6.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "comblanchien": {
+  "frame": "de teinte beige",
+  "gloss": "Calcaire compact de teinte beige (appartenant à l'étage du bathonien) et de dureté comparable à celle du marbre.",
+  "hue": "beige",
+  "pos": "nom"
+ },
+ "comma": {
+  "frame": "de couleur brun",
+  "gloss": "papillon de jour de la famille des hespéridés (Hesperiidae), dont le dos les ailes sont de couleur brun-orange avec des points blancs nombreux sous les postérieures.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "contourner": {
+  "frame": "d'une fraise",
+  "gloss": "Suivre, à l'aide d'une fraise, la forme d'une pièce ; usiner son contour.",
+  "hue": "fraise",
+  "pos": "verbe"
+ },
+ "contrayerva": {
+  "frame": "d'un brun",
+  "gloss": "Racine d'un brun rougeâtre en dehors, blanche en dedans (dorstenia brasiliensis, Lamark) , d'une odeur aromatique, qui est excitante et diaphorétique.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "coprin": {
+  "frame": "de couleur brun",
+  "gloss": "Espèce de champignons à lamelles libres, déliquescentes à maturité, aux spores de couleur brun-noir à noir, au chapeau d'abord ovoïde, et au pied avec ou sans anneau, et appréciant les terres grasses,",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "coque": {
+  "frame": "de couleur bleue",
+  "gloss": "Petite boule réalisée à partir des feuilles du pastel (Isatis tinctoria) dont on extrait une teinture de couleur bleue.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "coquelicot": {
+  "frame": "de couleur rouge",
+  "gloss": "Bonbon de couleur rouge.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "corneille": {
+  "frame": "de couleur noire",
+  "gloss": "Oiseau passereau de couleur noire (ou partiellement noire) voisin du corbeau mais de plus petite taille.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "cotonéaster": {
+  "frame": "de couleur rouge",
+  "gloss": "Nom générique de variétés d'arbustes d'ornement à port dressé ou rampant, à feuilles persistantes ou non et qui, après floraison blanche se couvrent, à l'automne, de baies de couleur rouge à rouge ora",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "croche": {
+  "frame": "d'une noire",
+  "gloss": "Note de musique qui vaut, pour la durée, le quart d'une blanche ou la moitié d'une noire.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "cténiope": {
+  "frame": "de couleur jaune",
+  "gloss": "Coléoptère de forme allongée et de couleur jaune ou jaune verte. Il se pose souvent sur les apiacées et les astéracées.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "cyanotype": {
+  "frame": "de couleur bleue",
+  "gloss": "Procédé photographique utilisant du ferrocyanure de potassium et produisant des épreuves de couleur bleue.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "cyprine": {
+  "frame": "de couleur bleue",
+  "gloss": "Pierre précieuse de couleur bleue, qui fait partie du groupe des vésuvianites.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "cyprès": {
+  "frame": "d'un vert",
+  "gloss": "Arbre d'un vert sombre de la famille des Cupressacées, qui s'élève droit et en pointe et qu'on plante souvent dans les cimetières.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "câpre": {
+  "frame": "d'un Noir",
+  "gloss": "Homme habitant les Antilles françaises, issu du croisement d'un Noir et d'une mulâtre ou vice-versa.",
+  "hue": "Noir",
+  "pos": "nom"
+ },
+ "câpresse": {
+  "frame": "d'un noir",
+  "gloss": "Femme habitant les Antilles françaises, issue d'un noir et d'une mulâtre ou vice versa.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "cæruléine": {
+  "frame": "de couleur bleu",
+  "gloss": "Stannate de cobalt de couleur bleu.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "céanothe": {
+  "frame": "d'un bleu",
+  "gloss": "Petit arbuste décoratif à feuillage persistant et aux fleurs d'un bleu soutenu utilisé pour agrémenter talus et rocailles.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "céladonisme": {
+  "frame": "d'un céladon",
+  "gloss": "Style fade d'un céladon.",
+  "hue": "céladon",
+  "pos": "nom"
+ },
+ "céphale": {
+  "frame": "de couleur brun",
+  "gloss": "Insecte lépidoptère, papillon) de la famille des nymphalidés, dont les ailes sont de couleur brun-orange munies d'ocelles.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "céruléen": {
+  "frame": "d'une couleur azurée",
+  "gloss": "Qui est d'une couleur azurée, bleuâtre. Il se dit surtout des flots de la mer.",
+  "hue": "azur",
+  "pos": "adjectif"
+ },
+ "damalisque": {
+  "frame": "à la robe brune",
+  "gloss": "Antilope africaine du genre Damaliscus, aux cornes annelées, recourbées en arrière, s'écartant légèrement de la base au sommet, et à la robe brune.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "dammar": {
+  "frame": "de couleur ambre",
+  "gloss": "Sorte de résine fournie par l' agathis dammara, arbre de la Malaisie et lagathis australis, arbre de Nouvelle Zélande. C'est une résine dure, de couleur ambre clair qui est utilisé pour la conservatio",
+  "hue": "ambre",
+  "pos": "nom"
+ },
+ "dasyure": {
+  "frame": "au pelage brun",
+  "gloss": "Petit mammifère marsupial, arboricole et carnivore, vivant sur le continent australien, au pelage brun tacheté.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "diallage": {
+  "frame": "d'un vert",
+  "gloss": "Silicate de magnésium et de calcium et de fer, d'un vert plus ou moins foncé et se divisant en lames brillantes, ou en fibres vertes.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "diocèse": {
+  "frame": "d'un évêque",
+  "gloss": "Division administrative de l'Église catholique romaine sous la juridiction pastorale d'un évêque ou d'un archevêque.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "dioptase": {
+  "frame": "d'un vert",
+  "gloss": "Minéral cyclosilicate de cuivre, d'un vert émeraude intense, transparent à translucide. Sa formule chimique est CuSiO&lt;sub&gt;3&lt;/sub&gt;•H&lt;sub&gt;2&lt;/sub&gt;O.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "disomose": {
+  "frame": "d'un gris",
+  "gloss": "Minéral d'un gris d'acier, nommé aussi nickel gris ; c'est un sulfo-arséniure de nickel.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "doucette": {
+  "frame": "de couleur brun",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit d'Europe de la famille des noctuidés (Noctuidae), dont le dos des ailes est de couleur brun clair.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "déplacée": {
+  "frame": "de couleur rouge",
+  "gloss": "Papillon de nuit d'Eurasie, de la famille des noctuidés (Noctuidae), dont le dos des ailes postérieures est de couleur rouge et noir.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "déport": {
+  "frame": "d'un évêque",
+  "gloss": "Privilège d'un ecclésiastique, notamment d'un évêque, qui percevait, pour une certaine durée, les revenus des bénéfices de son diocèse.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "eucalyptus": {
+  "frame": "de couleur brune",
+  "gloss": "Arbre de la famille des myrtacées originaire de Tasmanie en Australie, à croissance rapide, à feuilles bleutées généralement persistantes, ovales ou très allongées, et dont les fruits à maturité forme",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "exhalation": {
+  "frame": "d'une rosée",
+  "gloss": "Fonction par laquelle certains liquides sont répandus, sous la forme d'une rosée, à la surface des membranes ou dans les tissus organiques.",
+  "hue": "rosé",
+  "pos": "nom"
+ },
+ "fanon": {
+  "frame": "de peau rouge",
+  "gloss": "Morceau de peau rouge qui pend sous le cou de certains animaux, tels que le dindon.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "faune": {
+  "frame": "de couleur marron",
+  "gloss": "Insecte lépidoptère diurne de la famille des nymphalidés, de couleur marron terne pour le mâle, plus claire ocrée pour la femelle, avec en bordure une frange entrecoupée et deux ocelles noirs aux aile",
+  "hue": "marron",
+  "pos": "nom"
+ },
+ "fauveau": {
+  "frame": "de couleur fauve",
+  "gloss": "Bovin de couleur fauve.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "fendis": {
+  "frame": "d'une ardoise",
+  "gloss": "Produit de la fente d'un bloc de schiste à l'épaisseur d'une ardoise mais non aux dimensions. Le fendis devient une « ardoise » après l'opération de rondissage.",
+  "hue": "ardoise",
+  "pos": "nom"
+ },
+ "fiancée": {
+  "frame": "de couleur brun",
+  "gloss": "Une espèce d' insecte lépidoptère (papillon) de nuit de la famille des noctuidés (Noctuidae) d'Europe, migrateur, dont le dos des ailes est de couleur brun-beige aux antérieures et jaune-orangé avec u",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "flavedo": {
+  "frame": "de couleur jaune",
+  "gloss": "Partie externe de l'écorce des agrumes, de couleur jaune ou orange et contenant des essences odorantes.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "flavonol": {
+  "frame": "de couleur jaune",
+  "gloss": "Membre d'un sous-groupe de flavonoïdes dérivés du flavonol, pigment végétal de couleur jaune.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "flavopurpurine": {
+  "frame": "d'un jaune",
+  "gloss": "Substance tinctoriale d'un jaune rouge, tirée du charbon.&lt;ref&gt;Académie des sciences Comptes rendus, tome LXXXII, page 1394 &lt;/ref&gt;",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "foliotocole": {
+  "frame": "d'un vert",
+  "gloss": "Coucou d'Asie (Chrysococcyx maculatus) ou d'Afrique (Chrysococcyx cupreus) dont le dos, la queue et la gorge sont d'un vert d'émeraude à reflets éclatants.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "foulard": {
+  "frame": "de couleur pourpre",
+  "gloss": "Arbrisseau à feuilles persistantes de couleur pourpre et présentant des fleurs en longs épis pendants. Nom scientifique : Acalypha wilkesiana de la famille des Euphorbiacées.",
+  "hue": "pourpre",
+  "pos": "nom"
+ },
+ "fragiforme": {
+  "frame": "d'une fraise",
+  "gloss": "Qui a l'apparence d'une fraise.",
+  "hue": "fraise",
+  "pos": "adjectif"
+ },
+ "fraisement": {
+  "frame": "d'une fraise",
+  "gloss": "État d'une fortification garnie d'une fraise.",
+  "hue": "fraise",
+  "pos": "nom"
+ },
+ "fraiser": {
+  "frame": "d'une fraise",
+  "gloss": "Façonner du bois ou du métal à l'aide d'une fraise (outil).",
+  "hue": "fraise",
+  "pos": "verbe"
+ },
+ "fulvirostre": {
+  "frame": "de couleur fauve",
+  "gloss": "Qui a le bec de couleur fauve ou rousse.",
+  "hue": "fauve",
+  "pos": "adjectif"
+ },
+ "fusain": {
+  "frame": "de couleur rose",
+  "gloss": "Arbrisseau ornemental, à feuilles elliptiques à ovales ou lancéolées et acuminées, aux fleurs à quatre pétales, et dont les fruits sont des capsules ressemblant à des baies, lobées, de couleur rose à ",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "fuscite": {
+  "frame": "d'un noir",
+  "gloss": "Minéral de Norvège qui est opaque, tendre, d'un noir grisâtre ou verdâtre.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "gayacan": {
+  "frame": "d'un fauve",
+  "gloss": "Arbre de la famille des rutacées, dont le bois, d'un fauve verdâtre, est plus âcre que celui du gaïac ordinaire.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "givre": {
+  "frame": "d'un blanc",
+  "gloss": "Tache d'un blanc mat sur une gemme.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "givrure": {
+  "frame": "d'un blanc",
+  "gloss": "Tache d'un blanc mat sur un diamant provenant de l'éclat qu'y a fait l'outil du mineur ou du lapidaire.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "granitone": {
+  "frame": "d'un noir",
+  "gloss": "Variété de roche antique, à base de feldspath compacte et qui renferme de grands cristaux d'amphibole d'un noir verdâtre.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "grenade": {
+  "frame": "de couleur rouge",
+  "gloss": "Fruit comestible du grenadier, grosse baie ronde, de la taille d'une grosse orange, à écorce dure et coriace, de couleur rouge ou jaune-beige, qui renferme dans des loges délimitées par des cloisons é",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "grisette": {
+  "frame": "de couleur grise",
+  "gloss": "Nom vulgaire de certaines espèces de papillons de couleur grise, de la famille des Hesperiidae.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "groseille": {
+  "frame": "de couleur rouge",
+  "gloss": "Petit fruit à grappes, un peu acide, de couleur rouge ou blanche et bon à manger, souvent utilisé en cuisine pour faire des gelées et des confitures, et produit par le groseillier.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "grèbe": {
+  "frame": "d'un blanc",
+  "gloss": "Oiseau aquatique dont le plumage est d'un blanc argenté.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "guinette": {
+  "frame": "d'une cerise",
+  "gloss": "Confiserie constituée d'une cerise à l'eau-de-vie enrobée d'une couche de fondant et d'une couche de chocolat.",
+  "hue": "cerise",
+  "pos": "nom"
+ },
+ "guttier": {
+  "frame": "de couleur jaune",
+  "gloss": "Arbre de l'Asie orientale qui donne une gomme-résine opaque, de couleur jaune safrané, longtemps confondue avec la gomme-gutte.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "hachette": {
+  "frame": "de couleur brun",
+  "gloss": "Espèce d'insecte lépidoptère (papillon) nocturne de la famille des saturnidés (Saturnidae) dont le dos des ailes est de couleur brun-sable avec une ocelle sur chaque aile.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "halloysite": {
+  "frame": "d'un gris",
+  "gloss": "Espèce minérale du groupe des silicates, non reconnue officiellement, qui se présente sous l'aspect d'une substance compacte, tendre, à cassure conchoïde ou cireuse, d'une couleur blanchâtre ou d'un g",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "hameçon": {
+  "frame": "de couleur brun",
+  "gloss": "Un insecte lépidoptère (papillon) de nuit de la famille des drépanidés (Drepanidae) dont les ailes sont de couleur brun-orange, les antérieures terminées en crochet étant comparées à un hameçon.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "hanneton": {
+  "frame": "d'un rouge",
+  "gloss": "Insecte coléoptère (Melolontha melolontha) d'un rouge brun, qui a des antennes courtes, frangées à leur extrémité, et qui paraît au printemps.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "hiddénite": {
+  "frame": "de couleur verte",
+  "gloss": "Variété de couleur verte de spodumène.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "hockiac": {
+  "frame": "d'un gris",
+  "gloss": "Tablettes de bouillon qui se préparent dans l'Orient, surtout en Chine ; elles sont d'un gris terne, à demi opaques et aromatisées. (Tarif des douanes de 1844, note 486)",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "hulotte": {
+  "frame": "de couleur jaune",
+  "gloss": "Papillon de nuit, noctuidé, dont l'aile postérieure, de couleur jaune orangé avec une bande noire parallèle au bord externe, présente une tache noire sur la nervure transversale.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "hypoéchogène": {
+  "frame": "d'un gris",
+  "gloss": "Qui ne génère que peu d'échos, donnant des plages d'un gris très sombre, proches du noir sur l'écran de l'échographe.",
+  "hue": "gris",
+  "pos": "adjectif"
+ },
+ "hyène": {
+  "frame": "au pelage gris",
+  "gloss": "Mammifère carnassier digitigrade d'Asie et d'Afrique au pelage gris tacheté de brun.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "hédenbergite": {
+  "frame": "d'un vert",
+  "gloss": "Silicate double de chaux et de fer, d'un vert foncé, presque noir.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "héliodore": {
+  "frame": "de couleur jaune",
+  "gloss": "Variété de béryl de couleur jaune avec des nuances verdâtres ou miel dues au fer.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "hématidrose": {
+  "frame": "de teinte rosée",
+  "gloss": "Écoulement d'une sueur de teinte rosée au cours d'une affection générale.",
+  "hue": "rosé",
+  "pos": "nom"
+ },
+ "hématophylle": {
+  "frame": "d'un rouge",
+  "gloss": "Qui a les feuilles teintes d'un rouge de sang.",
+  "hue": "rouge",
+  "pos": "adjectif"
+ },
+ "hémoglobine": {
+  "frame": "de couleur rouge",
+  "gloss": "Hétéroprotéine de couleur rouge contenue dans les hématies et qui leur donne leur couleur. L'hème qu'elle contient sert au transport de l'oxygène (oxyhémoglobine) et du CO₂ (hémoglobine réduite).",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "ictérocéphale": {
+  "frame": "de couleur jaune",
+  "gloss": "Dont la tête est de couleur jaune.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "if": {
+  "frame": "d'un vert",
+  "gloss": "Arbre sempervirent de la famille des taxacées, à feuilles persistantes longues, étroites, vénéneuses, d'un vert très sombre, à fausses baies rouges, utilisé comme arbre d'ornement dans les parcs, les ",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "ignimbrite": {
+  "frame": "de couleur gris",
+  "gloss": "Roche formée de débris de lave acide issus d'une nuée ardente et soudés avant leur refroidissement, mélangés à une matrice vitreuse. Elle a un aspect de pierre ponce et est principalement de couleur g",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "indine": {
+  "frame": "d'un rouge",
+  "gloss": "Poudre d'un rouge rose foncé, qui est un produit de décomposition de l'isatine.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "iridium": {
+  "frame": "d'un blanc",
+  "gloss": "Métal d'un blanc d'argent, contenu dans certains minerais de platine. Son symbole chimique est Ir et son numéro atomique 77 ; il appartient à la série chimique des métaux de transition.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "jais": {
+  "frame": "d'un noir",
+  "gloss": "Couleur d'un noir soutenu et brillant.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "jamalaquier": {
+  "frame": "à la peau rose",
+  "gloss": "Arbre fruitier tropical originaire de Sémarang, en Indonésie, au fruit de forme conique à la peau rose et à chair blanche, le jamalac.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "kino": {
+  "frame": "d'un rouge",
+  "gloss": "Substance dure, opaque et d'un rouge foncé, qui s'emploie souvent en médecine comme tonique, tiré de divers végétaux (voir la citation ci-dessous).",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "komato": {
+  "frame": "de couleur noire",
+  "gloss": "Variété de tomate de couleur noire.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "kunzite": {
+  "frame": "de couleur rose",
+  "gloss": ". Variété de couleur rose de spodumène.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "lacre": {
+  "frame": "de couleur rouge",
+  "gloss": "Cire à cacheter, de couleur rouge comme la laque.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "lactescent": {
+  "frame": "d'un blanc",
+  "gloss": "Qui est d'un blanc crème comme le lait.",
+  "hue": "blanc",
+  "pos": "adjectif"
+ },
+ "lamie": {
+  "frame": "de couleur gris",
+  "gloss": "Poisson sélacien, requin de forte taille et de couleur gris bleuâtre sur la face supérieure et blanche sur la face inférieure.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "laminaire": {
+  "frame": "de couleur brune",
+  "gloss": "Algue marine présentant de grands et plats rubans de couleur brune.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "langite": {
+  "frame": "d'un bleu",
+  "gloss": "Minéral découvert récemment dans le Cornouailles, et qui est un sous-sulfate de cuivre hydraté d'un bleu verdâtre.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "lanthane": {
+  "frame": "de couleur gris",
+  "gloss": "métal pur de cet élément, de couleur gris-argent, malléable, ductile, très mou et qui s'oxyde à l'air et dans l'eau.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "lard": {
+  "frame": "de couleur rose",
+  "gloss": "Friandise molle de forme allongée du genre guimauve composée de deux bandes de couleur rose et blanche.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "lemoncello": {
+  "frame": "de couleur jaune",
+  "gloss": "Liqueur alcoolisée de couleur jaune obtenue par macération de zestes de citron, utilisée comme digestif principalement dans le Mentonnais et le Piémont italien.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "liard": {
+  "frame": "d'un léopard",
+  "gloss": "Espèce hybride issue du croisement d'un léopard mâle et d'une lionne.",
+  "hue": "léopard",
+  "pos": "nom"
+ },
+ "lipizzan": {
+  "frame": "d'un gris",
+  "gloss": "Race de cheval de parade, dont la taille moyenne au garrot avoisine 1 mètre 60, à robe baie ou noire à la naissance qui s'éclaircit progressivement pour devenir d'un gris très clair, originaire de Slo",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "loup": {
+  "frame": "au pelage gris",
+  "gloss": "Mammifère carnivore à l'allure de grand chien de la famille des canidés, au pelage gris jaunâtre, aux yeux obliques, aux oreilles dressées, de nom scientifique Canis lupus.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "luridité": {
+  "frame": "d'un jaune",
+  "gloss": "Etat d'un jaune pâle de la peau, coloration qui, sans être celle de la jaunisse due à la bile, survient dans certaines cachexies, ou sur les membres paralysés en voie d'atrophie.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "lycaon": {
+  "frame": "au pelage fauve",
+  "gloss": "Mammifère carnassier d'Afrique, de la famille des Canidés, au pelage fauve tacheté de noir.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "lynx": {
+  "frame": "d'un brun",
+  "gloss": "Race de lapins, originaires d'Allemagne, de petite taille, à robe d'un brun roux.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "léopon": {
+  "frame": "d'un léopard",
+  "gloss": "Félidé hybride au pelage légèrement tacheté, issu du croisement d'une lionne et d'une panthère ou d'une lionne et d'un léopard.",
+  "hue": "léopard",
+  "pos": "nom"
+ },
+ "macareux": {
+  "frame": "au plumage noir",
+  "gloss": "Oiseau marin de la famille des alcidés au plumage noir et blanc et au bec coloré, vivant en colonies dans les régions tempérées fraîches de l'Atlantique et du Pacifique nord.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "malamoque": {
+  "frame": "d'un gris",
+  "gloss": "Nom que les marins donnent à une espèce d'albatros qui a tout le plumage d'un gris noir, avec le bec noir.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "malplaquet": {
+  "frame": "d'un rouge",
+  "gloss": "Marbre dont le fond est d'un rouge pâle vineux, ondulé de gris.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "mameluco": {
+  "frame": "d'un blanc",
+  "gloss": "Se dit, au Brésil, de l'enfant né d'un blanc et d'un naturel du pays.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "mandarine": {
+  "frame": "d'une couleur rouge",
+  "gloss": "Fruit du mandarinier de la famille des agrumes. Le fruit d'un diamètre de 5 à 8 cm est sphérique et légèrement aplati. Sa chair, sucrée et parfumée, est l'une des moins acides parmi les agrumes, mais ",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "mandorlé": {
+  "frame": "d'une amande",
+  "gloss": "Qui a la forme d'une mandorle, d'une amande.",
+  "hue": "amande",
+  "pos": "adjectif"
+ },
+ "mangue": {
+  "frame": "à la peau verte",
+  "gloss": "Fruit comestible tropical du manguier, de la famille des Anacardiacées. C'est une drupe charnue à la chair jaune et sucrée, à la peau verte, jaune ou rouge et contenant un noyau plat et large sur lequ",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "margarite": {
+  "frame": "d'un blanc",
+  "gloss": "Pierre d'un blanc argentin, qui a été nommée mica nacré.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "margriette": {
+  "frame": "d'un bleu",
+  "gloss": "Verroterie, d'un bleu foncé, tirant sur le noir, avec des raies jaunes ou blanches, et qui sert au commerce des Européens avec les peuples de la côte d'Afrique.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "marronasse": {
+  "frame": "d'un marron",
+  "gloss": "Qui est d'un marron fade.",
+  "hue": "marron",
+  "pos": "adjectif"
+ },
+ "martagon": {
+  "frame": "d'un rouge",
+  "gloss": "Lis à fleurs d'un rouge violacé, tachées de pourpre.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "massicot": {
+  "frame": "d'un jaune",
+  "gloss": "Plomb uni à l'oxygène, oxyde de plomb d'un jaune plus ou moins vif.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "mauvéine": {
+  "frame": "de couleur mauve",
+  "gloss": "Premier colorant artificiel de couleur mauve, dérivé de l'aniline et employé dans l'industrie textile.",
+  "hue": "mauve",
+  "pos": "nom"
+ },
+ "merbeau": {
+  "frame": "de couleur brun",
+  "gloss": "Bois d'un arbre tropical rare de couleur brun rouge qu'on ne trouve plus qu'en Nouvelle-Guinée, qui ne craint pas l'humidité et qui est utilisé pour faire du parquet.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "mercure": {
+  "frame": "de couleur argent",
+  "gloss": "Métal de couleur argent brillant de cet élément, liquide dans des conditions normales de température et de pression.",
+  "hue": "argent",
+  "pos": "nom"
+ },
+ "mercurochrome": {
+  "frame": "de couleur rouge",
+  "gloss": "Antiseptique de couleur rouge.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "minium": {
+  "frame": "de couleur rouge",
+  "gloss": "Oxyde de plomb de couleur rouge.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "mirabelle": {
+  "frame": "de couleur jaune",
+  "gloss": "Fruit comestible du mirabellier, variété de prunier : petite prune ronde, de couleur jaune.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "moineau": {
+  "frame": "au plumage brunâtre",
+  "gloss": "Une des espèces de petits oiseaux passereaux trapus au bec court et au plumage brunâtre et clair qui fait son nid dans les trous des murailles ou de tout bâtiment.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "montmorency": {
+  "frame": "d'une cerise",
+  "gloss": "Nom d'une cerise acide et à courte queue, que l'on cultive beaucoup à Montmorency près Paris.",
+  "hue": "cerise",
+  "pos": "nom"
+ },
+ "moreau": {
+  "frame": "d'un noir",
+  "gloss": "Qui a le poil d'un noir foncé, vif et luisant, en parlant d'un cheval.",
+  "hue": "noir",
+  "pos": "adjectif"
+ },
+ "morganite": {
+  "frame": "de couleur rose",
+  "gloss": "Variété de béryl de couleur rose à orange, contenant du  lithium et du césium.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "moricaud": {
+  "frame": "de couleur brun",
+  "gloss": "et souvent  Personne au visage de couleur brun.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "morio": {
+  "frame": "de couleur violet",
+  "gloss": "Un grand insecte lépidoptère (papillon) de jour de la famille des nymphalidés (Nymphalidae), dont le dos des ailes est de couleur violet foncé avec une bande marginale jaune devenue blanche après hibe",
+  "hue": "violet",
+  "pos": "nom"
+ },
+ "morphée": {
+  "frame": "de couleur rougeâtre",
+  "gloss": "Sclérodermie se manifestant par des plaques rondes ou ovales sur la peau, souvent blanches et entourées d'un halo de couleur rougeâtre.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "mouche": {
+  "frame": "de couleur noire",
+  "gloss": "Insecte volant de l'ordre des Diptères, de couleur noire à grise et muni d'une trompe, pondant ses œufs dans les aliments et constituant un parasite de l'homme.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "moule": {
+  "frame": "d'une pêche",
+  "gloss": "Nombre d'individus d'une pêche monospécifique compris dans un échantillon d'un poids déterminé.",
+  "hue": "pêche",
+  "pos": "nom"
+ },
+ "muscardin": {
+  "frame": "au pelage roux",
+  "gloss": "Espèce de petit mammifère rongeur, d'Europe et d'Asie, nocturne et hibernant, au pelage roux, à queue touffue et avec de grands yeux noirs.",
+  "hue": "roux",
+  "pos": "nom"
+ },
+ "mégère": {
+  "frame": "de couleur jaune",
+  "gloss": "Insecte lépidoptère, papillon de jour de la famille des Nymphalidés, dont les ailes sont de couleur jaune orangé marqué de lignes marron avec des ocelles.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "mélanite": {
+  "frame": "d'un noir",
+  "gloss": "Andradite d'un noir soutenu et très brillant.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "mérens": {
+  "frame": "de robe noire",
+  "gloss": "Race de cheval polyvalent, un poney originaire de l'Ariège (Pyrénées orientales) et du nord de l'Espagne, de robe noire, dont la taille au garrot moyenne est voisine de 1,45  m, cheval de trait et che",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "méthémoglobine": {
+  "frame": "de couleur brune",
+  "gloss": "Hétéroprotéine de couleur brune, dérivée de l'hémoglobine. L'hème qu'elle contient possède un atome de fer à l'état ferrique et est incapable de fixer de l'oxygène.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "nickel": {
+  "frame": "d'un blanc",
+  "gloss": "Métal pur de cet élément, malléable, inoxydable, d'un blanc gris.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "nigrirostre": {
+  "frame": "de couleur noire",
+  "gloss": "Qui a le bec ou la trompe de couleur noire.",
+  "hue": "noir",
+  "pos": "adjectif"
+ },
+ "nimbus": {
+  "frame": "d'un gris",
+  "gloss": "Nom donné à une couche épaisse et longue de nuages d'un gris plus ou moins foncé, d'où tombe de la pluie ou de la neige.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "normande": {
+  "frame": "au plumage blanc",
+  "gloss": "Race d'oies à rôtir originaires de France (Normandie), au plumage blanc, avec la tête, le cou et le dos gris chez la femelle.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "nymphe": {
+  "frame": "de couleur brune",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des noctuidés (Noctuidae) dont le dos des ailes est de couleur brune avec des bandes foncées et du jaune sur les ailes postérieures.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "nègre": {
+  "frame": "à la peau noire",
+  "gloss": "Homme à la peau noire, originaire d'Afrique.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "négresse": {
+  "frame": "à la peau noire",
+  "gloss": "Femme à la peau noire, originaire d'Afrique.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "oblade": {
+  "frame": "de couleur argentée",
+  "gloss": "Espèce de poisson osseux marin, un sparidé de l'Atlantique et abondant en Méditerranée, au corps fuselé, de couleur argentée, et ayant une tache noire cerclée de blanc sur le pédoncule caudal.",
+  "hue": "argent",
+  "pos": "nom"
+ },
+ "obsidienne": {
+  "frame": "de couleur noire",
+  "gloss": "Roche éruptive à structure vitreuse, sans cristaux, de couleur noire (parfois verte). Elle est très dure.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "ochracé": {
+  "frame": "d'un rouge",
+  "gloss": "Qui est d'un rouge pâle et mat.",
+  "hue": "rouge",
+  "pos": "adjectif"
+ },
+ "ochroma": {
+  "frame": "d'un roux",
+  "gloss": "Genre de la famille des Malvacées, qui comprend l'ochroma pied de lièvre, arbre des Antilles dont les feuilles sont d'un roux pâle.",
+  "hue": "roux",
+  "pos": "nom"
+ },
+ "octavon": {
+  "frame": "d'un blanc",
+  "gloss": "Celui, celle qui a un huitième de son patrimoine génétique issu d'un ancêtre noir, qui est né de l'union d'un quarteron et d'une blanche, ou d'un blanc et d'une quarteronne.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "oka": {
+  "frame": "de couleur orange",
+  "gloss": "Type de fromage de lait de vache ayant une croûte lisse de couleur orange cuivrée.",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "opale": {
+  "frame": "d'un blanc",
+  "gloss": "Translucide et d'un blanc laiteux, par un revêtement interne à base de silice.",
+  "hue": "blanc",
+  "pos": "adjectif"
+ },
+ "pachée": {
+  "frame": "d'une couleur verte",
+  "gloss": "Émeraude orientale, corindon vitreux d'une couleur verte.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "pamplemousse": {
+  "frame": "de couleur jaune",
+  "gloss": "Fruit du pamplemoussier (Citrus maxima, Citrus grandis, ou Citrus decumana), de couleur jaune, rosé ou verdâtre, peu juteux et au goût parfois amer, piriforme, sphérique ou aplati, appartenant à la fa",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "panais": {
+  "frame": "d'un blanc",
+  "gloss": "Racine de cette plante qui est d'un blanc jaunâtre et d'une saveur douce.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "panthère": {
+  "frame": "de couleur jaune",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des géométridés (Geometridae), dont le dos des ailes est de couleur jaune ou orange tacheté.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "papaye": {
+  "frame": "de couleur orange",
+  "gloss": "Fruit comestible du papayer, formé d'une grosse baie allongée et arrondie, à la pulpe de couleur orange, comestible, pouvant peser un kilogramme ou plus et renfermant de nombreuses graines noires.",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "paragénésie": {
+  "frame": "d'un métis",
+  "gloss": "Hybridité où les métis de second sang, c'est-à-dire ceux qui proviennent d'un métis joint avec l'une ou l'autre race mère, sont féconds entre eux, mais où les métis directs ou de premier sang sont sté",
+  "hue": "métis",
+  "pos": "nom"
+ },
+ "passagère": {
+  "frame": "de couleur grise",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des noctuidés (Noctuidae) dont le dos des ailes est de couleur grise avec des bandes foncées.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "patas": {
+  "frame": "au pelage rougeâtre",
+  "gloss": "Singe de savanes africain au pelage rougeâtre et blanc, primate de la famille des cercopithécidés, coureur et végétarien.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "perle": {
+  "frame": "d'un blanc",
+  "gloss": "Globule ordinairement d'un blanc argentin, à reflets irisés, qui se forme dans certaines coquilles par une extravasation de la nacre.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "piette": {
+  "frame": "au plumage noir",
+  "gloss": "Harle piette, petit harle au plumage noir et blanc.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "piment": {
+  "frame": "de couleur verte",
+  "gloss": "Fruit de cette plante de couleur verte, jaune ou rouge à mâturité.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "pimélite": {
+  "frame": "d'un vert",
+  "gloss": "Silicate double d'alumine et de nickel, qui se présente en masses compactes, d'un vert émeraude.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "pinguite": {
+  "frame": "d'un vert",
+  "gloss": "Silicate de fer présentant les caractères d'un produit de décomposition, et une couleur d'un vert d'huile, trouvé dans l'Erzgebirge.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "pissode": {
+  "frame": "de couleur marron",
+  "gloss": "Charançon xylophage (genre Pissodes) de couleur marron-roux à brun sombre, se rencontrant exclusivement sur les conifères.",
+  "hue": "marron",
+  "pos": "nom"
+ },
+ "pistole": {
+  "frame": "d'un jaune",
+  "gloss": "Petit fruit séché, sorte de pruneau sans noyau, aplati, rond et d'un jaune doré.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "piémontite": {
+  "frame": "de couleur rose",
+  "gloss": "Espèce minérale du groupe des silicates sous groupe des sorosilicates composée de silicate de calcium, manganèse, aluminium et fer, de couleur rose à violacée, de formule Ca&lt;sub&gt;2&lt;/sub&gt;(Mn",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "platiné": {
+  "frame": "d'un blond",
+  "gloss": "Qui est d'un blond très pale.",
+  "hue": "blond",
+  "pos": "adjectif"
+ },
+ "plinthite": {
+  "frame": "d'un rouge",
+  "gloss": "Argile d'un rouge de brique, formé principalement de silice, d'alumine et de peroxyde de fer, que l'on trouve dans le comté d'Antrim, en Irlande.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "plomb": {
+  "frame": "d'un blanc",
+  "gloss": "Métal d'un blanc bleuâtre, très mou. Son symbole chimique est Pb et son numéro atomique 82 ; il appartient à la série chimique des métaux pauvres.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "polycholie": {
+  "frame": "d'un violet",
+  "gloss": "Minéral hyalin d'un violet rougeâtre, qui provient d'Arendal en Norvège.",
+  "hue": "violet",
+  "pos": "nom"
+ },
+ "pourpré": {
+  "frame": "de couleur pourpre",
+  "gloss": "Qui est de couleur pourpre.",
+  "hue": "pourpre",
+  "pos": "adjectif"
+ },
+ "propolis": {
+  "frame": "d'un brun",
+  "gloss": "Matière résineuse, d'un brun rougeâtre, dont les abeilles se servent pour boucher les fentes et les trous de leurs ruches.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "ptérocarye": {
+  "frame": "aux fleurs vertes",
+  "gloss": "Juglandacée aux fleurs vertes en forme de chatons unisexués qui apparaissent au printemps, dont les fruits sont ailés et pendent sur de longs épis.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "puku": {
+  "frame": "au pelage fauve",
+  "gloss": "Espèce d'antilope d'Afrique, du genre des cobes, au pelage fauve à orangé, et dont les mâles ont des cornes plutôt courtes.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "pumapard": {
+  "frame": "d'un léopard",
+  "gloss": "Hybride stérile d'un puma et d'un léopard femelle.",
+  "hue": "léopard",
+  "pos": "nom"
+ },
+ "pureau": {
+  "frame": "d'une ardoise",
+  "gloss": "Partie d'une tuile ou d'une ardoise qui n'est pas recouverte par la tuile ou l'ardoise supérieure.",
+  "hue": "ardoise",
+  "pos": "nom"
+ },
+ "pyrope": {
+  "frame": "de couleur rouge",
+  "gloss": "Variété magnésienne et alumineuse de la famille des grenats de couleur rouge sang à rouge violacé ou noir.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "pâle": {
+  "frame": "d'un blanc",
+  "gloss": "Qui est d'un blanc terne, qui est décoloré, en parlant du visage.",
+  "hue": "blanc",
+  "pos": "adjectif"
+ },
+ "raiponce": {
+  "frame": "aux fleurs lilas",
+  "gloss": "Plante potagère, espèce de campanule (Campanulacées) aux fleurs lilas en clochettes, dont les racines, de même nom, sont blanches, tendres et se mangent en salade de même que les feuilles.",
+  "hue": "lilas",
+  "pos": "nom"
+ },
+ "ratissée": {
+  "frame": "de couleur gris",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des drépanidés (Drepanidae), dont le dos des ailes antérieures est de couleur gris-brun avec des arcs oranges.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "renaisien": {
+  "frame": "au plumage blanc",
+  "gloss": "Race de pigeons d'ornement originaires de Belgique (Renaix), au plumage blanc.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "renardé": {
+  "frame": "de couleur noirâtre",
+  "gloss": "Se dit des parfums éventés, du succin de couleur noirâtre.",
+  "hue": "noir",
+  "pos": "adjectif"
+ },
+ "rhebuck": {
+  "frame": "de couleur grise",
+  "gloss": "Espèce d'antilope d'Afrique australe au pelage laineux de couleur grise dont le mâle a des cornes courtes.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "rhéine": {
+  "frame": "d'un rouge",
+  "gloss": "Acide chrysophénique, que renferme la racine de rhubarbe, et qui devient d'un rouge pourpre par les alcalis.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "rocou": {
+  "frame": "d'un rouge",
+  "gloss": "Matière tinctoriale d'un rouge orange qu'on extrait de la pulpe qui enveloppe les graines du rocouyer.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "roi": {
+  "frame": "d'un bleu",
+  "gloss": "Se dit d'une couleur d'un bleu moyen soutenu. Il s'agit du bleu du drapeau français.",
+  "hue": "bleu",
+  "pos": "adjectif"
+ },
+ "romarin": {
+  "frame": "aux fleurs bleu",
+  "gloss": "Arbuste aromatique méditerranéen, à feuilles persistantes sans pétiole, d'odeur très camphrée, aux fleurs bleu pâle à violet ou blanches, herbe condimentaire, plante mellifère.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "rosacé": {
+  "frame": "d'une rose",
+  "gloss": "Qui est disposé à la manière des pétales d'une rose.",
+  "hue": "rose",
+  "pos": "adjectif"
+ },
+ "rosette": {
+  "frame": "de couleur rose",
+  "gloss": "Espèce de lépidoptère (Miltochrista miniata) de la famille des Arctiidae, dont le dos des ailes est de couleur rose-orangé.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "rosâtre": {
+  "frame": "d'un rose",
+  "gloss": "Qui a une teinte rosée, d'un rose sale.",
+  "hue": "rose",
+  "pos": "adjectif"
+ },
+ "rotengle": {
+  "frame": "de couleur rouge",
+  "gloss": "Espèce de poisson osseux d'eau douce, des eaux calmes d'Europe et d'Asie, proche du gardon, dont les nageoires anale et ventrales ainsi que la queue et l'iris de l'œil sont de couleur rouge vif.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "rougette": {
+  "frame": "au feuillage vert",
+  "gloss": "Sorte de salade au feuillage vert marqué de rouge.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "roussard": {
+  "frame": "de couleur rose",
+  "gloss": "Grès ferrugineux de couleur rose / rouille.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "rubellite": {
+  "frame": "de couleur rouge",
+  "gloss": "Variété  d'elbaïte gemme  de couleur rouge à rose.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "régule": {
+  "frame": "de couleur grise",
+  "gloss": "Dans le milieu de la brocante et des antiquités, appellation impropre mais usuelle d'un alliage de zinc de couleur grise, dit aussi zinc d'art ou bronze-imitation car sa patine imite souvent le bronze",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "réséda": {
+  "frame": "d'un jaune",
+  "gloss": "Plante herbacée, à feuilles alternes, qui a des fleurs irrégulières, d'un jaune verdâtre et d'une odeur agréable.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "rétinite": {
+  "frame": "d'un vert",
+  "gloss": "Lave vitreuse, à éclat moins vif que l'obsidienne, d'un vert noirâtre, ressemblant à un verre, mais ayant un aspect résineux comme la poix.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "sacatra": {
+  "frame": "d'un noir",
+  "gloss": "Nom donné à l'homme de couleur qui se rapproche le plus d'un noir.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "sacre": {
+  "frame": "d'un évêque",
+  "gloss": "Consécration d'un évêque.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "sahlab": {
+  "frame": "de couleur blanc",
+  "gloss": "Spécialité libanaise, constituée de poudre de racine d'orchis, de couleur blanc-ivoire, mélangée avec du lait chaud et du sucre. Consommée en Asie Mineure en hiver.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "sanguine": {
+  "frame": "d'un rouge",
+  "gloss": "Minerai de fer, d'un rouge brun, dont on fait des crayons.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "sanguinite": {
+  "frame": "de couleur rouge",
+  "gloss": "Arsenio-sulfure d'argent naturel, de couleur rouge et proche de la proustite.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "sardoine": {
+  "frame": "d'une couleur brune",
+  "gloss": "Sorte d'agate, d'une couleur brune, avec des reflets orangés.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "saumon": {
+  "frame": "d'un rose",
+  "gloss": "Qui est d'un rose pâle tirant légèrement sur le orangé.",
+  "hue": "rose",
+  "pos": "adjectif"
+ },
+ "saure": {
+  "frame": "de couleur jaune",
+  "gloss": "Qui est de couleur jaune tirant sur le brun. Il se dit spécialement des Chevaux.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "schulzénite": {
+  "frame": "de couleur noire",
+  "gloss": "Oxyde hydraté, naturel, de cuivre et de cobalt . C'est un minéral amorphe de couleur noire de densité relative 3.39, d'une dureté de 3,5 sur l'échelle de Mohs.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "scratcher": {
+  "frame": "d'une platine",
+  "gloss": "Produire des sons à partir d'une platine de disques en perturbant la rotation des disques.",
+  "hue": "platine",
+  "pos": "verbe"
+ },
+ "silène": {
+  "frame": "de couleur brun",
+  "gloss": "Un insecte lépidoptère (papillon) de la famille des nymphalidés, dont les ailes sont de couleur brun foncé et rayées d'une bande blanc crème.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "sisymbre": {
+  "frame": "de couleur jaune",
+  "gloss": "Plante crucifère portant des fruits (des siliques) et dont les fleurs sont très petites, de couleur jaune ou jaunâtre.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "smalt": {
+  "frame": "de couleur bleue",
+  "gloss": "Pigment de couleur bleue (appelée bleu cobalt) composé d'un mélange d'oxyde de cobalt et de verre (silice et potassium).",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "socca": {
+  "frame": "de couleur jaune",
+  "gloss": "Grande et fine galette de couleur jaune orangé, spécialité culinaire à base de farine de pois chiche originaire de Ligurie, consommée par exemple à Menton et à Nice.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "solitaire": {
+  "frame": "de couleur jaune",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de jour de la famille des piéridés (Pieridae), d'Eurasie (centre et nord de l'Europe) et d'Amérique du Nord, de couleur jaune pâle, bordé d'une frange rouge",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "soyeuse": {
+  "frame": "de couleur brunâtre",
+  "gloss": "Une espèce d' insecte lépidoptère (papillon) de nuit de la famille des noctuidés (Noctuidae) dont le dos des ailes est de couleur brunâtre avec une tache sombre aux antérieures.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "steinbock": {
+  "frame": "au pelage fauve",
+  "gloss": "Espèce de petite antilope d'Afrique de l'Est et australe, à petites cornes (mâle), et au pelage fauve à roux.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "stellion": {
+  "frame": "de couleur changeante",
+  "gloss": "Petit lézard agamidé (Stellio stellio Linné 1758, Lacerta stellio Linné 1758, Laudakia stellio Linné 1758, Cordylus stellio Laurenti 1768, Stellio vulgaris Daudin 1803, Agama cordylea Merrem 1820, Aga",
+  "hue": "changeant",
+  "pos": "nom"
+ },
+ "stéarone": {
+  "frame": "d'un blanc",
+  "gloss": "Produit solide d'un blanc nacré, obtenu en distillant l'acide stéarique avec le quart de son poids de chaux vive.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "suffragant": {
+  "frame": "d'un évêque",
+  "gloss": "Qui dépend de tel archevêque, en parlant d'un évêque, suppléant.",
+  "hue": "évêque",
+  "pos": "adjectif"
+ },
+ "suni": {
+  "frame": "de couleur brun",
+  "gloss": "Espèce d'antilope du sud-est de l'Afrique, très petite, souvent de couleur brun-roux.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "suédoise": {
+  "frame": "de couleur bleu",
+  "gloss": "alliance politique de majorité parlementaire de 2014, de même couleur que le drapeau suédois, réunissant des partis libéraux de droite ou de centre-droit, le Mouvement réformateur (MR) et Open Vlaamse",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "sylvine": {
+  "frame": "de couleur orange",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des hépialidés (Hepialidae), dont le dos des ailes antérieures est de couleur orange avec 2 barres blanches en V et les postérieures b",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "talpiforme": {
+  "frame": "d'une taupe",
+  "gloss": "Qui a la forme d'une taupe.",
+  "hue": "taupe",
+  "pos": "adjectif"
+ },
+ "tamanite": {
+  "frame": "de couleur verte",
+  "gloss": "Pierre fine de couleur verte, de formule Ca2Fe(PO4)2. 4H2O.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "tantale": {
+  "frame": "de couleur gris",
+  "gloss": "Métal pur de cet élément, de couleur gris-bleu, très dur, lourd, ductile, très résistant aux acides.",
+  "hue": "gris",
+  "pos": "nom"
+ },
+ "tauriscite": {
+  "frame": "de couleur verte",
+  "gloss": "Sulfate ferreux hydraté, de formule FeSO4.7H2O. Cristaux de couleur verte.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "taylorite": {
+  "frame": "de couleur blanc",
+  "gloss": "Sulfate naturel d'ammonium et de potassium de couleur blanc jaunâtre et de formule (NH4K)2SO4.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "tchernoziom": {
+  "frame": "de couleur noire",
+  "gloss": "Sol très fertile, de couleur noire, contenant un fort pourcentage d'humus (3% à 15%), riche en potasse, phosphore et microéléments.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "tellure": {
+  "frame": "d'un blanc",
+  "gloss": "Métal d'un blanc bleuâtre, très brillant, lamelleux et fragile. Son symbole chimique est Te et son numéro atomique 52 ; il appartient à la série des métalloïdes.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "thulite": {
+  "frame": "de couleur rose",
+  "gloss": "variété de zoïsite de couleur rose contenant du manganèse.",
+  "hue": "rose",
+  "pos": "nom"
+ },
+ "tircis": {
+  "frame": "de couleur marron",
+  "gloss": "Un insecte lépidoptère (papillon) de jour des bois de la famille des nymphalidés (Nymphalidae), dont le dos des ailes est de couleur marron sur un fond de couleur orange vif ou crème avec des ocelles.",
+  "hue": "marron",
+  "pos": "nom"
+ },
+ "topazolithe": {
+  "frame": "d'un jaune",
+  "gloss": "Grenat d'un jaune de topaze.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "topi": {
+  "frame": "au pelage fauve",
+  "gloss": "Espèce de damalisque (africain) au pelage fauve, sombre.",
+  "hue": "fauve",
+  "pos": "nom"
+ },
+ "tourdille": {
+  "frame": "de couleur gris",
+  "gloss": "Désigne une robe d'un cheval de couleur gris jaunâtre rappelant celui de la grive.",
+  "hue": "gris",
+  "pos": "adjectif"
+ },
+ "tripoli": {
+  "frame": "d'un jaune",
+  "gloss": "Sorte de terre d'un jaune rougeâtre et d'un grain très fin, composée presque entièrement de silice, dont on se servait pour polir les glaces, les métaux.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "trolle": {
+  "frame": "aux fleurs jaunes",
+  "gloss": "Plante herbacée de la famille des renonculacées aux fleurs jaunes globuleuses.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "tubifex": {
+  "frame": "de couleur rougeâtre",
+  "gloss": "Annélide tubicole, de couleur rougeâtre, qui vit sur le fond des étangs.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "turquin": {
+  "frame": "D'une couleur bleu",
+  "gloss": "D'une couleur bleu foncé.",
+  "hue": "bleu",
+  "pos": "nom"
+ },
+ "ugli": {
+  "frame": "d'une orange",
+  "gloss": "Agrume originaire de la Jamaïque, de taille comprise entre celle d'une orange et celle d'un pamplemousse.",
+  "hue": "orange",
+  "pos": "nom"
+ },
+ "uraète": {
+  "frame": "au plumage noir",
+  "gloss": "Grand aigle d'Australie au plumage noir.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "urogastre": {
+  "frame": "d'une écrevisse",
+  "gloss": "Queue d'une écrevisse et autres crustacés décapodes.",
+  "hue": "écrevisse",
+  "pos": "nom"
+ },
+ "usure": {
+  "frame": "d'un argent",
+  "gloss": "Intérêt, profit qu'on exige d'un argent ou d'une marchandise prêtée, au-dessus du taux fixé par la loi ou établi par l'usage en matière de commerce.",
+  "hue": "argent",
+  "pos": "nom"
+ },
+ "vanillier": {
+  "frame": "aux fleurs jaunes",
+  "gloss": "Orchidée grimpante aux longues feuilles vertes charnues et aux fleurs jaunes originaire du Mexique et des Caraïbes. Le fruit est une capsule en forme de gousse pouvant mesurer 35 centimètres que l'on ",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "verdelet": {
+  "frame": "de couleur verte",
+  "gloss": "Une espèce d'insecte lépidoptère (papillon) de nuit de la famille des géométridés (Geometridae), d'Europe et du Proche-Orient, dont le dos des ailes est de couleur verte avec des taches.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "verdin": {
+  "frame": "de couleur verte",
+  "gloss": "Oiseau de couleur verte, de la famille des chloropséidés (Chloropseidae).",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "vermeille": {
+  "frame": "d'un rouge",
+  "gloss": "Pierre précieuse, d'un rouge cramoisi et orangé.",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "veuve": {
+  "frame": "d'un noir",
+  "gloss": "Scabieuse à fleur d'un noir pourpré.",
+  "hue": "noir",
+  "pos": "nom"
+ },
+ "vidame": {
+  "frame": "d'un évêque",
+  "gloss": "Représentant temporel d'un évêque, d'un abbé, chargé de le défendre et de commander ses troupes.",
+  "hue": "évêque",
+  "pos": "nom"
+ },
+ "vineux": {
+  "frame": "de couleur rouge",
+  "gloss": "Qui est de couleur rouge comme le vin.",
+  "hue": "rouge",
+  "pos": "adjectif"
+ },
+ "violant": {
+  "frame": "d'un bleu",
+  "gloss": "Se disait d'un bleu tirant sur le violet.",
+  "hue": "bleu",
+  "pos": "adjectif"
+ },
+ "vitellifère": {
+  "frame": "d'un jaune",
+  "gloss": "Qui est muni d'un jaune d'œuf, d'un vitellus.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "vulcain": {
+  "frame": "de couleur marron",
+  "gloss": "Un insecte lépidoptère (papillon) de jour de la famille des nymphalidés (Nymphalidae), dont le dos des ailes est de couleur marron à noir profond agrémenté d'un motif en 3/4 de cercle orange à rouge v",
+  "hue": "marron",
+  "pos": "nom"
+ },
+ "xanthie": {
+  "frame": "de couleur jaune",
+  "gloss": "Papillon de nuit de couleur jaune de la famille des Noctuidés.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "xanthome": {
+  "frame": "de couleur jaune",
+  "gloss": "Tumeur bénigne cutanée plane ou nodulaire, externe ou sous-cutanée, de couleur jaune, jaunâtre ou jaune-orangée, formée par un infiltrat dermique de cellules chargées de graisses.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "xanthose": {
+  "frame": "d'un jaune",
+  "gloss": "Matière d'un jaune safrané ou orangé qui se trouve par taches irrégulières et peu étendues dans le cancer.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "xanthoxyle": {
+  "frame": "d'une couleur jaune",
+  "gloss": "Qui a le bois d'une couleur jaune.",
+  "hue": "jaune",
+  "pos": "adjectif"
+ },
+ "yénite": {
+  "frame": "d'un brun",
+  "gloss": "Pierre dure, d'un brun foncé, qui se change en verre noir à la chaleur du chalumeau, et fait feu sous le briquet; on la tire de Corse.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "yéti": {
+  "frame": "au poil blanc",
+  "gloss": "Animal mythologique censé vivre dans les montagnes du Tibet, conformé comme un primate velu au poil blanc, avec un visage ressemblant à celui de l'homme.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "zain": {
+  "frame": "d'un noir",
+  "gloss": "Taureau  dont la robe ou le poil est d'un noir mat, simple et uniforme, n'a aucune marque de blanc.",
+  "hue": "noir",
+  "pos": "adjectif"
+ },
+ "zirconium": {
+  "frame": "de couleur blanc",
+  "gloss": "Métal de couleur blanc argenté.",
+  "hue": "blanc",
+  "pos": "nom"
+ },
+ "zooxanthelle": {
+  "frame": "de couleur brune",
+  "gloss": "Algue unicellulaire du genre Symbiodinium, généralement de couleur brune, que l'on trouve en particulier dans les récifs de coraux.",
+  "hue": "brun",
+  "pos": "nom"
+ },
+ "zooxanthine": {
+  "frame": "d'un jaune",
+  "gloss": "Principe colorant jaune spécial, qu'on obtient en traitant les plumes jaunes ou d'un jaune vert par l'acide acétique chaud.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "églantier": {
+  "frame": "d'un rouge",
+  "gloss": "Rosier sauvage aux fruits oblongs, d'un rouge vif, renfermant des semences enveloppées de poils (voir gratte-cul).",
+  "hue": "rouge",
+  "pos": "nom"
+ },
+ "épinard": {
+  "frame": "d'un vert",
+  "gloss": "Plante potagère dicotylédone, à graine épineuse, dont les feuilles hastées et d'un vert foncé sont comestibles et se mangent cuites ou crues.",
+  "hue": "vert",
+  "pos": "nom"
+ },
+ "épitoge": {
+  "frame": "de couleur jaune",
+  "gloss": "Sorte d'ornement de couleur jaune ou amarante que les professeurs portent à l'épaule sur leur robe dans les cérémonies.",
+  "hue": "jaune",
+  "pos": "nom"
+ },
+ "érythrisme": {
+  "frame": "d'un rouge",
+  "gloss": "Il se dit lorsqu'un individu aux cheveux d'un rouge vif se rencontre dans une population aux cheveux noirs ou très foncés, et lorsqu'on ne trouve dans cette population aucune autre couleur intermédiai",
+  "hue": "rouge",
+  "pos": "nom"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "diagnostic": "scene_leakage_rescore",
+ "seed": 48,
+ "certificate": 0.0,
+ "excluded_images": 1429,
+ "silent_regex": "\\b(dark|darkness|darkened|dim|dimly|night|nighttime|shadow|shadows|shadowy|silhouette|silhouetted|unlit|dusk|bright|brightly|sunny|sunlit|sunshine|sunlight|glare|glaring|daylight|floodlit|illuminated|well-lit|light|lights|lit|lighting)\\b",
+ "bootstrap": "group bootstrap over images, MULTIPLICITY-PRESERVING (F4 fix: resampled groups kept as list, never dict-collapsed)",
+ "axes": {
+  "48": {
+   "auc": 0.5792246819593309,
+   "ci95": [
+    0.5372855795137277,
+    0.6222113302953596
+   ],
+   "n_images": [
+    150,
+    150
+   ],
+   "n_captions": [
+    737,
+    745
+   ]
+  },
+  "v3": {
+   "auc": 0.5837578428783478,
+   "ci95": [
+    0.542447040907768,
+    0.6263983459293674
+   ],
+   "n_images": [
+    150,
+    150
+   ],
+   "n_captions": [
+    737,
+    745
+   ]
+  }
+ },
+ "axis_shas": {
+  "48": "4cffbb2dcb7a55a4",
+  "v3": "e8c0ade5ded20bb8"
+ }
+}

@@ -1,0 +1,4550 @@
+{
+ "what": "THE RIVER-MERCHANT MINI-BOARD — 李白 長干行 其一 L20 × Ezra Pound 1915 (Cathay), measured (#64 sitting build, 2026-07-30). EXHIBITION TIER, isolated from the 8-board census by construction. REAL channels only (word boolean + written + colour referent); NO board-local augment (COLOUR is a fully-wired shared field).",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (alignments are law and hers). zh 其一 and Pound both have 30 lines but Pound is not character-faithful; the map is chair-drafted POSITIONAL. Census/heat-map standing FLAGGED FOR HER REVIEW.",
+ "source": {
+  "rid": "zh:changgan_xing",
+  "text": "李白《長干行》其一 (30 verse-lines; Wikisource text of record via corpus/tang_en/zh_source/li_bai_changgan_xing.txt, fetched 2026-07-05; PD Tang-dynasty). L20 一一生綠苔 (綠 = green moss).",
+  "channels": "zh word boolean (trait_labelers zh_color, 五色 term set incl. 綠) + written (latent_score_54 ZhWritten/latent_written_labeler_53) + colour referent."
+ },
+ "seat": {
+  "rid": "en:pound_1915",
+  "text": "Ezra Pound, Cathay (1915), 'The River-Merchant's Wife: a Letter' (Gutenberg #50155; PD, F9, quoted in full). 30 body lines. L20 = 'By the gate now, the moss is grown, the different mosses,'.",
+  "channels": "en word boolean (trait_labelers en_color, xkcd-name-based) + written (Skeat colour etymon) + colour referent."
+ },
+ "certificate_drift": 0.0,
+ "n_inventory": 392,
+ "certificate_replay": {
+  "second_run_drift": 0.0,
+  "max_reading_disagreement": 0.0,
+  "replay_verified": true
+ },
+ "alignment_draft": {
+  "map": [
+   [
+    1,
+    [
+     1
+    ]
+   ],
+   [
+    2,
+    [
+     2
+    ]
+   ],
+   [
+    3,
+    [
+     3
+    ]
+   ],
+   [
+    4,
+    [
+     4
+    ]
+   ],
+   [
+    5,
+    [
+     5
+    ]
+   ],
+   [
+    6,
+    [
+     6
+    ]
+   ],
+   [
+    7,
+    [
+     7
+    ]
+   ],
+   [
+    8,
+    [
+     8
+    ]
+   ],
+   [
+    9,
+    [
+     9
+    ]
+   ],
+   [
+    10,
+    [
+     10
+    ]
+   ],
+   [
+    11,
+    [
+     11
+    ]
+   ],
+   [
+    12,
+    [
+     12
+    ]
+   ],
+   [
+    13,
+    [
+     13
+    ]
+   ],
+   [
+    14,
+    [
+     14
+    ]
+   ],
+   [
+    15,
+    [
+     15
+    ]
+   ],
+   [
+    16,
+    [
+     16
+    ]
+   ],
+   [
+    17,
+    [
+     17
+    ]
+   ],
+   [
+    18,
+    [
+     18
+    ]
+   ],
+   [
+    19,
+    [
+     19
+    ]
+   ],
+   [
+    20,
+    [
+     20
+    ]
+   ],
+   [
+    21,
+    [
+     21
+    ]
+   ],
+   [
+    22,
+    [
+     22
+    ]
+   ],
+   [
+    23,
+    [
+     23
+    ]
+   ],
+   [
+    24,
+    [
+     24
+    ]
+   ],
+   [
+    25,
+    [
+     25
+    ]
+   ],
+   [
+    26,
+    [
+     26
+    ]
+   ],
+   [
+    27,
+    [
+     27
+    ]
+   ],
+   [
+    28,
+    [
+     28
+    ]
+   ],
+   [
+    29,
+    [
+     29
+    ]
+   ],
+   [
+    30,
+    [
+     30
+    ]
+   ]
+  ],
+  "banner": "DRAFT — PENDING-HER-BLESSING. Alignments are law and hers; this is an exhibition-tier draft carrying the banner (the tao_yinjiu / Antigonä / song_youren precedent). The zh 其一 and Pound's rendering HAPPEN to be thirty lines each, but Pound is not a character-faithful renderer (he compresses/expands couplets), so this is NOT a mechanical identity — the map is chair-drafted positional and PENDING her blessing. For the TARGET (zh L20 一一生綠苔 ↔ Pound body line 20) the correspondence is a clean positional 1:1.",
+  "line_count": "30 zh verse-lines ↔ 30 Pound body lines (matched, but NOT a mechanical identity — positional draft, PENDING-HER-BLESSING)"
+ },
+ "records_all_lines": {
+  "zh:changgan_xing": [
+   {
+    "line": 1,
+    "text": "妾髮初覆額，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "折花門前劇。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "郎騎竹馬來，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "遶牀弄青梅。",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "青"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "梅"
+      ],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "同居長干里，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "長"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "兩小無嫌猜。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "十四爲君婦，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "羞顏未甞開。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "低頭向暗壁，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "暗"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 10,
+    "text": "千喚不一回。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "喚[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 11,
+    "text": "十五始展眉，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 12,
+    "text": "願同塵與灰。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 13,
+    "text": "常存抱柱信，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 14,
+    "text": "豈上望夫臺。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 15,
+    "text": "十六君遠行，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 16,
+    "text": "瞿塘灩澦堆。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 17,
+    "text": "五月不可觸，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "月"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 18,
+    "text": "猿聲天上哀。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "聲[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 19,
+    "text": "門前遲行跡，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "遲"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 20,
+    "text": "一一生綠苔。",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "綠"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 21,
+    "text": "苔深不能掃，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 22,
+    "text": "落葉秋風早。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "風[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "落",
+       "葉"
+      ],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "秋",
+       "早"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 23,
+    "text": "八月胡蝶來，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "月"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 24,
+    "text": "雙飛西園草。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "草"
+      ],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 25,
+    "text": "感此傷妾心，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 26,
+    "text": "坐愁紅顏老。",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "紅"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 27,
+    "text": "早晚下三巴，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "晚",
+       "早"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 28,
+    "text": "預將書報家。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 29,
+    "text": "相迎不道遠，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "相"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 30,
+    "text": "直至長風沙。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "風[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "長"
+      ],
+      "written_carriers": []
+     }
+    }
+   }
+  ],
+  "en:pound_1915": [
+   {
+    "line": 1,
+    "text": "While my hair was still cut straight across my forehead",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "cut[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "I played about the front gate, pulling flowers.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "flower"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "You came by on bamboo stilts, playing horse,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "bamboo"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "You walked about my seat, playing with blue plums.",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "blue",
+       "plum"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "plum"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "And we went on living in the village of Chokan:",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "Two small people, without dislike or suspicion.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "At fourteen I married My Lord you.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "I never laughed, being bashful.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "Lowering my head, I looked at the wall.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "head"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 10,
+    "text": "Called to, a thousand times, I never looked back.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 11,
+    "text": "At fifteen I stopped scowling,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 12,
+    "text": "I desired my dust to be mingled with yours",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "dust"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 13,
+    "text": "Forever and forever, and forever.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 14,
+    "text": "Why should I climb the look out?",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 15,
+    "text": "At sixteen you departed,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 16,
+    "text": "You went into far Ku-to-Yen, by the river of swirling eddies,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 17,
+    "text": "And you have been gone five months.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "month",
+       "months"
+      ],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 18,
+    "text": "The monkeys make sorrowful noise overhead.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "noise[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 19,
+    "text": "You dragged your feet when you went out.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 20,
+    "text": "By the gate now, the moss is grown, the different mosses,",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "moss"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "now"
+      ],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 21,
+    "text": "Too deep to clear them away!",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent*",
+      "via": null,
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 22,
+    "text": "The leaves fall early this autumn, in wind.",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "leaf"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "leaf"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "autumn",
+       "early",
+       "fall",
+       "this"
+      ],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 23,
+    "text": "The paired butterflies are already yellow with August",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "yellow"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "august"
+      ],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 24,
+    "text": "Over the grass in the West garden,",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 25,
+    "text": "They hurt me,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 26,
+    "text": "I grow older,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 27,
+    "text": "If you are coming down through the narrows of the river Kiang,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 28,
+    "text": "Please let me know beforehand,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 29,
+    "text": "And I will come out to meet you,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 30,
+    "text": "As far as Cho-fu-Sa.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   }
+  ]
+ },
+ "crossings": [
+  {
+   "line": 1,
+   "field": "color",
+   "src_text": "妾髮初覆額，",
+   "seat_text": "While my hair was still cut straight across my forehead",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "sound",
+   "src_text": "妾髮初覆額，",
+   "seat_text": "While my hair was still cut straight across my forehead",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "cut[wn]"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "plant",
+   "src_text": "妾髮初覆額，",
+   "seat_text": "While my hair was still cut straight across my forehead",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "temporal",
+   "src_text": "妾髮初覆額，",
+   "seat_text": "While my hair was still cut straight across my forehead",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "color",
+   "src_text": "折花門前劇。",
+   "seat_text": "I played about the front gate, pulling flowers.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "sound",
+   "src_text": "折花門前劇。",
+   "seat_text": "I played about the front gate, pulling flowers.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "plant",
+   "src_text": "折花門前劇。",
+   "seat_text": "I played about the front gate, pulling flowers.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "flower"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "temporal",
+   "src_text": "折花門前劇。",
+   "seat_text": "I played about the front gate, pulling flowers.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "color",
+   "src_text": "郎騎竹馬來，",
+   "seat_text": "You came by on bamboo stilts, playing horse,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "sound",
+   "src_text": "郎騎竹馬來，",
+   "seat_text": "You came by on bamboo stilts, playing horse,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "plant",
+   "src_text": "郎騎竹馬來，",
+   "seat_text": "You came by on bamboo stilts, playing horse,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "bamboo"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "temporal",
+   "src_text": "郎騎竹馬來，",
+   "seat_text": "You came by on bamboo stilts, playing horse,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "color",
+   "src_text": "遶牀弄青梅。",
+   "seat_text": "You walked about my seat, playing with blue plums.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "青"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "blue",
+    "plum"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "sound",
+   "src_text": "遶牀弄青梅。",
+   "seat_text": "You walked about my seat, playing with blue plums.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "plant",
+   "src_text": "遶牀弄青梅。",
+   "seat_text": "You walked about my seat, playing with blue plums.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "梅"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "plum"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "temporal",
+   "src_text": "遶牀弄青梅。",
+   "seat_text": "You walked about my seat, playing with blue plums.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "color",
+   "src_text": "同居長干里，",
+   "seat_text": "And we went on living in the village of Chokan:",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "sound",
+   "src_text": "同居長干里，",
+   "seat_text": "And we went on living in the village of Chokan:",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "plant",
+   "src_text": "同居長干里，",
+   "seat_text": "And we went on living in the village of Chokan:",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "temporal",
+   "src_text": "同居長干里，",
+   "seat_text": "And we went on living in the village of Chokan:",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "長"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "color",
+   "src_text": "兩小無嫌猜。",
+   "seat_text": "Two small people, without dislike or suspicion.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "sound",
+   "src_text": "兩小無嫌猜。",
+   "seat_text": "Two small people, without dislike or suspicion.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "plant",
+   "src_text": "兩小無嫌猜。",
+   "seat_text": "Two small people, without dislike or suspicion.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "temporal",
+   "src_text": "兩小無嫌猜。",
+   "seat_text": "Two small people, without dislike or suspicion.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "color",
+   "src_text": "十四爲君婦，",
+   "seat_text": "At fourteen I married My Lord you.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "sound",
+   "src_text": "十四爲君婦，",
+   "seat_text": "At fourteen I married My Lord you.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "plant",
+   "src_text": "十四爲君婦，",
+   "seat_text": "At fourteen I married My Lord you.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "temporal",
+   "src_text": "十四爲君婦，",
+   "seat_text": "At fourteen I married My Lord you.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "color",
+   "src_text": "羞顏未甞開。",
+   "seat_text": "I never laughed, being bashful.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "sound",
+   "src_text": "羞顏未甞開。",
+   "seat_text": "I never laughed, being bashful.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "plant",
+   "src_text": "羞顏未甞開。",
+   "seat_text": "I never laughed, being bashful.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "temporal",
+   "src_text": "羞顏未甞開。",
+   "seat_text": "I never laughed, being bashful.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "color",
+   "src_text": "低頭向暗壁，",
+   "seat_text": "Lowering my head, I looked at the wall.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "sound",
+   "src_text": "低頭向暗壁，",
+   "seat_text": "Lowering my head, I looked at the wall.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "plant",
+   "src_text": "低頭向暗壁，",
+   "seat_text": "Lowering my head, I looked at the wall.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "head"
+   ],
+   "cell": "INVENTION",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "temporal",
+   "src_text": "低頭向暗壁，",
+   "seat_text": "Lowering my head, I looked at the wall.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "暗"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "color",
+   "src_text": "千喚不一回。",
+   "seat_text": "Called to, a thousand times, I never looked back.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "sound",
+   "src_text": "千喚不一回。",
+   "seat_text": "Called to, a thousand times, I never looked back.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "喚[廣韻]"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "ECHO",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "plant",
+   "src_text": "千喚不一回。",
+   "seat_text": "Called to, a thousand times, I never looked back.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "temporal",
+   "src_text": "千喚不一回。",
+   "seat_text": "Called to, a thousand times, I never looked back.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 11,
+   "field": "color",
+   "src_text": "十五始展眉，",
+   "seat_text": "At fifteen I stopped scowling,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 11,
+   "field": "sound",
+   "src_text": "十五始展眉，",
+   "seat_text": "At fifteen I stopped scowling,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 11,
+   "field": "plant",
+   "src_text": "十五始展眉，",
+   "seat_text": "At fifteen I stopped scowling,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 11,
+   "field": "temporal",
+   "src_text": "十五始展眉，",
+   "seat_text": "At fifteen I stopped scowling,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 12,
+   "field": "color",
+   "src_text": "願同塵與灰。",
+   "seat_text": "I desired my dust to be mingled with yours",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "dust"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 12,
+   "field": "sound",
+   "src_text": "願同塵與灰。",
+   "seat_text": "I desired my dust to be mingled with yours",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 12,
+   "field": "plant",
+   "src_text": "願同塵與灰。",
+   "seat_text": "I desired my dust to be mingled with yours",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 12,
+   "field": "temporal",
+   "src_text": "願同塵與灰。",
+   "seat_text": "I desired my dust to be mingled with yours",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 13,
+   "field": "color",
+   "src_text": "常存抱柱信，",
+   "seat_text": "Forever and forever, and forever.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 13,
+   "field": "sound",
+   "src_text": "常存抱柱信，",
+   "seat_text": "Forever and forever, and forever.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 13,
+   "field": "plant",
+   "src_text": "常存抱柱信，",
+   "seat_text": "Forever and forever, and forever.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 13,
+   "field": "temporal",
+   "src_text": "常存抱柱信，",
+   "seat_text": "Forever and forever, and forever.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 14,
+   "field": "color",
+   "src_text": "豈上望夫臺。",
+   "seat_text": "Why should I climb the look out?",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 14,
+   "field": "sound",
+   "src_text": "豈上望夫臺。",
+   "seat_text": "Why should I climb the look out?",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 14,
+   "field": "plant",
+   "src_text": "豈上望夫臺。",
+   "seat_text": "Why should I climb the look out?",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 14,
+   "field": "temporal",
+   "src_text": "豈上望夫臺。",
+   "seat_text": "Why should I climb the look out?",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 15,
+   "field": "color",
+   "src_text": "十六君遠行，",
+   "seat_text": "At sixteen you departed,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 15,
+   "field": "sound",
+   "src_text": "十六君遠行，",
+   "seat_text": "At sixteen you departed,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 15,
+   "field": "plant",
+   "src_text": "十六君遠行，",
+   "seat_text": "At sixteen you departed,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 15,
+   "field": "temporal",
+   "src_text": "十六君遠行，",
+   "seat_text": "At sixteen you departed,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 16,
+   "field": "color",
+   "src_text": "瞿塘灩澦堆。",
+   "seat_text": "You went into far Ku-to-Yen, by the river of swirling eddies,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 16,
+   "field": "sound",
+   "src_text": "瞿塘灩澦堆。",
+   "seat_text": "You went into far Ku-to-Yen, by the river of swirling eddies,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 16,
+   "field": "plant",
+   "src_text": "瞿塘灩澦堆。",
+   "seat_text": "You went into far Ku-to-Yen, by the river of swirling eddies,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 16,
+   "field": "temporal",
+   "src_text": "瞿塘灩澦堆。",
+   "seat_text": "You went into far Ku-to-Yen, by the river of swirling eddies,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 17,
+   "field": "color",
+   "src_text": "五月不可觸，",
+   "seat_text": "And you have been gone five months.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 17,
+   "field": "sound",
+   "src_text": "五月不可觸，",
+   "seat_text": "And you have been gone five months.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 17,
+   "field": "plant",
+   "src_text": "五月不可觸，",
+   "seat_text": "And you have been gone five months.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 17,
+   "field": "temporal",
+   "src_text": "五月不可觸，",
+   "seat_text": "And you have been gone five months.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "月"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "month",
+    "months"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 18,
+   "field": "color",
+   "src_text": "猿聲天上哀。",
+   "seat_text": "The monkeys make sorrowful noise overhead.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 18,
+   "field": "sound",
+   "src_text": "猿聲天上哀。",
+   "seat_text": "The monkeys make sorrowful noise overhead.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "聲[廣韻]"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "noise[wn]"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 18,
+   "field": "plant",
+   "src_text": "猿聲天上哀。",
+   "seat_text": "The monkeys make sorrowful noise overhead.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 18,
+   "field": "temporal",
+   "src_text": "猿聲天上哀。",
+   "seat_text": "The monkeys make sorrowful noise overhead.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 19,
+   "field": "color",
+   "src_text": "門前遲行跡，",
+   "seat_text": "You dragged your feet when you went out.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 19,
+   "field": "sound",
+   "src_text": "門前遲行跡，",
+   "seat_text": "You dragged your feet when you went out.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 19,
+   "field": "plant",
+   "src_text": "門前遲行跡，",
+   "seat_text": "You dragged your feet when you went out.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 19,
+   "field": "temporal",
+   "src_text": "門前遲行跡，",
+   "seat_text": "You dragged your feet when you went out.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "遲"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 20,
+   "field": "color",
+   "src_text": "一一生綠苔。",
+   "seat_text": "By the gate now, the moss is grown, the different mosses,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "綠"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "moss"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": true
+  },
+  {
+   "line": 20,
+   "field": "sound",
+   "src_text": "一一生綠苔。",
+   "seat_text": "By the gate now, the moss is grown, the different mosses,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 20,
+   "field": "plant",
+   "src_text": "一一生綠苔。",
+   "seat_text": "By the gate now, the moss is grown, the different mosses,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 20,
+   "field": "temporal",
+   "src_text": "一一生綠苔。",
+   "seat_text": "By the gate now, the moss is grown, the different mosses,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "now"
+   ],
+   "cell": "INVENTION",
+   "is_target": false
+  },
+  {
+   "line": 21,
+   "field": "color",
+   "src_text": "苔深不能掃，",
+   "seat_text": "Too deep to clear them away!",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 21,
+   "field": "sound",
+   "src_text": "苔深不能掃，",
+   "seat_text": "Too deep to clear them away!",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 21,
+   "field": "plant",
+   "src_text": "苔深不能掃，",
+   "seat_text": "Too deep to clear them away!",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 21,
+   "field": "temporal",
+   "src_text": "苔深不能掃，",
+   "seat_text": "Too deep to clear them away!",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 22,
+   "field": "color",
+   "src_text": "落葉秋風早。",
+   "seat_text": "The leaves fall early this autumn, in wind.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "leaf"
+   ],
+   "cell": "INVENTION",
+   "is_target": false
+  },
+  {
+   "line": 22,
+   "field": "sound",
+   "src_text": "落葉秋風早。",
+   "seat_text": "The leaves fall early this autumn, in wind.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "風[廣韻]"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 22,
+   "field": "plant",
+   "src_text": "落葉秋風早。",
+   "seat_text": "The leaves fall early this autumn, in wind.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "落",
+    "葉"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "leaf"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 22,
+   "field": "temporal",
+   "src_text": "落葉秋風早。",
+   "seat_text": "The leaves fall early this autumn, in wind.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "秋",
+    "早"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "autumn",
+    "early",
+    "fall",
+    "this"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 23,
+   "field": "color",
+   "src_text": "八月胡蝶來，",
+   "seat_text": "The paired butterflies are already yellow with August",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "yellow"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 23,
+   "field": "sound",
+   "src_text": "八月胡蝶來，",
+   "seat_text": "The paired butterflies are already yellow with August",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 23,
+   "field": "plant",
+   "src_text": "八月胡蝶來，",
+   "seat_text": "The paired butterflies are already yellow with August",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 23,
+   "field": "temporal",
+   "src_text": "八月胡蝶來，",
+   "seat_text": "The paired butterflies are already yellow with August",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "月"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "august"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 24,
+   "field": "color",
+   "src_text": "雙飛西園草。",
+   "seat_text": "Over the grass in the West garden,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "grass"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 24,
+   "field": "sound",
+   "src_text": "雙飛西園草。",
+   "seat_text": "Over the grass in the West garden,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 24,
+   "field": "plant",
+   "src_text": "雙飛西園草。",
+   "seat_text": "Over the grass in the West garden,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "草"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "grass"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 24,
+   "field": "temporal",
+   "src_text": "雙飛西園草。",
+   "seat_text": "Over the grass in the West garden,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 25,
+   "field": "color",
+   "src_text": "感此傷妾心，",
+   "seat_text": "They hurt me,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 25,
+   "field": "sound",
+   "src_text": "感此傷妾心，",
+   "seat_text": "They hurt me,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 25,
+   "field": "plant",
+   "src_text": "感此傷妾心，",
+   "seat_text": "They hurt me,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 25,
+   "field": "temporal",
+   "src_text": "感此傷妾心，",
+   "seat_text": "They hurt me,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 26,
+   "field": "color",
+   "src_text": "坐愁紅顏老。",
+   "seat_text": "I grow older,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "紅"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "ECHO",
+   "is_target": false
+  },
+  {
+   "line": 26,
+   "field": "sound",
+   "src_text": "坐愁紅顏老。",
+   "seat_text": "I grow older,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 26,
+   "field": "plant",
+   "src_text": "坐愁紅顏老。",
+   "seat_text": "I grow older,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 26,
+   "field": "temporal",
+   "src_text": "坐愁紅顏老。",
+   "seat_text": "I grow older,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 27,
+   "field": "color",
+   "src_text": "早晚下三巴，",
+   "seat_text": "If you are coming down through the narrows of the river Kiang,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 27,
+   "field": "sound",
+   "src_text": "早晚下三巴，",
+   "seat_text": "If you are coming down through the narrows of the river Kiang,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 27,
+   "field": "plant",
+   "src_text": "早晚下三巴，",
+   "seat_text": "If you are coming down through the narrows of the river Kiang,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 27,
+   "field": "temporal",
+   "src_text": "早晚下三巴，",
+   "seat_text": "If you are coming down through the narrows of the river Kiang,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "晚",
+    "早"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 28,
+   "field": "color",
+   "src_text": "預將書報家。",
+   "seat_text": "Please let me know beforehand,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 28,
+   "field": "sound",
+   "src_text": "預將書報家。",
+   "seat_text": "Please let me know beforehand,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 28,
+   "field": "plant",
+   "src_text": "預將書報家。",
+   "seat_text": "Please let me know beforehand,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 28,
+   "field": "temporal",
+   "src_text": "預將書報家。",
+   "seat_text": "Please let me know beforehand,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 29,
+   "field": "color",
+   "src_text": "相迎不道遠，",
+   "seat_text": "And I will come out to meet you,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 29,
+   "field": "sound",
+   "src_text": "相迎不道遠，",
+   "seat_text": "And I will come out to meet you,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 29,
+   "field": "plant",
+   "src_text": "相迎不道遠，",
+   "seat_text": "And I will come out to meet you,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 29,
+   "field": "temporal",
+   "src_text": "相迎不道遠，",
+   "seat_text": "And I will come out to meet you,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "相"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 30,
+   "field": "color",
+   "src_text": "直至長風沙。",
+   "seat_text": "As far as Cho-fu-Sa.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 30,
+   "field": "sound",
+   "src_text": "直至長風沙。",
+   "seat_text": "As far as Cho-fu-Sa.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "風[廣韻]"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "ECHO",
+   "is_target": false
+  },
+  {
+   "line": 30,
+   "field": "plant",
+   "src_text": "直至長風沙。",
+   "seat_text": "As far as Cho-fu-Sa.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 30,
+   "field": "temporal",
+   "src_text": "直至長風沙。",
+   "seat_text": "As far as Cho-fu-Sa.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "長"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  }
+ ],
+ "target_crossing": {
+  "line": 20,
+  "field": "color",
+  "zh": "一一生綠苔。",
+  "en": "By the gate now, the moss is grown, the different mosses,",
+  "zh_word_color_fires": true,
+  "zh_word_color_receipts": [
+   "綠"
+  ],
+  "en_word_color_fires": true,
+  "en_word_color_receipts": [
+   "moss"
+  ],
+  "zh_written_color_REAL": {
+   "carriers": [],
+   "fires": false
+  },
+  "en_written_color_REAL": {
+   "carriers": [],
+   "fires": false
+  },
+  "src_state": "stated",
+  "src_via": "word",
+  "seat_state": "stated",
+  "seat_via": "word",
+  "cell": "SURVIVAL",
+  "reading": "zh stated(word) × en stated(word) = SURVIVAL",
+  "expected": "DEFORMATION (task expectation: 綠 green STATED × Pound colour absent — a stated→absent DEFORMATION)",
+  "verdict_matches_expected": false,
+  "honesty_note": "verdict_matches_expected=FALSE. The task expected DEFORMATION (綠 states green; Pound's line drops the hue). But the live descriptive en colour labeler trait_labelers.en_color is xkcd-colour-name-based, and 'moss' IS an xkcd colour name (a green): boolean_states('...the different mosses...', 'en') fires colour, receipt ['moss'] (CLEAN, not plant-flagged). Per LAW.line_state the en side is STATED/active. zh 綠 fires the zh word colour too (['綠']) → active. So the crossing lands (active, active) = SURVIVAL, not the expected (active, absent) = DEFORMATION. The colour did NOT vanish — it re-landed lexically on the colour-charged noun 'moss'. Reported honestly (task rule 'REPORT what IS'); the verdict is NOT faked. (This is the SAME class of finding as the song_youren plant board: a radical/lexeme-aware descriptive labeler charges a word the task assumed silent.)"
+ }
+}

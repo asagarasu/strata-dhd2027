@@ -1,0 +1,31 @@
+# Neutral twins, paired 1:1 by line with dye.txt — same frame/domain, no saturation semantics.
+Sie faltete den Stoff sorgfältig.
+Der Saft klebte an seinen Fingern.
+Die Beeren lagen in einer Schale auf dem Tisch.
+Der Abend legte sich über den Himmel.
+Die Stelle an ihrem Arm heilte langsam.
+Das Papier lag aufgeschlagen auf dem Schreibtisch.
+Der Wein stand unberührt im Regal.
+Er legte die Wolle in den Korb.
+Ihre Wangen waren schmal und blass.
+Der Verband saß fest um seine Hand.
+Der Faden lief langsam durch die Maschine.
+Salz war eine Ware der Händler, gewonnen aus dem Meer.
+Die Chemikalie löste sich im Wasser auf.
+Sein Gesicht war ruhig und gefasst.
+Die Flechten wuchsen langsam auf dem Fels.
+She folded the cloth into a neat square.
+The berries sat in a bowl on the counter.
+The evening settled over the sky.
+The mark on her shoulder slowly faded.
+The pages lay open on the desk.
+The wine stood untouched on the shelf.
+He placed the wool into the basket.
+Her cheeks were thin and pale.
+The bandage was wrapped tight around his hand.
+The mulberries fell from the tree onto the stone.
+The turmeric sat in a jar by the stove.
+The tablecloth covered the kitchen table.
+The old photograph had curled at the edges.
+Vines grew slowly up the white wall.
+She hung the linen on the line to dry.

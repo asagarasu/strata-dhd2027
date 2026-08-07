@@ -1,0 +1,1301 @@
+{
+ "what": "THE ANTIGONÄ EXHIBITION BOARD — founding illustration, measured (#61 vigil, 2026-07-28). EXHIBITION TIER, isolated from the 8-board census by construction.",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (alignments are law and hers).",
+ "source": {
+  "rid": "grc:sophocles_storr",
+  "text": "Sophocles Antigone vv.1-20, Perseus/Storr 1912 (PD)",
+  "channels": "grc has NO standing shelf → 2-state present*/silent* STARRED; the STRETCH adds a snippet-scoped grc colour WRITTEN channel (LSJ etymon)."
+ },
+ "certificate_drift": 0.0,
+ "n_inventory": 501,
+ "seats_present": {
+  "grc:sophocles_storr": {
+   "lang": "grc",
+   "n_lines": 20,
+   "tier": "repo"
+  },
+  "de:hoelderlin_1804": {
+   "lang": "de",
+   "n_lines": 21,
+   "tier": "repo"
+  },
+  "de:donner_1868": {
+   "lang": "de",
+   "n_lines": 22,
+   "tier": "repo"
+  }
+ },
+ "seats_dropped_declared": [
+  {
+   "rid": "en:lloyd_jones_loeb",
+   "reason": "Loeb (Lloyd-Jones 1994) IS in copyright — token-level only under F9; SKIP-and-declare for this exhibition (no F9 redaction path implemented here)."
+  },
+  {
+   "rid": "de:solger_1808",
+   "reason": "Solger 1808 scan: heavy long-s (ſ) OCR corruption, Antigone text not cleanly located near its opening in the multi-play volume — drop-and-declare (dirty extraction)."
+  },
+  {
+   "rid": "mt:any",
+   "reason": "ancient-Greek MT is noise — declared skipped (no MT seat)."
+  }
+ ],
+ "stretch_grc_colour_written": {
+  "wired": true,
+  "inventory": "corpus/antigone_antigonae/grc_colour_etymon_lsj.json (every row cited LSJ s.v.)",
+  "rows": [
+   {
+    "lemma": "καλχαίνω",
+    "surface_in_snippet": "καλχαίνουσ᾽",
+    "verse": 20,
+    "colour_etymon": "purple",
+    "lsj_gloss": "from κάλχη, properly 'to make purple'; metaph. 'to make dark and troublous like a stormy sea, to ponder deeply'",
+    "lsj_cite": "LSJ s.v. καλχαίνω (Perseus text:1999.04.0057; Middle Liddell entry n16598)",
+    "root_cite": "< κάλχη 'murex, purple limpet, = πορφύρα' (LSJ s.v. κάλχη, Perseus text:1999.04.0057 entry=ka/lxh; Nicander)",
+    "note": "The literal colour sense ('make purple') is the ETYMON; the classical text uses the figurative 'brood darkly' sense. Hölderlin 1804 revives the literal colour reading ('ein rothes Wort zu färben' = to dye a red/purple word); Donner 1868 takes the figurative dark reading ('Düster wogt'). This row is the source-side latent-written colour the crossing measures."
+   }
+  ],
+  "effect": "καλχαίνω (v.20) reads latent-WRITTEN; the Hölderlin colour crossing lands REVIVAL (starred) — the paper's founding claim measured for the first time."
+ },
+ "seat_colour_states": {
+  "grc:sophocles_storr": [
+   {
+    "line": 1,
+    "text": "ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα,",
+    "state": "latent",
+    "receipts": [
+     "καλχαίνω"
+    ],
+    "starred": true,
+    "channel": "latent-written(LSJ etymon, EXHIBITION)"
+   },
+   {
+    "line": 2,
+    "text": "ἆρ᾽ οἶσθ᾽ ὅ τι Ζεὺς τῶν ἀπ᾽ Οἰδίπου κακῶν",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 3,
+    "text": "ὁποῖον οὐχὶ νῷν ἔτι ζώσαιν τελεῖ;",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 4,
+    "text": "οὐδὲν γὰρ οὔτ᾽ ἀλγεινὸν οὔτ᾽ ἄτης ἄτερ",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 5,
+    "text": "οὔτ᾽ αἰσχρὸν οὔτ᾽ ἄτιμόν ἐσθ᾽, ὁποῖον οὐ",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 6,
+    "text": "τῶν σῶν τε κἀμῶν οὐκ ὄπωπ᾽ ἐγὼ κακῶν.",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 7,
+    "text": "καὶ νῦν τί τοῦτ᾽ αὖ φασι πανδήμῳ πόλει",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 8,
+    "text": "κήρυγμα θεῖναι τὸν στρατηγὸν ἀρτίως;",
+    "state": "latent",
+    "receipts": [
+     "καλχαίνω"
+    ],
+    "starred": true,
+    "channel": "latent-written(LSJ etymon, EXHIBITION)"
+   },
+   {
+    "line": 9,
+    "text": "ἔχεις τι κεἰσήκουσας; ἤ σε λανθάνει",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 10,
+    "text": "πρὸς τοὺς φίλους στείχοντα τῶν ἐχθρῶν κακά;",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 11,
+    "text": "ἐμοὶ μὲν οὐδεὶς μῦθος, Ἀντιγόνη φίλων",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 12,
+    "text": "οὔθ᾽ ἡδὺς οὔτ᾽ ἀλγεινὸς ἵκετ᾽ ἐξ ὅτου",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 13,
+    "text": "δυοῖν ἀδελφοῖν ἐστερήθημεν δύο,",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 14,
+    "text": "μιᾷ θανόντοιν ἡμέρᾳ διπλῇ χερί:",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 15,
+    "text": "ἐπεὶ δὲ φροῦδός ἐστιν Ἀργείων στρατὸς",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 16,
+    "text": "ἐν νυκτὶ τῇ νῦν, οὐδὲν οἶδ᾽ ὑπέρτερον,",
+    "state": "silent*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 17,
+    "text": "οὔτ᾽ εὐτυχοῦσα μᾶλλον οὔτ᾽ ἀτωμένη.",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 18,
+    "text": "ᾔδη καλῶς, καί σ᾽ ἐκτὸς αὐλείων πυλῶν",
+    "state": "latent",
+    "receipts": [
+     "καλχαίνω"
+    ],
+    "starred": true,
+    "channel": "latent-written(LSJ etymon, EXHIBITION)"
+   },
+   {
+    "line": 19,
+    "text": "τοῦδ᾽ οὕνεκ᾽ ἐξέπεμπον, ὡς μόνη κλύοις.",
+    "state": "present*",
+    "receipts": [],
+    "starred": true,
+    "channel": "2-state starred (grc: no shelf)"
+   },
+   {
+    "line": 20,
+    "text": "τί δ᾽ ἔστι; δηλοῖς γάρ τι καλχαίνουσ᾽ ἔπος.",
+    "state": "latent",
+    "receipts": [
+     "καλχαίνω"
+    ],
+    "starred": true,
+    "channel": "latent-written(LSJ etymon, EXHIBITION)"
+   }
+  ],
+  "de:hoelderlin_1804": [
+   {
+    "line": 1,
+    "text": "Gemeinsamschwesterliches! o Ismenes Haupt!",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 2,
+    "text": "Weilst du etwas, das nicht der Erde Vater",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 3,
+    "text": "Erfuhr, mit uns, die wir bis hieher leben,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 4,
+    "text": "Ein Nennbares, seit Oedipus gehascht ward?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 5,
+    "text": "Nicht eine traur'ge Arbeit, auch kein Irrsaal,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 6,
+    "text": "Und schändlich ist, und ehrlos nirgend eines,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 7,
+    "text": "Das ich in deinem, meinem Unglück nicht gesehn.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 8,
+    "text": "Jetzt aber, ahnest du das, was der Feldherr",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 9,
+    "text": "Uns kundgethan, in offner Stadt, so eben?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 10,
+    "text": "Hast du gehört es? oder weist du nicht,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 11,
+    "text": "Wie auf die Lieben kommet Feindesübel?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 12,
+    "text": "Nicht kam ein Wort zu mir, Antigonä, von Lieben,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 13,
+    "text": "Kein liebliches und auch kein trauriges, seitdem",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 14,
+    "text": "Die beyden Brüder beyde wir verloren;",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 15,
+    "text": "Die starben, Einen Tag, von zweyen Händen;",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 16,
+    "text": "Seit aber fort das Heer von Argos ist,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 17,
+    "text": "Vergangne Nacht, weiß ich nichts weiter mehr,",
+    "state": "stated",
+    "receipts": [
+     "weiß"
+    ],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 18,
+    "text": "Und bin nicht glücklicher und nicht betrübter.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 19,
+    "text": "Das dacht' ich wohl und rief aus dem Hofthor",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 20,
+    "text": "Darum, daß du's besonders hören könntest.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 21,
+    "text": "Was ist's, du scheinst ein rothes Wort zu färben?",
+    "state": "stated",
+    "receipts": [
+     "rot"
+    ],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   }
+  ],
+  "de:donner_1868": [
+   {
+    "line": 1,
+    "text": "ANTIGONE.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 2,
+    "text": "Ismene, traute Schwester, vielgeliebtes Haupt,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 3,
+    "text": "Weißt du von einem Leide, das vom Vater her",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 4,
+    "text": "Zeus nicht an uns vollendet, die wir leben noch?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 5,
+    "text": "Denn keinen Jammer gibt es, nichts Entsetzliches,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 6,
+    "text": "Nichts Arges, nichts Schmachvolles, was ich nicht bereits",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 7,
+    "text": "In deinem und in meinem Ungemach geseh'n.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 8,
+    "text": "Und welche Botschaft, sagt man, ließ jezt eben erst",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 9,
+    "text": "Der Herrscher wieder allem Volk verkündigen?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 10,
+    "text": "Vernahmst du's, weißt du's, oder blieb dir unbekannt,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 11,
+    "text": "Daß unsern Lieben Böses naht von Feindesmacht?",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 12,
+    "text": "Mir wurde keine Kunde mehr, Antigone,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 13,
+    "text": "Von unsern Lieben, frohe nicht noch traurige,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 14,
+    "text": "Seitdem das Paar der Brüder uns entrissen ward,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 15,
+    "text": "Die Eines Tages fielen durch zwiefachen Mord.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 16,
+    "text": "Und seit in dieser jüngsten Nacht sich Argos' Heer",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 17,
+    "text": "Zur Flucht gewendet, wurde mir nichts weiter kund,",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 18,
+    "text": "Nicht, ob mir mehr des Glückes, ob des Leides ward.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 19,
+    "text": "ANTIGONE.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 20,
+    "text": "Wohl wußt' ich das, und führte deßhalb dich heraus",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 21,
+    "text": "Zum Thor des Hofes, dir allein es kundzuthun.",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   },
+   {
+    "line": 22,
+    "text": "Was hast du? Düster wogt in dir ein schweres Wort",
+    "state": "silent",
+    "receipts": [],
+    "starred": false,
+    "channel": "descriptive-boolean(de_color)"
+   }
+  ]
+ },
+ "alignment_draft": {
+  "de:hoelderlin_1804": {
+   "1": [
+    1
+   ],
+   "2": [
+    2
+   ],
+   "3": [
+    3,
+    4
+   ],
+   "4": [
+    5
+   ],
+   "5": [
+    6
+   ],
+   "6": [
+    7
+   ],
+   "7": [
+    8
+   ],
+   "8": [
+    9
+   ],
+   "9": [
+    10
+   ],
+   "10": [
+    11
+   ],
+   "11": [
+    12
+   ],
+   "12": [
+    13
+   ],
+   "13": [
+    14
+   ],
+   "14": [
+    15
+   ],
+   "15": [
+    16
+   ],
+   "16": [
+    17
+   ],
+   "17": [
+    18
+   ],
+   "18": [
+    19
+   ],
+   "19": [
+    20
+   ],
+   "20": [
+    21
+   ]
+  },
+  "de:donner_1868": {
+   "1": [
+    1
+   ],
+   "2": [
+    2
+   ],
+   "3": [
+    3
+   ],
+   "4": [
+    4
+   ],
+   "5": [
+    5
+   ],
+   "6": [
+    6
+   ],
+   "7": [
+    7
+   ],
+   "8": [
+    8
+   ],
+   "9": [
+    9
+   ],
+   "10": [
+    10
+   ],
+   "11": [
+    11
+   ],
+   "12": [
+    12
+   ],
+   "13": [
+    13
+   ],
+   "14": [
+    14
+   ],
+   "15": [
+    15
+   ],
+   "16": [
+    16
+   ],
+   "17": [
+    17
+   ],
+   "18": [
+    18
+   ],
+   "19": [
+    19
+   ],
+   "20": [
+    20
+   ]
+  }
+ },
+ "crossings_colour": [
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 1,
+   "seat_lines": [
+    1
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 2,
+   "seat_lines": [
+    2
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 3,
+   "seat_lines": [
+    3,
+    4
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 4,
+   "seat_lines": [
+    5
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 5,
+   "seat_lines": [
+    6
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 6,
+   "seat_lines": [
+    7
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 7,
+   "seat_lines": [
+    8
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 8,
+   "seat_lines": [
+    9
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 9,
+   "seat_lines": [
+    10
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 10,
+   "seat_lines": [
+    11
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 11,
+   "seat_lines": [
+    12
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 12,
+   "seat_lines": [
+    13
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 13,
+   "seat_lines": [
+    14
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 14,
+   "seat_lines": [
+    15
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 15,
+   "seat_lines": [
+    16
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 16,
+   "seat_lines": [
+    17
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_receipts": [
+    "weiß"
+   ],
+   "cell": "INVENTION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 17,
+   "seat_lines": [
+    18
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 18,
+   "seat_lines": [
+    19
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 19,
+   "seat_lines": [
+    20
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:hoelderlin_1804",
+   "src_verse": 20,
+   "seat_lines": [
+    21
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "stated",
+   "seat_receipts": [
+    "rot"
+   ],
+   "cell": "REVIVAL",
+   "starred": true,
+   "is_target": true
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 1,
+   "seat_lines": [
+    1
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 2,
+   "seat_lines": [
+    2
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 3,
+   "seat_lines": [
+    3
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 4,
+   "seat_lines": [
+    4
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 5,
+   "seat_lines": [
+    5
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 6,
+   "seat_lines": [
+    6
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 7,
+   "seat_lines": [
+    7
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 8,
+   "seat_lines": [
+    8
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 9,
+   "seat_lines": [
+    9
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 10,
+   "seat_lines": [
+    10
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 11,
+   "seat_lines": [
+    11
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 12,
+   "seat_lines": [
+    12
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 13,
+   "seat_lines": [
+    13
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 14,
+   "seat_lines": [
+    14
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 15,
+   "seat_lines": [
+    15
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 16,
+   "seat_lines": [
+    16
+   ],
+   "src_state": "silent*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": null,
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 17,
+   "seat_lines": [
+    17
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 18,
+   "seat_lines": [
+    18
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 19,
+   "seat_lines": [
+    19
+   ],
+   "src_state": "present*",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "starred": true,
+   "is_target": false
+  },
+  {
+   "seat": "de:donner_1868",
+   "src_verse": 20,
+   "seat_lines": [
+    20
+   ],
+   "src_state": "latent",
+   "src_receipts": [
+    "καλχαίνω"
+   ],
+   "seat_state": "silent",
+   "seat_receipts": [],
+   "cell": "LATENT-UNREALIZED",
+   "starred": true,
+   "is_target": true
+  }
+ ],
+ "target_verdict": {
+  "verse": 20,
+  "grc": "καλχαίνουσ᾽ ἔπος (< καλχαίνω 'make purple', LSJ s.v.)",
+  "hoelderlin_1804": "ein rothes Wort zu färben → de_color rot FIRES (roth→rot pre-reform fold)",
+  "cell": "REVIVAL",
+  "starred": true,
+  "reading": "grc source latent-written(colour etymon) × Hölderlin stated(rot) = REVIVAL (starred — grc source is suggestive-tier)"
+ }
+}

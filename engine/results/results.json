@@ -1,0 +1,175 @@
+{
+  "axis_sanity_d_prime": {
+    "dye": 4.57,
+    "dark": 4.58,
+    "surge": 5.81
+  },
+  "axis_cosines": {
+    "dye·dark": 0.14,
+    "dye·surge": 0.136,
+    "dark·surge": 0.133
+  },
+  "standard_cluster_axis_variance": {
+    "dye": 0.002341,
+    "dark": 0.001444,
+    "surge": 0.000939
+  },
+  "hoelderlin_distance": 30.6,
+  "distance_matched_controls": [
+    "ctrl_fischen"
+  ],
+  "rows": [
+    {
+      "kind": "standard",
+      "item": "Jebb",
+      "dye": 0.0295,
+      "dark": 0.1381,
+      "surge": -0.0334,
+      "dist": 16.166
+    },
+    {
+      "kind": "standard",
+      "item": "Donner",
+      "dye": -0.0551,
+      "dark": 0.0532,
+      "surge": 0.0343,
+      "dist": 21.262
+    },
+    {
+      "kind": "standard",
+      "item": "Fagles",
+      "dye": 0.094,
+      "dark": 0.1634,
+      "surge": 0.0481,
+      "dist": 18.588
+    },
+    {
+      "kind": "standard",
+      "item": "Wyckoff",
+      "dye": -0.0033,
+      "dark": 0.0927,
+      "surge": 0.0508,
+      "dist": 17.046
+    },
+    {
+      "kind": "standard",
+      "item": "Weinstock",
+      "dye": 0.0198,
+      "dark": 0.1026,
+      "surge": 0.0252,
+      "dist": 20.983
+    },
+    {
+      "kind": "test",
+      "item": "hoelderlin",
+      "dye": 0.1181,
+      "dark": 0.0275,
+      "surge": 0.0024,
+      "dist": 30.6
+    },
+    {
+      "kind": "test",
+      "item": "hoelderlin_en_gloss",
+      "dye": 0.2085,
+      "dark": 0.1078,
+      "surge": 0.0004,
+      "dist": 23.329
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_schmieden",
+      "dye": -0.0493,
+      "dark": 0.0899,
+      "surge": 0.0108,
+      "dist": 22.126
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_kauen",
+      "dye": -0.0629,
+      "dark": 0.0465,
+      "surge": 0.0336,
+      "dist": 21.82
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_wiegen",
+      "dye": -0.0711,
+      "dark": 0.0425,
+      "surge": 0.0605,
+      "dist": 22.517
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_begraben",
+      "dye": -0.0041,
+      "dark": 0.1523,
+      "surge": 0.0305,
+      "dist": 20.29
+    },
+    {
+      "kind": "control*",
+      "item": "ctrl_fischen",
+      "dye": -0.0456,
+      "dark": 0.0284,
+      "surge": 0.0415,
+      "dist": 23.234
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_schleifen",
+      "dye": -0.0475,
+      "dark": 0.0376,
+      "surge": 0.0395,
+      "dist": 22.638
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_forge_en",
+      "dye": -0.0329,
+      "dark": 0.1102,
+      "surge": -0.0187,
+      "dist": 19.608
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_chew_en",
+      "dye": -0.0493,
+      "dark": 0.0728,
+      "surge": 0.0225,
+      "dist": 19.287
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_weigh_en",
+      "dye": -0.0866,
+      "dark": 0.0168,
+      "surge": 0.0477,
+      "dist": 19.521
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_bury_en",
+      "dye": 0.0513,
+      "dark": 0.1889,
+      "surge": 0.0505,
+      "dist": 16.008
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_fish_en",
+      "dye": -0.056,
+      "dark": 0.0281,
+      "surge": -0.0499,
+      "dist": 21.897
+    },
+    {
+      "kind": "control",
+      "item": "ctrl_sharpen_en",
+      "dye": -0.0179,
+      "dark": 0.0205,
+      "surge": 0.0044,
+      "dist": 19.517
+    }
+  ]
+}

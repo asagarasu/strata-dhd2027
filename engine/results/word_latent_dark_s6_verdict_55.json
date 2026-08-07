@@ -1,0 +1,609 @@
+{
+ "verdict": "PASS (precision floor holds: fp=1 <= FA_BOUND=7) — S6; ALIVENESS-RATE 0.091 (unfloored characterization)",
+ "registration": "word_latent_dark_s6_validation_registration_55.md",
+ "s6": {
+  "fp": 1,
+  "fa_bound": 7,
+  "n_valid_controls": 57,
+  "p0": 0.0668072,
+  "percentile": 0.95,
+  "precision_floor_holds": true,
+  "aliveness_rate": 0.09090909090909091,
+  "f1_continuity_only": 0.16393442622950818
+ },
+ "null_this_registration": {
+  "n": 57,
+  "mean": 0.00022456140350877196,
+  "sd": 0.005250873969084772
+ },
+ "null_probe_superseded": {
+  "n_control": 65,
+  "mean": 3.702747133914509e-05,
+  "sd": 0.005479898395755842,
+  "degenerate": false
+ },
+ "positives_frozen_56": [
+  {
+   "word": "余地",
+   "status": "scored",
+   "charge": -0.0024,
+   "z": -0.5,
+   "fire": false,
+   "probe_z": -0.45,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "台",
+   "status": "scored",
+   "charge": -0.001,
+   "z": -0.233,
+   "fire": false,
+   "probe_z": -0.19,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "响",
+   "status": "scored",
+   "charge": 0.001,
+   "z": 0.148,
+   "fire": false,
+   "probe_z": 0.17,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "地方",
+   "status": "scored",
+   "charge": 0.0026,
+   "z": 0.452,
+   "fire": false,
+   "probe_z": 0.47,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "执行",
+   "status": "scored",
+   "charge": -0.0005,
+   "z": -0.138,
+   "fire": false,
+   "probe_z": -0.1,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "演出",
+   "status": "scored",
+   "charge": -0.0012,
+   "z": -0.271,
+   "fire": false,
+   "probe_z": -0.23,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "空间",
+   "status": "scored",
+   "charge": 0.0013,
+   "z": 0.205,
+   "fire": false,
+   "probe_z": 0.23,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "表演",
+   "status": "scored",
+   "charge": 0.002,
+   "z": 0.338,
+   "fire": false,
+   "probe_z": 0.35,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "表现",
+   "status": "scored",
+   "charge": -0.0024,
+   "z": -0.5,
+   "fire": false,
+   "probe_z": -0.44,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "餐厅",
+   "status": "scored",
+   "charge": -0.0069,
+   "z": -1.357,
+   "fire": false,
+   "probe_z": -1.27,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "下降",
+   "status": "scored",
+   "charge": 0.0062,
+   "z": 1.138,
+   "fire": false,
+   "probe_z": 1.13,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "乾",
+   "status": "scored",
+   "charge": -0.0084,
+   "z": -1.643,
+   "fire": false,
+   "probe_z": -1.55,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "云",
+   "status": "scored",
+   "charge": 0.0073,
+   "z": 1.347,
+   "fire": false,
+   "probe_z": 1.33,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "传",
+   "status": "scored",
+   "charge": -0.0005,
+   "z": -0.138,
+   "fire": false,
+   "probe_z": -0.09,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "冬天",
+   "status": "scored",
+   "charge": 0.0312,
+   "z": 5.899,
+   "fire": true,
+   "probe_z": 5.69,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "冷",
+   "status": "scored",
+   "charge": 0.0154,
+   "z": 2.89,
+   "fire": true,
+   "probe_z": 2.81,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "出去",
+   "status": "scored",
+   "charge": -0.0028,
+   "z": -0.576,
+   "fire": false,
+   "probe_z": -0.52,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "前景",
+   "status": "scored",
+   "charge": -0.0039,
+   "z": -0.785,
+   "fire": false,
+   "probe_z": -0.71,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "商量",
+   "status": "scored",
+   "charge": 0.0005,
+   "z": 0.052,
+   "fire": false,
+   "probe_z": 0.08,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "夜景",
+   "status": "scored",
+   "charge": 0.0771,
+   "z": 14.641,
+   "fire": true,
+   "probe_z": 14.06,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "大",
+   "status": "scored",
+   "charge": 0.0016,
+   "z": 0.262,
+   "fire": false,
+   "probe_z": 0.28,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "女神",
+   "status": "scored",
+   "charge": 0.0056,
+   "z": 1.024,
+   "fire": false,
+   "probe_z": 1.02,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "学校",
+   "status": "scored",
+   "charge": -0.0047,
+   "z": -0.938,
+   "fire": false,
+   "probe_z": -0.86,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "小人",
+   "status": "scored",
+   "charge": 0.0062,
+   "z": 1.138,
+   "fire": false,
+   "probe_z": 1.12,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "彷徨",
+   "status": "scored",
+   "charge": 0.0022,
+   "z": 0.376,
+   "fire": false,
+   "probe_z": 0.39,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "打",
+   "status": "scored",
+   "charge": -0.0009,
+   "z": -0.214,
+   "fire": false,
+   "probe_z": -0.17,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "放",
+   "status": "scored",
+   "charge": -0.0016,
+   "z": -0.347,
+   "fire": false,
+   "probe_z": -0.29,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "早",
+   "status": "scored",
+   "charge": -0.0031,
+   "z": -0.633,
+   "fire": false,
+   "probe_z": -0.57,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "星空",
+   "status": "scored",
+   "charge": 0.0046,
+   "z": 0.833,
+   "fire": false,
+   "probe_z": 0.82,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "月",
+   "status": "scored",
+   "charge": 0.0167,
+   "z": 3.138,
+   "fire": true,
+   "probe_z": 3.04,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "柔情",
+   "status": "scored",
+   "charge": -0.002,
+   "z": -0.424,
+   "fire": false,
+   "probe_z": -0.37,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "格调",
+   "status": "scored",
+   "charge": -0.0009,
+   "z": -0.214,
+   "fire": false,
+   "probe_z": -0.18,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "求婚",
+   "status": "scored",
+   "charge": -0.0036,
+   "z": -0.728,
+   "fire": false,
+   "probe_z": -0.67,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "洋洋",
+   "status": "scored",
+   "charge": 0.0004,
+   "z": 0.033,
+   "fire": false,
+   "probe_z": 0.07,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "流星",
+   "status": "scored",
+   "charge": 0.0007,
+   "z": 0.091,
+   "fire": false,
+   "probe_z": 0.11,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "浩浩",
+   "status": "sit_out",
+   "reason": "absent_from_committed_record (record gap, flagged)"
+  },
+  {
+   "word": "消失",
+   "status": "scored",
+   "charge": -0.0012,
+   "z": -0.271,
+   "fire": false,
+   "probe_z": -0.22,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "清淡",
+   "status": "scored",
+   "charge": 0.0089,
+   "z": 1.652,
+   "fire": true,
+   "probe_z": 1.63,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "清脆",
+   "status": "scored",
+   "charge": 0.0017,
+   "z": 0.281,
+   "fire": false,
+   "probe_z": 0.31,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "漠漠",
+   "status": "scored",
+   "charge": 0.0063,
+   "z": 1.157,
+   "fire": false,
+   "probe_z": 1.15,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "炎炎",
+   "status": "scored",
+   "charge": 0.0017,
+   "z": 0.281,
+   "fire": false,
+   "probe_z": 0.31,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "烈",
+   "status": "scored",
+   "charge": -0.0001,
+   "z": -0.062,
+   "fire": false,
+   "probe_z": -0.03,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "玫瑰",
+   "status": "scored",
+   "charge": -0.0156,
+   "z": -3.014,
+   "fire": false,
+   "probe_z": -2.86,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "理论",
+   "status": "scored",
+   "charge": -0.0035,
+   "z": -0.709,
+   "fire": false,
+   "probe_z": -0.65,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "盈盈",
+   "status": "scored",
+   "charge": 0.0008,
+   "z": 0.11,
+   "fire": false,
+   "probe_z": 0.15,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "相同",
+   "status": "scored",
+   "charge": -0.0068,
+   "z": -1.338,
+   "fire": false,
+   "probe_z": -1.24,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "研究",
+   "status": "scored",
+   "charge": 0.0013,
+   "z": 0.205,
+   "fire": false,
+   "probe_z": 0.22,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "私奔",
+   "status": "scored",
+   "charge": 0.0071,
+   "z": 1.309,
+   "fire": false,
+   "probe_z": 1.3,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "美",
+   "status": "scored",
+   "charge": 0.0007,
+   "z": 0.091,
+   "fire": false,
+   "probe_z": 0.13,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "脆",
+   "status": "scored",
+   "charge": 0.0007,
+   "z": 0.091,
+   "fire": false,
+   "probe_z": 0.13,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "著名",
+   "status": "scored",
+   "charge": 0.0011,
+   "z": 0.167,
+   "fire": false,
+   "probe_z": 0.2,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "说",
+   "status": "scored",
+   "charge": 0.0013,
+   "z": 0.205,
+   "fire": false,
+   "probe_z": 0.23,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "调和",
+   "status": "scored",
+   "charge": -0.0008,
+   "z": -0.195,
+   "fire": false,
+   "probe_z": -0.16,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "走路",
+   "status": "scored",
+   "charge": 0.0044,
+   "z": 0.795,
+   "fire": false,
+   "probe_z": 0.8,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "雪花",
+   "status": "scored",
+   "charge": 0.007,
+   "z": 1.29,
+   "fire": false,
+   "probe_z": 1.26,
+   "assembly_tier": "covered_strength_only"
+  },
+  {
+   "word": "默契",
+   "status": "scored",
+   "charge": 0.0081,
+   "z": 1.5,
+   "fire": false,
+   "probe_z": 1.47,
+   "assembly_tier": "covered_strength_only"
+  }
+ ],
+ "control_fires": [
+  {
+   "word": "晚餐",
+   "z": 3.023
+  }
+ ],
+ "invalid_controls": [
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ],
+   "admitted_n": 1
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ],
+   "admitted_n": 1
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ],
+   "admitted_n": 0
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ],
+   "admitted_n": 2
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ],
+   "admitted_n": 6
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ],
+   "admitted_n": 2
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ],
+   "admitted_n": 2
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ],
+   "admitted_n": 8
+  }
+ ],
+ "provenance": {
+  "charges": "word_latent_v4_dark_proberun_54.md outcome table, VERBATIM",
+  "probe_md_sha256": "6eae802ee312948b74cb94e2d27a2a06447b38f5eb9792acf334612a56db3b1e",
+  "probe_json_sha256": "a0151deba1278f1d11938e4d2fb56c0ee0296ed6879fd522a583a3c471e2c037",
+  "pool_v2_sha256": "6200bd1ff1828af4165bae0311e5f9fce391d808ae4074e4d76e4414b7888228",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "z_floor": 1.5
+ }
+}

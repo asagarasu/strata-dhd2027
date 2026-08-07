@@ -1,0 +1,1960 @@
+{
+ "status": "PROPOSED",
+ "concludes": "nothing — routing is mechanical per ruling #2; field owner cuts",
+ "generated": "2026-07-21",
+ "derivation": "pools v3 = pools v2 with ruling #2 (2026-07-21) applied: color-pool members whose witnessed color families are ONLY within {white,black,gray} EXIT color -> ROUTE to illumination.",
+ "routing_basis": "WITNESSED families at the definition-leg FULLER grain (any color-family token in the member's own dictionary definition), i.e. pool-record families UNIONED with the definition-witness families. This is forced by the field owner's anchor '斑马 stays via 淡黃': the pool's 色-construction rule truncated 斑马 to {white}; only the fuller scan yields yellow (淡黃) that keeps it in. Applied uniformly, this same correction keeps 煤 (褐煤->brown) in — see boundary note.",
+ "achromatic_bins": [
+  "black",
+  "gray",
+  "white"
+ ],
+ "chromatic_bins": [
+  "blue",
+  "brown",
+  "green",
+  "orange",
+  "pink",
+  "purple",
+  "red",
+  "yellow"
+ ],
+ "routing_list_zh": {
+  "route_out": [
+   "天黑",
+   "袢",
+   "银杏",
+   "雪"
+  ],
+  "stay": [
+   "斑马",
+   "柰",
+   "椅",
+   "橘黄",
+   "橙子",
+   "橙色",
+   "煤",
+   "红绿灯",
+   "胡萝卜",
+   "芭蕉",
+   "苹果",
+   "西红柿",
+   "长颈鹿",
+   "青春",
+   "香蕉",
+   "鸢",
+   "鹞子"
+  ]
+ },
+ "yinxing_exile_cost": "detector-confirmed member exiled by the rule — 银杏: word_latent v3 referent-color z=1.8678, call=True, band=recoverable, n_hosts=29 (yellow autumn association in hosts); definition families={white} only (色白, 白果) -> achromatic-only -> ROUTED OUT of the color pool by ruling #2. Its 29 hosts follow it into the illumination pool.",
+ "mei_boundary_note": "煤 is the single re-cuttable boundary. PRIMARY (fuller basis, adopted here): 煤 STAYS in color (defn '色黑...褐煤...' -> {black, brown}; brown via 褐煤 is exactly parallel to 斑马's 淡黃 the field owner corrected). ALTERNATIVE (pool 色-construction basis): 煤 families={black} only -> would ROUTE OUT. Flip = color_zh 17<->16, illum_zh 7<->8. Not among the named routees either way. detail: pool 色-construction basis says achromatic-only; fuller definition basis says has-chromatic",
+ "color_referent_pool": {
+  "zh_members": [
+   {
+    "surface": "斑马",
+    "pool_families": [
+     "white"
+    ],
+    "defwitness_families": [
+     "white",
+     "yellow"
+    ],
+    "witnessed_families_union": [
+     "white",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false,
+    "basis_disagreement": "pool 色-construction basis says achromatic-only; fuller definition basis says has-chromatic"
+   },
+   {
+    "surface": "柰",
+    "pool_families": [
+     "green",
+     "red",
+     "white",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "green",
+     "red",
+     "white",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "椅",
+    "pool_families": [
+     "brown",
+     "green",
+     "red",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "brown",
+     "green",
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "橘黄",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "橙子",
+    "pool_families": [
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "橙色",
+    "pool_families": [
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "煤",
+    "pool_families": [
+     "black"
+    ],
+    "defwitness_families": [
+     "black",
+     "brown"
+    ],
+    "witnessed_families_union": [
+     "black",
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false,
+    "basis_disagreement": "pool 色-construction basis says achromatic-only; fuller definition basis says has-chromatic"
+   },
+   {
+    "surface": "红绿灯",
+    "pool_families": [
+     "green",
+     "red"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "green",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "胡萝卜",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "芭蕉",
+    "pool_families": [
+     "black",
+     "green",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "black",
+     "green",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "苹果",
+    "pool_families": [
+     "green",
+     "red",
+     "white",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "green",
+     "red",
+     "white",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "西红柿",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "defwitness_families": [
+     "red",
+     "yellow"
+    ],
+    "witnessed_families_union": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": true,
+     "n_hosts": 20,
+     "role": "latent"
+    },
+    "route_out": false
+   },
+   {
+    "surface": "长颈鹿",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "青春",
+    "pool_families": [
+     "green"
+    ],
+    "defwitness_families": [
+     "green"
+    ],
+    "witnessed_families_union": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": true,
+     "n_hosts": 201,
+     "role": "selftest"
+    },
+    "route_out": false
+   },
+   {
+    "surface": "香蕉",
+    "pool_families": [
+     "yellow"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "鸢",
+    "pool_families": [
+     "brown"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   },
+   {
+    "surface": "鹞子",
+    "pool_families": [
+     "black",
+     "brown",
+     "gray",
+     "white"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "black",
+     "brown",
+     "gray",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": false
+   }
+  ],
+  "en_members": [
+   {
+    "surface": "Poland",
+    "pool_families": [
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "apple green",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "azure",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "black",
+    "pool_families": [
+     "black",
+     "brown",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "blood red",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "blue",
+    "pool_families": [
+     "blue",
+     "gray",
+     "green",
+     "purple",
+     "red",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "bright",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "cerise",
+    "pool_families": [
+     "pink",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "cerulean",
+    "pool_families": [
+     "blue",
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "cinnabar",
+    "pool_families": [
+     "black",
+     "brown",
+     "orange",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "coal",
+    "pool_families": [
+     "black",
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "crimson",
+    "pool_families": [
+     "blue",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "dark blue",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "darkness",
+    "pool_families": [
+     "black",
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "ebony",
+    "pool_families": [
+     "black",
+     "green",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "emerald green",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "florid",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "fresh",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "gamboge",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "green",
+    "pool_families": [
+     "blue",
+     "green",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "ice blue",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "indigo",
+    "pool_families": [
+     "blue",
+     "green",
+     "purple"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "ink",
+    "pool_families": [
+     "black",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "light",
+    "pool_families": [
+     "brown",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "light blue",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "mazarine",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "night",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "orange",
+    "pool_families": [
+     "orange",
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "pale",
+    "pool_families": [
+     "blue",
+     "red",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "pea green",
+    "pool_families": [
+     "green",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "pink",
+    "pool_families": [
+     "blue",
+     "brown",
+     "green",
+     "pink",
+     "red",
+     "white",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "pinkish",
+    "pool_families": [
+     "pink"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "powder",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "pure blue",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "purple",
+    "pool_families": [
+     "black",
+     "blue",
+     "purple",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "rare",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "red",
+    "pool_families": [
+     "black",
+     "brown",
+     "orange",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "reddish-brown",
+    "pool_families": [
+     "brown",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "rosy",
+    "pool_families": [
+     "pink",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "rubicund",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "ruddy",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "sable",
+    "pool_families": [
+     "black",
+     "brown"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "saffron",
+    "pool_families": [
+     "blue",
+     "orange",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "sallow",
+    "pool_families": [
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "sanguine",
+    "pool_families": [
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "scarlet",
+    "pool_families": [
+     "orange",
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "sky blue",
+    "pool_families": [
+     "blue"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "snow white",
+    "pool_families": [
+     "red",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "sunshine",
+    "pool_families": [
+     "orange"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "tangerine",
+    "pool_families": [
+     "orange",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "tomato",
+    "pool_families": [
+     "red",
+     "yellow"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "turquoise",
+    "pool_families": [
+     "blue",
+     "gray",
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "verdant",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "verdigris",
+    "pool_families": [
+     "blue",
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "vermilion",
+    "pool_families": [
+     "orange",
+     "red"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "viridescent",
+    "pool_families": [
+     "green"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   },
+   {
+    "surface": "white",
+    "pool_families": [
+     "black",
+     "gray",
+     "green",
+     "white"
+    ],
+    "class": "has-chromatic",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": false
+   }
+  ]
+ },
+ "illumination_salient_pool": {
+  "zh_members": [
+   {
+    "surface": "夜",
+    "illum_poles": [
+     "dark"
+    ],
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "灯",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "鹞子",
+    "illum_poles": [
+     "dark"
+    ],
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "天黑",
+    "pool_families": [
+     "black"
+    ],
+    "defwitness_families": [
+     "black"
+    ],
+    "witnessed_families_union": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": true,
+     "n_hosts": 19,
+     "role": "latent"
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only witnessed family)"
+   },
+   {
+    "surface": "袢",
+    "pool_families": [
+     "white"
+    ],
+    "defwitness_families": [],
+    "witnessed_families_union": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only witnessed family)"
+   },
+   {
+    "surface": "银杏",
+    "pool_families": [
+     "white"
+    ],
+    "defwitness_families": [
+     "white"
+    ],
+    "witnessed_families_union": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": true,
+     "n_hosts": 29,
+     "role": "latent"
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only witnessed family)"
+   },
+   {
+    "surface": "雪",
+    "pool_families": [
+     "white"
+    ],
+    "defwitness_families": [
+     "white"
+    ],
+    "witnessed_families_union": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0,
+     "role": null
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only witnessed family)"
+   }
+  ],
+  "en_members": [
+   {
+    "surface": "black",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "blackness",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "blood red",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "blue",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "bright",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "brilliant",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "cerise",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "cinnabar",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "coal",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "dark",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "dark blue",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "darkly",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "darkness",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "dim",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "dimly",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "ebony",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "evening",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "florid",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "green",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "handsome",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "heliacal",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "honesty",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "indigo",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "ink",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "lamp",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "lantern",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "light",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "luminous",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "mazarine",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "milky",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "night",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "pale",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "pink",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "pitch-dark",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "red",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "rosy",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "sable",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "sallow",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "scarlet",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "shady",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "silver",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "silvery",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "sky blue",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "solar",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "splendid",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "sun",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "sunshine",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "tomato",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "turquoise",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "vermilion",
+    "illum_poles": [
+     "bright"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "white",
+    "illum_poles": [
+     "bright",
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "whiteness",
+    "illum_poles": [
+     "dark"
+    ],
+    "provenance": "v2 illumination member (carried)"
+   },
+   {
+    "surface": "Ukraine",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "blackness",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "burner",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "colorful",
+    "pool_families": [
+     "black",
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "dark",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "egg white",
+    "pool_families": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "grey",
+    "pool_families": [
+     "black",
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "grey-headed",
+    "pool_families": [
+     "gray"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "hoary",
+    "pool_families": [
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "iron-gray",
+    "pool_families": [
+     "gray"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "jet-black",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "milky",
+    "pool_families": [
+     "black",
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "native",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "nigritude",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "pitch-dark",
+    "pool_families": [
+     "black"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "silver",
+    "pool_families": [
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "silvery",
+    "pool_families": [
+     "gray",
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "snow",
+    "pool_families": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "white-haired",
+    "pool_families": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "whiteness",
+    "pool_families": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   },
+   {
+    "surface": "whitish",
+    "pool_families": [
+     "white"
+    ],
+    "class": "achromatic-only",
+    "hosts": {
+     "has_hosts": false,
+     "n_hosts": 0
+    },
+    "route_out": true,
+    "provenance": "ROUTED from color pool (achromatic-only, pool-record basis; host-neutral)"
+   }
+  ]
+ },
+ "sizes": {
+  "color_pool": {
+   "zh": 17,
+   "en": 57,
+   "total": 74
+  },
+  "illumination_pool": {
+   "zh": 7,
+   "en": 73,
+   "total": 80
+  },
+  "v2_reference": {
+   "color": {
+    "zh": 21,
+    "en": 78
+   },
+   "illum": {
+    "zh": 3,
+    "en": 52
+   }
+  }
+ },
+ "hosted_counts": {
+  "color_pool_zh_hosted": [
+   "西红柿",
+   "青春"
+  ],
+  "illumination_pool_zh_hosted": [
+   "天黑",
+   "银杏"
+  ],
+  "note": "all hosts are ZH (Leipzig/COCO-CN); EN members carry no hosts in either pool"
+ },
+ "dark_run_viability": "illumination pool ZH grew 3 -> 7; ZH-hosted illumination members grew 0 -> 2 (天黑:19, 银杏:29). The dark run was defer-blocked at ZH illum n=3 with 0 hosted; it now has 2 hosted illumination referents (天黑 19 hosts, 银杏 29 hosts) where it had none.",
+ "en_routing_note": "21 EN color members are achromatic-only (pool-record) and routed to EN illumination; mechanical & HOST-NEUTRAL (no EN member is hosted), re-cuttable. EN routed: ['Ukraine', 'blackness', 'burner', 'colorful', 'dark', 'egg white', 'grey', 'grey-headed', 'hoary', 'iron-gray', 'jet-black', 'milky', 'native', 'nigritude', 'pitch-dark', 'silver', 'silvery', 'snow', 'white-haired', 'whiteness', 'whitish']",
+ "provenance_sha256": {
+  "pools_definition_leg_v2_53.json": "d862e56b554be812dff6e10070e3f6b4e0e02b72b656cb7d4771313ff519a65e",
+  "definition_witness_v2_PROPOSED_53.json": "cf0c5f50d9c67753f5f9496730a930cb3c16ad1e0aae9df1d2a6a07662fdcf80",
+  "word_latent_v3_referent_color_53.json": "53e049c87772f02519f55efc957c2925d2ccc78e83000e42bbc03e3dee83d8b8"
+ }
+}

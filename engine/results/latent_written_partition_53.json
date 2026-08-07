@@ -1,0 +1,2954 @@
+{
+ "design": "latent-written sensor #53 (rule-based, HowNet single-char DEF inventory; color + illumination)",
+ "rule": "word W (len>=2, CJK) fires field F iff (a) a visible char is print-charged (single-char HowNet DEF carries F) AND (b) W's own word-DEF does NOT carry F; edge: W absent from HowNet -> (b) UNKNOWN, flag word_not_in_hownet_realized_unknown if (a) holds",
+ "fields": [
+  "color",
+  "illumination"
+ ],
+ "pool_source": "caesitas_proto/results/host_frames_53.json (154 pool words, via v2 items index)",
+ "n_pool": 154,
+ "counts_over_154": {
+  "color": {
+   "written_claimed_positive": 39,
+   "referent_candidate_pool_latent_and_written_silent": 2,
+   "neither": 113,
+   "total": 154
+  },
+  "illumination": {
+   "written_claimed_positive": 20,
+   "referent_candidate_pool_latent_and_written_silent": 24,
+   "neither": 110,
+   "total": 154
+  }
+ },
+ "records": {
+  "129": {
+   "word": "129",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "19": {
+   "word": "19",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 3.2172973215433736,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "359": {
+   "word": "359",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "4500": {
+   "word": "4500",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "一场": {
+   "word": "一场",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "七八年": {
+   "word": "七八年",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "万茜": {
+   "word": "万茜",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "茜",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "下降": {
+   "word": "下降",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.4775987676931719,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "不得": {
+   "word": "不得",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.7336924175217006,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "不断": {
+   "word": "不断",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.008356662844439795,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "两周": {
+   "word": "两周",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -1.3205395146827277,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "中国工农红军": {
+   "word": "中国工农红军",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 10.11222057108986,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "红",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "乌干达": {
+   "word": "乌干达",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 3.054052874292482,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "乌",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "乌",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "乌鲁木齐": {
+   "word": "乌鲁木齐",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 2.089809336027806,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "乌",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "乌",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "乡村": {
+   "word": "乡村",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.287694208076176,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "了不得": {
+   "word": "了不得",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.1340136015247858,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "事情": {
+   "word": "事情",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.21418391434448888,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "于小彤": {
+   "word": "于小彤",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "彤",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "人們": {
+   "word": "人們",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "代表": {
+   "word": "代表",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.2796628755813931,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "以及": {
+   "word": "以及",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.4986551490943414,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "低頭不語": {
+   "word": "低頭不語",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "保持": {
+   "word": "保持",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.14300303544883525,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "做不了": {
+   "word": "做不了",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "全球": {
+   "word": "全球",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.18007331546248395,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "兩個": {
+   "word": "兩個",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "六名": {
+   "word": "六名",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "其中": {
+   "word": "其中",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.2972196496447145,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "其他人": {
+   "word": "其他人",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.1597662217441131,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "冲锋在前": {
+   "word": "冲锋在前",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "刑事法律": {
+   "word": "刑事法律",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "到位": {
+   "word": "到位",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.5755724698331717,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "刻上": {
+   "word": "刻上",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "即使": {
+   "word": "即使",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.39033481327141395,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "历史": {
+   "word": "历史",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.16015532130829874,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "发扬光大": {
+   "word": "发扬光大",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.961608564565098,
+   "fields_fired": [
+    "illumination"
+   ],
+   "color": null,
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "光",
+      "pairs": [
+       [
+        "lights",
+        "光"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "可以": {
+   "word": "可以",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.39417307988200634,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "吃得下": {
+   "word": "吃得下",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.6848417403203367,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "同一": {
+   "word": "同一",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 2.0618335856268883,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "周宏灏": {
+   "word": "周宏灏",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "灏",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "灏",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "和绛珠": {
+   "word": "和绛珠",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "绛",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "咳嗽": {
+   "word": "咳嗽",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.5113810339772149,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "啥时候": {
+   "word": "啥时候",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "因素": {
+   "word": "因素",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.2527157736838175,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "素",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "坦言": {
+   "word": "坦言",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.44468307031301346,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "墨西哥": {
+   "word": "墨西哥",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.0657261333140782,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "墨",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "墨",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ],
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "多年": {
+   "word": "多年",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.5568828313792952,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "大不相同": {
+   "word": "大不相同",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "大巴车": {
+   "word": "大巴车",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "大批": {
+   "word": "大批",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.21638065952566232,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "天黑": {
+   "word": "天黑",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 4.505184291655005,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": false,
+    "realized": true,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ],
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "官員": {
+   "word": "官員",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "实验": {
+   "word": "实验",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.2776222694684712,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "宠物": {
+   "word": "宠物",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.010030327287322033,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "客量": {
+   "word": "客量",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "宣传": {
+   "word": "宣传",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.9773944397318395,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "密切接触": {
+   "word": "密切接触",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "小葱": {
+   "word": "小葱",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 4.142679208192436,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "葱",
+      "pairs": [
+       [
+        "green",
+        "绿"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "层次": {
+   "word": "层次",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.6343440772748191,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "居民": {
+   "word": "居民",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.6089533650335521,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "希望": {
+   "word": "希望",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -2.16990505045921,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "張皓": {
+   "word": "張皓",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皓",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皓",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "强迫": {
+   "word": "强迫",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.11942145520470107,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "情况": {
+   "word": "情况",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.6115985335826857,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "意味着": {
+   "word": "意味着",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.1601612680569027,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "感染": {
+   "word": "感染",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.028079239885455902,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "我们": {
+   "word": "我们",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.8451585443122984,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "战争": {
+   "word": "战争",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.8160302587583141,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "抓好": {
+   "word": "抓好",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.6030809729614256,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "抹黑": {
+   "word": "抹黑",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.9811181743337606,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ],
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "按揭": {
+   "word": "按揭",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -1.076475449800239,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "搬迁": {
+   "word": "搬迁",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.2195577881897595,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "攻坚战": {
+   "word": "攻坚战",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.0008598714723410585,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "政策": {
+   "word": "政策",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.19178716831286166,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "數據": {
+   "word": "數據",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "新任": {
+   "word": "新任",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.7265455140233014,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "新冠": {
+   "word": "新冠",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "明天": {
+   "word": "明天",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -2.4534012481755694,
+   "fields_fired": [
+    "illumination"
+   ],
+   "color": null,
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "明",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "昨日": {
+   "word": "昨日",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -5.232665930018348,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "晚餐": {
+   "word": "晚餐",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.679267376210793,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "林欣彤": {
+   "word": "林欣彤",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "彤",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "桓玄": {
+   "word": "桓玄",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "玄",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "玄",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "正在": {
+   "word": "正在",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.1630669000327422,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "此次": {
+   "word": "此次",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.12170284322045324,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "每天": {
+   "word": "每天",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.6993278858154727,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "比例": {
+   "word": "比例",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.09410846837114727,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "汽车": {
+   "word": "汽车",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.037365407044090436,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "波兰": {
+   "word": "波兰",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 2.598820996693613,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "波黑": {
+   "word": "波黑",
+   "pool_role": "selftest",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 3.7903622114112996,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ],
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "消息人士": {
+   "word": "消息人士",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.34976790138298536,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "深入人心": {
+   "word": "深入人心",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.024822449776650633,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "深厚": {
+   "word": "深厚",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.00242252654808001,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "父母": {
+   "word": "父母",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -1.0382564338211113,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "玄学": {
+   "word": "玄学",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.6641302918820337,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "玄",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "玄",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "生活状况": {
+   "word": "生活状况",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.3038811550254564,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "白雪皑皑": {
+   "word": "白雪皑皑",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "白",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     },
+     {
+      "char": "皑",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "皓影": {
+   "word": "皓影",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皓",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皓",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     },
+     {
+      "char": "影",
+      "pairs": [
+       [
+        "lights",
+        "光"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "研发": {
+   "word": "研发",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.9479896001699091,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "碧水": {
+   "word": "碧水",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "碧",
+      "pairs": [
+       [
+        "blue",
+        "蓝"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "科学家": {
+   "word": "科学家",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.31011130300763506,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "竹马": {
+   "word": "竹马",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "紐森": {
+   "word": "紐森",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "illumination"
+   ],
+   "color": null,
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "森",
+      "pairs": [
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "经典之作": {
+   "word": "经典之作",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "经费": {
+   "word": "经费",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "绛矾丸": {
+   "word": "绛矾丸",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "绛",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "绿树": {
+   "word": "绿树",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "绿",
+      "pairs": [
+       [
+        "green",
+        "绿"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "绿速达": {
+   "word": "绿速达",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "绿",
+      "pairs": [
+       [
+        "green",
+        "绿"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "缜密": {
+   "word": "缜密",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.31614319933107143,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缜",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缜",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "缜的": {
+   "word": "缜的",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缜",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缜",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   }
+  },
+  "缥缈": {
+   "word": "缥缈",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.06750215833474131,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缥",
+      "pairs": [
+       [
+        "blue",
+        "蓝"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "罪責屬": {
+   "word": "罪責屬",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "羊们": {
+   "word": "羊们",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "老百姓": {
+   "word": "老百姓",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.7595954648045417,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "肥皂": {
+   "word": "肥皂",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.5947582863054933,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皂",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "皂",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "胡椒粉": {
+   "word": "胡椒粉",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.35544315032251234,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "粉",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ],
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "腐败现象": {
+   "word": "腐败现象",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "葱段": {
+   "word": "葱段",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "葱",
+      "pairs": [
+       [
+        "green",
+        "绿"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "蔓延到": {
+   "word": "蔓延到",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "虚无缥缈": {
+   "word": "虚无缥缈",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.4372833702209918,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "缥",
+      "pairs": [
+       [
+        "blue",
+        "蓝"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "蜂拥": {
+   "word": "蜂拥",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.7635895310500751,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "表现": {
+   "word": "表现",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.1540358439841345,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "表示": {
+   "word": "表示",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.5717693009715995,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "西红柿": {
+   "word": "西红柿",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 4.754280898081581,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "红",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "规定": {
+   "word": "规定",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.5592128972214278,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "言之凿凿": {
+   "word": "言之凿凿",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 1.6883373649600255,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "記錄": {
+   "word": "記錄",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "設計": {
+   "word": "設計",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "警方": {
+   "word": "警方",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.847411969530473,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "诉衷情": {
+   "word": "诉衷情",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "说话": {
+   "word": "说话",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.0657684613917386,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "诸事": {
+   "word": "诸事",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "豆粉": {
+   "word": "豆粉",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.2056566761725556,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "粉",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ],
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "資料": {
+   "word": "資料",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "赤字": {
+   "word": "赤字",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.03322908658549629,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "赤",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "赤诚": {
+   "word": "赤诚",
+   "pool_role": "latent",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.1929869919789933,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "赤",
+      "pairs": [
+       [
+        "red",
+        "红"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "身份": {
+   "word": "身份",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.37502336418577237,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "还有": {
+   "word": "还有",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "進行": {
+   "word": "進行",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "過度": {
+   "word": "過度",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "金银": {
+   "word": "金银",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "金",
+      "pairs": [
+       [
+        "yellow",
+        "黄"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     },
+     {
+      "char": "银",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "鑼鼓聲": {
+   "word": "鑼鼓聲",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "钟碧英": {
+   "word": "钟碧英",
+   "pool_role": "latent",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "碧",
+      "pairs": [
+       [
+        "blue",
+        "蓝"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": [
+     "word_not_in_hownet_realized_unknown"
+    ]
+   },
+   "illumination": null
+  },
+  "银杏": {
+   "word": "银杏",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 1.6878034987869601,
+   "fields_fired": [
+    "color"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "银",
+      "pairs": [
+       [
+        "white",
+        "白"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": null
+  },
+  "铺张浪费": {
+   "word": "铺张浪费",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.3038313430444915,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "需求": {
+   "word": "需求",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.3776120339736432,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "需要": {
+   "word": "需要",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.18103965750300324,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "青春": {
+   "word": "青春",
+   "pool_role": "selftest",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": -0.9748854751758459,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "青",
+      "pairs": [
+       [
+        "green",
+        "绿"
+       ],
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "青",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "顯示": {
+   "word": "顯示",
+   "pool_role": "control",
+   "pool_tier": "empty",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "项目": {
+   "word": "项目",
+   "pool_role": "control",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.02669838353653313,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "鲜活": {
+   "word": "鲜活",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 0.5365131987284107,
+   "fields_fired": [
+    "illumination"
+   ],
+   "color": null,
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "鲜",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "鲜花": {
+   "word": "鲜花",
+   "pool_role": "latent",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.1361477228068826,
+   "fields_fired": [
+    "illumination"
+   ],
+   "color": null,
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "鲜",
+      "pairs": [
+       [
+        "bright",
+        "明"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  },
+  "鲤鱼": {
+   "word": "鲤鱼",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "scored",
+   "axis_call": false,
+   "axis_z": 1.3084151047072914,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "鳕鱼": {
+   "word": "鳕鱼",
+   "pool_role": "selftest",
+   "pool_tier": "fallback",
+   "v2_status": "sit_out",
+   "axis_call": null,
+   "axis_z": null,
+   "fields_fired": [],
+   "color": null,
+   "illumination": null
+  },
+  "黑夜": {
+   "word": "黑夜",
+   "pool_role": "selftest",
+   "pool_tier": "primary",
+   "v2_status": "scored",
+   "axis_call": true,
+   "axis_z": 4.522243187119917,
+   "fields_fired": [
+    "color",
+    "illumination"
+   ],
+   "color": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   },
+   "illumination": {
+    "fired": true,
+    "realized": false,
+    "carriers": [
+     {
+      "char": "黑",
+      "pairs": [
+       [
+        "black",
+        "黑"
+       ],
+       [
+        "dark",
+        "暗"
+       ]
+      ],
+      "liveness_prior": 0.86,
+      "liveness_band": "recoverable"
+     }
+    ],
+    "edge_flags": []
+   }
+  }
+ }
+}

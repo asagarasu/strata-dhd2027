@@ -1,0 +1,3225 @@
+{
+ "label": "DIAGNOSTIC -- unregistered, no credential claim, reported to the sitting",
+ "diagnostic": "fp_cross_axis_diagnostic_54",
+ "hypothesis": "fixedness confound: FA charges (同一, 言之凿凿) fire on EVERY axis (fixed-expression ill-formedness read as less-salient generally); genuine color charges (TPs) are color-axis-specific.",
+ "certificate_drift": 0.0,
+ "n_unique_texts": 3000,
+ "n_labse_forward_passes_incl_certificate": 6000,
+ "axis_order": [
+  "color",
+  "illum",
+  "sound",
+  "plant"
+ ],
+ "words": {
+  "同一": {
+   "role_in_run": "false-alarm (control)",
+   "record_charge_color": 0.008906042443436304,
+   "record_z_color": 2.270572439338376,
+   "n_used_hosts": 20,
+   "leipzig_n": 205,
+   "caption_n": 2,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "一似",
+    "一样",
+    "一般",
+    "亦然",
+    "俨如",
+    "俨若",
+    "同上",
+    "同义",
+    "同样",
+    "同等",
+    "平权",
+    "平级",
+    "相似",
+    "相同",
+    "神似",
+    "等价",
+    "等值",
+    "等压",
+    "等宽",
+    "等效",
+    "等温",
+    "等距",
+    "等边",
+    "等速",
+    "等量",
+    "等额",
+    "趋近",
+    "近义",
+    "近似",
+    "这么",
+    "逼真",
+    "重样"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.008906042443436306,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 2820,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0059492160504974675
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3481,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.018125118080765914
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3646,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.00984497940966697
+      },
+      {
+       "provenance": "leipzig",
+       "line": 4626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.008432704556985306
+      },
+      {
+       "provenance": "leipzig",
+       "line": 7701,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0073832796265024805
+      },
+      {
+       "provenance": "leipzig",
+       "line": 8630,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.005668105434086836
+      },
+      {
+       "provenance": "leipzig",
+       "line": 9328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.02416950423304646
+      },
+      {
+       "provenance": "leipzig",
+       "line": 11180,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.01323587323470677
+      },
+      {
+       "provenance": "leipzig",
+       "line": 14448,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.019675402400606584
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16383,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.009646684496437293
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16824,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.006257710976957768
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23243,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.007397672210069829
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23281,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.010620334481436185
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.004353420755908869
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24030,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.009379380329887306
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.005835436703878127
+      },
+      {
+       "provenance": "leipzig",
+       "line": 26103,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.01481444786128282
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27455,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.009719773537981966
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27464,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0019666236564913134
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27469,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.00810071508233668
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.8671875,
+     "n_substitutions": 640
+    },
+    "illum": {
+     "charge": -0.008469629120999255,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 2820,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0023091048958932218
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3481,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004419717836528891
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3646,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.010698372002062896
+      },
+      {
+       "provenance": "leipzig",
+       "line": 4626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.006622382586970046
+      },
+      {
+       "provenance": "leipzig",
+       "line": 7701,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.01594222075772394
+      },
+      {
+       "provenance": "leipzig",
+       "line": 8630,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.011122461805872997
+      },
+      {
+       "provenance": "leipzig",
+       "line": 9328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.024657243165223792
+      },
+      {
+       "provenance": "leipzig",
+       "line": 11180,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.00891242875250811
+      },
+      {
+       "provenance": "leipzig",
+       "line": 14448,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.005692236696332952
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16383,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.012764679305584874
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16824,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0008928676901786316
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23243,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.002831125646032849
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23281,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.010316875655028463
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004690266709035852
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24030,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.013405132017831011
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.012185911866290722
+      },
+      {
+       "provenance": "leipzig",
+       "line": 26103,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.013599452859044237
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27455,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.013543310628870006
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27464,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0011598356611273695
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27469,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0029322349603187886
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.1953125,
+     "n_substitutions": 640
+    },
+    "sound": {
+     "charge": -0.0011532529536484905,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 2820,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0006259937766442056
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3481,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004044562724311154
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3646,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0011996214719931634
+      },
+      {
+       "provenance": "leipzig",
+       "line": 4626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0016805121306527754
+      },
+      {
+       "provenance": "leipzig",
+       "line": 7701,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0009677717684467915
+      },
+      {
+       "provenance": "leipzig",
+       "line": 8630,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.001903299283148292
+      },
+      {
+       "provenance": "leipzig",
+       "line": 9328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.012670664454160766
+      },
+      {
+       "provenance": "leipzig",
+       "line": 11180,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.005182546403290338
+      },
+      {
+       "provenance": "leipzig",
+       "line": 14448,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.009571368525328451
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16383,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.002129056174794461
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16824,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0024304229125428067
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23243,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0015317121934053275
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23281,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0020964946422314303
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.00043718719192470043
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24030,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.006981044618808514
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0027937082684550392
+      },
+      {
+       "provenance": "leipzig",
+       "line": 26103,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.00038936570329081537
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27455,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.00917269167885959
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27464,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.00564866938720728
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27469,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.005605091550360822
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.384375,
+     "n_substitutions": 640
+    },
+    "plant": {
+     "charge": -0.00408246375178152,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 2820,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004181063570663449
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3481,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004599486870059991
+      },
+      {
+       "provenance": "leipzig",
+       "line": 3646,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.003983863932899592
+      },
+      {
+       "provenance": "leipzig",
+       "line": 4626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.011896931719561405
+      },
+      {
+       "provenance": "leipzig",
+       "line": 7701,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0005633745744720205
+      },
+      {
+       "provenance": "leipzig",
+       "line": 8630,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004827402299828514
+      },
+      {
+       "provenance": "leipzig",
+       "line": 9328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.001843051150896514
+      },
+      {
+       "provenance": "leipzig",
+       "line": 11180,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.007493534337330306
+      },
+      {
+       "provenance": "leipzig",
+       "line": 14448,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.019072532594818704
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16383,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.011908460194792362
+      },
+      {
+       "provenance": "leipzig",
+       "line": 16824,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.004397041815636327
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23243,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.00307007430680324
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23281,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.002496425149355932
+      },
+      {
+       "provenance": "leipzig",
+       "line": 23328,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.007505969667045413
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24030,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0022101437747730143
+      },
+      {
+       "provenance": "leipzig",
+       "line": 24626,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.0014217552642727931
+      },
+      {
+       "provenance": "leipzig",
+       "line": 26103,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.01860290713180339
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27455,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.005900711743567115
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27464,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0018256757718023882
+      },
+      {
+       "provenance": "leipzig",
+       "line": 27469,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.003701175653542726
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.2078125,
+     "n_substitutions": 640
+    }
+   },
+   "charges": {
+    "color": 0.008906042443436306,
+    "illum": -0.008469629120999255,
+    "sound": -0.0011532529536484905,
+    "plant": -0.00408246375178152
+   },
+   "specificity_color_over_mean_abs_others": 1.9494675777378723,
+   "largest_abs_charge_axis": "color",
+   "color_is_max_abs_axis": true,
+   "delta_sign_uniformity_color_pos_frac": 0.8671875,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 0.8671875,
+    "illum": 0.1953125,
+    "sound": 0.384375,
+    "plant": 0.2078125
+   },
+   "reading": "top:color (color spec 1.9x) -- color-dominant, other axes non-trivial"
+  },
+  "言之凿凿": {
+   "role_in_run": "false-alarm (control)",
+   "record_charge_color": 0.007397911194367352,
+   "record_z_color": 1.8683595497268353,
+   "n_used_hosts": 2,
+   "leipzig_n": 2,
+   "caption_n": 0,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "一吐为快",
+    "不吭不哈",
+    "仗义执言",
+    "侃侃而谈",
+    "出言不逊",
+    "发表演说",
+    "叽叽咕咕",
+    "叽里呱啦",
+    "吞吞吐吐",
+    "哼儿哈儿",
+    "唠唠叨叨",
+    "喃喃自语",
+    "嘀嘀咕咕",
+    "嘟嘟哝哝",
+    "姑妄言之",
+    "对牛弹琴",
+    "恶言相向",
+    "情话绵绵",
+    "振振有辞",
+    "支支吾吾",
+    "横说竖说",
+    "没话找话",
+    "满口秽语",
+    "畅所欲言",
+    "直言不讳",
+    "直言无讳",
+    "耍嘴皮子",
+    "自言自语",
+    "言不及义",
+    "言之不预",
+    "言之有据",
+    "高谈阔论"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.007397911194367352,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 28552,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.004483389874517893
+      },
+      {
+       "provenance": "leipzig",
+       "line": 170668,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.010312432514216811
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 1.0,
+     "n_substitutions": 64
+    },
+    "illum": {
+     "charge": -0.014039796261609061,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 28552,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.005799088463767685
+      },
+      {
+       "provenance": "leipzig",
+       "line": 170668,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.022280504059450437
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.0625,
+     "n_substitutions": 64
+    },
+    "sound": {
+     "charge": -0.006454258309277425,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 28552,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.008294967574906649
+      },
+      {
+       "provenance": "leipzig",
+       "line": 170668,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.004613549043648201
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.21875,
+     "n_substitutions": 64
+    },
+    "plant": {
+     "charge": 0.001268369561334198,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "leipzig",
+       "line": 28552,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": 0.004447452018935458
+      },
+      {
+       "provenance": "leipzig",
+       "line": 170668,
+       "source": null,
+       "lineno": null,
+       "ens_median_delta": -0.0019107128962670625
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.515625,
+     "n_substitutions": 64
+    }
+   },
+   "charges": {
+    "color": 0.007397911194367352,
+    "illum": -0.014039796261609061,
+    "sound": -0.006454258309277425,
+    "plant": 0.001268369561334198
+   },
+   "specificity_color_over_mean_abs_others": 1.0198189984838497,
+   "largest_abs_charge_axis": "illum",
+   "color_is_max_abs_axis": false,
+   "delta_sign_uniformity_color_pos_frac": 1.0,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 1.0,
+    "illum": 0.0625,
+    "sound": 0.21875,
+    "plant": 0.515625
+   },
+   "reading": "top:illum (color spec 1.0x) -- illum axis >= color -- cross-axis, not color-specific"
+  },
+  "桔子": {
+   "role_in_run": "true-pos (positive)",
+   "record_charge_color": 0.05269421070503356,
+   "record_z_color": 13.948710995360141,
+   "n_used_hosts": 9,
+   "leipzig_n": 0,
+   "caption_n": 9,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "凤梨",
+    "山梨",
+    "山楂",
+    "杜梨",
+    "柠檬",
+    "柰子",
+    "柿饼",
+    "桂圆",
+    "椰枣",
+    "榛子",
+    "水果",
+    "沙棘",
+    "浆果",
+    "焦枣",
+    "甜橙",
+    "羊桃",
+    "脆枣",
+    "花生",
+    "苦橙",
+    "苹果",
+    "荸荠",
+    "莲雾",
+    "葡萄",
+    "蜜柑",
+    "蟠桃",
+    "酸枣",
+    "野果",
+    "香橙",
+    "香瓜",
+    "香蕉",
+    "马蹄",
+    "龙眼"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.05269421070503357,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1176,
+       "ens_median_delta": 0.07021780990348375
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 7208,
+       "ens_median_delta": 0.05555054296084295
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 9239,
+       "ens_median_delta": 0.006645034196989516
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 10311,
+       "ens_median_delta": 0.03253182376361639
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 12196,
+       "ens_median_delta": 0.05269421070503357
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 14158,
+       "ens_median_delta": 0.07428368132136576
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 20460,
+       "ens_median_delta": 0.013591647556030411
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 21198,
+       "ens_median_delta": 0.022062535409642352
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "ext",
+       "lineno": 1434,
+       "ens_median_delta": 0.0807983634981109
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.9236111111111112,
+     "n_substitutions": 288
+    },
+    "illum": {
+     "charge": 0.00044403576065138277,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1176,
+       "ens_median_delta": 0.01216469689977456
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 7208,
+       "ens_median_delta": 0.00044403576065138277
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 9239,
+       "ens_median_delta": 0.006252078159781444
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 10311,
+       "ens_median_delta": -0.006014005727674059
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 12196,
+       "ens_median_delta": -0.010714378415540352
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 14158,
+       "ens_median_delta": 0.005513547606337706
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 20460,
+       "ens_median_delta": 0.0018252496227590988
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 21198,
+       "ens_median_delta": -0.0044125518722586445
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "ext",
+       "lineno": 1434,
+       "ens_median_delta": -0.00511797296627172
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.5208333333333334,
+     "n_substitutions": 288
+    },
+    "sound": {
+     "charge": -0.02753867925891373,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1176,
+       "ens_median_delta": -0.030712938476423292
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 7208,
+       "ens_median_delta": -0.034191914157718
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 9239,
+       "ens_median_delta": -0.007388303487178051
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 10311,
+       "ens_median_delta": -0.02753867925891373
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 12196,
+       "ens_median_delta": -0.024655152932129977
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 14158,
+       "ens_median_delta": -0.047724215642471854
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 20460,
+       "ens_median_delta": -0.008251472520478125
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 21198,
+       "ens_median_delta": -0.017356934915014832
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "ext",
+       "lineno": 1434,
+       "ens_median_delta": -0.045239193732136085
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.052083333333333336,
+     "n_substitutions": 288
+    },
+    "plant": {
+     "charge": 0.06514534690407228,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1176,
+       "ens_median_delta": 0.055731482640678245
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 7208,
+       "ens_median_delta": 0.07670666775629381
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 9239,
+       "ens_median_delta": 0.034877615296963316
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 10311,
+       "ens_median_delta": 0.09194547464617842
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 12196,
+       "ens_median_delta": 0.09297813872354657
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 14158,
+       "ens_median_delta": 0.07680067328721032
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 20460,
+       "ens_median_delta": 0.009505491085618378
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 21198,
+       "ens_median_delta": 0.030081835952495556
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "ext",
+       "lineno": 1434,
+       "ens_median_delta": 0.06514534690407228
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.9131944444444444,
+     "n_substitutions": 288
+    }
+   },
+   "charges": {
+    "color": 0.05269421070503357,
+    "illum": 0.00044403576065138277,
+    "sound": -0.02753867925891373,
+    "plant": 0.06514534690407228
+   },
+   "specificity_color_over_mean_abs_others": 1.6974758075039118,
+   "largest_abs_charge_axis": "plant",
+   "color_is_max_abs_axis": false,
+   "delta_sign_uniformity_color_pos_frac": 0.9236111111111112,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 0.9236111111111112,
+    "illum": 0.5208333333333334,
+    "sound": 0.052083333333333336,
+    "plant": 0.9131944444444444
+   },
+   "reading": "top:plant (color spec 1.7x) -- plant axis >= color -- cross-axis, not color-specific"
+  },
+  "西兰花": {
+   "role_in_run": "true-pos (positive)",
+   "record_charge_color": 0.019339253200024574,
+   "record_z_color": 5.053070215260874,
+   "n_used_hosts": 20,
+   "leipzig_n": 0,
+   "caption_n": 124,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "上眼皮",
+    "东半球",
+    "中介子",
+    "仪表板",
+    "传送带",
+    "光电子",
+    "八字脚",
+    "各部委",
+    "后备军",
+    "商务部",
+    "处女膜",
+    "外展肌",
+    "大辣椒",
+    "惯用法",
+    "指示器",
+    "摄像管",
+    "断层带",
+    "松塔儿",
+    "横剖面",
+    "横断面",
+    "燃油表",
+    "球门柱",
+    "组织胺",
+    "经济系",
+    "耳根子",
+    "胸小肌",
+    "脚蹬子",
+    "负电荷",
+    "通产省",
+    "铁道部",
+    "马桶盖",
+    "鼻梁儿"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.019339253200024567,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 107,
+       "ens_median_delta": 0.03090209055588749
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 163,
+       "ens_median_delta": 0.014795310898588286
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 829,
+       "ens_median_delta": 0.03265243571123508
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 871,
+       "ens_median_delta": 0.015568711960272555
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 996,
+       "ens_median_delta": 0.012758983209872551
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.0034586798506645814
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1427,
+       "ens_median_delta": 0.024441852175361878
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1530,
+       "ens_median_delta": 0.013181299583831508
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1777,
+       "ens_median_delta": 0.07023508604260978
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2175,
+       "ens_median_delta": 0.041759262223921206
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2535,
+       "ens_median_delta": 0.014452260292866653
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2734,
+       "ens_median_delta": 0.006458867541038332
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2950,
+       "ens_median_delta": 0.05884913967095538
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3240,
+       "ens_median_delta": 0.034637435302904356
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3604,
+       "ens_median_delta": 0.019248411218691225
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": 0.016555130387546635
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": 0.02967592021104685
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4077,
+       "ens_median_delta": 0.01943009518135791
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4124,
+       "ens_median_delta": 0.03763170562582151
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4179,
+       "ens_median_delta": 0.006173869652706249
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.9171875,
+     "n_substitutions": 640
+    },
+    "illum": {
+     "charge": -0.022380550884701235,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 107,
+       "ens_median_delta": -0.01898606806438799
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 163,
+       "ens_median_delta": -0.008272603069310703
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 829,
+       "ens_median_delta": -0.03912752703074471
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 871,
+       "ens_median_delta": -0.029896721299887772
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 996,
+       "ens_median_delta": -0.017716376429060904
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": -0.016814619806766483
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1427,
+       "ens_median_delta": -0.039736295829205744
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1530,
+       "ens_median_delta": -0.030432824176770866
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1777,
+       "ens_median_delta": -0.022728113126701074
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2175,
+       "ens_median_delta": -0.026247131816707285
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2535,
+       "ens_median_delta": -0.016238076432338155
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2734,
+       "ens_median_delta": -0.01575233116056121
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2950,
+       "ens_median_delta": -0.05814483396997734
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3240,
+       "ens_median_delta": -0.022032988642701395
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3604,
+       "ens_median_delta": -0.012360897158604806
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": -0.03819795407875621
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": -0.021595646432792524
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4077,
+       "ens_median_delta": -0.023410036479535934
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4124,
+       "ens_median_delta": -0.026290984314166238
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4179,
+       "ens_median_delta": -0.007630182871090332
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.1015625,
+     "n_substitutions": 640
+    },
+    "sound": {
+     "charge": 0.005829500759144795,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 107,
+       "ens_median_delta": 0.007020059624869783
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 163,
+       "ens_median_delta": 0.016768469259638295
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 829,
+       "ens_median_delta": -0.0025342300978658397
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 871,
+       "ens_median_delta": 0.011408139431892724
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 996,
+       "ens_median_delta": 0.014761937240915776
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.0069493163590057146
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1427,
+       "ens_median_delta": -0.006754471278715384
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1530,
+       "ens_median_delta": -0.01924258103660112
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1777,
+       "ens_median_delta": 0.023850589021262907
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2175,
+       "ens_median_delta": 0.029172387102310175
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2535,
+       "ens_median_delta": 0.004709685159283876
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2734,
+       "ens_median_delta": -0.0013735418008157495
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2950,
+       "ens_median_delta": 0.029109322735678705
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3240,
+       "ens_median_delta": 0.01652279290624882
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3604,
+       "ens_median_delta": -0.0016667494702024832
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": -0.002343510788395991
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": -0.004987050842880189
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4077,
+       "ens_median_delta": -0.0030035509400494972
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4124,
+       "ens_median_delta": 0.01961709602014816
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4179,
+       "ens_median_delta": 0.002944358176554366
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.596875,
+     "n_substitutions": 640
+    },
+    "plant": {
+     "charge": 0.1060079896984753,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 107,
+       "ens_median_delta": 0.16383698763119864
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 163,
+       "ens_median_delta": 0.06988050846164753
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 829,
+       "ens_median_delta": 0.15566775216806933
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 871,
+       "ens_median_delta": 0.1521409753604291
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 996,
+       "ens_median_delta": 0.04998534926902479
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.05468515744519829
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1427,
+       "ens_median_delta": 0.10113576059762482
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1530,
+       "ens_median_delta": 0.12102034505626047
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1777,
+       "ens_median_delta": 0.19652197480046274
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2175,
+       "ens_median_delta": 0.12619964375614867
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2535,
+       "ens_median_delta": 0.08696159080075971
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2734,
+       "ens_median_delta": 0.14502548846069283
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2950,
+       "ens_median_delta": 0.1821396868140944
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3240,
+       "ens_median_delta": 0.08715431680980035
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3604,
+       "ens_median_delta": 0.07682410872872839
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": 0.044016300841014266
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": 0.11088021879932579
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4077,
+       "ens_median_delta": 0.08755414356760681
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4124,
+       "ens_median_delta": 0.1373390498557838
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4179,
+       "ens_median_delta": 0.056553453479751964
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 1.0,
+     "n_substitutions": 640
+    }
+   },
+   "charges": {
+    "color": 0.019339253200024567,
+    "illum": -0.022380550884701235,
+    "sound": 0.005829500759144795,
+    "plant": 0.1060079896984753
+   },
+   "specificity_color_over_mean_abs_others": 0.4322649847951526,
+   "largest_abs_charge_axis": "plant",
+   "color_is_max_abs_axis": false,
+   "delta_sign_uniformity_color_pos_frac": 0.9171875,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 0.9171875,
+    "illum": 0.1015625,
+    "sound": 0.596875,
+    "plant": 1.0
+   },
+   "reading": "top:plant (color spec 0.4x) -- plant axis >= color -- cross-axis, not color-specific"
+  },
+  "斑马": {
+   "role_in_run": "true-pos (positive)",
+   "record_charge_color": 0.00812326058237084,
+   "record_z_color": 2.061807483059531,
+   "n_used_hosts": 20,
+   "leipzig_n": 0,
+   "caption_n": 374,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "仓鼠",
+    "兽类",
+    "刺猬",
+    "剑龙",
+    "山猫",
+    "巨蝮",
+    "幼狮",
+    "幼鹿",
+    "树懒",
+    "母狮",
+    "毛象",
+    "海兽",
+    "火狐",
+    "狐蝠",
+    "狮子",
+    "猎豹",
+    "猢狲",
+    "猫熊",
+    "猴子",
+    "獐子",
+    "田鼠",
+    "蛟龙",
+    "袋鼯",
+    "豹子",
+    "貉子",
+    "走兽",
+    "跳鼠",
+    "野兔",
+    "野猪",
+    "雪豹",
+    "麝牛",
+    "鼢鼠"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.00812326058237084,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 84,
+       "ens_median_delta": 0.002916481921658564
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 106,
+       "ens_median_delta": 0.009316259209836857
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 118,
+       "ens_median_delta": 0.0013760928519714818
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 119,
+       "ens_median_delta": 0.020011261896792726
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 120,
+       "ens_median_delta": 0.013766380784232209
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 121,
+       "ens_median_delta": 0.013864975867103864
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 122,
+       "ens_median_delta": 0.010544116695027535
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 303,
+       "ens_median_delta": 0.0033161273331205957
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 320,
+       "ens_median_delta": 0.006652509539360443
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 343,
+       "ens_median_delta": 0.0007965098412354918
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 472,
+       "ens_median_delta": 0.005985822435211743
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 489,
+       "ens_median_delta": 0.00793713898474046
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 662,
+       "ens_median_delta": 0.00365042532229036
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 775,
+       "ens_median_delta": 0.015086518543427619
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 840,
+       "ens_median_delta": 0.00830938218000122
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 983,
+       "ens_median_delta": 0.00021002454350952174
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 998,
+       "ens_median_delta": 0.007330289969679896
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1276,
+       "ens_median_delta": 0.009181069575087103
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1297,
+       "ens_median_delta": 0.010232859194744655
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1417,
+       "ens_median_delta": 0.01806739717488334
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.740625,
+     "n_substitutions": 640
+    },
+    "illum": {
+     "charge": -0.01695844785706365,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 84,
+       "ens_median_delta": -0.011333351442499112
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 106,
+       "ens_median_delta": -0.0036111229358734634
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 118,
+       "ens_median_delta": -0.016854609647840777
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 119,
+       "ens_median_delta": -0.027202562366486875
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 120,
+       "ens_median_delta": -0.021983807827322434
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 121,
+       "ens_median_delta": -0.023594853601012603
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 122,
+       "ens_median_delta": -0.014609547600215655
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 303,
+       "ens_median_delta": -0.0050098998151709906
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 320,
+       "ens_median_delta": -0.014892523049365702
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 343,
+       "ens_median_delta": -0.013115655380617541
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 472,
+       "ens_median_delta": -0.019705110600993978
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 489,
+       "ens_median_delta": -0.01236118864042884
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 662,
+       "ens_median_delta": -0.02333842248451789
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 775,
+       "ens_median_delta": -0.020141468661467328
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 840,
+       "ens_median_delta": -0.01737756881185494
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 983,
+       "ens_median_delta": -0.018073705543760622
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 998,
+       "ens_median_delta": -0.02162451001332151
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1276,
+       "ens_median_delta": -0.01617389462602344
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1297,
+       "ens_median_delta": -0.013941783255074485
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1417,
+       "ens_median_delta": -0.01706228606628652
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.121875,
+     "n_substitutions": 640
+    },
+    "sound": {
+     "charge": -0.01855728785570524,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 84,
+       "ens_median_delta": -0.011508664512843284
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 106,
+       "ens_median_delta": -0.023068336976865212
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 118,
+       "ens_median_delta": -0.03627373012279978
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 119,
+       "ens_median_delta": -0.03392299193346271
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 120,
+       "ens_median_delta": -0.029675379921983703
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 121,
+       "ens_median_delta": -0.021762933187429313
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 122,
+       "ens_median_delta": -0.0012867536086442546
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 303,
+       "ens_median_delta": 0.0015526702603440579
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 320,
+       "ens_median_delta": -0.018974641079680166
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 343,
+       "ens_median_delta": -0.020811354967072468
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 472,
+       "ens_median_delta": -0.010358063727495365
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 489,
+       "ens_median_delta": -0.012405006749507317
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 662,
+       "ens_median_delta": -0.023902295267653993
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 775,
+       "ens_median_delta": -0.02085226858212779
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 840,
+       "ens_median_delta": -0.03004678964550817
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 983,
+       "ens_median_delta": -0.0009769192850878914
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 998,
+       "ens_median_delta": -0.016330693104675643
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1276,
+       "ens_median_delta": -0.011663169838818597
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1297,
+       "ens_median_delta": -0.017836968694190034
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1417,
+       "ens_median_delta": -0.01813993463173032
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.2046875,
+     "n_substitutions": 640
+    },
+    "plant": {
+     "charge": -0.003572259727910118,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 84,
+       "ens_median_delta": -0.002292894989059789
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 106,
+       "ens_median_delta": -0.0031864769579664012
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 118,
+       "ens_median_delta": -0.011486727375443227
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 119,
+       "ens_median_delta": -0.005401624975375961
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 120,
+       "ens_median_delta": -0.01727034790794001
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 121,
+       "ens_median_delta": -0.006524739946627087
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 122,
+       "ens_median_delta": 0.009156118369095037
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 303,
+       "ens_median_delta": 0.004061862777098052
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 320,
+       "ens_median_delta": 0.005479065089809568
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 343,
+       "ens_median_delta": -0.007554705281042987
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 472,
+       "ens_median_delta": -0.004794454401162251
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 489,
+       "ens_median_delta": -0.003958042497853835
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 662,
+       "ens_median_delta": -0.010110790302371706
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 775,
+       "ens_median_delta": 0.005049641303514851
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 840,
+       "ens_median_delta": -0.005741779396413238
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 983,
+       "ens_median_delta": 0.006433819366556806
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 998,
+       "ens_median_delta": -0.010543351695329543
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1276,
+       "ens_median_delta": 0.006344458188747567
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1297,
+       "ens_median_delta": -0.0007398385188547713
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1417,
+       "ens_median_delta": 0.00010239146489907786
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.4390625,
+     "n_substitutions": 640
+    }
+   },
+   "charges": {
+    "color": 0.00812326058237084,
+    "illum": -0.01695844785706365,
+    "sound": -0.01855728785570524,
+    "plant": -0.003572259727910118
+   },
+   "specificity_color_over_mean_abs_others": 0.6234594911395943,
+   "largest_abs_charge_axis": "sound",
+   "color_is_max_abs_axis": false,
+   "delta_sign_uniformity_color_pos_frac": 0.740625,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 0.740625,
+    "illum": 0.121875,
+    "sound": 0.2046875,
+    "plant": 0.4390625
+   },
+   "reading": "top:sound (color spec 0.6x) -- sound axis >= color -- cross-axis, not color-specific"
+  },
+  "胡萝卜": {
+   "role_in_run": "true-pos (positive)",
+   "record_charge_color": 0.007977906532592689,
+   "record_z_color": 2.023042108750032,
+   "n_used_hosts": 20,
+   "leipzig_n": 0,
+   "caption_n": 112,
+   "n_candidates": 32,
+   "host_identity_ok": true,
+   "candidates": [
+    "上胸骨",
+    "中腹部",
+    "人事科",
+    "候机厅",
+    "双眼皮",
+    "取景器",
+    "国防军",
+    "壁炉台",
+    "大拇哥",
+    "孔眼线",
+    "对立面",
+    "小标题",
+    "山羊皮",
+    "左心室",
+    "快中子",
+    "榆钱儿",
+    "涡轮机",
+    "清欠办",
+    "离合器",
+    "肩关节",
+    "肺动脉",
+    "茶壶盖",
+    "西葫芦",
+    "计生委",
+    "讨论题",
+    "起落架",
+    "路由器",
+    "踢脚线",
+    "轻炮兵",
+    "长羽毛",
+    "门侧柱",
+    "龙须菜"
+   ],
+   "axes": {
+    "color": {
+     "charge": 0.007977906532592696,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 830,
+       "ens_median_delta": 0.03669109949780703
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1111,
+       "ens_median_delta": 0.030874652574476462
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1112,
+       "ens_median_delta": 0.02592045140115859
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.00778815139709035
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1213,
+       "ens_median_delta": -0.0007930790187775302
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1629,
+       "ens_median_delta": 0.008167661668095039
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1839,
+       "ens_median_delta": 0.0031196482367598505
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1882,
+       "ens_median_delta": -0.03062089730076073
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1907,
+       "ens_median_delta": 0.011656949786283064
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2348,
+       "ens_median_delta": 0.008751865051176408
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2629,
+       "ens_median_delta": 0.003511647262926583
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2842,
+       "ens_median_delta": 0.014138916034294732
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2870,
+       "ens_median_delta": -0.011540764295481995
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3025,
+       "ens_median_delta": 0.02271744445112605
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3519,
+       "ens_median_delta": 0.005919246847236215
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3636,
+       "ens_median_delta": 0.005605855605237007
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": 0.005690368213381189
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": 0.02356937756562249
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4000,
+       "ens_median_delta": -0.010155322126376695
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4149,
+       "ens_median_delta": 0.010199168503499842
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.7109375,
+     "n_substitutions": 640
+    },
+    "illum": {
+     "charge": -0.0007355277255533281,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 830,
+       "ens_median_delta": -0.001778922794133983
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1111,
+       "ens_median_delta": -0.01336670992566931
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1112,
+       "ens_median_delta": -0.009319820584856503
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.007115697285229511
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1213,
+       "ens_median_delta": 0.0026742269199224837
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1629,
+       "ens_median_delta": -0.0007101374266762217
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1839,
+       "ens_median_delta": -0.0004945888112360226
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1882,
+       "ens_median_delta": -0.0030875141487241645
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1907,
+       "ens_median_delta": -0.0032971445618551463
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2348,
+       "ens_median_delta": -0.0003633396451550291
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2629,
+       "ens_median_delta": -0.03130415384630064
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2842,
+       "ens_median_delta": 0.013145616126955913
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2870,
+       "ens_median_delta": -0.0029171114247513244
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3025,
+       "ens_median_delta": 0.02048492634807489
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3519,
+       "ens_median_delta": -0.016500776134776487
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3636,
+       "ens_median_delta": -0.0007609180244304344
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": 0.0014195513738188056
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": -0.0052512426585181946
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4000,
+       "ens_median_delta": 0.01439945006568273
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4149,
+       "ens_median_delta": 0.006702819691820761
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.50625,
+     "n_substitutions": 640
+    },
+    "sound": {
+     "charge": -0.012311649461751293,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 830,
+       "ens_median_delta": -0.04474374065425821
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1111,
+       "ens_median_delta": -0.04588117559581223
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1112,
+       "ens_median_delta": -0.05328459089598819
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.00661087934423147
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1213,
+       "ens_median_delta": 0.003157977607699057
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1629,
+       "ens_median_delta": -0.017481885160640455
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1839,
+       "ens_median_delta": 0.030087200914953684
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1882,
+       "ens_median_delta": 0.0008149553073778099
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1907,
+       "ens_median_delta": 0.006962525766094435
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2348,
+       "ens_median_delta": -0.06508907348218688
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2629,
+       "ens_median_delta": -0.028789655064866675
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2842,
+       "ens_median_delta": -0.02549582850809193
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2870,
+       "ens_median_delta": 0.014683738578879509
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3025,
+       "ens_median_delta": 0.014770959036261536
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3519,
+       "ens_median_delta": -0.04451126341817188
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3636,
+       "ens_median_delta": -0.010182917048388909
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": -0.014440381875113676
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": -0.03090886818805858
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4000,
+       "ens_median_delta": 0.0016731326577409215
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4149,
+       "ens_median_delta": -0.008295120552392246
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.3375,
+     "n_substitutions": 640
+    },
+    "plant": {
+     "charge": 0.04583624831038183,
+     "per_host_ens_median_delta": [
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 830,
+       "ens_median_delta": 0.2194952812024923
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1111,
+       "ens_median_delta": 0.14220875812683978
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1112,
+       "ens_median_delta": 0.13011176296366553
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1212,
+       "ens_median_delta": 0.029568245883209512
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1213,
+       "ens_median_delta": -0.014466253382745181
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1629,
+       "ens_median_delta": 0.05498813461460278
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1839,
+       "ens_median_delta": -0.016873768470967138
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1882,
+       "ens_median_delta": 0.01522253341943644
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 1907,
+       "ens_median_delta": 0.034755465651073125
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2348,
+       "ens_median_delta": 0.15060011915849986
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2629,
+       "ens_median_delta": 0.16492290697489853
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2842,
+       "ens_median_delta": 0.15223531739317103
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 2870,
+       "ens_median_delta": -0.018042525103369594
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3025,
+       "ens_median_delta": 0.023544254414170032
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3519,
+       "ens_median_delta": 0.12500898497131607
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3636,
+       "ens_median_delta": -0.009401066487104856
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3897,
+       "ens_median_delta": 0.03145479037155176
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 3914,
+       "ens_median_delta": 0.15017970175447692
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4000,
+       "ens_median_delta": 0.039013867708946895
+      },
+      {
+       "provenance": "caption",
+       "line": null,
+       "source": "main",
+       "lineno": 4149,
+       "ens_median_delta": 0.05265862891181676
+      }
+     ],
+     "delta_sign_uniformity_pos_frac": 0.8203125,
+     "n_substitutions": 640
+    }
+   },
+   "charges": {
+    "color": 0.007977906532592696,
+    "illum": -0.0007355277255533281,
+    "sound": -0.012311649461751293,
+    "plant": 0.04583624831038183
+   },
+   "specificity_color_over_mean_abs_others": 0.4064593626387862,
+   "largest_abs_charge_axis": "plant",
+   "color_is_max_abs_axis": false,
+   "delta_sign_uniformity_color_pos_frac": 0.7109375,
+   "delta_sign_uniformity_all_axes_pos_frac": {
+    "color": 0.7109375,
+    "illum": 0.50625,
+    "sound": 0.3375,
+    "plant": 0.8203125
+   },
+   "reading": "top:plant (color spec 0.4x) -- plant axis >= color -- cross-axis, not color-specific"
+  }
+ },
+ "color_reproduction_vs_run_record": {
+  "per_word_charge_maxabs": 1.3877787807814457e-17,
+  "per_host_maxabs": 2.7755575615628914e-17,
+  "per_word": {
+   "同一": {
+    "mine": 0.008906042443436306,
+    "record": 0.008906042443436304,
+    "abs_diff": 1.734723475976807e-18,
+    "per_host_maxabs": 1.5612511283791264e-17,
+    "n_per_host_matched": 20,
+    "record_z": 2.270572439338376
+   },
+   "言之凿凿": {
+    "mine": 0.007397911194367352,
+    "record": 0.007397911194367352,
+    "abs_diff": 0.0,
+    "per_host_maxabs": 0.0,
+    "n_per_host_matched": 2,
+    "record_z": 1.8683595497268353
+   },
+   "桔子": {
+    "mine": 0.05269421070503357,
+    "record": 0.05269421070503356,
+    "abs_diff": 1.3877787807814457e-17,
+    "per_host_maxabs": 1.3877787807814457e-17,
+    "n_per_host_matched": 9,
+    "record_z": 13.948710995360141
+   },
+   "西兰花": {
+    "mine": 0.019339253200024567,
+    "record": 0.019339253200024574,
+    "abs_diff": 6.938893903907228e-18,
+    "per_host_maxabs": 2.7755575615628914e-17,
+    "n_per_host_matched": 20,
+    "record_z": 5.053070215260874
+   },
+   "斑马": {
+    "mine": 0.00812326058237084,
+    "record": 0.00812326058237084,
+    "abs_diff": 0.0,
+    "per_host_maxabs": 1.3877787807814457e-17,
+    "n_per_host_matched": 20,
+    "record_z": 2.061807483059531
+   },
+   "胡萝卜": {
+    "mine": 0.007977906532592696,
+    "record": 0.007977906532592689,
+    "abs_diff": 6.938893903907228e-18,
+    "per_host_maxabs": 1.3877787807814457e-17,
+    "n_per_host_matched": 20,
+    "record_z": 2.023042108750032
+   }
+  },
+  "note": "mine vs record items[].charge / per_host[].ens_median_delta"
+ },
+ "provenance": {
+  "label": "DIAGNOSTIC -- unregistered, no credential claim, reported to the sitting",
+  "record": {
+   "path": "results/word_latent_v4_referent_color_54.json",
+   "sha256": "ec8e1943ef702d308a91eccfe23db7bf42f265d0df72143af2ffbfe727545235",
+   "verdict": "ABORT (F1 floor fired) [THIN: 5<=gate n<10]"
+  },
+  "axes": {
+   "color": {
+    "npz": "results/color_salience_axis_48.npz",
+    "key": "axis",
+    "npz_files": [
+     "mu",
+     "W",
+     "axis"
+    ],
+    "sha256": "581d378126a16b893968fb4dda6520ecea0e5ecfe2c66c7983e683f7ed12b686"
+   },
+   "illum": {
+    "npz": "results/illum_polarity_axis_v3_48.npz",
+    "key": "dark",
+    "npz_files": [
+     "mu",
+     "W",
+     "dark",
+     "dark_raw",
+     "valence"
+    ],
+    "sha256": "52bfe9c803c41649e4fa27e89e0a88d6104deefa72699761e33debdb3d1244da"
+   },
+   "sound": {
+    "npz": "results/sound_salience_axis_v3_49.npz",
+    "key": "axis",
+    "npz_files": [
+     "mu",
+     "W",
+     "axis",
+     "corpus_A",
+     "corpus_B"
+    ],
+    "sha256": "80443b38810f5fd28374b370c945f703bda3e9f9c6e87378820f726d2e53ddb8"
+   },
+   "plant": {
+    "npz": "results/plant_salience_axis_48.npz",
+    "key": "axis",
+    "npz_files": [
+     "mu",
+     "W",
+     "axis"
+    ],
+    "sha256": "14d4d78afbefd179c40863b9cb12e807ed3aef083a548d3d16cd543b3d701076"
+   }
+  },
+  "reused_from": "word_latent_v4_referent_color_54.py (imported as V4; assemble_hosts / make_embed / certificate / project / sha256_file / K / SEED verbatim)",
+  "candidates_source": "VERBATIM results/word_latent_v4_referent_color_54.json items[].candidates (post-cap 32; NOT re-derived, NOT re-capped)",
+  "encoder": "models/LaBSE, device=cpu, normalize_embeddings=True, batch_size=1",
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32
+ }
+}

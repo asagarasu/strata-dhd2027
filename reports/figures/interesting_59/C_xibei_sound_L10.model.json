@@ -1,0 +1,474 @@
+{
+ "board": "xibei",
+ "line_idx": 9,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "zh:gushi19_05",
+ "seats": [
+  {
+   "rid": "zh:gushi19_05",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "中曲正徘徊。",
+   "v": 0.08705478807156636,
+   "rank": 7,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 2.089088129547175,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "latent",
+   "via": "written",
+   "two": false,
+   "state_word": "中曲",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "中曲",
+    "delta": 0.06521770531444634,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": true,
+     "carriers": [
+      "曲"
+     ],
+     "line_words": [
+      "中曲"
+     ],
+     "covered": true,
+     "fired": true
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "中曲",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Halfway her tune falters.",
+   "v": 0.1533340179710495,
+   "rank": 4,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 4.167721423311503,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.16969090373391524,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Lingering and wavering in the mid-melody.",
+   "v": 0.21951958769824415,
+   "rank": 3,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 6.02057911739359,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "melody",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "mid-melody",
+    "delta": 0.10803102623997728,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "melody[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "mid-melody",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "and then they faltered, mid-melody;",
+   "v": 0.08623489469277396,
+   "rank": 9,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.2892888987481936,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "melody",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "mid-melody",
+    "delta": 0.06382653504596404,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "melody[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "mid-melody",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "The middle lay lingers indecisive.",
+   "v": -0.05432463286012839,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.645659507322995,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "lay",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "middle",
+    "delta": -0.05810390745492472,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "lay[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "middle",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": "lay",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "halfway through, it falters and breaks,",
+   "v": 0.05237591612488542,
+   "rank": 11,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.341410543815857,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "breaks",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": true,
+   "top_tok": {
+    "token": "breaks",
+    "delta": 0.044307923158537224,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "breaks",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "breaks",
+   "transmission": "LATENT-ECHO"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "The middle tune wafts ill at ease.",
+   "v": 0.14679601904504608,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.9846908674988457,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 10,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.12076065985630725,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "REVIVAL"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

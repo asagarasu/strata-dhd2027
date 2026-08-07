@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="808" height="478" font-family="Georgia, 'Times New Roman', serif">
+<defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="9" height="9" patternTransform="rotate(45)"><rect width="9" height="9" fill="#fffdf9"/><line x1="0" y1="0" x2="0" y2="9" stroke="#d8d2c6" stroke-width="1.1"/></pattern></defs>
+<rect width="808" height="478" fill="#fffdf9"/>
+<line x1="8" y1="58" x2="800" y2="58" stroke="#1f2937" stroke-width="1.4"/>
+<text x="8" y="38" font-size="16" letter-spacing="3.5" fill="#374151">THE TRANSMISSION STATE</text>
+<rect x="372" y="22" width="16" height="11" fill="#fffdf9" stroke="#9ca3af" stroke-width="0.6"/>
+<text x="397" y="33" font-size="10.0" fill="#6b7280">reachable on the wording alone</text>
+<rect x="372" y="42" width="16" height="11" fill="#f6eed9"/>
+<text x="397" y="53" font-size="10.0" fill="#6b7280">reached only through the carriage layers</text>
+<rect x="607" y="22" width="16" height="11" fill="#e6eff1"/>
+<text x="632" y="33" font-size="10.0" fill="#6b7280">reached through the ghost state</text>
+<rect x="607" y="42" width="16" height="11" fill="url(#hatch)" stroke="#d8d2c6" stroke-width="0.6"/>
+<text x="632" y="53" font-size="10.0" fill="#6b7280">extended-corpus exhibit · not census</text>
+<text x="32" y="70" font-size="10" letter-spacing="2.5" fill="#9ca3af">SOURCE STATE ↓</text>
+<text x="202" y="70" font-size="10" letter-spacing="2.5" fill="#9ca3af">TRANSLATED STATE →</text>
+<text x="128" y="83" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle">STATED</text>
+<text x="320" y="83" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle">LATENT</text>
+<text x="512" y="83" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle">GHOST</text>
+<text x="704" y="83" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle">ABSENT</text>
+<text x="20" y="138" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle" transform="rotate(-90 20 138)">STATED</text>
+<rect x="32" y="88" width="192" height="99" fill="#fffdf9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="42" y="104" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">SURVIVAL</text>
+<text x="42" y="115" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="42" y="131" font-size="13.5" fill="#111827">his <tspan fill="#b22222">gold</tspan> complexion dimm’d</text>
+<text x="214" y="143" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">sonnet 18</text>
+<text x="42" y="159" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> 但转瞬又<tspan fill="#b22222">金</tspan>面如晦</text>
+<text x="214" y="171" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">gu_zhengkun L6</text>
+<rect x="224" y="88" width="192" height="99" fill="#f6eed9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="234" y="104" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">PARTIAL-LOSS</text>
+<text x="234" y="115" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="234" y="131" font-size="13.5" fill="#111827">Le <tspan fill="#b22222">feu</tspan> clair qui remplit les</text>
+<text x="234" y="147" font-size="13.5" fill="#111827">espaces limpides.</text>
+<text x="347" y="147" font-size="9.5" font-style="italic" fill="#8a8577">Élévation</text>
+<text x="234" y="163" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> the serene <tspan fill="#c9a227">bright</tspan></text>
+<text x="234" y="179" font-size="13.5" fill="#111827">solitudes</text>
+<text x="298" y="179" font-size="9.5" font-style="italic" fill="#8a8577">dillon L12</text>
+<rect x="416" y="88" width="192" height="99" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="426" y="104" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">ECHO</text>
+<text x="426" y="115" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="426" y="131" font-size="13.5" fill="#111827"><tspan fill="#0f766e">音响</tspan>一何悲！</text>
+<text x="516" y="131" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="426" y="147" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> whose <tspan fill="#d97706">echoes</tspan> were sad</text>
+<text x="426" y="163" font-size="13.5" fill="#111827">as they could be</text>
+<text x="532" y="163" font-size="9.5" font-style="italic" fill="#8a8577">owen L6</text>
+<rect x="608" y="88" width="192" height="99" fill="#fffdf9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="618" y="104" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">DEFORMATION</text>
+<text x="618" y="115" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="618" y="131" font-size="13.5" fill="#111827">娥娥<tspan fill="#b22222">紅</tspan>粉妝，</text>
+<text x="708" y="131" font-size="9.5" font-style="italic" fill="#8a8577">青青河畔草</text>
+<text x="618" y="147" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> Und blickt tiefatmend in</text>
+<text x="618" y="163" font-size="13.5" fill="#111827">das klare Wasser.</text>
+<text x="734" y="163" font-size="9.5" font-style="italic" fill="#8a8577">bethge L5→8</text>
+<text x="20" y="228" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle" transform="rotate(-90 20 228)">LATENT</text>
+<rect x="32" y="187" width="192" height="83" fill="#f6eed9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="42" y="203" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">REVIVAL</text>
+<text x="42" y="214" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="42" y="230" font-size="13.5" fill="#111827"><tspan fill="#c9a227">中曲</tspan>正徘徊。</text>
+<text x="132" y="230" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="42" y="246" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> they faltered, mid-</text>
+<text x="42" y="262" font-size="13.5" fill="#111827"><tspan fill="#0f766e">melody</tspan></text>
+<text x="92" y="262" font-size="9.5" font-style="italic" fill="#8a8577">owen L10</text>
+<rect x="224" y="187" width="192" height="83" fill="url(#hatch)" stroke="#d8d2c6" stroke-width="1"/>
+<text x="234" y="203" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#4338ca" fill-opacity="0.62">LATENT-CARRY</text>
+<text x="234" y="214" font-size="9.0" letter-spacing="1" fill="#9ca3af">(ILLUMINATION)</text>
+<text x="234" y="230" font-size="13.5" fill="#111827" fill-opacity="0.62">山氣日<tspan fill="#c9a227">夕</tspan>佳</text>
+<text x="310" y="230" font-size="9.5" font-style="italic" fill="#8a8577">飲酒其五</text>
+<text x="234" y="246" font-size="13.5" fill="#111827" fill-opacity="0.62"><tspan fill="#6b7280">→</tspan> fresh at the <tspan fill="#c9a227">dusk</tspan> of day</text>
+<text x="406" y="258" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">waley L7</text>
+<rect x="416" y="187" width="192" height="83" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="426" y="203" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">LATENT-ECHO</text>
+<text x="426" y="214" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="426" y="230" font-size="13.5" fill="#111827"><tspan fill="#c9a227">中曲</tspan>正徘徊。</text>
+<text x="516" y="230" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="426" y="246" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> it falters and <tspan fill="#d97706">breaks</tspan></text>
+<text x="598" y="258" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">watson L10</text>
+<rect x="608" y="187" width="192" height="83" fill="url(#hatch)" stroke="#d8d2c6" stroke-width="1"/>
+<text x="618" y="203" font-size="12.5" font-style="italic" letter-spacing="1" fill="#6b7280">LATENT-UNREALIZED</text>
+<text x="618" y="219" font-size="11" font-style="italic" fill="#9ca3af">awaits data</text>
+<text x="618" y="260" font-size="9.5" font-style="italic" fill="#9ca3af">empty in the v5.1 census</text>
+<text x="20" y="316" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle" transform="rotate(-90 20 316)">GHOST</text>
+<rect x="32" y="270" width="192" height="91" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="42" y="286" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">RENDERED</text>
+<text x="42" y="297" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="42" y="313" font-size="13.5" fill="#111827"><tspan fill="#d97706">皎皎</tspan>當窗牖。</text>
+<text x="132" y="313" font-size="9.5" font-style="italic" fill="#8a8577">青青河畔草</text>
+<text x="42" y="329" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> <tspan fill="#b22222">White</tspan>, white faces her</text>
+<text x="42" y="345" font-size="13.5" fill="#111827">window</text>
+<text x="95" y="345" font-size="9.5" font-style="italic" fill="#8a8577">birrell L4</text>
+<rect x="224" y="270" width="192" height="91" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="234" y="286" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">GHOST-GROUNDED</text>
+<text x="234" y="297" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="234" y="313" font-size="13.5" fill="#111827"><tspan fill="#d97706">皎皎</tspan>當窗牖。</text>
+<text x="324" y="313" font-size="9.5" font-style="italic" fill="#8a8577">青青河畔草</text>
+<text x="234" y="329" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> <tspan fill="#c9a227">Bright</tspan>, bright like a</text>
+<text x="234" y="345" font-size="13.5" fill="#111827">window-frame</text>
+<text x="330" y="345" font-size="9.5" font-style="italic" fill="#8a8577">xu_yuanchong L4</text>
+<rect x="416" y="270" width="192" height="91" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="426" y="286" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">GHOST-CARRY</text>
+<text x="426" y="297" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="426" y="313" font-size="13.5" fill="#111827">慷慨有余<tspan fill="#d97706">哀</tspan></text>
+<text x="502" y="313" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="426" y="329" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> impassioned and filled</text>
+<text x="426" y="345" font-size="13.5" fill="#111827">with <tspan fill="#d97706">melancholy</tspan>.</text>
+<text x="535" y="345" font-size="9.5" font-style="italic" fill="#8a8577">owen L12</text>
+<rect x="608" y="270" width="192" height="91" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="618" y="286" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">UNHEARD</text>
+<text x="618" y="297" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="618" y="313" font-size="13.5" fill="#111827">Dans une <tspan fill="#d97706">chaude</tspan> lumière.</text>
+<text x="790" y="325" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">L’Invitation</text>
+<text x="618" y="341" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> In a warm glow of light.</text>
+<text x="790" y="353" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">aggeler L40</text>
+<text x="20" y="402" font-size="11.5" letter-spacing="2" fill="#111827" text-anchor="middle" transform="rotate(-90 20 402)">ABSENT</text>
+<rect x="32" y="361" width="192" height="83" fill="#fffdf9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="42" y="377" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">INVENTION</text>
+<text x="42" y="388" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="42" y="404" font-size="13.5" fill="#111827">札札弄机杼。</text>
+<text x="132" y="404" font-size="9.5" font-style="italic" fill="#8a8577">迢迢牽牛星</text>
+<text x="42" y="420" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> <tspan fill="#0f766e">clacking</tspan>, she whiles away</text>
+<text x="42" y="436" font-size="13.5" fill="#111827">time</text>
+<text x="78" y="436" font-size="9.5" font-style="italic" fill="#8a8577">owen L4</text>
+<rect x="224" y="361" width="192" height="83" fill="#f6eed9" stroke="#d8d2c6" stroke-width="1"/>
+<text x="234" y="377" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">LATENT-INVENTION</text>
+<text x="234" y="388" font-size="9.0" letter-spacing="1" fill="#9ca3af">(COLOUR)</text>
+<text x="234" y="404" font-size="13.5" fill="#111827">that faire thou ow’st</text>
+<text x="406" y="416" font-size="9.5" font-style="italic" fill="#8a8577" text-anchor="end">sonnet 18</text>
+<text x="234" y="432" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> 皎洁的<tspan fill="#c9a227">红芳</tspan></text>
+<text x="324" y="432" font-size="9.5" font-style="italic" fill="#8a8577">liang_zongdai L10</text>
+<rect x="416" y="361" width="192" height="83" fill="#e6eff1" stroke="#d8d2c6" stroke-width="1"/>
+<text x="426" y="377" font-size="12.5" font-weight="bold" letter-spacing="1.5" fill="#111827">STIRRED</text>
+<text x="426" y="388" font-size="9.0" letter-spacing="1" fill="#9ca3af">(SOUND)</text>
+<text x="426" y="404" font-size="13.5" fill="#111827">交疏结绮窗，</text>
+<text x="516" y="404" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="426" y="420" font-size="13.5" fill="#111827"><tspan fill="#6b7280">→</tspan> Its curtained lattice</text>
+<text x="426" y="436" font-size="13.5" fill="#111827">window <tspan fill="#d97706">flares</tspan></text>
+<text x="521" y="436" font-size="9.5" font-style="italic" fill="#8a8577">xu_yuanchong L3</text>
+<rect x="608" y="361" width="192" height="83" fill="#fbf9f5" stroke="#d8d2c6" stroke-width="1"/>
+<text x="704" y="400" font-size="11" font-style="italic" fill="#9ca3af" text-anchor="middle">absent → absent</text>
+<text x="704" y="416" font-size="10" font-style="italic" fill="#9ca3af" text-anchor="middle">not a crossing</text>
+<text x="8" y="462" font-size="12.0" font-style="italic" fill="#6b7280">highlight = the claiming channel · <tspan fill="#b22222">trait hue</tspan>: stated by inventory · <tspan fill="#c9a227">amber</tspan>: carried by the written form · <tspan fill="#d97706">orange</tspan>: fires the detector, cited by nothing</text>
+<line x1="8" y1="472" x2="800" y2="472" stroke="#1f2937" stroke-width="1.4"/>
+</svg>

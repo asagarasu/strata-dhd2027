@@ -1,0 +1,3742 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "board": "correspondances",
+  "manifest": {
+    "board": "correspondances",
+    "inputs": {
+      "descriptive_scores_correspondances_56.json": "ec6b0a42d92fe2ce2e1def1e48458269bc4a180f7b9781852be55f8b7b8cc7ff",
+      "latent_scores_correspondances_56.json": "517e4f04dc643aa50bcc2357adbba8ae1c394eb41e3947935c2716b56d3722ee"
+    },
+    "definition": {
+      "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+      "fields": [
+        "color",
+        "sound"
+      ],
+      "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+      "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+      "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+      "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+      "membership": "channel-escape, not a verdict"
+    },
+    "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+    "counts_by_rid_field": {
+      "en:aggeler": {
+        "color": 5,
+        "sound": 10
+      },
+      "en:campbell": {
+        "color": 4,
+        "sound": 9
+      },
+      "en:dillon": {
+        "color": 8,
+        "sound": 5
+      },
+      "en:leclercq": {
+        "color": 4,
+        "sound": 11
+      },
+      "en:scott_1909": {
+        "color": 3,
+        "sound": 13
+      },
+      "en:sturm_1906": {
+        "color": 4,
+        "sound": 8
+      },
+      "en:wilbur": {
+        "color": 4,
+        "sound": 9
+      },
+      "zh:dai_wangshu": {
+        "color": 2,
+        "sound": 9
+      },
+      "zh:guo_hongan": {
+        "color": 2,
+        "sound": 8
+      },
+      "zh:qian_chunqi": {
+        "color": 4,
+        "sound": 8
+      }
+    },
+    "counts_total": {
+      "color": 40,
+      "sound": 90,
+      "rows": 130
+    }
+  },
+  "rows": [
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.05701898229590136,
+      "suspect_words": [
+        [
+          "pillars",
+          0.05024483641874568
+        ],
+        [
+          "living",
+          0.020516141009932723
+        ],
+        [
+          "Nature",
+          0.01575314128165667
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.006642247391161805,
+      "suspect_words": [
+        [
+          "give",
+          0.016849807369462524
+        ],
+        [
+          "words;",
+          -0.011648109185410396
+        ],
+        [
+          "voice",
+          0.011043186331829767
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.08676611667626796,
+      "suspect_words": [
+        [
+          "symbols",
+          0.09359592931739691
+        ],
+        [
+          "there",
+          0.03156763857024146
+        ],
+        [
+          "forests",
+          0.025307692239595392
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.16132160528656186,
+      "suspect_words": [
+        [
+          "echoes",
+          0.10612650207232337
+        ],
+        [
+          "distance",
+          -0.035972739106732154
+        ],
+        [
+          "mingling",
+          0.012188070534946971
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.0334352918790194,
+      "suspect_words": [
+        [
+          "unity,",
+          0.02939194316818689
+        ],
+        [
+          "tenebrous",
+          0.024551682028360094
+        ],
+        [
+          "deep",
+          -0.008827479918420124
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.04489314278073511,
+      "suspect_words": [
+        [
+          "tenebrous",
+          0.049496687734823054
+        ],
+        [
+          "deep",
+          0.03802572300842232
+        ],
+        [
+          "unity,",
+          0.025964201183220202
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03602150685767007,
+      "suspect_words": [
+        [
+          "Vast",
+          0.019381273856256664
+        ],
+        [
+          "of",
+          0.018912864920641904
+        ],
+        [
+          "and",
+          -0.018124687481733195
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.017721614677282563,
+      "suspect_words": [
+        [
+          "colors",
+          0.05972365088202537
+        ],
+        [
+          "Perfumes,",
+          -0.018898310893794287
+        ],
+        [
+          "correspond.",
+          0.014720329099111105
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.10758509139645761,
+      "suspect_words": [
+        [
+          "perfumes",
+          0.07169781041141753
+        ],
+        [
+          "children,",
+          -0.017312174959937338
+        ],
+        [
+          "cool",
+          -0.012186451800826711
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.07411167447613146,
+      "suspect_words": [
+        [
+          "Sweet",
+          0.04699530842022771
+        ],
+        [
+          "green",
+          -0.035911155716982085
+        ],
+        [
+          "oboes,",
+          -0.016139635487295176
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.011634192596323025,
+      "suspect_words": [
+        [
+          "triumphant,",
+          -0.01762260701829796
+        ],
+        [
+          "corrupt,",
+          0.016271720068014167
+        ],
+        [
+          "—",
+          -0.01402955720615187
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.014563471298945575,
+      "suspect_words": [
+        [
+          "others",
+          -0.042236100864287834
+        ],
+        [
+          "rich,",
+          0.02625751194216783
+        ],
+        [
+          "—",
+          -0.02450809773555716
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.0207466232351511,
+      "suspect_words": [
+        [
+          "power",
+          0.013232774648458859
+        ],
+        [
+          "to",
+          0.007940921706768828
+        ],
+        [
+          "infinity,",
+          0.0035889040187654514
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.05200949145885926,
+      "suspect_words": [
+        [
+          "infinity,",
+          0.05282330634950121
+        ],
+        [
+          "With",
+          0.04584154833684204
+        ],
+        [
+          "power",
+          0.031931855215928825
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:aggeler",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.0925895988910343,
+      "suspect_words": [
+        [
+          "incense,",
+          0.0352750481816587
+        ],
+        [
+          "Like",
+          0.017505836050615634
+        ],
+        [
+          "musk,",
+          0.013554337912032727
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.02848648525596429,
+      "suspect_words": [
+        [
+          "times,",
+          0.03469913934466872
+        ],
+        [
+          "At",
+          0.015154119222108098
+        ],
+        [
+          "gives",
+          0.01401878304183477
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.06676371566771208,
+      "suspect_words": [
+        [
+          "vague",
+          0.039758966311629895
+        ],
+        [
+          "There",
+          0.02662063728572297
+        ],
+        [
+          "times,",
+          0.01779210555325616
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.13377199659330122,
+      "suspect_words": [
+        [
+          "symbols,",
+          0.05034279833747543
+        ],
+        [
+          "and",
+          0.013200225072656752
+        ],
+        [
+          "strange",
+          0.011070157263917718
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.04566205902306363,
+      "suspect_words": [
+        [
+          "follow",
+          0.039189198163572886
+        ],
+        [
+          "Who",
+          0.024160639929937132
+        ],
+        [
+          "familiar",
+          0.016630170745004273
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.15966122998168236,
+      "suspect_words": [
+        [
+          "echoes",
+          0.12731113182417025
+        ],
+        [
+          "transfuse",
+          -0.032689870271037536
+        ],
+        [
+          "long-drawn",
+          0.022350465823900156
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.043174976782402605,
+      "suspect_words": [
+        [
+          "or",
+          -0.06342701084599993
+        ],
+        [
+          "noon—",
+          0.052638696867404064
+        ],
+        [
+          "Vast",
+          0.03281066617297844
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.017794855079915545,
+      "suspect_words": [
+        [
+          "hues.",
+          0.050895432576064374
+        ],
+        [
+          "perfumes,",
+          -0.02211516449498281
+        ],
+        [
+          "are",
+          0.017439836333689694
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.0875671080651465,
+      "suspect_words": [
+        [
+          "perfumes",
+          0.06101552228403444
+        ],
+        [
+          "children's",
+          0.024529843763852158
+        ],
+        [
+          "can",
+          -0.0243053570949643
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.03379336228874231,
+      "suspect_words": [
+        [
+          "greenly",
+          0.039582154231209817
+        ],
+        [
+          "fiddles,",
+          -0.015341055560859788
+        ],
+        [
+          "Like",
+          0.010507523691808584
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.016194558711809345,
+      "suspect_words": [
+        [
+          "fresh.",
+          -0.0942501669418483
+        ],
+        [
+          "fiddles,",
+          0.03687892628872573
+        ],
+        [
+          "Like",
+          -0.02916181475754616
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.0013201779282705287,
+      "suspect_words": [
+        [
+          "things—",
+          0.021896374288544074
+        ],
+        [
+          "vast",
+          -0.01036435678056961
+        ],
+        [
+          "With",
+          0.005708126617914082
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.04152554697723494,
+      "suspect_words": [
+        [
+          "non-finite",
+          0.03889963875144388
+        ],
+        [
+          "things—",
+          -0.009793122648138586
+        ],
+        [
+          "With",
+          0.008135387896081404
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:campbell",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.20281504609943948,
+      "suspect_words": [
+        [
+          "sings",
+          0.12977295043716414
+        ],
+        [
+          "benjamin,",
+          -0.02633729744063576
+        ],
+        [
+          "incense,",
+          0.015389197887984263
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.002250242423976454,
+      "suspect_words": [
+        [
+          "soft",
+          0.020461490964707486
+        ],
+        [
+          "understood;",
+          -0.007435813543305969
+        ],
+        [
+          "in",
+          -0.007074381216498855
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.0069289305527942616,
+      "suspect_words": [
+        [
+          "Man",
+          -0.03699125498629897
+        ],
+        [
+          "wood,",
+          -0.025677638037710705
+        ],
+        [
+          "cabalistic",
+          0.023874154334168427
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 4,
+      "field": "color",
+      "scalar": 0.003073885341578729,
+      "suspect_words": [
+        [
+          "above.",
+          0.03222827361329542
+        ],
+        [
+          "Aware",
+          0.021412618989867543
+        ],
+        [
+          "that",
+          0.01812387372145837
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.019931060340668987,
+      "suspect_words": [
+        [
+          "unite,",
+          0.01051783883701002
+        ],
+        [
+          "into",
+          -0.01017186191902588
+        ],
+        [
+          "one",
+          0.008691150448436793
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.05002885455919216,
+      "suspect_words": [
+        [
+          "and",
+          -0.02226570286756649
+        ],
+        [
+          "Vast",
+          0.016969140842109327
+        ],
+        [
+          "darkness",
+          0.013222941450026712
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.041504131092973295,
+      "suspect_words": [
+        [
+          "planet",
+          -0.03226147482074969
+        ],
+        [
+          "light,",
+          -0.027924421448370984
+        ],
+        [
+          "darkness",
+          0.02309276730734098
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.011839759691760102,
+      "suspect_words": [
+        [
+          "hues",
+          0.016077168039729767
+        ],
+        [
+          "all",
+          0.015959510692212568
+        ],
+        [
+          "do",
+          0.010670655893156075
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.0077205518900666644,
+      "suspect_words": [
+        [
+          "sweet",
+          0.020860354347666657
+        ],
+        [
+          "strings,",
+          0.014415236164308821
+        ],
+        [
+          "music",
+          0.008711639138610762
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.03312878420457732,
+      "suspect_words": [
+        [
+          "pure",
+          0.02064756324315402
+        ],
+        [
+          "naked",
+          0.01742049219486452
+        ],
+        [
+          "as",
+          0.015434919091616133
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.07096400597986262,
+      "suspect_words": [
+        [
+          "of",
+          0.011969799575572343
+        ],
+        [
+          "children,",
+          0.009269526753284088
+        ],
+        [
+          "flesh",
+          -0.008794270957497602
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.006144644340092557,
+      "suspect_words": [
+        [
+          "infinite",
+          0.01410664811195688
+        ],
+        [
+          "Corrupt",
+          0.013084206833633823
+        ],
+        [
+          "things,",
+          0.010378877658321125
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.02992847079655693,
+      "suspect_words": [
+        [
+          "things,",
+          -0.0715195049697293
+        ],
+        [
+          "infinite",
+          0.023421357540073618
+        ],
+        [
+          "all-pervasiveness",
+          -0.014291281476361987
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:dillon",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.0784352663340486,
+      "suspect_words": [
+        [
+          "ambergris,",
+          -0.028976056179773974
+        ],
+        [
+          "myrrh,",
+          0.022359752914165372
+        ],
+        [
+          "musk,",
+          0.021469298741072736
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.05517238170480202,
+      "suspect_words": [
+        [
+          "pillars",
+          0.025057832723285316
+        ],
+        [
+          "temple,",
+          -0.011247684331781686
+        ],
+        [
+          "In",
+          0.011156232397179701
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.03745334606386962,
+      "suspect_words": [
+        [
+          "Speaking",
+          -0.052490011732861074
+        ],
+        [
+          "abstruse",
+          0.03958180494326498
+        ],
+        [
+          "sometimes",
+          0.023154308743364386
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.11224300377618858,
+      "suspect_words": [
+        [
+          "symbols,",
+          0.07164386118236463
+        ],
+        [
+          "Man",
+          -0.0390261048420842
+        ],
+        [
+          "dark",
+          0.03424466772643854
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.2239785403332466,
+      "suspect_words": [
+        [
+          "echoes",
+          0.1397846196524322
+        ],
+        [
+          "blent",
+          0.05213452816268871
+        ],
+        [
+          "beyond",
+          0.018569054487190817
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.018850184265413274,
+      "suspect_words": [
+        [
+          "darksome",
+          0.04345297451535711
+        ],
+        [
+          "way,",
+          0.015536339841568176
+        ],
+        [
+          "in",
+          -0.013740652194316867
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.06699747699304828,
+      "suspect_words": [
+        [
+          "way,",
+          0.0604009032502882
+        ],
+        [
+          "deep",
+          0.03513275396441055
+        ],
+        [
+          "darksome",
+          0.03148814087057312
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.01744678754353416,
+      "suspect_words": [
+        [
+          "day,",
+          -0.021374804722808685
+        ],
+        [
+          "night",
+          -0.020206326827722547
+        ],
+        [
+          "splendent",
+          -0.019715867932914653
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.009304157399462392,
+      "suspect_words": [
+        [
+          "colors",
+          0.05151637656611778
+        ],
+        [
+          "Perfumes",
+          -0.02154365797550399
+        ],
+        [
+          "sounds",
+          -0.003941409583443314
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.10973180696491033,
+      "suspect_words": [
+        [
+          "scents",
+          0.08742962459439671
+        ],
+        [
+          "children's",
+          0.029657724964147508
+        ],
+        [
+          "as",
+          0.017400004097806634
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.061440742347309764,
+      "suspect_words": [
+        [
+          "green",
+          -0.03606195134404196
+        ],
+        [
+          "Sweet",
+          0.03127231058996435
+        ],
+        [
+          "as",
+          0.013031679053583274
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.006877522214321194,
+      "suspect_words": [
+        [
+          "triumphant,",
+          -0.023529281057962478
+        ],
+        [
+          "corrupt,",
+          0.01921429753294758
+        ],
+        [
+          "full,",
+          -0.015652807269191337
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.05720897253300563,
+      "suspect_words": [
+        [
+          "others",
+          -0.028985020616462194
+        ],
+        [
+          "rich,",
+          0.026060672896164302
+        ],
+        [
+          "full,",
+          0.021999960043990713
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.042996863060759616,
+      "suspect_words": [
+        [
+          "expands:",
+          0.06068973180912617
+        ],
+        [
+          "infinity",
+          0.015046595148319804
+        ],
+        [
+          "Expanding",
+          -0.01290682778405601
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.050761113488122254,
+      "suspect_words": [
+        [
+          "infinity",
+          0.06150475325008291
+        ],
+        [
+          "expands:",
+          0.03312698670317622
+        ],
+        [
+          "as",
+          0.025075800422556936
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:leclercq",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.10012045924937536,
+      "suspect_words": [
+        [
+          "incenses,",
+          0.03888081048452265
+        ],
+        [
+          "Benzoin",
+          0.029158669168299733
+        ],
+        [
+          "amber",
+          0.018341876875850247
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.057857920398576,
+      "suspect_words": [
+        [
+          "columns",
+          0.027743371417059293
+        ],
+        [
+          "In",
+          0.013543251805555871
+        ],
+        [
+          "living",
+          0.009941007130295658
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "In Nature's temple, living columns rise,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.01838909000332262,
+      "suspect_words": [
+        [
+          "subdued,",
+          0.04608972929831477
+        ],
+        [
+          "oftentimes",
+          0.01279216664454433
+        ],
+        [
+          "words",
+          -0.010711041245994136
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Which oftentimes give tongue to words subdued,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.023749197391895918,
+      "suspect_words": [
+        [
+          "symbolic",
+          0.04175458949721482
+        ],
+        [
+          "Man",
+          -0.025739335678353487
+        ],
+        [
+          "wood,",
+          -0.021786901702259262
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And Man traverses this symbolic wood,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.2292370548612163,
+      "suspect_words": [
+        [
+          "echoes,",
+          0.15734502903221959
+        ],
+        [
+          "confound",
+          0.02056663387339497
+        ],
+        [
+          "lingering",
+          0.015516045251996152
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Like lingering echoes, which afar confound"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.008816135310465788,
+      "suspect_words": [
+        [
+          "sombre",
+          0.029448516731898133
+        ],
+        [
+          "Themselves",
+          -0.019529598691297025
+        ],
+        [
+          "unity,",
+          -0.010651992872633069
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Themselves in deep and sombre unity,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.035193745861882834,
+      "suspect_words": [
+        [
+          "sombre",
+          0.048115677612183584
+        ],
+        [
+          "deep",
+          0.041434646346745194
+        ],
+        [
+          "unity,",
+          0.009817311938210355
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Themselves in deep and sombre unity,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.006821654299814915,
+      "suspect_words": [
+        [
+          "transplendency,",
+          0.01627672385551594
+        ],
+        [
+          "As",
+          0.014085316396271943
+        ],
+        [
+          "Night,",
+          -0.0056330056735136936
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As vast as Night, and like transplendency,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03020659828889904,
+      "suspect_words": [
+        [
+          "vast",
+          0.029362650486835944
+        ],
+        [
+          "Night,",
+          0.012722600276289023
+        ],
+        [
+          "and",
+          -0.010291246444049041
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As vast as Night, and like transplendency,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.006518029035982854,
+      "suspect_words": [
+        [
+          "scents",
+          -0.04494995930023095
+        ],
+        [
+          "respond.",
+          -0.02189524589932626
+        ],
+        [
+          "and",
+          -0.019843364494399385
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The scents and colours to each other respond."
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.05487073286343056,
+      "suspect_words": [
+        [
+          "and",
+          -0.051421863577679576
+        ],
+        [
+          "colours",
+          -0.04915190439107011
+        ],
+        [
+          "each",
+          -0.026637190259639086
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The scents and colours to each other respond."
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.1539192221573879,
+      "suspect_words": [
+        [
+          "scents",
+          0.08645399896775748
+        ],
+        [
+          "infant's",
+          0.0267399600070595
+        ],
+        [
+          "flesh",
+          -0.025615558392200477
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And scents there are, like infant's flesh as chaste,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.06475291529580002,
+      "suspect_words": [
+        [
+          "sweet",
+          0.039811930998096205
+        ],
+        [
+          "fair,",
+          -0.03128157835162443
+        ],
+        [
+          "oboes,",
+          0.02814933101922283
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As sweet as oboes, and as meadows fair,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.0907931374382056,
+      "suspect_words": [
+        [
+          "proud,",
+          0.046408210245414666
+        ],
+        [
+          "others,",
+          -0.04198636946339726
+        ],
+        [
+          "corrupted,",
+          0.030451637925369694
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And others, proud, corrupted, rich and vast,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.04851872287144307,
+      "suspect_words": [
+        [
+          "infinity,",
+          0.03716602494144994
+        ],
+        [
+          "expansion",
+          0.015034915666940603
+        ],
+        [
+          "Which",
+          0.01300686361564457
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Which have the expansion of infinity,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.07968840324172462,
+      "suspect_words": [
+        [
+          "and",
+          0.034390599248079565
+        ],
+        [
+          "amber,",
+          0.032031621122700034
+        ],
+        [
+          "and",
+          0.024733802600380335
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Like amber, musk and frankincense and myrrh,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:scott_1909",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.14348659953302378,
+      "suspect_words": [
+        [
+          "sing",
+          0.10722993721419283
+        ],
+        [
+          "soul's",
+          -0.06601074072675195
+        ],
+        [
+          "ecstasy.",
+          0.020304810848588706
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "That sing the soul's and senses' ecstasy."
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.05363184781629185,
+      "suspect_words": [
+        [
+          "pillars",
+          0.01881850273347667
+        ],
+        [
+          "temple",
+          -0.012788218220291858
+        ],
+        [
+          "Nature's",
+          -0.0014912746298170743
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "In Nature's temple living pillars rise,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.09051990556260471,
+      "suspect_words": [
+        [
+          "murmured",
+          0.06938591962365313
+        ],
+        [
+          "understood,",
+          0.04643637673266848
+        ],
+        [
+          "words",
+          0.025254777767679773
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And words are murmured none have understood,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.004490858888821048,
+      "suspect_words": [
+        [
+          "And",
+          -0.02192776283519846
+        ],
+        [
+          "must",
+          0.021034100960946895
+        ],
+        [
+          "through",
+          -0.018401265577683543
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And man must wander through a tangled wood"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.0013507160955903898,
+      "suspect_words": [
+        [
+          "And",
+          0.04873014053887927
+        ],
+        [
+          "tangled",
+          0.026508957119006485
+        ],
+        [
+          "must",
+          -0.017516062585434047
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And man must wander through a tangled wood"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.010458336542615205,
+      "suspect_words": [
+        [
+          "dim",
+          0.022644593853634924
+        ],
+        [
+          "As",
+          0.01330396273183973
+        ],
+        [
+          "long-drawn",
+          0.012877828574799185
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As long-drawn echoes heard far-off and dim"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.2767299821640063,
+      "suspect_words": [
+        [
+          "heard",
+          0.0944142497848107
+        ],
+        [
+          "echoes",
+          0.06529717319832723
+        ],
+        [
+          "far-off",
+          -0.01546846177988026
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As long-drawn echoes heard far-off and dim"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.01148061291022369,
+      "suspect_words": [
+        [
+          "day,",
+          0.017991598469919146
+        ],
+        [
+          "night",
+          0.017271571561372455
+        ],
+        [
+          "brilliant",
+          -0.008712250792162715
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Vast as the night and brilliant as the day,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.11427995881077581,
+      "suspect_words": [
+        [
+          "child,",
+          0.040191762815177084
+        ],
+        [
+          "Some",
+          -0.029801380404310893
+        ],
+        [
+          "are",
+          -0.01522687901458851
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Some perfumes are as fragrant as a child,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.07858787311177094,
+      "suspect_words": [
+        [
+          "exultant,",
+          0.03380948805531214
+        ],
+        [
+          "Others,",
+          -0.028128452106485083
+        ],
+        [
+          "wild,",
+          0.025482611460437468
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Others, corrupted, rich, exultant, wild,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.03224695055726909,
+      "suspect_words": [
+        [
+          "infinite:",
+          0.033226395322769706
+        ],
+        [
+          "expansion",
+          -0.014336548003195879
+        ],
+        [
+          "Have",
+          0.012831129018920664
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Have all the expansion of things infinite:"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.09898379538707505,
+      "suspect_words": [
+        [
+          "incense,",
+          0.03550202603274771
+        ],
+        [
+          "benzoin,",
+          -0.023063491510430856
+        ],
+        [
+          "amber,",
+          0.015047317242655248
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As amber, incense, musk, and benzoin,"
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:sturm_1906",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.12739059947072343,
+      "suspect_words": [
+        [
+          "sing",
+          0.10655515175376667
+        ],
+        [
+          "soul's",
+          -0.057145291382957625
+        ],
+        [
+          "Which",
+          -0.037130298151206526
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Which sing the sense's and the soul's delight."
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.05417155915762907,
+      "suspect_words": [
+        [
+          "colonnades",
+          0.06419616738408772
+        ],
+        [
+          "living",
+          0.017620655668478973
+        ],
+        [
+          "whose",
+          -0.01402551843790445
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.07297234626382931,
+      "suspect_words": [
+        [
+          "symbols",
+          0.11089772474217197
+        ],
+        [
+          "among",
+          -0.0414622624100872
+        ],
+        [
+          "glades",
+          0.02380117256619594
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.18080734776340607,
+      "suspect_words": [
+        [
+          "echoes",
+          0.12402487213449272
+        ],
+        [
+          "far",
+          0.02010723030779299
+        ],
+        [
+          "Like",
+          -0.010576412588454043
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 9.630071096583537e-06,
+      "suspect_words": [
+        [
+          "unison",
+          0.01622378372561225
+        ],
+        [
+          "and",
+          0.00924132367755191
+        ],
+        [
+          "a",
+          0.009119796660342915
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.014958560245078271,
+      "suspect_words": [
+        [
+          "Huge",
+          0.031901681631534604
+        ],
+        [
+          "of",
+          0.015496678223155484
+        ],
+        [
+          "light",
+          0.013422550462525279
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.04427935955836776,
+      "suspect_words": [
+        [
+          "colors",
+          0.03884819026674632
+        ],
+        [
+          "All",
+          0.014776607922421608
+        ],
+        [
+          "scents",
+          -0.011703861025484638
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.052461938617040044,
+      "suspect_words": [
+        [
+          "Green",
+          -0.013663362042771326
+        ],
+        [
+          "as",
+          0.011460487311490263
+        ],
+        [
+          "child's",
+          -0.008102209229464183
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.011967852516296344,
+      "suspect_words": [
+        [
+          "corrupt,",
+          0.015784017658344415
+        ],
+        [
+          "profound",
+          -0.013667365193232105
+        ],
+        [
+          "others,",
+          0.012899977703451835
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.07262439367801368,
+      "suspect_words": [
+        [
+          "profound",
+          0.05853371431700738
+        ],
+        [
+          "others,",
+          -0.035886165550965854
+        ],
+        [
+          "—",
+          -0.0282440155441826
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.010325874574938623,
+      "suspect_words": [
+        [
+          "And",
+          0.007111626539775987
+        ],
+        [
+          "of",
+          -0.006254115590955383
+        ],
+        [
+          "pervasiveness,",
+          -0.00380728933433523
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.05877753546670594,
+      "suspect_words": [
+        [
+          "pervasiveness,",
+          0.060816353373021034
+        ],
+        [
+          "infinite",
+          0.03348448504863477
+        ],
+        [
+          "And",
+          0.014455566400356168
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.1176365894465283,
+      "suspect_words": [
+        [
+          "amber,",
+          0.04630303380781996
+        ],
+        [
+          "excite",
+          0.029443592464206733
+        ],
+        [
+          "musk,",
+          0.023927459605097096
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "en:wilbur",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.02640820705299181,
+      "suspect_words": [
+        [
+          "delight.",
+          -0.030629368844647592
+        ],
+        [
+          "sense,",
+          -0.016903292880566037
+        ],
+        [
+          "The",
+          -0.01388666975565292
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.0352516636945968,
+      "suspect_words": [
+        [
+          "柱石",
+          0.029803438682065753
+        ],
+        [
+          "是",
+          -0.027296043525682143
+        ],
+        [
+          "，",
+          -0.01719179278838122
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.01671832213588429,
+      "suspect_words": [
+        [
+          "不时",
+          0.02363469066111126
+        ],
+        [
+          "传出",
+          0.020712455364371957
+        ],
+        [
+          "模糊",
+          0.013153461122294123
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.05593601712404198,
+      "suspect_words": [
+        [
+          "林",
+          0.03892945746158483
+        ],
+        [
+          "从",
+          0.034778932847149654
+        ],
+        [
+          "象征",
+          0.0311766222403146
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.009151573374687643,
+      "suspect_words": [
+        [
+          "树林",
+          0.06103031020401461
+        ],
+        [
+          "。",
+          -0.04826976973394074
+        ],
+        [
+          "凝视",
+          0.017515151068234237
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.21524619385157345,
+      "suspect_words": [
+        [
+          "回声",
+          0.16429389272408174
+        ],
+        [
+          "悠长",
+          0.022792111382533536
+        ],
+        [
+          "遥遥地",
+          0.015167524005000321
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.06058019887414576,
+      "suspect_words": [
+        [
+          "黑夜",
+          0.03389172031338998
+        ],
+        [
+          "浩漫",
+          0.025372008245718627
+        ],
+        [
+          "广大",
+          -0.021046877030284725
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.024460274087529116,
+      "suspect_words": [
+        [
+          "颜色",
+          0.06304794050644452
+        ],
+        [
+          "香味",
+          -0.02739414577618587
+        ],
+        [
+          "都",
+          0.010265707620513756
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.05874283488981441,
+      "suspect_words": [
+        [
+          "香味",
+          0.07584700268751235
+        ],
+        [
+          "肌肤",
+          -0.04379239349535603
+        ],
+        [
+          "新鲜",
+          -0.02219130429777738
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.1214637136009521,
+      "suspect_words": [
+        [
+          "香味",
+          0.08834136537730979
+        ],
+        [
+          "腐烂",
+          0.017880829724819747
+        ],
+        [
+          "，",
+          0.011906699876088708
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.012724205300341216,
+      "suspect_words": [
+        [
+          "无极限",
+          0.026544216823181477
+        ],
+        [
+          "品物底",
+          -0.019266159490985504
+        ],
+        [
+          "，",
+          0.0175262800562599
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:dai_wangshu",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.12927373594281388,
+      "suspect_words": [
+        [
+          "麝香",
+          -0.05938869334169822
+        ],
+        [
+          "篆烟香",
+          0.035034047565533646
+        ],
+        [
+          "安息香",
+          0.013565494630383604
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.04388842367371458,
+      "suspect_words": [
+        [
+          "是",
+          -0.03243558476789131
+        ],
+        [
+          "柱子",
+          0.024601299164792638
+        ],
+        [
+          "，",
+          -0.013021861093538908
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.037509963415588723,
+      "suspect_words": [
+        [
+          "森林",
+          0.038271099385092246
+        ],
+        [
+          "象征",
+          0.03408103655263793
+        ],
+        [
+          "人",
+          -0.020344184960130414
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.00953204090926385,
+      "suspect_words": [
+        [
+          "森林",
+          0.07381272780843215
+        ],
+        [
+          "。",
+          -0.045056162206644323
+        ],
+        [
+          "目光",
+          -0.043088285391335246
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.23437381586358935,
+      "suspect_words": [
+        [
+          "回声",
+          0.17514889216051835
+        ],
+        [
+          "遥遥地",
+          0.0325582728946458
+        ],
+        [
+          "悠长",
+          0.024380933195354837
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.05635122983791496,
+      "suspect_words": [
+        [
+          "深邃",
+          0.053446223429281584
+        ],
+        [
+          "混沌",
+          0.034966192527715705
+        ],
+        [
+          "统一体",
+          0.016002004323841183
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.0913804375379041,
+      "suspect_words": [
+        [
+          "浩漫",
+          0.044293879682907975
+        ],
+        [
+          "好像",
+          0.038018508800086157
+        ],
+        [
+          "黑夜",
+          0.03267047592965002
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.009619117240177036,
+      "suspect_words": [
+        [
+          "颜色",
+          0.06452838229036895
+        ],
+        [
+          "芳香",
+          -0.03038001720652992
+        ],
+        [
+          "互相",
+          -0.00669554875268666
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.03995645664874957,
+      "suspect_words": [
+        [
+          "芳香",
+          0.06301883925123664
+        ],
+        [
+          "肌肤",
+          -0.05931042291786895
+        ],
+        [
+          "的",
+          0.015345617081758571
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.00884415686841398,
+      "suspect_words": [
+        [
+          "，",
+          0.012562391964964583
+        ],
+        [
+          "像",
+          0.011811787513227227
+        ],
+        [
+          "四散",
+          -0.011271217774124398
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:guo_hongan",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.10557909720994983,
+      "suspect_words": [
+        [
+          "麝香",
+          -0.05052980384989665
+        ],
+        [
+          "龙涎香",
+          0.02834414621406263
+        ],
+        [
+          "安息香",
+          0.015135348233319301
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.032315846415115396,
+      "suspect_words": [
+        [
+          "柱子",
+          0.03045861702567071
+        ],
+        [
+          "是",
+          -0.01846802729445854
+        ],
+        [
+          "有活",
+          0.013969195722586376
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.004693897604908748,
+      "suspect_words": [
+        [
+          "发出",
+          0.018320706894697125
+        ],
+        [
+          "含糊不清",
+          0.012398903977023715
+        ],
+        [
+          "不时",
+          0.010163003768299103
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.025788294367954753,
+      "suspect_words": [
+        [
+          "象征",
+          0.04165875008168135
+        ],
+        [
+          "森林",
+          0.033622935694829006
+        ],
+        [
+          "穿过",
+          0.025985227851071598
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.031829977396695595,
+      "suspect_words": [
+        [
+          "森林",
+          0.05262260212011348
+        ],
+        [
+          "注视",
+          0.012934300691714827
+        ],
+        [
+          "露出",
+          -0.005779897686817893
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.08121044359236233,
+      "suspect_words": [
+        [
+          "深邃",
+          0.03967526219667834
+        ],
+        [
+          "混成",
+          0.03427866861971324
+        ],
+        [
+          "幽昧",
+          0.021384887144644378
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.06660455560591645,
+      "suspect_words": [
+        [
+          "黑夜",
+          0.02352050288145889
+        ],
+        [
+          "光明",
+          0.014469591433301024
+        ],
+        [
+          "，",
+          -0.013964736010322873
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.0038610318598524852,
+      "suspect_words": [
+        [
+          "色彩",
+          0.07050430307393085
+        ],
+        [
+          "芳香",
+          -0.02475740458505705
+        ],
+        [
+          "全在",
+          0.02380617483979564
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.05894243370027246,
+      "suspect_words": [
+        [
+          "芳香",
+          0.06588604365081131
+        ],
+        [
+          "肌肤",
+          -0.04982279260610838
+        ],
+        [
+          "，",
+          -0.022941940154711897
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.05241822990593509,
+      "suspect_words": [
+        [
+          "绿油油",
+          0.07664866128582623
+        ],
+        [
+          "双簧管",
+          -0.018066615999859204
+        ],
+        [
+          "，",
+          -0.01372873586957879
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.04819313532059051,
+      "suspect_words": [
+        [
+          "丰富",
+          0.033529621167551926
+        ],
+        [
+          "、",
+          0.023659507444415792
+        ],
+        [
+          "、",
+          0.020013378399270726
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.007197431425573999,
+      "suspect_words": [
+        [
+          "具有",
+          0.012862677649743446
+        ],
+        [
+          "，",
+          0.011461487957163018
+        ],
+        [
+          "无限",
+          0.011087885358490639
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "correspondances",
+      "rid": "zh:qian_chunqi",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.03760594832547371,
+      "suspect_words": [
+        [
+          "无限",
+          0.053170793308241225
+        ],
+        [
+          "具有",
+          0.021133764938010016
+        ],
+        [
+          "，",
+          0.015289950835690319
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    }
+  ]
+}

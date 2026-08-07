@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="970" font-family="Helvetica,Arial,sans-serif">
+<rect width="1160" height="970" fill="white"/>
+<text x="40" y="44" font-size="19" font-weight="bold" letter-spacing="3">TABLE 1 · THE SCORED COMPARISONS (DRAFT, COVERAGE-STRATIFIED)</text>
+<text x="40" y="66" font-size="11" fill="#999">line grain · wording pass and full reading · counts = census v5.1 · labels = v6 coverage grading · #63 draft for the sitting, not the figure sitting's polish</text>
+<text x="348" y="106" font-size="12" font-weight="bold" letter-spacing="2">WORDING ONLY</text>
+<text x="518" y="106" font-size="12" font-weight="bold" letter-spacing="2">FULL COVERAGE</text>
+<text x="708" y="106" font-size="12" font-weight="bold" letter-spacing="2">PARTIAL COVERAGE · cells merged</text>
+<line x1="40" y1="130" x2="1120" y2="130" stroke="#e8e8e8"/>
+<text x="40" y="158" font-size="13" fill="#2a2a2a" letter-spacing="1">survival</text>
+<text x="348" y="158" font-size="13" fill="#2a2a2a">817</text>
+<text x="518" y="158" font-size="13" font-weight="bold" fill="#2a2a2a">192</text>
+<line x1="40" y1="176" x2="1120" y2="176" stroke="#e8e8e8"/>
+<text x="40" y="204" font-size="13" fill="#2a2a2a" letter-spacing="1">partial-loss</text>
+<text x="348" y="204" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="204" font-size="13" fill="#2a2a2a">1</text>
+<line x1="40" y1="222" x2="1120" y2="222" stroke="#e8e8e8"/>
+<text x="40" y="250" font-size="13" fill="#7a6a9e" letter-spacing="1">echo</text>
+<text x="348" y="250" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="250" font-size="13" fill="#2a2a2a">51</text>
+<line x1="40" y1="268" x2="1120" y2="268" stroke="#e8e8e8"/>
+<text x="40" y="296" font-size="13" fill="#2a2a2a" letter-spacing="1">deformation</text>
+<text x="348" y="296" font-size="13" fill="#2a2a2a">1271</text>
+<text x="518" y="296" font-size="13" fill="#2a2a2a">118</text>
+<line x1="40" y1="314" x2="1120" y2="314" stroke="#e8e8e8"/>
+<text x="40" y="342" font-size="13" fill="#2a2a2a" letter-spacing="1">revival</text>
+<text x="348" y="342" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="342" font-size="13" fill="#2a2a2a">10</text>
+<line x1="40" y1="360" x2="1120" y2="360" stroke="#e8e8e8"/>
+<text x="40" y="388" font-size="13" fill="#c46a6a" letter-spacing="1">latent-carry</text>
+<text x="348" y="388" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="388" font-size="13" fill="#2a2a2a"></text>
+<line x1="40" y1="406" x2="1120" y2="406" stroke="#e8e8e8"/>
+<text x="40" y="434" font-size="13" fill="#c46a6a" letter-spacing="1">latent-echo</text>
+<text x="348" y="434" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="434" font-size="13" fill="#2a2a2a">2</text>
+<line x1="40" y1="452" x2="1120" y2="452" stroke="#e8e8e8"/>
+<text x="40" y="480" font-size="13" fill="#c46a6a" letter-spacing="1">latent-unrealized</text>
+<text x="348" y="480" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="480" font-size="13" fill="#2a2a2a"></text>
+<line x1="40" y1="498" x2="1120" y2="498" stroke="#e8e8e8"/>
+<text x="40" y="526" font-size="13" fill="#7a6a9e" letter-spacing="1">rendered</text>
+<text x="348" y="526" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="526" font-size="13" fill="#2a2a2a">40</text>
+<line x1="40" y1="544" x2="1120" y2="544" stroke="#e8e8e8"/>
+<text x="40" y="572" font-size="13" fill="#7a6a9e" letter-spacing="1">ghost-grounded</text>
+<text x="348" y="572" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="572" font-size="13" fill="#2a2a2a">5</text>
+<line x1="40" y1="590" x2="1120" y2="590" stroke="#e8e8e8"/>
+<text x="40" y="618" font-size="13" fill="#7a6a9e" letter-spacing="1">ghost-carry</text>
+<text x="348" y="618" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="618" font-size="13" fill="#2a2a2a">235</text>
+<line x1="40" y1="636" x2="1120" y2="636" stroke="#e8e8e8"/>
+<text x="40" y="664" font-size="13" fill="#7a6a9e" letter-spacing="1">unheard</text>
+<text x="348" y="664" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="664" font-size="13" fill="#2a2a2a">208</text>
+<line x1="40" y1="682" x2="1120" y2="682" stroke="#e8e8e8"/>
+<text x="40" y="710" font-size="13" fill="#2a2a2a" letter-spacing="1">invention</text>
+<text x="348" y="710" font-size="13" fill="#2a2a2a">649</text>
+<text x="518" y="710" font-size="13" fill="#2a2a2a">112</text>
+<line x1="40" y1="728" x2="1120" y2="728" stroke="#e8e8e8"/>
+<text x="40" y="756" font-size="13" fill="#c46a6a" letter-spacing="1">latent-invention</text>
+<text x="348" y="756" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="756" font-size="13" fill="#2a2a2a">11</text>
+<line x1="40" y1="774" x2="1120" y2="774" stroke="#e8e8e8"/>
+<text x="40" y="802" font-size="13" fill="#7a6a9e" letter-spacing="1">stirred</text>
+<text x="348" y="802" font-size="13" fill="#2a2a2a"></text>
+<text x="518" y="802" font-size="13" fill="#2a2a2a">309</text>
+<rect x="708" y="134" width="390" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="716" y="157.0" font-size="11.5" fill="#2a2a2a">survival · <tspan font-weight="bold">625</tspan></text>
+<rect x="708" y="180" width="390" height="84" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="716" y="226.0" font-size="11.5" fill="#2a2a2a">partial-loss∪echo · <tspan font-weight="bold">30</tspan></text>
+<rect x="720" y="180" width="378" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="728" y="203.0" font-size="11.5" fill="#2a2a2a">partial-loss · <tspan font-weight="bold">4</tspan></text>
+<rect x="720" y="226" width="378" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="728" y="249.0" font-size="11.5" fill="#2a2a2a">echo · <tspan font-weight="bold">732</tspan></text>
+<rect x="708" y="272" width="390" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="716" y="295.0" font-size="11.5" fill="#2a2a2a">deformation · <tspan font-weight="bold">335</tspan></text>
+<rect x="708" y="318" width="390" height="222" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="716" y="433.0" font-size="11.5" fill="#2a2a2a">revival∪rendered · <tspan font-weight="bold">20</tspan></text>
+<rect x="720" y="364" width="378" height="268" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="728" y="502.0" font-size="11.5" fill="#2a2a2a">latent-carry∪latent-echo∪ghost-grounded∪ghost-carry · <tspan font-weight="bold">8</tspan></text>
+<rect x="732" y="364" width="366" height="222" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="740" y="479.0" font-size="11.5" fill="#2a2a2a">latent-carry∪ghost-grounded · <tspan font-weight="bold">3</tspan></text>
+<rect x="744" y="410" width="354" height="222" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="752" y="525.0" font-size="11.5" fill="#2a2a2a">latent-echo∪ghost-carry · <tspan font-weight="bold">131</tspan></text>
+<rect x="756" y="456" width="342" height="222" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="764" y="571.0" font-size="11.5" fill="#2a2a2a">latent-unrealized∪unheard · <tspan font-weight="bold">91</tspan></text>
+<rect x="768" y="502" width="330" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="776" y="525.0" font-size="11.5" fill="#2a2a2a">rendered · <tspan font-weight="bold">283</tspan></text>
+<rect x="756" y="548" width="342" height="84" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="764" y="594.0" font-size="11.5" fill="#2a2a2a">ghost-grounded∪ghost-carry · <tspan font-weight="bold">36</tspan></text>
+<rect x="720" y="640" width="378" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="728" y="663.0" font-size="11.5" fill="#2a2a2a">unheard · <tspan font-weight="bold">75</tspan></text>
+<rect x="708" y="686" width="390" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="716" y="709.0" font-size="11.5" fill="#2a2a2a">invention · <tspan font-weight="bold">184</tspan></text>
+<rect x="708" y="732" width="390" height="84" fill="#7a6a9e" fill-opacity="0.08" stroke="#7a6a9e" stroke-width="1"/>
+<text x="716" y="778.0" font-size="11.5" fill="#2a2a2a">latent-invention∪stirred · <tspan font-weight="bold">35</tspan></text>
+<rect x="720" y="732" width="378" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="728" y="755.0" font-size="11.5" fill="#2a2a2a">latent-invention · <tspan font-weight="bold">4</tspan></text>
+<rect x="720" y="778" width="378" height="38" fill="white" fill-opacity="0" stroke="#cccccc" stroke-width="1"/>
+<text x="728" y="801.0" font-size="11.5" fill="#2a2a2a">stirred · <tspan font-weight="bold">253</tspan></text>
+<line x1="40" y1="824" x2="1120" y2="824" stroke="#2a2a2a"/>
+<text x="40" y="844" font-size="12" font-weight="bold">comparisons scored · wording 2,737 · full coverage 1294 · partial 2849 · all layers 4,143</text>
+<text x="40" y="868" font-size="11" fill="#2a2a2a">survival conserved exactly: 192 (full) + 625 (partial) = 817 = the wording pass's survivals · en referent leg open but bounded: 586 full-coverage crossings ride the registered 0.3% bound (2/669)</text>
+<text x="40" y="886" font-size="11" fill="#999">partial coverage = a side the cell depends on is not channel-resolved (de/fr/jp beyond the stated tier; word tier two-state, suggestive only) — cells a missing channel cannot distinguish report merged (∪), the box spanning its rows</text>
+</svg>

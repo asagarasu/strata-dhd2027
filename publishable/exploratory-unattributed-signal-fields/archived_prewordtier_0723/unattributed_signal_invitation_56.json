@@ -1,0 +1,5182 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "board": "invitation",
+  "manifest": {
+    "board": "invitation",
+    "inputs": {
+      "descriptive_scores_invitation_56.json": "2c954d71d3198d50d91512401329b02c2bfa96fb2edb35c6b3e6c4ce4cbc3e28",
+      "latent_scores_invitation_56.json": "2663892a3fceb52e0f4d5b51ffb2bc6eb095f824da030587f66c13e1ba2a2df9"
+    },
+    "definition": {
+      "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+      "fields": [
+        "color",
+        "sound"
+      ],
+      "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+      "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+      "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+      "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+      "membership": "channel-escape, not a verdict"
+    },
+    "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+    "counts_by_rid_field": {
+      "en:aggeler": {
+        "color": 9,
+        "sound": 12
+      },
+      "en:campbell": {
+        "color": 12,
+        "sound": 22
+      },
+      "en:millay": {
+        "color": 12,
+        "sound": 19
+      },
+      "en:wilbur": {
+        "color": 7,
+        "sound": 21
+      },
+      "zh:dai_wangshu": {
+        "color": 6,
+        "sound": 11
+      },
+      "zh:guo_hongan": {
+        "color": 10,
+        "sound": 16
+      },
+      "zh:qian_chunqi": {
+        "color": 12,
+        "sound": 14
+      }
+    },
+    "counts_total": {
+      "color": 68,
+      "sound": 115,
+      "rows": 183
+    }
+  },
+  "rows": [
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.005645907666003473,
+      "suspect_words": [
+        [
+          "there!",
+          -0.024652292055136152
+        ],
+        [
+          "Of",
+          0.015073483734883205
+        ],
+        [
+          "together",
+          0.004719976635154756
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.025945000486333226,
+      "suspect_words": [
+        [
+          "those",
+          0.04052880983919952
+        ],
+        [
+          "skies",
+          0.01413426267997887
+        ],
+        [
+          "cloudy",
+          0.011623340949734719
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.014733340631060483,
+      "suspect_words": [
+        [
+          "charms,",
+          0.04320420887990116
+        ],
+        [
+          "spirit",
+          0.041138334834410706
+        ],
+        [
+          "my",
+          -0.0234402660047591
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.01536666860748122,
+      "suspect_words": [
+        [
+          "mysterious,",
+          0.049572109501319975
+        ],
+        [
+          "So",
+          -0.0033882529786553404
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.017696138703541787,
+      "suspect_words": [
+        [
+          "Of",
+          -0.019345367532243286
+        ],
+        [
+          "treacherous",
+          0.015456152991665598
+        ],
+        [
+          "eyes,",
+          -0.013102763224817893
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.0945204306712551,
+      "suspect_words": [
+        [
+          "tears.",
+          0.04805344365964391
+        ],
+        [
+          "Shining",
+          0.02541172131229731
+        ],
+        [
+          "their",
+          -0.013966032048260121
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 16,
+      "field": "sound",
+      "scalar": 0.002202608656308459,
+      "suspect_words": [
+        [
+          "years,",
+          0.038560971842432346
+        ],
+        [
+          "by",
+          0.01919778039651552
+        ],
+        [
+          "Polished",
+          0.007485700707490528
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 17,
+      "field": "color",
+      "scalar": 0.0016047100735933116,
+      "suspect_words": [
+        [
+          "our",
+          0.02802295905817567
+        ],
+        [
+          "bedroom;",
+          -0.020167520974600072
+        ],
+        [
+          "ornament",
+          -0.00861561995908531
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 18,
+      "field": "color",
+      "scalar": 0.022613715151090508,
+      "suspect_words": [
+        [
+          "rarest",
+          0.05734736767048472
+        ],
+        [
+          "The",
+          0.0065445192616590195
+        ],
+        [
+          "flowers",
+          0.006352079926437645
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.033568001544669976,
+      "suspect_words": [
+        [
+          "flowers",
+          0.04277273019673993
+        ],
+        [
+          "rarest",
+          0.02228478244333217
+        ],
+        [
+          "The",
+          -0.0031119611089770807
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.09028110943710205,
+      "suspect_words": [
+        [
+          "fragrance",
+          0.137957483637009
+        ],
+        [
+          "Mingling",
+          0.016128019566582233
+        ],
+        [
+          "their",
+          -0.011623854397405209
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.17761736220643332,
+      "suspect_words": [
+        [
+          "scent",
+          0.08022793995841707
+        ],
+        [
+          "amber,",
+          0.03614850621517918
+        ],
+        [
+          "With",
+          0.028871160029096787
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 23,
+      "field": "sound",
+      "scalar": 0.0017919758582629688,
+      "suspect_words": [
+        [
+          "splendor,",
+          0.009287934602264626
+        ],
+        [
+          "The",
+          -0.007328114169899969
+        ],
+        [
+          "oriental",
+          0.005302994638173013
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 26,
+      "field": "color",
+      "scalar": 0.024732748838592472,
+      "suspect_words": [
+        [
+          "language.",
+          0.03236603534483669
+        ],
+        [
+          "native",
+          0.01897069736842082
+        ],
+        [
+          "soft,",
+          0.005894139547837213
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 30,
+      "field": "color",
+      "scalar": 0.011508622520462253,
+      "suspect_words": [
+        [
+          "sleeping.",
+          -0.024143024447920165
+        ],
+        [
+          "Those",
+          0.014399782702394285
+        ],
+        [
+          "vessels",
+          -0.007741995724509329
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 30,
+      "field": "sound",
+      "scalar": 0.021139595034048747,
+      "suspect_words": [
+        [
+          "sleeping.",
+          0.08015059382485379
+        ],
+        [
+          "Those",
+          0.030045708903696955
+        ],
+        [
+          "vessels",
+          0.023014579127421858
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 32,
+      "field": "sound",
+      "scalar": 0.017358482065019595,
+      "suspect_words": [
+        [
+          "satisfy",
+          0.033110885359299486
+        ],
+        [
+          "It's",
+          -0.007192589141244231
+        ],
+        [
+          "to",
+          5.8839508551809805e-06
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 33,
+      "field": "color",
+      "scalar": 0.005818982098099019,
+      "suspect_words": [
+        [
+          "Your",
+          0.02779300893919567
+        ],
+        [
+          "desire",
+          -0.011158480917857028
+        ],
+        [
+          "slightest",
+          0.007972026398436246
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 39,
+      "field": "sound",
+      "scalar": 0.047229286350981295,
+      "suspect_words": [
+        [
+          "falls",
+          0.04181279975928289
+        ],
+        [
+          "world",
+          0.04021391199605904
+        ],
+        [
+          "The",
+          0.007717372132366944
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 40,
+      "field": "color",
+      "scalar": 0.007120273067979195,
+      "suspect_words": [
+        [
+          "In",
+          0.01240200143611634
+        ],
+        [
+          "glow",
+          0.01153043620787566
+        ],
+        [
+          "warm",
+          0.009059914033746785
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:aggeler",
+      "line_no": 40,
+      "field": "sound",
+      "scalar": 0.0050079377170403234,
+      "suspect_words": [
+        [
+          "warm",
+          -0.03281771924008159
+        ],
+        [
+          "light.",
+          -0.03027663864416692
+        ],
+        [
+          "In",
+          -0.011587746222901114
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.04008484604904951,
+      "suspect_words": [
+        [
+          "our",
+          -0.03800719713123371
+        ],
+        [
+          "Then,",
+          0.03650181364141819
+        ],
+        [
+          "pleasure,",
+          0.02753445454210343
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.04810986813309666,
+      "suspect_words": [
+        [
+          "climes",
+          0.06290301978534092
+        ],
+        [
+          "die.",
+          0.04400242251940621
+        ],
+        [
+          "you",
+          -0.0224670055107853
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.0023300935339452674,
+      "suspect_words": [
+        [
+          "There",
+          0.028240887376400976
+        ],
+        [
+          "rainy-wet,",
+          -0.006390944427561198
+        ],
+        [
+          "the",
+          -0.0043885732210127365
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.021950045264585286,
+      "suspect_words": [
+        [
+          "rainy-wet,",
+          0.03428306000343071
+        ],
+        [
+          "suns,",
+          0.01575350063359135
+        ],
+        [
+          "There",
+          0.005718240831103352
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.014274297849853916,
+      "suspect_words": [
+        [
+          "clouds",
+          0.060841340551793965
+        ],
+        [
+          "rise",
+          0.03596884168445766
+        ],
+        [
+          "Through",
+          -0.019297968899105587
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.02189864030695736,
+      "suspect_words": [
+        [
+          "enchantment",
+          0.05225261956515737
+        ],
+        [
+          "me",
+          -0.034473875918953525
+        ],
+        [
+          "to",
+          -0.010904155092423123
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.01699303338046889,
+      "suspect_words": [
+        [
+          "my",
+          0.019044740448846312
+        ],
+        [
+          "receive",
+          0.018714879254842182
+        ],
+        [
+          "That",
+          -0.011866177204843707
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.019621582196954118,
+      "suspect_words": [
+        [
+          "receive",
+          0.03945965599630538
+        ],
+        [
+          "senses",
+          0.03210345098328058
+        ],
+        [
+          "my",
+          -0.026021673745900406
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.03048146760788725,
+      "suspect_words": [
+        [
+          "shine",
+          0.047384969037245234
+        ],
+        [
+          "tears",
+          0.04053425252435294
+        ],
+        [
+          "they",
+          -0.02516673526944228
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.036975690593131987,
+      "suspect_words": [
+        [
+          "pleasure,",
+          0.034616058627019816
+        ],
+        [
+          "There'll",
+          -0.014576602859974988
+        ],
+        [
+          "wealth,",
+          0.01331799065024131
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 14,
+      "field": "color",
+      "scalar": 0.009546912146992007,
+      "suspect_words": [
+        [
+          "order",
+          0.042399716178318295
+        ],
+        [
+          "measure.",
+          -0.01825793586700208
+        ],
+        [
+          "all",
+          -0.017633387319186098
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.019522160090632134,
+      "suspect_words": [
+        [
+          "measure.",
+          0.03463992216654337
+        ],
+        [
+          "order",
+          0.034286608882345915
+        ],
+        [
+          "all",
+          -0.0238882500803279
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 16,
+      "field": "sound",
+      "scalar": 0.04687596880612578,
+      "suspect_words": [
+        [
+          "centuries",
+          0.04029106240692811
+        ],
+        [
+          "By",
+          0.02797049562043584
+        ],
+        [
+          "burnished,",
+          0.02679605513339786
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 17,
+      "field": "sound",
+      "scalar": 0.05060578292801318,
+      "suspect_words": [
+        [
+          "gleam",
+          0.07084044781408132
+        ],
+        [
+          "shade",
+          0.052907436197637464
+        ],
+        [
+          "our",
+          -0.03964146138244677
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 18,
+      "field": "color",
+      "scalar": 0.04801325743437132,
+      "suspect_words": [
+        [
+          "rarest",
+          0.03954042606108488
+        ],
+        [
+          "While",
+          0.02469080645297784
+        ],
+        [
+          "flowers",
+          0.01960577178893516
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.06527265258338685,
+      "suspect_words": [
+        [
+          "rarest",
+          0.04893950744514538
+        ],
+        [
+          "flowers",
+          0.028690093278302922
+        ],
+        [
+          "While",
+          0.01732630592248137
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.042713389972272545,
+      "suspect_words": [
+        [
+          "Vaguely",
+          0.05880519256057041
+        ],
+        [
+          "hours",
+          0.02907940296144513
+        ],
+        [
+          "mix",
+          0.02031831663636444
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.08905452498940018,
+      "suspect_words": [
+        [
+          "perfume",
+          0.08822341355964144
+        ],
+        [
+          "amber:",
+          0.04275555694110395
+        ],
+        [
+          "own",
+          -0.011510655247124454
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 23,
+      "field": "color",
+      "scalar": 0.0177391583382268,
+      "suspect_words": [
+        [
+          "wealth",
+          0.0417460172524123
+        ],
+        [
+          "The",
+          0.008416224293664027
+        ],
+        [
+          "East,",
+          0.007681679450193869
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 26,
+      "field": "color",
+      "scalar": 0.023303518921521164,
+      "suspect_words": [
+        [
+          "tongue.",
+          0.020632252413617082
+        ],
+        [
+          "indigenous",
+          0.015943689462356546
+        ],
+        [
+          "In",
+          0.008423092494494251
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 27,
+      "field": "sound",
+      "scalar": 0.036975690593131987,
+      "suspect_words": [
+        [
+          "pleasure,",
+          0.034616058627019816
+        ],
+        [
+          "There'll",
+          -0.014576602859974988
+        ],
+        [
+          "wealth,",
+          0.01331799065024131
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 28,
+      "field": "color",
+      "scalar": 0.009546912146992007,
+      "suspect_words": [
+        [
+          "order",
+          0.042399716178318295
+        ],
+        [
+          "measure.",
+          -0.01825793586700208
+        ],
+        [
+          "all",
+          -0.017633387319186098
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 28,
+      "field": "sound",
+      "scalar": 0.019522160090632134,
+      "suspect_words": [
+        [
+          "measure.",
+          0.03463992216654337
+        ],
+        [
+          "order",
+          0.034286608882345915
+        ],
+        [
+          "all",
+          -0.0238882500803279
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 29,
+      "field": "color",
+      "scalar": 0.014133922524548908,
+      "suspect_words": [
+        [
+          "and",
+          0.02388537223620756
+        ],
+        [
+          "channels",
+          0.01664678378234411
+        ],
+        [
+          "streams",
+          -0.0137911842783267
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 30,
+      "field": "color",
+      "scalar": 0.024573360954373503,
+      "suspect_words": [
+        [
+          "each",
+          0.026554352149763212
+        ],
+        [
+          "See",
+          0.01210708164239201
+        ],
+        [
+          "dreams",
+          -0.0029803937071467453
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 31,
+      "field": "sound",
+      "scalar": 0.02967096247530452,
+      "suspect_words": [
+        [
+          "whimsical",
+          0.05004814487725878
+        ],
+        [
+          "way,",
+          0.045599020616853794
+        ],
+        [
+          "its",
+          -0.008818952543817586
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 32,
+      "field": "color",
+      "scalar": 0.012118976122745012,
+      "suspect_words": [
+        [
+          "least",
+          0.025033702573186024
+        ],
+        [
+          "your",
+          0.011296499408198322
+        ],
+        [
+          "whim",
+          -0.005855441385450716
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 32,
+      "field": "sound",
+      "scalar": 0.007615590067268249,
+      "suspect_words": [
+        [
+          "your",
+          -0.033380554959892395
+        ],
+        [
+          "Since",
+          0.019062736485592348
+        ],
+        [
+          "its",
+          -0.017598383307116255
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 33,
+      "field": "sound",
+      "scalar": 0.008227031107098385,
+      "suspect_words": [
+        [
+          "oceans",
+          0.01431838375038568
+        ],
+        [
+          "they",
+          -0.008815734416353565
+        ],
+        [
+          "swim",
+          -0.005195058009030782
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 34,
+      "field": "color",
+      "scalar": 0.018728222807785508,
+      "suspect_words": [
+        [
+          "night",
+          0.01437886312088993
+        ],
+        [
+          "From",
+          0.010772610452690554
+        ],
+        [
+          "day.",
+          0.009684792076231826
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 36,
+      "field": "sound",
+      "scalar": 0.06202901513330783,
+      "suspect_words": [
+        [
+          "glory",
+          0.047713277699999376
+        ],
+        [
+          "will",
+          0.03438718175825346
+        ],
+        [
+          "crown",
+          0.02623577830185137
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 41,
+      "field": "sound",
+      "scalar": 0.05363124450116964,
+      "suspect_words": [
+        [
+          "pleasure",
+          0.05127161253505748
+        ],
+        [
+          "There'll",
+          -0.012904524825940664
+        ],
+        [
+          "wealth,",
+          0.011797863010942183
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 42,
+      "field": "color",
+      "scalar": 0.009546912146992007,
+      "suspect_words": [
+        [
+          "order",
+          0.042399716178318295
+        ],
+        [
+          "measure.",
+          -0.01825793586700208
+        ],
+        [
+          "all",
+          -0.017633387319186098
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:campbell",
+      "line_no": 42,
+      "field": "sound",
+      "scalar": 0.019522160090632134,
+      "suspect_words": [
+        [
+          "measure.",
+          0.03463992216654337
+        ],
+        [
+          "order",
+          0.034286608882345915
+        ],
+        [
+          "all",
+          -0.0238882500803279
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.004988982207616774,
+      "suspect_words": [
+        [
+          "of:",
+          0.016929006128280848
+        ],
+        [
+          "you",
+          -0.011272399387968795
+        ],
+        [
+          "Country",
+          0.0038494254217110325
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03971753379064025,
+      "suspect_words": [
+        [
+          "Charming",
+          0.03512338010545882
+        ],
+        [
+          "dawn",
+          0.02380839008881262
+        ],
+        [
+          "in",
+          -0.01479990646433485
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.10359958458666088,
+      "suspect_words": [
+        [
+          "Drenched,",
+          0.05537637001627055
+        ],
+        [
+          "appears",
+          0.05480414866832398
+        ],
+        [
+          "mysterious",
+          0.04810788240694621
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.024375501585135847,
+      "suspect_words": [
+        [
+          "curdled",
+          0.025838316958813234
+        ],
+        [
+          "skies,",
+          0.020625319465310876
+        ],
+        [
+          "the",
+          0.0027461120476046583
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.04200643297993338,
+      "suspect_words": [
+        [
+          "curdled",
+          0.06679067339559228
+        ],
+        [
+          "skies,",
+          0.05864929776734998
+        ],
+        [
+          "In",
+          0.013135613785244842
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.13532975637898398,
+      "suspect_words": [
+        [
+          "Shining",
+          0.08386427158320924
+        ],
+        [
+          "tears.",
+          0.04749051774630811
+        ],
+        [
+          "their",
+          -0.04527745291218915
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.11881513912070533,
+      "suspect_words": [
+        [
+          "order",
+          0.060497163581850616
+        ],
+        [
+          "bless",
+          0.04058442911249484
+        ],
+        [
+          "restraint",
+          0.033925399962662375
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.030838650606611482,
+      "suspect_words": [
+        [
+          "voluptuousness.",
+          0.023965881505623173
+        ],
+        [
+          "and",
+          0.012358781250445625
+        ],
+        [
+          "Luxury",
+          0.007724593796388936
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 15,
+      "field": "color",
+      "scalar": 0.043718958858911965,
+      "suspect_words": [
+        [
+          "should",
+          0.04305081912239846
+        ],
+        [
+          "have",
+          0.01583780663193956
+        ],
+        [
+          "We",
+          0.008534785491943614
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 16,
+      "field": "color",
+      "scalar": 0.041298111664837114,
+      "suspect_words": [
+        [
+          "Never",
+          0.028449154112146633
+        ],
+        [
+          "bloom:",
+          0.027173622997701555
+        ],
+        [
+          "of",
+          -0.011067737987916472
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 16,
+      "field": "sound",
+      "scalar": 0.009349748777472681,
+      "suspect_words": [
+        [
+          "bloom:",
+          0.047513347087956605
+        ],
+        [
+          "Never",
+          0.024886495181959997
+        ],
+        [
+          "out",
+          -0.017913057935735624
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 19,
+      "field": "color",
+      "scalar": 0.03982726927453961,
+      "suspect_words": [
+        [
+          "flowers",
+          0.020973693276012718
+        ],
+        [
+          "Should",
+          0.019033169104350614
+        ],
+        [
+          "reflect",
+          -0.007274698794571273
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.10976621983877162,
+      "suspect_words": [
+        [
+          "amber-scented",
+          0.1158674921766036
+        ],
+        [
+          "In",
+          -0.010084621320701079
+        ],
+        [
+          "that",
+          -0.002447139927807984
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 22,
+      "field": "sound",
+      "scalar": 0.007804559138332802,
+      "suspect_words": [
+        [
+          "deep",
+          0.06324710525688759
+        ],
+        [
+          "thought,",
+          -0.05559174286494909
+        ],
+        [
+          "as",
+          0.034134724707435636
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 23,
+      "field": "color",
+      "scalar": 0.0008572140239477026,
+      "suspect_words": [
+        [
+          "hung,—",
+          0.03872775890735196
+        ],
+        [
+          "splendour",
+          0.027223311929665348
+        ],
+        [
+          "eastern",
+          0.02077483271513636
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 23,
+      "field": "sound",
+      "scalar": 0.04390610117036387,
+      "suspect_words": [
+        [
+          "hung,—",
+          0.04603683042467822
+        ],
+        [
+          "eastern",
+          -0.03561286790208101
+        ],
+        [
+          "splendour",
+          0.03296375398839872
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 24,
+      "field": "color",
+      "scalar": 0.015338375369863246,
+      "suspect_words": [
+        [
+          "should",
+          -0.016874124355234457
+        ],
+        [
+          "apart",
+          -0.010792966307116326
+        ],
+        [
+          "All",
+          0.0016969070398380158
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 26,
+      "field": "color",
+      "scalar": 0.01872927191278132,
+      "suspect_words": [
+        [
+          "tongue.",
+          0.025068536579986162
+        ],
+        [
+          "native",
+          0.008165078250357966
+        ],
+        [
+          "its",
+          -0.008031883939718053
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 27,
+      "field": "sound",
+      "scalar": 0.11881513912070533,
+      "suspect_words": [
+        [
+          "order",
+          0.060497163581850616
+        ],
+        [
+          "bless",
+          0.04058442911249484
+        ],
+        [
+          "restraint",
+          0.033925399962662375
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 28,
+      "field": "sound",
+      "scalar": 0.030838650606611482,
+      "suspect_words": [
+        [
+          "voluptuousness.",
+          0.023965881505623173
+        ],
+        [
+          "and",
+          0.012358781250445625
+        ],
+        [
+          "Luxury",
+          0.007724593796388936
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 31,
+      "field": "sound",
+      "scalar": 0.02906657808746925,
+      "suspect_words": [
+        [
+          "asleep,",
+          0.06875430683288797
+        ],
+        [
+          "canals",
+          0.05565748249652587
+        ],
+        [
+          "still",
+          0.02184752855484879
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 32,
+      "field": "color",
+      "scalar": 0.048865436301255616,
+      "suspect_words": [
+        [
+          "big",
+          0.02999666196060121
+        ],
+        [
+          "These",
+          0.013710805894116808
+        ],
+        [
+          "bring",
+          -0.006878648260769629
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 33,
+      "field": "color",
+      "scalar": 0.018748082790087682,
+      "suspect_words": [
+        [
+          "You",
+          0.015382977646185805
+        ],
+        [
+          "some",
+          -0.009265842823326823
+        ],
+        [
+          "thing",
+          -0.007326196510763529
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 34,
+      "field": "sound",
+      "scalar": 0.08924510076301129,
+      "suspect_words": [
+        [
+          "deep.",
+          0.06089473615350004
+        ],
+        [
+          "braved",
+          -0.014906929866665253
+        ],
+        [
+          "have",
+          -0.011471931969921634
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 35,
+      "field": "color",
+      "scalar": 0.006965922081677485,
+      "suspect_words": [
+        [
+          "sun",
+          0.014176225343543188
+        ],
+        [
+          "down,",
+          -0.010521357949979679
+        ],
+        [
+          "goes",
+          0.004667006287635857
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 35,
+      "field": "sound",
+      "scalar": 0.018560434857230648,
+      "suspect_words": [
+        [
+          "—Now",
+          0.03037864591147812
+        ],
+        [
+          "sun",
+          0.0198438630131611
+        ],
+        [
+          "goes",
+          0.011432955600997021
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 36,
+      "field": "sound",
+      "scalar": 0.006150037954716081,
+      "suspect_words": [
+        [
+          "Tinting",
+          0.06669922962957689
+        ],
+        [
+          "and",
+          0.03546380530490817
+        ],
+        [
+          "dyke",
+          0.01568529227255725
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 39,
+      "field": "color",
+      "scalar": 0.004720539839641358,
+      "suspect_words": [
+        [
+          "we",
+          -0.019405383986472353
+        ],
+        [
+          "behold",
+          0.011114841018133648
+        ],
+        [
+          "All",
+          0.006599551780226673
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 40,
+      "field": "sound",
+      "scalar": 0.08516207459124994,
+      "suspect_words": [
+        [
+          "Slumbers",
+          0.06964097332613753
+        ],
+        [
+          "its",
+          -0.020125175224103953
+        ],
+        [
+          "ruddy",
+          0.018209069420461715
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 41,
+      "field": "sound",
+      "scalar": 0.11881513912070533,
+      "suspect_words": [
+        [
+          "order",
+          0.060497163581850616
+        ],
+        [
+          "bless",
+          0.04058442911249484
+        ],
+        [
+          "restraint",
+          0.033925399962662375
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:millay",
+      "line_no": 42,
+      "field": "sound",
+      "scalar": 0.030838650606611482,
+      "suspect_words": [
+        [
+          "voluptuousness.",
+          0.023965881505623173
+        ],
+        [
+          "and",
+          0.012358781250445625
+        ],
+        [
+          "Luxury",
+          0.007724593796388936
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.017305475961594614,
+      "suspect_words": [
+        [
+          "all",
+          0.013119679977695297
+        ],
+        [
+          "seem",
+          -0.0053482867895183715
+        ],
+        [
+          "would",
+          -0.004532128804398603
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.010709245168734801,
+      "suspect_words": [
+        [
+          "all",
+          -0.02100886769143579
+        ],
+        [
+          "seem",
+          -0.01613641041168424
+        ],
+        [
+          "sweet",
+          0.008351814476826527
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.01583282475689982,
+      "suspect_words": [
+        [
+          "live",
+          0.014624357060220987
+        ],
+        [
+          "in",
+          -0.011414751986836804
+        ],
+        [
+          "we",
+          -0.00901677480787589
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.1188162267935907,
+      "suspect_words": [
+        [
+          "glimmer",
+          0.04838118939657404
+        ],
+        [
+          "Drowned",
+          0.04022584405441719
+        ],
+        [
+          "suns",
+          0.01766889508402715
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.04088890532130671,
+      "suspect_words": [
+        [
+          "cloud-dishevelled",
+          0.07806705591059905
+        ],
+        [
+          "air",
+          0.06329644757147666
+        ],
+        [
+          "Through",
+          0.02273607286088548
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.037610568623190385,
+      "suspect_words": [
+        [
+          "mystery",
+          0.07733740000781464
+        ],
+        [
+          "Move",
+          -0.03830752450971732
+        ],
+        [
+          "with",
+          0.02431334629275367
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.024365897771364824,
+      "suspect_words": [
+        [
+          "those",
+          0.029667411359836058
+        ],
+        [
+          "Within",
+          -0.027534068263597486
+        ],
+        [
+          "skies",
+          -0.023629473538910324
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.04779996621810497,
+      "suspect_words": [
+        [
+          "shining",
+          0.04777948807521312
+        ],
+        [
+          "When",
+          -0.03307364122832008
+        ],
+        [
+          "behold",
+          -0.024646798695874807
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.11405147768870276,
+      "suspect_words": [
+        [
+          "quietness,",
+          0.055023904811078314
+        ],
+        [
+          "Richness,",
+          0.046636045624009956
+        ],
+        [
+          "and",
+          0.020541203511030018
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 17,
+      "field": "sound",
+      "scalar": 0.050673699602088174,
+      "suspect_words": [
+        [
+          "Softly",
+          0.04796536189746443
+        ],
+        [
+          "our",
+          -0.03211259332633744
+        ],
+        [
+          "glow",
+          0.030811566759997907
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 18,
+      "field": "color",
+      "scalar": 0.0036737920048132526,
+      "suspect_words": [
+        [
+          "rarest",
+          0.0235291951115563
+        ],
+        [
+          "Flowers",
+          -0.012773583280292728
+        ],
+        [
+          "bloom",
+          0.004732710112721307
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.08925585026609759,
+      "suspect_words": [
+        [
+          "bloom",
+          0.04627735023087087
+        ],
+        [
+          "rarest",
+          0.03944760122611993
+        ],
+        [
+          "Flowers",
+          0.023333785269151114
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.07600616512563928,
+      "suspect_words": [
+        [
+          "perfume",
+          0.09479779325040946
+        ],
+        [
+          "their",
+          -0.017776817030104627
+        ],
+        [
+          "Proffering",
+          0.016617794883169036
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.10228138668988598,
+      "suspect_words": [
+        [
+          "Mixed",
+          -0.039591716487959255
+        ],
+        [
+          "amber;",
+          -0.029598296867441837
+        ],
+        [
+          "fragrances",
+          0.028768155098785192
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 22,
+      "field": "sound",
+      "scalar": 0.08077945141336021,
+      "suspect_words": [
+        [
+          "deep",
+          0.07166384379044215
+        ],
+        [
+          "as",
+          0.04253360382547642
+        ],
+        [
+          "Mirrors",
+          0.015586646033506568
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 24,
+      "field": "color",
+      "scalar": 0.027186683685576262,
+      "suspect_words": [
+        [
+          "should",
+          0.01769345984956004
+        ],
+        [
+          "Nothing",
+          0.009526823777845358
+        ],
+        [
+          "but",
+          0.005388577622437791
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 25,
+      "field": "sound",
+      "scalar": 0.006011698470997577,
+      "suspect_words": [
+        [
+          "loneliness,",
+          0.025884890035553748
+        ],
+        [
+          "soul's",
+          0.014999409928789221
+        ],
+        [
+          "The",
+          -0.003676970800413591
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 26,
+      "field": "color",
+      "scalar": 0.05221376814129969,
+      "suspect_words": [
+        [
+          "tongue.",
+          0.03936636889439359
+        ],
+        [
+          "Speaking",
+          0.012922485722147284
+        ],
+        [
+          "native",
+          0.01062341924507161
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 28,
+      "field": "sound",
+      "scalar": 0.11405147768870276,
+      "suspect_words": [
+        [
+          "quietness,",
+          0.055023904811078314
+        ],
+        [
+          "Richness,",
+          0.046636045624009956
+        ],
+        [
+          "and",
+          0.020541203511030018
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 29,
+      "field": "sound",
+      "scalar": 0.029517143576637546,
+      "suspect_words": [
+        [
+          "swells",
+          0.06534623789906896
+        ],
+        [
+          "See,",
+          0.03140366824785031
+        ],
+        [
+          "from",
+          0.026560804111703057
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 30,
+      "field": "color",
+      "scalar": 0.026126185717250797,
+      "suspect_words": [
+        [
+          "There",
+          0.019949965752256004
+        ],
+        [
+          "canals",
+          0.01933221182308873
+        ],
+        [
+          "still",
+          0.007642756713903888
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 31,
+      "field": "sound",
+      "scalar": 0.0020979338007703803,
+      "suspect_words": [
+        [
+          "forth;",
+          -0.0424172871192493
+        ],
+        [
+          "drowsy",
+          0.037553442585378405
+        ],
+        [
+          "ships",
+          -0.03218610713365583
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 32,
+      "field": "sound",
+      "scalar": 0.013729671375490127,
+      "suspect_words": [
+        [
+          "satisfy",
+          0.03153957009527736
+        ],
+        [
+          "is",
+          -0.006685785338987397
+        ],
+        [
+          "It",
+          -0.0021379483505743237
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 35,
+      "field": "sound",
+      "scalar": 0.00025497162133298907,
+      "suspect_words": [
+        [
+          "close",
+          0.03474562141333646
+        ],
+        [
+          "sun",
+          0.024087026745866064
+        ],
+        [
+          "at",
+          0.013633192394770118
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 36,
+      "field": "sound",
+      "scalar": 0.003775423134853347,
+      "suspect_words": [
+        [
+          "hay,",
+          0.02291705582723999
+        ],
+        [
+          "Clothes",
+          0.017022616632035914
+        ],
+        [
+          "fields",
+          0.007320624924836745
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 39,
+      "field": "sound",
+      "scalar": 0.03266508760175095,
+      "suspect_words": [
+        [
+          "land",
+          0.03115328394282809
+        ],
+        [
+          "Slowly",
+          0.026916302812851844
+        ],
+        [
+          "the",
+          0.009556146938002299
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 40,
+      "field": "sound",
+      "scalar": 0.057958912654663776,
+      "suspect_words": [
+        [
+          "fire.",
+          0.028581290421678
+        ],
+        [
+          "gentle",
+          -0.020548672799301053
+        ],
+        [
+          "Sleepward",
+          0.018136294508307192
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "en:wilbur",
+      "line_no": 42,
+      "field": "sound",
+      "scalar": 0.11405147768870276,
+      "suspect_words": [
+        [
+          "quietness,",
+          0.055023904811078314
+        ],
+        [
+          "Richness,",
+          0.046636045624009956
+        ],
+        [
+          "and",
+          0.020541203511030018
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.007784786237198541,
+      "suspect_words": [
+        [
+          "多",
+          0.020173489422047247
+        ],
+        [
+          "甜美",
+          -0.015582401454325025
+        ],
+        [
+          "想想",
+          0.007577543447138251
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.004569605822911268,
+      "suspect_words": [
+        [
+          "！",
+          -0.021848311291655247
+        ],
+        [
+          "那边",
+          -0.013163634816483097
+        ],
+        [
+          "一起",
+          0.01294192617633828
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.006417532021271783,
+      "suspect_words": [
+        [
+          "神秘",
+          0.023214909973232913
+        ],
+        [
+          "，",
+          0.006193879328022796
+        ],
+        [
+          "的",
+          -0.0025871461133348712
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.012578568206682617,
+      "suspect_words": [
+        [
+          "眼泪",
+          0.04972998850553578
+        ],
+        [
+          "如",
+          0.017784338661396042
+        ],
+        [
+          "却",
+          0.004639180356803257
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 16,
+      "field": "sound",
+      "scalar": 0.013277650731074248,
+      "suspect_words": [
+        [
+          "年岁",
+          0.03230139309978988
+        ],
+        [
+          "光",
+          0.023375895838013323
+        ],
+        [
+          "砑",
+          0.022010404966379953
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.03427779067580474,
+      "suspect_words": [
+        [
+          "珍奇",
+          0.035136076057722676
+        ],
+        [
+          "花卉",
+          0.007788421156189038
+        ],
+        [
+          "的",
+          0.00565563319834813
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 19,
+      "field": "color",
+      "scalar": 0.0012678956341983863,
+      "suspect_words": [
+        [
+          "它们",
+          0.03951129102318168
+        ],
+        [
+          "香味",
+          -0.007982162906702266
+        ],
+        [
+          "把",
+          -0.0010324626202673007
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.09499616314585216,
+      "suspect_words": [
+        [
+          "香味",
+          0.10883254564530159
+        ],
+        [
+          "把",
+          -0.02214178516003895
+        ],
+        [
+          "它们",
+          0.004773895431616257
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 20,
+      "field": "color",
+      "scalar": 0.002533553430852817,
+      "suspect_words": [
+        [
+          "琥珀",
+          0.037745113620231814
+        ],
+        [
+          "香",
+          -0.013336746975277168
+        ],
+        [
+          "入",
+          -0.012403313494361207
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.14330873627486926,
+      "suspect_words": [
+        [
+          "香",
+          0.06357251325501392
+        ],
+        [
+          "的",
+          0.03300379162469334
+        ],
+        [
+          "，",
+          0.017815586628554453
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 21,
+      "field": "sound",
+      "scalar": 0.008507032727074672,
+      "suspect_words": [
+        [
+          "的",
+          0.019164494671564964
+        ],
+        [
+          "华丽",
+          0.017036251053406667
+        ],
+        [
+          "藻井",
+          0.0068196676458584325
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 22,
+      "field": "sound",
+      "scalar": 0.02163220495357878,
+      "suspect_words": [
+        [
+          "深湛",
+          0.06957099703616809
+        ],
+        [
+          "的",
+          0.009361055192327706
+        ],
+        [
+          "明镜",
+          -0.0032642405640588325
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 23,
+      "field": "sound",
+      "scalar": 0.010731910343208492,
+      "suspect_words": [
+        [
+          "东方",
+          -0.02704694805229118
+        ],
+        [
+          "璀灿",
+          0.025414834730509282
+        ],
+        [
+          "的",
+          0.011020198961161104
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 26,
+      "field": "sound",
+      "scalar": 0.00872111942493772,
+      "suspect_words": [
+        [
+          "家乡话",
+          -0.019422399070373814
+        ],
+        [
+          "温和",
+          0.018366719242546996
+        ],
+        [
+          "。",
+          -0.015402692035602
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 32,
+      "field": "color",
+      "scalar": 0.010079427994420433,
+      "suspect_words": [
+        [
+          "你",
+          -0.01457600842478159
+        ],
+        [
+          "使",
+          0.0072189782586690315
+        ],
+        [
+          "要",
+          -0.0032825216336844123
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 33,
+      "field": "color",
+      "scalar": 0.009616113099001438,
+      "suspect_words": [
+        [
+          "百事",
+          0.013076303064631065
+        ],
+        [
+          "如意",
+          -0.010539568586635382
+        ],
+        [
+          "，",
+          0.005552078183915642
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:dai_wangshu",
+      "line_no": 35,
+      "field": "sound",
+      "scalar": 0.03451359226913843,
+      "suspect_words": [
+        [
+          "夕阳",
+          0.06618241858722951
+        ],
+        [
+          "下",
+          0.019761912234426297
+        ],
+        [
+          "西",
+          0.016617778493823707
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.010708796848326006,
+      "suspect_words": [
+        [
+          "甜美",
+          -0.01764650431150157
+        ],
+        [
+          "想想",
+          0.010525693592720004
+        ],
+        [
+          "多",
+          0.007643714066413635
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.009785632949651606,
+      "suspect_words": [
+        [
+          "！",
+          -0.01963674880373798
+        ],
+        [
+          "共同",
+          0.010601181011555962
+        ],
+        [
+          "到",
+          0.005426828007074235
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.009743975592917132,
+      "suspect_words": [
+        [
+          "死",
+          0.04263659524370225
+        ],
+        [
+          "爱",
+          0.034865221345467226
+        ],
+        [
+          "都",
+          0.025462546798056117
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.010706591383688659,
+      "suspect_words": [
+        [
+          "潮湿",
+          0.053059899406545964
+        ],
+        [
+          "阳光",
+          0.012580082569689292
+        ],
+        [
+          "了",
+          0.012259340863448714
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.03824639562100095,
+      "suspect_words": [
+        [
+          "昏暗",
+          0.03010980346285064
+        ],
+        [
+          "，",
+          0.011319680274257962
+        ],
+        [
+          "了",
+          0.010840193126401526
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.01117483038934592,
+      "suspect_words": [
+        [
+          "眉目",
+          0.01898354105795935
+        ],
+        [
+          "我爱你",
+          0.010946893275385517
+        ],
+        [
+          "含情",
+          0.009771833631296904
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.01648614325434901,
+      "suspect_words": [
+        [
+          "神秘",
+          0.05015430026725425
+        ],
+        [
+          "那样",
+          0.011261120856933177
+        ],
+        [
+          "，",
+          -0.004515998160020261
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.036198212779147046,
+      "suspect_words": [
+        [
+          "莹莹",
+          0.02576406888776716
+        ],
+        [
+          "了",
+          0.01318213407974083
+        ],
+        [
+          "照亮",
+          -0.0045087607993275144
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.030374850346284177,
+      "suspect_words": [
+        [
+          "那里",
+          0.04968348225664832
+        ],
+        [
+          "美",
+          -0.020564094507172073
+        ],
+        [
+          "，",
+          0.004797520219661403
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 14,
+      "field": "sound",
+      "scalar": 0.05979273790467515,
+      "suspect_words": [
+        [
+          "豪华",
+          0.0505698375987653
+        ],
+        [
+          "沉醉",
+          0.030034268840482062
+        ],
+        [
+          "宁静",
+          0.025271090617292657
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 15,
+      "field": "color",
+      "scalar": 0.008270673175815561,
+      "suspect_words": [
+        [
+          "亮闪闪",
+          -0.0043531935205413375
+        ],
+        [
+          "，",
+          -0.0027827288786227006
+        ],
+        [
+          "家具",
+          -0.001151342927396987
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 16,
+      "field": "sound",
+      "scalar": 0.024548051169235623,
+      "suspect_words": [
+        [
+          "磨圆",
+          0.04276307820289739
+        ],
+        [
+          "被",
+          0.031518476550295785
+        ],
+        [
+          "岁月",
+          0.00936097029634176
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 18,
+      "field": "color",
+      "scalar": 0.0140504697629408,
+      "suspect_words": [
+        [
+          "花",
+          0.011919968772247293
+        ],
+        [
+          "，",
+          0.011240365499518956
+        ],
+        [
+          "的",
+          0.008647929971722208
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.02520297774089123,
+      "suspect_words": [
+        [
+          "珍奇",
+          0.04122504314455465
+        ],
+        [
+          "最",
+          -0.01739716222289528
+        ],
+        [
+          "花",
+          0.012694185604936816
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.08628308501560879,
+      "suspect_words": [
+        [
+          "芬芳",
+          0.11829457710569322
+        ],
+        [
+          "散发",
+          0.012681284332130519
+        ],
+        [
+          "把",
+          0.010262809035838386
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.15011048102995378,
+      "suspect_words": [
+        [
+          "幽香",
+          0.08900943444319559
+        ],
+        [
+          "琥珀",
+          0.040850810805772714
+        ],
+        [
+          "融进",
+          0.01519503034386438
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 21,
+      "field": "color",
+      "scalar": 0.02628643554700337,
+      "suspect_words": [
+        [
+          "绚丽",
+          0.04030179214481051
+        ],
+        [
+          "的",
+          0.009966261857831192
+        ],
+        [
+          "，",
+          0.008952823343835799
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 22,
+      "field": "sound",
+      "scalar": 0.010992619767306828,
+      "suspect_words": [
+        [
+          "深邃",
+          0.05893141184989614
+        ],
+        [
+          "的",
+          0.008549806959978569
+        ],
+        [
+          "明镜",
+          -0.004269912960380325
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 23,
+      "field": "sound",
+      "scalar": 0.028892530842775543,
+      "suspect_words": [
+        [
+          "辉煌灿烂",
+          0.06537516622296016
+        ],
+        [
+          "东方",
+          -0.030034674674371306
+        ],
+        [
+          "的",
+          0.0029802797418984513
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 27,
+      "field": "sound",
+      "scalar": 0.029037644583759084,
+      "suspect_words": [
+        [
+          "那里",
+          0.05015700940227201
+        ],
+        [
+          "美",
+          -0.021060003171682447
+        ],
+        [
+          "，",
+          0.010209314984274957
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 28,
+      "field": "sound",
+      "scalar": 0.058334142785952295,
+      "suspect_words": [
+        [
+          "豪华",
+          0.040120755894439517
+        ],
+        [
+          "宁静",
+          0.0258301342810709
+        ],
+        [
+          "沉醉",
+          0.016824149137922115
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 31,
+      "field": "color",
+      "scalar": 0.005093454029870409,
+      "suspect_words": [
+        [
+          "你",
+          -0.002079852316401117
+        ],
+        [
+          "为了",
+          0.0016013036029023271
+        ],
+        [
+          "满足",
+          0.0008650719917109376
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 33,
+      "field": "color",
+      "scalar": 0.019664732592315142,
+      "suspect_words": [
+        [
+          "天涯海角",
+          0.03632543332804436
+        ],
+        [
+          "它",
+          0.02179445604527995
+        ],
+        [
+          "。",
+          0.011468075161104397
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 38,
+      "field": "color",
+      "scalar": 0.006137941872799467,
+      "suspect_words": [
+        [
+          "了",
+          0.014430690215615214
+        ],
+        [
+          "睡着",
+          0.012294952759983185
+        ],
+        [
+          "，",
+          0.0072938910842020015
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 40,
+      "field": "sound",
+      "scalar": 0.029037644583759084,
+      "suspect_words": [
+        [
+          "那里",
+          0.05015700940227201
+        ],
+        [
+          "美",
+          -0.021060003171682447
+        ],
+        [
+          "，",
+          0.010209314984274957
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:guo_hongan",
+      "line_no": 41,
+      "field": "sound",
+      "scalar": 0.058334142785952295,
+      "suspect_words": [
+        [
+          "豪华",
+          0.040120755894439517
+        ],
+        [
+          "宁静",
+          0.0258301342810709
+        ],
+        [
+          "沉醉",
+          0.016824149137922115
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.013878487955451563,
+      "suspect_words": [
+        [
+          "想想",
+          0.022736637992874918
+        ],
+        [
+          "多",
+          0.016749362085179874
+        ],
+        [
+          "甘美",
+          -0.014476813204376014
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.005425451054805321,
+      "suspect_words": [
+        [
+          "你",
+          -0.014050068021100783
+        ],
+        [
+          "跟",
+          -0.012487686841187205
+        ],
+        [
+          "住在一起",
+          0.00923888162443148
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.0427861420586642,
+      "suspect_words": [
+        [
+          "一样",
+          0.04352760501983441
+        ],
+        [
+          "国土",
+          -0.01802083324797451
+        ],
+        [
+          "的",
+          0.009201867342994594
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.0001105576919237447,
+      "suspect_words": [
+        [
+          "阴沉",
+          0.03754517745308917
+        ],
+        [
+          "天上",
+          -0.025128031857891146
+        ],
+        [
+          "的",
+          -0.008668689047983869
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.01988211078257418,
+      "suspect_words": [
+        [
+          "神秘",
+          0.05728448692538267
+        ],
+        [
+          "像",
+          0.010508545072991343
+        ],
+        [
+          "多",
+          0.008094759396701625
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.0059080013705887086,
+      "suspect_words": [
+        [
+          "不忠",
+          0.03991404296287153
+        ],
+        [
+          "眸子",
+          -0.026488396065814733
+        ],
+        [
+          "的",
+          0.002742523159928445
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.14081601835060018,
+      "suspect_words": [
+        [
+          "泪水",
+          0.05933788424844455
+        ],
+        [
+          "。",
+          0.03433762867878121
+        ],
+        [
+          "闪射",
+          0.026310805949971636
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.023347360543375193,
+      "suspect_words": [
+        [
+          "秩序",
+          0.03393242061373013
+        ],
+        [
+          "那儿",
+          0.019169178236677027
+        ],
+        [
+          "美",
+          -0.005651483967594288
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 15,
+      "field": "color",
+      "scalar": 0.0018845364345744658,
+      "suspect_words": [
+        [
+          "在",
+          -0.006742045671360931
+        ],
+        [
+          "，",
+          0.005298607547046683
+        ],
+        [
+          "屋里",
+          0.003400564350279093
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 16,
+      "field": "color",
+      "scalar": 0.04190080491399225,
+      "suspect_words": [
+        [
+          "布置",
+          0.044539670544894855
+        ],
+        [
+          "我要",
+          0.03288014573140833
+        ],
+        [
+          "去",
+          -0.002614408959606955
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 18,
+      "field": "sound",
+      "scalar": 0.03857045137096474,
+      "suspect_words": [
+        [
+          "奇花",
+          0.05055079285544391
+        ],
+        [
+          "异卉",
+          0.025248133410020305
+        ],
+        [
+          "和",
+          0.011396774089183152
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 19,
+      "field": "sound",
+      "scalar": 0.12454387101897338,
+      "suspect_words": [
+        [
+          "香味",
+          0.13348396676113258
+        ],
+        [
+          "吐",
+          0.037940108637530584
+        ],
+        [
+          "放出",
+          0.015742927611304636
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 20,
+      "field": "sound",
+      "scalar": 0.15227158972269383,
+      "suspect_words": [
+        [
+          "龙涎香",
+          0.035512162136737996
+        ],
+        [
+          "混着",
+          -0.02123066785316749
+        ],
+        [
+          "，",
+          0.0168075156046181
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 21,
+      "field": "color",
+      "scalar": 0.010578278982998818,
+      "suspect_words": [
+        [
+          "富丽",
+          0.03893440996847851
+        ],
+        [
+          "，",
+          0.01803521435639923
+        ],
+        [
+          "藻井",
+          -0.013591912952381466
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 21,
+      "field": "sound",
+      "scalar": 0.013566417828422966,
+      "suspect_words": [
+        [
+          "的",
+          0.02775358136967796
+        ],
+        [
+          "富丽",
+          0.02209563615475496
+        ],
+        [
+          "藻井",
+          0.021218793071699757
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 23,
+      "field": "sound",
+      "scalar": 0.049097960591014414,
+      "suspect_words": [
+        [
+          "绚烂",
+          0.043462735571475425
+        ],
+        [
+          "风味",
+          0.03408347685583356
+        ],
+        [
+          "东方",
+          -0.03201398734893028
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 26,
+      "field": "color",
+      "scalar": 0.041881052570035326,
+      "suspect_words": [
+        [
+          "语言",
+          0.03697230404224808
+        ],
+        [
+          "甘美",
+          0.034275126852129814
+        ],
+        [
+          "说出",
+          0.02648793356490909
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 27,
+      "field": "sound",
+      "scalar": 0.023347360543375193,
+      "suspect_words": [
+        [
+          "秩序",
+          0.03393242061373013
+        ],
+        [
+          "那儿",
+          0.019169178236677027
+        ],
+        [
+          "美",
+          -0.005651483967594288
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 29,
+      "field": "color",
+      "scalar": 0.010467046740361627,
+      "suspect_words": [
+        [
+          "那",
+          0.03407557629528217
+        ],
+        [
+          "瞧",
+          0.021252681077979466
+        ],
+        [
+          "运河",
+          -0.012424220196319266
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 32,
+      "field": "color",
+      "scalar": 0.005093454029870409,
+      "suspect_words": [
+        [
+          "你",
+          -0.002079852316401117
+        ],
+        [
+          "为了",
+          0.0016013036029023271
+        ],
+        [
+          "满足",
+          0.0008650719917109376
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 34,
+      "field": "color",
+      "scalar": 0.021018932264222447,
+      "suspect_words": [
+        [
+          "从",
+          -0.011670811473822852
+        ],
+        [
+          "它们",
+          0.01148562291908509
+        ],
+        [
+          "。",
+          0.0064738451879407
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 35,
+      "field": "sound",
+      "scalar": 0.012936493946847838,
+      "suspect_words": [
+        [
+          "斜晖",
+          0.03874599105356037
+        ],
+        [
+          "落日",
+          0.023015794720213853
+        ],
+        [
+          "的",
+          0.022852420601913045
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 37,
+      "field": "sound",
+      "scalar": 0.007914692318602777,
+      "suspect_words": [
+        [
+          "金黄",
+          0.0349374024200992
+        ],
+        [
+          "城市",
+          0.025983325863058026
+        ],
+        [
+          "和",
+          0.01449673041422462
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 38,
+      "field": "sound",
+      "scalar": 0.011085572686138098,
+      "suspect_words": [
+        [
+          "色彩",
+          0.03360338213870349
+        ],
+        [
+          "紫蓝",
+          0.014035950239812085
+        ],
+        [
+          "；",
+          0.01263485707218143
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 40,
+      "field": "color",
+      "scalar": 0.031013935469805243,
+      "suspect_words": [
+        [
+          "光辉",
+          0.030524817656363397
+        ],
+        [
+          "。",
+          0.029426558170444192
+        ],
+        [
+          "温暖",
+          0.02523702933201192
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "invitation",
+      "rid": "zh:qian_chunqi",
+      "line_no": 41,
+      "field": "sound",
+      "scalar": 0.023347360543375193,
+      "suspect_words": [
+        [
+          "秩序",
+          0.03393242061373013
+        ],
+        [
+          "那儿",
+          0.019169178236677027
+        ],
+        [
+          "美",
+          -0.005651483967594288
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    }
+  ]
+}

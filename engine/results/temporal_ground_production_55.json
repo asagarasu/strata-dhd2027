@@ -1,0 +1,970 @@
+{
+ "status": "PROPOSED — HER ADOPTION PENDING",
+ "basis": "production per her POS/sense-gating ruling (review F6); base law derive_temporal_ground_50.py v1.2; registration §55.3",
+ "gate": {
+  "principle": "majority of the treebank's own tags",
+  "theta": 0.5,
+  "min_support": 3,
+  "rules": [
+   "BLOCK: a neighbour attested >=3 times, temporal share < 0.5 (non-temporal majority), overrides dominance",
+   "DOM: lemma temporal in >= 0.5 of ALL its treebank tokens => licensed unless BLOCKed",
+   "LIC: else, a neighbour attested >=3 times with temporal share > 0.5 licenses the occurrence",
+   "otherwise (MIXED, no licensing collocation): killed"
+  ],
+  "rule_count": 4
+ },
+ "wei_verdict": {
+  "derivable": true,
+  "xpos": {
+   "v,副詞,否定,有界": 708
+  },
+  "bounded_n": 708,
+  "total_n": 708,
+  "reason": "licensed by the pinned treebank's native XPOS tag 副詞,否定,有界 (bounded negative), 708/708 uniform; underivable from UD FEATS (col 6 carries only Polarity=Neg, no Aspect=/Tense=)."
+ },
+ "membership": {
+  "ground": [
+   "且",
+   "乃",
+   "則",
+   "即",
+   "嘗",
+   "將",
+   "尋",
+   "已",
+   "常",
+   "彌",
+   "徑",
+   "忽",
+   "斯",
+   "方",
+   "既",
+   "曾",
+   "未",
+   "漸",
+   "稍",
+   "立",
+   "竟",
+   "輒",
+   "遂",
+   "遽"
+  ],
+  "ground_n": 24,
+  "referent_tem": [
+   "世",
+   "今",
+   "代",
+   "元祐",
+   "冬",
+   "初",
+   "前",
+   "古",
+   "后",
+   "咸淳",
+   "嘉定",
+   "夏",
+   "夕",
+   "夙",
+   "夜",
+   "宵",
+   "年",
+   "後",
+   "故",
+   "日",
+   "旦",
+   "旬",
+   "昏",
+   "昔",
+   "春",
+   "昨",
+   "時",
+   "晝",
+   "晨",
+   "暮",
+   "月",
+   "朔",
+   "朝",
+   "歲",
+   "秋",
+   "紹興",
+   "舊",
+   "莫",
+   "蚤",
+   "載",
+   "頃",
+   "齒"
+  ],
+  "referent_tem_n": 42,
+  "variant_aliases_n": 22,
+  "ground_v1_2_feats_n": 23,
+  "drift_vs_v1_2": {
+   "v1_2_ground": 23,
+   "production_ground": 24,
+   "added": [
+    "未"
+   ],
+   "explanation": "the single added lemma is 未, un-parked via the treebank XPOS 副詞,否定,有界 (708/708). REFERENT-TEM (42) and variants (22) are unchanged; 未 contributes no Unihan variant."
+  }
+ },
+ "gating_selftest_cases": [
+  {
+   "lemma": "方",
+   "killed": {
+    "context": "遠方 = distant place (direction)",
+    "neighbours": [
+     "遠",
+     "來"
+    ],
+    "receipt": {
+     "rule": "BLOCK",
+     "nbr": "遠←",
+     "temp": 0,
+     "non": 8
+    }
+   },
+   "kept": {
+    "context": "方今 = at present",
+    "neighbours": [
+     null,
+     "今"
+    ],
+    "receipt": {
+     "rule": "LIC",
+     "nbr": "今→",
+     "temp": 5,
+     "non": 1
+    }
+   }
+  },
+  {
+   "lemma": "前",
+   "killed": {
+    "context": "門前 = in front of the gate (spatial)",
+    "neighbours": [
+     "門",
+     null
+    ],
+    "receipt": {
+     "rule": "BLOCK",
+     "nbr": "門←",
+     "temp": 0,
+     "non": 5
+    }
+   },
+   "kept": {
+    "context": "前日 = the other day",
+    "neighbours": [
+     null,
+     "日"
+    ],
+    "receipt": {
+     "rule": "LIC",
+     "nbr": "日→",
+     "temp": 9,
+     "non": 0
+    }
+   }
+  },
+  {
+   "lemma": "日",
+   "killed": {
+    "context": "落日 = setting sun (celestial)",
+    "neighbours": [
+     "落",
+     null
+    ],
+    "receipt": {
+     "rule": "BLOCK",
+     "nbr": "落←",
+     "temp": 0,
+     "non": 5
+    }
+   },
+   "kept": {
+    "context": "三日 = three days",
+    "neighbours": [
+     "三",
+     null
+    ],
+    "receipt": {
+     "rule": "DOM",
+     "temp": 844,
+     "total": 1040,
+     "share": 0.812
+    }
+   }
+  },
+  {
+   "lemma": "月",
+   "killed": {
+    "context": "日月 = sun-and-moon (celestial)",
+    "neighbours": [
+     "日",
+     null
+    ],
+    "receipt": {
+     "rule": "BLOCK",
+     "nbr": "日←",
+     "temp": 9,
+     "non": 35
+    }
+   },
+   "kept": {
+    "context": "三月 = three months",
+    "neighbours": [
+     "三",
+     null
+    ],
+    "receipt": {
+     "rule": "DOM",
+     "temp": 393,
+     "total": 537,
+     "share": 0.732
+    }
+   }
+  },
+  {
+   "lemma": "故",
+   "killed": {
+    "context": "故曰/是故 = therefore (causal)",
+    "neighbours": [
+     null,
+     "曰"
+    ],
+    "receipt": {
+     "rule": "BLOCK",
+     "nbr": "曰→",
+     "temp": 0,
+     "non": 94
+    }
+   },
+   "kept": {
+    "context": "故人 = an old friend",
+    "neighbours": [
+     null,
+     "人"
+    ],
+    "receipt": {
+     "rule": "LIC",
+     "nbr": "人→",
+     "temp": 25,
+     "non": 13
+    }
+   }
+  }
+ ],
+ "disagreement_table": [
+  {
+   "poem": "changgan_xing",
+   "uid": "L2",
+   "text": "折花門前劇",
+   "lemma": "前",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "門←",
+    "temp": 0,
+    "non": 5
+   }
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L7",
+   "text": "屈平辞赋悬日月",
+   "lemma": "日",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "月→",
+    "temp": 6,
+    "non": 38
+   }
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L7",
+   "text": "屈平辞赋悬日月",
+   "lemma": "月",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "日←",
+    "temp": 9,
+    "non": 35
+   }
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L6",
+   "text": "落日故人情",
+   "lemma": "日",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "落←",
+    "temp": 0,
+    "non": 5
+   }
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L13",
+   "text": "客從遠方來",
+   "lemma": "方",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "遠←",
+    "temp": 0,
+    "non": 8
+   }
+  },
+  {
+   "poem": "yujie_yuan",
+   "uid": "L4",
+   "text": "玲瓏望秋月",
+   "lemma": "月",
+   "reason": {
+    "rule": "BLOCK",
+    "nbr": "秋←",
+    "temp": 2,
+    "non": 4
+   }
+  }
+ ],
+ "disagreement_summary": {
+  "n_substring_false_hits_killed": 6,
+  "n_true_hits_lost": 0,
+  "residual_false_positive_not_killed": [
+   {
+    "poem": "haiku_basho",
+    "uid": "U1",
+    "lemma": "古"
+   }
+  ],
+  "note": "production membership == committed lexicon membership, so all disagreements are gating kills (production hits ⊆ smoke hits)."
+ },
+ "per_line": [
+  {
+   "poem": "changgan_xing",
+   "uid": "L1",
+   "text": "妾髮初覆額",
+   "smoke": [
+    "初"
+   ],
+   "production": [
+    "初"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L2",
+   "text": "折花門前劇",
+   "smoke": [
+    "前"
+   ],
+   "production": [],
+   "killed": [
+    "前"
+   ]
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L3",
+   "text": "郎騎竹馬來",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L4",
+   "text": "遶牀弄青梅",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L5",
+   "text": "同居長干里",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L6",
+   "text": "兩小無嫌猜",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L7",
+   "text": "十四爲君婦",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "changgan_xing",
+   "uid": "L8",
+   "text": "羞顏未甞開",
+   "smoke": [
+    "嘗",
+    "未"
+   ],
+   "production": [
+    "嘗",
+    "未"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "haiku_basho",
+   "uid": "U1",
+   "text": "古池や蛙飛びこむ水の音",
+   "smoke": [
+    "古"
+   ],
+   "production": [
+    "古"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "haiku_basho",
+   "uid": "U2",
+   "text": "閑さや岩にしみ入る蝉の声",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L1",
+   "text": "木兰之枻沙棠舟",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L2",
+   "text": "玉箫金管坐两头",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L3",
+   "text": "美酒樽中置千斛",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L4",
+   "text": "载妓随波任去留",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L5",
+   "text": "仙人有待乘黄鹤",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L6",
+   "text": "海客无心随白鸥",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L7",
+   "text": "屈平辞赋悬日月",
+   "smoke": [
+    "日",
+    "月"
+   ],
+   "production": [],
+   "killed": [
+    "日",
+    "月"
+   ]
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L8",
+   "text": "楚王台榭空山丘",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L9",
+   "text": "兴酣落笔摇五岳",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L10",
+   "text": "诗成笑傲凌沧洲",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L11",
+   "text": "功名富贵若长在",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "jiangshang_yin",
+   "uid": "L12",
+   "text": "汉水亦应西北流",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L1",
+   "text": "青青河畔草",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L2",
+   "text": "鬱鬱園中柳",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L3",
+   "text": "盈盈樓上女",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L4",
+   "text": "皎皎當窗牖",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L5",
+   "text": "娥娥紅粉妝",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L6",
+   "text": "纖纖出素手",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L7",
+   "text": "昔為倡家女",
+   "smoke": [
+    "昔"
+   ],
+   "production": [
+    "昔"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L8",
+   "text": "今為蕩子婦",
+   "smoke": [
+    "今"
+   ],
+   "production": [
+    "今"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L9",
+   "text": "蕩子行不歸",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "qingqing_hepan_cao",
+   "uid": "L10",
+   "text": "空床難獨守",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L1",
+   "text": "青山橫北郭",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L2",
+   "text": "白水繞東城",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L3",
+   "text": "此地一為別",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L4",
+   "text": "孤蓬萬里征",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L5",
+   "text": "浮雲遊子意",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L6",
+   "text": "落日故人情",
+   "smoke": [
+    "故",
+    "日"
+   ],
+   "production": [
+    "故"
+   ],
+   "killed": [
+    "日"
+   ]
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L7",
+   "text": "揮手自茲去",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "song_you_ren",
+   "uid": "L8",
+   "text": "蕭蕭班馬鳴",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L1",
+   "text": "青青河畔草",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L2",
+   "text": "綿綿思遠道",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L3",
+   "text": "遠道不可思",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L4",
+   "text": "夙昔夢見之",
+   "smoke": [
+    "夙",
+    "昔"
+   ],
+   "production": [
+    "夙",
+    "昔"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L5",
+   "text": "夢見在我傍",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L6",
+   "text": "忽覺在他鄉",
+   "smoke": [
+    "忽"
+   ],
+   "production": [
+    "忽"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L7",
+   "text": "他鄉各異縣",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L8",
+   "text": "展轉不相見",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L9",
+   "text": "枯桑知天風",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L10",
+   "text": "海水知天寒",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L11",
+   "text": "入門各自媚",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L12",
+   "text": "誰肯相為言",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L13",
+   "text": "客從遠方來",
+   "smoke": [
+    "方"
+   ],
+   "production": [],
+   "killed": [
+    "方"
+   ]
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L14",
+   "text": "遺我雙鯉魚",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L15",
+   "text": "呼兒烹鯉魚",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L16",
+   "text": "中有尺素書",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L17",
+   "text": "長跪讀素書",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L18",
+   "text": "書中竟何如",
+   "smoke": [
+    "竟"
+   ],
+   "production": [
+    "竟"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L19",
+   "text": "上言加餐飯",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yinma_changchengku_xing",
+   "uid": "L20",
+   "text": "下言長相憶",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yujie_yuan",
+   "uid": "L1",
+   "text": "玉階生白露",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yujie_yuan",
+   "uid": "L2",
+   "text": "夜久侵羅襪",
+   "smoke": [
+    "夜"
+   ],
+   "production": [
+    "夜"
+   ],
+   "killed": []
+  },
+  {
+   "poem": "yujie_yuan",
+   "uid": "L3",
+   "text": "却下水晶簾",
+   "smoke": [],
+   "production": [],
+   "killed": []
+  },
+  {
+   "poem": "yujie_yuan",
+   "uid": "L4",
+   "text": "玲瓏望秋月",
+   "smoke": [
+    "月",
+    "秋"
+   ],
+   "production": [
+    "秋"
+   ],
+   "killed": [
+    "月"
+   ]
+  }
+ ],
+ "selftests": {
+  "S1_ungated_reproduces_v1_2": {
+   "ground": 23,
+   "referent_tem": 42,
+   "variants": 22,
+   "pass": true
+  },
+  "S2_production_membership_eq_committed_v1_3": {
+   "pass": true,
+   "drift": {
+    "v1_2_ground": 23,
+    "production_ground": 24,
+    "added": [
+     "未"
+    ],
+    "explanation": "the single added lemma is 未, un-parked via the treebank XPOS 副詞,否定,有界 (708/708). REFERENT-TEM (42) and variants (22) are unchanged; 未 contributes no Unihan variant."
+   }
+  },
+  "S3_wei_xpos_708_708": {
+   "pass": true
+  },
+  "S4_gating_cases": {
+   "pass": true,
+   "n": 5
+  },
+  "S5_no_true_hits_lost": {
+   "pass": true,
+   "true_lost": []
+  }
+ },
+ "limitations": [
+  "Low-purity polysemes (立 0.011, 莫 0.035, 且 0.084 temporal share) are gated toward precision: a genuine temporal use is dropped when no temporal-majority collocation is treebank-attested (e.g. 莫春/蚤莫 = 暮, 其末立見 = 緊接). Cost on THIS corpus = 0 true hits lost; nonzero out-of-corpus.",
+  "Japanese-script lines are out of the Classical-Chinese treebank's distribution; the gate can only block on positive treebank evidence, so a Japanese attributive collocation (古池 'old pond') whose head (池) never co-occurs with the lemma survives as a disclosed residual false positive.",
+  "The constructional layer (num+為, prep+pointer, lexicalised 於是-class) is her pattern layer, already class-gated; it is carried forward unchanged and is not the substring-grained target of review F6."
+ ],
+ "sources": {
+  "UD_Kyoto_pin": "59ee9e05a0ad55514e03b443411e69f45af64b7e",
+  "Unihan_Variants.txt": "3f23cd71872633f3350875d25bd388e83b60fa71807634c9a600ec26f38a68ab",
+  "jingzhuanshici_wikisource.wiki": "2d78bf38fc5ec780d9ba1c0317c8eb9f9cadb5ad91b41e429035fa4d0a7e4971",
+  "committed_lexicon_v1.3": "91161d0aa0b840aa6970c716859836b593e76056a76a70ee96f525d7be37c901",
+  "conllu": {
+   "lzh_kyoto-ud-dev.conllu": "b67614202e30006f9cada1abccbd8f04371f50bd9821791db4c3932a3fd6b3a7",
+   "lzh_kyoto-ud-test.conllu": "e492ba5f5054ee560c33197e1681a5c18c3f21adff7dca82be3ed4af09cbf1e5",
+   "lzh_kyoto-ud-train.conllu": "ce1202b74d176440a8a94d959e7ccd22496de49c80ca70bcda283bbc49191b68"
+  }
+ }
+}

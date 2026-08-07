@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="414" viewBox="0 0 680 414" font-family="Georgia, 'Times New Roman', serif">
+<rect width="680" height="414" fill="#fffdf9"/>
+<text x="10" y="30" font-size="16" letter-spacing="3.5" fill="#374151">THE RED WORD</text>
+<rect x="367" y="14" width="303" height="20" fill="none" stroke="#d97706" stroke-width="0.9" rx="3"/>
+<text x="375" y="28" font-size="10.5" letter-spacing="1.2" fill="#d97706" class="draft-banner">ALIGNMENT DRAFT, PENDING HER BLESSING</text>
+<line x1="8" y1="44" x2="672" y2="44" stroke="#1f2937" stroke-width="1.4"/>
+<text x="10" y="62" font-size="12" fill="#6b7280">Sophocles, Antigone, verse 20 · καλχαίνουσ᾽ ἔπος · colour · exhibition tier, outside the census</text>
+<text x="10" y="80" font-size="12" fill="#6b7280">one Greek verb, purple in its stem; one translator dyes it, one darkens it</text>
+<text x="10" y="110" font-size="12" letter-spacing="2" fill="#9ca3af">SEAT</text>
+<text x="108" y="110" font-size="12" letter-spacing="2" fill="#9ca3af">THE LINE</text>
+<text x="450" y="110" font-size="12" letter-spacing="2" fill="#9ca3af">STATE</text>
+<text x="570" y="110" font-size="12" letter-spacing="2" fill="#9ca3af">CROSSING</text>
+<text x="108" y="126" font-size="12" letter-spacing="1" fill="#9ca3af">WORD</text>
+<text x="300" y="126" font-size="12" letter-spacing="1" fill="#9ca3af">WRITTEN</text>
+<line x1="8" y1="136" x2="672" y2="136" stroke="#d8d2c6" stroke-width="0.7"/>
+<text x="10" y="152" font-size="12" fill="#111827">sophocles_storr</text>
+<text x="10" y="170" font-size="12" font-style="italic" fill="#9ca3af">grc · source</text>
+<text x="108" y="152" font-size="13.5" fill="#111827">τί δ᾽ ἔστι; δηλοῖς γάρ τι <tspan fill="#c9a227" class="claim-hi">καλχαίνουσ᾽</tspan> ἔπος.</text>
+<text x="450" y="152" font-size="12" fill="#111827" class="state-cell">latent (καλχαίνω) *</text>
+<text x="108" y="170" font-size="12" font-style="italic" fill="#9ca3af" class="untested-cell">⊘ no grc shelf</text>
+<text x="300" y="170" font-size="12" fill="#c9a227">κάλχη ‘purple’ · LSJ</text>
+<line x1="8" y1="188" x2="672" y2="188" stroke="#d8d2c6" stroke-width="0.7"/>
+<text x="10" y="204" font-size="12" fill="#111827">hoelderlin_1804</text>
+<text x="10" y="222" font-size="12" font-style="italic" fill="#9ca3af">de · 1804</text>
+<text x="108" y="204" font-size="13.5" fill="#111827">Was ist's, du scheinst ein <tspan fill="#b22222" class="claim-hi">rothes</tspan> Wort zu färben?</text>
+<text x="450" y="204" font-size="12" fill="#111827" class="state-cell">stated (rot)</text>
+<text x="570" y="204" font-size="12" fill="#6b7280" class="crossing-cell">revival *</text>
+<text x="108" y="222" font-size="12" fill="#b22222">rot (roth→rot)</text>
+<text x="300" y="222" font-size="12" font-style="italic" fill="#9ca3af" class="untested-cell">⊘ n/a</text>
+<line x1="8" y1="240" x2="672" y2="240" stroke="#d8d2c6" stroke-width="0.7"/>
+<text x="10" y="256" font-size="12" fill="#111827">donner_1868</text>
+<text x="10" y="274" font-size="12" font-style="italic" fill="#9ca3af">de · 1868</text>
+<text x="108" y="256" font-size="13.5" fill="#111827">Was hast du? Düster wogt in dir ein schweres Wort</text>
+<text x="450" y="256" font-size="12" fill="#111827" class="state-cell">silent</text>
+<text x="570" y="256" font-size="12" fill="#6b7280" class="crossing-cell">latent-unrealized *</text>
+<text x="108" y="274" font-size="12" fill="#6b7280">—</text>
+<text x="300" y="274" font-size="12" font-style="italic" fill="#9ca3af" class="untested-cell">⊘ n/a</text>
+<text x="8" y="318" font-size="12" font-style="italic" fill="#6b7280"><tspan fill="#b22222">trait hue</tspan> = stated by inventory · <tspan fill="#c9a227">amber</tspan> = carried by the written form, here the LSJ etymon κάλχη, the purple murex</text>
+<text x="8" y="334" font-size="12" font-style="italic" fill="#6b7280">⊘ = the channel never ran · — = consulted, nothing · * = suggestive, the Greek side reads at two states under a borrowed cut</text>
+<text x="8" y="350" font-size="12" font-style="italic" fill="#6b7280">the referent leg is Chinese-side only and the device organ is sound-only; neither runs here</text>
+<text x="8" y="366" font-size="12" font-style="italic" fill="#8a8577">source: antigonae_board_61.json, verse-20 verdict verbatim, certificate 0.0 · antigonae_panel_gen_66, 2026-08-02</text>
+<line x1="8" y1="376" x2="672" y2="376" stroke="#1f2937" stroke-width="1.4"/>
+</svg>

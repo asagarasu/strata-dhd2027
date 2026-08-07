@@ -1,0 +1,98 @@
+{
+  "rotes": {
+    "brooding": -2.0392,
+    "neutral": -2.8462,
+    "literal_dye": -3.4273,
+    "doom": -2.0665,
+    "d_brood_neutral": 0.807,
+    "d_doom_brood": -0.0273
+  },
+  "purpurnes": {
+    "brooding": -9.0048,
+    "neutral": -9.1175,
+    "literal_dye": -9.2861,
+    "doom": -8.939,
+    "d_brood_neutral": 0.1127,
+    "d_doom_brood": 0.0658
+  },
+  "violettes": {
+    "brooding": -5.5255,
+    "neutral": -5.4597,
+    "literal_dye": -5.8144,
+    "doom": -5.548,
+    "d_brood_neutral": -0.0658,
+    "d_doom_brood": -0.0225
+  },
+  "blaues": {
+    "brooding": -2.5968,
+    "neutral": -3.3875,
+    "literal_dye": -3.8278,
+    "doom": -2.5022,
+    "d_brood_neutral": 0.7907,
+    "d_doom_brood": 0.0946
+  },
+  "graues": {
+    "brooding": -3.3165,
+    "neutral": -3.8139,
+    "literal_dye": -4.328,
+    "doom": -3.2448,
+    "d_brood_neutral": 0.4974,
+    "d_doom_brood": 0.0717
+  },
+  "schwarzes": {
+    "brooding": -2.1191,
+    "neutral": -2.7099,
+    "literal_dye": -3.2202,
+    "doom": -2.0259,
+    "d_brood_neutral": 0.5908,
+    "d_doom_brood": 0.0932
+  },
+  "grünes": {
+    "brooding": -2.5138,
+    "neutral": -3.3308,
+    "literal_dye": -3.9675,
+    "doom": -2.5752,
+    "d_brood_neutral": 0.817,
+    "d_doom_brood": -0.0614
+  },
+  "gelbes": {
+    "brooding": -3.4881,
+    "neutral": -4.3515,
+    "literal_dye": -4.8346,
+    "doom": -3.5561,
+    "d_brood_neutral": 0.8634,
+    "d_doom_brood": -0.068
+  },
+  "weißes": {
+    "brooding": -2.8196,
+    "neutral": -3.2887,
+    "literal_dye": -3.7065,
+    "doom": -2.9185,
+    "d_brood_neutral": 0.4691,
+    "d_doom_brood": -0.0989
+  },
+  "braunes": {
+    "brooding": -4.1703,
+    "neutral": -4.9931,
+    "literal_dye": -5.6066,
+    "doom": -4.0736,
+    "d_brood_neutral": 0.8228,
+    "d_doom_brood": 0.0967
+  },
+  "goldenes": {
+    "brooding": -3.2299,
+    "neutral": -3.7857,
+    "literal_dye": -4.1446,
+    "doom": -3.319,
+    "d_brood_neutral": 0.5558,
+    "d_doom_brood": -0.0891
+  },
+  "silbernes": {
+    "brooding": -7.0958,
+    "neutral": -8.0515,
+    "literal_dye": -8.7218,
+    "doom": -6.8689,
+    "d_brood_neutral": 0.9557,
+    "d_doom_brood": 0.2269
+  }
+}

@@ -1,0 +1,20 @@
+# Layer-flip diagnostic (#49, 07-17 ~13:00 Shanghai) — chair-authored
+# pairs, DIAGNOSTIC ONLY, never evaluation truth. Mechanism test for
+# her face-audit marks: same scene, latent vs active (sound-verbalized)
+# phrasing, scored on v3.
+latent -> active   delta
+-0.080 -> +0.067  +0.147  FLIP  bus in rain -> rain drums on roof
+-0.067 -> +0.009  +0.076  FLIP  zebras walking -> hooves clop
+-0.073 -> +0.061  +0.134  FLIP  giraffes traveling -> hooves scrape
+-0.117 -> +0.112  +0.229  FLIP  wakeboard -> hisses and slaps
+-0.062 -> -0.008  +0.054  flip  plane flies -> engines roar
++0.024 -> -0.004  -0.028  NONE  city w/ trains -> trains rumble (anomaly, 1/8)
+-0.007 -> +0.122  +0.128  FLIP  women's soccer -> shouts ring
++0.092 -> +0.149  +0.057  ....  smiling man -> SILENT smiling man (field/value: "silent" raises salience — predicted by §6 doctrine)
++0.139 -> +0.191  +0.052  ....  clock tower -> chimes (disposition+verbalization stack)
++0.028 -> +0.078  +0.051  ....  living room -> dust settles (NULL CONTROL FLIPPED: generic event-vividness residual ~+0.05)
+# Read: sound-specific effect ~2-3x the generic-narration residual.
+# v3 = ACTIVE/realized-layer instrument; her marks scored the LATENT
+# layer. Mechanism for "corpus meh, poems work": poetry realizes its
+# soundscape lexically; description latentizes it (register asymmetry
+# sibling to the darkness finding).

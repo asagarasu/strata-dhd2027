@@ -1,0 +1,4 @@
+data/
+validation*/
+*.partial
+.xc-api-key

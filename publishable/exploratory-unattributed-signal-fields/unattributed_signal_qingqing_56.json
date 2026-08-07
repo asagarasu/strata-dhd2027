@@ -1,0 +1,1951 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "board": "qingqing",
+  "manifest": {
+    "board": "qingqing",
+    "inputs": {
+      "descriptive_scores_qingqing_56.json": "b722ed8e76b52b495f2bf36558e70900c3a90d60a3b8c699897ae7038b61963e",
+      "latent_scores_qingqing_56.json": "5bf0bded1cb586f6d8e6991230eaf60151e3a38f11f9c5e87796b739e3f940f7"
+    },
+    "definition": {
+      "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+      "fields": [
+        "color",
+        "sound"
+      ],
+      "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+      "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+      "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+      "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+      "membership": "channel-escape, not a verdict"
+    },
+    "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+    "counts_by_rid_field": {
+      "en:birrell": {
+        "color": 5,
+        "sound": 4
+      },
+      "en:giles_1898": {
+        "color": 4,
+        "sound": 4
+      },
+      "en:owen": {
+        "color": 5,
+        "sound": 3
+      },
+      "en:pound_1915": {
+        "color": 4,
+        "sound": 3
+      },
+      "en:waley_1918": {
+        "color": 5,
+        "sound": 5
+      },
+      "en:watson": {
+        "color": 4,
+        "sound": 4
+      },
+      "en:xu_yuanchong": {
+        "color": 5,
+        "sound": 4
+      },
+      "zh:gushi19_02": {
+        "color": 6,
+        "sound": 2
+      }
+    },
+    "counts_total": {
+      "color": 38,
+      "sound": 29,
+      "rows": 67
+    }
+  },
+  "rows": [
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.00826879286268382,
+      "suspect_words": [
+        [
+          "lush",
+          0.03218625667414364
+        ],
+        [
+          "willow",
+          0.013733021123780411
+        ],
+        [
+          "Lush,",
+          0.006767539850102883
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.022638828094239817,
+      "suspect_words": [
+        [
+          "Lush,",
+          0.05194086624139416
+        ],
+        [
+          "garden,",
+          -0.04996909616169564
+        ],
+        [
+          "lush",
+          0.03396650413239846
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.025364235285899768,
+      "suspect_words": [
+        [
+          "upstairs,",
+          0.03452190293474554
+        ],
+        [
+          "Sleek,",
+          0.014852523626130813
+        ],
+        [
+          "sleek",
+          0.009744578883601994
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.033085957492258136,
+      "suspect_words": [
+        [
+          "Sleek,",
+          0.05744212594949394
+        ],
+        [
+          "sleek",
+          0.050368389376108255
+        ],
+        [
+          "girl",
+          -0.032377564402602935
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.009258814431232242,
+      "suspect_words": [
+        [
+          "girl,",
+          0.02110385406702143
+        ],
+        [
+          "Once",
+          0.014948425030559855
+        ],
+        [
+          "singing-house",
+          0.00867145996046486
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.10636057019601386,
+      "suspect_words": [
+        [
+          "singing-house",
+          0.16751680335878635
+        ],
+        [
+          "girl,",
+          -0.017874226237035162
+        ],
+        [
+          "Once",
+          -0.014722853199272842
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.017487628923374774,
+      "suspect_words": [
+        [
+          "never",
+          0.025615726402903365
+        ],
+        [
+          "roves,",
+          -0.01164442894291198
+        ],
+        [
+          "playboy",
+          -0.009587755146788866
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.08819577679817027,
+      "suspect_words": [
+        [
+          "playboy",
+          0.04380083311011475
+        ],
+        [
+          "home,",
+          0.03510515374074768
+        ],
+        [
+          "roves,",
+          0.029432859838420644
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:birrell",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.0033075963638776462,
+      "suspect_words": [
+        [
+          "empty",
+          0.011602838512564183
+        ],
+        [
+          "is",
+          0.010882045742312985
+        ],
+        [
+          "hard",
+          -0.007804304633850161
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.030672674722737468,
+      "suspect_words": [
+        [
+          "bank,",
+          0.025764929571408943
+        ],
+        [
+          "grass",
+          0.022645884700491833
+        ],
+        [
+          "upon",
+          0.02072681365682907
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Green grows the grass upon the bank,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.013365410788216672,
+      "suspect_words": [
+        [
+          "lank;",
+          0.013229782090447303
+        ],
+        [
+          "long",
+          0.013083046432285457
+        ],
+        [
+          "are",
+          0.012936252493882352
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The willow-shoots are long and lank;"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.0021384209893384413,
+      "suspect_words": [
+        [
+          "glistening",
+          0.02980233355194429
+        ],
+        [
+          "gown",
+          0.021243336624700515
+        ],
+        [
+          "lady",
+          0.019731737699186812
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "A lady in a glistening gown"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.026840342900330744,
+      "suspect_words": [
+        [
+          "her",
+          -0.03801721750922593
+        ],
+        [
+          "cheek",
+          0.025664018448193757
+        ],
+        [
+          "bright,",
+          -0.023588978215509718
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The roses on her cheek blush bright,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.07240672123985918,
+      "suspect_words": [
+        [
+          "singing-girl",
+          0.12121144399094094
+        ],
+        [
+          "life,",
+          -0.03908059008311483
+        ],
+        [
+          "A",
+          0.017692055894174406
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "A singing-girl in early life,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.049756750734552914,
+      "suspect_words": [
+        [
+          "wife....",
+          0.03696152703718822
+        ],
+        [
+          "And",
+          0.014814631290780346
+        ],
+        [
+          "now",
+          -0.01374683906074866
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And now a careless roué's wife...."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.008089095594401935,
+      "suspect_words": [
+        [
+          "He'll",
+          0.018305038896131623
+        ],
+        [
+          "flown!",
+          -0.016200046467138945
+        ],
+        [
+          "some",
+          0.014703850172340115
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "He'll find some day the bird has flown!"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:giles_1898",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.009892718757144184,
+      "suspect_words": [
+        [
+          "bird",
+          0.022218523384364385
+        ],
+        [
+          "He'll",
+          0.019152114937763275
+        ],
+        [
+          "flown!",
+          -0.014816088009379091
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "He'll find some day the bird has flown!"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.029284822433574713,
+      "suspect_words": [
+        [
+          "green",
+          0.020014939735910158
+        ],
+        [
+          "is",
+          0.018120437114462686
+        ],
+        [
+          "by",
+          0.01635888656898719
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.012937863995186979,
+      "suspect_words": [
+        [
+          "dense",
+          0.021042239115602997
+        ],
+        [
+          "in",
+          0.01281056868628212
+        ],
+        [
+          "full.",
+          0.009381472200114451
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.0181403341860759,
+      "suspect_words": [
+        [
+          "High",
+          0.0159386385865223
+        ],
+        [
+          "so",
+          0.014018783105468963
+        ],
+        [
+          "tower",
+          -0.013845459439324512
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.11529143419750024,
+      "suspect_words": [
+        [
+          "sang",
+          0.1149253472371503
+        ],
+        [
+          "ago",
+          -0.033326327114721305
+        ],
+        [
+          "bar",
+          0.017606528108572675
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.013003541149359914,
+      "suspect_words": [
+        [
+          "I'm",
+          0.026196736152128107
+        ],
+        [
+          "man.",
+          0.011877783624354613
+        ],
+        [
+          "now",
+          -0.005620567594384739
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.011294676872757422,
+      "suspect_words": [
+        [
+          "now,",
+          -0.01835337464002607
+        ],
+        [
+          "for",
+          -0.01826797741035741
+        ],
+        [
+          "travels",
+          0.011942852523263658
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.05651514621698564,
+      "suspect_words": [
+        [
+          "never",
+          0.025885157658470097
+        ],
+        [
+          "pleasure",
+          0.02400204958355881
+        ],
+        [
+          "travels",
+          -0.015445381528832902
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:owen",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.007700576629909046,
+      "suspect_words": [
+        [
+          "long.",
+          -0.026670863115873866
+        ],
+        [
+          "can't",
+          0.015874772799501276
+        ],
+        [
+          "bed",
+          -0.011519191619378272
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.04409097542084489,
+      "suspect_words": [
+        [
+          "Blue,",
+          0.041137378903706036
+        ],
+        [
+          "about",
+          -0.026108186725700186
+        ],
+        [
+          "grass",
+          0.0253819010498147
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Blue, blue is the grass about the river"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.044157811122942536,
+      "suspect_words": [
+        [
+          "hand,",
+          0.041635056316753905
+        ],
+        [
+          "slender",
+          0.022521358598843636
+        ],
+        [
+          "she",
+          0.01564244364699499
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Slender, she puts forth a slender hand,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.002507721735459389,
+      "suspect_words": [
+        [
+          "slender",
+          0.04915054957136121
+        ],
+        [
+          "hand,",
+          -0.02949471405136109
+        ],
+        [
+          "Slender,",
+          0.02934001584933214
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Slender, she puts forth a slender hand,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.006588881443840599,
+      "suspect_words": [
+        [
+          "she",
+          0.017032093136783066
+        ],
+        [
+          "And",
+          0.012287290855434762
+        ],
+        [
+          "was",
+          0.007338566912226731
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And she was a courtezan in the old days,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.02907327268711639,
+      "suspect_words": [
+        [
+          "sot,",
+          -0.018975556520229565
+        ],
+        [
+          "And",
+          0.016404993488317553
+        ],
+        [
+          "a",
+          0.013066515918229826
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And she has married a sot,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.010474106681143352,
+      "suspect_words": [
+        [
+          "drunkenly",
+          0.0569144441303646
+        ],
+        [
+          "now",
+          0.022161624626994017
+        ],
+        [
+          "out",
+          0.010711631432753135
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Who now goes drunkenly out"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:pound_1915",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.013027946902754273,
+      "suspect_words": [
+        [
+          "And",
+          -0.02658162795028135
+        ],
+        [
+          "her",
+          -0.02124177195799256
+        ],
+        [
+          "alone.",
+          0.01781989765613249
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "And leaves her too much alone."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.028997956013624353,
+      "suspect_words": [
+        [
+          "grass",
+          0.06467701244813898
+        ],
+        [
+          "river-bank.",
+          0.0283941411849706
+        ],
+        [
+          "The",
+          0.021043588397128957
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The grass by the river-bank."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.04754994633308935,
+      "suspect_words": [
+        [
+          "thick,",
+          0.011161655413187664
+        ],
+        [
+          "Thick,",
+          0.0001770635754811331
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Thick, thick,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.03253956647358112,
+      "suspect_words": [
+        [
+          "Thick,",
+          0.038371374112197265
+        ],
+        [
+          "thick,",
+          0.03718965039120345
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Thick, thick,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.03407021247026884,
+      "suspect_words": [
+        [
+          "Sad,",
+          0.022621783265060126
+        ],
+        [
+          "sad,",
+          0.021909263047049373
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Sad, sad,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.03971796123408942,
+      "suspect_words": [
+        [
+          "sad,",
+          0.04093663164493011
+        ],
+        [
+          "Sad,",
+          0.029043547201931738
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Sad, sad,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.02725802780345229,
+      "suspect_words": [
+        [
+          "small,",
+          0.01601880140172441
+        ],
+        [
+          "Small,",
+          -0.004338245088969437
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Small, small,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.004051110550397082,
+      "suspect_words": [
+        [
+          "small,",
+          0.027295155162500258
+        ],
+        [
+          "Small,",
+          0.023425817630154923
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Small, small,"
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 13,
+      "field": "sound",
+      "scalar": 0.03254109472100446,
+      "suspect_words": [
+        [
+          "dancing-house",
+          0.07327411157149318
+        ],
+        [
+          "girl.",
+          -0.020057542389877198
+        ],
+        [
+          "a",
+          -0.017887540566605242
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Once she was a dancing-house girl."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 14,
+      "field": "color",
+      "scalar": 0.01842857400226872,
+      "suspect_words": [
+        [
+          "man’s",
+          0.020828616606560463
+        ],
+        [
+          "wife.",
+          0.015643770094278267
+        ],
+        [
+          "she",
+          0.013515622075661305
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Now she is a wandering man’s wife."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:waley_1918",
+      "line_no": 16,
+      "field": "color",
+      "scalar": 0.0016660267319068486,
+      "suspect_words": [
+        [
+          "keep",
+          -0.022558352598513166
+        ],
+        [
+          "empty",
+          0.02042598305012887
+        ],
+        [
+          "bed.",
+          -0.013763525456797807
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "It is hard alone to keep an empty bed."
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.00824185920103589,
+      "suspect_words": [
+        [
+          "thick",
+          0.01412704920811799
+        ],
+        [
+          "in",
+          -0.008600883656060761
+        ],
+        [
+          "willows",
+          0.005117576134762759
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.004361220358059954,
+      "suspect_words": [
+        [
+          "garden;",
+          -0.07401926306067037
+        ],
+        [
+          "thick,",
+          0.034632898787169096
+        ],
+        [
+          "thick",
+          0.026786596604452997
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.02991511609612691,
+      "suspect_words": [
+        [
+          "upstairs,",
+          0.019029858487407368
+        ],
+        [
+          "that",
+          0.018855719512387435
+        ],
+        [
+          "plump,",
+          0.01364640075245523
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.03506117569315645,
+      "suspect_words": [
+        [
+          "bright,",
+          0.05055293690001178
+        ],
+        [
+          "before",
+          0.05001725444550214
+        ],
+        [
+          "bright",
+          0.032709804932228116
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.009258814431232242,
+      "suspect_words": [
+        [
+          "girl,",
+          0.02110385406702143
+        ],
+        [
+          "Once",
+          0.014948425030559855
+        ],
+        [
+          "singing-house",
+          0.00867145996046486
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.10636057019601386,
+      "suspect_words": [
+        [
+          "singing-house",
+          0.16751680335878635
+        ],
+        [
+          "girl,",
+          -0.017874226237035162
+        ],
+        [
+          "Once",
+          -0.014722853199272842
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.04376112313061109,
+      "suspect_words": [
+        [
+          "never",
+          0.03678198255115102
+        ],
+        [
+          "home—",
+          0.03492290104644063
+        ],
+        [
+          "wanderer",
+          0.02383017407128267
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:watson",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.011444832765091291,
+      "suspect_words": [
+        [
+          "It's",
+          0.023285007499058562
+        ],
+        [
+          "hard",
+          -0.013132558482703775
+        ],
+        [
+          "empty",
+          0.007740846469114899
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.005610142715395495,
+      "suspect_words": [
+        [
+          "lush",
+          0.02656986467699424
+        ],
+        [
+          "the",
+          -0.011774363641387748
+        ],
+        [
+          "trees.",
+          0.004817625637384092
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.0027918344091943,
+      "suspect_words": [
+        [
+          "trees.",
+          -0.059298622777023455
+        ],
+        [
+          "gardents",
+          -0.02362774415817985
+        ],
+        [
+          "Lush,",
+          -0.013994548674036312
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.024930431372860377,
+      "suspect_words": [
+        [
+          "she",
+          -0.02999516721333724
+        ],
+        [
+          "painted",
+          0.028507743106468423
+        ],
+        [
+          "bower,",
+          0.0198547840799289
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.0341915027649663,
+      "suspect_words": [
+        [
+          "flower.",
+          -0.020965650933217957
+        ],
+        [
+          "like",
+          0.011096823212374048
+        ],
+        [
+          "bright",
+          0.008164371975460643
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.12946699463869152,
+      "suspect_words": [
+        [
+          "rosy",
+          0.07536526993791831
+        ],
+        [
+          "rosy,",
+          0.0613593363981276
+        ],
+        [
+          "dress",
+          0.038529769169561925
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.049633303494486,
+      "suspect_words": [
+        [
+          "slender,",
+          0.03419914058267984
+        ],
+        [
+          "slender",
+          0.03325587076714555
+        ],
+        [
+          "hands.",
+          0.027710311721455008
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.08427361356766089,
+      "suspect_words": [
+        [
+          "singing",
+          0.1512722633656997
+        ],
+        [
+          "life,",
+          -0.038583714123329116
+        ],
+        [
+          "girl",
+          -0.03463493260085808
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.007367432271773911,
+      "suspect_words": [
+        [
+          "Now",
+          -0.04010087600227108
+        ],
+        [
+          "is",
+          -0.007127636217946607
+        ],
+        [
+          "wife.",
+          0.006748448068713487
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "en:xu_yuanchong",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.007855884950425506,
+      "suspect_words": [
+        [
+          "day!",
+          -0.01568067925432275
+        ],
+        [
+          "How",
+          0.014002496959874948
+        ],
+        [
+          "bed",
+          -0.0061996335647988045
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.016940123657045635,
+      "suspect_words": [
+        [
+          "中柳",
+          0.022906463172730096
+        ],
+        [
+          "鬱鬱園",
+          0.004980039075376329
+        ],
+        [
+          "。",
+          -0.0006457138253770332
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "鬱鬱園中柳。"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.006663959102384591,
+      "suspect_words": [
+        [
+          "。",
+          0.03078755529116094
+        ],
+        [
+          "鬱鬱園",
+          0.030473299407313748
+        ],
+        [
+          "中柳",
+          -0.010891026849186247
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "鬱鬱園中柳。"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.009545807284608437,
+      "suspect_words": [
+        [
+          "樓上",
+          -0.009366384754640255
+        ],
+        [
+          "盈盈",
+          0.0076107351000727986
+        ],
+        [
+          "女",
+          0.0003355732323010417
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "盈盈樓上女，"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 4,
+      "field": "color",
+      "scalar": 0.012697599327888116,
+      "suspect_words": [
+        [
+          "皎皎當",
+          0.06436112268766024
+        ],
+        [
+          "窗牖",
+          -0.045931497338830084
+        ],
+        [
+          "。",
+          0.012283320667261424
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "皎皎當窗牖。"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.022851239377054546,
+      "suspect_words": [
+        [
+          "皎皎當",
+          0.05311378053396422
+        ],
+        [
+          "。",
+          0.04030314635989028
+        ],
+        [
+          "窗牖",
+          -0.023656684685878785
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "皎皎當窗牖。"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.016391703478760775,
+      "suspect_words": [
+        [
+          "，",
+          0.013696384156848821
+        ],
+        [
+          "倡家",
+          0.013608583074823466
+        ],
+        [
+          "女",
+          -0.008386757286760797
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "昔為倡家女，"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.0074602269019760775,
+      "suspect_words": [
+        [
+          "子婦",
+          0.019713124966822475
+        ],
+        [
+          "今為",
+          0.01332518287441361
+        ],
+        [
+          "。",
+          0.00839523512629091
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "今為蕩子婦。"
+    },
+    {
+      "board": "qingqing",
+      "rid": "zh:gushi19_02",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.022767286383265386,
+      "suspect_words": [
+        [
+          "歸",
+          0.028305590576898406
+        ],
+        [
+          "，",
+          0.016953744254210503
+        ],
+        [
+          "子行",
+          0.00791117031841545
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "蕩子行不歸，"
+    }
+  ]
+}

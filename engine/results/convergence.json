@@ -1,0 +1,20 @@
+{
+  "dye": {
+    "brood_mean": -0.0416,
+    "cognition_mean": -0.0103,
+    "gap": -0.0314,
+    "gap_d_prime": -0.61
+  },
+  "dark": {
+    "brood_mean": 0.0431,
+    "cognition_mean": -0.0251,
+    "gap": 0.0682,
+    "gap_d_prime": 1.53
+  },
+  "surge": {
+    "brood_mean": -0.0052,
+    "cognition_mean": -0.0267,
+    "gap": 0.0215,
+    "gap_d_prime": 0.48
+  }
+}

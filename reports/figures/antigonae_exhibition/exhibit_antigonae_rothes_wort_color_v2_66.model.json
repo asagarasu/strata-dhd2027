@@ -1,0 +1,27 @@
+{
+ "what": "the rothes-Wort panel, redrawn in the submission family grammar (#66)",
+ "supersedes": "exhibit_antigonae_rothes_wort_color.svg (760px, footer overflow, 66b's catch)",
+ "verdict_verbatim": {
+  "verse": 20,
+  "grc": "καλχαίνουσ᾽ ἔπος (< καλχαίνω 'make purple', LSJ s.v.)",
+  "hoelderlin_1804": "ein rothes Wort zu färben → de_color rot FIRES (roth→rot pre-reform fold)",
+  "cell": "REVIVAL",
+  "starred": true,
+  "reading": "grc source latent-written(colour etymon) × Hölderlin stated(rot) = REVIVAL (starred — grc source is suggestive-tier)"
+ },
+ "lsj": {
+  "gloss": "from κάλχη, properly 'to make purple'; metaph. 'to make dark and troublous like a stormy sea, to ponder deeply'",
+  "cite": "LSJ s.v. καλχαίνω (Perseus text:1999.04.0057; Middle Liddell entry n16598)",
+  "root": "< κάλχη 'murex, purple limpet, = πορφύρα' (LSJ s.v. κάλχη, Perseus text:1999.04.0057 entry=ka/lxh; Nicander)"
+ },
+ "lines_read_by": "#66, 2026-08-02 — all three lines of the face read, not only verified",
+ "AUDIT_FINDING_for_her": {
+  "phantom_grc_receipts": "board JSON lines 1/8/18 carry καλχαίνω receipts where the surface never appears (κάρα, κήρυγμα, καλῶς — the stretch matcher's fold over-matches); crossings_colour inherits them as phantom LATENT-UNREALIZED/etc. rows",
+  "phantom_de_weiss": "de:hoelderlin_1804 L17 'weiß ich nichts' fired as colour-white; it is the verb wissen — the bespoke de_color has no homograph guard (exhibition scorer only; whether the CENSUS de_color guards weiß-the-verb is a separate question worth one look)",
+  "scope": "EXHIBITION TIER ONLY — isolated from the census by construction; the paper cites only verse 20, which is genuine; the committed #61 artifact is untouched, finding filed here and in the session report"
+ },
+ "print_law": "min face 12px at W=680 → 8.00 pt at 16 cm",
+ "generator": "antigonae_panel_gen_66.py",
+ "session": "#66",
+ "date": "2026-08-02"
+}

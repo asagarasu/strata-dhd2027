@@ -1,0 +1,19 @@
+certificate (re-order, batch_size=1, n=3): 0.00e+00
+
+— live artifacts (illum_polarity_axis_v3_48.npz) —
+PHYSICAL  dark (witness ⊥ valence)   [A1]
+  score(皎皎當窗牖) -0.0528 · score(黯黯當窗牖) -0.0055 · bare 當窗牖 -0.0029
+  Δ(皎皎) -0.0498 · Δ(黯黯) -0.0026 · sign-test FAIL
+REGISTER  dark_raw (witness-raw)     [A2, 未名]
+  score(皎皎當窗牖) -0.0529 · score(黯黯當窗牖) +0.0084 · bare 當窗牖 +0.0023
+  Δ(皎皎) -0.0553 · Δ(黯黯) +0.0061 · sign-test PASS
+
+— harness control (superseded/twin_axes_48.npz; keys: ['W', 'dark', 'mu', 'valence']) —
+TWIN[dark] (own W/mu)
+  score(皎皎當窗牖) -0.0646 · score(黯黯當窗牖) +0.0794 · bare 當窗牖 +0.0049
+  Δ(皎皎) -0.0695 · Δ(黯黯) +0.0744 · sign-test PASS
+    recorded 07-16 (twin-raw): Δ(皎皎) −.070 · Δ(黯黯) +.074 — reproduction consistent
+TWIN[valence] (own W/mu)
+  score(皎皎當窗牖) -0.0123 · score(黯黯當窗牖) +0.1138 · bare 當窗牖 +0.0407
+  Δ(皎皎) -0.0531 · Δ(黯黯) +0.0731 · sign-test PASS
+    recorded 07-16 (twin-raw): Δ(皎皎) −.070 · Δ(黯黯) +.074 — reproduction consistent

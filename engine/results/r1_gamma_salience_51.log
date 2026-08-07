@@ -1,0 +1,31 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+tokenized sentences: 217801 (cilin 8843 + leipzig)
+
+========== color ==========
+REALIZED 145 items / 85 words · LATENT 44 items / 22 graphs · free pool 189852
+controls: 145 (length-matched)
+  certificate[color] (663): 0.00e+00
+axis shipped: REALIZED AUC 0.879 [0.830–0.926] n=145/85w · LATENT 0.650 [0.550–0.751] n=44 · med|Δ| tgt 0.0287 vs ctl 0.0037
+   rarity gap: +0.145 [+0.061–+0.239]
+DECISION [color]: shipped realized AUC 0.879 → RE-CREDENTIALED (development tier)
+
+========== plant ==========
+REALIZED 244 items / 147 words · LATENT 90 items / 47 graphs · free pool 191363
+controls: 244 (length-matched)
+  certificate[plant] (1137): 0.00e+00
+axis shipped: REALIZED AUC 0.801 [0.756–0.841] n=244/147w · LATENT 0.683 [0.600–0.766] n=90 · med|Δ| tgt 0.0163 vs ctl 0.0042
+   rarity gap: -0.066 [-0.153–+0.020]
+DECISION [plant]: shipped realized AUC 0.801 → RE-CREDENTIALED (development tier)
+
+========== sound ==========
+REALIZED 373 items / 212 words · LATENT 75 items / 40 graphs · free pool 169099
+controls: 373 (length-matched)
+  certificate[sound] (1624): 0.00e+00
+axis shipped: REALIZED AUC 0.815 [0.786–0.843] n=373/212w · LATENT 0.729 [0.657–0.797] n=75 · med|Δ| tgt 0.0159 vs ctl 0.0051
+   rarity gap: +0.054 [-0.002–+0.108]
+axis v1_continuity: REALIZED AUC 0.667 [0.635–0.699] n=373/212w · LATENT 0.551 [0.467–0.634] n=75 · med|Δ| tgt 0.0055 vs ctl 0.0043
+   rarity gap: +0.017 [-0.052–+0.082]
+DECISION [sound]: shipped realized AUC 0.815 → RE-CREDENTIALED (development tier)
+
+→ results/r1_gamma_salience_51.json

@@ -1,0 +1,4893 @@
+{
+ "what": "word-grain corpus breadth pass — board tiaotiao (#56) — MEASUREMENT",
+ "board": "tiaotiao",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "renderings": [
+  "zh:gushi19_10"
+ ],
+ "per_rendering": {
+  "zh:gushi19_10": [
+   {
+    "word": "擢素",
+    "line": 3,
+    "source": "written_colour_fire",
+    "carriers": [
+     "素"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "不得",
+    "line": 10,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "sit_out",
+    "reason": "in_frozen_control_pool — attempt-4 member; publishes UNMEASURED (chair ruling 07-23, memo)",
+    "in_hownet": true
+   }
+  ]
+ },
+ "measurement_items": {
+  "不得": {
+   "word": "不得",
+   "role": "control",
+   "n_hosts": 297,
+   "leipzig_n": 297,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "existing",
+   "raw_candidates": [
+    "一准",
+    "一味",
+    "一如",
+    "一定",
+    "一旦",
+    "一来",
+    "一种",
+    "一经",
+    "一若",
+    "万一",
+    "万万",
+    "上去",
+    "上来",
+    "下去",
+    "下来",
+    "不下",
+    "不了",
+    "不仅",
+    "不会",
+    "不但",
+    "不何",
+    "不光",
+    "不免",
+    "不到",
+    "不单",
+    "不只",
+    "不可",
+    "不堪",
+    "不外",
+    "不如",
+    "不妨",
+    "不定",
+    "不必",
+    "不拘",
+    "不料",
+    "不是",
+    "不然",
+    "不独",
+    "不禁",
+    "不管",
+    "不能",
+    "不见",
+    "不论",
+    "不该",
+    "不起",
+    "不足",
+    "不过",
+    "不顾",
+    "与之",
+    "与其",
+    "与否",
+    "且说",
+    "临到",
+    "为之",
+    "为了",
+    "为何",
+    "为啥",
+    "为止",
+    "为此",
+    "乃至",
+    "之后",
+    "之外",
+    "乐得",
+    "也不",
+    "也好",
+    "也未",
+    "也没",
+    "也罢",
+    "也许",
+    "于是",
+    "亏得",
+    "什么",
+    "仅仅",
+    "仅只",
+    "仅当",
+    "今后",
+    "仍旧",
+    "仍然",
+    "从中",
+    "从打",
+    "从此",
+    "从而",
+    "以便",
+    "以及",
+    "以来",
+    "以至",
+    "以致",
+    "以资",
+    "仿若",
+    "休想",
+    "休说",
+    "伙同",
+    "会同",
+    "传闻",
+    "似地",
+    "似的",
+    "但愿",
+    "但是",
+    "何不",
+    "何事",
+    "何人",
+    "何从",
+    "何以",
+    "何其",
+    "何况",
+    "何地",
+    "何处",
+    "何如",
+    "何妨",
+    "何尝",
+    "何必",
+    "何故",
+    "何方",
+    "何日",
+    "何时",
+    "何物",
+    "何种",
+    "何等",
+    "何苦",
+    "何许",
+    "何须",
+    "余外",
+    "作兴",
+    "例如",
+    "依据",
+    "依照",
+    "俗称",
+    "信然",
+    "俨然",
+    "倒是",
+    "倘使",
+    "倘如",
+    "倘或",
+    "倘然",
+    "倘若",
+    "借以",
+    "借此",
+    "假使",
+    "假如",
+    "假定",
+    "假若",
+    "假设",
+    "假道",
+    "偏偏",
+    "偕同",
+    "兀自",
+    "光是",
+    "光能",
+    "八成",
+    "关于",
+    "兴许",
+    "其次",
+    "兼之",
+    "再则",
+    "再者",
+    "再说",
+    "决不",
+    "决计",
+    "决非",
+    "况且",
+    "准保",
+    "准定",
+    "准得",
+    "凑巧",
+    "几何",
+    "几分",
+    "几多",
+    "几时",
+    "几曾",
+    "几许",
+    "凭借",
+    "出去",
+    "出来",
+    "切切",
+    "切勿",
+    "切莫",
+    "利用",
+    "别想",
+    "别是",
+    "别看",
+    "别管",
+    "别说",
+    "到底",
+    "到时",
+    "加上",
+    "加之",
+    "加以",
+    "务必",
+    "务期",
+    "务求",
+    "务要",
+    "务须",
+    "动助",
+    "动趋",
+    "势将",
+    "势必",
+    "千万",
+    "单单",
+    "单纯",
+    "即令",
+    "即使",
+    "即便",
+    "即可",
+    "即如",
+    "即或",
+    "即是",
+    "即若",
+    "原来",
+    "又及",
+    "又称",
+    "及其",
+    "及至",
+    "反之",
+    "反倒",
+    "反正",
+    "反而",
+    "取道",
+    "另外",
+    "只好",
+    "只得",
+    "只是",
+    "只有",
+    "只消",
+    "只管",
+    "只要",
+    "可以",
+    "可否",
+    "可巧",
+    "可是",
+    "可曾",
+    "可能",
+    "可见",
+    "合该",
+    "同时",
+    "后来",
+    "向着",
+    "否则",
+    "咋办",
+    "咋整",
+    "咋样",
+    "哎呀",
+    "哎哟",
+    "哎唷",
+    "哪些",
+    "哪位",
+    "哪儿",
+    "哪去",
+    "哪怕",
+    "哪样",
+    "哪里",
+    "唉呀",
+    "唉哟",
+    "因为",
+    "因之",
+    "因公",
+    "因故",
+    "因此",
+    "因私",
+    "因而",
+    "固然",
+    "在场",
+    "在外",
+    "基于",
+    "基本",
+    "多久",
+    "多半",
+    "多咱",
+    "多少",
+    "多说",
+    "多达",
+    "多长",
+    "大于",
+    "大体",
+    "大凡",
+    "大半",
+    "大多",
+    "大抵",
+    "大概",
+    "大略",
+    "大约",
+    "大致",
+    "好在",
+    "好歹",
+    "如上",
+    "如下",
+    "如何",
+    "如同",
+    "如果",
+    "如若",
+    "姑且",
+    "委实",
+    "孰料",
+    "宁可",
+    "宁愿",
+    "宁肯",
+    "完全",
+    "定准",
+    "定然",
+    "宛似",
+    "宛如",
+    "宛然",
+    "宛若",
+    "容或",
+    "对于",
+    "将就",
+    "将要",
+    "尚且",
+    "尚未",
+    "就是",
+    "就此",
+    "就算",
+    "尽管",
+    "居然",
+    "届时",
+    "届期",
+    "岂不",
+    "岂但",
+    "岂可",
+    "岂敢",
+    "岂止",
+    "岂肯",
+    "岂能",
+    "岂非",
+    "干吗",
+    "并不",
+    "并且",
+    "并无",
+    "并非",
+    "幸亏",
+    "幸喜",
+    "幸好",
+    "幸而",
+    "应否",
+    "应当",
+    "应该",
+    "庶乎",
+    "庶几",
+    "归终",
+    "当儿",
+    "当然",
+    "当真",
+    "当着",
+    "往后",
+    "往返",
+    "待到",
+    "得下",
+    "得了",
+    "得以",
+    "得到",
+    "得动",
+    "得起",
+    "得过",
+    "必定",
+    "必将",
+    "必然",
+    "必须",
+    "怎么",
+    "怎地",
+    "怎奈",
+    "怎样",
+    "怎的",
+    "怎能",
+    "怕是",
+    "总之",
+    "总归",
+    "总得",
+    "总算",
+    "恍惚",
+    "恐怕",
+    "恰似",
+    "恰好",
+    "恰如",
+    "恰逢",
+    "情愿",
+    "惟其",
+    "想必",
+    "想来",
+    "愿意",
+    "慢说",
+    "我怕",
+    "或则",
+    "或是",
+    "或者",
+    "或许",
+    "截至",
+    "所以",
+    "才能",
+    "打从",
+    "打自",
+    "抑且",
+    "抑或",
+    "按照",
+    "按理",
+    "按说",
+    "据以",
+    "据传",
+    "据悉",
+    "据报",
+    "据此",
+    "据称",
+    "据说",
+    "据闻",
+    "撑死",
+    "故此",
+    "故而",
+    "敢保",
+    "敢情",
+    "断乎",
+    "断断",
+    "断然",
+    "方能",
+    "无力",
+    "无奈",
+    "无妨",
+    "无庸",
+    "无怪",
+    "无论",
+    "无非",
+    "无须",
+    "既是",
+    "既然",
+    "旨在",
+    "时至",
+    "时隔",
+    "是否",
+    "更是",
+    "最初",
+    "最后",
+    "最多",
+    "最好",
+    "有关",
+    "有如",
+    "朝着",
+    "未可",
+    "未始",
+    "未尝",
+    "未必",
+    "未料",
+    "未能",
+    "本当",
+    "本着",
+    "本该",
+    "来看",
+    "来着",
+    "来讲",
+    "来说",
+    "构助",
+    "果然",
+    "果真",
+    "根据",
+    "横是",
+    "横许",
+    "止于",
+    "正在",
+    "正如",
+    "正当",
+    "正经",
+    "正要",
+    "正象",
+    "正逢",
+    "此外",
+    "死不",
+    "毋宁",
+    "毋庸",
+    "毋须",
+    "每当",
+    "每逢",
+    "比及",
+    "比如",
+    "比照",
+    "毕竟",
+    "毫不",
+    "没有",
+    "沿着",
+    "漫说",
+    "然而",
+    "爽性",
+    "特此",
+    "犹如",
+    "犹然",
+    "犹自",
+    "理应",
+    "理当",
+    "理该",
+    "甚且",
+    "甚么",
+    "甚或",
+    "甚而",
+    "甚至",
+    "用以",
+    "用来",
+    "由于",
+    "由此",
+    "的确",
+    "的话",
+    "直到",
+    "直至",
+    "相对",
+    "看来",
+    "真是",
+    "着呢",
+    "着实",
+    "硬是",
+    "确乎",
+    "确实",
+    "离开",
+    "究竟",
+    "穿过",
+    "竟然",
+    "竟而",
+    "竟自",
+    "竟至",
+    "笃定",
+    "符合",
+    "等到",
+    "等等",
+    "简直",
+    "类似",
+    "索性",
+    "纯然",
+    "纯粹",
+    "纵令",
+    "纵使",
+    "纵然",
+    "终归",
+    "终究",
+    "经由",
+    "经过",
+    "结合",
+    "绝不",
+    "绝对",
+    "绝非",
+    "缘何",
+    "老几",
+    "而且",
+    "而况",
+    "而又",
+    "而外",
+    "而已",
+    "而是",
+    "而言",
+    "而论",
+    "而非",
+    "肯定",
+    "能否",
+    "能够",
+    "自从",
+    "自打",
+    "自是",
+    "自此",
+    "自然",
+    "至于",
+    "至多",
+    "至此",
+    "般的",
+    "若何",
+    "若干",
+    "若是",
+    "若非",
+    "莫如",
+    "莫若",
+    "莫非",
+    "藉以",
+    "虽则",
+    "虽然",
+    "虽说",
+    "要不",
+    "要么",
+    "要是",
+    "譬如",
+    "譬犹",
+    "譬若",
+    "论说",
+    "设使",
+    "设或",
+    "设若",
+    "诚如",
+    "诚然",
+    "话说",
+    "该当",
+    "语助",
+    "说来",
+    "诸如",
+    "谁个",
+    "谁人",
+    "谁们",
+    "谣传",
+    "赶巧",
+    "起来",
+    "足以",
+    "足足",
+    "跟着",
+    "路经",
+    "较之",
+    "过去",
+    "过来",
+    "还是",
+    "进去",
+    "进来",
+    "进而",
+    "连同",
+    "迫于",
+    "适值",
+    "适逢",
+    "适遇",
+    "途经",
+    "通过",
+    "那么",
+    "那末",
+    "鉴于",
+    "针对",
+    "错非",
+    "除了",
+    "除去",
+    "除外",
+    "除开",
+    "除此",
+    "除非",
+    "随之",
+    "随便",
+    "随着",
+    "难怪",
+    "难说",
+    "难道",
+    "非但",
+    "非徒",
+    "非得",
+    "非特",
+    "非独",
+    "非要",
+    "靠近",
+    "面对",
+    "顶多",
+    "顺着",
+    "须要",
+    "首先",
+    "高低"
+   ],
+   "candidate_counts": {
+    "一准": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "一味": {
+     "leipzig": 69,
+     "caption": 0,
+     "total": 69
+    },
+    "一如": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "一定": {
+     "leipzig": 1682,
+     "caption": 0,
+     "total": 1682
+    },
+    "一旦": {
+     "leipzig": 446,
+     "caption": 0,
+     "total": 446
+    },
+    "一来": {
+     "leipzig": 23,
+     "caption": 0,
+     "total": 23
+    },
+    "一种": {
+     "leipzig": 1854,
+     "caption": 9,
+     "total": 1863
+    },
+    "一经": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "一若": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "万一": {
+     "leipzig": 41,
+     "caption": 0,
+     "total": 41
+    },
+    "万万": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "上去": {
+     "leipzig": 87,
+     "caption": 1,
+     "total": 88
+    },
+    "上来": {
+     "leipzig": 84,
+     "caption": 1,
+     "total": 85
+    },
+    "下去": {
+     "leipzig": 286,
+     "caption": 3,
+     "total": 289
+    },
+    "下来": {
+     "leipzig": 419,
+     "caption": 17,
+     "total": 436
+    },
+    "不下": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "不了": {
+     "leipzig": 292,
+     "caption": 0,
+     "total": 292
+    },
+    "不仅": {
+     "leipzig": 987,
+     "caption": 1,
+     "total": 988
+    },
+    "不会": {
+     "leipzig": 1331,
+     "caption": 0,
+     "total": 1331
+    },
+    "不但": {
+     "leipzig": 219,
+     "caption": 0,
+     "total": 219
+    },
+    "不何": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "不光": {
+     "leipzig": 35,
+     "caption": 0,
+     "total": 35
+    },
+    "不免": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "不到": {
+     "leipzig": 596,
+     "caption": 0,
+     "total": 596
+    },
+    "不单": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "不只": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "不可": {
+     "leipzig": 502,
+     "caption": 0,
+     "total": 502
+    },
+    "不堪": {
+     "leipzig": 72,
+     "caption": 0,
+     "total": 72
+    },
+    "不外": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "不如": {
+     "leipzig": 288,
+     "caption": 0,
+     "total": 288
+    },
+    "不妨": {
+     "leipzig": 100,
+     "caption": 0,
+     "total": 100
+    },
+    "不定": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "不必": {
+     "leipzig": 177,
+     "caption": 0,
+     "total": 177
+    },
+    "不拘": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "不料": {
+     "leipzig": 48,
+     "caption": 0,
+     "total": 48
+    },
+    "不是": {
+     "leipzig": 3341,
+     "caption": 0,
+     "total": 3341
+    },
+    "不然": {
+     "leipzig": 101,
+     "caption": 0,
+     "total": 101
+    },
+    "不独": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "不禁": {
+     "leipzig": 77,
+     "caption": 0,
+     "total": 77
+    },
+    "不管": {
+     "leipzig": 397,
+     "caption": 0,
+     "total": 397
+    },
+    "不能": {
+     "leipzig": 2745,
+     "caption": 0,
+     "total": 2745
+    },
+    "不见": {
+     "leipzig": 88,
+     "caption": 0,
+     "total": 88
+    },
+    "不论": {
+     "leipzig": 89,
+     "caption": 0,
+     "total": 89
+    },
+    "不该": {
+     "leipzig": 80,
+     "caption": 0,
+     "total": 80
+    },
+    "不起": {
+     "leipzig": 50,
+     "caption": 0,
+     "total": 50
+    },
+    "不足": {
+     "leipzig": 447,
+     "caption": 0,
+     "total": 447
+    },
+    "不过": {
+     "leipzig": 928,
+     "caption": 0,
+     "total": 928
+    },
+    "不顾": {
+     "leipzig": 73,
+     "caption": 0,
+     "total": 73
+    },
+    "与之": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "与其": {
+     "leipzig": 85,
+     "caption": 0,
+     "total": 85
+    },
+    "与否": {
+     "leipzig": 32,
+     "caption": 0,
+     "total": 32
+    },
+    "且说": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "临到": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "为之": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "为了": {
+     "leipzig": 1568,
+     "caption": 1,
+     "total": 1569
+    },
+    "为何": {
+     "leipzig": 216,
+     "caption": 0,
+     "total": 216
+    },
+    "为啥": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "为止": {
+     "leipzig": 37,
+     "caption": 0,
+     "total": 37
+    },
+    "为此": {
+     "leipzig": 141,
+     "caption": 0,
+     "total": 141
+    },
+    "乃至": {
+     "leipzig": 136,
+     "caption": 0,
+     "total": 136
+    },
+    "之后": {
+     "leipzig": 1080,
+     "caption": 3,
+     "total": 1083
+    },
+    "之外": {
+     "leipzig": 306,
+     "caption": 1,
+     "total": 307
+    },
+    "乐得": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "也不": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "也好": {
+     "leipzig": 103,
+     "caption": 0,
+     "total": 103
+    },
+    "也未": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "也没": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "也罢": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "也许": {
+     "leipzig": 328,
+     "caption": 1,
+     "total": 329
+    },
+    "于是": {
+     "leipzig": 600,
+     "caption": 0,
+     "total": 600
+    },
+    "亏得": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "什么": {
+     "leipzig": 2134,
+     "caption": 16,
+     "total": 2150
+    },
+    "仅仅": {
+     "leipzig": 133,
+     "caption": 0,
+     "total": 133
+    },
+    "仅只": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "仅当": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "今后": {
+     "leipzig": 159,
+     "caption": 0,
+     "total": 159
+    },
+    "仍旧": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "仍然": {
+     "leipzig": 936,
+     "caption": 0,
+     "total": 936
+    },
+    "从中": {
+     "leipzig": 73,
+     "caption": 4,
+     "total": 77
+    },
+    "从打": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "从此": {
+     "leipzig": 178,
+     "caption": 0,
+     "total": 178
+    },
+    "从而": {
+     "leipzig": 233,
+     "caption": 0,
+     "total": 233
+    },
+    "以便": {
+     "leipzig": 165,
+     "caption": 0,
+     "total": 165
+    },
+    "以及": {
+     "leipzig": 2122,
+     "caption": 45,
+     "total": 2167
+    },
+    "以来": {
+     "leipzig": 808,
+     "caption": 0,
+     "total": 808
+    },
+    "以至": {
+     "leipzig": 65,
+     "caption": 0,
+     "total": 65
+    },
+    "以致": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "以资": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "仿若": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "休想": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "休说": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "伙同": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "会同": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "传闻": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "似地": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "似的": {
+     "leipzig": 115,
+     "caption": 1,
+     "total": 116
+    },
+    "但愿": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "但是": {
+     "leipzig": 1936,
+     "caption": 0,
+     "total": 1936
+    },
+    "何不": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "何事": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "何人": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "何从": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "何以": {
+     "leipzig": 39,
+     "caption": 0,
+     "total": 39
+    },
+    "何其": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "何况": {
+     "leipzig": 38,
+     "caption": 0,
+     "total": 38
+    },
+    "何地": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "何处": {
+     "leipzig": 33,
+     "caption": 0,
+     "total": 33
+    },
+    "何如": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "何妨": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "何尝": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "何必": {
+     "leipzig": 62,
+     "caption": 0,
+     "total": 62
+    },
+    "何故": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "何方": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "何日": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "何时": {
+     "leipzig": 66,
+     "caption": 0,
+     "total": 66
+    },
+    "何物": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "何种": {
+     "leipzig": 24,
+     "caption": 0,
+     "total": 24
+    },
+    "何等": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "何苦": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "何许": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "何须": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "余外": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "作兴": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "例如": {
+     "leipzig": 346,
+     "caption": 0,
+     "total": 346
+    },
+    "依据": {
+     "leipzig": 96,
+     "caption": 0,
+     "total": 96
+    },
+    "依照": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "俗称": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "信然": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "俨然": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "倒是": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "倘使": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "倘如": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "倘或": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "倘然": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "倘若": {
+     "leipzig": 61,
+     "caption": 0,
+     "total": 61
+    },
+    "借以": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "借此": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "假使": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "假如": {
+     "leipzig": 81,
+     "caption": 0,
+     "total": 81
+    },
+    "假定": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "假若": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "假设": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "假道": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "偏偏": {
+     "leipzig": 42,
+     "caption": 0,
+     "total": 42
+    },
+    "偕同": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "兀自": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "光是": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "光能": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "八成": {
+     "leipzig": 45,
+     "caption": 0,
+     "total": 45
+    },
+    "关于": {
+     "leipzig": 490,
+     "caption": 25,
+     "total": 515
+    },
+    "兴许": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "其次": {
+     "leipzig": 206,
+     "caption": 0,
+     "total": 206
+    },
+    "兼之": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "再则": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "再者": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "再说": {
+     "leipzig": 54,
+     "caption": 0,
+     "total": 54
+    },
+    "决不": {
+     "leipzig": 66,
+     "caption": 0,
+     "total": 66
+    },
+    "决计": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "决非": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "况且": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "准保": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "准定": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "准得": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "凑巧": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "几何": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "几分": {
+     "leipzig": 43,
+     "caption": 0,
+     "total": 43
+    },
+    "几多": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "几时": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "几曾": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "几许": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "凭借": {
+     "leipzig": 69,
+     "caption": 0,
+     "total": 69
+    },
+    "出去": {
+     "leipzig": 182,
+     "caption": 2,
+     "total": 184
+    },
+    "出来": {
+     "leipzig": 970,
+     "caption": 11,
+     "total": 981
+    },
+    "切切": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "切勿": {
+     "leipzig": 74,
+     "caption": 0,
+     "total": 74
+    },
+    "切莫": {
+     "leipzig": 24,
+     "caption": 0,
+     "total": 24
+    },
+    "利用": {
+     "leipzig": 658,
+     "caption": 5,
+     "total": 663
+    },
+    "别想": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "别是": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "别看": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "别管": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "别说": {
+     "leipzig": 40,
+     "caption": 0,
+     "total": 40
+    },
+    "到底": {
+     "leipzig": 359,
+     "caption": 0,
+     "total": 359
+    },
+    "到时": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "加上": {
+     "leipzig": 467,
+     "caption": 0,
+     "total": 467
+    },
+    "加之": {
+     "leipzig": 38,
+     "caption": 0,
+     "total": 38
+    },
+    "加以": {
+     "leipzig": 91,
+     "caption": 0,
+     "total": 91
+    },
+    "务必": {
+     "leipzig": 52,
+     "caption": 0,
+     "total": 52
+    },
+    "务期": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "务求": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "务要": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "务须": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "动助": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "动趋": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "势将": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "势必": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "千万": {
+     "leipzig": 121,
+     "caption": 0,
+     "total": 121
+    },
+    "单单": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "单纯": {
+     "leipzig": 47,
+     "caption": 0,
+     "total": 47
+    },
+    "即令": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "即使": {
+     "leipzig": 730,
+     "caption": 0,
+     "total": 730
+    },
+    "即便": {
+     "leipzig": 226,
+     "caption": 0,
+     "total": 226
+    },
+    "即可": {
+     "leipzig": 181,
+     "caption": 0,
+     "total": 181
+    },
+    "即如": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "即或": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "即是": {
+     "leipzig": 41,
+     "caption": 0,
+     "total": 41
+    },
+    "即若": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "原来": {
+     "leipzig": 339,
+     "caption": 0,
+     "total": 339
+    },
+    "又及": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "又称": {
+     "leipzig": 32,
+     "caption": 0,
+     "total": 32
+    },
+    "及其": {
+     "leipzig": 373,
+     "caption": 0,
+     "total": 373
+    },
+    "及至": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "反之": {
+     "leipzig": 38,
+     "caption": 0,
+     "total": 38
+    },
+    "反倒": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "反正": {
+     "leipzig": 85,
+     "caption": 0,
+     "total": 85
+    },
+    "反而": {
+     "leipzig": 317,
+     "caption": 0,
+     "total": 317
+    },
+    "取道": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "另外": {
+     "leipzig": 1268,
+     "caption": 37,
+     "total": 1305
+    },
+    "只好": {
+     "leipzig": 155,
+     "caption": 0,
+     "total": 155
+    },
+    "只得": {
+     "leipzig": 59,
+     "caption": 0,
+     "total": 59
+    },
+    "只是": {
+     "leipzig": 1384,
+     "caption": 0,
+     "total": 1384
+    },
+    "只有": {
+     "leipzig": 2035,
+     "caption": 9,
+     "total": 2044
+    },
+    "只消": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "只管": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "只要": {
+     "leipzig": 914,
+     "caption": 0,
+     "total": 914
+    },
+    "可以": {
+     "leipzig": 5859,
+     "caption": 43,
+     "total": 5902
+    },
+    "可否": {
+     "leipzig": 23,
+     "caption": 0,
+     "total": 23
+    },
+    "可巧": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "可是": {
+     "leipzig": 489,
+     "caption": 0,
+     "total": 489
+    },
+    "可曾": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "可能": {
+     "leipzig": 4443,
+     "caption": 1,
+     "total": 4444
+    },
+    "可见": {
+     "leipzig": 158,
+     "caption": 1,
+     "total": 159
+    },
+    "合该": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "同时": {
+     "leipzig": 1482,
+     "caption": 6,
+     "total": 1488
+    },
+    "后来": {
+     "leipzig": 690,
+     "caption": 0,
+     "total": 690
+    },
+    "向着": {
+     "leipzig": 50,
+     "caption": 1,
+     "total": 51
+    },
+    "否则": {
+     "leipzig": 184,
+     "caption": 0,
+     "total": 184
+    },
+    "咋办": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "咋整": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "咋样": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "哎呀": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "哎哟": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "哎唷": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "哪些": {
+     "leipzig": 174,
+     "caption": 0,
+     "total": 174
+    },
+    "哪位": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "哪儿": {
+     "leipzig": 50,
+     "caption": 0,
+     "total": 50
+    },
+    "哪去": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "哪怕": {
+     "leipzig": 132,
+     "caption": 0,
+     "total": 132
+    },
+    "哪样": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "哪里": {
+     "leipzig": 402,
+     "caption": 0,
+     "total": 402
+    },
+    "唉呀": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "唉哟": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "因为": {
+     "leipzig": 2226,
+     "caption": 3,
+     "total": 2229
+    },
+    "因之": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "因公": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "因故": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "因此": {
+     "leipzig": 1804,
+     "caption": 0,
+     "total": 1804
+    },
+    "因私": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "因而": {
+     "leipzig": 134,
+     "caption": 0,
+     "total": 134
+    },
+    "固然": {
+     "leipzig": 64,
+     "caption": 0,
+     "total": 64
+    },
+    "在场": {
+     "leipzig": 45,
+     "caption": 12,
+     "total": 57
+    },
+    "在外": {
+     "leipzig": 102,
+     "caption": 0,
+     "total": 102
+    },
+    "基于": {
+     "leipzig": 129,
+     "caption": 0,
+     "total": 129
+    },
+    "基本": {
+     "leipzig": 893,
+     "caption": 2,
+     "total": 895
+    },
+    "多久": {
+     "leipzig": 74,
+     "caption": 0,
+     "total": 74
+    },
+    "多半": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "多咱": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "多少": {
+     "leipzig": 659,
+     "caption": 0,
+     "total": 659
+    },
+    "多说": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "多达": {
+     "leipzig": 34,
+     "caption": 0,
+     "total": 34
+    },
+    "多长": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "大于": {
+     "leipzig": 37,
+     "caption": 0,
+     "total": 37
+    },
+    "大体": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "大凡": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "大半": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "大多": {
+     "leipzig": 351,
+     "caption": 0,
+     "total": 351
+    },
+    "大抵": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "大概": {
+     "leipzig": 182,
+     "caption": 0,
+     "total": 182
+    },
+    "大略": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "大约": {
+     "leipzig": 183,
+     "caption": 0,
+     "total": 183
+    },
+    "大致": {
+     "leipzig": 89,
+     "caption": 0,
+     "total": 89
+    },
+    "好在": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "好歹": {
+     "leipzig": 9,
+     "caption": 0,
+     "total": 9
+    },
+    "如上": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "如下": {
+     "leipzig": 56,
+     "caption": 0,
+     "total": 56
+    },
+    "如何": {
+     "leipzig": 1466,
+     "caption": 7,
+     "total": 1473
+    },
+    "如同": {
+     "leipzig": 134,
+     "caption": 0,
+     "total": 134
+    },
+    "如果": {
+     "leipzig": 3313,
+     "caption": 0,
+     "total": 3313
+    },
+    "如若": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "姑且": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "委实": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "孰料": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "宁可": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "宁愿": {
+     "leipzig": 24,
+     "caption": 0,
+     "total": 24
+    },
+    "宁肯": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "完全": {
+     "leipzig": 914,
+     "caption": 2,
+     "total": 916
+    },
+    "定准": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "定然": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "宛似": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "宛如": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "宛然": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "宛若": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "容或": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "对于": {
+     "leipzig": 1284,
+     "caption": 1,
+     "total": 1285
+    },
+    "将就": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "将要": {
+     "leipzig": 29,
+     "caption": 3,
+     "total": 32
+    },
+    "尚且": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "尚未": {
+     "leipzig": 353,
+     "caption": 1,
+     "total": 354
+    },
+    "就是": {
+     "leipzig": 4891,
+     "caption": 2,
+     "total": 4893
+    },
+    "就此": {
+     "leipzig": 121,
+     "caption": 0,
+     "total": 121
+    },
+    "就算": {
+     "leipzig": 246,
+     "caption": 0,
+     "total": 246
+    },
+    "尽管": {
+     "leipzig": 527,
+     "caption": 0,
+     "total": 527
+    },
+    "居然": {
+     "leipzig": 150,
+     "caption": 0,
+     "total": 150
+    },
+    "届时": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "届期": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂不": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂但": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂可": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂敢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂止": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "岂肯": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "岂能": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "岂非": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "干吗": {
+     "leipzig": 10,
+     "caption": 0,
+     "total": 10
+    },
+    "并不": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "并且": {
+     "leipzig": 308,
+     "caption": 7,
+     "total": 315
+    },
+    "并无": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "并非": {
+     "leipzig": 269,
+     "caption": 0,
+     "total": 269
+    },
+    "幸亏": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "幸喜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "幸好": {
+     "leipzig": 55,
+     "caption": 0,
+     "total": 55
+    },
+    "幸而": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "应否": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "应当": {
+     "leipzig": 237,
+     "caption": 0,
+     "total": 237
+    },
+    "应该": {
+     "leipzig": 1384,
+     "caption": 0,
+     "total": 1384
+    },
+    "庶乎": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "庶几": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "归终": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "当儿": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "当然": {
+     "leipzig": 623,
+     "caption": 0,
+     "total": 623
+    },
+    "当真": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "当着": {
+     "leipzig": 15,
+     "caption": 0,
+     "total": 15
+    },
+    "往后": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "往返": {
+     "leipzig": 57,
+     "caption": 0,
+     "total": 57
+    },
+    "待到": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "得下": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "得了": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "得以": {
+     "leipzig": 205,
+     "caption": 0,
+     "total": 205
+    },
+    "得到": {
+     "leipzig": 1271,
+     "caption": 2,
+     "total": 1273
+    },
+    "得动": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "得起": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "得过": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "必定": {
+     "leipzig": 101,
+     "caption": 0,
+     "total": 101
+    },
+    "必将": {
+     "leipzig": 122,
+     "caption": 0,
+     "total": 122
+    },
+    "必然": {
+     "leipzig": 261,
+     "caption": 0,
+     "total": 261
+    },
+    "必须": {
+     "leipzig": 1721,
+     "caption": 0,
+     "total": 1721
+    },
+    "怎么": {
+     "leipzig": 772,
+     "caption": 0,
+     "total": 772
+    },
+    "怎地": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "怎奈": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "怎样": {
+     "leipzig": 244,
+     "caption": 0,
+     "total": 244
+    },
+    "怎的": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "怎能": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "怕是": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "总之": {
+     "leipzig": 79,
+     "caption": 0,
+     "total": 79
+    },
+    "总归": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "总得": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "总算": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "恍惚": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "恐怕": {
+     "leipzig": 129,
+     "caption": 0,
+     "total": 129
+    },
+    "恰似": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "恰好": {
+     "leipzig": 33,
+     "caption": 0,
+     "total": 33
+    },
+    "恰如": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "恰逢": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "情愿": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "惟其": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "想必": {
+     "leipzig": 43,
+     "caption": 0,
+     "total": 43
+    },
+    "想来": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "愿意": {
+     "leipzig": 349,
+     "caption": 0,
+     "total": 349
+    },
+    "慢说": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "我怕": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "或则": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "或是": {
+     "leipzig": 194,
+     "caption": 1,
+     "total": 195
+    },
+    "或者": {
+     "leipzig": 701,
+     "caption": 8,
+     "total": 709
+    },
+    "或许": {
+     "leipzig": 257,
+     "caption": 0,
+     "total": 257
+    },
+    "截至": {
+     "leipzig": 578,
+     "caption": 0,
+     "total": 578
+    },
+    "所以": {
+     "leipzig": 1905,
+     "caption": 1,
+     "total": 1906
+    },
+    "才能": {
+     "leipzig": 1949,
+     "caption": 0,
+     "total": 1949
+    },
+    "打从": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "打自": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "抑且": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "抑或": {
+     "leipzig": 40,
+     "caption": 0,
+     "total": 40
+    },
+    "按照": {
+     "leipzig": 552,
+     "caption": 3,
+     "total": 555
+    },
+    "按理": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "按说": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "据以": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "据传": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "据悉": {
+     "leipzig": 68,
+     "caption": 0,
+     "total": 68
+    },
+    "据报": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "据此": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "据称": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "据说": {
+     "leipzig": 107,
+     "caption": 0,
+     "total": 107
+    },
+    "据闻": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "撑死": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "故此": {
+     "leipzig": 23,
+     "caption": 0,
+     "total": 23
+    },
+    "故而": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "敢保": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "敢情": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "断乎": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "断断": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "断然": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "方能": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "无力": {
+     "leipzig": 57,
+     "caption": 0,
+     "total": 57
+    },
+    "无奈": {
+     "leipzig": 128,
+     "caption": 0,
+     "total": 128
+    },
+    "无妨": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "无庸": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "无怪": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "无论": {
+     "leipzig": 412,
+     "caption": 0,
+     "total": 412
+    },
+    "无非": {
+     "leipzig": 46,
+     "caption": 0,
+     "total": 46
+    },
+    "无须": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "既是": {
+     "leipzig": 83,
+     "caption": 0,
+     "total": 83
+    },
+    "既然": {
+     "leipzig": 196,
+     "caption": 0,
+     "total": 196
+    },
+    "旨在": {
+     "leipzig": 117,
+     "caption": 0,
+     "total": 117
+    },
+    "时至": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "时隔": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "是否": {
+     "leipzig": 1534,
+     "caption": 0,
+     "total": 1534
+    },
+    "更是": {
+     "leipzig": 668,
+     "caption": 0,
+     "total": 668
+    },
+    "最初": {
+     "leipzig": 243,
+     "caption": 0,
+     "total": 243
+    },
+    "最后": {
+     "leipzig": 1036,
+     "caption": 0,
+     "total": 1036
+    },
+    "最多": {
+     "leipzig": 250,
+     "caption": 0,
+     "total": 250
+    },
+    "最好": {
+     "leipzig": 594,
+     "caption": 0,
+     "total": 594
+    },
+    "有关": {
+     "leipzig": 631,
+     "caption": 1,
+     "total": 632
+    },
+    "有如": {
+     "leipzig": 45,
+     "caption": 0,
+     "total": 45
+    },
+    "朝着": {
+     "leipzig": 66,
+     "caption": 5,
+     "total": 71
+    },
+    "未可": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "未始": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "未尝": {
+     "leipzig": 12,
+     "caption": 0,
+     "total": 12
+    },
+    "未必": {
+     "leipzig": 139,
+     "caption": 0,
+     "total": 139
+    },
+    "未料": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "未能": {
+     "leipzig": 347,
+     "caption": 0,
+     "total": 347
+    },
+    "本当": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "本着": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "本该": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "来看": {
+     "leipzig": 362,
+     "caption": 1,
+     "total": 363
+    },
+    "来着": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "来讲": {
+     "leipzig": 50,
+     "caption": 0,
+     "total": 50
+    },
+    "来说": {
+     "leipzig": 877,
+     "caption": 0,
+     "total": 877
+    },
+    "构助": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "果然": {
+     "leipzig": 79,
+     "caption": 0,
+     "total": 79
+    },
+    "果真": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "根据": {
+     "leipzig": 664,
+     "caption": 0,
+     "total": 664
+    },
+    "横是": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "横许": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "止于": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "正在": {
+     "leipzig": 1731,
+     "caption": 1895,
+     "total": 3626
+    },
+    "正如": {
+     "leipzig": 200,
+     "caption": 0,
+     "total": 200
+    },
+    "正当": {
+     "leipzig": 55,
+     "caption": 0,
+     "total": 55
+    },
+    "正经": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "正要": {
+     "leipzig": 13,
+     "caption": 14,
+     "total": 27
+    },
+    "正象": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "正逢": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "此外": {
+     "leipzig": 836,
+     "caption": 0,
+     "total": 836
+    },
+    "死不": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "毋宁": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "毋庸": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "毋须": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "每当": {
+     "leipzig": 61,
+     "caption": 0,
+     "total": 61
+    },
+    "每逢": {
+     "leipzig": 43,
+     "caption": 0,
+     "total": 43
+    },
+    "比及": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "比如": {
+     "leipzig": 494,
+     "caption": 0,
+     "total": 494
+    },
+    "比照": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "毕竟": {
+     "leipzig": 245,
+     "caption": 0,
+     "total": 245
+    },
+    "毫不": {
+     "leipzig": 65,
+     "caption": 0,
+     "total": 65
+    },
+    "没有": {
+     "leipzig": 6055,
+     "caption": 24,
+     "total": 6079
+    },
+    "沿着": {
+     "leipzig": 84,
+     "caption": 62,
+     "total": 146
+    },
+    "漫说": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "然而": {
+     "leipzig": 859,
+     "caption": 0,
+     "total": 859
+    },
+    "爽性": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "特此": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "犹如": {
+     "leipzig": 91,
+     "caption": 0,
+     "total": 91
+    },
+    "犹然": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "犹自": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "理应": {
+     "leipzig": 44,
+     "caption": 0,
+     "total": 44
+    },
+    "理当": {
+     "leipzig": 4,
+     "caption": 0,
+     "total": 4
+    },
+    "理该": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "甚且": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "甚么": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "甚或": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "甚而": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "甚至": {
+     "leipzig": 1372,
+     "caption": 0,
+     "total": 1372
+    },
+    "用以": {
+     "leipzig": 49,
+     "caption": 0,
+     "total": 49
+    },
+    "用来": {
+     "leipzig": 183,
+     "caption": 4,
+     "total": 187
+    },
+    "由于": {
+     "leipzig": 905,
+     "caption": 0,
+     "total": 905
+    },
+    "由此": {
+     "leipzig": 158,
+     "caption": 0,
+     "total": 158
+    },
+    "的确": {
+     "leipzig": 124,
+     "caption": 0,
+     "total": 124
+    },
+    "的话": {
+     "leipzig": 584,
+     "caption": 1,
+     "total": 585
+    },
+    "直到": {
+     "leipzig": 406,
+     "caption": 0,
+     "total": 406
+    },
+    "直至": {
+     "leipzig": 221,
+     "caption": 0,
+     "total": 221
+    },
+    "相对": {
+     "leipzig": 247,
+     "caption": 3,
+     "total": 250
+    },
+    "看来": {
+     "leipzig": 257,
+     "caption": 0,
+     "total": 257
+    },
+    "真是": {
+     "leipzig": 275,
+     "caption": 0,
+     "total": 275
+    },
+    "着呢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "着实": {
+     "leipzig": 28,
+     "caption": 0,
+     "total": 28
+    },
+    "硬是": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "确乎": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "确实": {
+     "leipzig": 406,
+     "caption": 0,
+     "total": 406
+    },
+    "离开": {
+     "leipzig": 481,
+     "caption": 3,
+     "total": 484
+    },
+    "究竟": {
+     "leipzig": 195,
+     "caption": 0,
+     "total": 195
+    },
+    "穿过": {
+     "leipzig": 68,
+     "caption": 135,
+     "total": 203
+    },
+    "竟然": {
+     "leipzig": 252,
+     "caption": 0,
+     "total": 252
+    },
+    "竟而": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "竟自": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "竟至": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "笃定": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "符合": {
+     "leipzig": 434,
+     "caption": 0,
+     "total": 434
+    },
+    "等到": {
+     "leipzig": 162,
+     "caption": 0,
+     "total": 162
+    },
+    "等等": {
+     "leipzig": 239,
+     "caption": 9,
+     "total": 248
+    },
+    "简直": {
+     "leipzig": 95,
+     "caption": 0,
+     "total": 95
+    },
+    "类似": {
+     "leipzig": 247,
+     "caption": 4,
+     "total": 251
+    },
+    "索性": {
+     "leipzig": 11,
+     "caption": 0,
+     "total": 11
+    },
+    "纯然": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "纯粹": {
+     "leipzig": 52,
+     "caption": 0,
+     "total": 52
+    },
+    "纵令": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "纵使": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "纵然": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "终归": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "终究": {
+     "leipzig": 57,
+     "caption": 0,
+     "total": 57
+    },
+    "经由": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "经过": {
+     "leipzig": 624,
+     "caption": 59,
+     "total": 683
+    },
+    "结合": {
+     "leipzig": 291,
+     "caption": 1,
+     "total": 292
+    },
+    "绝不": {
+     "leipzig": 142,
+     "caption": 0,
+     "total": 142
+    },
+    "绝对": {
+     "leipzig": 286,
+     "caption": 0,
+     "total": 286
+    },
+    "绝非": {
+     "leipzig": 30,
+     "caption": 0,
+     "total": 30
+    },
+    "缘何": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "老几": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "而且": {
+     "leipzig": 1256,
+     "caption": 1,
+     "total": 1257
+    },
+    "而况": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "而又": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "而外": {
+     "leipzig": 8,
+     "caption": 0,
+     "total": 8
+    },
+    "而已": {
+     "leipzig": 136,
+     "caption": 0,
+     "total": 136
+    },
+    "而是": {
+     "leipzig": 1014,
+     "caption": 0,
+     "total": 1014
+    },
+    "而言": {
+     "leipzig": 420,
+     "caption": 0,
+     "total": 420
+    },
+    "而论": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "而非": {
+     "leipzig": 32,
+     "caption": 0,
+     "total": 32
+    },
+    "肯定": {
+     "leipzig": 464,
+     "caption": 0,
+     "total": 464
+    },
+    "能否": {
+     "leipzig": 247,
+     "caption": 0,
+     "total": 247
+    },
+    "能够": {
+     "leipzig": 1123,
+     "caption": 1,
+     "total": 1124
+    },
+    "自从": {
+     "leipzig": 86,
+     "caption": 0,
+     "total": 86
+    },
+    "自打": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "自是": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "自此": {
+     "leipzig": 35,
+     "caption": 0,
+     "total": 35
+    },
+    "自然": {
+     "leipzig": 632,
+     "caption": 0,
+     "total": 632
+    },
+    "至于": {
+     "leipzig": 159,
+     "caption": 0,
+     "total": 159
+    },
+    "至多": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "至此": {
+     "leipzig": 68,
+     "caption": 0,
+     "total": 68
+    },
+    "般的": {
+     "leipzig": 87,
+     "caption": 1,
+     "total": 88
+    },
+    "若何": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "若干": {
+     "leipzig": 36,
+     "caption": 0,
+     "total": 36
+    },
+    "若是": {
+     "leipzig": 21,
+     "caption": 0,
+     "total": 21
+    },
+    "若非": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "莫如": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "莫若": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "莫非": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "藉以": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "虽则": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "虽然": {
+     "leipzig": 1170,
+     "caption": 0,
+     "total": 1170
+    },
+    "虽说": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "要不": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "要么": {
+     "leipzig": 105,
+     "caption": 0,
+     "total": 105
+    },
+    "要是": {
+     "leipzig": 164,
+     "caption": 0,
+     "total": 164
+    },
+    "譬如": {
+     "leipzig": 27,
+     "caption": 0,
+     "total": 27
+    },
+    "譬犹": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "譬若": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "论说": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "设使": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "设或": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "设若": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "诚如": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "诚然": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    },
+    "话说": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "该当": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "语助": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "说来": {
+     "leipzig": 17,
+     "caption": 0,
+     "total": 17
+    },
+    "诸如": {
+     "leipzig": 22,
+     "caption": 0,
+     "total": 22
+    },
+    "谁个": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "谁人": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "谁们": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "谣传": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "赶巧": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "起来": {
+     "leipzig": 1268,
+     "caption": 87,
+     "total": 1355
+    },
+    "足以": {
+     "leipzig": 111,
+     "caption": 0,
+     "total": 111
+    },
+    "足足": {
+     "leipzig": 13,
+     "caption": 0,
+     "total": 13
+    },
+    "跟着": {
+     "leipzig": 158,
+     "caption": 17,
+     "total": 175
+    },
+    "路经": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "较之": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "过去": {
+     "leipzig": 839,
+     "caption": 5,
+     "total": 844
+    },
+    "过来": {
+     "leipzig": 211,
+     "caption": 6,
+     "total": 217
+    },
+    "还是": {
+     "leipzig": 2040,
+     "caption": 1,
+     "total": 2041
+    },
+    "进去": {
+     "leipzig": 97,
+     "caption": 1,
+     "total": 98
+    },
+    "进来": {
+     "leipzig": 72,
+     "caption": 1,
+     "total": 73
+    },
+    "进而": {
+     "leipzig": 50,
+     "caption": 0,
+     "total": 50
+    },
+    "连同": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "迫于": {
+     "leipzig": 14,
+     "caption": 0,
+     "total": 14
+    },
+    "适值": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "适逢": {
+     "leipzig": 5,
+     "caption": 0,
+     "total": 5
+    },
+    "适遇": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "途经": {
+     "leipzig": 16,
+     "caption": 0,
+     "total": 16
+    },
+    "通过": {
+     "leipzig": 1682,
+     "caption": 38,
+     "total": 1720
+    },
+    "那么": {
+     "leipzig": 1151,
+     "caption": 1,
+     "total": 1152
+    },
+    "那末": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "鉴于": {
+     "leipzig": 60,
+     "caption": 0,
+     "total": 60
+    },
+    "针对": {
+     "leipzig": 387,
+     "caption": 0,
+     "total": 387
+    },
+    "错非": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "除了": {
+     "leipzig": 965,
+     "caption": 0,
+     "total": 965
+    },
+    "除去": {
+     "leipzig": 18,
+     "caption": 0,
+     "total": 18
+    },
+    "除外": {
+     "leipzig": 29,
+     "caption": 0,
+     "total": 29
+    },
+    "除开": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "除此": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "除非": {
+     "leipzig": 117,
+     "caption": 0,
+     "total": 117
+    },
+    "随之": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "随便": {
+     "leipzig": 67,
+     "caption": 0,
+     "total": 67
+    },
+    "随着": {
+     "leipzig": 797,
+     "caption": 2,
+     "total": 799
+    },
+    "难怪": {
+     "leipzig": 26,
+     "caption": 0,
+     "total": 26
+    },
+    "难说": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "难道": {
+     "leipzig": 167,
+     "caption": 0,
+     "total": 167
+    },
+    "非但": {
+     "leipzig": 24,
+     "caption": 0,
+     "total": 24
+    },
+    "非徒": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "非得": {
+     "leipzig": 19,
+     "caption": 0,
+     "total": 19
+    },
+    "非特": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "非独": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "非要": {
+     "leipzig": 30,
+     "caption": 0,
+     "total": 30
+    },
+    "靠近": {
+     "leipzig": 101,
+     "caption": 23,
+     "total": 124
+    },
+    "面对": {
+     "leipzig": 987,
+     "caption": 18,
+     "total": 1005
+    },
+    "顶多": {
+     "leipzig": 6,
+     "caption": 0,
+     "total": 6
+    },
+    "顺着": {
+     "leipzig": 26,
+     "caption": 2,
+     "total": 28
+    },
+    "须要": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "首先": {
+     "leipzig": 555,
+     "caption": 0,
+     "total": 555
+    },
+    "高低": {
+     "leipzig": 56,
+     "caption": 2,
+     "total": 58
+    }
+   },
+   "admitted": [
+    "没有",
+    "可以",
+    "就是",
+    "可能",
+    "正在",
+    "不是",
+    "如果",
+    "不能",
+    "因为",
+    "以及",
+    "什么",
+    "只有",
+    "还是",
+    "才能",
+    "但是",
+    "所以",
+    "一种",
+    "因此",
+    "必须",
+    "通过",
+    "一定",
+    "为了",
+    "是否",
+    "同时",
+    "如何",
+    "只是",
+    "应该",
+    "甚至",
+    "起来",
+    "不会",
+    "另外",
+    "对于",
+    "得到",
+    "而且",
+    "虽然",
+    "那么",
+    "能够",
+    "之后",
+    "最后",
+    "而是",
+    "面对",
+    "不仅",
+    "出来",
+    "除了",
+    "仍然",
+    "不过",
+    "完全",
+    "只要",
+    "由于",
+    "基本",
+    "来说",
+    "然而",
+    "过去",
+    "此外",
+    "以来",
+    "随着",
+    "怎么",
+    "即使",
+    "或者",
+    "后来",
+    "经过",
+    "更是",
+    "根据",
+    "利用",
+    "多少",
+    "有关",
+    "自然",
+    "当然",
+    "于是",
+    "不到",
+    "最好",
+    "的话",
+    "截至",
+    "按照",
+    "首先",
+    "尽管",
+    "关于",
+    "不可",
+    "比如",
+    "可是",
+    "离开",
+    "加上",
+    "肯定",
+    "不足",
+    "一旦",
+    "下来",
+    "符合",
+    "而言",
+    "无论",
+    "直到",
+    "确实",
+    "哪里",
+    "不管",
+    "针对",
+    "及其",
+    "来看",
+    "到底",
+    "尚未",
+    "大多",
+    "愿意",
+    "未能",
+    "例如",
+    "原来",
+    "也许",
+    "反而",
+    "并且",
+    "之外",
+    "不了",
+    "结合",
+    "下去",
+    "不如",
+    "绝对",
+    "真是",
+    "并非",
+    "必然",
+    "或许",
+    "看来",
+    "竟然",
+    "类似",
+    "最多",
+    "相对",
+    "等等",
+    "能否",
+    "就算",
+    "毕竟",
+    "怎样",
+    "最初",
+    "应当",
+    "从而",
+    "即便",
+    "直至",
+    "不但",
+    "过来",
+    "为何",
+    "其次",
+    "得以",
+    "穿过",
+    "正如",
+    "既然",
+    "或是",
+    "究竟",
+    "用来",
+    "出去",
+    "否则",
+    "大约",
+    "大概",
+    "即可",
+    "从此",
+    "不必",
+    "跟着",
+    "哪些",
+    "难道",
+    "以便",
+    "要是",
+    "等到",
+    "今后",
+    "可见",
+    "至于",
+    "由此",
+    "只好",
+    "居然",
+    "沿着",
+    "绝不",
+    "为此",
+    "未必",
+    "乃至",
+    "而已",
+    "因而",
+    "如同",
+    "仅仅",
+    "哪怕",
+    "基于",
+    "恐怕",
+    "无奈",
+    "的确",
+    "靠近",
+    "必将",
+    "千万",
+    "就此",
+    "旨在",
+    "除非",
+    "似的",
+    "足以",
+    "据说",
+    "要么",
+    "也好",
+    "在外",
+    "不然",
+    "必定",
+    "不妨",
+    "进去",
+    "依据",
+    "简直",
+    "加以",
+    "犹如",
+    "不论",
+    "大致",
+    "上去",
+    "不见",
+    "般的",
+    "自从",
+    "上来",
+    "与其",
+    "反正",
+    "既是",
+    "假如",
+    "不该",
+    "总之",
+    "果然",
+    "不禁",
+    "从中",
+    "切勿",
+    "多久",
+    "不顾",
+    "进来",
+    "不堪",
+    "朝着",
+    "一味",
+    "凭借",
+    "据悉",
+    "至此",
+    "随之",
+    "随便",
+    "何时",
+    "决不",
+    "以至",
+    "毫不",
+    "固然",
+    "何必",
+    "倘若",
+    "每当",
+    "鉴于",
+    "只得",
+    "高低",
+    "在场",
+    "往返",
+    "无力",
+    "终究",
+    "如下",
+    "幸好",
+    "正当",
+    "再说",
+    "务必",
+    "纯粹",
+    "向着",
+    "不起",
+    "哪儿",
+    "来讲",
+    "进而",
+    "依照",
+    "用以",
+    "不料",
+    "单纯",
+    "以致",
+    "无非",
+    "八成",
+    "有如",
+    "理应",
+    "几分",
+    "想必",
+    "每逢",
+    "偏偏",
+    "万一",
+    "即是",
+    "别说",
+    "抑或",
+    "何以",
+    "何况",
+    "加之",
+    "反之",
+    "为止",
+    "大于",
+    "何不",
+    "准保",
+    "势必",
+    "若干",
+    "不光",
+    "自此",
+    "多达",
+    "何处",
+    "恰好",
+    "与否",
+    "又称",
+    "将要",
+    "而非",
+    "绝非",
+    "非要",
+    "一经",
+    "仍旧",
+    "借此",
+    "如若",
+    "除外",
+    "何等",
+    "宛如",
+    "本着",
+    "着实",
+    "顺着",
+    "不下",
+    "不免",
+    "为啥",
+    "假设",
+    "反倒",
+    "方能",
+    "正要",
+    "譬如",
+    "一如",
+    "也罢",
+    "何尝",
+    "再者",
+    "况且",
+    "想来",
+    "虽说",
+    "难怪",
+    "何种",
+    "切莫",
+    "宁愿",
+    "非但",
+    "一来",
+    "可否",
+    "故此",
+    "俨然",
+    "多半",
+    "时隔",
+    "诸如",
+    "岂能",
+    "恰逢",
+    "故而",
+    "本该",
+    "硬是",
+    "若是",
+    "幸亏",
+    "诚然",
+    "无须",
+    "非得",
+    "传闻",
+    "俗称",
+    "往后",
+    "据此",
+    "除去",
+    "不定",
+    "但愿",
+    "何其",
+    "何方",
+    "光是",
+    "届时",
+    "总算",
+    "惟其",
+    "纵使",
+    "诚如",
+    "说来",
+    "宁可",
+    "尚且",
+    "幸而",
+    "情愿",
+    "纵然",
+    "途经",
+    "当着",
+    "及至",
+    "大半",
+    "若非",
+    "连同",
+    "迫于",
+    "万万",
+    "假若",
+    "哎呀",
+    "恍惚",
+    "正经",
+    "足足",
+    "何须",
+    "几何",
+    "只管",
+    "据称",
+    "未尝",
+    "会同",
+    "几多",
+    "大体",
+    "恰似",
+    "笃定",
+    "索性",
+    "何人",
+    "假定",
+    "大抵",
+    "干吗",
+    "何妨",
+    "好歹",
+    "兴许",
+    "几时",
+    "几许",
+    "哪位",
+    "多长",
+    "定然",
+    "宛若",
+    "岂止",
+    "得起",
+    "总得",
+    "断然",
+    "无妨",
+    "止于",
+    "正逢",
+    "甚或",
+    "而外",
+    "何事",
+    "单单",
+    "即令",
+    "大凡",
+    "孰料",
+    "怎的",
+    "经由",
+    "藉以",
+    "不单",
+    "何地",
+    "借以",
+    "假使",
+    "决非",
+    "切切",
+    "因公",
+    "总归",
+    "据传",
+    "果真",
+    "终归",
+    "自打",
+    "自是",
+    "至多",
+    "难说",
+    "顶多",
+    "不独",
+    "似地",
+    "何苦",
+    "别管",
+    "务求",
+    "咋样",
+    "姑且",
+    "恰如",
+    "而论",
+    "莫非",
+    "较之",
+    "适逢"
+   ],
+   "admitted_by_fmin": {
+    "3": 459,
+    "5": 437,
+    "10": 383
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": true,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "fallback",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 437,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": true,
+   "candidates": [
+    "一定",
+    "一旦",
+    "上去",
+    "不下",
+    "不料",
+    "不见",
+    "之外",
+    "何以",
+    "依据",
+    "几分",
+    "几许",
+    "切切",
+    "切勿",
+    "又称",
+    "咋样",
+    "哪些",
+    "大致",
+    "宛若",
+    "就是",
+    "干吗",
+    "往返",
+    "抑或",
+    "朝着",
+    "止于",
+    "正在",
+    "沿着",
+    "硬是",
+    "结合",
+    "而非",
+    "自然",
+    "莫非",
+    "难怪"
+   ],
+   "charge": 0.003723063483395031,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0003092681211962073,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 4342
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0007191489855438767,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 5398
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004088912768526902,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6065
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0002842340184676974,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6296
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008464166474924185,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6568
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.008519225295716498,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 6618
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0012723965018476818,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 7953
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.007421096746777298,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 8976
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.007652197718607838,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 8977
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00920699522955694,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 8978
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.005462870764216081,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 8979
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.028264772110678977,
+     "n_occurrences_replaced": 2,
+     "n_positions": 2,
+     "position_occurrence_mismatch": false,
+     "line": 8980
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.006539790670821765,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 9100
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.004039813610946302,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 9419
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0005035975513014122,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 10706
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.01997821028741674,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 10772
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0007601967402349266,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 10960
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00340631335584376,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 11151
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.008953605958158105,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 14405
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0013325198163171223,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 16097
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": 1.0598143140989682,
+   "call": false
+  },
+  "擢素": {
+   "word": "擢素",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  }
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "null_cross_check": {
+  "ref": {
+   "n_control": 61,
+   "mean": -6.420571089658418e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "mine": {
+   "n_control": 61,
+   "mean": -6.420571089658448e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "ref_source": "committed_55",
+  "d_mean": 2.981555974335137e-19,
+  "d_sd": 0.0,
+  "n_equal": true
+ },
+ "invalid_controls": [
+  {
+   "word": "一场",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "七八年",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "人們",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "低頭不語",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "做不了",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "兩個",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "六名",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "冲锋在前",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刑事法律",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刻上",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "啥时候",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大不相同",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大巴车",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "官員",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "客量",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "密切接触",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "數據",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "新冠",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "紐森",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经典之作",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经费",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "罪責屬",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "羊们",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "腐败现象",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "蔓延到",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "記錄",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "設計",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诉衷情",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诸事",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "資料",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "还有",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "進行",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "過度",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "鑼鼓聲",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "顯示",
+   "reasons": [
+    "attestation_starved"
+   ]
+  }
+ ],
+ "certificate_drift": 0.0,
+ "n_texts": 35178,
+ "addendum": {
+  "file": "host_frames_tiaotiao_addendum_56.json",
+  "truncation": {
+   "applied": false,
+   "reason": null,
+   "caps": {}
+  },
+  "extraction_validation": {
+   "青春": 201,
+   "黑夜": 29
+  }
+ },
+ "provenance": {
+  "machinery": "word_latent_v5_referent_color_54.py imported verbatim; word_grain_referent_pass_55.py helpers imported verbatim",
+  "axis_npz": "color_salience_axis_48.npz",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "attempt4_pool_sha256": "941224b32b8904a6b5186bbfe7997e6d3c9c8aac1c7068b7959a3dba779e44c1",
+  "latent_scores_sha256": "a9f059c227e2b0a4fe474a2ed58a288e49539f4b8fa4b39a3376ef5c1efebe7b",
+  "addendum_sha256": "06a3744b9f32d9e81541c2ad48feb1b74e2c02d7ef6eca708704e4ef16942ab4",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32,
+  "f_min": 5,
+  "min_nat": 3,
+  "z_floor": 1.5
+ }
+}

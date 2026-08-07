@@ -1,0 +1,42 @@
+# Minimal-pair probes, DARK side v2 (#48, 07-16). Line i pairs with twin_bright.txt line i.
+# v2: affect-neutral darkness phrasing — no death/decay/loss vocabulary.
+The kitchen after midnight smelled of coffee.
+She read her book by a small lamp in the dim room.
+The hospital corridor was dim overnight.
+He walked home after the sky had gone dark.
+The classroom was dark when the students arrived.
+Deep shade filled the waiting room at the clinic.
+The stadium stood unlit, the field hard to make out.
+The shop window sat unlit after closing.
+Their faces were half in shadow at the candlelit table.
+The mountain trail was hard to see at dusk.
+The office was dim with the blinds drawn.
+The ferry crossed the harbor in the dark of night.
+The child's bedroom was dark in the middle of the night.
+The interrogation room was kept very dim.
+The parking garage was unlit on every level.
+A low shaded bulb hung over the workbench.
+The old chapel was dim at midnight.
+The train platform lay in darkness after the last service.
+The market square was fully dark at ten at night.
+The prisoners exercised in the dim yard.
+The library reading room had gone dim at closing.
+The bathroom mirror was barely visible in the dark.
+The barn was dark inside with the doors shut.
+Her studio sat in shadow after sundown.
+The operating theater was unlit between shifts.
+The playground dimmed in the early evening.
+The staircase was hard to see in the unlit hallway.
+The fields stretched out under a dark night sky.
+The kitchen table sat in shadow with the curtains drawn.
+The waiting soldiers stood in the dark yard.
+The garden path was hard to see after nightfall.
+The factory floor was dark end to end.
+The empty street lay dark between the switched-off lamps.
+The attic was dark behind its shuttered skylight.
+The pier stretched into the dark water.
+The funeral was held on a dim overcast evening.
+The bus rolled through unlit streets at night.
+The cellar door stood open onto the dark stairs.
+Her desk sat in the unlit room.
+The village lay quiet in the dark before dawn.

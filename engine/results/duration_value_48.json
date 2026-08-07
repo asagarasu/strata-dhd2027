@@ -1,0 +1,12 @@
+{
+ "construct": "duration-value axis (TimeLong vs TimeShort, head-sememe)",
+ "n_words": [
+  131,
+  85
+ ],
+ "certificate": 0.0,
+ "holdout_dprime": 3.4493214026393497,
+ "axis_sha256_16": "b803dae44967d421",
+ "seed": 48,
+ "preregistration": "Spearman(score, log10 days) > 0, CI excl. 0; dataset absent at build time"
+}

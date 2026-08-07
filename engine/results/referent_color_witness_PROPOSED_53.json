@@ -1,0 +1,8563 @@
+{
+ "status": "PROPOSED",
+ "note": "Mechanical two-witness referent-color evidence. Distributions/curve published; NO threshold baked, NO recommendation, NO adoption.",
+ "generated": "2026-07-20",
+ "witness_A_pixels": {
+  "corpus": "COCO instances_val2017 (5000 images ALL present on disk; train2017 images ABSENT so val-only)",
+  "seed": 48,
+  "cap_per_category": 200,
+  "min_masked_pixels_per_instance": 25,
+  "n_categories": 80,
+  "color_bin_rule": {
+   "bins": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "brown",
+    "black",
+    "white",
+    "gray"
+   ],
+   "space": "RGB(0-255) -> HSV via standard conversion; H in [0,360), S,V in [0,1]",
+   "rule_ordered": [
+    "achromatic gate first:",
+    "  V < 0.20              -> black",
+    "  S < 0.20 and V >= 0.80 -> white",
+    "  S < 0.20              -> gray",
+    "chromatic modifiers:",
+    "  10 <= H < 45 and V < 0.58                    -> brown (dull/dark orange-yellow)",
+    "  (H >= 300 or H < 10) and S < 0.55 and V >= 0.70 -> pink (light desaturated red/magenta)",
+    "pure hue bins (remaining, S>=0.20 V>=0.20):",
+    "  H < 10 or H >= 345 -> red",
+    "  H < 45  -> orange",
+    "  H < 70  -> yellow",
+    "  H < 165 -> green",
+    "  H < 255 -> blue",
+    "  H < 290 -> purple",
+    "  H in [290,345) -> pink"
+   ],
+   "declared": "These boundaries ARE the rule (part of the measurement), not tuned."
+  },
+  "per_instance": "dominant bin = modal per-pixel bin over the decoded mask; category histogram = counts of instances by dominant bin",
+  "per_category": {
+   "airplane": {
+    "n_instances_used": 143,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2551920,
+    "histogram": {
+     "red": 6,
+     "orange": 2,
+     "yellow": 0,
+     "green": 1,
+     "blue": 26,
+     "purple": 0,
+     "pink": 0,
+     "brown": 6,
+     "black": 26,
+     "white": 28,
+     "gray": 48
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.3357
+   },
+   "apple": {
+    "n_instances_used": 198,
+    "n_skipped_small": 2,
+    "total_masked_pixels": 1304589,
+    "histogram": {
+     "red": 77,
+     "orange": 49,
+     "yellow": 30,
+     "green": 11,
+     "blue": 0,
+     "purple": 0,
+     "pink": 3,
+     "brown": 11,
+     "black": 10,
+     "white": 3,
+     "gray": 4
+    },
+    "top_bin": "red",
+    "top_bin_share": 0.3889
+   },
+   "backpack": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 502567,
+    "histogram": {
+     "red": 8,
+     "orange": 1,
+     "yellow": 1,
+     "green": 1,
+     "blue": 23,
+     "purple": 0,
+     "pink": 6,
+     "brown": 3,
+     "black": 134,
+     "white": 0,
+     "gray": 22
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.6734
+   },
+   "banana": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1586966,
+    "histogram": {
+     "red": 0,
+     "orange": 42,
+     "yellow": 97,
+     "green": 24,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 28,
+     "black": 3,
+     "white": 4,
+     "gray": 2
+    },
+    "top_bin": "yellow",
+    "top_bin_share": 0.485
+   },
+   "baseball bat": {
+    "n_instances_used": 146,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 316100,
+    "histogram": {
+     "red": 4,
+     "orange": 27,
+     "yellow": 6,
+     "green": 8,
+     "blue": 18,
+     "purple": 0,
+     "pink": 0,
+     "brown": 10,
+     "black": 42,
+     "white": 10,
+     "gray": 21
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.2877
+   },
+   "baseball glove": {
+    "n_instances_used": 143,
+    "n_skipped_small": 5,
+    "total_masked_pixels": 294326,
+    "histogram": {
+     "red": 1,
+     "orange": 15,
+     "yellow": 3,
+     "green": 0,
+     "blue": 6,
+     "purple": 0,
+     "pink": 0,
+     "brown": 27,
+     "black": 62,
+     "white": 3,
+     "gray": 26
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4336
+   },
+   "bear": {
+    "n_instances_used": 71,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 3491414,
+    "histogram": {
+     "red": 0,
+     "orange": 4,
+     "yellow": 0,
+     "green": 0,
+     "blue": 1,
+     "purple": 1,
+     "pink": 0,
+     "brown": 13,
+     "black": 36,
+     "white": 2,
+     "gray": 14
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.507
+   },
+   "bed": {
+    "n_instances_used": 163,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 13891153,
+    "histogram": {
+     "red": 4,
+     "orange": 16,
+     "yellow": 2,
+     "green": 1,
+     "blue": 17,
+     "purple": 0,
+     "pink": 3,
+     "brown": 16,
+     "black": 19,
+     "white": 23,
+     "gray": 62
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.3804
+   },
+   "bench": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2341218,
+    "histogram": {
+     "red": 5,
+     "orange": 9,
+     "yellow": 4,
+     "green": 1,
+     "blue": 9,
+     "purple": 1,
+     "pink": 2,
+     "brown": 19,
+     "black": 74,
+     "white": 9,
+     "gray": 67
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.37
+   },
+   "bicycle": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1689710,
+    "histogram": {
+     "red": 1,
+     "orange": 1,
+     "yellow": 0,
+     "green": 2,
+     "blue": 12,
+     "purple": 0,
+     "pink": 0,
+     "brown": 6,
+     "black": 73,
+     "white": 1,
+     "gray": 104
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.52
+   },
+   "bird": {
+    "n_instances_used": 181,
+    "n_skipped_small": 19,
+    "total_masked_pixels": 856380,
+    "histogram": {
+     "red": 1,
+     "orange": 7,
+     "yellow": 3,
+     "green": 1,
+     "blue": 23,
+     "purple": 0,
+     "pink": 0,
+     "brown": 18,
+     "black": 26,
+     "white": 17,
+     "gray": 85
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.4696
+   },
+   "boat": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 1318355,
+    "histogram": {
+     "red": 2,
+     "orange": 11,
+     "yellow": 3,
+     "green": 2,
+     "blue": 31,
+     "purple": 0,
+     "pink": 0,
+     "brown": 7,
+     "black": 38,
+     "white": 18,
+     "gray": 87
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.4372
+   },
+   "book": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 454242,
+    "histogram": {
+     "red": 10,
+     "orange": 20,
+     "yellow": 0,
+     "green": 3,
+     "blue": 22,
+     "purple": 0,
+     "pink": 1,
+     "brown": 44,
+     "black": 37,
+     "white": 17,
+     "gray": 45
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.2261
+   },
+   "bottle": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 479951,
+    "histogram": {
+     "red": 11,
+     "orange": 23,
+     "yellow": 9,
+     "green": 6,
+     "blue": 23,
+     "purple": 0,
+     "pink": 0,
+     "brown": 35,
+     "black": 63,
+     "white": 6,
+     "gray": 24
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.315
+   },
+   "bowl": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 5382707,
+    "histogram": {
+     "red": 14,
+     "orange": 37,
+     "yellow": 8,
+     "green": 9,
+     "blue": 14,
+     "purple": 0,
+     "pink": 2,
+     "brown": 36,
+     "black": 26,
+     "white": 19,
+     "gray": 35
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.185
+   },
+   "broccoli": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1587984,
+    "histogram": {
+     "red": 0,
+     "orange": 4,
+     "yellow": 65,
+     "green": 96,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 5,
+     "black": 25,
+     "white": 1,
+     "gray": 4
+    },
+    "top_bin": "green",
+    "top_bin_share": 0.48
+   },
+   "bus": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 8355044,
+    "histogram": {
+     "red": 14,
+     "orange": 7,
+     "yellow": 2,
+     "green": 4,
+     "blue": 22,
+     "purple": 0,
+     "pink": 3,
+     "brown": 6,
+     "black": 50,
+     "white": 9,
+     "gray": 83
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.415
+   },
+   "cake": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2787367,
+    "histogram": {
+     "red": 14,
+     "orange": 51,
+     "yellow": 13,
+     "green": 3,
+     "blue": 7,
+     "purple": 0,
+     "pink": 1,
+     "brown": 50,
+     "black": 14,
+     "white": 29,
+     "gray": 18
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.255
+   },
+   "car": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 1098624,
+    "histogram": {
+     "red": 8,
+     "orange": 5,
+     "yellow": 4,
+     "green": 0,
+     "blue": 27,
+     "purple": 0,
+     "pink": 2,
+     "brown": 5,
+     "black": 62,
+     "white": 18,
+     "gray": 68
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.3417
+   },
+   "carrot": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 910062,
+    "histogram": {
+     "red": 10,
+     "orange": 172,
+     "yellow": 0,
+     "green": 0,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 16,
+     "black": 1,
+     "white": 1,
+     "gray": 0
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.86
+   },
+   "cat": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 9677317,
+    "histogram": {
+     "red": 0,
+     "orange": 21,
+     "yellow": 1,
+     "green": 0,
+     "blue": 2,
+     "purple": 0,
+     "pink": 0,
+     "brown": 38,
+     "black": 85,
+     "white": 10,
+     "gray": 43
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.425
+   },
+   "cell phone": {
+    "n_instances_used": 189,
+    "n_skipped_small": 11,
+    "total_masked_pixels": 1763887,
+    "histogram": {
+     "red": 8,
+     "orange": 6,
+     "yellow": 2,
+     "green": 3,
+     "blue": 19,
+     "purple": 1,
+     "pink": 7,
+     "brown": 12,
+     "black": 89,
+     "white": 6,
+     "gray": 36
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4709
+   },
+   "chair": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 942002,
+    "histogram": {
+     "red": 7,
+     "orange": 8,
+     "yellow": 2,
+     "green": 8,
+     "blue": 32,
+     "purple": 0,
+     "pink": 1,
+     "brown": 27,
+     "black": 83,
+     "white": 9,
+     "gray": 23
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.415
+   },
+   "clock": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1416812,
+    "histogram": {
+     "red": 4,
+     "orange": 9,
+     "yellow": 11,
+     "green": 1,
+     "blue": 19,
+     "purple": 1,
+     "pink": 0,
+     "brown": 21,
+     "black": 22,
+     "white": 36,
+     "gray": 76
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.38
+   },
+   "couch": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 6763857,
+    "histogram": {
+     "red": 13,
+     "orange": 14,
+     "yellow": 6,
+     "green": 0,
+     "blue": 5,
+     "purple": 0,
+     "pink": 3,
+     "brown": 48,
+     "black": 61,
+     "white": 7,
+     "gray": 43
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.305
+   },
+   "cow": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 2446254,
+    "histogram": {
+     "red": 5,
+     "orange": 12,
+     "yellow": 1,
+     "green": 0,
+     "blue": 9,
+     "purple": 0,
+     "pink": 0,
+     "brown": 39,
+     "black": 92,
+     "white": 9,
+     "gray": 32
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4623
+   },
+   "cup": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 733949,
+    "histogram": {
+     "red": 13,
+     "orange": 24,
+     "yellow": 8,
+     "green": 7,
+     "blue": 15,
+     "purple": 0,
+     "pink": 3,
+     "brown": 31,
+     "black": 26,
+     "white": 26,
+     "gray": 47
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.235
+   },
+   "dining table": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 9863720,
+    "histogram": {
+     "red": 13,
+     "orange": 40,
+     "yellow": 4,
+     "green": 2,
+     "blue": 11,
+     "purple": 1,
+     "pink": 1,
+     "brown": 42,
+     "black": 26,
+     "white": 14,
+     "gray": 46
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.23
+   },
+   "dog": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 7109750,
+    "histogram": {
+     "red": 0,
+     "orange": 21,
+     "yellow": 1,
+     "green": 2,
+     "blue": 4,
+     "purple": 0,
+     "pink": 0,
+     "brown": 37,
+     "black": 73,
+     "white": 14,
+     "gray": 47
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3668
+   },
+   "donut": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1447402,
+    "histogram": {
+     "red": 5,
+     "orange": 104,
+     "yellow": 6,
+     "green": 0,
+     "blue": 1,
+     "purple": 0,
+     "pink": 0,
+     "brown": 57,
+     "black": 10,
+     "white": 6,
+     "gray": 11
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.52
+   },
+   "elephant": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 5712666,
+    "histogram": {
+     "red": 0,
+     "orange": 22,
+     "yellow": 3,
+     "green": 0,
+     "blue": 1,
+     "purple": 0,
+     "pink": 0,
+     "brown": 68,
+     "black": 37,
+     "white": 0,
+     "gray": 69
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.345
+   },
+   "fire hydrant": {
+    "n_instances_used": 101,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1896491,
+    "histogram": {
+     "red": 24,
+     "orange": 11,
+     "yellow": 12,
+     "green": 0,
+     "blue": 7,
+     "purple": 0,
+     "pink": 1,
+     "brown": 13,
+     "black": 13,
+     "white": 3,
+     "gray": 17
+    },
+    "top_bin": "red",
+    "top_bin_share": 0.2376
+   },
+   "fork": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 650613,
+    "histogram": {
+     "red": 3,
+     "orange": 27,
+     "yellow": 3,
+     "green": 0,
+     "blue": 15,
+     "purple": 0,
+     "pink": 0,
+     "brown": 38,
+     "black": 21,
+     "white": 24,
+     "gray": 69
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.345
+   },
+   "frisbee": {
+    "n_instances_used": 115,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 280944,
+    "histogram": {
+     "red": 11,
+     "orange": 14,
+     "yellow": 11,
+     "green": 9,
+     "blue": 11,
+     "purple": 3,
+     "pink": 2,
+     "brown": 3,
+     "black": 2,
+     "white": 38,
+     "gray": 11
+    },
+    "top_bin": "white",
+    "top_bin_share": 0.3304
+   },
+   "giraffe": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 3237667,
+    "histogram": {
+     "red": 0,
+     "orange": 32,
+     "yellow": 0,
+     "green": 0,
+     "blue": 0,
+     "purple": 1,
+     "pink": 1,
+     "brown": 86,
+     "black": 24,
+     "white": 10,
+     "gray": 46
+    },
+    "top_bin": "brown",
+    "top_bin_share": 0.43
+   },
+   "hair drier": {
+    "n_instances_used": 11,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 72943,
+    "histogram": {
+     "red": 0,
+     "orange": 3,
+     "yellow": 1,
+     "green": 0,
+     "blue": 1,
+     "purple": 0,
+     "pink": 0,
+     "brown": 1,
+     "black": 4,
+     "white": 0,
+     "gray": 1
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3636
+   },
+   "handbag": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 451272,
+    "histogram": {
+     "red": 16,
+     "orange": 7,
+     "yellow": 2,
+     "green": 0,
+     "blue": 25,
+     "purple": 2,
+     "pink": 7,
+     "brown": 11,
+     "black": 90,
+     "white": 6,
+     "gray": 33
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4523
+   },
+   "horse": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 3002841,
+    "histogram": {
+     "red": 2,
+     "orange": 12,
+     "yellow": 5,
+     "green": 0,
+     "blue": 4,
+     "purple": 0,
+     "pink": 0,
+     "brown": 47,
+     "black": 88,
+     "white": 3,
+     "gray": 38
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4422
+   },
+   "hot dog": {
+    "n_instances_used": 127,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2053346,
+    "histogram": {
+     "red": 8,
+     "orange": 77,
+     "yellow": 2,
+     "green": 1,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 33,
+     "black": 2,
+     "white": 1,
+     "gray": 3
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.6063
+   },
+   "keyboard": {
+    "n_instances_used": 153,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1847566,
+    "histogram": {
+     "red": 0,
+     "orange": 8,
+     "yellow": 1,
+     "green": 3,
+     "blue": 15,
+     "purple": 0,
+     "pink": 0,
+     "brown": 11,
+     "black": 52,
+     "white": 11,
+     "gray": 52
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.3399
+   },
+   "kite": {
+    "n_instances_used": 187,
+    "n_skipped_small": 13,
+    "total_masked_pixels": 470891,
+    "histogram": {
+     "red": 21,
+     "orange": 7,
+     "yellow": 7,
+     "green": 7,
+     "blue": 64,
+     "purple": 1,
+     "pink": 7,
+     "brown": 1,
+     "black": 12,
+     "white": 36,
+     "gray": 24
+    },
+    "top_bin": "blue",
+    "top_bin_share": 0.3422
+   },
+   "knife": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 298392,
+    "histogram": {
+     "red": 4,
+     "orange": 14,
+     "yellow": 5,
+     "green": 1,
+     "blue": 4,
+     "purple": 0,
+     "pink": 2,
+     "brown": 39,
+     "black": 69,
+     "white": 8,
+     "gray": 53
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3467
+   },
+   "laptop": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 5455349,
+    "histogram": {
+     "red": 1,
+     "orange": 7,
+     "yellow": 3,
+     "green": 7,
+     "blue": 30,
+     "purple": 0,
+     "pink": 1,
+     "brown": 13,
+     "black": 49,
+     "white": 29,
+     "gray": 60
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.3
+   },
+   "microwave": {
+    "n_instances_used": 55,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1222131,
+    "histogram": {
+     "red": 0,
+     "orange": 4,
+     "yellow": 2,
+     "green": 0,
+     "blue": 3,
+     "purple": 0,
+     "pink": 0,
+     "brown": 3,
+     "black": 19,
+     "white": 5,
+     "gray": 19
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3455
+   },
+   "motorcycle": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 3880621,
+    "histogram": {
+     "red": 1,
+     "orange": 0,
+     "yellow": 0,
+     "green": 0,
+     "blue": 24,
+     "purple": 0,
+     "pink": 0,
+     "brown": 7,
+     "black": 96,
+     "white": 5,
+     "gray": 66
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4824
+   },
+   "mouse": {
+    "n_instances_used": 105,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 288306,
+    "histogram": {
+     "red": 1,
+     "orange": 6,
+     "yellow": 2,
+     "green": 1,
+     "blue": 3,
+     "purple": 0,
+     "pink": 0,
+     "brown": 9,
+     "black": 42,
+     "white": 14,
+     "gray": 27
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4
+   },
+   "orange": {
+    "n_instances_used": 198,
+    "n_skipped_small": 2,
+    "total_masked_pixels": 1704594,
+    "histogram": {
+     "red": 12,
+     "orange": 123,
+     "yellow": 25,
+     "green": 0,
+     "blue": 0,
+     "purple": 0,
+     "pink": 2,
+     "brown": 31,
+     "black": 1,
+     "white": 3,
+     "gray": 1
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.6212
+   },
+   "oven": {
+    "n_instances_used": 143,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 4959856,
+    "histogram": {
+     "red": 2,
+     "orange": 5,
+     "yellow": 2,
+     "green": 0,
+     "blue": 5,
+     "purple": 0,
+     "pink": 0,
+     "brown": 18,
+     "black": 71,
+     "white": 7,
+     "gray": 33
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4965
+   },
+   "parking meter": {
+    "n_instances_used": 60,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 781708,
+    "histogram": {
+     "red": 3,
+     "orange": 1,
+     "yellow": 1,
+     "green": 0,
+     "blue": 8,
+     "purple": 0,
+     "pink": 0,
+     "brown": 0,
+     "black": 28,
+     "white": 1,
+     "gray": 18
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4667
+   },
+   "person": {
+    "n_instances_used": 197,
+    "n_skipped_small": 3,
+    "total_masked_pixels": 2240990,
+    "histogram": {
+     "red": 11,
+     "orange": 16,
+     "yellow": 1,
+     "green": 1,
+     "blue": 23,
+     "purple": 0,
+     "pink": 4,
+     "brown": 14,
+     "black": 81,
+     "white": 9,
+     "gray": 37
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4112
+   },
+   "pizza": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 7154108,
+    "histogram": {
+     "red": 9,
+     "orange": 135,
+     "yellow": 6,
+     "green": 0,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 39,
+     "black": 0,
+     "white": 4,
+     "gray": 6
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.6784
+   },
+   "potted plant": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1892451,
+    "histogram": {
+     "red": 13,
+     "orange": 14,
+     "yellow": 9,
+     "green": 34,
+     "blue": 6,
+     "purple": 1,
+     "pink": 0,
+     "brown": 24,
+     "black": 59,
+     "white": 13,
+     "gray": 27
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.295
+   },
+   "refrigerator": {
+    "n_instances_used": 126,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 5409964,
+    "histogram": {
+     "red": 1,
+     "orange": 11,
+     "yellow": 6,
+     "green": 1,
+     "blue": 4,
+     "purple": 0,
+     "pink": 0,
+     "brown": 14,
+     "black": 15,
+     "white": 26,
+     "gray": 48
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.381
+   },
+   "remote": {
+    "n_instances_used": 198,
+    "n_skipped_small": 2,
+    "total_masked_pixels": 547283,
+    "histogram": {
+     "red": 1,
+     "orange": 15,
+     "yellow": 3,
+     "green": 0,
+     "blue": 5,
+     "purple": 0,
+     "pink": 0,
+     "brown": 6,
+     "black": 30,
+     "white": 59,
+     "gray": 79
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.399
+   },
+   "sandwich": {
+    "n_instances_used": 177,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 4421931,
+    "histogram": {
+     "red": 1,
+     "orange": 91,
+     "yellow": 7,
+     "green": 2,
+     "blue": 0,
+     "purple": 0,
+     "pink": 1,
+     "brown": 50,
+     "black": 2,
+     "white": 7,
+     "gray": 16
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.5141
+   },
+   "scissors": {
+    "n_instances_used": 36,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 901939,
+    "histogram": {
+     "red": 3,
+     "orange": 8,
+     "yellow": 1,
+     "green": 1,
+     "blue": 4,
+     "purple": 0,
+     "pink": 3,
+     "brown": 2,
+     "black": 10,
+     "white": 0,
+     "gray": 4
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.2778
+   },
+   "sheep": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2038088,
+    "histogram": {
+     "red": 0,
+     "orange": 31,
+     "yellow": 7,
+     "green": 2,
+     "blue": 1,
+     "purple": 0,
+     "pink": 1,
+     "brown": 50,
+     "black": 30,
+     "white": 27,
+     "gray": 51
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.255
+   },
+   "sink": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2159615,
+    "histogram": {
+     "red": 1,
+     "orange": 35,
+     "yellow": 15,
+     "green": 0,
+     "blue": 3,
+     "purple": 0,
+     "pink": 2,
+     "brown": 21,
+     "black": 17,
+     "white": 27,
+     "gray": 79
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.395
+   },
+   "skateboard": {
+    "n_instances_used": 178,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 909436,
+    "histogram": {
+     "red": 2,
+     "orange": 14,
+     "yellow": 3,
+     "green": 1,
+     "blue": 17,
+     "purple": 0,
+     "pink": 1,
+     "brown": 10,
+     "black": 65,
+     "white": 9,
+     "gray": 56
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3652
+   },
+   "skis": {
+    "n_instances_used": 193,
+    "n_skipped_small": 7,
+    "total_masked_pixels": 266089,
+    "histogram": {
+     "red": 1,
+     "orange": 1,
+     "yellow": 0,
+     "green": 1,
+     "blue": 35,
+     "purple": 0,
+     "pink": 0,
+     "brown": 0,
+     "black": 12,
+     "white": 32,
+     "gray": 111
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.5751
+   },
+   "snowboard": {
+    "n_instances_used": 65,
+    "n_skipped_small": 4,
+    "total_masked_pixels": 211155,
+    "histogram": {
+     "red": 2,
+     "orange": 0,
+     "yellow": 1,
+     "green": 4,
+     "blue": 8,
+     "purple": 0,
+     "pink": 0,
+     "brown": 1,
+     "black": 15,
+     "white": 6,
+     "gray": 28
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.4308
+   },
+   "spoon": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 380615,
+    "histogram": {
+     "red": 6,
+     "orange": 15,
+     "yellow": 4,
+     "green": 2,
+     "blue": 12,
+     "purple": 0,
+     "pink": 2,
+     "brown": 37,
+     "black": 33,
+     "white": 23,
+     "gray": 66
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.33
+   },
+   "sports ball": {
+    "n_instances_used": 183,
+    "n_skipped_small": 17,
+    "total_masked_pixels": 155550,
+    "histogram": {
+     "red": 6,
+     "orange": 12,
+     "yellow": 50,
+     "green": 44,
+     "blue": 5,
+     "purple": 0,
+     "pink": 1,
+     "brown": 5,
+     "black": 7,
+     "white": 31,
+     "gray": 22
+    },
+    "top_bin": "yellow",
+    "top_bin_share": 0.2732
+   },
+   "stop sign": {
+    "n_instances_used": 75,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 1536802,
+    "histogram": {
+     "red": 41,
+     "orange": 3,
+     "yellow": 0,
+     "green": 0,
+     "blue": 7,
+     "purple": 0,
+     "pink": 5,
+     "brown": 3,
+     "black": 4,
+     "white": 4,
+     "gray": 8
+    },
+    "top_bin": "red",
+    "top_bin_share": 0.5467
+   },
+   "suitcase": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 2706264,
+    "histogram": {
+     "red": 13,
+     "orange": 9,
+     "yellow": 3,
+     "green": 2,
+     "blue": 18,
+     "purple": 0,
+     "pink": 3,
+     "brown": 11,
+     "black": 92,
+     "white": 2,
+     "gray": 47
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.46
+   },
+   "surfboard": {
+    "n_instances_used": 195,
+    "n_skipped_small": 5,
+    "total_masked_pixels": 1144484,
+    "histogram": {
+     "red": 3,
+     "orange": 15,
+     "yellow": 9,
+     "green": 4,
+     "blue": 33,
+     "purple": 0,
+     "pink": 3,
+     "brown": 5,
+     "black": 24,
+     "white": 42,
+     "gray": 57
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.2923
+   },
+   "teddy bear": {
+    "n_instances_used": 191,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 5267057,
+    "histogram": {
+     "red": 6,
+     "orange": 59,
+     "yellow": 4,
+     "green": 6,
+     "blue": 5,
+     "purple": 0,
+     "pink": 1,
+     "brown": 47,
+     "black": 19,
+     "white": 15,
+     "gray": 29
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.3089
+   },
+   "tennis racket": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 959403,
+    "histogram": {
+     "red": 6,
+     "orange": 14,
+     "yellow": 18,
+     "green": 10,
+     "blue": 22,
+     "purple": 0,
+     "pink": 2,
+     "brown": 7,
+     "black": 24,
+     "white": 13,
+     "gray": 83
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.4171
+   },
+   "tie": {
+    "n_instances_used": 197,
+    "n_skipped_small": 3,
+    "total_masked_pixels": 606013,
+    "histogram": {
+     "red": 18,
+     "orange": 5,
+     "yellow": 4,
+     "green": 2,
+     "blue": 24,
+     "purple": 0,
+     "pink": 5,
+     "brown": 5,
+     "black": 69,
+     "white": 5,
+     "gray": 60
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.3503
+   },
+   "toaster": {
+    "n_instances_used": 9,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 153471,
+    "histogram": {
+     "red": 0,
+     "orange": 3,
+     "yellow": 0,
+     "green": 0,
+     "blue": 0,
+     "purple": 0,
+     "pink": 0,
+     "brown": 2,
+     "black": 2,
+     "white": 0,
+     "gray": 2
+    },
+    "top_bin": "orange",
+    "top_bin_share": 0.3333
+   },
+   "toilet": {
+    "n_instances_used": 179,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 4723498,
+    "histogram": {
+     "red": 1,
+     "orange": 23,
+     "yellow": 10,
+     "green": 7,
+     "blue": 6,
+     "purple": 0,
+     "pink": 1,
+     "brown": 17,
+     "black": 13,
+     "white": 19,
+     "gray": 82
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.4581
+   },
+   "toothbrush": {
+    "n_instances_used": 57,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 121564,
+    "histogram": {
+     "red": 2,
+     "orange": 7,
+     "yellow": 2,
+     "green": 2,
+     "blue": 7,
+     "purple": 2,
+     "pink": 2,
+     "brown": 4,
+     "black": 3,
+     "white": 13,
+     "gray": 13
+    },
+    "top_bin": "white",
+    "top_bin_share": 0.2281
+   },
+   "traffic light": {
+    "n_instances_used": 193,
+    "n_skipped_small": 7,
+    "total_masked_pixels": 309063,
+    "histogram": {
+     "red": 14,
+     "orange": 16,
+     "yellow": 3,
+     "green": 3,
+     "blue": 24,
+     "purple": 0,
+     "pink": 0,
+     "brown": 20,
+     "black": 84,
+     "white": 2,
+     "gray": 27
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.4352
+   },
+   "train": {
+    "n_instances_used": 190,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 11254778,
+    "histogram": {
+     "red": 16,
+     "orange": 8,
+     "yellow": 4,
+     "green": 3,
+     "blue": 27,
+     "purple": 0,
+     "pink": 3,
+     "brown": 9,
+     "black": 56,
+     "white": 8,
+     "gray": 56
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.2947
+   },
+   "truck": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 3692560,
+    "histogram": {
+     "red": 4,
+     "orange": 7,
+     "yellow": 1,
+     "green": 1,
+     "blue": 25,
+     "purple": 0,
+     "pink": 2,
+     "brown": 5,
+     "black": 47,
+     "white": 9,
+     "gray": 99
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.495
+   },
+   "tv": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 3737951,
+    "histogram": {
+     "red": 2,
+     "orange": 3,
+     "yellow": 2,
+     "green": 4,
+     "blue": 52,
+     "purple": 0,
+     "pink": 0,
+     "brown": 7,
+     "black": 66,
+     "white": 29,
+     "gray": 35
+    },
+    "top_bin": "black",
+    "top_bin_share": 0.33
+   },
+   "umbrella": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 2102971,
+    "histogram": {
+     "red": 17,
+     "orange": 7,
+     "yellow": 8,
+     "green": 4,
+     "blue": 55,
+     "purple": 0,
+     "pink": 10,
+     "brown": 8,
+     "black": 15,
+     "white": 31,
+     "gray": 44
+    },
+    "top_bin": "blue",
+    "top_bin_share": 0.2764
+   },
+   "vase": {
+    "n_instances_used": 199,
+    "n_skipped_small": 1,
+    "total_masked_pixels": 1580261,
+    "histogram": {
+     "red": 9,
+     "orange": 21,
+     "yellow": 9,
+     "green": 9,
+     "blue": 18,
+     "purple": 0,
+     "pink": 2,
+     "brown": 37,
+     "black": 40,
+     "white": 9,
+     "gray": 45
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.2261
+   },
+   "wine glass": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 678496,
+    "histogram": {
+     "red": 7,
+     "orange": 16,
+     "yellow": 6,
+     "green": 3,
+     "blue": 15,
+     "purple": 2,
+     "pink": 5,
+     "brown": 51,
+     "black": 35,
+     "white": 9,
+     "gray": 51
+    },
+    "top_bin": "brown",
+    "top_bin_share": 0.255
+   },
+   "zebra": {
+    "n_instances_used": 200,
+    "n_skipped_small": 0,
+    "total_masked_pixels": 4092555,
+    "histogram": {
+     "red": 0,
+     "orange": 15,
+     "yellow": 4,
+     "green": 0,
+     "blue": 1,
+     "purple": 0,
+     "pink": 0,
+     "brown": 33,
+     "black": 38,
+     "white": 17,
+     "gray": 92
+    },
+    "top_bin": "gray",
+    "top_bin_share": 0.46
+   }
+  }
+ },
+ "witness_B_cross_language": {
+  "en_corpus": "leipzig_en/leipzig_en_sentences.txt (eng_news_2025_1M), plain, case-insensitive whole-word",
+  "zh_corpus": "leipzig_zh/leipzig_tokenized.txt (zho_news_2020_300K, tokenized word/pos), token membership",
+  "en_color_terms": {
+   "source": "wordnet_field_lists_PROPOSED_53.json fields.color.adjective_route lemmas",
+   "n": 395
+  },
+  "zh_color_terms": {
+   "source": "HowNet W_C whose ANY DEF carries a color sememe under FIELD_SEMEME_GLOSS['color'] (verbatim from latent_written_labeler_53 / word_latent_v1_52)",
+   "gloss_set": [
+    "black",
+    "blue",
+    "brown",
+    "color",
+    "colour",
+    "gray",
+    "green",
+    "grey",
+    "purple",
+    "red",
+    "white",
+    "yellow"
+   ],
+   "n": 687
+  },
+  "en_total_sentences": 1000000,
+  "en_baseline_color_rate": 0.027945,
+  "zh_total_sentences": 208958,
+  "zh_baseline_color_rate": 0.022655,
+  "survival_cut": "PROVISIONAL: ratio >= 2 in BOTH languages (reported alongside raw ratios; re-cuttable)",
+  "mapping": "COCO english<->zh and pool zh<->english via HowNet W_C/W_E pairs",
+  "rows": {
+   "coco:person": {
+    "kind": "coco",
+    "label": "person",
+    "en_forms": [
+     "person"
+    ],
+    "zh_forms": [
+     "主儿",
+     "人",
+     "人士",
+     "人称",
+     "人身",
+     "士",
+     "子"
+    ],
+    "en": {
+     "n_sentences": 4994,
+     "n_with_color": 90,
+     "cooc_rate": 0.018022,
+     "baseline": 0.027945,
+     "ratio": 0.6449
+    },
+    "zh": {
+     "n_sentences": 19290,
+     "n_with_color": 370,
+     "cooc_rate": 0.019181,
+     "baseline": 0.022655,
+     "ratio": 0.8466
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:bicycle": {
+    "kind": "coco",
+    "label": "bicycle",
+    "en_forms": [
+     "bicycle"
+    ],
+    "zh_forms": [
+     "单车",
+     "脚踏车",
+     "自行车",
+     "骑车"
+    ],
+    "en": {
+     "n_sentences": 117,
+     "n_with_color": 5,
+     "cooc_rate": 0.042735,
+     "baseline": 0.027945,
+     "ratio": 1.5293
+    },
+    "zh": {
+     "n_sentences": 88,
+     "n_with_color": 2,
+     "cooc_rate": 0.022727,
+     "baseline": 0.022655,
+     "ratio": 1.0032
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:car": {
+    "kind": "coco",
+    "label": "car",
+    "en_forms": [
+     "car"
+    ],
+    "zh_forms": [
+     "汽车",
+     "轿车"
+    ],
+    "en": {
+     "n_sentences": 5339,
+     "n_with_color": 210,
+     "cooc_rate": 0.039333,
+     "baseline": 0.027945,
+     "ratio": 1.4075
+    },
+    "zh": {
+     "n_sentences": 270,
+     "n_with_color": 5,
+     "cooc_rate": 0.018519,
+     "baseline": 0.022655,
+     "ratio": 0.8174
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:motorcycle": {
+    "kind": "coco",
+    "label": "motorcycle",
+    "en_forms": [
+     "motorcycle"
+    ],
+    "zh_forms": [
+     "摩托",
+     "摩托车",
+     "机器脚踏车",
+     "电单车"
+    ],
+    "en": {
+     "n_sentences": 271,
+     "n_with_color": 23,
+     "cooc_rate": 0.084871,
+     "baseline": 0.027945,
+     "ratio": 3.0371
+    },
+    "zh": {
+     "n_sentences": 49,
+     "n_with_color": 2,
+     "cooc_rate": 0.040816,
+     "baseline": 0.022655,
+     "ratio": 1.8016
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:airplane": {
+    "kind": "coco",
+    "label": "airplane",
+    "en_forms": [
+     "airplane"
+    ],
+    "zh_forms": [
+     "机",
+     "飞机"
+    ],
+    "en": {
+     "n_sentences": 94,
+     "n_with_color": 3,
+     "cooc_rate": 0.031915,
+     "baseline": 0.027945,
+     "ratio": 1.1421
+    },
+    "zh": {
+     "n_sentences": 400,
+     "n_with_color": 7,
+     "cooc_rate": 0.0175,
+     "baseline": 0.022655,
+     "ratio": 0.7724
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:bus": {
+    "kind": "coco",
+    "label": "bus",
+    "en_forms": [
+     "bus"
+    ],
+    "zh_forms": [
+     "公交",
+     "公交车",
+     "公共汽车",
+     "公车",
+     "大客车",
+     "大巴",
+     "巴士",
+     "总线"
+    ],
+    "en": {
+     "n_sentences": 1320,
+     "n_with_color": 41,
+     "cooc_rate": 0.031061,
+     "baseline": 0.027945,
+     "ratio": 1.1115
+    },
+    "zh": {
+     "n_sentences": 264,
+     "n_with_color": 4,
+     "cooc_rate": 0.015152,
+     "baseline": 0.022655,
+     "ratio": 0.6688
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:train": {
+    "kind": "coco",
+    "label": "train",
+    "en_forms": [
+     "train"
+    ],
+    "zh_forms": [
+     "列车",
+     "培",
+     "培养",
+     "培训",
+     "教养",
+     "教练",
+     "栽培",
+     "火车",
+     "练",
+     "训",
+     "训练",
+     "调教",
+     "造",
+     "造就",
+     "铸就"
+    ],
+    "en": {
+     "n_sentences": 1609,
+     "n_with_color": 48,
+     "cooc_rate": 0.029832,
+     "baseline": 0.027945,
+     "ratio": 1.0675
+    },
+    "zh": {
+     "n_sentences": 1330,
+     "n_with_color": 22,
+     "cooc_rate": 0.016541,
+     "baseline": 0.022655,
+     "ratio": 0.7301
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:truck": {
+    "kind": "coco",
+    "label": "truck",
+    "en_forms": [
+     "truck"
+    ],
+    "zh_forms": [
+     "卡车",
+     "实物工资",
+     "货车",
+     "载重汽车",
+     "运输车"
+    ],
+    "en": {
+     "n_sentences": 802,
+     "n_with_color": 43,
+     "cooc_rate": 0.053616,
+     "baseline": 0.027945,
+     "ratio": 1.9186
+    },
+    "zh": {
+     "n_sentences": 56,
+     "n_with_color": 1,
+     "cooc_rate": 0.017857,
+     "baseline": 0.022655,
+     "ratio": 0.7882
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:boat": {
+    "kind": "coco",
+    "label": "boat",
+    "en_forms": [
+     "boat"
+    ],
+    "zh_forms": [
+     "划船",
+     "小船",
+     "舟",
+     "舡",
+     "舫",
+     "舴艋",
+     "船"
+    ],
+    "en": {
+     "n_sentences": 707,
+     "n_with_color": 37,
+     "cooc_rate": 0.052334,
+     "baseline": 0.027945,
+     "ratio": 1.8727
+    },
+    "zh": {
+     "n_sentences": 273,
+     "n_with_color": 5,
+     "cooc_rate": 0.018315,
+     "baseline": 0.022655,
+     "ratio": 0.8084
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:traffic light": {
+    "kind": "coco",
+    "label": "traffic light",
+    "en_forms": [
+     "traffic light"
+    ],
+    "zh_forms": [
+     "交通信号灯",
+     "红绿灯"
+    ],
+    "en": {
+     "n_sentences": 87,
+     "n_with_color": 13,
+     "cooc_rate": 0.149425,
+     "baseline": 0.027945,
+     "ratio": 5.3471
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:fire hydrant": {
+    "kind": "coco",
+    "label": "fire hydrant",
+    "en_forms": [
+     "fire hydrant"
+    ],
+    "zh_forms": [
+     "消火栓",
+     "消防栓",
+     "消防龙头"
+    ],
+    "en": {
+     "n_sentences": 11,
+     "n_with_color": 1,
+     "cooc_rate": 0.090909,
+     "baseline": 0.027945,
+     "ratio": 3.2531
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:stop sign": {
+    "kind": "coco",
+    "label": "stop sign",
+    "en_forms": [
+     "stop sign"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 25,
+     "n_with_color": 2,
+     "cooc_rate": 0.08,
+     "baseline": 0.027945,
+     "ratio": 2.8628
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:parking meter": {
+    "kind": "coco",
+    "label": "parking meter",
+    "en_forms": [
+     "parking meter"
+    ],
+    "zh_forms": [
+     "咪表"
+    ],
+    "en": {
+     "n_sentences": 12,
+     "n_with_color": 1,
+     "cooc_rate": 0.083333,
+     "baseline": 0.027945,
+     "ratio": 2.982
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:bench": {
+    "kind": "coco",
+    "label": "bench",
+    "en_forms": [
+     "bench"
+    ],
+    "zh_forms": [
+     "工作台",
+     "条凳",
+     "板凳",
+     "长凳",
+     "长板凳"
+    ],
+    "en": {
+     "n_sentences": 867,
+     "n_with_color": 30,
+     "cooc_rate": 0.034602,
+     "baseline": 0.027945,
+     "ratio": 1.2382
+    },
+    "zh": {
+     "n_sentences": 19,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:bird": {
+    "kind": "coco",
+    "label": "bird",
+    "en_forms": [
+     "bird"
+    ],
+    "zh_forms": [
+     "禽",
+     "羽毛球",
+     "飞禽",
+     "飞鸟",
+     "鳥",
+     "鸟",
+     "鸟儿",
+     "鹱"
+    ],
+    "en": {
+     "n_sentences": 585,
+     "n_with_color": 51,
+     "cooc_rate": 0.087179,
+     "baseline": 0.027945,
+     "ratio": 3.1197
+    },
+    "zh": {
+     "n_sentences": 119,
+     "n_with_color": 6,
+     "cooc_rate": 0.05042,
+     "baseline": 0.022655,
+     "ratio": 2.2255
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:cat": {
+    "kind": "coco",
+    "label": "cat",
+    "en_forms": [
+     "cat"
+    ],
+    "zh_forms": [
+     "猫"
+    ],
+    "en": {
+     "n_sentences": 608,
+     "n_with_color": 40,
+     "cooc_rate": 0.065789,
+     "baseline": 0.027945,
+     "ratio": 2.3542
+    },
+    "zh": {
+     "n_sentences": 42,
+     "n_with_color": 3,
+     "cooc_rate": 0.071429,
+     "baseline": 0.022655,
+     "ratio": 3.1528
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:dog": {
+    "kind": "coco",
+    "label": "dog",
+    "en_forms": [
+     "dog"
+    ],
+    "zh_forms": [
+     "家犬",
+     "尾随",
+     "犬",
+     "狗",
+     "追逐"
+    ],
+    "en": {
+     "n_sentences": 1764,
+     "n_with_color": 73,
+     "cooc_rate": 0.041383,
+     "baseline": 0.027945,
+     "ratio": 1.4809
+    },
+    "zh": {
+     "n_sentences": 339,
+     "n_with_color": 10,
+     "cooc_rate": 0.029499,
+     "baseline": 0.022655,
+     "ratio": 1.3021
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:horse": {
+    "kind": "coco",
+    "label": "horse",
+    "en_forms": [
+     "horse"
+    ],
+    "zh_forms": [
+     "马",
+     "马儿",
+     "骖"
+    ],
+    "en": {
+     "n_sentences": 525,
+     "n_with_color": 22,
+     "cooc_rate": 0.041905,
+     "baseline": 0.027945,
+     "ratio": 1.4995
+    },
+    "zh": {
+     "n_sentences": 168,
+     "n_with_color": 10,
+     "cooc_rate": 0.059524,
+     "baseline": 0.022655,
+     "ratio": 2.6274
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:sheep": {
+    "kind": "coco",
+    "label": "sheep",
+    "en_forms": [
+     "sheep"
+    ],
+    "zh_forms": [
+     "绵羊",
+     "羊"
+    ],
+    "en": {
+     "n_sentences": 211,
+     "n_with_color": 23,
+     "cooc_rate": 0.109005,
+     "baseline": 0.027945,
+     "ratio": 3.9007
+    },
+    "zh": {
+     "n_sentences": 35,
+     "n_with_color": 2,
+     "cooc_rate": 0.057143,
+     "baseline": 0.022655,
+     "ratio": 2.5223
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:cow": {
+    "kind": "coco",
+    "label": "cow",
+    "en_forms": [
+     "cow"
+    ],
+    "zh_forms": [
+     "吓唬",
+     "奶牛",
+     "母牛"
+    ],
+    "en": {
+     "n_sentences": 142,
+     "n_with_color": 10,
+     "cooc_rate": 0.070423,
+     "baseline": 0.027945,
+     "ratio": 2.52
+    },
+    "zh": {
+     "n_sentences": 14,
+     "n_with_color": 1,
+     "cooc_rate": 0.071429,
+     "baseline": 0.022655,
+     "ratio": 3.1528
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:elephant": {
+    "kind": "coco",
+    "label": "elephant",
+    "en_forms": [
+     "elephant"
+    ],
+    "zh_forms": [
+     "大象",
+     "象"
+    ],
+    "en": {
+     "n_sentences": 141,
+     "n_with_color": 9,
+     "cooc_rate": 0.06383,
+     "baseline": 0.027945,
+     "ratio": 2.2841
+    },
+    "zh": {
+     "n_sentences": 146,
+     "n_with_color": 11,
+     "cooc_rate": 0.075342,
+     "baseline": 0.022655,
+     "ratio": 3.3256
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:bear": {
+    "kind": "coco",
+    "label": "bear",
+    "en_forms": [
+     "bear"
+    ],
+    "zh_forms": [
+     "受",
+     "堪",
+     "带",
+     "带有",
+     "当",
+     "忍",
+     "忍受",
+     "忍耐",
+     "托",
+     "托住",
+     "承",
+     "承受",
+     "承当",
+     "承担",
+     "担负",
+     "搁",
+     "搁得住",
+     "支",
+     "支承",
+     "支持",
+     "消受",
+     "熊",
+     "熊瞎子",
+     "生",
+     "生养",
+     "生育",
+     "禁受",
+     "经",
+     "结",
+     "结下",
+     "耐受",
+     "肩负",
+     "背",
+     "背负",
+     "膺",
+     "衔",
+     "负",
+     "负担",
+     "负有",
+     "负荷",
+     "负起",
+     "黑瞎子"
+    ],
+    "en": {
+     "n_sentences": 704,
+     "n_with_color": 34,
+     "cooc_rate": 0.048295,
+     "baseline": 0.027945,
+     "ratio": 1.7282
+    },
+    "zh": {
+     "n_sentences": 8189,
+     "n_with_color": 217,
+     "cooc_rate": 0.026499,
+     "baseline": 0.022655,
+     "ratio": 1.1697
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:zebra": {
+    "kind": "coco",
+    "label": "zebra",
+    "en_forms": [
+     "zebra"
+    ],
+    "zh_forms": [
+     "斑马"
+    ],
+    "en": {
+     "n_sentences": 38,
+     "n_with_color": 2,
+     "cooc_rate": 0.052632,
+     "baseline": 0.027945,
+     "ratio": 1.8834
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:giraffe": {
+    "kind": "coco",
+    "label": "giraffe",
+    "en_forms": [
+     "giraffe"
+    ],
+    "zh_forms": [
+     "长颈鹿"
+    ],
+    "en": {
+     "n_sentences": 21,
+     "n_with_color": 1,
+     "cooc_rate": 0.047619,
+     "baseline": 0.027945,
+     "ratio": 1.704
+    },
+    "zh": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:backpack": {
+    "kind": "coco",
+    "label": "backpack",
+    "en_forms": [
+     "backpack"
+    ],
+    "zh_forms": [
+     "双肩背",
+     "背包"
+    ],
+    "en": {
+     "n_sentences": 114,
+     "n_with_color": 18,
+     "cooc_rate": 0.157895,
+     "baseline": 0.027945,
+     "ratio": 5.6502
+    },
+    "zh": {
+     "n_sentences": 29,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:umbrella": {
+    "kind": "coco",
+    "label": "umbrella",
+    "en_forms": [
+     "umbrella"
+    ],
+    "zh_forms": [
+     "伞",
+     "保护伞",
+     "庇护",
+     "雨伞"
+    ],
+    "en": {
+     "n_sentences": 145,
+     "n_with_color": 13,
+     "cooc_rate": 0.089655,
+     "baseline": 0.027945,
+     "ratio": 3.2083
+    },
+    "zh": {
+     "n_sentences": 78,
+     "n_with_color": 5,
+     "cooc_rate": 0.064103,
+     "baseline": 0.022655,
+     "ratio": 2.8295
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:handbag": {
+    "kind": "coco",
+    "label": "handbag",
+    "en_forms": [
+     "handbag"
+    ],
+    "zh_forms": [
+     "手包",
+     "手提包",
+     "手袋",
+     "拎包",
+     "提兜",
+     "提包"
+    ],
+    "en": {
+     "n_sentences": 53,
+     "n_with_color": 16,
+     "cooc_rate": 0.301887,
+     "baseline": 0.027945,
+     "ratio": 10.8029
+    },
+    "zh": {
+     "n_sentences": 23,
+     "n_with_color": 2,
+     "cooc_rate": 0.086957,
+     "baseline": 0.022655,
+     "ratio": 3.8382
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:tie": {
+    "kind": "coco",
+    "label": "tie",
+    "en_forms": [
+     "tie"
+    ],
+    "zh_forms": [
+     "不分胜负",
+     "关系",
+     "和局",
+     "平",
+     "平局",
+     "扎",
+     "打平",
+     "打平手",
+     "拴",
+     "束",
+     "枕木",
+     "系",
+     "縻",
+     "纽",
+     "纽带",
+     "绁",
+     "结",
+     "结子",
+     "缚",
+     "缧",
+     "缯",
+     "联结",
+     "袢",
+     "襻",
+     "领带"
+    ],
+    "en": {
+     "n_sentences": 669,
+     "n_with_color": 82,
+     "cooc_rate": 0.122571,
+     "baseline": 0.027945,
+     "ratio": 4.3862
+    },
+    "zh": {
+     "n_sentences": 1237,
+     "n_with_color": 25,
+     "cooc_rate": 0.02021,
+     "baseline": 0.022655,
+     "ratio": 0.8921
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:suitcase": {
+    "kind": "coco",
+    "label": "suitcase",
+    "en_forms": [
+     "suitcase"
+    ],
+    "zh_forms": [
+     "手提箱"
+    ],
+    "en": {
+     "n_sentences": 106,
+     "n_with_color": 7,
+     "cooc_rate": 0.066038,
+     "baseline": 0.027945,
+     "ratio": 2.3631
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:frisbee": {
+    "kind": "coco",
+    "label": "frisbee",
+    "en_forms": [
+     "frisbee"
+    ],
+    "zh_forms": [
+     "飞盘"
+    ],
+    "en": {
+     "n_sentences": 4,
+     "n_with_color": 1,
+     "cooc_rate": 0.25,
+     "baseline": 0.027945,
+     "ratio": 8.9461
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:skis": {
+    "kind": "coco",
+    "label": "skis",
+    "en_forms": [
+     "skis"
+    ],
+    "zh_forms": [
+     "滑雪板"
+    ],
+    "en": {
+     "n_sentences": 11,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:snowboard": {
+    "kind": "coco",
+    "label": "snowboard",
+    "en_forms": [
+     "snowboard"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 5,
+     "n_with_color": 2,
+     "cooc_rate": 0.4,
+     "baseline": 0.027945,
+     "ratio": 14.3138
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:sports ball": {
+    "kind": "coco",
+    "label": "sports ball",
+    "en_forms": [
+     "sports ball"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:kite": {
+    "kind": "coco",
+    "label": "kite",
+    "en_forms": [
+     "kite"
+    ],
+    "zh_forms": [
+     "纸鸢",
+     "纸鹞",
+     "风筝",
+     "鸢",
+     "鹞子"
+    ],
+    "en": {
+     "n_sentences": 38,
+     "n_with_color": 1,
+     "cooc_rate": 0.026316,
+     "baseline": 0.027945,
+     "ratio": 0.9417
+    },
+    "zh": {
+     "n_sentences": 13,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:baseball bat": {
+    "kind": "coco",
+    "label": "baseball bat",
+    "en_forms": [
+     "baseball bat"
+    ],
+    "zh_forms": [
+     "球棒"
+    ],
+    "en": {
+     "n_sentences": 23,
+     "n_with_color": 2,
+     "cooc_rate": 0.086957,
+     "baseline": 0.027945,
+     "ratio": 3.1117
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:baseball glove": {
+    "kind": "coco",
+    "label": "baseball glove",
+    "en_forms": [
+     "baseball glove"
+    ],
+    "zh_forms": [
+     "棒球手套"
+    ],
+    "en": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:skateboard": {
+    "kind": "coco",
+    "label": "skateboard",
+    "en_forms": [
+     "skateboard"
+    ],
+    "zh_forms": [
+     "滑板"
+    ],
+    "en": {
+     "n_sentences": 12,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 17,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:surfboard": {
+    "kind": "coco",
+    "label": "surfboard",
+    "en_forms": [
+     "surfboard"
+    ],
+    "zh_forms": [
+     "冲浪板"
+    ],
+    "en": {
+     "n_sentences": 14,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:tennis racket": {
+    "kind": "coco",
+    "label": "tennis racket",
+    "en_forms": [
+     "tennis racket"
+    ],
+    "zh_forms": [
+     "网球拍"
+    ],
+    "en": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:bottle": {
+    "kind": "coco",
+    "label": "bottle",
+    "en_forms": [
+     "bottle"
+    ],
+    "zh_forms": [
+     "壶",
+     "瓶",
+     "瓶子"
+    ],
+    "en": {
+     "n_sentences": 553,
+     "n_with_color": 51,
+     "cooc_rate": 0.092224,
+     "baseline": 0.027945,
+     "ratio": 3.3002
+    },
+    "zh": {
+     "n_sentences": 73,
+     "n_with_color": 4,
+     "cooc_rate": 0.054795,
+     "baseline": 0.022655,
+     "ratio": 2.4186
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:wine glass": {
+    "kind": "coco",
+    "label": "wine glass",
+    "en_forms": [
+     "wine glass"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:cup": {
+    "kind": "coco",
+    "label": "cup",
+    "en_forms": [
+     "cup"
+    ],
+    "zh_forms": [
+     "口杯",
+     "奖杯",
+     "杯",
+     "杯子",
+     "杯赛",
+     "瓯"
+    ],
+    "en": {
+     "n_sentences": 3129,
+     "n_with_color": 176,
+     "cooc_rate": 0.056248,
+     "baseline": 0.027945,
+     "ratio": 2.0128
+    },
+    "zh": {
+     "n_sentences": 60,
+     "n_with_color": 2,
+     "cooc_rate": 0.033333,
+     "baseline": 0.022655,
+     "ratio": 1.4713
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:fork": {
+    "kind": "coco",
+    "label": "fork",
+    "en_forms": [
+     "fork"
+    ],
+    "zh_forms": [
+     "丫",
+     "丫巴儿",
+     "丫杈",
+     "分叉",
+     "叉",
+     "叉子",
+     "叉开",
+     "岔口",
+     "桠",
+     "桠杈",
+     "歧",
+     "裆"
+    ],
+    "en": {
+     "n_sentences": 117,
+     "n_with_color": 5,
+     "cooc_rate": 0.042735,
+     "baseline": 0.027945,
+     "ratio": 1.5293
+    },
+    "zh": {
+     "n_sentences": 22,
+     "n_with_color": 2,
+     "cooc_rate": 0.090909,
+     "baseline": 0.022655,
+     "ratio": 4.0127
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:knife": {
+    "kind": "coco",
+    "label": "knife",
+    "en_forms": [
+     "knife"
+    ],
+    "zh_forms": [
+     "刀",
+     "刀子",
+     "刃"
+    ],
+    "en": {
+     "n_sentences": 655,
+     "n_with_color": 20,
+     "cooc_rate": 0.030534,
+     "baseline": 0.027945,
+     "ratio": 1.0927
+    },
+    "zh": {
+     "n_sentences": 117,
+     "n_with_color": 7,
+     "cooc_rate": 0.059829,
+     "baseline": 0.022655,
+     "ratio": 2.6408
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:spoon": {
+    "kind": "coco",
+    "label": "spoon",
+    "en_forms": [
+     "spoon"
+    ],
+    "zh_forms": [
+     "勺",
+     "勺子",
+     "匙",
+     "匙子",
+     "调羹"
+    ],
+    "en": {
+     "n_sentences": 73,
+     "n_with_color": 3,
+     "cooc_rate": 0.041096,
+     "baseline": 0.027945,
+     "ratio": 1.4706
+    },
+    "zh": {
+     "n_sentences": 13,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:bowl": {
+    "kind": "coco",
+    "label": "bowl",
+    "en_forms": [
+     "bowl"
+    ],
+    "zh_forms": [
+     "碗",
+     "缸子",
+     "锅"
+    ],
+    "en": {
+     "n_sentences": 958,
+     "n_with_color": 86,
+     "cooc_rate": 0.08977,
+     "baseline": 0.027945,
+     "ratio": 3.2124
+    },
+    "zh": {
+     "n_sentences": 212,
+     "n_with_color": 21,
+     "cooc_rate": 0.099057,
+     "baseline": 0.022655,
+     "ratio": 4.3723
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:banana": {
+    "kind": "coco",
+    "label": "banana",
+    "en_forms": [
+     "banana"
+    ],
+    "zh_forms": [
+     "芭蕉",
+     "香蕉",
+     "香蕉人"
+    ],
+    "en": {
+     "n_sentences": 132,
+     "n_with_color": 14,
+     "cooc_rate": 0.106061,
+     "baseline": 0.027945,
+     "ratio": 3.7953
+    },
+    "zh": {
+     "n_sentences": 35,
+     "n_with_color": 4,
+     "cooc_rate": 0.114286,
+     "baseline": 0.022655,
+     "ratio": 5.0446
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:apple": {
+    "kind": "coco",
+    "label": "apple",
+    "en_forms": [
+     "apple"
+    ],
+    "zh_forms": [
+     "平果公司",
+     "柰",
+     "柰子",
+     "苹果",
+     "苹果树"
+    ],
+    "en": {
+     "n_sentences": 1950,
+     "n_with_color": 65,
+     "cooc_rate": 0.033333,
+     "baseline": 0.027945,
+     "ratio": 1.1928
+    },
+    "zh": {
+     "n_sentences": 117,
+     "n_with_color": 2,
+     "cooc_rate": 0.017094,
+     "baseline": 0.022655,
+     "ratio": 0.7545
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:sandwich": {
+    "kind": "coco",
+    "label": "sandwich",
+    "en_forms": [
+     "sandwich"
+    ],
+    "zh_forms": [
+     "三明治"
+    ],
+    "en": {
+     "n_sentences": 215,
+     "n_with_color": 12,
+     "cooc_rate": 0.055814,
+     "baseline": 0.027945,
+     "ratio": 1.9973
+    },
+    "zh": {
+     "n_sentences": 5,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:orange": {
+    "kind": "coco",
+    "label": "orange",
+    "en_forms": [
+     "orange"
+    ],
+    "zh_forms": [
+     "广柑",
+     "桔子",
+     "桔黄",
+     "桔黄色",
+     "橘黄",
+     "橘黄色",
+     "橙",
+     "橙子",
+     "橙色",
+     "橙黄",
+     "橙黄色",
+     "香橙"
+    ],
+    "en": {
+     "n_sentences": 658,
+     "n_with_color": 658,
+     "cooc_rate": 1.0,
+     "baseline": 0.027945,
+     "ratio": 35.7846
+    },
+    "zh": {
+     "n_sentences": 243,
+     "n_with_color": 54,
+     "cooc_rate": 0.222222,
+     "baseline": 0.022655,
+     "ratio": 9.8089
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:broccoli": {
+    "kind": "coco",
+    "label": "broccoli",
+    "en_forms": [
+     "broccoli"
+    ],
+    "zh_forms": [
+     "椰菜",
+     "西兰花"
+    ],
+    "en": {
+     "n_sentences": 46,
+     "n_with_color": 4,
+     "cooc_rate": 0.086957,
+     "baseline": 0.027945,
+     "ratio": 3.1117
+    },
+    "zh": {
+     "n_sentences": 5,
+     "n_with_color": 1,
+     "cooc_rate": 0.2,
+     "baseline": 0.022655,
+     "ratio": 8.828
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:carrot": {
+    "kind": "coco",
+    "label": "carrot",
+    "en_forms": [
+     "carrot"
+    ],
+    "zh_forms": [
+     "胡萝卜"
+    ],
+    "en": {
+     "n_sentences": 62,
+     "n_with_color": 8,
+     "cooc_rate": 0.129032,
+     "baseline": 0.027945,
+     "ratio": 4.6174
+    },
+    "zh": {
+     "n_sentences": 11,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:hot dog": {
+    "kind": "coco",
+    "label": "hot dog",
+    "en_forms": [
+     "hot dog"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 63,
+     "n_with_color": 5,
+     "cooc_rate": 0.079365,
+     "baseline": 0.027945,
+     "ratio": 2.84
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:pizza": {
+    "kind": "coco",
+    "label": "pizza",
+    "en_forms": [
+     "pizza"
+    ],
+    "zh_forms": [
+     "比萨饼"
+    ],
+    "en": {
+     "n_sentences": 370,
+     "n_with_color": 16,
+     "cooc_rate": 0.043243,
+     "baseline": 0.027945,
+     "ratio": 1.5474
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:donut": {
+    "kind": "coco",
+    "label": "donut",
+    "en_forms": [
+     "donut"
+    ],
+    "zh_forms": [
+     "面包圈"
+    ],
+    "en": {
+     "n_sentences": 26,
+     "n_with_color": 2,
+     "cooc_rate": 0.076923,
+     "baseline": 0.027945,
+     "ratio": 2.7527
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:cake": {
+    "kind": "coco",
+    "label": "cake",
+    "en_forms": [
+     "cake"
+    ],
+    "zh_forms": [
+     "块",
+     "粑",
+     "粑粑",
+     "糕",
+     "糕点",
+     "糕饼",
+     "蛋糕",
+     "面饼",
+     "饼饵",
+     "饽",
+     "饽饽"
+    ],
+    "en": {
+     "n_sentences": 364,
+     "n_with_color": 31,
+     "cooc_rate": 0.085165,
+     "baseline": 0.027945,
+     "ratio": 3.0476
+    },
+    "zh": {
+     "n_sentences": 108,
+     "n_with_color": 10,
+     "cooc_rate": 0.092593,
+     "baseline": 0.022655,
+     "ratio": 4.087
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:chair": {
+    "kind": "coco",
+    "label": "chair",
+    "en_forms": [
+     "chair"
+    ],
+    "zh_forms": [
+     "主席",
+     "主持",
+     "坐椅",
+     "座椅",
+     "椅",
+     "椅子",
+     "靠椅",
+     "靠背椅"
+    ],
+    "en": {
+     "n_sentences": 1328,
+     "n_with_color": 49,
+     "cooc_rate": 0.036898,
+     "baseline": 0.027945,
+     "ratio": 1.3204
+    },
+    "zh": {
+     "n_sentences": 1080,
+     "n_with_color": 20,
+     "cooc_rate": 0.018519,
+     "baseline": 0.022655,
+     "ratio": 0.8174
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:couch": {
+    "kind": "coco",
+    "label": "couch",
+    "en_forms": [
+     "couch"
+    ],
+    "zh_forms": [
+     "床榻",
+     "榻",
+     "睡椅",
+     "长榻"
+    ],
+    "en": {
+     "n_sentences": 137,
+     "n_with_color": 5,
+     "cooc_rate": 0.036496,
+     "baseline": 0.027945,
+     "ratio": 1.306
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:potted plant": {
+    "kind": "coco",
+    "label": "potted plant",
+    "en_forms": [
+     "potted plant"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:bed": {
+    "kind": "coco",
+    "label": "bed",
+    "en_forms": [
+     "bed"
+    ],
+    "zh_forms": [
+     "卧榻",
+     "床",
+     "床位",
+     "床铺",
+     "底座",
+     "枕席",
+     "种植",
+     "苗木",
+     "路基"
+    ],
+    "en": {
+     "n_sentences": 1086,
+     "n_with_color": 32,
+     "cooc_rate": 0.029466,
+     "baseline": 0.027945,
+     "ratio": 1.0544
+    },
+    "zh": {
+     "n_sentences": 371,
+     "n_with_color": 10,
+     "cooc_rate": 0.026954,
+     "baseline": 0.022655,
+     "ratio": 1.1898
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:dining table": {
+    "kind": "coco",
+    "label": "dining table",
+    "en_forms": [
+     "dining table"
+    ],
+    "zh_forms": [
+     "餐桌",
+     "饭桌"
+    ],
+    "en": {
+     "n_sentences": 25,
+     "n_with_color": 1,
+     "cooc_rate": 0.04,
+     "baseline": 0.027945,
+     "ratio": 1.4314
+    },
+    "zh": {
+     "n_sentences": 72,
+     "n_with_color": 3,
+     "cooc_rate": 0.041667,
+     "baseline": 0.022655,
+     "ratio": 1.8392
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:toilet": {
+    "kind": "coco",
+    "label": "toilet",
+    "en_forms": [
+     "toilet"
+    ],
+    "zh_forms": [
+     "便所",
+     "卫生间",
+     "厕",
+     "厕所",
+     "厕所间",
+     "圂",
+     "洗手间",
+     "溷",
+     "溷厕"
+    ],
+    "en": {
+     "n_sentences": 304,
+     "n_with_color": 21,
+     "cooc_rate": 0.069079,
+     "baseline": 0.027945,
+     "ratio": 2.472
+    },
+    "zh": {
+     "n_sentences": 96,
+     "n_with_color": 1,
+     "cooc_rate": 0.010417,
+     "baseline": 0.022655,
+     "ratio": 0.4598
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:tv": {
+    "kind": "coco",
+    "label": "tv",
+    "en_forms": [
+     "tv"
+    ],
+    "zh_forms": [
+     "电视",
+     "电视机",
+     "荧屏"
+    ],
+    "en": {
+     "n_sentences": 3191,
+     "n_with_color": 79,
+     "cooc_rate": 0.024757,
+     "baseline": 0.027945,
+     "ratio": 0.8859
+    },
+    "zh": {
+     "n_sentences": 107,
+     "n_with_color": 1,
+     "cooc_rate": 0.009346,
+     "baseline": 0.022655,
+     "ratio": 0.4125
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:laptop": {
+    "kind": "coco",
+    "label": "laptop",
+    "en_forms": [
+     "laptop"
+    ],
+    "zh_forms": [
+     "便携式计算机",
+     "笔记本电脑",
+     "膝上型电脑"
+    ],
+    "en": {
+     "n_sentences": 368,
+     "n_with_color": 9,
+     "cooc_rate": 0.024457,
+     "baseline": 0.027945,
+     "ratio": 0.8752
+    },
+    "zh": {
+     "n_sentences": 6,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:mouse": {
+    "kind": "coco",
+    "label": "mouse",
+    "en_forms": [
+     "mouse"
+    ],
+    "zh_forms": [
+     "搜寻",
+     "滑鼠",
+     "老鼠",
+     "耗子",
+     "胆小鬼",
+     "鼠",
+     "鼠标",
+     "鼠标器"
+    ],
+    "en": {
+     "n_sentences": 218,
+     "n_with_color": 5,
+     "cooc_rate": 0.022936,
+     "baseline": 0.027945,
+     "ratio": 0.8207
+    },
+    "zh": {
+     "n_sentences": 91,
+     "n_with_color": 6,
+     "cooc_rate": 0.065934,
+     "baseline": 0.022655,
+     "ratio": 2.9103
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:remote": {
+    "kind": "coco",
+    "label": "remote",
+    "en_forms": [
+     "remote"
+    ],
+    "zh_forms": [
+     "久远",
+     "偏远",
+     "悠悠",
+     "旷远",
+     "渺远",
+     "缅",
+     "边远",
+     "远",
+     "远程",
+     "远距离",
+     "迢",
+     "迢迢",
+     "遥",
+     "遥控器",
+     "遥远",
+     "邈",
+     "邈远"
+    ],
+    "en": {
+     "n_sentences": 699,
+     "n_with_color": 14,
+     "cooc_rate": 0.020029,
+     "baseline": 0.027945,
+     "ratio": 0.7167
+    },
+    "zh": {
+     "n_sentences": 626,
+     "n_with_color": 17,
+     "cooc_rate": 0.027157,
+     "baseline": 0.022655,
+     "ratio": 1.1987
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:keyboard": {
+    "kind": "coco",
+    "label": "keyboard",
+    "en_forms": [
+     "keyboard"
+    ],
+    "zh_forms": [
+     "键盘"
+    ],
+    "en": {
+     "n_sentences": 190,
+     "n_with_color": 4,
+     "cooc_rate": 0.021053,
+     "baseline": 0.027945,
+     "ratio": 0.7534
+    },
+    "zh": {
+     "n_sentences": 34,
+     "n_with_color": 1,
+     "cooc_rate": 0.029412,
+     "baseline": 0.022655,
+     "ratio": 1.2982
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:cell phone": {
+    "kind": "coco",
+    "label": "cell phone",
+    "en_forms": [
+     "cell phone"
+    ],
+    "zh_forms": [
+     "手机"
+    ],
+    "en": {
+     "n_sentences": 101,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 360,
+     "n_with_color": 4,
+     "cooc_rate": 0.011111,
+     "baseline": 0.022655,
+     "ratio": 0.4904
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:microwave": {
+    "kind": "coco",
+    "label": "microwave",
+    "en_forms": [
+     "microwave"
+    ],
+    "zh_forms": [
+     "微波"
+    ],
+    "en": {
+     "n_sentences": 68,
+     "n_with_color": 2,
+     "cooc_rate": 0.029412,
+     "baseline": 0.027945,
+     "ratio": 1.0525
+    },
+    "zh": {
+     "n_sentences": 20,
+     "n_with_color": 2,
+     "cooc_rate": 0.1,
+     "baseline": 0.022655,
+     "ratio": 4.414
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:oven": {
+    "kind": "coco",
+    "label": "oven",
+    "en_forms": [
+     "oven"
+    ],
+    "zh_forms": [
+     "炉",
+     "炉子",
+     "烘箱",
+     "烤炉",
+     "烤箱"
+    ],
+    "en": {
+     "n_sentences": 214,
+     "n_with_color": 21,
+     "cooc_rate": 0.098131,
+     "baseline": 0.027945,
+     "ratio": 3.5116
+    },
+    "zh": {
+     "n_sentences": 20,
+     "n_with_color": 1,
+     "cooc_rate": 0.05,
+     "baseline": 0.022655,
+     "ratio": 2.207
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "coco:toaster": {
+    "kind": "coco",
+    "label": "toaster",
+    "en_forms": [
+     "toaster"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 25,
+     "n_with_color": 1,
+     "cooc_rate": 0.04,
+     "baseline": 0.027945,
+     "ratio": 1.4314
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:sink": {
+    "kind": "coco",
+    "label": "sink",
+    "en_forms": [
+     "sink"
+    ],
+    "zh_forms": [
+     "下沉",
+     "凹下",
+     "凹陷",
+     "击沉",
+     "坍陷",
+     "坐",
+     "塌",
+     "塌陷",
+     "沉",
+     "沉没",
+     "沉陷",
+     "没",
+     "沦",
+     "狂跌",
+     "落",
+     "陷"
+    ],
+    "en": {
+     "n_sentences": 217,
+     "n_with_color": 5,
+     "cooc_rate": 0.023041,
+     "baseline": 0.027945,
+     "ratio": 0.8245
+    },
+    "zh": {
+     "n_sentences": 1819,
+     "n_with_color": 40,
+     "cooc_rate": 0.02199,
+     "baseline": 0.022655,
+     "ratio": 0.9706
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:refrigerator": {
+    "kind": "coco",
+    "label": "refrigerator",
+    "en_forms": [
+     "refrigerator"
+    ],
+    "zh_forms": [
+     "冰柜",
+     "冰箱",
+     "冷冻机",
+     "冷冻箱",
+     "冷藏箱",
+     "制冷机",
+     "电冰箱"
+    ],
+    "en": {
+     "n_sentences": 42,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 24,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:book": {
+    "kind": "coco",
+    "label": "book",
+    "en_forms": [
+     "book"
+    ],
+    "zh_forms": [
+     "书",
+     "书册",
+     "书卷",
+     "书本",
+     "做笔录",
+     "册",
+     "册子",
+     "卷",
+     "卷帙",
+     "定",
+     "定购",
+     "帙",
+     "本",
+     "本子",
+     "牍",
+     "笈",
+     "簿",
+     "簿子",
+     "籍",
+     "艺文",
+     "著",
+     "著作",
+     "著述",
+     "订",
+     "论著",
+     "账簿",
+     "预订"
+    ],
+    "en": {
+     "n_sentences": 2861,
+     "n_with_color": 107,
+     "cooc_rate": 0.0374,
+     "baseline": 0.027945,
+     "ratio": 1.3383
+    },
+    "zh": {
+     "n_sentences": 1778,
+     "n_with_color": 32,
+     "cooc_rate": 0.017998,
+     "baseline": 0.022655,
+     "ratio": 0.7944
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:clock": {
+    "kind": "coco",
+    "label": "clock",
+    "en_forms": [
+     "clock"
+    ],
+    "zh_forms": [
+     "时钟",
+     "计时",
+     "钟"
+    ],
+    "en": {
+     "n_sentences": 520,
+     "n_with_color": 16,
+     "cooc_rate": 0.030769,
+     "baseline": 0.027945,
+     "ratio": 1.1011
+    },
+    "zh": {
+     "n_sentences": 74,
+     "n_with_color": 5,
+     "cooc_rate": 0.067568,
+     "baseline": 0.022655,
+     "ratio": 2.9824
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:vase": {
+    "kind": "coco",
+    "label": "vase",
+    "en_forms": [
+     "vase"
+    ],
+    "zh_forms": [
+     "瓶",
+     "瓿",
+     "花瓶"
+    ],
+    "en": {
+     "n_sentences": 39,
+     "n_with_color": 4,
+     "cooc_rate": 0.102564,
+     "baseline": 0.027945,
+     "ratio": 3.6702
+    },
+    "zh": {
+     "n_sentences": 54,
+     "n_with_color": 2,
+     "cooc_rate": 0.037037,
+     "baseline": 0.022655,
+     "ratio": 1.6348
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:scissors": {
+    "kind": "coco",
+    "label": "scissors",
+    "en_forms": [
+     "scissors"
+    ],
+    "zh_forms": [
+     "剪",
+     "剪刀",
+     "剪子",
+     "翦"
+    ],
+    "en": {
+     "n_sentences": 44,
+     "n_with_color": 2,
+     "cooc_rate": 0.045455,
+     "baseline": 0.027945,
+     "ratio": 1.6266
+    },
+    "zh": {
+     "n_sentences": 57,
+     "n_with_color": 3,
+     "cooc_rate": 0.052632,
+     "baseline": 0.022655,
+     "ratio": 2.3231
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "coco:teddy bear": {
+    "kind": "coco",
+    "label": "teddy bear",
+    "en_forms": [
+     "teddy bear"
+    ],
+    "zh_forms": [
+     "玩具熊"
+    ],
+    "en": {
+     "n_sentences": 39,
+     "n_with_color": 3,
+     "cooc_rate": 0.076923,
+     "baseline": 0.027945,
+     "ratio": 2.7527
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:hair drier": {
+    "kind": "coco",
+    "label": "hair drier",
+    "en_forms": [
+     "hair drier"
+    ],
+    "zh_forms": [],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "coco:toothbrush": {
+    "kind": "coco",
+    "label": "toothbrush",
+    "en_forms": [
+     "toothbrush"
+    ],
+    "zh_forms": [
+     "牙刷"
+    ],
+    "en": {
+     "n_sentences": 31,
+     "n_with_color": 1,
+     "cooc_rate": 0.032258,
+     "baseline": 0.027945,
+     "ratio": 1.1543
+    },
+    "zh": {
+     "n_sentences": 11,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:129": {
+    "kind": "pool",
+    "label": "129",
+    "en_forms": [],
+    "zh_forms": [
+     "129"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:19": {
+    "kind": "pool",
+    "label": "19",
+    "en_forms": [
+     "19",
+     "nineteen"
+    ],
+    "zh_forms": [
+     "19"
+    ],
+    "en": {
+     "n_sentences": 45,
+     "n_with_color": 2,
+     "cooc_rate": 0.044444,
+     "baseline": 0.027945,
+     "ratio": 1.5904
+    },
+    "zh": {
+     "n_sentences": 630,
+     "n_with_color": 12,
+     "cooc_rate": 0.019048,
+     "baseline": 0.022655,
+     "ratio": 0.8408
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:359": {
+    "kind": "pool",
+    "label": "359",
+    "en_forms": [],
+    "zh_forms": [
+     "359"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:4500": {
+    "kind": "pool",
+    "label": "4500",
+    "en_forms": [],
+    "zh_forms": [
+     "4500"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 14,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:一场": {
+    "kind": "pool",
+    "label": "一场",
+    "en_forms": [],
+    "zh_forms": [
+     "一场"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 635,
+     "n_with_color": 18,
+     "cooc_rate": 0.028346,
+     "baseline": 0.022655,
+     "ratio": 1.2512
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:七八年": {
+    "kind": "pool",
+    "label": "七八年",
+    "en_forms": [],
+    "zh_forms": [
+     "七八年"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:万茜": {
+    "kind": "pool",
+    "label": "万茜",
+    "en_forms": [],
+    "zh_forms": [
+     "万茜"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 9,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:下降": {
+    "kind": "pool",
+    "label": "下降",
+    "en_forms": [
+     "catabasis",
+     "catabatic",
+     "come down",
+     "decline",
+     "descend",
+     "descent",
+     "drop",
+     "fall",
+     "go down",
+     "katabatic",
+     "lapse"
+    ],
+    "zh_forms": [
+     "下降"
+    ],
+    "en": {
+     "n_sentences": 5868,
+     "n_with_color": 176,
+     "cooc_rate": 0.029993,
+     "baseline": 0.027945,
+     "ratio": 1.0733
+    },
+    "zh": {
+     "n_sentences": 509,
+     "n_with_color": 5,
+     "cooc_rate": 0.009823,
+     "baseline": 0.022655,
+     "ratio": 0.4336
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:不得": {
+    "kind": "pool",
+    "label": "不得",
+    "en_forms": [
+     "must not",
+     "mustn't",
+     "should not",
+     "unable"
+    ],
+    "zh_forms": [
+     "不得"
+    ],
+    "en": {
+     "n_sentences": 2037,
+     "n_with_color": 31,
+     "cooc_rate": 0.015218,
+     "baseline": 0.027945,
+     "ratio": 0.5446
+    },
+    "zh": {
+     "n_sentences": 297,
+     "n_with_color": 6,
+     "cooc_rate": 0.020202,
+     "baseline": 0.022655,
+     "ratio": 0.8917
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:不断": {
+    "kind": "pool",
+    "label": "不断",
+    "en_forms": [
+     "endless",
+     "endlessly",
+     "incessantly",
+     "unceasing",
+     "unceasingly",
+     "unending",
+     "unendingly",
+     "uninterrupted",
+     "uninterruptedly"
+    ],
+    "zh_forms": [
+     "不断"
+    ],
+    "en": {
+     "n_sentences": 492,
+     "n_with_color": 18,
+     "cooc_rate": 0.036585,
+     "baseline": 0.027945,
+     "ratio": 1.3092
+    },
+    "zh": {
+     "n_sentences": 1281,
+     "n_with_color": 32,
+     "cooc_rate": 0.02498,
+     "baseline": 0.022655,
+     "ratio": 1.1026
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:两周": {
+    "kind": "pool",
+    "label": "两周",
+    "en_forms": [
+     "fortnight"
+    ],
+    "zh_forms": [
+     "两周"
+    ],
+    "en": {
+     "n_sentences": 117,
+     "n_with_color": 2,
+     "cooc_rate": 0.017094,
+     "baseline": 0.027945,
+     "ratio": 0.6117
+    },
+    "zh": {
+     "n_sentences": 76,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:中国工农红军": {
+    "kind": "pool",
+    "label": "中国工农红军",
+    "en_forms": [
+     "chinese workers' and peasants' red army",
+     "red army"
+    ],
+    "zh_forms": [
+     "中国工农红军"
+    ],
+    "en": {
+     "n_sentences": 16,
+     "n_with_color": 7,
+     "cooc_rate": 0.4375,
+     "baseline": 0.027945,
+     "ratio": 15.6558
+    },
+    "zh": {
+     "n_sentences": 33,
+     "n_with_color": 2,
+     "cooc_rate": 0.060606,
+     "baseline": 0.022655,
+     "ratio": 2.6751
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "pool:乌干达": {
+    "kind": "pool",
+    "label": "乌干达",
+    "en_forms": [
+     "uganda",
+     "ugandan"
+    ],
+    "zh_forms": [
+     "乌干达"
+    ],
+    "en": {
+     "n_sentences": 116,
+     "n_with_color": 2,
+     "cooc_rate": 0.017241,
+     "baseline": 0.027945,
+     "ratio": 0.617
+    },
+    "zh": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:乌鲁木齐": {
+    "kind": "pool",
+    "label": "乌鲁木齐",
+    "en_forms": [
+     "urumchi",
+     "wulumuqi"
+    ],
+    "zh_forms": [
+     "乌鲁木齐"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 5,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:乡村": {
+    "kind": "pool",
+    "label": "乡村",
+    "en_forms": [
+     "countryside",
+     "rural",
+     "rural area",
+     "rustic",
+     "village"
+    ],
+    "zh_forms": [
+     "乡村"
+    ],
+    "en": {
+     "n_sentences": 3150,
+     "n_with_color": 112,
+     "cooc_rate": 0.035556,
+     "baseline": 0.027945,
+     "ratio": 1.2723
+    },
+    "zh": {
+     "n_sentences": 478,
+     "n_with_color": 8,
+     "cooc_rate": 0.016736,
+     "baseline": 0.022655,
+     "ratio": 0.7387
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:了不得": {
+    "kind": "pool",
+    "label": "了不得",
+    "en_forms": [
+     "critical",
+     "extraordinary",
+     "serious",
+     "terrific"
+    ],
+    "zh_forms": [
+     "了不得"
+    ],
+    "en": {
+     "n_sentences": 6020,
+     "n_with_color": 131,
+     "cooc_rate": 0.021761,
+     "baseline": 0.027945,
+     "ratio": 0.7787
+    },
+    "zh": {
+     "n_sentences": 5,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:事情": {
+    "kind": "pool",
+    "label": "事情",
+    "en_forms": [
+     "accident",
+     "affairs",
+     "business",
+     "fact",
+     "job",
+     "matter",
+     "thing"
+    ],
+    "zh_forms": [
+     "事情"
+    ],
+    "en": {
+     "n_sentences": 24969,
+     "n_with_color": 498,
+     "cooc_rate": 0.019945,
+     "baseline": 0.027945,
+     "ratio": 0.7137
+    },
+    "zh": {
+     "n_sentences": 1099,
+     "n_with_color": 13,
+     "cooc_rate": 0.011829,
+     "baseline": 0.022655,
+     "ratio": 0.5221
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:于小彤": {
+    "kind": "pool",
+    "label": "于小彤",
+    "en_forms": [],
+    "zh_forms": [
+     "于小彤"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 6,
+     "n_with_color": 1,
+     "cooc_rate": 0.166667,
+     "baseline": 0.022655,
+     "ratio": 7.3566
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:人們": {
+    "kind": "pool",
+    "label": "人們",
+    "en_forms": [],
+    "zh_forms": [
+     "人們"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 184,
+     "n_with_color": 2,
+     "cooc_rate": 0.01087,
+     "baseline": 0.022655,
+     "ratio": 0.4798
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:代表": {
+    "kind": "pool",
+    "label": "代表",
+    "en_forms": [
+     "delegate",
+     "deputize",
+     "deputy",
+     "in the name of",
+     "on behalf of",
+     "represent",
+     "representative",
+     "stand for",
+     "symbolise",
+     "symbolize",
+     "typification"
+    ],
+    "zh_forms": [
+     "代表"
+    ],
+    "en": {
+     "n_sentences": 3639,
+     "n_with_color": 88,
+     "cooc_rate": 0.024182,
+     "baseline": 0.027945,
+     "ratio": 0.8654
+    },
+    "zh": {
+     "n_sentences": 950,
+     "n_with_color": 30,
+     "cooc_rate": 0.031579,
+     "baseline": 0.022655,
+     "ratio": 1.3939
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:以及": {
+    "kind": "pool",
+    "label": "以及",
+    "en_forms": [
+     "and",
+     "as well as"
+    ],
+    "zh_forms": [
+     "以及"
+    ],
+    "en": {
+     "n_sentences": 416952,
+     "n_with_color": 14424,
+     "cooc_rate": 0.034594,
+     "baseline": 0.027945,
+     "ratio": 1.2379
+    },
+    "zh": {
+     "n_sentences": 2095,
+     "n_with_color": 67,
+     "cooc_rate": 0.031981,
+     "baseline": 0.022655,
+     "ratio": 1.4116
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:低頭不語": {
+    "kind": "pool",
+    "label": "低頭不語",
+    "en_forms": [],
+    "zh_forms": [
+     "低頭不語"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:保持": {
+    "kind": "pool",
+    "label": "保持",
+    "en_forms": [
+     "keep",
+     "maintain",
+     "maintenance",
+     "preservation",
+     "preserve",
+     "retain",
+     "retention",
+     "retentive"
+    ],
+    "zh_forms": [
+     "保持"
+    ],
+    "en": {
+     "n_sentences": 9962,
+     "n_with_color": 265,
+     "cooc_rate": 0.026601,
+     "baseline": 0.027945,
+     "ratio": 0.9519
+    },
+    "zh": {
+     "n_sentences": 1468,
+     "n_with_color": 25,
+     "cooc_rate": 0.01703,
+     "baseline": 0.022655,
+     "ratio": 0.7517
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:做不了": {
+    "kind": "pool",
+    "label": "做不了",
+    "en_forms": [],
+    "zh_forms": [
+     "做不了"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 9,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:全球": {
+    "kind": "pool",
+    "label": "全球",
+    "en_forms": [
+     "global",
+     "globe"
+    ],
+    "zh_forms": [
+     "全球"
+    ],
+    "en": {
+     "n_sentences": 5576,
+     "n_with_color": 219,
+     "cooc_rate": 0.039275,
+     "baseline": 0.027945,
+     "ratio": 1.4055
+    },
+    "zh": {
+     "n_sentences": 1474,
+     "n_with_color": 6,
+     "cooc_rate": 0.004071,
+     "baseline": 0.022655,
+     "ratio": 0.1797
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:兩個": {
+    "kind": "pool",
+    "label": "兩個",
+    "en_forms": [],
+    "zh_forms": [
+     "兩個"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 335,
+     "n_with_color": 8,
+     "cooc_rate": 0.023881,
+     "baseline": 0.022655,
+     "ratio": 1.0541
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:六名": {
+    "kind": "pool",
+    "label": "六名",
+    "en_forms": [],
+    "zh_forms": [
+     "六名"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 23,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:其中": {
+    "kind": "pool",
+    "label": "其中",
+    "en_forms": [
+     "among them",
+     "in it",
+     "in that",
+     "in this",
+     "in which",
+     "of them",
+     "therein"
+    ],
+    "zh_forms": [
+     "其中"
+    ],
+    "en": {
+     "n_sentences": 16472,
+     "n_with_color": 447,
+     "cooc_rate": 0.027137,
+     "baseline": 0.027945,
+     "ratio": 0.9711
+    },
+    "zh": {
+     "n_sentences": 2021,
+     "n_with_color": 36,
+     "cooc_rate": 0.017813,
+     "baseline": 0.022655,
+     "ratio": 0.7863
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:其他人": {
+    "kind": "pool",
+    "label": "其他人",
+    "en_forms": [
+     "others"
+    ],
+    "zh_forms": [
+     "其他人"
+    ],
+    "en": {
+     "n_sentences": 5008,
+     "n_with_color": 101,
+     "cooc_rate": 0.020168,
+     "baseline": 0.027945,
+     "ratio": 0.7217
+    },
+    "zh": {
+     "n_sentences": 156,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:冲锋在前": {
+    "kind": "pool",
+    "label": "冲锋在前",
+    "en_forms": [],
+    "zh_forms": [
+     "冲锋在前"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 51,
+     "n_with_color": 1,
+     "cooc_rate": 0.019608,
+     "baseline": 0.022655,
+     "ratio": 0.8655
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:刑事法律": {
+    "kind": "pool",
+    "label": "刑事法律",
+    "en_forms": [],
+    "zh_forms": [
+     "刑事法律"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:到位": {
+    "kind": "pool",
+    "label": "到位",
+    "en_forms": [
+     "be in order",
+     "be ready"
+    ],
+    "zh_forms": [
+     "到位"
+    ],
+    "en": {
+     "n_sentences": 259,
+     "n_with_color": 3,
+     "cooc_rate": 0.011583,
+     "baseline": 0.027945,
+     "ratio": 0.4145
+    },
+    "zh": {
+     "n_sentences": 193,
+     "n_with_color": 1,
+     "cooc_rate": 0.005181,
+     "baseline": 0.022655,
+     "ratio": 0.2287
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:刻上": {
+    "kind": "pool",
+    "label": "刻上",
+    "en_forms": [],
+    "zh_forms": [
+     "刻上"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:即使": {
+    "kind": "pool",
+    "label": "即使",
+    "en_forms": [
+     "even",
+     "even if"
+    ],
+    "zh_forms": [
+     "即使"
+    ],
+    "en": {
+     "n_sentences": 18149,
+     "n_with_color": 445,
+     "cooc_rate": 0.024519,
+     "baseline": 0.027945,
+     "ratio": 0.8774
+    },
+    "zh": {
+     "n_sentences": 717,
+     "n_with_color": 10,
+     "cooc_rate": 0.013947,
+     "baseline": 0.022655,
+     "ratio": 0.6156
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:历史": {
+    "kind": "pool",
+    "label": "历史",
+    "en_forms": [
+     "historical",
+     "history"
+    ],
+    "zh_forms": [
+     "历史"
+    ],
+    "en": {
+     "n_sentences": 5486,
+     "n_with_color": 206,
+     "cooc_rate": 0.03755,
+     "baseline": 0.027945,
+     "ratio": 1.3437
+    },
+    "zh": {
+     "n_sentences": 1312,
+     "n_with_color": 44,
+     "cooc_rate": 0.033537,
+     "baseline": 0.022655,
+     "ratio": 1.4803
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:发扬光大": {
+    "kind": "pool",
+    "label": "发扬光大",
+    "en_forms": [
+     "carry forward",
+     "enhance",
+     "enhancement"
+    ],
+    "zh_forms": [
+     "发扬光大"
+    ],
+    "en": {
+     "n_sentences": 1047,
+     "n_with_color": 21,
+     "cooc_rate": 0.020057,
+     "baseline": 0.027945,
+     "ratio": 0.7177
+    },
+    "zh": {
+     "n_sentences": 10,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:可以": {
+    "kind": "pool",
+    "label": "可以",
+    "en_forms": [
+     "by means of",
+     "can",
+     "could",
+     "may",
+     "passable",
+     "passably"
+    ],
+    "zh_forms": [
+     "可以"
+    ],
+    "en": {
+     "n_sentences": 81718,
+     "n_with_color": 1931,
+     "cooc_rate": 0.02363,
+     "baseline": 0.027945,
+     "ratio": 0.8456
+    },
+    "zh": {
+     "n_sentences": 5465,
+     "n_with_color": 92,
+     "cooc_rate": 0.016834,
+     "baseline": 0.022655,
+     "ratio": 0.7431
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:吃得下": {
+    "kind": "pool",
+    "label": "吃得下",
+    "en_forms": [
+     "can finish"
+    ],
+    "zh_forms": [
+     "吃得下"
+    ],
+    "en": {
+     "n_sentences": 14,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:同一": {
+    "kind": "pool",
+    "label": "同一",
+    "en_forms": [
+     "identical",
+     "same",
+     "very"
+    ],
+    "zh_forms": [
+     "同一"
+    ],
+    "en": {
+     "n_sentences": 22876,
+     "n_with_color": 569,
+     "cooc_rate": 0.024873,
+     "baseline": 0.027945,
+     "ratio": 0.8901
+    },
+    "zh": {
+     "n_sentences": 205,
+     "n_with_color": 3,
+     "cooc_rate": 0.014634,
+     "baseline": 0.022655,
+     "ratio": 0.6459
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:周宏灏": {
+    "kind": "pool",
+    "label": "周宏灏",
+    "en_forms": [],
+    "zh_forms": [
+     "周宏灏"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:和绛珠": {
+    "kind": "pool",
+    "label": "和绛珠",
+    "en_forms": [],
+    "zh_forms": [
+     "和绛珠"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:咳嗽": {
+    "kind": "pool",
+    "label": "咳嗽",
+    "en_forms": [
+     "cough",
+     "tussis"
+    ],
+    "zh_forms": [
+     "咳嗽"
+    ],
+    "en": {
+     "n_sentences": 93,
+     "n_with_color": 5,
+     "cooc_rate": 0.053763,
+     "baseline": 0.027945,
+     "ratio": 1.9239
+    },
+    "zh": {
+     "n_sentences": 153,
+     "n_with_color": 6,
+     "cooc_rate": 0.039216,
+     "baseline": 0.022655,
+     "ratio": 1.731
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:啥时候": {
+    "kind": "pool",
+    "label": "啥时候",
+    "en_forms": [],
+    "zh_forms": [
+     "啥时候"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:因素": {
+    "kind": "pool",
+    "label": "因素",
+    "en_forms": [
+     "element",
+     "factor"
+    ],
+    "zh_forms": [
+     "因素"
+    ],
+    "en": {
+     "n_sentences": 1305,
+     "n_with_color": 32,
+     "cooc_rate": 0.024521,
+     "baseline": 0.027945,
+     "ratio": 0.8775
+    },
+    "zh": {
+     "n_sentences": 415,
+     "n_with_color": 5,
+     "cooc_rate": 0.012048,
+     "baseline": 0.022655,
+     "ratio": 0.5318
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:坦言": {
+    "kind": "pool",
+    "label": "坦言",
+    "en_forms": [
+     "say frankly"
+    ],
+    "zh_forms": [
+     "坦言"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 197,
+     "n_with_color": 2,
+     "cooc_rate": 0.010152,
+     "baseline": 0.022655,
+     "ratio": 0.4481
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:墨西哥": {
+    "kind": "pool",
+    "label": "墨西哥",
+    "en_forms": [
+     "mexican",
+     "mexico"
+    ],
+    "zh_forms": [
+     "墨西哥"
+    ],
+    "en": {
+     "n_sentences": 1275,
+     "n_with_color": 30,
+     "cooc_rate": 0.023529,
+     "baseline": 0.027945,
+     "ratio": 0.842
+    },
+    "zh": {
+     "n_sentences": 99,
+     "n_with_color": 2,
+     "cooc_rate": 0.020202,
+     "baseline": 0.022655,
+     "ratio": 0.8917
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:多年": {
+    "kind": "pool",
+    "label": "多年",
+    "en_forms": [
+     "many years"
+    ],
+    "zh_forms": [
+     "多年"
+    ],
+    "en": {
+     "n_sentences": 542,
+     "n_with_color": 10,
+     "cooc_rate": 0.01845,
+     "baseline": 0.027945,
+     "ratio": 0.6602
+    },
+    "zh": {
+     "n_sentences": 552,
+     "n_with_color": 18,
+     "cooc_rate": 0.032609,
+     "baseline": 0.022655,
+     "ratio": 1.4393
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:大不相同": {
+    "kind": "pool",
+    "label": "大不相同",
+    "en_forms": [],
+    "zh_forms": [
+     "大不相同"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 14,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:大巴车": {
+    "kind": "pool",
+    "label": "大巴车",
+    "en_forms": [],
+    "zh_forms": [
+     "大巴车"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 10,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:大批": {
+    "kind": "pool",
+    "label": "大批",
+    "en_forms": [
+     "a multitude of",
+     "in great force",
+     "large amount of",
+     "large number of",
+     "large quantity of"
+    ],
+    "zh_forms": [
+     "大批"
+    ],
+    "en": {
+     "n_sentences": 257,
+     "n_with_color": 6,
+     "cooc_rate": 0.023346,
+     "baseline": 0.027945,
+     "ratio": 0.8354
+    },
+    "zh": {
+     "n_sentences": 236,
+     "n_with_color": 9,
+     "cooc_rate": 0.038136,
+     "baseline": 0.022655,
+     "ratio": 1.6833
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:天黑": {
+    "kind": "pool",
+    "label": "天黑",
+    "en_forms": [
+     "it's getting dark"
+    ],
+    "zh_forms": [
+     "天黑"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 19,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:官員": {
+    "kind": "pool",
+    "label": "官員",
+    "en_forms": [],
+    "zh_forms": [
+     "官員"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 770,
+     "n_with_color": 4,
+     "cooc_rate": 0.005195,
+     "baseline": 0.022655,
+     "ratio": 0.2293
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:实验": {
+    "kind": "pool",
+    "label": "实验",
+    "en_forms": [
+     "experiment",
+     "experimentation",
+     "test"
+    ],
+    "zh_forms": [
+     "实验"
+    ],
+    "en": {
+     "n_sentences": 3125,
+     "n_with_color": 72,
+     "cooc_rate": 0.02304,
+     "baseline": 0.027945,
+     "ratio": 0.8245
+    },
+    "zh": {
+     "n_sentences": 68,
+     "n_with_color": 2,
+     "cooc_rate": 0.029412,
+     "baseline": 0.022655,
+     "ratio": 1.2982
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:宠物": {
+    "kind": "pool",
+    "label": "宠物",
+    "en_forms": [
+     "pet"
+    ],
+    "zh_forms": [
+     "宠物"
+    ],
+    "en": {
+     "n_sentences": 568,
+     "n_with_color": 11,
+     "cooc_rate": 0.019366,
+     "baseline": 0.027945,
+     "ratio": 0.693
+    },
+    "zh": {
+     "n_sentences": 34,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:客量": {
+    "kind": "pool",
+    "label": "客量",
+    "en_forms": [],
+    "zh_forms": [
+     "客量"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 23,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:宣传": {
+    "kind": "pool",
+    "label": "宣传",
+    "en_forms": [
+     "air",
+     "bare",
+     "propaganda",
+     "propagandism",
+     "propagandist",
+     "propagandistic",
+     "propagandize",
+     "propagate",
+     "propagation",
+     "publicise",
+     "publicize"
+    ],
+    "zh_forms": [
+     "宣传"
+    ],
+    "en": {
+     "n_sentences": 5514,
+     "n_with_color": 194,
+     "cooc_rate": 0.035183,
+     "baseline": 0.027945,
+     "ratio": 1.259
+    },
+    "zh": {
+     "n_sentences": 393,
+     "n_with_color": 6,
+     "cooc_rate": 0.015267,
+     "baseline": 0.022655,
+     "ratio": 0.6739
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:密切接触": {
+    "kind": "pool",
+    "label": "密切接触",
+    "en_forms": [],
+    "zh_forms": [
+     "密切接触"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 78,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:小葱": {
+    "kind": "pool",
+    "label": "小葱",
+    "en_forms": [
+     "shallot",
+     "spring onion"
+    ],
+    "zh_forms": [
+     "小葱"
+    ],
+    "en": {
+     "n_sentences": 17,
+     "n_with_color": 5,
+     "cooc_rate": 0.294118,
+     "baseline": 0.027945,
+     "ratio": 10.5249
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:层次": {
+    "kind": "pool",
+    "label": "层次",
+    "en_forms": [
+     "gradation",
+     "hierarchy"
+    ],
+    "zh_forms": [
+     "层次"
+    ],
+    "en": {
+     "n_sentences": 125,
+     "n_with_color": 3,
+     "cooc_rate": 0.024,
+     "baseline": 0.027945,
+     "ratio": 0.8588
+    },
+    "zh": {
+     "n_sentences": 71,
+     "n_with_color": 3,
+     "cooc_rate": 0.042254,
+     "baseline": 0.022655,
+     "ratio": 1.8651
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:居民": {
+    "kind": "pool",
+    "label": "居民",
+    "en_forms": [
+     "denizen",
+     "dweller",
+     "indweller",
+     "inhabitant",
+     "resident"
+    ],
+    "zh_forms": [
+     "居民"
+    ],
+    "en": {
+     "n_sentences": 1125,
+     "n_with_color": 46,
+     "cooc_rate": 0.040889,
+     "baseline": 0.027945,
+     "ratio": 1.4632
+    },
+    "zh": {
+     "n_sentences": 1119,
+     "n_with_color": 20,
+     "cooc_rate": 0.017873,
+     "baseline": 0.022655,
+     "ratio": 0.7889
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:希望": {
+    "kind": "pool",
+    "label": "希望",
+    "en_forms": [
+     "hope",
+     "wish"
+    ],
+    "zh_forms": [
+     "希望"
+    ],
+    "en": {
+     "n_sentences": 4483,
+     "n_with_color": 71,
+     "cooc_rate": 0.015838,
+     "baseline": 0.027945,
+     "ratio": 0.5667
+    },
+    "zh": {
+     "n_sentences": 2352,
+     "n_with_color": 38,
+     "cooc_rate": 0.016156,
+     "baseline": 0.022655,
+     "ratio": 0.7131
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:張皓": {
+    "kind": "pool",
+    "label": "張皓",
+    "en_forms": [],
+    "zh_forms": [
+     "張皓"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 4,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:强迫": {
+    "kind": "pool",
+    "label": "强迫",
+    "en_forms": [
+     "coerce",
+     "coercion",
+     "compel",
+     "force",
+     "oblige"
+    ],
+    "zh_forms": [
+     "强迫"
+    ],
+    "en": {
+     "n_sentences": 3667,
+     "n_with_color": 97,
+     "cooc_rate": 0.026452,
+     "baseline": 0.027945,
+     "ratio": 0.9466
+    },
+    "zh": {
+     "n_sentences": 43,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:情况": {
+    "kind": "pool",
+    "label": "情况",
+    "en_forms": [
+     "case",
+     "circumstances",
+     "condition",
+     "situation",
+     "state of affairs"
+    ],
+    "zh_forms": [
+     "情况"
+    ],
+    "en": {
+     "n_sentences": 11901,
+     "n_with_color": 199,
+     "cooc_rate": 0.016721,
+     "baseline": 0.027945,
+     "ratio": 0.5984
+    },
+    "zh": {
+     "n_sentences": 1534,
+     "n_with_color": 17,
+     "cooc_rate": 0.011082,
+     "baseline": 0.022655,
+     "ratio": 0.4892
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:意味着": {
+    "kind": "pool",
+    "label": "意味着",
+    "en_forms": [
+     "imply",
+     "mean",
+     "means",
+     "signify"
+    ],
+    "zh_forms": [
+     "意味着"
+    ],
+    "en": {
+     "n_sentences": 7091,
+     "n_with_color": 156,
+     "cooc_rate": 0.022,
+     "baseline": 0.027945,
+     "ratio": 0.7873
+    },
+    "zh": {
+     "n_sentences": 333,
+     "n_with_color": 7,
+     "cooc_rate": 0.021021,
+     "baseline": 0.022655,
+     "ratio": 0.9279
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:感染": {
+    "kind": "pool",
+    "label": "感染",
+    "en_forms": [
+     "affect",
+     "be infected with",
+     "be inflamed",
+     "infect",
+     "infection",
+     "inflamation",
+     "influence",
+     "taint"
+    ],
+    "zh_forms": [
+     "感染"
+    ],
+    "en": {
+     "n_sentences": 2557,
+     "n_with_color": 54,
+     "cooc_rate": 0.021118,
+     "baseline": 0.027945,
+     "ratio": 0.7557
+    },
+    "zh": {
+     "n_sentences": 2171,
+     "n_with_color": 16,
+     "cooc_rate": 0.00737,
+     "baseline": 0.022655,
+     "ratio": 0.3253
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:我们": {
+    "kind": "pool",
+    "label": "我们",
+    "en_forms": [
+     "our",
+     "us",
+     "we"
+    ],
+    "zh_forms": [
+     "我们"
+    ],
+    "en": {
+     "n_sentences": 92077,
+     "n_with_color": 1593,
+     "cooc_rate": 0.017301,
+     "baseline": 0.027945,
+     "ratio": 0.6191
+    },
+    "zh": {
+     "n_sentences": 8975,
+     "n_with_color": 170,
+     "cooc_rate": 0.018942,
+     "baseline": 0.022655,
+     "ratio": 0.8361
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:战争": {
+    "kind": "pool",
+    "label": "战争",
+    "en_forms": [
+     "war",
+     "warfare"
+    ],
+    "zh_forms": [
+     "战争"
+    ],
+    "en": {
+     "n_sentences": 5625,
+     "n_with_color": 103,
+     "cooc_rate": 0.018311,
+     "baseline": 0.027945,
+     "ratio": 0.6553
+    },
+    "zh": {
+     "n_sentences": 417,
+     "n_with_color": 6,
+     "cooc_rate": 0.014388,
+     "baseline": 0.022655,
+     "ratio": 0.6351
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:抓好": {
+    "kind": "pool",
+    "label": "抓好",
+    "en_forms": [
+     "do a good job of",
+     "make great efforts to"
+    ],
+    "zh_forms": [
+     "抓好"
+    ],
+    "en": {
+     "n_sentences": 5,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 232,
+     "n_with_color": 3,
+     "cooc_rate": 0.012931,
+     "baseline": 0.022655,
+     "ratio": 0.5708
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:抹黑": {
+    "kind": "pool",
+    "label": "抹黑",
+    "en_forms": [
+     "blacken",
+     "blacken sb.'s name",
+     "bring shame on",
+     "discredit",
+     "smear",
+     "throw mud at"
+    ],
+    "zh_forms": [
+     "抹黑"
+    ],
+    "en": {
+     "n_sentences": 98,
+     "n_with_color": 2,
+     "cooc_rate": 0.020408,
+     "baseline": 0.027945,
+     "ratio": 0.7303
+    },
+    "zh": {
+     "n_sentences": 67,
+     "n_with_color": 1,
+     "cooc_rate": 0.014925,
+     "baseline": 0.022655,
+     "ratio": 0.6588
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:按揭": {
+    "kind": "pool",
+    "label": "按揭",
+    "en_forms": [
+     "mortgage"
+    ],
+    "zh_forms": [
+     "按揭"
+    ],
+    "en": {
+     "n_sentences": 453,
+     "n_with_color": 8,
+     "cooc_rate": 0.01766,
+     "baseline": 0.027945,
+     "ratio": 0.632
+    },
+    "zh": {
+     "n_sentences": 23,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:搬迁": {
+    "kind": "pool",
+    "label": "搬迁",
+    "en_forms": [
+     "move",
+     "remove",
+     "transfer"
+    ],
+    "zh_forms": [
+     "搬迁"
+    ],
+    "en": {
+     "n_sentences": 8405,
+     "n_with_color": 206,
+     "cooc_rate": 0.024509,
+     "baseline": 0.027945,
+     "ratio": 0.8771
+    },
+    "zh": {
+     "n_sentences": 105,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:攻坚战": {
+    "kind": "pool",
+    "label": "攻坚战",
+    "en_forms": [
+     "storming of heavily fortified position"
+    ],
+    "zh_forms": [
+     "攻坚战"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 282,
+     "n_with_color": 2,
+     "cooc_rate": 0.007092,
+     "baseline": 0.022655,
+     "ratio": 0.313
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:政策": {
+    "kind": "pool",
+    "label": "政策",
+    "en_forms": [
+     "policy"
+    ],
+    "zh_forms": [
+     "政策"
+    ],
+    "en": {
+     "n_sentences": 3753,
+     "n_with_color": 62,
+     "cooc_rate": 0.01652,
+     "baseline": 0.027945,
+     "ratio": 0.5912
+    },
+    "zh": {
+     "n_sentences": 1301,
+     "n_with_color": 17,
+     "cooc_rate": 0.013067,
+     "baseline": 0.022655,
+     "ratio": 0.5768
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:數據": {
+    "kind": "pool",
+    "label": "數據",
+    "en_forms": [],
+    "zh_forms": [
+     "數據"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 587,
+     "n_with_color": 7,
+     "cooc_rate": 0.011925,
+     "baseline": 0.022655,
+     "ratio": 0.5264
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:新任": {
+    "kind": "pool",
+    "label": "新任",
+    "en_forms": [
+     "new post",
+     "newly appointed"
+    ],
+    "zh_forms": [
+     "新任"
+    ],
+    "en": {
+     "n_sentences": 70,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 45,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:新冠": {
+    "kind": "pool",
+    "label": "新冠",
+    "en_forms": [],
+    "zh_forms": [
+     "新冠"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 4346,
+     "n_with_color": 40,
+     "cooc_rate": 0.009204,
+     "baseline": 0.022655,
+     "ratio": 0.4063
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:明天": {
+    "kind": "pool",
+    "label": "明天",
+    "en_forms": [
+     "following day",
+     "near future",
+     "tomorrow"
+    ],
+    "zh_forms": [
+     "明天"
+    ],
+    "en": {
+     "n_sentences": 1278,
+     "n_with_color": 35,
+     "cooc_rate": 0.027387,
+     "baseline": 0.027945,
+     "ratio": 0.98
+    },
+    "zh": {
+     "n_sentences": 227,
+     "n_with_color": 5,
+     "cooc_rate": 0.022026,
+     "baseline": 0.022655,
+     "ratio": 0.9722
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:昨日": {
+    "kind": "pool",
+    "label": "昨日",
+    "en_forms": [
+     "yesterday"
+    ],
+    "zh_forms": [
+     "昨日"
+    ],
+    "en": {
+     "n_sentences": 1304,
+     "n_with_color": 47,
+     "cooc_rate": 0.036043,
+     "baseline": 0.027945,
+     "ratio": 1.2898
+    },
+    "zh": {
+     "n_sentences": 757,
+     "n_with_color": 13,
+     "cooc_rate": 0.017173,
+     "baseline": 0.022655,
+     "ratio": 0.758
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:晚餐": {
+    "kind": "pool",
+    "label": "晚餐",
+    "en_forms": [
+     "dinner",
+     "supper"
+    ],
+    "zh_forms": [
+     "晚餐"
+    ],
+    "en": {
+     "n_sentences": 918,
+     "n_with_color": 36,
+     "cooc_rate": 0.039216,
+     "baseline": 0.027945,
+     "ratio": 1.4033
+    },
+    "zh": {
+     "n_sentences": 35,
+     "n_with_color": 2,
+     "cooc_rate": 0.057143,
+     "baseline": 0.022655,
+     "ratio": 2.5223
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:林欣彤": {
+    "kind": "pool",
+    "label": "林欣彤",
+    "en_forms": [],
+    "zh_forms": [
+     "林欣彤"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:桓玄": {
+    "kind": "pool",
+    "label": "桓玄",
+    "en_forms": [],
+    "zh_forms": [
+     "桓玄"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:正在": {
+    "kind": "pool",
+    "label": "正在",
+    "en_forms": [],
+    "zh_forms": [
+     "正在"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1714,
+     "n_with_color": 30,
+     "cooc_rate": 0.017503,
+     "baseline": 0.022655,
+     "ratio": 0.7726
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:此次": {
+    "kind": "pool",
+    "label": "此次",
+    "en_forms": [
+     "this"
+    ],
+    "zh_forms": [
+     "此次"
+    ],
+    "en": {
+     "n_sentences": 92391,
+     "n_with_color": 2151,
+     "cooc_rate": 0.023281,
+     "baseline": 0.027945,
+     "ratio": 0.8331
+    },
+    "zh": {
+     "n_sentences": 474,
+     "n_with_color": 9,
+     "cooc_rate": 0.018987,
+     "baseline": 0.022655,
+     "ratio": 0.8381
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:每天": {
+    "kind": "pool",
+    "label": "每天",
+    "en_forms": [
+     "daily",
+     "diurnal",
+     "every day",
+     "everyday"
+    ],
+    "zh_forms": [
+     "每天"
+    ],
+    "en": {
+     "n_sentences": 4743,
+     "n_with_color": 107,
+     "cooc_rate": 0.02256,
+     "baseline": 0.027945,
+     "ratio": 0.8073
+    },
+    "zh": {
+     "n_sentences": 871,
+     "n_with_color": 17,
+     "cooc_rate": 0.019518,
+     "baseline": 0.022655,
+     "ratio": 0.8615
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:比例": {
+    "kind": "pool",
+    "label": "比例",
+    "en_forms": [
+     "proportion",
+     "proportionality"
+    ],
+    "zh_forms": [
+     "比例"
+    ],
+    "en": {
+     "n_sentences": 205,
+     "n_with_color": 4,
+     "cooc_rate": 0.019512,
+     "baseline": 0.027945,
+     "ratio": 0.6982
+    },
+    "zh": {
+     "n_sentences": 248,
+     "n_with_color": 8,
+     "cooc_rate": 0.032258,
+     "baseline": 0.022655,
+     "ratio": 1.4239
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:汽车": {
+    "kind": "pool",
+    "label": "汽车",
+    "en_forms": [
+     "auto",
+     "autocar",
+     "automobile",
+     "car",
+     "electric automobile",
+     "electric car",
+     "motor vehicle"
+    ],
+    "zh_forms": [
+     "汽车"
+    ],
+    "en": {
+     "n_sentences": 6158,
+     "n_with_color": 233,
+     "cooc_rate": 0.037837,
+     "baseline": 0.027945,
+     "ratio": 1.354
+    },
+    "zh": {
+     "n_sentences": 236,
+     "n_with_color": 3,
+     "cooc_rate": 0.012712,
+     "baseline": 0.022655,
+     "ratio": 0.5611
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:波兰": {
+    "kind": "pool",
+    "label": "波兰",
+    "en_forms": [
+     "poland",
+     "polish"
+    ],
+    "zh_forms": [
+     "波兰"
+    ],
+    "en": {
+     "n_sentences": 572,
+     "n_with_color": 23,
+     "cooc_rate": 0.04021,
+     "baseline": 0.027945,
+     "ratio": 1.4389
+    },
+    "zh": {
+     "n_sentences": 15,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:波黑": {
+    "kind": "pool",
+    "label": "波黑",
+    "en_forms": [
+     "bohei"
+    ],
+    "zh_forms": [
+     "波黑"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:消息人士": {
+    "kind": "pool",
+    "label": "消息人士",
+    "en_forms": [
+     "well-informed source"
+    ],
+    "zh_forms": [
+     "消息人士"
+    ],
+    "en": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 127,
+     "n_with_color": 1,
+     "cooc_rate": 0.007874,
+     "baseline": 0.022655,
+     "ratio": 0.3476
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:深入人心": {
+    "kind": "pool",
+    "label": "深入人心",
+    "en_forms": [
+     "interiorize",
+     "strike root in the hearts of the people"
+    ],
+    "zh_forms": [
+     "深入人心"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 22,
+     "n_with_color": 2,
+     "cooc_rate": 0.090909,
+     "baseline": 0.022655,
+     "ratio": 4.0127
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:深厚": {
+    "kind": "pool",
+    "label": "深厚",
+    "en_forms": [
+     "deep",
+     "profound",
+     "solid"
+    ],
+    "zh_forms": [
+     "深厚"
+    ],
+    "en": {
+     "n_sentences": 3932,
+     "n_with_color": 188,
+     "cooc_rate": 0.047813,
+     "baseline": 0.027945,
+     "ratio": 1.711
+    },
+    "zh": {
+     "n_sentences": 79,
+     "n_with_color": 2,
+     "cooc_rate": 0.025316,
+     "baseline": 0.022655,
+     "ratio": 1.1175
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:父母": {
+    "kind": "pool",
+    "label": "父母",
+    "en_forms": [
+     "father and mother",
+     "parents"
+    ],
+    "zh_forms": [
+     "父母"
+    ],
+    "en": {
+     "n_sentences": 3201,
+     "n_with_color": 51,
+     "cooc_rate": 0.015933,
+     "baseline": 0.027945,
+     "ratio": 0.5701
+    },
+    "zh": {
+     "n_sentences": 641,
+     "n_with_color": 7,
+     "cooc_rate": 0.01092,
+     "baseline": 0.022655,
+     "ratio": 0.482
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:玄学": {
+    "kind": "pool",
+    "label": "玄学",
+    "en_forms": [
+     "metaphysics"
+    ],
+    "zh_forms": [
+     "玄学"
+    ],
+    "en": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:生活状况": {
+    "kind": "pool",
+    "label": "生活状况",
+    "en_forms": [
+     "living"
+    ],
+    "zh_forms": [
+     "生活状况"
+    ],
+    "en": {
+     "n_sentences": 3864,
+     "n_with_color": 94,
+     "cooc_rate": 0.024327,
+     "baseline": 0.027945,
+     "ratio": 0.8705
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:白雪皑皑": {
+    "kind": "pool",
+    "label": "白雪皑皑",
+    "en_forms": [],
+    "zh_forms": [
+     "白雪皑皑"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 2,
+     "cooc_rate": 0.666667,
+     "baseline": 0.022655,
+     "ratio": 29.4266
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:皓影": {
+    "kind": "pool",
+    "label": "皓影",
+    "en_forms": [],
+    "zh_forms": [
+     "皓影"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 29,
+     "n_with_color": 3,
+     "cooc_rate": 0.103448,
+     "baseline": 0.022655,
+     "ratio": 4.5662
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:研发": {
+    "kind": "pool",
+    "label": "研发",
+    "en_forms": [
+     "r&d",
+     "research and develop",
+     "research and development"
+    ],
+    "zh_forms": [
+     "研发"
+    ],
+    "en": {
+     "n_sentences": 61,
+     "n_with_color": 3,
+     "cooc_rate": 0.04918,
+     "baseline": 0.027945,
+     "ratio": 1.7599
+    },
+    "zh": {
+     "n_sentences": 188,
+     "n_with_color": 2,
+     "cooc_rate": 0.010638,
+     "baseline": 0.022655,
+     "ratio": 0.4696
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:碧水": {
+    "kind": "pool",
+    "label": "碧水",
+    "en_forms": [],
+    "zh_forms": [
+     "碧水"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 20,
+     "n_with_color": 4,
+     "cooc_rate": 0.2,
+     "baseline": 0.022655,
+     "ratio": 8.828
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:科学家": {
+    "kind": "pool",
+    "label": "科学家",
+    "en_forms": [
+     "scientist"
+    ],
+    "zh_forms": [
+     "科学家"
+    ],
+    "en": {
+     "n_sentences": 228,
+     "n_with_color": 7,
+     "cooc_rate": 0.030702,
+     "baseline": 0.027945,
+     "ratio": 1.0986
+    },
+    "zh": {
+     "n_sentences": 234,
+     "n_with_color": 3,
+     "cooc_rate": 0.012821,
+     "baseline": 0.022655,
+     "ratio": 0.5659
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:竹马": {
+    "kind": "pool",
+    "label": "竹马",
+    "en_forms": [
+     "bamboo stick used as a toy horse"
+    ],
+    "zh_forms": [
+     "竹马"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:紐森": {
+    "kind": "pool",
+    "label": "紐森",
+    "en_forms": [],
+    "zh_forms": [
+     "紐森"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 193,
+     "n_with_color": 2,
+     "cooc_rate": 0.010363,
+     "baseline": 0.022655,
+     "ratio": 0.4574
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:经典之作": {
+    "kind": "pool",
+    "label": "经典之作",
+    "en_forms": [],
+    "zh_forms": [
+     "经典之作"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:经费": {
+    "kind": "pool",
+    "label": "经费",
+    "en_forms": [],
+    "zh_forms": [
+     "经费"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 44,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:绛矾丸": {
+    "kind": "pool",
+    "label": "绛矾丸",
+    "en_forms": [],
+    "zh_forms": [
+     "绛矾丸"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:绿树": {
+    "kind": "pool",
+    "label": "绿树",
+    "en_forms": [],
+    "zh_forms": [
+     "绿树"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 11,
+     "n_with_color": 2,
+     "cooc_rate": 0.181818,
+     "baseline": 0.022655,
+     "ratio": 8.0254
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:绿速达": {
+    "kind": "pool",
+    "label": "绿速达",
+    "en_forms": [],
+    "zh_forms": [
+     "绿速达"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:缜密": {
+    "kind": "pool",
+    "label": "缜密",
+    "en_forms": [
+     "careful",
+     "carefully",
+     "deliberate",
+     "deliberately",
+     "meticulous",
+     "meticulously"
+    ],
+    "zh_forms": [
+     "缜密"
+    ],
+    "en": {
+     "n_sentences": 1731,
+     "n_with_color": 22,
+     "cooc_rate": 0.012709,
+     "baseline": 0.027945,
+     "ratio": 0.4548
+    },
+    "zh": {
+     "n_sentences": 13,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:缜的": {
+    "kind": "pool",
+    "label": "缜的",
+    "en_forms": [],
+    "zh_forms": [
+     "缜的"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 1,
+     "cooc_rate": 0.5,
+     "baseline": 0.022655,
+     "ratio": 22.0699
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:缥缈": {
+    "kind": "pool",
+    "label": "缥缈",
+    "en_forms": [
+     "dimly discernible",
+     "illusory",
+     "misty"
+    ],
+    "zh_forms": [
+     "缥缈"
+    ],
+    "en": {
+     "n_sentences": 48,
+     "n_with_color": 4,
+     "cooc_rate": 0.083333,
+     "baseline": 0.027945,
+     "ratio": 2.982
+    },
+    "zh": {
+     "n_sentences": 6,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:罪責屬": {
+    "kind": "pool",
+    "label": "罪責屬",
+    "en_forms": [],
+    "zh_forms": [
+     "罪責屬"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:羊们": {
+    "kind": "pool",
+    "label": "羊们",
+    "en_forms": [],
+    "zh_forms": [
+     "羊们"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:老百姓": {
+    "kind": "pool",
+    "label": "老百姓",
+    "en_forms": [
+     "common people",
+     "ordinary people"
+    ],
+    "zh_forms": [
+     "老百姓"
+    ],
+    "en": {
+     "n_sentences": 76,
+     "n_with_color": 2,
+     "cooc_rate": 0.026316,
+     "baseline": 0.027945,
+     "ratio": 0.9417
+    },
+    "zh": {
+     "n_sentences": 346,
+     "n_with_color": 7,
+     "cooc_rate": 0.020231,
+     "baseline": 0.022655,
+     "ratio": 0.893
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:肥皂": {
+    "kind": "pool",
+    "label": "肥皂",
+    "en_forms": [
+     "soap"
+    ],
+    "zh_forms": [
+     "肥皂"
+    ],
+    "en": {
+     "n_sentences": 372,
+     "n_with_color": 9,
+     "cooc_rate": 0.024194,
+     "baseline": 0.027945,
+     "ratio": 0.8658
+    },
+    "zh": {
+     "n_sentences": 31,
+     "n_with_color": 1,
+     "cooc_rate": 0.032258,
+     "baseline": 0.022655,
+     "ratio": 1.4239
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:胡椒粉": {
+    "kind": "pool",
+    "label": "胡椒粉",
+    "en_forms": [
+     "pepper"
+    ],
+    "zh_forms": [
+     "胡椒粉"
+    ],
+    "en": {
+     "n_sentences": 217,
+     "n_with_color": 52,
+     "cooc_rate": 0.239631,
+     "baseline": 0.027945,
+     "ratio": 8.5751
+    },
+    "zh": {
+     "n_sentences": 6,
+     "n_with_color": 2,
+     "cooc_rate": 0.333333,
+     "baseline": 0.022655,
+     "ratio": 14.7133
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "pool:腐败现象": {
+    "kind": "pool",
+    "label": "腐败现象",
+    "en_forms": [],
+    "zh_forms": [
+     "腐败现象"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 22,
+     "n_with_color": 3,
+     "cooc_rate": 0.136364,
+     "baseline": 0.022655,
+     "ratio": 6.0191
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:葱段": {
+    "kind": "pool",
+    "label": "葱段",
+    "en_forms": [],
+    "zh_forms": [
+     "葱段"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 1,
+     "cooc_rate": 0.5,
+     "baseline": 0.022655,
+     "ratio": 22.0699
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:蔓延到": {
+    "kind": "pool",
+    "label": "蔓延到",
+    "en_forms": [],
+    "zh_forms": [
+     "蔓延到"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 16,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:虚无缥缈": {
+    "kind": "pool",
+    "label": "虚无缥缈",
+    "en_forms": [
+     "visionary"
+    ],
+    "zh_forms": [
+     "虚无缥缈"
+    ],
+    "en": {
+     "n_sentences": 106,
+     "n_with_color": 3,
+     "cooc_rate": 0.028302,
+     "baseline": 0.027945,
+     "ratio": 1.0128
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:蜂拥": {
+    "kind": "pool",
+    "label": "蜂拥",
+    "en_forms": [
+     "flock",
+     "swarm"
+    ],
+    "zh_forms": [
+     "蜂拥"
+    ],
+    "en": {
+     "n_sentences": 168,
+     "n_with_color": 8,
+     "cooc_rate": 0.047619,
+     "baseline": 0.027945,
+     "ratio": 1.704
+    },
+    "zh": {
+     "n_sentences": 7,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:表现": {
+    "kind": "pool",
+    "label": "表现",
+    "en_forms": [
+     "behave",
+     "behaviour",
+     "display",
+     "evince",
+     "expression",
+     "manifest",
+     "manifestation",
+     "performance",
+     "show",
+     "show off"
+    ],
+    "zh_forms": [
+     "表现"
+    ],
+    "en": {
+     "n_sentences": 17972,
+     "n_with_color": 526,
+     "cooc_rate": 0.029268,
+     "baseline": 0.027945,
+     "ratio": 1.0473
+    },
+    "zh": {
+     "n_sentences": 609,
+     "n_with_color": 11,
+     "cooc_rate": 0.018062,
+     "baseline": 0.022655,
+     "ratio": 0.7973
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:表示": {
+    "kind": "pool",
+    "label": "表示",
+    "en_forms": [
+     "connote",
+     "express",
+     "expression",
+     "extend",
+     "indicate",
+     "profess",
+     "show",
+     "signify"
+    ],
+    "zh_forms": [
+     "表示"
+    ],
+    "en": {
+     "n_sentences": 13103,
+     "n_with_color": 399,
+     "cooc_rate": 0.030451,
+     "baseline": 0.027945,
+     "ratio": 1.0897
+    },
+    "zh": {
+     "n_sentences": 6389,
+     "n_with_color": 83,
+     "cooc_rate": 0.012991,
+     "baseline": 0.022655,
+     "ratio": 0.5734
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:西红柿": {
+    "kind": "pool",
+    "label": "西红柿",
+    "en_forms": [
+     "tomato"
+    ],
+    "zh_forms": [
+     "西红柿"
+    ],
+    "en": {
+     "n_sentences": 110,
+     "n_with_color": 17,
+     "cooc_rate": 0.154545,
+     "baseline": 0.027945,
+     "ratio": 5.5303
+    },
+    "zh": {
+     "n_sentences": 20,
+     "n_with_color": 3,
+     "cooc_rate": 0.15,
+     "baseline": 0.022655,
+     "ratio": 6.621
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "pool:规定": {
+    "kind": "pool",
+    "label": "规定",
+    "en_forms": [
+     "enact",
+     "fix",
+     "formulate",
+     "ordain",
+     "prescribe",
+     "prescription",
+     "provide",
+     "provision",
+     "regulation",
+     "rule",
+     "set",
+     "specify",
+     "stipulate",
+     "stipulation"
+    ],
+    "zh_forms": [
+     "规定"
+    ],
+    "en": {
+     "n_sentences": 19285,
+     "n_with_color": 549,
+     "cooc_rate": 0.028468,
+     "baseline": 0.027945,
+     "ratio": 1.0187
+    },
+    "zh": {
+     "n_sentences": 464,
+     "n_with_color": 6,
+     "cooc_rate": 0.012931,
+     "baseline": 0.022655,
+     "ratio": 0.5708
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:言之凿凿": {
+    "kind": "pool",
+    "label": "言之凿凿",
+    "en_forms": [
+     "say with certainty"
+    ],
+    "zh_forms": [
+     "言之凿凿"
+    ],
+    "en": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:記錄": {
+    "kind": "pool",
+    "label": "記錄",
+    "en_forms": [],
+    "zh_forms": [
+     "記錄"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 132,
+     "n_with_color": 2,
+     "cooc_rate": 0.015152,
+     "baseline": 0.022655,
+     "ratio": 0.6688
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:設計": {
+    "kind": "pool",
+    "label": "設計",
+    "en_forms": [],
+    "zh_forms": [
+     "設計"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 226,
+     "n_with_color": 8,
+     "cooc_rate": 0.035398,
+     "baseline": 0.022655,
+     "ratio": 1.5625
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:警方": {
+    "kind": "pool",
+    "label": "警方",
+    "en_forms": [
+     "police",
+     "police source"
+    ],
+    "zh_forms": [
+     "警方"
+    ],
+    "en": {
+     "n_sentences": 13593,
+     "n_with_color": 330,
+     "cooc_rate": 0.024277,
+     "baseline": 0.027945,
+     "ratio": 0.8687
+    },
+    "zh": {
+     "n_sentences": 2310,
+     "n_with_color": 72,
+     "cooc_rate": 0.031169,
+     "baseline": 0.022655,
+     "ratio": 1.3758
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:诉衷情": {
+    "kind": "pool",
+    "label": "诉衷情",
+    "en_forms": [],
+    "zh_forms": [
+     "诉衷情"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:说话": {
+    "kind": "pool",
+    "label": "说话",
+    "en_forms": [
+     "chat",
+     "say",
+     "speak",
+     "talk"
+    ],
+    "zh_forms": [
+     "说话"
+    ],
+    "en": {
+     "n_sentences": 13805,
+     "n_with_color": 276,
+     "cooc_rate": 0.019993,
+     "baseline": 0.027945,
+     "ratio": 0.7154
+    },
+    "zh": {
+     "n_sentences": 188,
+     "n_with_color": 3,
+     "cooc_rate": 0.015957,
+     "baseline": 0.022655,
+     "ratio": 0.7044
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:诸事": {
+    "kind": "pool",
+    "label": "诸事",
+    "en_forms": [],
+    "zh_forms": [
+     "诸事"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 3,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:豆粉": {
+    "kind": "pool",
+    "label": "豆粉",
+    "en_forms": [
+     "bean powder"
+    ],
+    "zh_forms": [
+     "豆粉"
+    ],
+    "en": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 1,
+     "cooc_rate": 1.0,
+     "baseline": 0.022655,
+     "ratio": 44.1398
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:資料": {
+    "kind": "pool",
+    "label": "資料",
+    "en_forms": [],
+    "zh_forms": [
+     "資料"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 353,
+     "n_with_color": 5,
+     "cooc_rate": 0.014164,
+     "baseline": 0.022655,
+     "ratio": 0.6252
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:赤字": {
+    "kind": "pool",
+    "label": "赤字",
+    "en_forms": [
+     "deficit"
+    ],
+    "zh_forms": [
+     "赤字"
+    ],
+    "en": {
+     "n_sentences": 466,
+     "n_with_color": 14,
+     "cooc_rate": 0.030043,
+     "baseline": 0.027945,
+     "ratio": 1.0751
+    },
+    "zh": {
+     "n_sentences": 30,
+     "n_with_color": 1,
+     "cooc_rate": 0.033333,
+     "baseline": 0.022655,
+     "ratio": 1.4713
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:赤诚": {
+    "kind": "pool",
+    "label": "赤诚",
+    "en_forms": [
+     "sincere",
+     "sincerely"
+    ],
+    "zh_forms": [
+     "赤诚"
+    ],
+    "en": {
+     "n_sentences": 228,
+     "n_with_color": 4,
+     "cooc_rate": 0.017544,
+     "baseline": 0.027945,
+     "ratio": 0.6278
+    },
+    "zh": {
+     "n_sentences": 19,
+     "n_with_color": 1,
+     "cooc_rate": 0.052632,
+     "baseline": 0.022655,
+     "ratio": 2.3231
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:身份": {
+    "kind": "pool",
+    "label": "身份",
+    "en_forms": [
+     "dignity",
+     "identity",
+     "position",
+     "status"
+    ],
+    "zh_forms": [
+     "身份"
+    ],
+    "en": {
+     "n_sentences": 8678,
+     "n_with_color": 235,
+     "cooc_rate": 0.02708,
+     "baseline": 0.027945,
+     "ratio": 0.969
+    },
+    "zh": {
+     "n_sentences": 472,
+     "n_with_color": 18,
+     "cooc_rate": 0.038136,
+     "baseline": 0.022655,
+     "ratio": 1.6833
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:还有": {
+    "kind": "pool",
+    "label": "还有",
+    "en_forms": [],
+    "zh_forms": [
+     "还有"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1290,
+     "n_with_color": 42,
+     "cooc_rate": 0.032558,
+     "baseline": 0.022655,
+     "ratio": 1.4371
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:進行": {
+    "kind": "pool",
+    "label": "進行",
+    "en_forms": [],
+    "zh_forms": [
+     "進行"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1915,
+     "n_with_color": 20,
+     "cooc_rate": 0.010444,
+     "baseline": 0.022655,
+     "ratio": 0.461
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:過度": {
+    "kind": "pool",
+    "label": "過度",
+    "en_forms": [],
+    "zh_forms": [
+     "過度"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 47,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:金银": {
+    "kind": "pool",
+    "label": "金银",
+    "en_forms": [],
+    "zh_forms": [
+     "金银"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 44,
+     "n_with_color": 2,
+     "cooc_rate": 0.045455,
+     "baseline": 0.022655,
+     "ratio": 2.0064
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:鑼鼓聲": {
+    "kind": "pool",
+    "label": "鑼鼓聲",
+    "en_forms": [],
+    "zh_forms": [
+     "鑼鼓聲"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 1,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:钟碧英": {
+    "kind": "pool",
+    "label": "钟碧英",
+    "en_forms": [],
+    "zh_forms": [
+     "钟碧英"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 2,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:银杏": {
+    "kind": "pool",
+    "label": "银杏",
+    "en_forms": [
+     "gingko",
+     "ginkgo",
+     "ginkgo biloba"
+    ],
+    "zh_forms": [
+     "银杏"
+    ],
+    "en": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.027945,
+     "ratio": 0.0
+    },
+    "zh": {
+     "n_sentences": 29,
+     "n_with_color": 3,
+     "cooc_rate": 0.103448,
+     "baseline": 0.022655,
+     "ratio": 4.5662
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:铺张浪费": {
+    "kind": "pool",
+    "label": "铺张浪费",
+    "en_forms": [
+     "extravagant and wasteful"
+    ],
+    "zh_forms": [
+     "铺张浪费"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 30,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:需求": {
+    "kind": "pool",
+    "label": "需求",
+    "en_forms": [
+     "necessity",
+     "requirement",
+     "requisition"
+    ],
+    "zh_forms": [
+     "需求"
+    ],
+    "en": {
+     "n_sentences": 516,
+     "n_with_color": 14,
+     "cooc_rate": 0.027132,
+     "baseline": 0.027945,
+     "ratio": 0.9709
+    },
+    "zh": {
+     "n_sentences": 705,
+     "n_with_color": 4,
+     "cooc_rate": 0.005674,
+     "baseline": 0.022655,
+     "ratio": 0.2504
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:需要": {
+    "kind": "pool",
+    "label": "需要",
+    "en_forms": [
+     "be in need of",
+     "be in want of",
+     "demand",
+     "essential",
+     "necessary",
+     "necessity",
+     "need",
+     "require",
+     "requirement",
+     "requisite",
+     "want"
+    ],
+    "zh_forms": [
+     "需要"
+    ],
+    "en": {
+     "n_sentences": 29905,
+     "n_with_color": 553,
+     "cooc_rate": 0.018492,
+     "baseline": 0.027945,
+     "ratio": 0.6617
+    },
+    "zh": {
+     "n_sentences": 3816,
+     "n_with_color": 44,
+     "cooc_rate": 0.01153,
+     "baseline": 0.022655,
+     "ratio": 0.5089
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:青春": {
+    "kind": "pool",
+    "label": "青春",
+    "en_forms": [
+     "vernal",
+     "youth",
+     "youthfulness"
+    ],
+    "zh_forms": [
+     "青春"
+    ],
+    "en": {
+     "n_sentences": 1693,
+     "n_with_color": 54,
+     "cooc_rate": 0.031896,
+     "baseline": 0.027945,
+     "ratio": 1.1414
+    },
+    "zh": {
+     "n_sentences": 201,
+     "n_with_color": 27,
+     "cooc_rate": 0.134328,
+     "baseline": 0.022655,
+     "ratio": 5.9292
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:顯示": {
+    "kind": "pool",
+    "label": "顯示",
+    "en_forms": [],
+    "zh_forms": [
+     "顯示"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 827,
+     "n_with_color": 15,
+     "cooc_rate": 0.018138,
+     "baseline": 0.022655,
+     "ratio": 0.8006
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:项目": {
+    "kind": "pool",
+    "label": "项目",
+    "en_forms": [
+     "entry",
+     "item",
+     "project"
+    ],
+    "zh_forms": [
+     "项目"
+    ],
+    "en": {
+     "n_sentences": 6588,
+     "n_with_color": 268,
+     "cooc_rate": 0.04068,
+     "baseline": 0.027945,
+     "ratio": 1.4557
+    },
+    "zh": {
+     "n_sentences": 544,
+     "n_with_color": 11,
+     "cooc_rate": 0.020221,
+     "baseline": 0.022655,
+     "ratio": 0.8925
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:鲜活": {
+    "kind": "pool",
+    "label": "鲜活",
+    "en_forms": [
+     "fresh and living"
+    ],
+    "zh_forms": [
+     "鲜活"
+    ],
+    "en": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.027945,
+     "ratio": null
+    },
+    "zh": {
+     "n_sentences": 38,
+     "n_with_color": 2,
+     "cooc_rate": 0.052632,
+     "baseline": 0.022655,
+     "ratio": 2.3231
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:鲜花": {
+    "kind": "pool",
+    "label": "鲜花",
+    "en_forms": [
+     "flower"
+    ],
+    "zh_forms": [
+     "鲜花"
+    ],
+    "en": {
+     "n_sentences": 259,
+     "n_with_color": 34,
+     "cooc_rate": 0.131274,
+     "baseline": 0.027945,
+     "ratio": 4.6976
+    },
+    "zh": {
+     "n_sentences": 82,
+     "n_with_color": 5,
+     "cooc_rate": 0.060976,
+     "baseline": 0.022655,
+     "ratio": 2.6915
+    },
+    "visible_both_langs": true,
+    "survives": true
+   },
+   "pool:鲤鱼": {
+    "kind": "pool",
+    "label": "鲤鱼",
+    "en_forms": [
+     "carp"
+    ],
+    "zh_forms": [
+     "鲤鱼"
+    ],
+    "en": {
+     "n_sentences": 13,
+     "n_with_color": 2,
+     "cooc_rate": 0.153846,
+     "baseline": 0.027945,
+     "ratio": 5.5053
+    },
+    "zh": {
+     "n_sentences": 8,
+     "n_with_color": 0,
+     "cooc_rate": 0.0,
+     "baseline": 0.022655,
+     "ratio": 0.0
+    },
+    "visible_both_langs": true,
+    "survives": false
+   },
+   "pool:鳕鱼": {
+    "kind": "pool",
+    "label": "鳕鱼",
+    "en_forms": [
+     "cod"
+    ],
+    "zh_forms": [
+     "鳕鱼"
+    ],
+    "en": {
+     "n_sentences": 64,
+     "n_with_color": 9,
+     "cooc_rate": 0.140625,
+     "baseline": 0.027945,
+     "ratio": 5.0322
+    },
+    "zh": {
+     "n_sentences": 0,
+     "n_with_color": 0,
+     "cooc_rate": null,
+     "baseline": 0.022655,
+     "ratio": null
+    },
+    "visible_both_langs": false,
+    "survives": false
+   },
+   "pool:黑夜": {
+    "kind": "pool",
+    "label": "黑夜",
+    "en_forms": [
+     "night"
+    ],
+    "zh_forms": [
+     "黑夜"
+    ],
+    "en": {
+     "n_sentences": 7297,
+     "n_with_color": 275,
+     "cooc_rate": 0.037687,
+     "baseline": 0.027945,
+     "ratio": 1.3486
+    },
+    "zh": {
+     "n_sentences": 29,
+     "n_with_color": 5,
+     "cooc_rate": 0.172414,
+     "baseline": 0.022655,
+     "ratio": 7.6103
+    },
+    "visible_both_langs": true,
+    "survives": false
+   }
+  }
+ },
+ "calibration_sweep": {
+  "overlap_count": 62,
+  "under_powered": false,
+  "overlap_categories": [
+   "airplane",
+   "apple",
+   "backpack",
+   "banana",
+   "bear",
+   "bed",
+   "bench",
+   "bicycle",
+   "bird",
+   "boat",
+   "book",
+   "bottle",
+   "bowl",
+   "broccoli",
+   "bus",
+   "cake",
+   "car",
+   "carrot",
+   "cat",
+   "cell phone",
+   "chair",
+   "clock",
+   "couch",
+   "cow",
+   "cup",
+   "dining table",
+   "dog",
+   "elephant",
+   "fire hydrant",
+   "fork",
+   "giraffe",
+   "handbag",
+   "horse",
+   "keyboard",
+   "kite",
+   "knife",
+   "laptop",
+   "microwave",
+   "motorcycle",
+   "mouse",
+   "orange",
+   "oven",
+   "person",
+   "refrigerator",
+   "remote",
+   "sandwich",
+   "scissors",
+   "sheep",
+   "sink",
+   "skateboard",
+   "skis",
+   "spoon",
+   "tie",
+   "toilet",
+   "toothbrush",
+   "traffic light",
+   "train",
+   "truck",
+   "tv",
+   "umbrella",
+   "vase",
+   "zebra"
+  ],
+  "definition": "overlap = COCO categories visible to BOTH witnesses (pixel histogram present AND Route B computable in both languages)",
+  "witness_A_colored_at_X": "top_bin_share >= X",
+  "witness_B_survives": "ratio>=2 in both languages",
+  "X_grid": [
+   0.3,
+   0.35,
+   0.4,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.65,
+   0.7,
+   0.75,
+   0.8,
+   0.85,
+   0.9
+  ],
+  "curve": [
+   {
+    "X": 0.3,
+    "n_colored_A": 50,
+    "A_and_B": 10,
+    "A_not_B": 40,
+    "notA_B": 4,
+    "notA_notB": 8,
+    "agreement": 0.2903
+   },
+   {
+    "X": 0.35,
+    "n_colored_A": 37,
+    "A_and_B": 8,
+    "A_not_B": 29,
+    "notA_B": 6,
+    "notA_notB": 19,
+    "agreement": 0.4355
+   },
+   {
+    "X": 0.4,
+    "n_colored_A": 27,
+    "A_and_B": 8,
+    "A_not_B": 19,
+    "notA_B": 6,
+    "notA_notB": 29,
+    "agreement": 0.5968
+   },
+   {
+    "X": 0.45,
+    "n_colored_A": 18,
+    "A_and_B": 7,
+    "A_not_B": 11,
+    "notA_B": 7,
+    "notA_notB": 37,
+    "agreement": 0.7097
+   },
+   {
+    "X": 0.5,
+    "n_colored_A": 7,
+    "A_and_B": 1,
+    "A_not_B": 6,
+    "notA_B": 13,
+    "notA_notB": 42,
+    "agreement": 0.6935
+   },
+   {
+    "X": 0.55,
+    "n_colored_A": 4,
+    "A_and_B": 1,
+    "A_not_B": 3,
+    "notA_B": 13,
+    "notA_notB": 45,
+    "agreement": 0.7419
+   },
+   {
+    "X": 0.6,
+    "n_colored_A": 3,
+    "A_and_B": 1,
+    "A_not_B": 2,
+    "notA_B": 13,
+    "notA_notB": 46,
+    "agreement": 0.7581
+   },
+   {
+    "X": 0.65,
+    "n_colored_A": 2,
+    "A_and_B": 0,
+    "A_not_B": 2,
+    "notA_B": 14,
+    "notA_notB": 46,
+    "agreement": 0.7419
+   },
+   {
+    "X": 0.7,
+    "n_colored_A": 1,
+    "A_and_B": 0,
+    "A_not_B": 1,
+    "notA_B": 14,
+    "notA_notB": 47,
+    "agreement": 0.7581
+   },
+   {
+    "X": 0.75,
+    "n_colored_A": 1,
+    "A_and_B": 0,
+    "A_not_B": 1,
+    "notA_B": 14,
+    "notA_notB": 47,
+    "agreement": 0.7581
+   },
+   {
+    "X": 0.8,
+    "n_colored_A": 1,
+    "A_and_B": 0,
+    "A_not_B": 1,
+    "notA_B": 14,
+    "notA_notB": 47,
+    "agreement": 0.7581
+   },
+   {
+    "X": 0.85,
+    "n_colored_A": 1,
+    "A_and_B": 0,
+    "A_not_B": 1,
+    "notA_B": 14,
+    "notA_notB": 47,
+    "agreement": 0.7581
+   },
+   {
+    "X": 0.9,
+    "n_colored_A": 0,
+    "A_and_B": 0,
+    "A_not_B": 0,
+    "notA_B": 14,
+    "notA_notB": 48,
+    "agreement": 0.7742
+   }
+  ],
+  "plateaus_ge3_steps": [
+   {
+    "X_start": 0.7,
+    "X_end": 0.85,
+    "n_steps": 4,
+    "agreement": 0.7581
+   }
+  ],
+  "peak_agreement": 0.7742,
+  "peak_X": [
+   0.9
+  ],
+  "no_recommendation": "The curve and plateaus are the deliverable; no X is recommended."
+ },
+ "named_words_report": {
+  "鲜活": {
+   "en_forms": [
+    "fresh and living"
+   ],
+   "zh": {
+    "n_sentences": 38,
+    "n_with_color": 2,
+    "cooc_rate": 0.052632,
+    "baseline": 0.022655,
+    "ratio": 2.3231
+   },
+   "en": {
+    "n_sentences": 0,
+    "n_with_color": 0,
+    "cooc_rate": null,
+    "baseline": 0.027945,
+    "ratio": null
+   },
+   "survives": false,
+   "visible_both_langs": false,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "鲜花": {
+   "en_forms": [
+    "flower"
+   ],
+   "zh": {
+    "n_sentences": 82,
+    "n_with_color": 5,
+    "cooc_rate": 0.060976,
+    "baseline": 0.022655,
+    "ratio": 2.6915
+   },
+   "en": {
+    "n_sentences": 259,
+    "n_with_color": 34,
+    "cooc_rate": 0.131274,
+    "baseline": 0.027945,
+    "ratio": 4.6976
+   },
+   "survives": true,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "波兰": {
+   "en_forms": [
+    "poland",
+    "polish"
+   ],
+   "zh": {
+    "n_sentences": 15,
+    "n_with_color": 0,
+    "cooc_rate": 0.0,
+    "baseline": 0.022655,
+    "ratio": 0.0
+   },
+   "en": {
+    "n_sentences": 572,
+    "n_with_color": 23,
+    "cooc_rate": 0.04021,
+    "baseline": 0.027945,
+    "ratio": 1.4389
+   },
+   "survives": false,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "西红柿": {
+   "en_forms": [
+    "tomato"
+   ],
+   "zh": {
+    "n_sentences": 20,
+    "n_with_color": 3,
+    "cooc_rate": 0.15,
+    "baseline": 0.022655,
+    "ratio": 6.621
+   },
+   "en": {
+    "n_sentences": 110,
+    "n_with_color": 17,
+    "cooc_rate": 0.154545,
+    "baseline": 0.027945,
+    "ratio": 5.5303
+   },
+   "survives": true,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "小葱": {
+   "en_forms": [
+    "shallot",
+    "spring onion"
+   ],
+   "zh": {
+    "n_sentences": 2,
+    "n_with_color": 0,
+    "cooc_rate": 0.0,
+    "baseline": 0.022655,
+    "ratio": 0.0
+   },
+   "en": {
+    "n_sentences": 17,
+    "n_with_color": 5,
+    "cooc_rate": 0.294118,
+    "baseline": 0.027945,
+    "ratio": 10.5249
+   },
+   "survives": false,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "银杏": {
+   "en_forms": [
+    "gingko",
+    "ginkgo",
+    "ginkgo biloba"
+   ],
+   "zh": {
+    "n_sentences": 29,
+    "n_with_color": 3,
+    "cooc_rate": 0.103448,
+    "baseline": 0.022655,
+    "ratio": 4.5662
+   },
+   "en": {
+    "n_sentences": 8,
+    "n_with_color": 0,
+    "cooc_rate": 0.0,
+    "baseline": 0.027945,
+    "ratio": 0.0
+   },
+   "survives": false,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  },
+  "墨西哥": {
+   "en_forms": [
+    "mexican",
+    "mexico"
+   ],
+   "zh": {
+    "n_sentences": 99,
+    "n_with_color": 2,
+    "cooc_rate": 0.020202,
+    "baseline": 0.022655,
+    "ratio": 0.8917
+   },
+   "en": {
+    "n_sentences": 1275,
+    "n_with_color": 30,
+    "cooc_rate": 0.023529,
+    "baseline": 0.027945,
+    "ratio": 0.842
+   },
+   "survives": false,
+   "visible_both_langs": true,
+   "pixel_witness": "not a COCO category (no pixel referent sample)"
+  }
+ },
+ "gaps": [
+  "Pixel witness uses val2017 ONLY: train2017 instance annotations exist on disk but train2017 images do NOT, so pixels come from the 5000 val images.",
+  "Pixel witness covers COCO's 80 categories only; pool words (incl. all 7 named referent-candidates) have NO pixel referent sample unless their English form equals a COCO category (none of the 7 do).",
+  "Instances with <25 masked pixels skipped (per-category count in n_skipped_small).",
+  "446 crowd instances all use uncompressed list-RLE (decoded); zero compressed-string RLE, so no crowd instance was dropped for decode reasons.",
+  "Route B word identity: COCO->zh and pool->en via HowNet W_C/W_E; a category/word with no HowNet cross-form is invisible on that language side (ratio=None).",
+  "Multiword English forms matched by substring; single words by whole-token set membership. ZH matched by tokenizer token membership (segmentation-dependent)."
+ ],
+ "provenance_sha256": {
+  "instances_val2017.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+  "wordnet_field_lists_PROPOSED_53.json": "796d1df8f6a6e68bd23d07d174af3ba0adf3daa3e83289602fce6140e9ee5024",
+  "host_frames_53.json": "76dc2e3307ab46d9f18c0068a366b061a0a9c39c81ad109572d233883da70f2b",
+  "HowNet.txt": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized.txt (zh)": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "leipzig_en_sentences.txt": "19ca4fb4d30f327860af26b7c3f3458976e4adb8703d98e484d9857b8a7ae7b0",
+  "latent_written_labeler_53.py": "ba3103698394283d526b8b892b4e3fa734d10b301b733b5f433184f4bd25e7e1"
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "what": "exhibit — the 蕭 L8 plant panel (Li Bai mini-board, EXHIBITION tier)",
+ "line": 8,
+ "field": "plant",
+ "cell": "DEFORMATION",
+ "zh_line": "蕭蕭班馬鳴。",
+ "en_line": "Our horses neigh to each other as we are departing.",
+ "zh_written_carrier": "蕭",
+ "zh_radical": "艸 (grass/plant)",
+ "zh_kRSUnicode": "140.12",
+ "zh_sense": "一種香草。即艾蒿。《說文解字．艸部》：「蕭，艾蒿也。」《詩經．王風．采葛》：「彼采蕭兮，一日不見，如三秋兮。」",
+ "zh_word_plant_fires": true,
+ "zh_word_plant_receipts": [
+  "蕭"
+ ],
+ "en_plant": "absent (no plant word; en written plant UNAVAILABLE)",
+ "expected_cell": "LATENT-UNREALIZED",
+ "verdict_matches_expected": false,
+ "certificate": 0.0,
+ "gate": "model→render→gate→xmllint; sidecar beside (bespoke draw)",
+ "banner": "alignment DRAFT, PENDING-HER-BLESSING (8->9 split); census/heat-map FLAGGED FOR HER REVIEW",
+ "honesty_note": "verdict_matches_expected=FALSE. The task expected LATENT-UNREALIZED (蕭 plant latent via the WRITTEN channel). But the live DESCRIPTIVE plant labeler trait_labelers.zh_plant() is ITSELF radical-attestation-based (《爾雅》釋草/釋木 ∧ Kangxi plant radical incl. 140); 蕭 is a 釋草 artemisia headword with radical 140, so it charges the zh WORD plant boolean (fires=True, receipt=['蕭']). Per LAW.line_state precedence (word STATED > written latent), the zh plant is STATED/active, NOT latent — so the crossing lands (active, absent) = DEFORMATION. The board-local WRITTEN receipt (蕭 radical 艸 via Unihan + MOE/Shuowen 艾蒿) is REAL and cited, but it is subsumed: the SAME radical evidence is already promoted to the WORD tier by the radical-aware descriptive labeler. Reported honestly (task rule 'REPORT what IS'), the verdict is NOT faked."
+}

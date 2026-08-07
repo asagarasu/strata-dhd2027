@@ -1,0 +1,206 @@
+{
+ "what": "EN temporal-REFERENT organ pass — descriptive-row furniture (temporal-referent row, en side)",
+ "ruling": "her word 07-23 morning: \"Let's put temporal-referent organ en in as well.\"",
+ "organ_of_record": "caesitas_proto/en_temporal_referent_organ_55b.py (ADOPTED post-55b split; e4 BUILT #55, 55b split, #55.1 F16 root re-export shim; ADOPTED 07-23)",
+ "registration": "caesitas_proto/en_temporal_referent_organ_pass_registration_56.md",
+ "source_set": "sonnet73",
+ "row_charge_classes": [
+  "ephemeral",
+  "enduring",
+  "seasonal"
+ ],
+ "bygone_informational_rule": "bygone is NOT a scored row charge under the adopted post-split state: it lives in the known-uncaptured register.  This pass EMITS bygone matches as INFORMATIONAL furniture (clearly labeled non-row) and NEVER counts them in a per-line row-class rollup.",
+ "out_of_scope": "Every fr / de / jp / zh seat of every board is OUT OF SCOPE and NOT scored by this pass — the organ's referents are English WordNet lemmas; non-en seats are not looked up.",
+ "parse_law": "corpus_breadth_runner_56.parse_seat (specs S/M/X, verbatim)",
+ "wordnet_version": "3.0",
+ "seats_scored": [
+  {
+   "rid": "en:shakespeare_1609",
+   "tier": "repo",
+   "parse_spec": "S",
+   "redacted_f9": false,
+   "n_lines": 14,
+   "registered_exp": 14,
+   "count_matches_registered": true,
+   "source_file": {
+    "path": "corpus/sonnets/en_source/shakespeare_sonnet73_1609.txt",
+    "sha256": "e7b7647889ac0009486271b6f41866d5a54a3ebf59ecddc6a6b4c2db45efd713"
+   },
+   "lines": [
+    {
+     "line_no": 1,
+     "text": "That time of yeeare thou maist in me behold,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 2,
+     "text": "When yellow leaues, or none, or few doe hange",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 3,
+     "text": "Vpon those boughes which shake against the could,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 4,
+     "text": "Bare rn'wd quiers, where late the sweet birds sang.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 5,
+     "text": "In me thou seest the twi-light of such day,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 6,
+     "text": "As after Sun-set fadeth in the West,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 7,
+     "text": "Which by and by blacke night doth take away,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 8,
+     "text": "Deaths second selfe that seals vp all in rest.",
+     "row_fired_words": [
+      {
+       "word": "second",
+       "row_classes": [
+        "ephemeral"
+       ],
+       "also_bygone_informational": false,
+       "senses": [
+        {
+         "synset": "moment.n.02",
+         "pole": "ephemeral",
+         "route": "ephemeral:short-time",
+         "gloss_clause": "an indefinitely short time",
+         "snippet": "short time",
+         "metaphor": false,
+         "abstract_head": false
+        }
+       ],
+       "bygone_senses_informational": []
+      }
+     ],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {
+      "ephemeral": 1
+     },
+     "n_row_fired_words": 1,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 9,
+     "text": "In me thou seest the glowing of such fire,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 10,
+     "text": "That on the ashes of his youth doth lye,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 11,
+     "text": "As the death bed, whereon it must expire,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 12,
+     "text": "Consum'd with that which it was nurrisht by.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 13,
+     "text": "This thou perceu'st, which makes thy loue more strong,",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    },
+    {
+     "line_no": 14,
+     "text": "To loue that well, which thou must leaue ere long.",
+     "row_fired_words": [],
+     "bygone_informational_words": [],
+     "line_row_class_rollup": {},
+     "n_row_fired_words": 0,
+     "n_bygone_informational_words": 0
+    }
+   ]
+  }
+ ],
+ "seats_declared_absent": [],
+ "manifest": {
+  "organ_script": {
+   "path": "caesitas_proto/en_temporal_referent_organ_55b.py",
+   "sha256": "44bbe5bf79f5bf8bb7af2694fbacd3214e24776c9fbddc4dc7612a67475fe667",
+   "note": "ADOPTED organ of record (post-55b split); this pass reimplements none of it"
+  },
+  "organ_receipts": {
+   "path": "caesitas_proto/results/en_temporal_referent_organ_55b_receipts.jsonl",
+   "sha256": "baac46c705178ab62ea119fafae46f307f046bef2e190f27a3409a7a5dac85a6"
+  },
+  "organ_root_shim": {
+   "path": "caesitas_proto/en_temporal_referent_organ_55.py",
+   "sha256": "285707e1e420ff2282e7cd1740d18c70c4e90f00270bb6d70c74d83896216924",
+   "note": "#55.1 F16 re-export shim -> superseded record"
+  },
+  "organ_superseded_record": {
+   "path": "caesitas_proto/superseded/en_temporal_referent_organ_55.py",
+   "sha256": "4babeb03cb182e4482ba3740778d5ee2cd5a0a76bc5ac3511374151ed03a55aa"
+  },
+  "wordnet_zip": {
+   "path": "caesitas_proto/nltk_data/corpora/wordnet.zip",
+   "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+  }
+ }
+}

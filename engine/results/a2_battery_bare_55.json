@@ -1,0 +1,79 @@
+{
+ "registered_look": "evening_addons_registration_55.md §1 — REPORT-ONLY (no floor, no credential language)",
+ "reused_law": {
+  "bare_leg_path": "r1_clean_room_light_50.py bare_auc block (lines 274-281); word-set construction (lines 74-109)",
+  "committed_pair_source": "results/r1_clean_room_light_50.json (axes.v3.bare_auc, axes.48.bare_auc)",
+  "ci_form": "battery_zh_light_v2_48.py word_auc bootstrap (lines 118-129), RandomState(48), B=2000, percentile[2.5,97.5]"
+ },
+ "split_treatment": "LOCKED half only (as the committed bare leg reported it); no adoption-half bare number in the committed record.",
+ "eval_words": {
+  "bright": 58,
+  "dark": 45,
+  "total": 103
+ },
+ "certificate_drift": 0.0,
+ "reproduction_check": {
+  "illum_polarity_axis_v3_48.npz:dark": {
+   "got": 0.9141762452107279,
+   "committed": 0.9141762452107279,
+   "match": true
+  },
+  "illum_polarity_axis_48.npz:dark": {
+   "got": 0.9302681992337165,
+   "committed": 0.9302681992337165,
+   "match": true
+  }
+ },
+ "bare_auc": {
+  "illum_polarity_axis_v3_48.npz:dark": {
+   "auc": 0.9141762452107279,
+   "ci": [
+    0.8574521072796935,
+    0.963984674329502
+   ]
+  },
+  "illum_polarity_axis_v3_48.npz:dark_raw": {
+   "auc": 0.9459770114942528,
+   "ci": [
+    0.896551724137931,
+    0.9823754789272031
+   ]
+  },
+  "illum_polarity_axis_48.npz:dark": {
+   "auc": 0.9302681992337165,
+   "ci": [
+    0.8793007662835249,
+    0.9724137931034482
+   ]
+  },
+  "illum_polarity_axis_48.npz:dark_raw": {
+   "auc": 0.9459770114942528,
+   "ci": [
+    0.896551724137931,
+    0.9823754789272031
+   ]
+  }
+ },
+ "a2_finding": {
+  "axis": "illum_polarity_axis_v3_48.npz key 'dark_raw' (own mu/W)",
+  "bare_auc": 0.9459770114942528,
+  "ci": [
+   0.896551724137931,
+   0.9823754789272031
+  ]
+ },
+ "prediction_vs_outcome": {
+  "committed_prediction_bare": [
+   0.8,
+   0.9
+  ],
+  "outcome_bare_auc": 0.9459770114942528
+ },
+ "suspicion_note": "dark_raw bare AUC (0.9460) is at-or-above the dark axis's own bare number (0.9142). Per evening_addons_registration_55.md §1 this is a surprise worth suspicion (valence hitchhiking) — stated in the registration before the peek. Suggested follow-up: the valence-projection diagnostic. NOT RUN here.",
+ "input_sha256": {
+  "illum_polarity_axis_v3_48.npz": "52bfe9c803c41649e4fa27e89e0a88d6104deefa72699761e33debdb3d1244da",
+  "illum_polarity_axis_48.npz": "d03a8266fb3f37fb3e2fe78293b1718e0a26b66c368811c95672dcd0c73ec3b7",
+  "battery_zh_light_v2_48.py": "2f9c0470f70135c7443f285df5f565bdf4cf6c1664a0b0b41157475559dd8777",
+  "r1_clean_room_light_50.py": "d88ebbcfeb5decb88c560585aa2c33b64fe9e73002dca789d2a554515d955d75"
+ }
+}

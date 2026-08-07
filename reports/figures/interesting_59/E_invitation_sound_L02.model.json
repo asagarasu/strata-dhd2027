@@ -1,0 +1,531 @@
+{
+ "board": "invitation",
+ "line_idx": 1,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "fr:baudelaire_1861",
+ "seats": [
+  {
+   "rid": "fr:baudelaire_1861",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "Songe à la douceur",
+   "v": 0.11571923767350863,
+   "rank": 2,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "fr",
+   "z": 3.162418228355863,
+   "z_mu": -0.0011104216958689682,
+   "z_sigma": 0.036943140006537714,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "Songe",
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "Songe",
+    "delta": 0.11118797799048734,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Songe",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "Songe"
+  },
+  {
+   "rid": "en:aggeler",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Think of the rapture",
+   "v": -0.009978474873848717,
+   "rank": 23,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.404193726087953,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "rapture",
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "rapture",
+    "delta": 0.044061456103363233,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "rapture",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "rapture",
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "en:campbell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Consider the vista",
+   "v": -0.08525824933475014,
+   "rank": 41,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -2.511642674454926,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "Consider",
+    "delta": -0.020642912870860813,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "Consider",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "DEFORMATION *"
+  },
+  {
+   "rid": "en:millay",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Sweet to live with me",
+   "v": -0.03466691292941795,
+   "rank": 33,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.0953438150677697,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "Sweet",
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "Sweet",
+    "delta": 0.04276539577586437,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Sweet",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "Sweet",
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "en:wilbur",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "How sweet all things would seem",
+   "v": 0.010709245168734801,
+   "rank": 20,
+   "n_rank": 42,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.17495670522075055,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "all",
+    "delta": -0.02100886769143579,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "all",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "DEFORMATION *"
+  },
+  {
+   "rid": "zh:dai_wangshu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "想想多甜美",
+   "v": -0.013028633456976163,
+   "rank": 24,
+   "n_rank": 42,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.347119604659418,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "甜美",
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "甜美",
+    "delta": 0.04021866602288743,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:想想"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "甜美",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "zh:guo_hongan",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "想想多甜美，",
+   "v": -0.015017947510075284,
+   "rank": 27,
+   "n_rank": 41,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.3955430319154877,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "甜美",
+   "folded_from": [
+    2
+   ],
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "甜美",
+    "delta": 0.04518408491517851,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:想想"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "甜美",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "zh:qian_chunqi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "想想多甘美，",
+   "v": -0.02961587522803704,
+   "rank": 33,
+   "n_rank": 42,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.750882446443247,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "甘美",
+   "folded_from": null,
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "甘美",
+    "delta": 0.030586157197216753,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:想想"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "甘美",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 3,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

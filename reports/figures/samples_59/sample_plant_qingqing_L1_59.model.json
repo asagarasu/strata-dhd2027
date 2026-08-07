@@ -1,0 +1,701 @@
+{
+ "board": "qingqing",
+ "line_idx": 0,
+ "field": "plant",
+ "cut": 0.016746591672393455,
+ "tier": "SUGGESTED",
+ "line_cut": 0.047023453236746164,
+ "src_rid": "zh:gushi19_02",
+ "seats": [
+  {
+   "rid": "zh:gushi19_02",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "青青河畔草，",
+   "v": 0.003760658963980819,
+   "rank": 6,
+   "n_rank": 10,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 0.10120765432931927,
+   "z_mu": 0.00036912250012107644,
+   "z_sigma": 0.033510671562686674,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "草",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "草",
+    "delta": 0.08202494854281894,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "草",
+     "line_receipts": [
+      "草"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:青青"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "草",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "de:bethge_1907",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Am Ufer dehnt sich heller grüner Rasen,",
+   "v": 0.03159765131383384,
+   "rank": 5,
+   "n_rank": 15,
+   "full_stack": false,
+   "lang": "de",
+   "z": 1.0431899062052223,
+   "z_mu": 0.000304547312994474,
+   "z_sigma": 0.02999751417713891,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "Rasen",
+   "folded_from": [
+    1
+   ],
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "Rasen",
+    "delta": 0.019796182086806013,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Rasen",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "Rasen",
+   "transmission": "SURVIVAL *"
+  },
+  {
+   "rid": "de:heilmann_1905",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Grüner Rasen wächst am Ufer.",
+   "v": -0.05222175234105548,
+   "rank": 10,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "de",
+   "z": -1.751021746131225,
+   "z_mu": 0.000304547312994474,
+   "z_sigma": 0.02999751417713891,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "Rasen",
+    "delta": -0.01777956327847611,
+    "faded": true,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "Rasen",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "DEFORMATION *"
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Green, green riverside grass,",
+   "v": 0.028409215530711025,
+   "rank": 2,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.0420082095832628,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.06896604033194656,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Green"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:giles_1898",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Green grows the grass upon the bank,",
+   "v": 0.13437090027683996,
+   "rank": 1,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 4.669579476708192,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.045426919185784106,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:the",
+      "allit:Green-grows",
+      "allit:grows-grass"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Green, green is the grass by the river,",
+   "v": 0.04469234194558165,
+   "rank": 2,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.5994568917467045,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.0667375997202352,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Green",
+      "allit:green-grass"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:pound_1915",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Blue, blue is the grass about the river",
+   "v": 0.04981849021277614,
+   "rank": 2,
+   "n_rank": 9,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.7749492709934993,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": [
+    1
+   ],
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.07545741655227997,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Blue"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "The grass by the river-bank. ⟨carrier of 2 folded: L1+L2⟩",
+   "v": 0.0018550866262023874,
+   "rank": 9,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.13293437531652152,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": [
+    1,
+    2
+   ],
+   "carrier_line": 2,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.0344346150255493,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:The"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Green green, river bank grasses,",
+   "v": 0.04620270987489112,
+   "rank": 2,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.6511639528063407,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grasses",
+    "delta": 0.056980472048083215,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Green"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grasses",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grasses",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Green, green riverside grass she sees;",
+   "v": -0.035999480447836685,
+   "rank": 9,
+   "n_rank": 10,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.1630070791463778,
+   "z_mu": -0.002027938497760735,
+   "z_sigma": 0.02921009042783328,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "grass",
+   "folded_from": null,
+   "carrier_line": 1,
+   "star": false,
+   "top_tok": {
+    "token": "grass",
+    "delta": 0.03243676107621955,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "grass",
+     "line_receipts": [
+      "grass"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:Green"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "grass",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "grass",
+   "transmission": "SURVIVAL"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

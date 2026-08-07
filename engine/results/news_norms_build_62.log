@@ -1,0 +1,60 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+news_norms_build_62 — registration news_norms_z_registration_0728_62.md
+seed 48 · N 10000 · encoder LaBSE CPU batch_size=1 · drift<1e-06 anchor<2e-06 sigma>1e-09
+axes loaded: {'color': ('color_salience_axis_48.npz', 'axis'), 'plant': ('plant_salience_axis_48.npz', 'axis'), 'sound': ('sound_salience_axis_v3_49.npz', 'axis'), 'illumination': ('illum_polarity_axis_v3_48.npz', 'dark'), 'temporal': ('duration_value_axis_48.npz', 'axis')}
+loading LaBSE (cpu)…
+
+=== en (eng_news_2025_1M) ===
+source leipzig_en_sentences.txt sha256 19ca4fb4d30f3278…
+raw 1000000 → dedup 1000000 → stride k=100 → sampled 10000
+encoding 10000 sentences (pass 1/2, batch_size=1)…
+encoding pass 2/2 (seed-48 permuted — certificate)…
+certificate drift 0.000e+00
+  color         mu +0.00204 sigma 0.02588 p5/50/95 -0.0391/+0.0017/+0.0443
+  plant         mu -0.00203 sigma 0.02921 p5/50/95 -0.0489/-0.0023/+0.0461
+  sound         mu +0.00446 sigma 0.03572 p5/50/95 -0.0524/+0.0033/+0.0636
+  illumination  mu +0.00116 sigma 0.03456 p5/50/95 -0.0550/+0.0010/+0.0577
+  temporal      mu -0.00253 sigma 0.03727 p5/50/95 -0.0637/-0.0022/+0.0580
+
+=== zh (zho_news_2020_300K) ===
+source zho_news_2020_300K-sentences.txt sha256 869ac7ceb53b4da0…
+raw 300000 → dedup 300000 → stride k=30 → sampled 10000
+encoding 10001 sentences (pass 1/2, batch_size=1)…
+encoding pass 2/2 (seed-48 permuted — certificate)…
+certificate drift 0.000e+00
+  color         mu +0.00207 sigma 0.02875 p5/50/95 -0.0423/+0.0011/+0.0480
+  plant         mu +0.00037 sigma 0.03351 p5/50/95 -0.0504/-0.0010/+0.0536
+anchor |Δ| 0.000e+00 (sound-proj 0.041991110358000162)
+  sound         mu +0.00123 sigma 0.04108 p5/50/95 -0.0612/-0.0011/+0.0694
+  illumination  mu +0.00121 sigma 0.03771 p5/50/95 -0.0595/+0.0010/+0.0623
+  temporal      mu -0.00320 sigma 0.03919 p5/50/95 -0.0683/-0.0030/+0.0603
+
+=== de (deu_news_2024_300K) ===
+source leipzig_de_sentences.txt sha256 4511291a70a31b82…
+raw 300000 → dedup 300000 → stride k=30 → sampled 10000
+encoding 10000 sentences (pass 1/2, batch_size=1)…
+encoding pass 2/2 (seed-48 permuted — certificate)…
+certificate drift 0.000e+00
+  color         mu -0.00001 sigma 0.02599 p5/50/95 -0.0409/-0.0007/+0.0423
+  plant         mu +0.00030 sigma 0.03000 p5/50/95 -0.0483/-0.0003/+0.0487
+  sound         mu -0.00140 sigma 0.03638 p5/50/95 -0.0592/-0.0025/+0.0602
+  illumination  mu -0.00146 sigma 0.03466 p5/50/95 -0.0576/-0.0018/+0.0556
+  temporal      mu +0.00209 sigma 0.03771 p5/50/95 -0.0606/+0.0025/+0.0630
+
+=== fr (fra_news_2024_300K) ===
+source leipzig_fr_sentences.txt sha256 b47280881536a50f…
+raw 300000 → dedup 300000 → stride k=30 → sampled 10000
+encoding 10000 sentences (pass 1/2, batch_size=1)…
+encoding pass 2/2 (seed-48 permuted — certificate)…
+certificate drift 0.000e+00
+  color         mu -0.00353 sigma 0.02581 p5/50/95 -0.0444/-0.0042/+0.0380
+  plant         mu +0.00408 sigma 0.02936 p5/50/95 -0.0439/+0.0040/+0.0520
+  sound         mu -0.00111 sigma 0.03694 p5/50/95 -0.0582/-0.0025/+0.0603
+  illumination  mu -0.00064 sigma 0.03432 p5/50/95 -0.0563/-0.0009/+0.0553
+  temporal      mu +0.00241 sigma 0.03661 p5/50/95 -0.0584/+0.0029/+0.0618
+
+=== ALL GATES GREEN ===
+certificates: {'en': '0.00e+00', 'zh': '0.00e+00', 'de': '0.00e+00', 'fr': '0.00e+00'}
+anchor |Δ| 0.00e+00
+wrote results/news_norms_z_62.json + results/news_norms_sample_manifest_62.json

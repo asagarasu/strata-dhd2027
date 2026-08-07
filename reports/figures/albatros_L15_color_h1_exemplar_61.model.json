@@ -1,0 +1,641 @@
+{
+ "board": "albatros",
+ "line_idx": 14,
+ "field": "color",
+ "cut": 0.014943544323258378,
+ "tier": "ADOPTED · flagship",
+ "line_cut": 0.045825570756125054,
+ "src_rid": "fr:baudelaire_1861",
+ "seats": [
+  {
+   "rid": "fr:baudelaire_1861",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "Exilé sur le sol au milieu des huées,",
+   "v": -0.06034013356956742,
+   "rank": 15,
+   "n_rank": 16,
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": true,
+   "state_word": "Exilé",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "Exilé",
+    "delta": -0.021765192248538727,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Exilé",
+    "colour": "#d97706",
+    "pale": false
+   }
+  },
+  {
+   "rid": "de:george_1901",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Doch hindern drunten zwischen frechem volke",
+   "v": 0.044086870200355496,
+   "rank": 3,
+   "n_rank": 16,
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "frechem",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "frechem",
+    "delta": 0.019026124241222266,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "frechem",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "GHOST-CARRY *"
+  },
+  {
+   "rid": "de:kalckreuth_1907",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Doch hindern auf dem Land, umringt von lautem Hohne,",
+   "v": -0.009297591128696464,
+   "rank": 8,
+   "n_rank": 16,
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "lautem",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "lautem",
+    "delta": 0.019171471420280903,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "lautem",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "GHOST-CARRY *"
+  },
+  {
+   "rid": "en:aggeler",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "When exiled on the earth, the butt of hoots and jeers,",
+   "v": 0.0035099680579551125,
+   "rank": 8,
+   "n_rank": 16,
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "earth",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "When",
+    "delta": 0.03184439454582147,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "earth"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:the"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "When",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:campbell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "But, stranded on the earth to jeering crowds,",
+   "v": -0.02589349301776003,
+   "rank": 12,
+   "n_rank": 16,
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "earth",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "But",
+    "delta": 0.015939923816767055,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "earth"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "But",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:dillon",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Exiled on earth, at bay amid the jeering crowd,",
+   "v": -0.03195735679042816,
+   "rank": 12,
+   "n_rank": 16,
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "earth",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "earth",
+    "delta": 0.01693253092620759,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "earth",
+     "line_receipts": [
+      "earth"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "earth",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:leclercq",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Exiled on earth amid a jeering crowd,",
+   "v": -0.027193792542362205,
+   "rank": 12,
+   "n_rank": 16,
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "earth",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "crowd",
+    "delta": 0.020618840186393074,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "earth"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "crowd",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:wilbur",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Exiled on earth amidst its hooting crowds,",
+   "v": -0.03262344091404304,
+   "rank": 14,
+   "n_rank": 16,
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "earth",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "crowds",
+    "delta": 0.020079066620391932,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "earth"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "crowds",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "zh:dai_wangshu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "一旦堕落在尘世，笑骂尽由人，",
+   "v": -0.047433067521420604,
+   "rank": 14,
+   "n_rank": 16,
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "一旦",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "一旦",
+    "delta": 0.03898595232054939,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "一旦",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "GHOST-CARRY *"
+  },
+  {
+   "rid": "zh:guo_hongan",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "一旦落地，就被嘘声围得紧紧，",
+   "v": -0.031441850727923944,
+   "rank": 14,
+   "n_rank": 16,
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "落地",
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "落地",
+    "delta": -0.02501065928063219,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:紧紧"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "落地",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "transmission": "GHOST-CARRY *"
+  },
+  {
+   "rid": "zh:qian_chunqi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "一被放逐到地上，陷于嘲骂声中，",
+   "v": -0.029774855837373368,
+   "rank": 11,
+   "n_rank": 16,
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 15,
+   "star": false,
+   "top_tok": {
+    "token": "一",
+    "delta": 0.013060943920297406,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "一",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "transmission": "UNHEARD *"
+  }
+ ],
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

@@ -1,0 +1,11 @@
+{
+ "source_model": "reports/figures/samples_59/sample_sound_tiaotiao_L4_59.model.json",
+ "also_reads": "publishable/deterministic-descriptive-fields/descriptive_scores_tiaotiao_59.json (folded lines)",
+ "caption_of_record": "The loom line. Every rendering invents a sound no word of the source claims. (14 w, chair-proposed #66, her ruling pending)",
+ "face_grammar": "v3: named seats · bare lang · forke's borrowed-cut token-grain restored · the fold shown whole (L7+L8) · word context on a second line · z as a number",
+ "chair_dissent": "the ⟨MT⟩ glyph left the face at her word; the machine-control declaration was preserved in one legend line at zero column cost",
+ "print_law": "11px min face at W=680 → 7.34 pt at 16 cm — below the 8 pt floor BY DESIGN this pass; G8 reports, does not gate",
+ "generator": "loom_board_gen_66.py",
+ "session": "#66",
+ "date": "2026-07-31"
+}

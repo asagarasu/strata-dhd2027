@@ -1,0 +1,18 @@
+# Sea-surge/billow probes (de+en) — literal marine motion only, no interiority metaphors
+# (whether "wogt in dir" loads here is a finding, not an input). Paired 1:1 with calm.txt.
+Die See wogte schwer gegen die Mole.
+Wellen brandeten schäumend über die Felsen.
+Die Brandung rollte dumpf heran.
+Der Sturm wühlte das ganze Meer auf.
+Die Dünung hob und senkte das Boot.
+Das Wasser schwoll und schlug an den Kai.
+Der Fluss schwoll nach dem Regen mächtig an.
+Gischt spritzte, als die Woge sich überschlug.
+The sea surged heavily against the pier.
+Waves broke foaming over the rocks.
+The swell lifted and dropped the little boat.
+The storm churned the whole bay.
+The river swelled and heaved after the rain.
+Breakers rolled in, one after another.
+Foam flew as the wave curled and crashed.
+The current boiled around the bridge piles.

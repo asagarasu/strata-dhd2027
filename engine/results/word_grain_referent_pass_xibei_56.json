@@ -1,0 +1,337 @@
+{
+ "what": "word-grain corpus breadth pass — board xibei (#56) — MEASUREMENT",
+ "board": "xibei",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "renderings": [
+  "zh:gushi19_05"
+ ],
+ "per_rendering": {
+  "zh:gushi19_05": []
+ },
+ "measurement_items": {},
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "null_cross_check": {
+  "ref": {
+   "n_control": 61,
+   "mean": -6.420571089658418e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "mine": {
+   "n_control": 61,
+   "mean": -6.420571089658448e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "ref_source": "committed_55",
+  "d_mean": 2.981555974335137e-19,
+  "d_sd": 0.0,
+  "n_equal": true
+ },
+ "invalid_controls": [
+  {
+   "word": "一场",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "七八年",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "人們",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "低頭不語",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "做不了",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "兩個",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "六名",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "冲锋在前",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刑事法律",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刻上",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "啥时候",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大不相同",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大巴车",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "官員",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "客量",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "密切接触",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "數據",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "新冠",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "紐森",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经典之作",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经费",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "罪責屬",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "羊们",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "腐败现象",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "蔓延到",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "記錄",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "設計",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诉衷情",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诸事",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "資料",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "还有",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "進行",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "過度",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "鑼鼓聲",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "顯示",
+   "reasons": [
+    "attestation_starved"
+   ]
+  }
+ ],
+ "certificate_drift": 0.0,
+ "n_texts": 35178,
+ "addendum": {
+  "file": "host_frames_xibei_addendum_56.json",
+  "truncation": {
+   "applied": false,
+   "reason": null,
+   "caps": {}
+  },
+  "extraction_validation": {
+   "青春": 201,
+   "黑夜": 29
+  }
+ },
+ "provenance": {
+  "machinery": "word_latent_v5_referent_color_54.py imported verbatim; word_grain_referent_pass_55.py helpers imported verbatim",
+  "axis_npz": "color_salience_axis_48.npz",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "attempt4_pool_sha256": "941224b32b8904a6b5186bbfe7997e6d3c9c8aac1c7068b7959a3dba779e44c1",
+  "latent_scores_sha256": "ee7b542c567bd6c8910f2ff4c421a8697323468782524555c5c775079a11379d",
+  "addendum_sha256": "d5ad569614da86723e1185d40dcc96e43b4448d5e5b76e1f22ebb717988740f4",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32,
+  "f_min": 5,
+  "min_nat": 3,
+  "z_floor": 1.5
+ }
+}

@@ -1,0 +1,14 @@
+Skeat entries parsed: 11331
+
+== founding-triple selftests ==
+grc καλχαίνω [color]: True | etymon: ka/lxh | terms: ['purple'] |  kalxai/nw , ( ka/lxh ) prop. make purple :— Pass. , to be purple , Nic. Th. 641 . metaph. (cf. porfu/rw ), make dark an
+en brood [color]: False | terms: [] | BROOD, that which is bred. (E.) M.E. brod, Owl and Nightin- gale, 518, 1633; Rob. of Glouc. p. 70, 1. 16.—A.S.
+en brooding [color]: False | terms: None | no entry
+en consider [star]: True | terms: ['constellation', 'sidereal', 'sidus', 'star'] | CONSIDER, to deliberate, think over, observe. (F.,—L.) M.E. consideren; Chaucer, C. T. 3023.—F. considerer.— L
+en consider [color]: False | terms: [] | CONSIDER, to deliberate, think over, observe. (F.,—L.) M.E. consideren; Chaucer, C. T. 3023.—F. considerer.— L
+en grim [dark]: False | terms: None | no entry
+
+SELFTESTS OK — the founding triple's detection layer stands:
+  grc source: purple chain FOUND (LSJ prints it in-entry)
+  en brooding: NO color chain (the founding loss, mechanical)
+  (de side realized — Hölderlin's rotes Wort needs no chain)

@@ -1,0 +1,4552 @@
+{
+ "status": "PROPOSED — PREP ONLY. Faithful partition of the committed triggers_fired; nothing runs, nothing claims.",
+ "artifact": "P3(c) circularity quarantine — T1/T2-vs-T3 nomination split (consult risk #1)",
+ "generated": "2026-07-22",
+ "source_record": "results/dark_pool_assembly_v2_PROPOSED_54.json  ('candidates'.*.triggers_fired)",
+ "rule": "EXAM-ELIGIBLE = triggers_fired contains NO 'T3_scene' (dictionary/character routes T1, T2, T1_addendum only). QUARANTINED = triggers_fired contains 'T3_scene' (Places365 scene LUMINANCE — the same physical quantity proposed as truth, hence circular). Split over the 605 committed candidates; her-nominated probes (triggers_fired=[]) are a SEPARATE non-trigger route.",
+ "counts": {
+  "total_candidates": 605,
+  "exam_eligible_noT3": 253,
+  "quarantined_anyT3": 352,
+  "probes_her_separate_route": 5,
+  "members_both_T3_and_dict_route": 0
+ },
+ "route_breakdown_triggers_fired": {
+  "T1": 4,
+  "T1+T2": 1,
+  "T1_addendum": 72,
+  "T2": 176,
+  "T3_scene": 352
+ },
+ "eligible_by_route": {
+  "T1_only": [
+   "夜",
+   "天黑",
+   "灯",
+   "鹞子"
+  ],
+  "T2_only": [
+   "一夜",
+   "一夜情",
+   "一整夜",
+   "三更半夜",
+   "上半夜",
+   "上夜班",
+   "下半夜",
+   "不分昼夜",
+   "不眠之夜",
+   "今夜",
+   "今晨",
+   "令人昏眩",
+   "入夜",
+   "冬夜",
+   "凌晨",
+   "初夜",
+   "前半夜",
+   "前夜",
+   "午夜",
+   "午夜时分",
+   "半夜",
+   "半夜三更",
+   "半夜时分",
+   "半夜里",
+   "发昏",
+   "吃夜宵",
+   "后半夜",
+   "圣诞夜",
+   "坐夜",
+   "夙夜",
+   "夜不归宿",
+   "夜以继日",
+   "夜作",
+   "夜光",
+   "夜光表",
+   "夜分",
+   "夜勤",
+   "夜半",
+   "夜半三更",
+   "夜场",
+   "夜夜",
+   "夜宵",
+   "夜宿",
+   "夜工",
+   "夜市",
+   "夜幕",
+   "夜幕低垂",
+   "夜战",
+   "夜晚",
+   "夜景",
+   "夜来",
+   "夜深人静",
+   "夜游",
+   "夜游神",
+   "夜漫漫",
+   "夜班",
+   "夜生活",
+   "夜盲",
+   "夜盲症",
+   "夜礼服",
+   "夜视",
+   "夜视仪",
+   "夜课",
+   "夜路",
+   "夜车",
+   "夜里",
+   "夜间",
+   "夜间工作",
+   "夜阑",
+   "夜阑人静",
+   "夜静更深",
+   "夜餐",
+   "夜饭",
+   "夤夜",
+   "大半夜",
+   "大年夜",
+   "天昏地暗",
+   "头昏",
+   "头昏目眩",
+   "头昏眼花",
+   "头昏脑胀",
+   "子夜",
+   "守夜",
+   "宵夜",
+   "寒夜",
+   "小半夜",
+   "小年夜",
+   "巡夜",
+   "年夜",
+   "年夜饭",
+   "开夜车",
+   "当夜",
+   "彻夜",
+   "彻夜不眠",
+   "彻夜未眠",
+   "成夜",
+   "成夜不睡",
+   "成日成夜",
+   "打夜作",
+   "整夜",
+   "整天整夜",
+   "日以继夜",
+   "日夜",
+   "日夜兼程",
+   "日日夜夜",
+   "早晨",
+   "早晨好",
+   "昏乱",
+   "昏倒",
+   "昏厥",
+   "昏天黑地",
+   "昏头",
+   "昏头转向",
+   "昏庸",
+   "昏愦",
+   "昏昏沉沉",
+   "昏昏迷迷",
+   "昏昧",
+   "昏暗",
+   "昏死",
+   "昏沉",
+   "昏沉沉",
+   "昏眩",
+   "昏聩",
+   "昏过去",
+   "昏迷",
+   "昏黄",
+   "昏黑",
+   "星夜",
+   "春夜",
+   "昨夜",
+   "昨天夜间",
+   "昼夜",
+   "晓行夜宿",
+   "晨光",
+   "晨夕",
+   "晨报",
+   "晨操",
+   "晨昏",
+   "晨曦",
+   "晨练",
+   "晨露未晞",
+   "晨风",
+   "暗夜",
+   "更深夜静",
+   "月夜",
+   "月色昏黄",
+   "极夜",
+   "查夜",
+   "每夜",
+   "没日没夜",
+   "消夜",
+   "深夜",
+   "深夜航班",
+   "深更半夜",
+   "清夜",
+   "清晨",
+   "漏夜",
+   "漫漫长夜",
+   "熬夜",
+   "白夜",
+   "白天黑夜",
+   "神志昏迷",
+   "秋夜",
+   "终夜",
+   "肝昏迷",
+   "走夜路",
+   "起夜",
+   "过夜",
+   "连夜",
+   "通夜",
+   "长夜",
+   "除夕夜",
+   "雨夜",
+   "雪夜",
+   "黑更半夜"
+  ],
+  "T1_and_T2": [
+   "黑夜"
+  ],
+  "T1_addendum": [
+   "下降",
+   "乾",
+   "云",
+   "亮",
+   "亮光",
+   "传",
+   "光",
+   "入",
+   "冬天",
+   "冷",
+   "出去",
+   "前景",
+   "勾结",
+   "反映",
+   "商量",
+   "大",
+   "女神",
+   "学校",
+   "密",
+   "小人",
+   "幽暗",
+   "彷徨",
+   "打",
+   "放",
+   "早",
+   "明星",
+   "星空",
+   "暗",
+   "暗算",
+   "月",
+   "朗朗",
+   "柔情",
+   "格调",
+   "求婚",
+   "洋洋",
+   "流星",
+   "浩浩",
+   "消失",
+   "清淡",
+   "清脆",
+   "漂亮",
+   "漠漠",
+   "灯光",
+   "灼灼",
+   "炎炎",
+   "炯炯",
+   "烈",
+   "煌煌",
+   "熠熠",
+   "爽快",
+   "玫瑰",
+   "理论",
+   "皎皎",
+   "盈盈",
+   "相同",
+   "研究",
+   "私奔",
+   "秋波",
+   "算计",
+   "美",
+   "背后",
+   "脆",
+   "著名",
+   "说",
+   "调和",
+   "走路",
+   "阳光",
+   "雪花",
+   "鲜",
+   "黎明",
+   "黑",
+   "默契"
+  ]
+ },
+ "eligible_members": [
+  {
+   "word": "一夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "一夜情",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "一整夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "三更半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "上半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "上夜班",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "下半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "下降",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "不分昼夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "不眠之夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "乾",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "云",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "亮",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "亮光",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "今夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "今晨",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "令人昏眩",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "传",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "光",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "入",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covert_sense_excluded"
+  },
+  {
+   "word": "入夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "冬夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "冬天",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "冷",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "凌晨",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "出去",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "初夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "前半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "前夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "前景",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "勾结",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covert_sense_excluded"
+  },
+  {
+   "word": "午夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "午夜时分",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "半夜三更",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "半夜时分",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "半夜里",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "反映",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "发昏",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "吃夜宵",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "后半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "商量",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "圣诞夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "坐夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夙夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜",
+   "triggers_fired": [
+    "T1"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜不归宿",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜以继日",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜作",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜光",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜光表",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜分",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜勤",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜半",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜半三更",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜场",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜宵",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜宿",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜工",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜市",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜幕",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜幕低垂",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜战",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜晚",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜景",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "夜来",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜深人静",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜游",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜游神",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜漫漫",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜班",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜生活",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜盲",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜盲症",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜礼服",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜视",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜视仪",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜课",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜路",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜车",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜里",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜间",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜间工作",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜阑",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夜阑人静",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜静更深",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜餐",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "夜饭",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "夤夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "大",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "大半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "大年夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "天昏地暗",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "天黑",
+   "triggers_fired": [
+    "T1"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "头昏",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "头昏目眩",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "头昏眼花",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "头昏脑胀",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "女神",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "子夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "学校",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "守夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "宵夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "密",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covert_sense_excluded"
+  },
+  {
+   "word": "寒夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "小人",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "小半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "小年夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "巡夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "年夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "年夜饭",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "幽暗",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "开夜车",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "当夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "彷徨",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "彻夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "彻夜不眠",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "彻夜未眠",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "成夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "成夜不睡",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "成日成夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "打",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "打夜作",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "放",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "整夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "整天整夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "日以继夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "日夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "日夜兼程",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "日日夜夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "早",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "早晨",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "早晨好",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "明星",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏乱",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏倒",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏厥",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏天黑地",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏头",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏头转向",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏庸",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏愦",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏昏沉沉",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏昏迷迷",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏昧",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏暗",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏死",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏沉",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏沉沉",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏眩",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏聩",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏过去",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏迷",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏黄",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昏黑",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "星夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "星空",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "春夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "昨夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "昨天夜间",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "昼夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "晓行夜宿",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "晨光",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "晨夕",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "晨报",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "晨操",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "晨昏",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "晨曦",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "晨练",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "晨露未晞",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "晨风",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "暗",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "暗夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "暗算",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "更深夜静",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "月",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "月夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "月色昏黄",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "朗朗",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "极夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "柔情",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "查夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "格调",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "每夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "求婚",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "没日没夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "洋洋",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "流星",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "浩浩",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "消夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "消失",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "深夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "深夜航班",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "深更半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "清夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "清晨",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "清淡",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "清脆",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "漂亮",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "漏夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "漠漠",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "漫漫长夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "灯",
+   "triggers_fired": [
+    "T1"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "灯光",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "灼灼",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "炎炎",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "炯炯",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "烈",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "煌煌",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "熠熠",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "熬夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "爽快",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "玫瑰",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "理论",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "白夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "白天黑夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "皎皎",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "盈盈",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "相同",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "研究",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "神志昏迷",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "私奔",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "秋夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "秋波",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "算计",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covert_sense_excluded"
+  },
+  {
+   "word": "终夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "美",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "肝昏迷",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "背后",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covert_sense_excluded"
+  },
+  {
+   "word": "脆",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "著名",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "说",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "调和",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "走夜路",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "走路",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "起夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "过夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "连夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "通夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "长夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "阳光",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "除夕夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "雨夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "雪夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "雪花",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "鲜",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "鹞子",
+   "triggers_fired": [
+    "T1"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "黎明",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "黑",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "黑夜",
+   "triggers_fired": [
+    "T1",
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "黑更半夜",
+   "triggers_fired": [
+    "T2"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "默契",
+   "triggers_fired": [
+    "T1_addendum"
+   ],
+   "tier": "covered_strength_only"
+  }
+ ],
+ "quarantined_members": [
+  {
+   "word": "上演",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "中",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "中央",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "中心",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "中枢",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "中锋",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "中间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "主席台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "乞求",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "书屋",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "书店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "书铺",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "买东西",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "井下",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "休息厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "休息室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "伙房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "会堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "低沉",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "余地",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "保险库",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "保龄球道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "储存",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "储放",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "储藏",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "元件",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "公路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "内侧",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "内地",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "内景",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "内部",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "内陆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "凹陷",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "出演",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "剧场",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "化妆室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "化装室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "博取",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "博物院",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "博物馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厂子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厂家",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厅事",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "厅堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厅房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "厚",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "厨",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "厨房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "发出响声",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "台地",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "台子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "吧",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "咖啡店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "响",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "商号",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "商店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "园",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "园圃",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "园林",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "围绕",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "圃",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "圆圈",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "圆环",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "圈",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "圈圈",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "圈子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "土坑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "地下室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "地方",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "地窨子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "场圃",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "坎",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "坑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "坑井",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "坛",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "基",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "处对象",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "大会堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "大厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "大堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "大排档",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "大礼堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "奥",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "字号",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "存",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "存储",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "存贮",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "室内",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "室外",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "宫廷",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "宴会厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "寿司店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "封锁",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "小节",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "小街",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "居室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "屋",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "屋子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "履行",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "岩洞",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "岩穴",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "嶝",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "工厂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "巷",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "巷子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "市肆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "平台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "庑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "底部",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "庖",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "庖厨",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "店家",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "店铺",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "座舱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "庭",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "庭院",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "廊",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "廊子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "弄",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "弄堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "当腰",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "径",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "径道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "性能",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "戏园子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "戒",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "戒指",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "战区",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "战线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "户",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "户外",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "房子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "房室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "房门",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "房间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "扉",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "打点儿",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "打电话",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "执行",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "拍拖",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "招",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "招惹",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "拦",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "拦阻",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "拱顶",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "拳击台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "拳击场",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "拳台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "挂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "指环",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "挡横",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "排",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "排列",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "搞对象",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "擂台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "更衣室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "服装店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "机舱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "杆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "杠",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "条",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "枋",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "林",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "林地",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "林子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "林木",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "柜台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "核",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "森林",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "楼道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "殿",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "殿堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "比赛场地",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "水族馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "沉",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "沉沉",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "泓",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "法庭",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "法院",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "流水线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "浓",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "浜",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "海洋公园",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "深",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "深切",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "深刻",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "深厚",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "深奥",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "深沉",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "深邃",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "渊",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "渊深",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "湛",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "演",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "演出",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "演唱会",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "演奏会",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "演播厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "演播室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "潴",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "瀑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "瀑布",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "火山",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "灶",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "灶屋",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "灶房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "灶间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "照像馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "照相馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "牢房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "狱室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "环",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "环子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "球场",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "甜",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "生产线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "甬道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "电池",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "画室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "畿",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "皱痕",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "皱纹",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "监房",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "石窟",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "矿井",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "矿坑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "礼堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "禁闭",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "穹",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "穹隆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "空间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "窈冥",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "窑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "窝",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "窨",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "竖井",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "站台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "竹林",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "竹林子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "笃深",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "箐",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "箭杆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "纹",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "线条",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "线路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "细胞",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "美食城",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "肆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "胡同",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "膛",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "舞厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "舞场",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "花园",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "苑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "菜馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "蓄藏",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "藏",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "行",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "行使",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "衖",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "表演",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "表现",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "衬",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "裁判所",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "装配线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "讲台",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "讲坛",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "诗句",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "谈对象",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "谈恋爱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "货品陈列区",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "货品陈列室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "货柜",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "购物",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "贮",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "贮存",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "贮积",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "贮蓄",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "赛场",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "走廊",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "走道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "趟",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "路线",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "路途",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "蹊径",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "车把",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "车间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "轨",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "轮",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "轮机舱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "轴",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "过道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "迪斯科舞厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "追",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "追求",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "退路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "途",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "通道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "道",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "道子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "道路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "酒吧",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "酒吧间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "酒家",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "酒楼",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "里头",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "里面",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "重",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "金库",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "金銮殿",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "铺",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "铺子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "铺户",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "门",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "间",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "闼",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "闾巷",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "阁楼",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "队",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "阱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "陈列室",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "院外游说团",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "陷坑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "陷阱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "雨林",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "顶楼",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "飞瀑",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "食堂",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "食府",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "食阁",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "餐厅",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "餐馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "饭庄",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "饭店",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "饭铺",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "饭馆",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "馆子",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "gated_out"
+  },
+  {
+   "word": "香",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "covered_strength_only"
+  },
+  {
+   "word": "香甜",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "马路",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "驾驶舱",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "鱼缸",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "鸣",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  },
+  {
+   "word": "龛",
+   "triggers_fired": [
+    "T3_scene"
+   ],
+   "tier": "coverage_gap"
+  }
+ ],
+ "probes_her": [
+  {
+   "word": "停电",
+   "role": "probe_her",
+   "triggers_fired": []
+  },
+  {
+   "word": "地窖",
+   "role": "probe_her",
+   "triggers_fired": []
+  },
+  {
+   "word": "洞穴",
+   "role": "probe_her",
+   "triggers_fired": []
+  },
+  {
+   "word": "深海",
+   "role": "probe_her",
+   "triggers_fired": []
+  },
+  {
+   "word": "隧道",
+   "role": "probe_her",
+   "triggers_fired": []
+  }
+ ],
+ "secondary_circularity_note_for_her": "The consult asks whether contamination leaks beyond T3. FLAG: the T1_addendum route (45 covered + 22 gated) nominated via MOE ILLUMINATION senses (own-definition sweep), and the proposed TIME/VENUE truth base ALSO reads MOE definitions. This is NOT the T3 luminance circularity, but it is a second place where the nominator and the truth share a source (MOE). T1/T2 character-group and dictionary-headword nomination do not use time-of-day/illuminance clauses, so the time-word solar truth (artifact a) is arguably independent of them; the T1_addendum illumination-sense route is the one to scrutinise. Recorded for her call."
+}

@@ -1,0 +1,20 @@
+{
+ "what": "exhibit — the 碧 L3 colour panel (Yellow-Crane mini-board, EXHIBITION)",
+ "line": 3,
+ "field": "color",
+ "cell": "RENDERED",
+ "zh_line": "孤帆遠影碧山盡，",
+ "en_line": "His lone sail blots the far sky.",
+ "zh_word_color_fires": false,
+ "zh_written_color_carrier_present": true,
+ "zh_written_color_fires_three_check": null,
+ "en_word_color_receipts": [
+  "sky"
+ ],
+ "expected_cell": null,
+ "verdict_matches_expected": null,
+ "certificate": 0.0,
+ "gate": "model→render→gate→xmllint; sidecar beside (bespoke draw)",
+ "banner": "alignment DRAFT, PENDING-HER-BLESSING (4→5 split on final line; L3 clean); census/heat-map FLAGGED FOR HER REVIEW",
+ "honesty_note": "The task named the COLOUR axis and anticipated a colour LOSS (碧 states a jade-green; Pound's line has no explicit hue-word). The measured cell is RENDERED — NOT a simple loss — via the full law: (1) 碧 does NOT fire the zh WORD colour boolean. trait_labelers.zh_color DELIBERATELY holds 碧 (a 間色) latent — it fires only inside listed compounds (碧色/碧綠/青碧); in 碧山 it stands alone, so the zh WORD colour is SILENT (fires=False). Its WRITTEN cell DOES carry a carrier (碧, HowNet pair blue/蓝: carrier_present=True, fires_bool=True), but the census law reads `fires_three_check` (=None — the colour written cell does not set it; its scalar leg is PENDING), so chan_written does NOT promote 碧 to a latent STATE; and the colour referent miner found no trigger word (referent_trigger_words=[]). (2) BUT the LaBSE colour DETECTOR fires a colour TOKEN-GHOST on L3: read with its native punctuation (孤帆遠影碧山盡，) the maskable token(s) ['影碧山'] — which CONTAIN 碧 — have colour Δ >= the cut ([0.0184] >= 0.0149), so linegrain_law_60.triggered_tokens fires and, with the word tier silent and no written/referent state, line_state returns the zh colour state = GHOST (via 'meter (token)'), NOT absent. (The detector sees 碧's colour salience but no CHANNEL claims it — a ghost, not a state. The trailing punctuation matters: without the comma the same token sits just below the cut; the board reads lines with native punctuation, as every board does.) (3) Pound's 'sky' DOES fire the en WORD colour boolean — en_color is xkcd-name-based and 'sky' is an xkcd blue (receipt ['sky'], clean) → ACTIVE. Cell = (ghost, active) = RENDERED: the source's colour is only a meter-ghost (碧 held latent at the word tier, written three-check unrun), while Pound realizes stated colour on 'sky'. Doubly honest — 碧's colour is REAL (a written carrier AND a detector ghost) but the law makes it a ghost not a state. Reported, NOT faked; the exact cell is whatever the full law computed (never assumed). (The 一作「緑」 green-variant of L3 would, if adopted, fire the zh WORD colour via 緑 — a DIFFERENT crossing; the board scores the MAIN reading 碧山 per the text of record.)"
+}

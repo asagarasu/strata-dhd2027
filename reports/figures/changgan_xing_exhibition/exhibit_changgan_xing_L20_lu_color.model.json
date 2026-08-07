@@ -1,0 +1,20 @@
+{
+ "what": "exhibit — the 綠 L20 colour panel (River-Merchant mini-board, EXHIBITION)",
+ "line": 20,
+ "field": "color",
+ "cell": "SURVIVAL",
+ "zh_line": "一一生綠苔。",
+ "en_line": "By the gate now, the moss is grown, the different mosses,",
+ "zh_word_color_receipts": [
+  "綠"
+ ],
+ "en_word_color_receipts": [
+  "moss"
+ ],
+ "expected_cell": "DEFORMATION",
+ "verdict_matches_expected": false,
+ "certificate": 0.0,
+ "gate": "model→render→gate→xmllint; sidecar beside (bespoke draw)",
+ "banner": "alignment DRAFT, PENDING-HER-BLESSING (30↔30 positional); census/heat-map FLAGGED FOR HER REVIEW",
+ "honesty_note": "verdict_matches_expected=FALSE. The task expected DEFORMATION (綠 states green; Pound's line drops the hue). But the live descriptive en colour labeler trait_labelers.en_color is xkcd-colour-name-based, and 'moss' IS an xkcd colour name (a green): boolean_states('...the different mosses...', 'en') fires colour, receipt ['moss'] (CLEAN, not plant-flagged). Per LAW.line_state the en side is STATED/active. zh 綠 fires the zh word colour too (['綠']) → active. So the crossing lands (active, active) = SURVIVAL, not the expected (active, absent) = DEFORMATION. The colour did NOT vanish — it re-landed lexically on the colour-charged noun 'moss'. Reported honestly (task rule 'REPORT what IS'); the verdict is NOT faked. (This is the SAME class of finding as the song_youren plant board: a radical/lexeme-aware descriptive labeler charges a word the task assumed silent.)"
+}

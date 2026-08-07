@@ -1,0 +1,5046 @@
+{
+  "title": "MOE single-char PLANT-sense headwords — hardened derivation (PROPOSED)",
+  "status": "PROPOSED — concludes nothing; field owner adopts/amends/rejects",
+  "tier": "REFERENT-TIER evidence (her ruling 07-21); not written charge.",
+  "date": "2026-07-21",
+  "session": 54,
+  "queue_item": 6,
+  "field_shape": "single field boolean (is this sense about a plant); one list, per-char routes recorded.",
+  "n_single_char_headwords_scanned": 11056,
+  "n_charged": 227,
+  "charged_chars": "匏叢朴李杏杜杬杶杻枌果枳柏柑柘柚柞柟柯柰柳柿栗栲栵桃桉桑梅梓梔梣梨棉棗棘棠棣棫棶椅椇椈椿楓楔楙楚楝楠楢楨楮楷楸榆榕榖榛榧榿槐槲槻樅樗樟樠樲樺橘橙檀檎檖檟櫞櫟櫧櫨櫬櫸櫻欇欒洗漆瓜瓠秏稌稗稻竹篛籐粟粱結艸芋芏芐芑芒芘芝芡芥芨芩芽苔苕苖苙苻茄茅茛茜茪茶草荊荏荓荔荷荻荼莔莖莞莧莪莽菀菁菅菉菊菘菝菫菰菱菸萊萍萑萱萴葑葒葖葛葞葫葴葹葽蒒蒕蒜蒪蒯蒲蒹蒿蓍蓏蓫蓬蓮蓱蓲蓴蓷蓼蔓蔚蔥蔦蔧蔬蔯蕁蕎蕕蕣蕨蕮蕹蕺薁薇薊薑薤薰薹薺藍藎藚藜藟藤藨藫藺藿蘅蘇蘋蘢蘦蘧蘩蘪蘭豆韭麥麻黍",
+  "n_lifeform_only": 24,
+  "plantseed_initial": "喬木灌禾稻竹花苔草菌菽蔓蕨藤藻蘚豆麥",
+  "fixpoint": {
+    "rounds": [
+      {
+        "round": 1,
+        "n_charged": 225,
+        "added_this_round": [
+          "匏",
+          "叢",
+          "朴",
+          "李",
+          "杏",
+          "杜",
+          "杬",
+          "杶",
+          "杻",
+          "枌",
+          "果",
+          "枳",
+          "柏",
+          "柑",
+          "柘",
+          "柚",
+          "柞",
+          "柟",
+          "柯",
+          "柰",
+          "柳",
+          "柿",
+          "栗",
+          "栲",
+          "栵",
+          "桃",
+          "桉",
+          "桑",
+          "梅",
+          "梓",
+          "梔",
+          "梣",
+          "梨",
+          "棉",
+          "棗",
+          "棘",
+          "棠",
+          "棣",
+          "棫",
+          "棶",
+          "椅",
+          "椇",
+          "椈",
+          "椿",
+          "楓",
+          "楔",
+          "楙",
+          "楚",
+          "楝",
+          "楠",
+          "楢",
+          "楨",
+          "楮",
+          "楷",
+          "楸",
+          "榆",
+          "榕",
+          "榖",
+          "榛",
+          "榧",
+          "榿",
+          "槐",
+          "槲",
+          "槻",
+          "樅",
+          "樗",
+          "樟",
+          "樠",
+          "樲",
+          "樺",
+          "橘",
+          "橙",
+          "檀",
+          "檎",
+          "檖",
+          "檟",
+          "櫞",
+          "櫟",
+          "櫧",
+          "櫨",
+          "櫬",
+          "櫸",
+          "櫻",
+          "欇",
+          "欒",
+          "洗",
+          "漆",
+          "瓜",
+          "瓠",
+          "秏",
+          "稌",
+          "稗",
+          "稻",
+          "竹",
+          "篛",
+          "籐",
+          "粟",
+          "粱",
+          "結",
+          "艸",
+          "芋",
+          "芏",
+          "芐",
+          "芑",
+          "芒",
+          "芘",
+          "芝",
+          "芡",
+          "芥",
+          "芨",
+          "芩",
+          "芽",
+          "苔",
+          "苕",
+          "苖",
+          "苙",
+          "苻",
+          "茄",
+          "茅",
+          "茛",
+          "茜",
+          "茪",
+          "茶",
+          "草",
+          "荊",
+          "荏",
+          "荓",
+          "荔",
+          "荷",
+          "荻",
+          "荼",
+          "莔",
+          "莖",
+          "莞",
+          "莧",
+          "莪",
+          "莽",
+          "菀",
+          "菁",
+          "菅",
+          "菉",
+          "菊",
+          "菘",
+          "菝",
+          "菫",
+          "菰",
+          "菱",
+          "菸",
+          "萊",
+          "萍",
+          "萱",
+          "萴",
+          "葑",
+          "葒",
+          "葖",
+          "葛",
+          "葞",
+          "葫",
+          "葴",
+          "葹",
+          "葽",
+          "蒒",
+          "蒕",
+          "蒜",
+          "蒪",
+          "蒯",
+          "蒲",
+          "蒹",
+          "蒿",
+          "蓍",
+          "蓏",
+          "蓫",
+          "蓬",
+          "蓮",
+          "蓲",
+          "蓴",
+          "蓷",
+          "蓼",
+          "蔓",
+          "蔚",
+          "蔥",
+          "蔦",
+          "蔧",
+          "蔬",
+          "蔯",
+          "蕁",
+          "蕎",
+          "蕕",
+          "蕣",
+          "蕨",
+          "蕮",
+          "蕹",
+          "蕺",
+          "薁",
+          "薇",
+          "薊",
+          "薑",
+          "薤",
+          "薰",
+          "薹",
+          "薺",
+          "藍",
+          "藎",
+          "藚",
+          "藜",
+          "藟",
+          "藤",
+          "藨",
+          "藫",
+          "藺",
+          "藿",
+          "蘅",
+          "蘇",
+          "蘋",
+          "蘢",
+          "蘦",
+          "蘧",
+          "蘩",
+          "蘪",
+          "蘭",
+          "豆",
+          "韭",
+          "麥",
+          "麻",
+          "黍"
+        ]
+      },
+      {
+        "round": 2,
+        "n_charged": 227,
+        "added_this_round": [
+          "萑",
+          "蓱"
+        ]
+      },
+      {
+        "round": 3,
+        "n_charged": 227,
+        "added_this_round": []
+      }
+    ],
+    "n_rounds_to_fixpoint": 3,
+    "note": "seed PROPAGATED (see rounds.added_this_round)."
+  },
+  "precision_note": "MOE marks plant entries with the DEFINITIONAL tag 植物名 plus taxonomy phrases (…科/…屬/喬木…). Because these are static definitional markers anchored at sense start (植物名 at index 0 for 蘭梅菊楓柳), the routes are essentially EXACT: near-zero false positives and a round-1 fixpoint. The recall cost is MOE's pointer-indirection (蕉/葵 defined via 參見/簡稱 miss) — a precision/recall trade recorded, not tuned away.",
+  "calibration_chars": {
+    "requested": "蘭 梅 菊 蕉 葵 楓 柳",
+    "charged": "蘭梅菊楓柳",
+    "missed": "蕉葵"
+  },
+  "known_misses_declared": {
+    "蕉": {
+      "charged": false,
+      "senses": [
+        "未經浸泡處理的生麻",
+        "芭蕉的簡稱。參見條",
+        "香蕉的簡稱。參見條",
+        "參見條"
+      ],
+      "reason": "plant sense reachable only via MOE cross-reference / 簡稱 pointer (pointer-indirection), or surname/verb senses — no 植物名/taxonomy marker on this headword itself."
+    },
+    "葵": {
+      "charged": false,
+      "senses": [
+        "參見、、等條",
+        "姓。如宋代有葵方，明代有葵弘宇",
+        "揣測、測度。通"
+      ],
+      "reason": "plant sense reachable only via MOE cross-reference / 簡稱 pointer (pointer-indirection), or surname/verb senses — no 植物名/taxonomy marker on this headword itself."
+    }
+  },
+  "hownet_gap": {
+    "moe_only_chars": "叢朴李杏杬杶杻枌果柑柚柟柰柿栗栵梅梓梔梣棉棗棠棣棫棶椅椇椈楓楔楙楚楢楨楷榖榧榿槻樅樠樲樺橘橙檖檟櫞櫟櫧櫨櫬櫸櫻欇欒洗漆瓜瓠秏稌稻篛籐粟粱艸芋芏芐芘芝芡芥芨苔苖苙茄茅茜茪荊荏荓荔莔莖莞莧莪莽菀菁菉菘菝菫菰萊萴葑葒葖葞葫葴葹葽蒒蒕蒜蒪蒯蓏蓫蓮蓱蓲蓴蓷蔚蔥蔦蔧蔬蔯蕁蕎蕕蕣蕮蕹薁薇薊薑薤薺藍藎藚藟藨藫藺蘅蘇蘋蘢蘦蘪豆韭麥麻黍",
+    "n_moe_only": 159,
+    "moe_only_GENUINE_attribute_gap": "叢朴李杏杬杶杻枌果柑柚柟柰柿栗栵梅梓梔梣棉棗棠棣棫棶椅椇椈楓楔楙楚楢楨楷榖榧榿槻樅樠樲樺橘橙檖檟櫞櫟櫧櫨櫬櫸櫻欇欒洗漆瓜瓠秏稌稻篛籐粟粱艸芋芏芐芘芝芡芥芨苔苖苙茄茅茜茪荊荏荓荔莔莖莞莧莪莽菀菁菉菘菝菫菰萊萴葑葒葖葞葫葴葹葽蒒蒕蒜蒪蒯蓏蓫蓮蓱蓲蓴蓷蔚蔥蔦蔧蔬蔯蕁蕎蕕蕣蕮蕹薁薇薊薑薤薺藍藎藚藟藨藫藺蘅蘇蘋蘢蘦蘪豆韭麥麻黍",
+    "n_moe_only_genuine": 159,
+    "moe_only_script_form_unreachable": "",
+    "n_moe_only_script_unreachable": 0,
+    "n_hownet_only": 191,
+    "hownet_only_sample": "丛凋刍卉参叶喷园圃坛埯子实干开把支放敗木本朵杈杉杌杨杪松枋林枝枞枥枫柃柄柎柢柽栌栎栝株核根栾桂桐桕桢桤桦桧桷梗條梢棔棕棵",
+    "note": "chars charged by a MOE plant SENSE whose HowNet attributes carry NO deployed plant sememe (tree|树, FlowerGrass|花草, plant|植物) — the audit yield. GENUINE attribute-gap includes 蘭-style {character|文字} placeholders (HowNet has the traditional char but attributes it nothing; semantics live on the simplified 兰 which DOES charge — the founding 波兰 case). script-form-unreachable: gap MAY be script artefact only (no full converter available)."
+  },
+  "chars": {
+    "匏": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。一種葫蘆。果實圓大而扁，晒乾之後可當涉水的交通工具，從中剖開亦可做盛水的容器",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "匏"
+      ]
+    },
+    "叢": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "灌木",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "叢"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "朴": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榆科朴樹屬，落葉喬木。高可達二十公尺，葉卵形，粗鋸齒緣，基略圓形至闊楔形，歪斜。花雜性，雄花序聚繖狀著枝條下部，雌花或兩性花單生或簇生枝條上方葉腋。果球形，熟時澄黃色。樹皮和花可供藥用，木材可製器物。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。榆科朴樹屬，落葉喬木。高可達二十公尺，葉卵形，粗鋸齒緣，基略圓形至闊楔形，歪斜。花雜性，雄花序聚繖狀著枝條下部，雌花或兩性花單生或簇生枝條上方葉腋。果球形，熟時澄黃色。樹皮和花可供藥用，木材可製器物。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "朴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "李": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，落葉喬木。葉互生，倒披針形或倒卵形，先端突尖，基部楔形，葉緣鈍鋸齒狀。春天開白花，花常三朵簇生。核果圓卵形，光滑無毛，熟時為紅紫色或黃色，味酸，可供生食或作蜜餞用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科李屬，落葉喬木。葉互生，倒披針形或倒卵形，先端突尖，基部楔形，葉緣鈍鋸齒狀。春天開白花，花常三朵簇生。核果圓卵形，光滑無毛，熟時為紅紫色或黃色，味酸，可供生食或作蜜餞用",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "李"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "杏": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，落葉喬木。樹皮帶赤色。葉芽側生，葉卵形。三月開花，花常單生，白色或淡紅色、葉像梅。核果扁圓形，淡黃色，肥厚、味稍酸。核仁，可食亦可入藥。花與果實也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科李屬，落葉喬木。樹皮帶赤色。葉芽側生，葉卵形。三月開花，花常單生，白色或淡紅色、葉像梅。核果扁圓形，淡黃色，肥厚、味稍酸。核仁，可食亦可入藥。花與果實也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "杏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "杜": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)松科冷杉屬，之古稱，參見條。(2)薔薇科梨屬，、之古稱，參見條。(3)馬兜鈴科細辛屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "杜"
+      ]
+    },
+    "杬": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)瑞香科瑞香屬。之別稱，參見條。：(2)一種大樹，皮厚正赤，前汁可藏眾果，使不敗壞",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "杬"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "杶": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。楝科香椿屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "杶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "杻": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。冬青科冬青屬。常綠小喬木。葉互生，卵形，近全緣或先端具不明鋸齒。聚繖花序單生葉腋，花白色。果球形，紅熟。木質堅硬，可作車與弓幹",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。冬青科冬青屬。常綠小喬木。葉互生，卵形，近全緣或先端具不明鋸齒。聚繖花序單生葉腋，花白色。果球形，紅熟。木質堅硬，可作車與弓幹",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "杻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "枌": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榆科榆屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "枌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "果": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "植物所結的實",
+          "snippet": "植物"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "果"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "枳": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科枸橘屬，落葉灌木或小喬木。枝多刺，葉柄有翅，三出複葉，小葉卵形。春夏間開五瓣白色花。果實形小而味酸，不堪食，但可入藥，未熟者稱為，已熟的稱為，二者性味效用相似，但後者力薄性緩。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。芸香科枸橘屬，落葉灌木或小喬木。枝多刺，葉柄有翅，三出複葉，小葉卵形。春夏間開五瓣白色花。果實形小而味酸，不堪食，但可入藥，未熟者稱為，已熟的稱為，二者性味效用相似，但後者力薄性緩。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "枳"
+      ]
+    },
+    "柏": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "柏科植物的總稱。常綠喬木。性耐寒，葉小、鱗形，紋理細密，是上好材質。有扁柏、側柏、檜柏、羅漢柏等數種",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "柏"
+      ]
+    },
+    "柑": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科柑桔屬，一群供食用之柑桔屬果樹之混稱，包括、、等。常綠灌木或小喬木。莖高約四至五公尺。葉互生，橢圓或長橢圓形，鋸齒緣狀。果扁球形，果皮粗糙，成熟後呈金黃色，味甘美。樹皮、葉子、花、果皮、種子等都可入藥。此類植物的果實也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。芸香科柑桔屬，一群供食用之柑桔屬果樹之混稱，包括、、等。常綠灌木或小喬木。莖高約四至五公尺。葉互生，橢圓或長橢圓形，鋸齒緣狀。果扁球形，果皮粗糙，成熟後呈金黃色，味甘美。樹皮、葉子、花、果皮、種子等都可入藥。此類植物的果實也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柑"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "柘": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑科柘樹屬，直立或略攀緣狀灌木或喬木。樹皮灰褐色，具乳汁及長直刺。葉具柄，卵形或橢圓形，先端短突尖，鈍形至凹頭，托葉早落。花單性，雌雄異株，球形頭狀花序。聚合果肉質、球形，熟時橙黃色。嫩葉可養蠶，根皮藥用。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。桑科柘樹屬，直立或略攀緣狀灌木或喬木。樹皮灰褐色，具乳汁及長直刺。葉具柄，卵形或橢圓形，先端短突尖，鈍形至凹頭，托葉早落。花單性，雌雄異株，球形頭狀花序。聚合果肉質、球形，熟時橙黃色。嫩葉可養蠶，根皮藥用。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "柘"
+      ]
+    },
+    "柚": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科柑桔屬，常綠喬木。枝條粗大，帶刺。葉大而厚，長卵形，葉柄有倒心形寬翼。初夏開白花，花四至八枚簇生於枝端葉腋，成聚繖花序，花瓣長十五至二十公厘；雄蕊二十至二十五枚。果實即柚子，球形或梨形，皮淡黃或黃綠色，質厚而粗，果肉白色、淡紅色或紫紅色，可食用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。芸香科柑桔屬，常綠喬木。枝條粗大，帶刺。葉大而厚，長卵形，葉柄有倒心形寬翼。初夏開白花，花四至八枚簇生於枝端葉腋，成聚繖花序，花瓣長十五至二十公厘；雄蕊二十至二十五枚。果實即柚子，球形或梨形，皮淡黃或黃綠色，質厚而粗，果肉白色、淡紅色或紫紅色，可食用",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "柞": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)殼斗科麻櫟屬，之簡稱，參見條。(2)大風子科柞木屬，常綠喬木或灌木，枝光滑，刺腋生。葉寬卵形至橢圓形，圓鈍鋸齒緣。總狀花序腋生；萼片四至六枚，黃綠色，花瓣不存。漿果球形，黑熟。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)殼斗科麻櫟屬，之簡稱，參見條。(2)大風子科柞木屬，常綠喬木或灌木，枝光滑，刺腋生。葉寬卵形至橢圓形，圓鈍鋸齒緣。總狀花序腋生；萼片四至六枚，黃綠色，花瓣不存。漿果球形，黑熟。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "柞"
+      ]
+    },
+    "柟": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即楠木。樟科雅楠或楨楠屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "柯": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "殼斗科石櫟屬植物的通稱。常綠喬木，葉橢圓形有鋸齒狀。夏季開花，單性，雌雄同株。果實為堅果，隔年成熟，可供熟食。木材堅實，為建築、造船等的優良用材",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "柯"
+      ]
+    },
+    "柰": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科蘋果屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柰"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "柳": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。楊柳科柳屬，落葉喬木。樹枝細長，柔軟下垂。葉互生，線狀披針形，尾端尖銳，邊緣有細鋸齒。花密生呈穗狀，種子有毛，成熟時柳絮飛散如雪。一般供作觀賞、行道樹",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。楊柳科柳屬，落葉喬木。樹枝細長，柔軟下垂。葉互生，線狀披針形，尾端尖銳，邊緣有細鋸齒。花密生呈穗狀，種子有毛，成熟時柳絮飛散如雪。一般供作觀賞、行道樹",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "柳"
+      ]
+    },
+    "柿": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。落葉喬木。幹高達十公尺以上，小枝被短毛。葉闊橢圓形或倒卵形，互生。花單性，腋生，雄花三朵組成聚繖花序，雌花單生，花冠壺形，四裂，黃綠色。開淡黃色花。果實也稱為，球形或扁球形，具宿存增大之萼片，熟時橙黃或橙紅色，可供食用，或製為柿餅。品種很多",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。落葉喬木。幹高達十公尺以上，小枝被短毛。葉闊橢圓形或倒卵形，互生。花單性，腋生，雄花三朵組成聚繖花序，雌花單生，花冠壺形，四裂，黃綠色。開淡黃色花。果實也稱為，球形或扁球形，具宿存增大之萼片，熟時橙黃或橙紅色，可供食用，或製為柿餅。品種很多",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "柿"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "栗": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。殼斗科板栗屬，及之混稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "栗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "栲": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。省沽油科，落葉灌木或小喬木。夏季開黃白小花。木材可製器物",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。省沽油科，落葉灌木或小喬木。夏季開黃白小花。木材可製器物",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "栲"
+      ]
+    },
+    "栵": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即茅栗。殼斗科板栗屬，落葉小喬木。幼枝有柔毛，葉倒卵狀橢圓形至長橢圓形，粗鋸齒緣，背面被灰色腺鱗。雄花序穗狀，雌花單生或混生於雄花序基部，殼斗密生銳刺，刺上有疏毛。堅果闊卵圓形，可食，木材可供薪用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即茅栗。殼斗科板栗屬，落葉小喬木。幼枝有柔毛，葉倒卵狀橢圓形至長橢圓形，粗鋸齒緣，背面被灰色腺鱗。雄花序穗狀，雌花單生或混生於雄花序基部，殼斗密生銳刺，刺上有疏毛。堅果闊卵圓形，可食，木材可供薪用",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "栵"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "桃": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，落葉小喬木。葉橢圓狀披針形至倒卵狀披針形，先端漸尖，細鋸齒緣。腋芽常三枚並生，兩側為花芽，中間為葉芽，春初開花，有白、紅二色。核果圓形或扁平，頂端有小突尖，外被毛，味酸可口",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科李屬，落葉小喬木。葉橢圓狀披針形至倒卵狀披針形，先端漸尖，細鋸齒緣。腋芽常三枚並生，兩側為花芽，中間為葉芽，春初開花，有白、紅二色。核果圓形或扁平，頂端有小突尖，外被毛，味酸可口",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "桃"
+      ]
+    },
+    "桉": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。姚金孃科桉樹屬，、、等桉屬樹木之通稱。多為常綠喬木。主要產於澳洲。葉互生罕對生，卵狀或長橢圓狀披針形，先端尖銳，表面深綠色。繖形、繖房或圓錐花序；萼之裂片與花瓣結合為蓋，開花時自萼筒分離。蒴果頂端開裂，蒴片三至六枚。生長迅速，主供觀賞，木材可供建築用。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。姚金孃科桉樹屬，、、等桉屬樹木之通稱。多為常綠喬木。主要產於澳洲。葉互生罕對生，卵狀或長橢圓狀披針形，先端尖銳，表面深綠色。繖形、繖房或圓錐花序；萼之裂片與花瓣結合為蓋，開花時自萼筒分離。蒴果頂端開裂，蒴片三至六枚。生長迅速，主供觀賞，木材可供建築用。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "桉"
+      ]
+    },
+    "桑": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑科桑屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "桑"
+      ]
+    },
+    "梅": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，落葉喬木。性耐寒。葉卵形，先端尾狀漸尖，鋸齒緣。早春開花，花單生或二朵聚生，花瓣五片，色紅或白，芳香。核果近球形，外被細毛，味酸，可食。各地均有栽培",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科李屬，落葉喬木。性耐寒。葉卵形，先端尾狀漸尖，鋸齒緣。早春開花，花單生或二朵聚生，花瓣五片，色紅或白，芳香。核果近球形，外被細毛，味酸，可食。各地均有栽培",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "梅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "梓": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。紫葳科梓屬，落葉喬木。葉對生，闊卵形至近圓形，全緣偶掌狀淺裂。夏日開花，聚繖狀圓錐花序，花冠黃色，帶暗紫斑點。蒴果圓柱形，二瓣裂，種子兩短具長柔毛。木材供建築及製作器具",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。紫葳科梓屬，落葉喬木。葉對生，闊卵形至近圓形，全緣偶掌狀淺裂。夏日開花，聚繖狀圓錐花序，花冠黃色，帶暗紫斑點。蒴果圓柱形，二瓣裂，種子兩短具長柔毛。木材供建築及製作器具",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "梓"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "梔": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。茜草科梔子屬，或之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "梔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "梣": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。木犀科白蠟樹屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "梣"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "梨": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科梨屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "梨"
+      ]
+    },
+    "棉": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。木棉科和錦葵科、及等種子具棉毛之植物的統稱。參見、條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棉"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "棗": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。鼠李科棗屬，包括、、、等一群栽培棗屬樹種之混稱。大灌木或喬木。枝傾垂有刺，葉互生，卵形或長橢圓形，邊緣具細鈍鋸齒。花小，黃綠色。所結核果也稱為，橙黃或暗紅色，橢圓形，可食。種類很多，主要產於亞洲熱帶地區及歐洲南部。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。鼠李科棗屬，包括、、、等一群栽培棗屬樹種之混稱。大灌木或喬木。枝傾垂有刺，葉互生，卵形或長橢圓形，邊緣具細鈍鋸齒。花小，黃綠色。所結核果也稱為，橙黃或暗紅色，橢圓形，可食。種類很多，主要產於亞洲熱帶地區及歐洲南部。參見條",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "棘": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。鼠李科棗屬，落葉喬木。幹高三公尺餘。變種形態與棗相似，唯枝具刺。果實較少，呈長圓形或近於圓形，暗紅色，味酸，核先端鈍，核仁可入藥。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。鼠李科棗屬，落葉喬木。幹高三公尺餘。變種形態與棗相似，唯枝具刺。果實較少，呈長圓形或近於圓形，暗紅色，味酸，核先端鈍，核仁可入藥。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "棘"
+      ]
+    },
+    "棠": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科梨屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棠"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "棣": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，、、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棣"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "棫": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科扁核木屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "棶": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "棶木：植物名。四照花科棶木屬，落葉喬木。葉對生，橢圓形卵狀，全緣或有不整齊之波狀細齒。繖房狀聚繖花序頂生，被柔毛，花白色。核果球形，暗紫色，內藏兩枚種子。種子供作榨油之用。樹皮可入藥，材質細緻、堅硬，是優良的建築材料。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "棶"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "椅": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。大風子科山桐子屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "椅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "椇": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "枳椇：植物名。鼠李科枳椇屬，落葉喬木。樹皮灰色，葉互生，闊卵形，有鋸齒。核果球形，具短梗。果肉紅棕色，味甘美，供食用，亦可釀酒，俗稱為。果實含蘋果酸鉀及葡萄糖，為清涼利尿劑。椇木材質頗佳，可供建築及精緻家具等用途",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "椇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "椈": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即柏。柏科側柏屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "椈"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "椿": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。楝科香椿屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "椿"
+      ]
+    },
+    "楓": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：（1）包括、、等一群落葉喬木之俗稱。葉對生，掌狀裂。繖房或圓錐花序。翅果二枚相連，張開成鈍角或銳角。也稱為、。（2）楓香之古稱，參見條。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。俗稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：（1）包括、、等一群落葉喬木之俗稱。葉對生，掌狀裂。繖房或圓錐花序。翅果二枚相連，張開成鈍角或銳角。也稱為、。（2）楓香之古稱，參見條。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。俗稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楓"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楔": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楙": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科木瓜屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楙"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楚": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。馬鞭草科蔓荊屬，落葉灌木。葉為掌狀複葉，邊緣有細鋸齒。七八月間開淡黃紫色花。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。馬鞭草科蔓荊屬，落葉灌木。葉為掌狀複葉，邊緣有細鋸齒。七八月間開淡黃紫色花。也稱為",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楝": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。楝科楝屬，、之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "楝"
+      ]
+    },
+    "楠": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "楠"
+      ]
+    },
+    "楢": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。殼斗科麻櫟屬，落葉喬木。樹皮暗灰色，有縱行長裂紋。葉形呈倒長卵形，邊緣有粗鋸齒，密布絹絲狀細毛。春日開花，排列成細長的疏穗狀花序。果實為堅果，橢圓形，表面有細小的鱗片。木材堅韌，可製器具",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。殼斗科麻櫟屬，落葉喬木。樹皮暗灰色，有縱行長裂紋。葉形呈倒長卵形，邊緣有粗鋸齒，密布絹絲狀細毛。春日開花，排列成細長的疏穗狀花序。果實為堅果，橢圓形，表面有細小的鱗片。木材堅韌，可製器具",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楢"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楨": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。木犀科女貞屬，常綠灌木或喬木。高丈餘，葉卵形，質厚而有光澤。圓錐花序頂生，夏日開花，花冠白色，裂片四枚，花冠筒與裂片近等長，雄蕊二枚。核果橢圓而黑，可入藥。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。木犀科女貞屬，常綠灌木或喬木。高丈餘，葉卵形，質厚而有光澤。圓錐花序頂生，夏日開花，花冠白色，裂片四枚，花冠筒與裂片近等長，雄蕊二枚。核果橢圓而黑，可入藥。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楨"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楮": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑科楮屬，落葉灌木。葉為卵形或闊卵形，單性花，樹皮可為造紙的原料",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。桑科楮屬，落葉灌木。葉為卵形或闊卵形，單性花，樹皮可為造紙的原料",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "楮"
+      ]
+    },
+    "楷": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。漆樹科黃連木屬，落葉喬木。奇數羽狀複葉，小葉十一至十五枚，披針形或卵狀披針形，具有香味。花雌雄異株，雄花序緊密總狀，雌花序鬆散圓錐狀，不具花瓣。核果扁倒卵狀球形，熟時呈暗紅色。材質密緻，可製器物。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。漆樹科黃連木屬，落葉喬木。奇數羽狀複葉，小葉十一至十五枚，披針形或卵狀披針形，具有香味。花雌雄異株，雄花序緊密總狀，雌花序鬆散圓錐狀，不具花瓣。核果扁倒卵狀球形，熟時呈暗紅色。材質密緻，可製器物。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "楷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "楸": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)紫葳科梓屬，、之古稱，參見條。(2)大戟科野桐屬，小喬木，全株被褐色星狀毛。葉互生，卵圓形，基部具二枚圓形腺體。總狀或圓錐花序，雌雄異株，花瓣不存。蒴果圓球形，被軟刺及紅色腺體。也稱為。(3)薔薇科蘋果屬，、之古稱，參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)紫葳科梓屬，、之古稱，參見條。(2)大戟科野桐屬，小喬木，全株被褐色星狀毛。葉互生，卵圓形，基部具二枚圓形腺體。總狀或圓錐花序，雌雄異株，花瓣不存。蒴果圓球形，被軟刺及紅色腺體。也稱為。(3)薔薇科蘋果屬，、之古稱，參見條",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "楸"
+      ]
+    },
+    "榆": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榆科榆屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "榆"
+      ]
+    },
+    "榕": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑科，常綠喬木。分枝極多，覆蓋面廣。由枝出叢生氣根，狀如馬尾，長者下垂入地。葉橢圓呈倒卵形，表面深綠色。開紅花，果實圓而小，似無花果。樹皮可入藥。產於熱帶地區。材質較柔軟，可製木器。園藝上常作盆栽以觀賞。繁殖容易且生長快速，常植為行道樹",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。桑科，常綠喬木。分枝極多，覆蓋面廣。由枝出叢生氣根，狀如馬尾，長者下垂入地。葉橢圓呈倒卵形，表面深綠色。開紅花，果實圓而小，似無花果。樹皮可入藥。產於熱帶地區。材質較柔軟，可製木器。園藝上常作盆栽以觀賞。繁殖容易且生長快速，常植為行道樹",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "榕"
+      ]
+    },
+    "榖": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑科構樹屬。、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "榖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "榛": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榛木科榛木屬，落葉喬木。葉互生，卵形或倒卵形，葉緣鋸齒狀。雄柔荑花序二至五個簇生，雌花序頭狀，春日開花。堅果卵圓形，與果苞近等長。果仁可食，亦可榨油。果實也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。榛木科榛木屬，落葉喬木。葉互生，卵形或倒卵形，葉緣鋸齒狀。雄柔荑花序二至五個簇生，雌花序頭狀，春日開花。堅果卵圓形，與果苞近等長。果仁可食，亦可榨油。果實也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "榛"
+      ]
+    },
+    "榧": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。紅豆杉科榧屬，常綠大喬木。高可達二十五公尺。葉線形，長十一至二十五公厘，先端短凸尖，背面具二條氣孔帶。種實橢圓形，長二十至四十五公厘，核果狀，假種皮完全包被種子，紫褐色，被白粉。木理甚美，有香氣，為建築及製器之上材。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。紅豆杉科榧屬，常綠大喬木。高可達二十五公尺。葉線形，長十一至二十五公厘，先端短凸尖，背面具二條氣孔帶。種實橢圓形，長二十至四十五公厘，核果狀，假種皮完全包被種子，紫褐色，被白粉。木理甚美，有香氣，為建築及製器之上材。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "榧"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "榿": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即榿木。樺木科赤楊屬，落葉喬木。葉長倒卵形，鋸齒緣。雄柔荑花序下垂，單生。果序單生葉腋，長橢圓形，柄長四至七公分，小堅果具寬翅。木質堅硬，可作器具及建材。其嫩葉亦可為茶葉的代替品。原產四川省岷江一帶",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即榿木。樺木科赤楊屬，落葉喬木。葉長倒卵形，鋸齒緣。雄柔荑花序下垂，單生。果序單生葉腋，長橢圓形，柄長四至七公分，小堅果具寬翅。木質堅硬，可作器具及建材。其嫩葉亦可為茶葉的代替品。原產四川省岷江一帶",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "榿"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "槐": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。豆科槐樹屬，、之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "槐"
+      ]
+    },
+    "槲": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。殼斗科麻櫟屬，落葉喬木。枝椏粗壯，密被黃褐色短毛。葉倒卵形，波狀粗鋸齒緣，兩面被有軟毛或星狀毛。柔荑花序穗狀，下垂，花黃綠色。堅果卵形，平滑，殼斗碗狀，包被堅果之一半，苞片扁平。材質堅硬，可供製器具及枕木；葉子可飼養柞蠶。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。殼斗科麻櫟屬，落葉喬木。枝椏粗壯，密被黃褐色短毛。葉倒卵形，波狀粗鋸齒緣，兩面被有軟毛或星狀毛。柔荑花序穗狀，下垂，花黃綠色。堅果卵形，平滑，殼斗碗狀，包被堅果之一半，苞片扁平。材質堅硬，可供製器具及枕木；葉子可飼養柞蠶。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "槲"
+      ]
+    },
+    "槻": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即梣。木犀科白蠟樹屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "槻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "樅": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。松科冷杉屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "樅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "樗": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。苦木科樗樹屬，落葉喬木。樹皮平滑而有淡白色條紋，幼枝有暗黃、赤褐色細毛，其葉揉碎時有臭味。奇數羽狀複葉，小葉十三至二十七枚，卵狀披針形，基部兩側各具一或二個粗鋸齒，齒背具腺體一枚。圓錐花序。翅果長橢圓形。可栽植供作行道樹。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。苦木科樗樹屬，落葉喬木。樹皮平滑而有淡白色條紋，幼枝有暗黃、赤褐色細毛，其葉揉碎時有臭味。奇數羽狀複葉，小葉十三至二十七枚，卵狀披針形，基部兩側各具一或二個粗鋸齒，齒背具腺體一枚。圓錐花序。翅果長橢圓形。可栽植供作行道樹。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "樗"
+      ]
+    },
+    "樟": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。樟科樟屬，常綠喬木。全株有香氣。葉卵形或橢圓形，花小而色淡黃。果實成熟時為紫黑色，豌豆般大小，可煎為樟腦，有強心、解熱、殺蟲的功效。其材質硬而聳直，紋理細緻，可供建築、雕刻等使用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。樟科樟屬，常綠喬木。全株有香氣。葉卵形或橢圓形，花小而色淡黃。果實成熟時為紫黑色，豌豆般大小，可煎為樟腦，有強心、解熱、殺蟲的功效。其材質硬而聳直，紋理細緻，可供建築、雕刻等使用",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "樟"
+      ]
+    },
+    "樠": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榆科榆屬，之古稱，參見條。樹心似松，亦俗稱",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "樠"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "樲": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。指樲棘。鼠李科棗屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "樲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "樺": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。樺木科樺木屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "樺"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "橘": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科柑桔屬，小喬木或灌木。枝纖細有刺。葉狹長而尖，葉柄與葉片間有關節，葉翼不明顯。花白色五瓣。秋天所結果實亦稱，扁圓形，果皮為紅黃色，果肉多汁，味甘酸可食。果皮、種子、葉片等均可入藥。原產中國大陸，廣泛栽培，品種多且雜交親緣複雜。常見之品種如、、及等。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。芸香科柑桔屬，小喬木或灌木。枝纖細有刺。葉狹長而尖，葉柄與葉片間有關節，葉翼不明顯。花白色五瓣。秋天所結果實亦稱，扁圓形，果皮為紅黃色，果肉多汁，味甘酸可食。果皮、種子、葉片等均可入藥。原產中國大陸，廣泛栽培，品種多且雜交親緣複雜。常見之品種如、、及等。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "橘"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "橙": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科柑桔屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "橙"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "檀": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)指檀香。參見條。(2)指青檀。榆科青檀屬，落葉喬木。高可十餘公尺。樹皮淺灰色，有小皮孔，葉為螺旋狀排列，卵形。材質堅硬細緻，供家具、農具、建材等用材。(3)指紫檀。豆科紫檀屬。產於亞洲東南部，木材淡紅色，質亦堅硬緻密，可為家具、建材等",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)指檀香。參見條。(2)指青檀。榆科青檀屬，落葉喬木。高可十餘公尺。樹皮淺灰色，有小皮孔，葉為螺旋狀排列，卵形。材質堅硬細緻，供家具、農具、建材等用材。(3)指紫檀。豆科紫檀屬。產於亞洲東南部，木材淡紅色，質亦堅硬緻密，可為家具、建材等",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "檀"
+      ]
+    },
+    "檎": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科蘋果屬，落葉小喬木。葉卵形或橢圓形，細銳鋸齒緣。繖房花序具花四至七朵，花瓣淡紅色。梨果卵形或近球形，先端漸狹，宿存萼隆起，質略硬，似蘋果而小，可食。因果味香甘，能招禽鳥，故稱為。俗稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科蘋果屬，落葉小喬木。葉卵形或橢圓形，細銳鋸齒緣。繖房花序具花四至七朵，花瓣淡紅色。梨果卵形或近球形，先端漸狹，宿存萼隆起，質略硬，似蘋果而小，可食。因果味香甘，能招禽鳥，故稱為。俗稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "檎"
+      ]
+    },
+    "檖": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科梨屬，落葉喬木。葉廣卵形至卵形，鋸齒緣，光滑無毛。繖形或近總狀花序具六至二十朵花，花瓣白色。梨果近球形，徑九至十毫米",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薔薇科梨屬，落葉喬木。葉廣卵形至卵形，鋸齒緣，光滑無毛。繖形或近總狀花序具六至二十朵花，花瓣白色。梨果近球形，徑九至十毫米",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "檖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "檟": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)山茶科山茶屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "檟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫞": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。芸香科柑桔屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫟": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名，殼斗科麻櫟屬：(1)、之古稱，參見條。(2)約三十種麻櫟屬樹木之混稱。也稱為、。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫧": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。殼斗科青剛櫟及苦櫧屬，包括小葉青剛（麵櫧）、苦櫧、甜櫧、米櫧等數種此二屬樹木之通稱。常綠喬木。樹幹為灰褐色，略光滑，有不明顯的縱向細紋。材質堅實，可作舟車棟梁之用。其種子與樹皮、葉入藥有止渴、破惡血、治洩痢等功效",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。殼斗科青剛櫟及苦櫧屬，包括小葉青剛（麵櫧）、苦櫧、甜櫧、米櫧等數種此二屬樹木之通稱。常綠喬木。樹幹為灰褐色，略光滑，有不明顯的縱向細紋。材質堅實，可作舟車棟梁之用。其種子與樹皮、葉入藥有止渴、破惡血、治洩痢等功效",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫧"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫨": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。漆樹科黃櫨屬，落葉喬木。高三至七公尺。單葉互生，卵形或倒卵形，先端圓鈍，全緣，兩面被灰色柔毛。圓錐花序頂生，花雜性，花梗纖細，多數不孕花於開花後其花梗更加伸長，花瓣長二至三公厘。核果扁腎形，紅熟。木材提供黃色染料，亦入藥，味苦性寒。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。漆樹科黃櫨屬，落葉喬木。高三至七公尺。單葉互生，卵形或倒卵形，先端圓鈍，全緣，兩面被灰色柔毛。圓錐花序頂生，花雜性，花梗纖細，多數不孕花於開花後其花梗更加伸長，花瓣長二至三公厘。核果扁腎形，紅熟。木材提供黃色染料，亦入藥，味苦性寒。也稱為",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫨"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫬": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。錦葵科木槿屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫬"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫸": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。榆科櫸屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫸"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "櫻": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薔薇科李屬，、之通稱，參見、條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "櫻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "欇": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即虎豆。豆科血藤屬，一年生蔓性草本。頂葉卵狀菱形，側葉闊卵形。夏秋間開紫色蝶形花。莢果密生白毛",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即虎豆。豆科血藤屬，一年生蔓性草本。頂葉卵狀菱形，側葉闊卵形。夏秋間開紫色蝶形花。莢果密生白毛",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "欇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "欒": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。無患子科欒樹屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "欒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "洗": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即大棗。鼠李科棗屬，落葉喬木。葉互生，卵形，邊緣具鈍鋸齒。夏季開淡綠色花，成聚繖花序。核果呈長橢圓形，成熟時為金紅色",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即大棗。鼠李科棗屬，落葉喬木。葉互生，卵形，邊緣具鈍鋸齒。夏季開淡綠色花，成聚繖花序。核果呈長橢圓形，成熟時為金紅色",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "洗"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "漆": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。漆樹科漆樹屬，的簡稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "漆"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "瓜": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "葫蘆科植物的總稱。種類很多，葉掌狀，莖末端卷曲，可攀爬蔓生。多開黃色花，果實可食用。如黃瓜、西瓜、冬瓜等",
+          "snippet": "蔓生"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "瓜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "瓠": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。葫蘆科葫蘆屬，一年生蔓性草本。葉互生，呈掌狀或菱狀心臟形。卷鬚分歧。夏日葉腋生白色單性花，雌雄同株。果實圓長，表面有毛，可食，亦可晒乾貯藏",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。葫蘆科葫蘆屬，一年生蔓性草本。葉互生，呈掌狀或菱狀心臟形。卷鬚分歧。夏日葉腋生白色單性花，雌雄同株。果實圓長，表面有毛，可食，亦可晒乾貯藏",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "瓠"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "秏": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "一種稻類植物",
+          "snippet": "一種稻類植物"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "秏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "稌": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即糯。禾木科稻屬，為稻之栽培品種之一，一年生草本。莖高約一尺，中空有節。葉細長而尖，有平行脈，互生。秋月開花，穗狀花序。米富黏性，供食用、製糕及釀酒用。也稱為。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即糯。禾木科稻屬，為稻之栽培品種之一，一年生草本。莖高約一尺，中空有節。葉細長而尖，有平行脈，互生。秋月開花，穗狀花序。米富黏性，供食用、製糕及釀酒用。也稱為。參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "稌"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "稗": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科稗屬。之俗稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "稗"
+      ]
+    },
+    "稻": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科稻屬，一年生草本。莖高三、四尺，結實累累成穗，有水稻和旱稻兩種。穎果橢圓，有硬殼，去殼後就是大米。以其黏性而言，可分蓬萊稻、在來稻兩種。若以成熟的先後順序言，又可分早稻、晚稻兩種。為亞洲國家重要的糧食作物",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。禾本科稻屬，一年生草本。莖高三、四尺，結實累累成穗，有水稻和旱稻兩種。穎果橢圓，有硬殼，去殼後就是大米。以其黏性而言，可分蓬萊稻、在來稻兩種。若以成熟的先後順序言，又可分早稻、晚稻兩種。為亞洲國家重要的糧食作物",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "稻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "竹": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用",
+          "snippet": "常綠"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "竹"
+      ]
+    },
+    "篛": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。同。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "篛"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "籐": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "泛指蔓生植物的卷鬚或莖。同",
+          "snippet": "蔓生"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "籐"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "粟": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科狗尾草屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "粟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "粱": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科狗尾草屬，、之古稱，參見、條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "粱"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "結": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "植物長出果實",
+          "snippet": "植物"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "結",
+        "结"
+      ]
+    },
+    "艸": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "草本植物的總稱。同",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "艸"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芋": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。天南星科芋屬，、之俗稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芏": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即江芏。莎草科，多年生草本。分布於亞、非、大洋洲的熱帶地區，及大陸地區南部沿海各省。葉片短少，葉鞘長。生於海邊或沼澤低窪地，是改良鹽鹼地的優良品種。其莖的纖維可製紙、織蓆。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即江芏。莎草科，多年生草本。分布於亞、非、大洋洲的熱帶地區，及大陸地區南部沿海各省。葉片短少，葉鞘長。生於海邊或沼澤低窪地，是改良鹽鹼地的優良品種。其莖的纖維可製紙、織蓆。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芐": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即地黃。玄參科地黃屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芐"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芑": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)禾本科黍屬，、之古稱。參見條。(2)菊科苦苣菜屬，、之古稱。：參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "芑"
+      ]
+    },
+    "芒": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科芒屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "芒"
+      ]
+    },
+    "芘": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。錦葵科錦葵屬。、、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芘"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芝": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。多孔菌科靈芝屬。之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芝"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芡": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。睡蓮科，一年生草本。生於水中，葉圓大有刺。夏日莖端開紫花，花謝，結刺球，內有芡實數十枚。也稱為。\r",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。睡蓮科，一年生草本。生於水中，葉圓大有刺。夏日莖端開紫花，花謝，結刺球，內有芡實數十枚。也稱為。\r",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芡"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芥": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科蕓薹屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芥"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芨": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：（1)忍冬科接骨木屬，亞灌木。葉對生，奇數羽狀複葉，小葉五至七十枚，狹卵形，有鋸齒。夏日開花，大形頂生繖房花序，兩性花花冠輻形，白色，先端五裂，中性花為杯狀的黃色腺體，漿果為紅色而圓。多生於原野間。莖、葉及根為驅風藥，治手足偏風、腰痛等。俗稱為，也稱為、。(2)蘭科白芨屬，之古稱。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：（1)忍冬科接骨木屬，亞灌木。葉對生，奇數羽狀複葉，小葉五至七十枚，狹卵形，有鋸齒。夏日開花，大形頂生繖房花序，兩性花花冠輻形，白色，先端五裂，中性花為杯狀的黃色腺體，漿果為紅色而圓。多生於原野間。莖、葉及根為驅風藥，治手足偏風、腰痛等。俗稱為，也稱為、。(2)蘭科白芨屬，之古稱。參見條",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "芨"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "芩": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "一種蔓生草類",
+          "snippet": "蔓生"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "芩"
+      ]
+    },
+    "芽": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "植物初生的苗",
+          "snippet": "植物"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "芽"
+      ]
+    },
+    "苔": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名，苔蘚類植物下之一大群。配子體具假根及假葉，綠色。孢子體寄生於配子體上",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "苔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "苕": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)紫葳科紫葳屬，、之古稱。：參見條。也稱為、、。(2)豆科蠶豆屬，之古稱。參見條。(3)藜科地膚屬，、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "苕"
+      ]
+    },
+    "苖": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蓼科羊蹄屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "苖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "苙": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。繖形科當歸屬。之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "苙"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "苻": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。茄科茄屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "苻"
+      ]
+    },
+    "茄": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。茄科茄屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "茄"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "茅": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科白茅屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "茅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "茛": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。毛茛科毛茛屬，多年生草本。全草被白色粗毛，多生於溼地、畦畔、路旁。莖直立，圓筒狀，中空。葉互生，圓心形，三深裂或中裂不達基部，表面光滑，葉背多毛。夏季開黃花，花瓣五枚。聚合果近球形，瘦果扁平。全株有毒，葉及種子主治惡瘡癰腫。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。毛茛科毛茛屬，多年生草本。全草被白色粗毛，多生於溼地、畦畔、路旁。莖直立，圓筒狀，中空。葉互生，圓心形，三深裂或中裂不達基部，表面光滑，葉背多毛。夏季開黃花，花瓣五枚。聚合果近球形，瘦果扁平。全株有毒，葉及種子主治惡瘡癰腫。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "茛"
+      ]
+    },
+    "茜": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。茜草科，茜草屬，之古稱，參見條。第六回",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "茜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "茪": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。豆科決明屬，之古稱。參見、條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "茪"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "茶": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。山茶科茶屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "茶"
+      ]
+    },
+    "草": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "草本植物的總稱",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "草"
+      ]
+    },
+    "荊": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。落葉灌木。枝條可編籃筐，有牡荊、紫荊、黃荊多種",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。落葉灌木。枝條可編籃筐，有牡荊、紫荊、黃荊多種",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "荊"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "荏": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。脣形科紫蘇屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "荏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "荓": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。豆科胡枝子屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "荓"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "荔": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即馬藺。鳶尾科鳶尾屬，多年生草本。根莖粗壯，根細長而堅韌。葉線形，質硬無劍脊，長可達四十公分。花一至三朵頂生花莖先端，具三枚葉狀苞片，花被片六枚，淡藍色，外輪三枚之中部具黃紋。蒴果紡錘形，具三稜，種子入藥",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。即馬藺。鳶尾科鳶尾屬，多年生草本。根莖粗壯，根細長而堅韌。葉線形，質硬無劍脊，長可達四十公分。花一至三朵頂生花莖先端，具三枚葉狀苞片，花被片六枚，淡藍色，外輪三枚之中部具黃紋。蒴果紡錘形，具三稜，種子入藥",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "荔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "荷": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。之簡稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "荷"
+      ]
+    },
+    "荻": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科芒屬，多年生草本。地下莖蔓延，地上莖細而直立，高六十至一百六十公分，葉互生，線形，長二十至五十公分，葉緣粗糙。圓錐花序頂生，小穗被毛，無芒，紫色。生長於水邊或原野，與蘆同類。莖可織席，亦可作造紙原料",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。禾本科芒屬，多年生草本。地下莖蔓延，地上莖細而直立，高六十至一百六十公分，葉互生，線形，長二十至五十公分，葉緣粗糙。圓錐花序頂生，小穗被毛，無芒，紫色。生長於水邊或原野，與蘆同類。莖可織席，亦可作造紙原料",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "荻"
+      ]
+    },
+    "荼": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即苦菜。菊科苦菜苣屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "荼"
+      ]
+    },
+    "莔": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。百合科貝母屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莔"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "莖": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "植物的營養器官，其上著生葉，具有支持、輸送水分、無機鹽分和養分的功能。外形和構造可分草本與木本兩類。草本植物的主幹柔弱，生長時高度及粗細均受限制；木本植物的主幹則粗而明顯。\r",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "莞": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)莎草科藨草屬，多年生草本，根莖粗壯。生於池沼、澤畔。莖圓柱形，高五十至八十公分，下部具三、四片葉鞘，最上方葉鞘著有葉片。長側枝聚繖花序側生，輻射枝多枚，小穗單生或二至三枚簇生，褐色。莖可用來編織器物。也稱為。(2)繖形科當歸屬，之古稱。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)莎草科藨草屬，多年生草本，根莖粗壯。生於池沼、澤畔。莖圓柱形，高五十至八十公分，下部具三、四片葉鞘，最上方葉鞘著有葉片。長側枝聚繖花序側生，輻射枝多枚，小穗單生或二至三枚簇生，褐色。莖可用來編織器物。也稱為。(2)繖形科當歸屬，之古稱。參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "莧": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。莧科莧屬。之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莧"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "莪": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即莪蒿。石竹科王不留行屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莪"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "莽": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。八角茴香科八角茴香屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "莽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菀": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。卷柏科卷柏屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菀"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菁": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科蕓薹屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菁"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菅": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科菅屬，多年生草本。稈直立，粗壯，高一至一點五公尺。葉長線形，多毛茸。由莖稍的葉腋著生總狀花序，作圓錐排列，每總狀花序具九至十一枚小穗，自狹長形之鞘苞伸出。根短堅韌，可做刷帚",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。禾本科菅屬，多年生草本。稈直立，粗壯，高一至一點五公尺。葉長線形，多毛茸。由莖稍的葉腋著生總狀花序，作圓錐排列，每總狀花序具九至十一枚小穗，自狹長形之鞘苞伸出。根短堅韌，可做刷帚",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "菅"
+      ]
+    },
+    "菉": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科屬。之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菉"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菊": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科菊屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "菊"
+      ]
+    },
+    "菘": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科蕓薹屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菘"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菝": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "菝葜：植物名。百合科菝葜屬，攀緣灌木。地下莖呈塊根狀，質堅硬。莖有刺。葉互生，闊卵形或近圓形，掌狀脈五至七條，繖形花序單生葉腋，總梗長二十至二十五公厘，花被片六枚，黃綠色。漿果球形，紅熟。根、莖均可入藥",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菝"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菫": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。繖形科芹屬，、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菰": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科菰屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "菰"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "菱": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菱科菱屬，、之古稱或簡稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "菱"
+      ]
+    },
+    "菸": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。茄科菸草屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "菸"
+      ]
+    },
+    "萊": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。藜科藜屬，一年生草本。葉卵形，質柔形闊，邊緣呈鋸齒狀。有香氣，嫩葉可食。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。藜科藜屬，一年生草本。葉卵形，質柔形闊，邊緣呈鋸齒狀。有香氣，嫩葉可食。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "萊"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "萍": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。浮萍科浮萍屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "萍"
+      ]
+    },
+    "萑": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 2,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "一種荻類植物",
+          "snippet": "一種荻類植物"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "萑"
+      ]
+    },
+    "萱": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。百合科萱草屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "萱"
+      ]
+    },
+    "萴": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。毛茛科烏頭屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "萴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葑": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科蕓薹屬，、之古稱。：段玉裁注引：也稱為。參見、條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葑"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葒": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蓼科蓼屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葖": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科萊菔屬。根部肥大，肉質。基生葉及下部莖生葉大頭羽狀中裂，長八至三十公分，莖上部葉片長橢圓形，鋸齒緣或全緣。總狀花序頂生及腋生，花白色或粉紫色。長角果圓柱形，先端喙狀。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葖"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葛": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。豆科葛屬，多年生蔓草。莖細長，複葉闊大，花紫赤色，結實成莢。根可入藥，亦可取出澱粉，供食用及製糊用。纖維可織布及作造紙原料",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "葛"
+      ]
+    },
+    "葞": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蘿藦科白薇屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葞"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葫": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)百合科蔥屬，之古稱。參見條。(2)參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葴": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)即馬藍。爵床科板藍屬，多年生草本。莖自根叢生，方形，節粗大，葉橢圓形，深綠色。穗狀花序直立，花冠藍綠色，短圓柱狀，先端五淺裂。蒴果棍棒形。莖葉可製成藍色染料。：(2)茄科酸漿屬，之古稱，參見條。(3)十字花科菘藍屬，、之古稱，參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)即馬藍。爵床科板藍屬，多年生草本。莖自根叢生，方形，節粗大，葉橢圓形，深綠色。穗狀花序直立，花冠藍綠色，短圓柱狀，先端五淺裂。蒴果棍棒形。莖葉可製成藍色染料。：(2)茄科酸漿屬，之古稱，參見條。(3)十字花科菘藍屬，、之古稱，參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葹": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科蒼耳屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "葽": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。遠志科遠志屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葽"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒒": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。莎草科薹屬，、之一種。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蒒"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒕": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "千年蒕：植物名。百合科萬年青屬，多年生常綠草本。根莖粗壯，有多數鬚根。葉大，質厚有光澤。春日自葉心抽出總狀花序，花淡黃色或淡褐色。漿果球形，赤熟。園藝品種甚多，供觀賞用。也稱為。參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蒕"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒜": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。多年生草本。之簡稱，參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。多年生草本。之簡稱，參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蒜"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒪": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。指蒪苴。薑科薑屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蒪"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒯": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。莎草科藨草屬，多年生草本。根莖細長，莖三稜形，高四十至九十公分，基部具二至三枚葉鞘，最上方葉鞘著有葉片。長側枝聚繖花序近側生，輻射枝二至八根，小穗一至八枚簇生，褐色。叢生水邊或溼地，莖可製索、編蓆、造紙。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。莎草科藨草屬，多年生草本。根莖細長，莖三稜形，高四十至九十公分，基部具二至三枚葉鞘，最上方葉鞘著有葉片。長側枝聚繖花序近側生，輻射枝二至八根，小穗一至八枚簇生，褐色。叢生水邊或溼地，莖可製索、編蓆、造紙。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蒯"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蒲": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)香蒲科香蒲屬，香蒲的簡稱。參見條。(2)天南星科菖蒲屬，或、之古稱。參見條。(3)蒲柳的簡稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蒲"
+      ]
+    },
+    "蒹": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：即荻。(1)菊科籟簫屬，多年生草本。莖細而直立，被白色綿毛。葉互生，線形或倒披針狀橢圓形，兩面被毛。頭狀花序密集排列成複繖房狀。也稱為、。(2)禾本科芒屬，之古稱，參見條。字",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：即荻。(1)菊科籟簫屬，多年生草本。莖細而直立，被白色綿毛。葉互生，線形或倒披針狀橢圓形，兩面被毛。頭狀花序密集排列成複繖房狀。也稱為、。(2)禾本科芒屬，之古稱，參見條。字",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蒹"
+      ]
+    },
+    "蒿": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "菊科艾屬植物的通稱。一年生或二年生草本。有青蒿、白蒿等數種",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蒿"
+      ]
+    },
+    "蓍": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科蓍屬，之古稱，參見條。古時取其莖以為占卜之用",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蓍"
+      ]
+    },
+    "蓏": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "草本或蔓生植物所結的果實",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓏"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓫": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即羊蹄。蓼科酸模屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓬": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科飛蓬屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蓬"
+      ]
+    },
+    "蓮": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。之別稱。參見條。也稱為",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓮"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓱": {
+      "routes": [
+        "plant:bare[SEED]"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 2,
+      "matched": [
+        {
+          "route": "plant:bare[SEED]",
+          "sense": "一種蒿類植物。通",
+          "snippet": "一種蒿類植物"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓱"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓲": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)即刺榆。榆科刺榆屬，落葉喬木。樹皮為條狀剝裂，呈灰色。枝條強韌，皮孔隆起顯著，具粗硬棘刺。葉橢圓形，鋸齒緣，脈胳明顯。花雜性，單生或二至四朵簇生葉腋。花被杯狀，四至五裂。小堅果斜卵圓形，背側頂部有狹翅。木材可供製造器具、農具",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)即刺榆。榆科刺榆屬，落葉喬木。樹皮為條狀剝裂，呈灰色。枝條強韌，皮孔隆起顯著，具粗硬棘刺。葉橢圓形，鋸齒緣，脈胳明顯。花雜性，單生或二至四朵簇生葉腋。花被杯狀，四至五裂。小堅果斜卵圓形，背側頂部有狹翅。木材可供製造器具、農具",
+          "snippet": "喬木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓲"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓴": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蓴菜科蓴菜屬，多年生浮葉性水生草本。葉橢圓形，盾狀著生於葉柄，全緣，背面帶藍紫色，葉柄細長，有黏液，夏日開花，花單生，萼片、花瓣各三枚，罕四枚，紫紅色。堅果卵圓形。嫩葉可作羹湯，味鮮美。多生於池沼中。也稱為、、。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。蓴菜科蓴菜屬，多年生浮葉性水生草本。葉橢圓形，盾狀著生於葉柄，全緣，背面帶藍紫色，葉柄細長，有黏液，夏日開花，花單生，萼片、花瓣各三枚，罕四枚，紫紅色。堅果卵圓形。嫩葉可作羹湯，味鮮美。多生於池沼中。也稱為、、。參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓴"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓷": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。脣形科茺蔚屬，、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓷"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蓼": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蓼科蓼屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蓼"
+      ]
+    },
+    "蔓": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "藤本或蔓性植物細長而能攀繞他物的莖",
+          "snippet": "藤本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蔓"
+      ]
+    },
+    "蔚": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科艾屬，多年生草本。地下莖短但肥厚，葉互生，寬匙形或倒卵形，不分裂或上端具三至五淺裂，裂片具二至三枚小鋸齒，基部楔形。頭狀花序多數，排成複總狀或狹長總狀，淡黃色，夏、秋開花。俗稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。菊科艾屬，多年生草本。地下莖短但肥厚，葉互生，寬匙形或倒卵形，不分裂或上端具三至五淺裂，裂片具二至三枚小鋸齒，基部楔形。頭狀花序多數，排成複總狀或狹長總狀，淡黃色，夏、秋開花。俗稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蔚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蔥": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。多年生草本，鱗莖單生，卵狀圓柱形，外皮白色或淡紅褐色。葉管狀，中空，先端尖，有平行脈，下部白色。繖形花序球形，多花，花梗纖細，花被片六枚，白色。可作為蔬菜、香辛料用。也稱為、。\r",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。多年生草本，鱗莖單生，卵狀圓柱形，外皮白色或淡紅褐色。葉管狀，中空，先端尖，有平行脈，下部白色。繖形花序球形，多花，花梗纖細，花被片六枚，白色。可作為蔬菜、香辛料用。也稱為、。\r",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "葱",
+        "蔥"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蔦": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。桑寄生科槲寄生屬及梨果寄生屬，寄生性小灌木。包括、、等多種植物，寄生於桑、榆等樹上；直立，下部有時橫臥，高約六十公分。葉長橢圓狀披針形、卵形至卵圓形。花單性，雌雄異株，綠白色（槲寄生屬）或兩性，紫紅色（梨果寄生屬）。果實球形。全株入藥，補肝腎，強筋骨。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。桑寄生科槲寄生屬及梨果寄生屬，寄生性小灌木。包括、、等多種植物，寄生於桑、榆等樹上；直立，下部有時橫臥，高約六十公分。葉長橢圓狀披針形、卵形至卵圓形。花單性，雌雄異株，綠白色（槲寄生屬）或兩性，紫紅色（梨果寄生屬）。果實球形。全株入藥，補肝腎，強筋骨。也稱為",
+          "snippet": "灌木"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蔦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蔧": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即地膚。藜科地膚屬，、之古稱，參見條。也稱為",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蔧"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蔬": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "食用草本植物的通稱",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蔬"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蔯": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蔯"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕁": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。知母之古稱。百合科知母屬，多年生草本。地下莖根橫走，葉細長叢生，有平行脈。穗狀花序多花，花常二至三朵簇生，花被片六枚，黃綠色或青紫色。蒴果長卵形。地下根莖可入藥，具解熱、潤腎燥、清心肺等效用。產大陸地區東北、內蒙至蒙古及韓國",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。知母之古稱。百合科知母屬，多年生草本。地下莖根橫走，葉細長叢生，有平行脈。穗狀花序多花，花常二至三朵簇生，花被片六枚，黃綠色或青紫色。蒴果長卵形。地下根莖可入藥，具解熱、潤腎燥、清心肺等效用。產大陸地區東北、內蒙至蒙古及韓國",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕁"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕎": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)蓼科蕎麥屬，之古稱。參見條。(2)大戟科大戟屬。多年生草本。根圓柱形，莖高四十至九十公分，具乳汁。葉橢圓形至披針狀橢圓形。總苞片四至七枚輪生，繖輻四至七枚，大戟花序單生二歧分枝頂端，具淡褐色腺體。蒴果球形。根可入藥",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)蓼科蕎麥屬，之古稱。參見條。(2)大戟科大戟屬。多年生草本。根圓柱形，莖高四十至九十公分，具乳汁。葉橢圓形至披針狀橢圓形。總苞片四至七枚輪生，繖輻四至七枚，大戟花序單生二歧分枝頂端，具淡褐色腺體。蒴果球形。根可入藥",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕕": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。馬鞭草科蕕屬，多年生草本。莖方形，葉對生，廣卵形，鋸齒緣，含臭氣，兩面被黃色腺點及柔毛。繖房狀聚繖花序密集，花冠二脣形，紫碧色。果四瓣裂。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。馬鞭草科蕕屬，多年生草本。莖方形，葉對生，廣卵形，鋸齒緣，含臭氣，兩面被黃色腺點及柔毛。繖房狀聚繖花序密集，花冠二脣形，紫碧色。果四瓣裂。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕕"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕣": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。錦葵科木槿屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕣"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕨": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。碗蕨科蕨屬，多年生草本。地下莖橫生，於春季發嫩芽，形如拳狀，全株披白色毛茸。葉剛硬，三角形，三回羽狀複葉，基部三至六對羽片常較成熟，末端小裂片全緣。孢子囊群生於裂片背面兩側邊緣，被反卷之葉緣所包被。嫩葉可食，根莖有解熱、利尿等功用",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。碗蕨科蕨屬，多年生草本。地下莖橫生，於春季發嫩芽，形如拳狀，全株披白色毛茸。葉剛硬，三角形，三回羽狀複葉，基部三至六對羽片常較成熟，末端小裂片全緣。孢子囊群生於裂片背面兩側邊緣，被反卷之葉緣所包被。嫩葉可食，根莖有解熱、利尿等功用",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蕨"
+      ]
+    },
+    "蕮": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)馬蕮：即車前。車前科車前屬，多年生草本。葉呈闊卵形，長葉柄。夏天開淡紫色花，花冠為漏斗狀。果實為蓋果，嫩葉可食。：(2)澤蕮：即蕍。澤瀉科澤潟屬，多年生草本。長於水澤中。葉呈橢圓形，具長柄，叢生。花小，白色，果實為球形瘦果。根莖可為利尿劑",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)馬蕮：即車前。車前科車前屬，多年生草本。葉呈闊卵形，長葉柄。夏天開淡紫色花，花冠為漏斗狀。果實為蓋果，嫩葉可食。：(2)澤蕮：即蕍。澤瀉科澤潟屬，多年生草本。長於水澤中。葉呈橢圓形，具長柄，叢生。花小，白色，果實為球形瘦果。根莖可為利尿劑",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕮"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕹": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。旋花科牽牛屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蕹"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蕺": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。三白草科蕺菜屬。之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蕺"
+      ]
+    },
+    "薁": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。葡萄科葡萄屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薁"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "薇": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)紫萁科紫萁屬，多年生草本，高五十至八十公分。葉叢生，有孢子葉與營養葉之分，營養葉三角狀卵形，二回羽狀複葉，小羽片全緣，游離脈；孢子葉全部或部分羽片著生孢子囊。幼嫩時可供食用，多生於山野向陽草地。也稱為。(2)豆科蠶豆屬，、之古稱，參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)紫萁科紫萁屬，多年生草本，高五十至八十公分。葉叢生，有孢子葉與營養葉之分，營養葉三角狀卵形，二回羽狀複葉，小羽片全緣，游離脈；孢子葉全部或部分羽片著生孢子囊。幼嫩時可供食用，多生於山野向陽草地。也稱為。(2)豆科蠶豆屬，、之古稱，參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "薊": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "菊科菜薊族總苞片頂端常具各式芒刺的一些屬植物的泛稱，如、、等。大草本，葉緣有刺針，頭狀花序同型，於枝頂排成總狀，圓錐狀罕穗狀，紫紅或白色，小花全部為管狀花冠。約有三百種以上",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薊"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "薑": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薑科薑屬，多年生草本。葉長披針形，葉脈平行。穗狀花序毬果狀，卵形，長四至五公分，總梗長可達二十五公分，直立，苞片卵形，花冠脣形，脣瓣中央裂片倒卵形，黃綠色，具紫色條紋及黃白斑。地下莖肥大，呈不規則塊狀，色黃，味辛辣，可作蔬菜、調味料，並供藥用。經過乾燥處理後，可為芳香劑、興奮劑、驅風劑等。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薑科薑屬，多年生草本。葉長披針形，葉脈平行。穗狀花序毬果狀，卵形，長四至五公分，總梗長可達二十五公分，直立，苞片卵形，花冠脣形，脣瓣中央裂片倒卵形，黃綠色，具紫色條紋及黃白斑。地下莖肥大，呈不規則塊狀，色黃，味辛辣，可作蔬菜、調味料，並供藥用。經過乾燥處理後，可為芳香劑、興奮劑、驅風劑等。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薑"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "薤": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。百合科蔥屬。之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薤"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "薰": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。報春科珍珠茉屬，、之古稱。參見條。\r",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "薰"
+      ]
+    },
+    "薹": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)莎草科薹草屬，一群薹草屬植物之混稱。多年生草本。稈三稜狀圓柱形，高十至一百二十公分，葉狹長線形，小穗單生或組成穗狀圓錐花序，雌花生於先出葉形成之囊內。堅果雙凸形或三稜形。葉可製笠帽、蓑衣等。也稱為。(2)十字花科蕓薹屬，、之古稱。參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)莎草科薹草屬，一群薹草屬植物之混稱。多年生草本。稈三稜狀圓柱形，高十至一百二十公分，葉狹長線形，小穗單生或組成穗狀圓錐花序，雌花生於先出葉形成之囊內。堅果雙凸形或三稜形。葉可製笠帽、蓑衣等。也稱為。(2)十字花科蕓薹屬，、之古稱。參見條",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "薹"
+      ]
+    },
+    "薺": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。十字花科薺屬，之簡稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "薺"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藍": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)馬鞭草科海州常山屬，之古稱，參見條。(2)十字花科菘藍屬。一至二年生草本，基生葉蓮座狀，長橢圓形，花序圓錐狀，花黃色。短角果扁橢圓形。全草入藥，亦供提取藍色染料。(3)蓼科蓼屬，一年生草本。葉互生，卵形或橢圓形，穗狀花序長二至五公分，花被五深裂，淡紅色。瘦果寬卵形。可作染料。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名：(1)馬鞭草科海州常山屬，之古稱，參見條。(2)十字花科菘藍屬。一至二年生草本，基生葉蓮座狀，長橢圓形，花序圓錐狀，花黃色。短角果扁橢圓形。全草入藥，亦供提取藍色染料。(3)蓼科蓼屬，一年生草本。葉互生，卵形或橢圓形，穗狀花序長二至五公分，花被五深裂，淡紅色。瘦果寬卵形。可作染料。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蓝",
+        "藍"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藎": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科藎草屬，之簡稱，參見條。一年生草本",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。禾本科藎草屬，之簡稱，參見條。一年生草本",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藎"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藚": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。澤瀉科澤瀉屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藚"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藜": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。藜科藜屬，、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "藜"
+      ]
+    },
+    "藟": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "藤葛類蔓生的草",
+          "snippet": "蔓生"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藟"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藤": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。棕櫚科黃藤屬，、之俗稱，參見條",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "蔓生植物的卷鬚或莖",
+          "snippet": "蔓生"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "藤"
+      ]
+    },
+    "藨": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)薔薇科懸鉤子屬，、之古稱，參見條。：。\r",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藨"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藫": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。紅藻類杉苔科鹿角菜屬。之古稱。參見條。：也稱為",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藫"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藺": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。燈心科燈心草屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "藺"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "藿": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蝶形花科菜豆屬，、之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "藿"
+      ]
+    },
+    "蘅": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。馬兜鈴科細辛屬，之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蘅"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘇": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。即紫蘇。脣形科紫蘇屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蘇"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘋": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蘋科蘋屬。、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "苹",
+        "蘋"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘢": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。蓼科蓼屬，一年生草本。莖高六十至七十公分。葉互生，呈披針形或長橢圓形。夏秋之間開紅紫色或白色的花。也稱為",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。蓼科蓼屬，一年生草本。莖高六十至七十公分。葉互生，呈披針形或長橢圓形。夏秋之間開紅紫色或白色的花。也稱為",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蘢"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘦": {
+      "routes": [
+        "plant:lifeform",
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。薯蕷科薯蕷屬，多年生纏繞藤本。塊莖單生，球形或圓錐形。莖左旋，光滑。葉寬卵形或心狀卵形，葉腋常具珠芽。花單性，穗狀花序。蒴果長橢圓形，具三翅。塊莖外側褐色，內黃赤色，入藥，主治惡腫瘡毒等症狀。：現稱",
+          "snippet": "植物名"
+        },
+        {
+          "route": "plant:lifeform",
+          "sense": "植物名。薯蕷科薯蕷屬，多年生纏繞藤本。塊莖單生，球形或圓錐形。莖左旋，光滑。葉寬卵形或心狀卵形，葉腋常具珠芽。花單性，穗狀花序。蒴果長橢圓形，具三翅。塊莖外側褐色，內黃赤色，入藥，主治惡腫瘡毒等症狀。：現稱",
+          "snippet": "藤本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蘦"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘧": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "蘧麥：植物名。即瞿麥。石竹科石竹屬，多年生草本。莖高約五十公分。葉對生，披針狀線形，無柄。夏秋季開花，一至二朵頂生，偶近枝端腋生，淡紅色或帶紫色，花瓣邊緣絲狀裂至中部或中上部。蒴果圓筒形，頂端四裂。可供觀賞，亦可入藥",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蘧"
+      ]
+    },
+    "蘩": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。菊科艾屬，之古稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "蘩"
+      ]
+    },
+    "蘪": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "蘪蕪：植物名。即蘄茝。繖形科假蛇床子屬，草本。莖中空，葉似芹葉。秋日開白色小花，複繖形花序",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "蘪"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "蘭": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名：(1)蘭科蕙蘭屬，之古稱。參見條。(2)菊科蘭澤屬，、之古稱。參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": true,
+      "hownet_charge_candidates": [
+        "兰",
+        "蘭"
+      ]
+    },
+    "豆": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "雙子葉植物豆科的泛稱。草本、木本均有。葉多複葉，間或為單葉，互生，通常具托葉。花為蝶形，或兩側對稱，有些為輻射對稱。果為莢果，種子無胚乳，間或含少量胚乳。約一萬六千種，產世界各地。用途極廣，供食用、藥用或觀賞等",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "豆"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "韭": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。石蒜科蔥屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "韭"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "麥": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "禾本科植物的通稱。一年生或二年生草本植物。夏月開花結實，種子可用來磨麵粉，製糖或釀酒。種類甚多，有黑麥、燕麥、小麥、大麥等",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "麥"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "麻": {
+      "routes": [
+        "plant:lifeform"
+      ],
+      "lifeform_only": true,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:lifeform",
+          "sense": "以韌皮纖維為主要用途之草本植物的統稱。其莖部的韌皮纖維長而堅韌，可供紡織用。其果實可為飼料或榨油用。種類甚多，有大麻、黃麻、業麻、苧麻、亞麻等，中國古來即有種植。\r",
+          "snippet": "草本"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "麻"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    },
+    "黍": {
+      "routes": [
+        "plant:name"
+      ],
+      "lifeform_only": false,
+      "fixpoint_round": 1,
+      "matched": [
+        {
+          "route": "plant:name",
+          "sense": "植物名。禾本科黍屬，之簡稱，參見條",
+          "snippet": "植物名"
+        }
+      ],
+      "hownet_had_it": false,
+      "hownet_charge_candidates": [
+        "黍"
+      ],
+      "gap_class": "genuine attribute-gap (HowNet knows the char/twin, no deployed plant sememe)"
+    }
+  },
+  "diff_vs_unhardened": {
+    "unhardened_baseline_definition": "loose substring of 植物名/植物 + life-form phrases on the FULL 釋義 (no gloss_region, no citation strip), single pass, initial PLANTSEED only",
+    "n_unhardened_baseline": 333,
+    "dropped_by_hardening": "仔休卉咬喬嘒培墩壅夭子孫它實尋幽心掇擦料木朵杳枝柄根栽桓梗棵植楊楛槭樹橫毛油灌烴煤界癭皮磷禾科秕秧秬稃稈稨稷稿穗穟窠節籽紙絮纑纓耔胚脂腺膜膠花芾苗苹荳莁菌華菻萩萹落葉葍蒡蒴蓎蓧蕈蕊藻蘚蝨螼蟬蠟衃衣跡鉀階飆鬚鶆麮黴",
+    "n_dropped": 106,
+    "added_by_hardening": "",
+    "n_added": 0
+  },
+  "hownet_side": {
+    "deployed_plant_word_rule": "field_ruler_48.py SPECS['plant'] — HEAD-sememe rule (toks[0] in token set)",
+    "deployed_token_set": [
+      "flowergrass|花草",
+      "plant|植物",
+      "tree|树"
+    ],
+    "char_inventory_rule": "hownet_plant_chars_54 uses ANY-position full-pair (the illumination_labeler_53 char pattern this family mirrors); the head-vs-any delta — plant|植物 is head~87 but substring~725 in HowNet — is reported in hownet_plant_chars_54, not decided here.",
+    "n_hownet_single_char_charged": 259,
+    "hownet_single_char_charged_sample": "丛兰凋刍匏卉参叶喷园圃坛埯子实干开把支放木本朵杈杉杌杜条杨杪松枋林枝枞枥枫枳柃柄柎柏柘柞柢柯柳柽栌栎树栝株栲核根栾桂桃桉桐桑桕桠桢桤桦桧桷梗梢梨棔棕棘棵椐椒椴椿"
+  },
+  "provenance": {
+    "witness_module": "definition_witness_zh_53.py (parse_moe/gloss_region/s2t/S2T_CHAR exec'd verbatim from the definitional prefix; pipeline NOT run)",
+    "witness_sha256": "8432bfa9c332540788bc1006bdb6d968d777256017b739d0ab75704f8e27c9a0",
+    "moe_xlsx": "lexical_resources/zh_dict_prose/dict_revised_2015_20260625.xlsx",
+    "moe_xlsx_sha256": "df94ae4384ae3f33f573ded5c2f142041ea7530d381a285163593d6252ea4a9a",
+    "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+    "field_ruler_sha256": "76fa8f30d6ed7ba76886997da48affb7a52a4e5eadee32773e9f2da23efceb70",
+    "plant_ruler_json_sha256": "54b6fa85264d79b0ebb0f2cae05251e9f6bedb7a0d6cfd8e156bd52dc642406a",
+    "plant_ruler_recorded_zh_lex_size": 939,
+    "mirror_of": "moe_illum_sense_chars_54.py (queue item 4)"
+  }
+}

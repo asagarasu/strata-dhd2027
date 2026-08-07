@@ -1,0 +1,467 @@
+{
+ "what": "census line-scalar discrimination exam in z-space (fired vs covered-unfired, seat-clustered bootstrap)",
+ "registration": "census_z_lineexam_registration_0728_62.md",
+ "date": "2026-07-28",
+ "chair": "#62",
+ "seed": 48,
+ "n_boot": 2000,
+ "her_pin": "line-scalar makes no states; this run REPORTS only",
+ "provenance": {
+  "news_norms_z_62_sha16": "1ce0ec86b1750ebc",
+  "descriptive_scores_59_sha16": {
+   "sonnet18": "037f4cd68e704813",
+   "qingqing": "7e5cdab4a7806284",
+   "tiaotiao": "a965f0c27eaa2633",
+   "xibei": "1df9c8d59595dd3e",
+   "albatros": "7f93e104fffb04db",
+   "correspondances": "8a538b02861ce83e",
+   "invitation": "2696a274be7b265b",
+   "elevation": "4d57e57a78c7f976"
+  },
+  "z_norms_commit": "9bc5709"
+ },
+ "seats": {
+  "total": 75,
+  "in_exam_covered": 74,
+  "mt_seats": [
+   "sonnet18::zh:google_translate",
+   "tiaotiao::en:google_translate",
+   "xibei::en:google_translate"
+  ],
+  "source_seats": [
+   "albatros::fr:baudelaire_1861",
+   "correspondances::fr:baudelaire_1861",
+   "elevation::fr:baudelaire_1861",
+   "invitation::fr:baudelaire_1861",
+   "qingqing::zh:gushi19_02",
+   "sonnet18::en:shakespeare_1609",
+   "tiaotiao::zh:gushi19_10",
+   "xibei::zh:gushi19_05"
+  ]
+ },
+ "exclusions": {
+  "uncovered": {
+   "color": 0,
+   "plant": 253,
+   "sound": 253,
+   "illumination": 904,
+   "temporal": 253
+  },
+  "jp_lang": {
+   "color": 14,
+   "plant": 14,
+   "sound": 14,
+   "illumination": 14,
+   "temporal": 14
+  },
+  "null_reading": {
+   "color": 0,
+   "plant": 0,
+   "sound": 0,
+   "illumination": 0,
+   "temporal": 0
+  },
+  "covered_but_null_fires": {
+   "color": 0,
+   "plant": 0,
+   "sound": 0,
+   "illumination": 0,
+   "temporal": 0
+  }
+ },
+ "grade_ladder": {
+  "discrimination_ci_low>=": 0.75,
+  "weak_ci_low>=": 0.6
+ },
+ "pooled": {
+  "color": {
+   "n_pos": 141,
+   "n_neg": 1144,
+   "auc": 0.7996329911223529,
+   "auc_ci95": [
+    0.753193887305218,
+    0.8444303474660997
+   ],
+   "mean_z_fired": 2.0693683663221707,
+   "mean_z_fired_ci95": [
+    1.6104824447187764,
+    2.5639040943897276
+   ],
+   "mean_z_unfired": -0.27164948918487275,
+   "mean_z_unfired_ci95": [
+    -0.35354656857835015,
+    -0.17340006789293902
+   ],
+   "delta": 2.3410178555070433,
+   "delta_ci95": [
+    1.9129124233340606,
+    2.800212119907493
+   ],
+   "grade": "DISCRIMINATION at line grain"
+  },
+  "plant": {
+   "n_pos": 73,
+   "n_neg": 959,
+   "auc": 0.7609953290385247,
+   "auc_ci95": [
+    0.6830114125984493,
+    0.8338471666890219
+   ],
+   "mean_z_fired": 1.7287244175029812,
+   "mean_z_fired_ci95": [
+    1.2309712002845594,
+    2.1997587620127796
+   ],
+   "mean_z_unfired": 0.06088615939672968,
+   "mean_z_unfired_ci95": [
+    -0.058021378348960116,
+    0.18305758831766114
+   ],
+   "delta": 1.6678382581062516,
+   "delta_ci95": [
+    1.1900868603108123,
+    2.1458794838990216
+   ],
+   "grade": "WEAK — exploratory"
+  },
+  "sound": {
+   "n_pos": 171,
+   "n_neg": 861,
+   "auc": 0.707880813143971,
+   "auc_ci95": [
+    0.6469366845492515,
+    0.7615918626249885
+   ],
+   "mean_z_fired": 2.2099082248976405,
+   "mean_z_fired_ci95": [
+    1.5945896161918869,
+    2.74556425143078
+   ],
+   "mean_z_unfired": 0.5435410732058099,
+   "mean_z_unfired_ci95": [
+    0.37139970983321124,
+    0.73708597614516
+   ],
+   "delta": 1.6663671516918306,
+   "delta_ci95": [
+    1.1182753680601392,
+    2.156934073803379
+   ],
+   "grade": "WEAK — exploratory"
+  },
+  "illumination": {
+   "n_pos": 37,
+   "n_neg": 344,
+   "auc": 0.4879006913890635,
+   "auc_ci95": [
+    0.37648802322523706,
+    0.6307441600744531
+   ],
+   "mean_z_fired": -0.15966940026231263,
+   "mean_z_fired_ci95": [
+    -0.6547007690753968,
+    0.5543863788084475
+   ],
+   "mean_z_unfired": -0.14655052040446048,
+   "mean_z_unfired_ci95": [
+    -0.29373639839899013,
+    -0.03136024590866717
+   ],
+   "delta": -0.01311887985785215,
+   "delta_ci95": [
+    -0.47837038460731285,
+    0.7091185341225937
+   ],
+   "grade": "NO demonstrated discrimination"
+  },
+  "temporal": {
+   "n_pos": 223,
+   "n_neg": 809,
+   "auc": 0.5412594854966825,
+   "auc_ci95": [
+    0.507302703727007,
+    0.5747356825029374
+   ],
+   "mean_z_fired": 0.06422194290200023,
+   "mean_z_fired_ci95": [
+    -0.0679637714069389,
+    0.20112113302733253
+   ],
+   "mean_z_unfired": -0.14501169999827046,
+   "mean_z_unfired_ci95": [
+    -0.22518034445177798,
+    -0.06700635690491692
+   ],
+   "delta": 0.2092336429002707,
+   "delta_ci95": [
+    0.048748328804691085,
+    0.3826240974093727
+   ],
+   "grade": "NO demonstrated discrimination",
+   "caveat": "temporal is the DURATION value ruler (RULERS A7); temporal-SALIENCE is a documented negative (A9); fired-separation was never its claim"
+  }
+ },
+ "per_lang": {
+  "color": {
+   "en": {
+    "n_pos": 95,
+    "n_neg": 556,
+    "auc": 0.7631768269594851,
+    "auc_ci95": [
+     0.7057761741193509,
+     0.8181333786473177
+    ],
+    "grade": "WEAK — exploratory"
+   },
+   "zh": {
+    "n_pos": 29,
+    "n_neg": 352,
+    "auc": 0.877057210031348,
+    "auc_ci95": [
+     0.8076704962046946,
+     0.9375346682366928
+    ],
+    "grade": "DISCRIMINATION at line grain"
+   },
+   "de": {
+    "n_pos": 8,
+    "verdict": "THIN — no exam"
+   },
+   "fr": {
+    "n_pos": 9,
+    "verdict": "THIN — no exam"
+   }
+  },
+  "plant": {
+   "en": {
+    "n_pos": 49,
+    "n_neg": 602,
+    "auc": 0.7781205505457998,
+    "auc_ci95": [
+     0.6920915277211833,
+     0.8543441705280796
+    ],
+    "grade": "WEAK — exploratory"
+   },
+   "zh": {
+    "n_pos": 24,
+    "n_neg": 357,
+    "auc": 0.7195378151260504,
+    "auc_ci95": [
+     0.5609088009487548,
+     0.8819006019146225
+    ],
+    "grade": "NO demonstrated discrimination"
+   },
+   "de": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   },
+   "fr": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   }
+  },
+  "sound": {
+   "en": {
+    "n_pos": 107,
+    "n_neg": 544,
+    "auc": 0.72337135788895,
+    "auc_ci95": [
+     0.6480327736166223,
+     0.7828415621712779
+    ],
+    "grade": "WEAK — exploratory"
+   },
+   "zh": {
+    "n_pos": 64,
+    "n_neg": 317,
+    "auc": 0.6877957413249212,
+    "auc_ci95": [
+     0.6009549110620102,
+     0.7832428880643166
+    ],
+    "grade": "WEAK — exploratory"
+   },
+   "de": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   },
+   "fr": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   }
+  },
+  "illumination": {
+   "en": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   },
+   "zh": {
+    "n_pos": 37,
+    "n_neg": 344,
+    "auc": 0.4879006913890635,
+    "auc_ci95": [
+     0.37648802322523706,
+     0.6307441600744531
+    ],
+    "grade": "NO demonstrated discrimination"
+   },
+   "de": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   },
+   "fr": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   }
+  },
+  "temporal": {
+   "en": {
+    "n_pos": 67,
+    "n_neg": 584,
+    "auc": 0.5551267634430587,
+    "auc_ci95": [
+     0.48134466588995484,
+     0.6337607017116149
+    ],
+    "grade": "NO demonstrated discrimination"
+   },
+   "zh": {
+    "n_pos": 156,
+    "n_neg": 225,
+    "auc": 0.5216524216524216,
+    "auc_ci95": [
+     0.48075795565945256,
+     0.5763915563364933
+    ],
+    "grade": "NO demonstrated discrimination"
+   },
+   "de": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   },
+   "fr": {
+    "n_pos": 0,
+    "verdict": "THIN — no exam"
+   }
+  }
+ },
+ "sensitivity": {
+  "color": {
+   "headline_auc": 0.7996329911223529,
+   "mt_excluded": {
+    "auc": 0.7996897220426632,
+    "auc_ci95": [
+     0.753556780794792,
+     0.8440944419100415
+    ],
+    "n_pos": 140,
+    "delta": 5.673092031033278e-05,
+    "grade": "DISCRIMINATION at line grain"
+   },
+   "source_excluded": {
+    "auc": 0.7971045942091884,
+    "auc_ci95": [
+     0.7478424611505082,
+     0.8478386999638838
+    ],
+    "n_pos": 127,
+    "delta": -0.0025283969131644213,
+    "grade": "WEAK — exploratory"
+   }
+  },
+  "plant": {
+   "headline_auc": 0.7609953290385247,
+   "mt_excluded": {
+    "auc": 0.759963768115942,
+    "auc_ci95": [
+     0.6796026295421009,
+     0.8321964731374929
+    ],
+    "n_pos": 72,
+    "delta": -0.0010315609225827194,
+    "grade": "WEAK — exploratory"
+   },
+   "source_excluded": {
+    "auc": 0.7815766838692603,
+    "auc_ci95": [
+     0.6957177220723805,
+     0.8569282198499157
+    ],
+    "n_pos": 66,
+    "delta": 0.020581354830735532,
+    "grade": "WEAK — exploratory"
+   }
+  },
+  "sound": {
+   "headline_auc": 0.707880813143971,
+   "mt_excluded": {
+    "auc": 0.6992562843968466,
+    "auc_ci95": [
+     0.6357717791021724,
+     0.7577169332004944
+    ],
+    "n_pos": 162,
+    "delta": -0.008624528747124383,
+    "grade": "WEAK — exploratory"
+   },
+   "source_excluded": {
+    "auc": 0.6996698935499425,
+    "auc_ci95": [
+     0.6378401846333726,
+     0.7579130881647121
+    ],
+    "n_pos": 165,
+    "delta": -0.008210919594028532,
+    "grade": "WEAK — exploratory"
+   }
+  },
+  "illumination": {
+   "headline_auc": 0.4879006913890635,
+   "mt_excluded": {
+    "auc": 0.46970499911676383,
+    "auc_ci95": [
+     0.3531487879042227,
+     0.6231894531912334
+    ],
+    "n_pos": 34,
+    "delta": -0.01819569227229967,
+    "grade": "NO demonstrated discrimination"
+   },
+   "source_excluded": {
+    "auc": 0.4848076231571377,
+    "auc_ci95": [
+     0.371134936065206,
+     0.6395040419435185
+    ],
+    "n_pos": 36,
+    "delta": -0.0030930682319257885,
+    "grade": "NO demonstrated discrimination"
+   }
+  },
+  "temporal": {
+   "headline_auc": 0.5412594854966825,
+   "mt_excluded": {
+    "auc": 0.538159167876149,
+    "auc_ci95": [
+     0.5023848951437665,
+     0.5740727545471817
+    ],
+    "n_pos": 212,
+    "delta": -0.0031003176205334215,
+    "grade": "NO demonstrated discrimination"
+   },
+   "source_excluded": {
+    "auc": 0.5317523251025013,
+    "auc_ci95": [
+     0.4976502665441915,
+     0.5675552756330993
+    ],
+    "n_pos": 211,
+    "delta": -0.009507160394181202,
+    "grade": "NO demonstrated discrimination"
+   }
+  }
+ }
+}

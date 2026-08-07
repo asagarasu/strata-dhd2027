@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="758" height="348" font-family="Georgia, 'Times New Roman', serif">
+<rect width="758" height="348" fill="#fffdf9"/>
+<line x1="8" y1="44" x2="750" y2="44" stroke="#1f2937" stroke-width="1.4"/>
+<text x="20" y="34" font-size="12.5" letter-spacing="3" fill="#374151">THE ELEMENT IS</text>
+<text x="213" y="34" font-size="12.5" letter-spacing="3" fill="#374151">INSTANCE</text>
+<text x="560" y="34" font-size="12.5" letter-spacing="3" fill="#374151">SETTLED BY</text>
+<text x="20" y="78" font-size="13.5" letter-spacing="1.5" fill="#111827">STATED</text>
+<text x="20" y="93" font-size="11" font-style="italic" fill="#6b7280">in the wording</text>
+<text x="213" y="79" font-size="18" fill="#111827">ein <tspan fill="#b22222">rotes</tspan> Wort</text>
+<text x="350" y="79" font-size="9.5" font-style="italic" fill="#8a8577">Hölderlin’s Antigone</text>
+<text x="213" y="94" font-size="11.5" font-style="italic" fill="#6b7280">red, said outright<tspan font-size="10.5" letter-spacing="1.5" fill="#9ca3af" font-style="normal">  · COLOUR</tspan></text>
+<text x="560" y="76" font-size="12" fill="#111827">published colour-term</text>
+<text x="560" y="91" font-size="12" fill="#111827">inventories</text>
+<rect x="8" y="112" width="742" height="70" fill="#f6eed9"/>
+<line x1="8" y1="112" x2="750" y2="112" stroke="#d8d2c6" stroke-width="1"/>
+<text x="20" y="136" font-size="13.5" letter-spacing="1.5" fill="#111827">WRITTEN-BORNE</text>
+<text x="20" y="151" font-size="11" font-style="italic" fill="#6b7280">in the word’s shape</text>
+<text x="213" y="137" font-size="18" fill="#111827"><tspan fill="#c9a227">καλχ</tspan>αίνω</text>
+<text x="298" y="137" font-size="9.5" font-style="italic" fill="#8a8577">Antigone</text>
+<text x="213" y="152" font-size="11.5" font-style="italic" fill="#6b7280">purple, in the stem</text>
+<text x="213" y="167" font-size="11.5" font-style="italic" fill="#6b7280"><tspan font-size="10.5" letter-spacing="1.5" fill="#9ca3af" font-style="normal">  · COLOUR</tspan></text>
+<line x1="355" y1="120" x2="355" y2="174" stroke="#d8d2c6" stroke-width="1"/>
+<text x="366" y="137" font-size="18" fill="#111827">中<tspan fill="#c9a227">曲</tspan>·正·徘徊</text>
+<text x="480" y="137" font-size="9.5" font-style="italic" fill="#8a8577">西北有高樓</text>
+<text x="366" y="152" font-size="11.5" font-style="italic" fill="#6b7280">melody, in the graph</text>
+<text x="366" y="167" font-size="11.5" font-style="italic" fill="#6b7280"><tspan font-size="10.5" letter-spacing="1.5" fill="#9ca3af" font-style="normal">  · SOUND</tspan></text>
+<text x="560" y="134" font-size="12" fill="#111827">etymon chains · single-graph</text>
+<text x="560" y="149" font-size="12" fill="#111827">inventories</text>
+<rect x="8" y="182" width="742" height="58" fill="#f6eed9"/>
+<line x1="8" y1="182" x2="750" y2="182" stroke="#d8d2c6" stroke-width="1"/>
+<text x="20" y="206" font-size="13.5" letter-spacing="1.5" fill="#111827">REFERENT-BORNE</text>
+<text x="20" y="221" font-size="11" font-style="italic" fill="#6b7280">in the thing named</text>
+<text x="213" y="207" font-size="18" fill="#111827"><tspan font-style="italic" fill="#7c3aed">la nuit</tspan></text>
+<text x="213" y="222" font-size="11.5" font-style="italic" fill="#6b7280">night is dark.<tspan font-size="10.5" letter-spacing="1.5" fill="#9ca3af" font-style="normal">  · ILLUMINATION</tspan></text>
+<text x="560" y="204" font-size="12" fill="#111827">dictionary definitions</text>
+<rect x="8" y="240" width="742" height="70" fill="#e6eff1"/>
+<line x1="8" y1="240" x2="750" y2="240" stroke="#d97706" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="20" y="264" font-size="13.5" letter-spacing="1.5" fill="#92400e">GHOST</text>
+<text x="20" y="279" font-size="11" font-style="italic" fill="#a16207">attested, claimed by nothing</text>
+<text x="213" y="265" font-size="18" fill="#111827">« sol » <tspan font-size="13">→</tspan> <tspan fill="#d97706">earth</tspan></text>
+<text x="345" y="265" font-size="9.5" font-style="italic" fill="#8a8577">L’Albatros L15</text>
+<text x="213" y="280" font-size="11.5" font-style="italic" fill="#6b7280">a colour-blank line; five translators converge on earth</text>
+<text x="213" y="295" font-size="11.5" font-style="italic" fill="#6b7280"><tspan font-size="10.5" letter-spacing="1.5" fill="#9ca3af" font-style="normal">  · COLOUR</tspan></text>
+<text x="560" y="262" font-size="12" fill="#111827">the detector’s reading;</text>
+<text x="560" y="277" font-size="12" fill="#111827">every channel returns null</text>
+<line x1="201" y1="44" x2="201" y2="310" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="548" y1="44" x2="548" y2="310" stroke="#d8d2c6" stroke-width="1"/>
+<text x="379" y="330" font-size="10.5" font-style="italic" fill="#6b7280" text-anchor="middle">highlight = the claiming channel · <tspan fill="#b22222">trait hue</tspan>: stated by inventory · <tspan fill="#c9a227">amber</tspan>: the written form · <tspan fill="#7c3aed">purple</tspan>: the referent · <tspan fill="#d97706">orange</tspan>: fires the detector, cited by nothing</text>
+<line x1="8" y1="339" x2="750" y2="339" stroke="#1f2937" stroke-width="1.4"/>
+</svg>

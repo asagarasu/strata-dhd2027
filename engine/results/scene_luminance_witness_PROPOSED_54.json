@@ -1,0 +1,10405 @@
+{
+ "title": "SCENE-LUMINANCE witness — Places365 val (PROPOSED)",
+ "status": "TRIGGER-ONLY. World-fact account; may nominate, may never grade (two-truths ruling). PROPOSED; the field owner cuts.",
+ "date": "2026-07-21",
+ "session": 54,
+ "computation": "per-image mean Y=0.299R+0.587G+0.114B (BT.601), full 256x256 image; per-category stats over its 100 val images; no threshold invented — three candidate cuts published from the curve's own structure",
+ "n_images": 36500,
+ "n_categories": 365,
+ "per_category_sorted_by_median": [
+  {
+   "category": "/o/orchestra_pit",
+   "index": 250,
+   "n_images": 100,
+   "mean": 48.082,
+   "median": 44.839,
+   "std": 19.219,
+   "hist10_0_255": [
+    11,
+    46,
+    35,
+    7,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/movie_theater/indoor",
+   "index": 235,
+   "n_images": 100,
+   "mean": 52.841,
+   "median": 47.537,
+   "std": 26.594,
+   "hist10_0_255": [
+    14,
+    42,
+    27,
+    11,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stage/indoor",
+   "index": 315,
+   "n_images": 100,
+   "mean": 58.763,
+   "median": 50.997,
+   "std": 29.7,
+   "hist10_0_255": [
+    14,
+    36,
+    22,
+    17,
+    9,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/discotheque",
+   "index": 122,
+   "n_images": 100,
+   "mean": 59.326,
+   "median": 54.403,
+   "std": 32.025,
+   "hist10_0_255": [
+    11,
+    37,
+    28,
+    14,
+    5,
+    4,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bar",
+   "index": 39,
+   "n_images": 100,
+   "mean": 66.964,
+   "median": 62.91,
+   "std": 26.629,
+   "hist10_0_255": [
+    4,
+    26,
+    34,
+    28,
+    6,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pub/indoor",
+   "index": 274,
+   "n_images": 100,
+   "mean": 65.699,
+   "median": 64.666,
+   "std": 21.069,
+   "hist10_0_255": [
+    0,
+    23,
+    51,
+    23,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/arena/performance",
+   "index": 16,
+   "n_images": 100,
+   "mean": 65.014,
+   "median": 66.448,
+   "std": 28.831,
+   "hist10_0_255": [
+    6,
+    32,
+    27,
+    26,
+    6,
+    3,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/boxing_ring",
+   "index": 65,
+   "n_images": 100,
+   "mean": 72.258,
+   "median": 66.513,
+   "std": 27.364,
+   "hist10_0_255": [
+    1,
+    18,
+    48,
+    15,
+    12,
+    6,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/catacomb",
+   "index": 85,
+   "n_images": 100,
+   "mean": 74.126,
+   "median": 67.621,
+   "std": 36.962,
+   "hist10_0_255": [
+    9,
+    28,
+    17,
+    18,
+    20,
+    7,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/music_studio",
+   "index": 238,
+   "n_images": 100,
+   "mean": 76.3,
+   "median": 74.164,
+   "std": 32.694,
+   "hist10_0_255": [
+    5,
+    17,
+    32,
+    30,
+    10,
+    3,
+    1,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/beer_hall",
+   "index": 54,
+   "n_images": 100,
+   "mean": 78.727,
+   "median": 76.089,
+   "std": 22.446,
+   "hist10_0_255": [
+    0,
+    7,
+    44,
+    31,
+    17,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/television_studio",
+   "index": 329,
+   "n_images": 100,
+   "mean": 78.902,
+   "median": 76.717,
+   "std": 25.528,
+   "hist10_0_255": [
+    2,
+    13,
+    34,
+    36,
+    11,
+    4,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/grotto",
+   "index": 167,
+   "n_images": 100,
+   "mean": 81.082,
+   "median": 78.742,
+   "std": 31.071,
+   "hist10_0_255": [
+    2,
+    13,
+    34,
+    29,
+    12,
+    10,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/auditorium",
+   "index": 27,
+   "n_images": 100,
+   "mean": 82.157,
+   "median": 79.403,
+   "std": 28.942,
+   "hist10_0_255": [
+    1,
+    14,
+    30,
+    29,
+    23,
+    1,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/ballroom",
+   "index": 35,
+   "n_images": 100,
+   "mean": 81.975,
+   "median": 81.109,
+   "std": 26.461,
+   "hist10_0_255": [
+    2,
+    10,
+    30,
+    36,
+    18,
+    4,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/home_theater",
+   "index": 177,
+   "n_images": 100,
+   "mean": 82.459,
+   "median": 81.479,
+   "std": 28.817,
+   "hist10_0_255": [
+    3,
+    12,
+    26,
+    33,
+    19,
+    7,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/aquarium",
+   "index": 9,
+   "n_images": 100,
+   "mean": 82.639,
+   "median": 82.384,
+   "std": 35.282,
+   "hist10_0_255": [
+    6,
+    14,
+    21,
+    29,
+    23,
+    5,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/a/amusement_arcade",
+   "index": 6,
+   "n_images": 100,
+   "mean": 84.86,
+   "median": 82.411,
+   "std": 27.785,
+   "hist10_0_255": [
+    1,
+    8,
+    34,
+    34,
+    14,
+    8,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/elevator_shaft",
+   "index": 131,
+   "n_images": 100,
+   "mean": 84.11,
+   "median": 83.343,
+   "std": 35.669,
+   "hist10_0_255": [
+    6,
+    15,
+    19,
+    24,
+    27,
+    6,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/sushi_bar",
+   "index": 322,
+   "n_images": 100,
+   "mean": 87.194,
+   "median": 83.508,
+   "std": 24.983,
+   "hist10_0_255": [
+    1,
+    6,
+    28,
+    38,
+    20,
+    7,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stage/outdoor",
+   "index": 316,
+   "n_images": 100,
+   "mean": 90.817,
+   "median": 86.702,
+   "std": 37.405,
+   "hist10_0_255": [
+    4,
+    11,
+    22,
+    24,
+    21,
+    14,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/science_museum",
+   "index": 297,
+   "n_images": 100,
+   "mean": 88.767,
+   "median": 87.255,
+   "std": 29.898,
+   "hist10_0_255": [
+    1,
+    6,
+    26,
+    40,
+    18,
+    7,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/church/indoor",
+   "index": 90,
+   "n_images": 100,
+   "mean": 92.718,
+   "median": 90.29,
+   "std": 28.416,
+   "hist10_0_255": [
+    0,
+    7,
+    23,
+    35,
+    22,
+    11,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bazaar/indoor",
+   "index": 46,
+   "n_images": 100,
+   "mean": 93.399,
+   "median": 91.262,
+   "std": 23.684,
+   "hist10_0_255": [
+    0,
+    5,
+    13,
+    46,
+    28,
+    8,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/parking_garage/indoor",
+   "index": 255,
+   "n_images": 100,
+   "mean": 92.544,
+   "median": 91.405,
+   "std": 30.553,
+   "hist10_0_255": [
+    1,
+    11,
+    14,
+    43,
+    16,
+    12,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bank_vault",
+   "index": 37,
+   "n_images": 100,
+   "mean": 93.073,
+   "median": 91.59,
+   "std": 27.179,
+   "hist10_0_255": [
+    1,
+    7,
+    19,
+    33,
+    27,
+    13,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/subway_station/platform",
+   "index": 320,
+   "n_images": 100,
+   "mean": 92.37,
+   "median": 91.81,
+   "std": 29.422,
+   "hist10_0_255": [
+    0,
+    7,
+    25,
+    31,
+    28,
+    6,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/throne_room",
+   "index": 331,
+   "n_images": 100,
+   "mean": 90.25,
+   "median": 92.263,
+   "std": 30.996,
+   "hist10_0_255": [
+    1,
+    10,
+    21,
+    32,
+    27,
+    7,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/arcade",
+   "index": 11,
+   "n_images": 100,
+   "mean": 94.056,
+   "median": 94.897,
+   "std": 25.99,
+   "hist10_0_255": [
+    0,
+    7,
+    17,
+    36,
+    31,
+    8,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/alley",
+   "index": 4,
+   "n_images": 100,
+   "mean": 94.884,
+   "median": 95.704,
+   "std": 32.813,
+   "hist10_0_255": [
+    2,
+    10,
+    11,
+    37,
+    26,
+    11,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/restaurant",
+   "index": 284,
+   "n_images": 100,
+   "mean": 99.351,
+   "median": 96.328,
+   "std": 32.51,
+   "hist10_0_255": [
+    0,
+    6,
+    17,
+    37,
+    24,
+    10,
+    3,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/basement",
+   "index": 43,
+   "n_images": 100,
+   "mean": 94.434,
+   "median": 96.333,
+   "std": 32.632,
+   "hist10_0_255": [
+    1,
+    9,
+    14,
+    36,
+    23,
+    13,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/general_store/indoor",
+   "index": 160,
+   "n_images": 100,
+   "mean": 97.974,
+   "median": 96.597,
+   "std": 18.493,
+   "hist10_0_255": [
+    0,
+    0,
+    11,
+    51,
+    29,
+    9,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bamboo_forest",
+   "index": 36,
+   "n_images": 100,
+   "mean": 95.546,
+   "median": 96.663,
+   "std": 29.393,
+   "hist10_0_255": [
+    0,
+    6,
+    19,
+    35,
+    28,
+    10,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/r/rainforest",
+   "index": 279,
+   "n_images": 100,
+   "mean": 95.191,
+   "median": 97.884,
+   "std": 23.875,
+   "hist10_0_255": [
+    0,
+    9,
+    12,
+    36,
+    37,
+    6,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/corridor",
+   "index": 106,
+   "n_images": 100,
+   "mean": 101.817,
+   "median": 98.432,
+   "std": 35.627,
+   "hist10_0_255": [
+    0,
+    7,
+    16,
+    31,
+    21,
+    15,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/j/jail_cell",
+   "index": 196,
+   "n_images": 100,
+   "mean": 91.664,
+   "median": 98.498,
+   "std": 32.04,
+   "hist10_0_255": [
+    2,
+    13,
+    17,
+    26,
+    34,
+    6,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/cockpit",
+   "index": 98,
+   "n_images": 100,
+   "mean": 96.12,
+   "median": 99.099,
+   "std": 31.033,
+   "hist10_0_255": [
+    1,
+    8,
+    18,
+    26,
+    33,
+    10,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/arena/rodeo",
+   "index": 17,
+   "n_images": 100,
+   "mean": 96.482,
+   "median": 99.473,
+   "std": 29.318,
+   "hist10_0_255": [
+    1,
+    7,
+    17,
+    29,
+    32,
+    12,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bookstore",
+   "index": 60,
+   "n_images": 100,
+   "mean": 98.747,
+   "median": 99.681,
+   "std": 22.776,
+   "hist10_0_255": [
+    0,
+    2,
+    16,
+    37,
+    36,
+    7,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bowling_alley",
+   "index": 64,
+   "n_images": 100,
+   "mean": 99.707,
+   "median": 99.85,
+   "std": 28.249,
+   "hist10_0_255": [
+    0,
+    5,
+    14,
+    37,
+    24,
+    19,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/conference_center",
+   "index": 101,
+   "n_images": 100,
+   "mean": 97.512,
+   "median": 100.459,
+   "std": 28.951,
+   "hist10_0_255": [
+    0,
+    8,
+    15,
+    30,
+    30,
+    15,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/engine_room",
+   "index": 133,
+   "n_images": 100,
+   "mean": 100.002,
+   "median": 100.487,
+   "std": 25.732,
+   "hist10_0_255": [
+    0,
+    3,
+    15,
+    36,
+    35,
+    8,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/car_interior",
+   "index": 82,
+   "n_images": 100,
+   "mean": 97.928,
+   "median": 100.65,
+   "std": 28.664,
+   "hist10_0_255": [
+    0,
+    7,
+    14,
+    33,
+    29,
+    17,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/legislative_chamber",
+   "index": 211,
+   "n_images": 100,
+   "mean": 98.327,
+   "median": 100.922,
+   "std": 24.388,
+   "hist10_0_255": [
+    0,
+    2,
+    19,
+    31,
+    37,
+    9,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bus_interior",
+   "index": 70,
+   "n_images": 100,
+   "mean": 99.578,
+   "median": 100.968,
+   "std": 23.191,
+   "hist10_0_255": [
+    0,
+    2,
+    11,
+    40,
+    38,
+    7,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/u/underwater/ocean_deep",
+   "index": 342,
+   "n_images": 100,
+   "mean": 99.32,
+   "median": 100.97,
+   "std": 26.878,
+   "hist10_0_255": [
+    0,
+    3,
+    18,
+    31,
+    33,
+    13,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/train_interior",
+   "index": 336,
+   "n_images": 100,
+   "mean": 98.415,
+   "median": 101.206,
+   "std": 21.788,
+   "hist10_0_255": [
+    1,
+    0,
+    16,
+    34,
+    45,
+    4,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/elevator/door",
+   "index": 129,
+   "n_images": 100,
+   "mean": 101.319,
+   "median": 101.293,
+   "std": 30.735,
+   "hist10_0_255": [
+    0,
+    4,
+    20,
+    28,
+    26,
+    17,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/coffee_shop",
+   "index": 99,
+   "n_images": 100,
+   "mean": 101.998,
+   "median": 101.33,
+   "std": 26.449,
+   "hist10_0_255": [
+    0,
+    2,
+    13,
+    39,
+    33,
+    7,
+    5,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/banquet_hall",
+   "index": 38,
+   "n_images": 100,
+   "mean": 104.886,
+   "median": 101.388,
+   "std": 27.7,
+   "hist10_0_255": [
+    0,
+    2,
+    12,
+    38,
+    27,
+    16,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/auto_factory",
+   "index": 28,
+   "n_images": 100,
+   "mean": 100.093,
+   "median": 101.403,
+   "std": 25.846,
+   "hist10_0_255": [
+    0,
+    4,
+    13,
+    35,
+    37,
+    9,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/food_court",
+   "index": 148,
+   "n_images": 100,
+   "mean": 102.301,
+   "median": 101.463,
+   "std": 24.451,
+   "hist10_0_255": [
+    1,
+    1,
+    12,
+    38,
+    31,
+    17,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/escalator/indoor",
+   "index": 135,
+   "n_images": 100,
+   "mean": 103.386,
+   "median": 101.515,
+   "std": 26.223,
+   "hist10_0_255": [
+    0,
+    1,
+    14,
+    36,
+    31,
+    14,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/cafeteria",
+   "index": 75,
+   "n_images": 100,
+   "mean": 98.769,
+   "median": 101.852,
+   "std": 24.431,
+   "hist10_0_255": [
+    0,
+    3,
+    15,
+    32,
+    38,
+    11,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/library/indoor",
+   "index": 212,
+   "n_images": 100,
+   "mean": 105.038,
+   "median": 102.043,
+   "std": 24.449,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    40,
+    28,
+    19,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/creek",
+   "index": 110,
+   "n_images": 100,
+   "mean": 101.151,
+   "median": 102.374,
+   "std": 26.459,
+   "hist10_0_255": [
+    0,
+    2,
+    20,
+    28,
+    38,
+    8,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/waterfall",
+   "index": 355,
+   "n_images": 100,
+   "mean": 100.958,
+   "median": 102.542,
+   "std": 25.151,
+   "hist10_0_255": [
+    1,
+    0,
+    17,
+    30,
+    41,
+    9,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/beer_garden",
+   "index": 53,
+   "n_images": 100,
+   "mean": 102.721,
+   "median": 102.83,
+   "std": 22.864,
+   "hist10_0_255": [
+    0,
+    2,
+    10,
+    35,
+    39,
+    14,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/market/indoor",
+   "index": 222,
+   "n_images": 100,
+   "mean": 100.257,
+   "median": 103.042,
+   "std": 19.682,
+   "hist10_0_255": [
+    0,
+    1,
+    10,
+    35,
+    48,
+    6,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/clothing_store",
+   "index": 96,
+   "n_images": 100,
+   "mean": 102.826,
+   "median": 103.042,
+   "std": 24.801,
+   "hist10_0_255": [
+    1,
+    1,
+    13,
+    30,
+    40,
+    13,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/forest_path",
+   "index": 151,
+   "n_images": 100,
+   "mean": 99.814,
+   "median": 103.053,
+   "std": 24.448,
+   "hist10_0_255": [
+    1,
+    2,
+    13,
+    33,
+    40,
+    10,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/assembly_line",
+   "index": 23,
+   "n_images": 100,
+   "mean": 104.732,
+   "median": 103.086,
+   "std": 26.162,
+   "hist10_0_255": [
+    0,
+    2,
+    8,
+    37,
+    31,
+    18,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/restaurant_kitchen",
+   "index": 285,
+   "n_images": 100,
+   "mean": 107.458,
+   "median": 103.092,
+   "std": 26.429,
+   "hist10_0_255": [
+    0,
+    0,
+    11,
+    37,
+    32,
+    12,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/j/japanese_garden",
+   "index": 197,
+   "n_images": 100,
+   "mean": 103.093,
+   "median": 103.482,
+   "std": 23.741,
+   "hist10_0_255": [
+    0,
+    1,
+    11,
+    34,
+    40,
+    12,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/auto_showroom",
+   "index": 29,
+   "n_images": 100,
+   "mean": 102.854,
+   "median": 103.593,
+   "std": 27.449,
+   "hist10_0_255": [
+    0,
+    3,
+    13,
+    30,
+    39,
+    12,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/lobby",
+   "index": 217,
+   "n_images": 100,
+   "mean": 106.755,
+   "median": 104.099,
+   "std": 24.925,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    36,
+    30,
+    21,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/forest_road",
+   "index": 152,
+   "n_images": 100,
+   "mean": 104.891,
+   "median": 104.382,
+   "std": 26.091,
+   "hist10_0_255": [
+    0,
+    2,
+    12,
+    31,
+    36,
+    16,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/volcano",
+   "index": 350,
+   "n_images": 100,
+   "mean": 100.919,
+   "median": 104.611,
+   "std": 37.238,
+   "hist10_0_255": [
+    3,
+    8,
+    16,
+    21,
+    26,
+    20,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hotel/outdoor",
+   "index": 181,
+   "n_images": 100,
+   "mean": 102.414,
+   "median": 104.683,
+   "std": 31.281,
+   "hist10_0_255": [
+    0,
+    10,
+    10,
+    25,
+    36,
+    15,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/attic",
+   "index": 26,
+   "n_images": 100,
+   "mean": 104.219,
+   "median": 105.247,
+   "std": 32.754,
+   "hist10_0_255": [
+    0,
+    8,
+    14,
+    22,
+    29,
+    22,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/dressing_room",
+   "index": 126,
+   "n_images": 100,
+   "mean": 111.025,
+   "median": 105.27,
+   "std": 27.994,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    35,
+    30,
+    16,
+    11,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hangar/indoor",
+   "index": 169,
+   "n_images": 100,
+   "mean": 107.671,
+   "median": 105.406,
+   "std": 25.046,
+   "hist10_0_255": [
+    0,
+    2,
+    10,
+    27,
+    42,
+    14,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stable",
+   "index": 311,
+   "n_images": 100,
+   "mean": 103.164,
+   "median": 105.513,
+   "std": 27.32,
+   "hist10_0_255": [
+    0,
+    5,
+    11,
+    28,
+    40,
+    14,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/repair_shop",
+   "index": 282,
+   "n_images": 100,
+   "mean": 102.26,
+   "median": 105.562,
+   "std": 27.753,
+   "hist10_0_255": [
+    0,
+    3,
+    18,
+    22,
+    40,
+    12,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/downtown",
+   "index": 125,
+   "n_images": 100,
+   "mean": 105.095,
+   "median": 105.608,
+   "std": 31.8,
+   "hist10_0_255": [
+    0,
+    8,
+    11,
+    23,
+    36,
+    17,
+    3,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/b/botanical_garden",
+   "index": 62,
+   "n_images": 100,
+   "mean": 103.904,
+   "median": 105.661,
+   "std": 22.488,
+   "hist10_0_255": [
+    0,
+    3,
+    10,
+    28,
+    45,
+    14,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/formal_garden",
+   "index": 153,
+   "n_images": 100,
+   "mean": 108.313,
+   "median": 105.664,
+   "std": 20.016,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    24,
+    51,
+    15,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/n/natural_history_museum",
+   "index": 239,
+   "n_images": 100,
+   "mean": 101.2,
+   "median": 105.703,
+   "std": 30.12,
+   "hist10_0_255": [
+    1,
+    8,
+    8,
+    28,
+    34,
+    19,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/storage_room",
+   "index": 318,
+   "n_images": 100,
+   "mean": 102.485,
+   "median": 105.736,
+   "std": 23.913,
+   "hist10_0_255": [
+    0,
+    2,
+    13,
+    27,
+    43,
+    15,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/restaurant_patio",
+   "index": 286,
+   "n_images": 100,
+   "mean": 105.682,
+   "median": 106.108,
+   "std": 23.767,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    31,
+    44,
+    13,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/lecture_room",
+   "index": 210,
+   "n_images": 100,
+   "mean": 110.302,
+   "median": 106.262,
+   "std": 25.681,
+   "hist10_0_255": [
+    0,
+    2,
+    2,
+    37,
+    39,
+    15,
+    2,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stadium/soccer",
+   "index": 314,
+   "n_images": 100,
+   "mean": 107.357,
+   "median": 106.266,
+   "std": 25.553,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    31,
+    36,
+    17,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/archive",
+   "index": 14,
+   "n_images": 100,
+   "mean": 104.855,
+   "median": 106.296,
+   "std": 28.27,
+   "hist10_0_255": [
+    0,
+    3,
+    12,
+    31,
+    34,
+    15,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/server_room",
+   "index": 298,
+   "n_images": 100,
+   "mean": 106.119,
+   "median": 106.357,
+   "std": 32.197,
+   "hist10_0_255": [
+    2,
+    2,
+    10,
+    30,
+    32,
+    14,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/airport_terminal",
+   "index": 2,
+   "n_images": 100,
+   "mean": 109.384,
+   "median": 106.567,
+   "std": 26.413,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    33,
+    36,
+    17,
+    4,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/martial_arts_gym",
+   "index": 225,
+   "n_images": 100,
+   "mean": 105.747,
+   "median": 106.596,
+   "std": 30.075,
+   "hist10_0_255": [
+    1,
+    4,
+    12,
+    27,
+    33,
+    18,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/airplane_cabin",
+   "index": 1,
+   "n_images": 100,
+   "mean": 106.327,
+   "median": 106.605,
+   "std": 28.632,
+   "hist10_0_255": [
+    0,
+    3,
+    14,
+    24,
+    34,
+    22,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/flea_market/indoor",
+   "index": 146,
+   "n_images": 100,
+   "mean": 109.051,
+   "median": 106.611,
+   "std": 20.796,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    34,
+    48,
+    13,
+    2,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/campsite",
+   "index": 76,
+   "n_images": 100,
+   "mean": 108.874,
+   "median": 106.72,
+   "std": 22.386,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    29,
+    44,
+    17,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/staircase",
+   "index": 317,
+   "n_images": 100,
+   "mean": 107.352,
+   "median": 106.773,
+   "std": 34.045,
+   "hist10_0_255": [
+    0,
+    3,
+    20,
+    21,
+    28,
+    16,
+    10,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/museum/indoor",
+   "index": 236,
+   "n_images": 100,
+   "mean": 108.348,
+   "median": 106.857,
+   "std": 36.246,
+   "hist10_0_255": [
+    0,
+    5,
+    12,
+    30,
+    25,
+    14,
+    10,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/computer_room",
+   "index": 100,
+   "n_images": 100,
+   "mean": 102.023,
+   "median": 107.105,
+   "std": 31.107,
+   "hist10_0_255": [
+    1,
+    10,
+    7,
+    28,
+    37,
+    13,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/sky",
+   "index": 306,
+   "n_images": 100,
+   "mean": 108.056,
+   "median": 107.197,
+   "std": 41.053,
+   "hist10_0_255": [
+    2,
+    9,
+    10,
+    17,
+    31,
+    20,
+    7,
+    2,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/l/locker_room",
+   "index": 219,
+   "n_images": 100,
+   "mean": 109.533,
+   "median": 107.577,
+   "std": 27.711,
+   "hist10_0_255": [
+    0,
+    2,
+    9,
+    27,
+    39,
+    16,
+    6,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/booth/indoor",
+   "index": 61,
+   "n_images": 100,
+   "mean": 108.536,
+   "median": 108.021,
+   "std": 23.491,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    34,
+    44,
+    11,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stadium/football",
+   "index": 313,
+   "n_images": 100,
+   "mean": 108.494,
+   "median": 108.508,
+   "std": 23.576,
+   "hist10_0_255": [
+    0,
+    2,
+    6,
+    31,
+    42,
+    18,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/dorm_room",
+   "index": 124,
+   "n_images": 100,
+   "mean": 113.539,
+   "median": 108.609,
+   "std": 26.008,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    33,
+    33,
+    21,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/toyshop",
+   "index": 335,
+   "n_images": 100,
+   "mean": 107.24,
+   "median": 108.726,
+   "std": 24.194,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    31,
+    44,
+    11,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/galley",
+   "index": 155,
+   "n_images": 100,
+   "mean": 111.019,
+   "median": 108.744,
+   "std": 22.145,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    30,
+    48,
+    15,
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/supermarket",
+   "index": 321,
+   "n_images": 100,
+   "mean": 109.103,
+   "median": 108.887,
+   "std": 19.119,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    27,
+    50,
+    16,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/sauna",
+   "index": 295,
+   "n_images": 100,
+   "mean": 106.605,
+   "median": 108.891,
+   "std": 28.576,
+   "hist10_0_255": [
+    1,
+    4,
+    7,
+    24,
+    49,
+    10,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/rock_arch",
+   "index": 289,
+   "n_images": 100,
+   "mean": 107.363,
+   "median": 108.934,
+   "std": 26.298,
+   "hist10_0_255": [
+    0,
+    4,
+    8,
+    27,
+    38,
+    20,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/phone_booth",
+   "index": 263,
+   "n_images": 100,
+   "mean": 105.075,
+   "median": 109.059,
+   "std": 30.053,
+   "hist10_0_255": [
+    2,
+    4,
+    11,
+    26,
+    29,
+    27,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/ball_pit",
+   "index": 34,
+   "n_images": 100,
+   "mean": 107.568,
+   "median": 109.271,
+   "std": 24.726,
+   "hist10_0_255": [
+    0,
+    3,
+    9,
+    28,
+    42,
+    15,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/tree_house",
+   "index": 339,
+   "n_images": 100,
+   "mean": 106.128,
+   "median": 109.372,
+   "std": 25.563,
+   "hist10_0_255": [
+    1,
+    2,
+    9,
+    23,
+    48,
+    14,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/physics_laboratory",
+   "index": 264,
+   "n_images": 100,
+   "mean": 107.285,
+   "median": 109.377,
+   "std": 24.141,
+   "hist10_0_255": [
+    0,
+    1,
+    13,
+    24,
+    39,
+    22,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/slum",
+   "index": 308,
+   "n_images": 100,
+   "mean": 111.194,
+   "median": 109.382,
+   "std": 22.231,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    32,
+    39,
+    22,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/office_cubicles",
+   "index": 246,
+   "n_images": 100,
+   "mean": 111.413,
+   "median": 109.428,
+   "std": 23.319,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    34,
+    43,
+    15,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/closet",
+   "index": 95,
+   "n_images": 100,
+   "mean": 109.693,
+   "median": 109.671,
+   "std": 27.457,
+   "hist10_0_255": [
+    0,
+    1,
+    14,
+    23,
+    31,
+    27,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/gift_shop",
+   "index": 162,
+   "n_images": 100,
+   "mean": 111.316,
+   "median": 109.676,
+   "std": 23.267,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    26,
+    47,
+    16,
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/dining_hall",
+   "index": 120,
+   "n_images": 100,
+   "mean": 107.563,
+   "median": 109.884,
+   "std": 25.499,
+   "hist10_0_255": [
+    0,
+    0,
+    16,
+    25,
+    37,
+    19,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/delicatessen",
+   "index": 114,
+   "n_images": 100,
+   "mean": 110.712,
+   "median": 109.95,
+   "std": 26.794,
+   "hist10_0_255": [
+    1,
+    1,
+    5,
+    34,
+    32,
+    22,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/carrousel",
+   "index": 83,
+   "n_images": 100,
+   "mean": 106.586,
+   "median": 110.303,
+   "std": 28.418,
+   "hist10_0_255": [
+    0,
+    4,
+    12,
+    24,
+    39,
+    17,
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/entrance_hall",
+   "index": 134,
+   "n_images": 100,
+   "mean": 112.341,
+   "median": 110.326,
+   "std": 25.98,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    30,
+    37,
+    20,
+    5,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/swamp",
+   "index": 323,
+   "n_images": 100,
+   "mean": 109.321,
+   "median": 110.326,
+   "std": 25.147,
+   "hist10_0_255": [
+    0,
+    1,
+    10,
+    25,
+    42,
+    18,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/recreation_room",
+   "index": 281,
+   "n_images": 100,
+   "mean": 106.986,
+   "median": 110.329,
+   "std": 30.366,
+   "hist10_0_255": [
+    0,
+    4,
+    15,
+    24,
+    28,
+    27,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pizzeria",
+   "index": 267,
+   "n_images": 100,
+   "mean": 110.585,
+   "median": 110.383,
+   "std": 23.542,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    31,
+    40,
+    16,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/butchers_shop",
+   "index": 72,
+   "n_images": 100,
+   "mean": 111.841,
+   "median": 110.457,
+   "std": 23.943,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    35,
+    37,
+    15,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fishpond",
+   "index": 145,
+   "n_images": 100,
+   "mean": 108.367,
+   "median": 110.562,
+   "std": 21.76,
+   "hist10_0_255": [
+    0,
+    0,
+    9,
+    30,
+    40,
+    21,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/rope_bridge",
+   "index": 291,
+   "n_images": 100,
+   "mean": 108.898,
+   "median": 110.702,
+   "std": 25.638,
+   "hist10_0_255": [
+    0,
+    0,
+    11,
+    26,
+    43,
+    15,
+    4,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/f/football_field",
+   "index": 149,
+   "n_images": 100,
+   "mean": 109.469,
+   "median": 110.841,
+   "std": 22.377,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    26,
+    46,
+    18,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/barndoor",
+   "index": 41,
+   "n_images": 100,
+   "mean": 112.395,
+   "median": 111.005,
+   "std": 26.899,
+   "hist10_0_255": [
+    0,
+    0,
+    11,
+    23,
+    37,
+    22,
+    6,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pond",
+   "index": 271,
+   "n_images": 100,
+   "mean": 106.327,
+   "median": 111.06,
+   "std": 29.287,
+   "hist10_0_255": [
+    0,
+    4,
+    11,
+    25,
+    37,
+    20,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hardware_store",
+   "index": 172,
+   "n_images": 100,
+   "mean": 107.651,
+   "median": 111.085,
+   "std": 21.771,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    31,
+    45,
+    14,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/forest/broadleaf",
+   "index": 150,
+   "n_images": 100,
+   "mean": 109.624,
+   "median": 111.178,
+   "std": 27.884,
+   "hist10_0_255": [
+    0,
+    2,
+    10,
+    20,
+    47,
+    16,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/classroom",
+   "index": 92,
+   "n_images": 100,
+   "mean": 111.791,
+   "median": 111.273,
+   "std": 22.53,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    28,
+    39,
+    22,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/garage/indoor",
+   "index": 156,
+   "n_images": 100,
+   "mean": 109.076,
+   "median": 111.292,
+   "std": 27.826,
+   "hist10_0_255": [
+    0,
+    4,
+    7,
+    23,
+    42,
+    20,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/wet_bar",
+   "index": 358,
+   "n_images": 100,
+   "mean": 110.046,
+   "median": 111.398,
+   "std": 27.263,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    26,
+    42,
+    16,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/diner/outdoor",
+   "index": 119,
+   "n_images": 100,
+   "mean": 105.701,
+   "median": 111.749,
+   "std": 27.239,
+   "hist10_0_255": [
+    0,
+    7,
+    9,
+    19,
+    43,
+    22,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/market/outdoor",
+   "index": 223,
+   "n_images": 100,
+   "mean": 111.543,
+   "median": 111.789,
+   "std": 18.755,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    27,
+    48,
+    20,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/vegetable_garden",
+   "index": 345,
+   "n_images": 100,
+   "mean": 109.159,
+   "median": 111.792,
+   "std": 20.109,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    24,
+    50,
+    19,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/burial_chamber",
+   "index": 69,
+   "n_images": 100,
+   "mean": 108.604,
+   "median": 111.805,
+   "std": 30.158,
+   "hist10_0_255": [
+    0,
+    2,
+    15,
+    24,
+    30,
+    25,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/basketball_court/indoor",
+   "index": 44,
+   "n_images": 100,
+   "mean": 113.018,
+   "median": 111.903,
+   "std": 22.721,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    23,
+    46,
+    19,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bazaar/outdoor",
+   "index": 47,
+   "n_images": 100,
+   "mean": 111.448,
+   "median": 111.957,
+   "std": 17.26,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    26,
+    54,
+    16,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/j/junkyard",
+   "index": 199,
+   "n_images": 100,
+   "mean": 111.828,
+   "median": 112.003,
+   "std": 24.258,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    23,
+    46,
+    20,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/shopping_mall/indoor",
+   "index": 302,
+   "n_images": 100,
+   "mean": 113.975,
+   "median": 112.13,
+   "std": 21.034,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    30,
+    45,
+    18,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/stadium/baseball",
+   "index": 312,
+   "n_images": 100,
+   "mean": 109.625,
+   "median": 112.335,
+   "std": 21.809,
+   "hist10_0_255": [
+    0,
+    2,
+    5,
+    26,
+    46,
+    20,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/picnic_area",
+   "index": 265,
+   "n_images": 100,
+   "mean": 113.613,
+   "median": 112.377,
+   "std": 21.688,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    25,
+    51,
+    14,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hotel_room",
+   "index": 182,
+   "n_images": 100,
+   "mean": 113.495,
+   "median": 112.396,
+   "std": 25.734,
+   "hist10_0_255": [
+    1,
+    1,
+    4,
+    26,
+    41,
+    20,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fabric_store",
+   "index": 137,
+   "n_images": 100,
+   "mean": 115.633,
+   "median": 112.531,
+   "std": 23.922,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    28,
+    39,
+    22,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fountain",
+   "index": 154,
+   "n_images": 100,
+   "mean": 109.561,
+   "median": 112.697,
+   "std": 31.695,
+   "hist10_0_255": [
+    2,
+    3,
+    10,
+    21,
+    34,
+    25,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/park",
+   "index": 254,
+   "n_images": 100,
+   "mean": 111.172,
+   "median": 112.755,
+   "std": 22.41,
+   "hist10_0_255": [
+    0,
+    0,
+    9,
+    29,
+    35,
+    26,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/conference_room",
+   "index": 102,
+   "n_images": 100,
+   "mean": 113.907,
+   "median": 113.119,
+   "std": 29.331,
+   "hist10_0_255": [
+    0,
+    3,
+    9,
+    20,
+    37,
+    21,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/street",
+   "index": 319,
+   "n_images": 100,
+   "mean": 110.438,
+   "median": 113.139,
+   "std": 23.739,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    24,
+    43,
+    21,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/train_station/platform",
+   "index": 337,
+   "n_images": 100,
+   "mean": 110.022,
+   "median": 113.167,
+   "std": 24.908,
+   "hist10_0_255": [
+    0,
+    2,
+    7,
+    23,
+    42,
+    22,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/canyon",
+   "index": 81,
+   "n_images": 100,
+   "mean": 113.146,
+   "median": 113.329,
+   "std": 25.706,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    24,
+    44,
+    20,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/canal/natural",
+   "index": 78,
+   "n_images": 100,
+   "mean": 113.52,
+   "median": 113.467,
+   "std": 27.2,
+   "hist10_0_255": [
+    0,
+    2,
+    5,
+    24,
+    39,
+    24,
+    4,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/berth",
+   "index": 55,
+   "n_images": 100,
+   "mean": 113.217,
+   "median": 113.625,
+   "std": 30.572,
+   "hist10_0_255": [
+    0,
+    2,
+    10,
+    20,
+    37,
+    22,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/ticket_booth",
+   "index": 332,
+   "n_images": 100,
+   "mean": 111.264,
+   "median": 113.668,
+   "std": 28.761,
+   "hist10_0_255": [
+    0,
+    4,
+    8,
+    21,
+    37,
+    26,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/soccer_field",
+   "index": 310,
+   "n_images": 100,
+   "mean": 112.009,
+   "median": 113.669,
+   "std": 22.331,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    24,
+    42,
+    26,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/florist_shop/indoor",
+   "index": 147,
+   "n_images": 100,
+   "mean": 116.263,
+   "median": 113.751,
+   "std": 26.571,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    26,
+    34,
+    25,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bakery/shop",
+   "index": 31,
+   "n_images": 100,
+   "mean": 111.671,
+   "median": 113.766,
+   "std": 24.798,
+   "hist10_0_255": [
+    0,
+    2,
+    5,
+    27,
+    40,
+    24,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/k/kitchen",
+   "index": 203,
+   "n_images": 100,
+   "mean": 115.507,
+   "median": 113.797,
+   "std": 26.163,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    20,
+    41,
+    25,
+    4,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/swimming_hole",
+   "index": 324,
+   "n_images": 100,
+   "mean": 110.261,
+   "median": 113.8,
+   "std": 20.881,
+   "hist10_0_255": [
+    0,
+    0,
+    9,
+    26,
+    44,
+    21,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/y/yard",
+   "index": 362,
+   "n_images": 100,
+   "mean": 112.586,
+   "median": 113.854,
+   "std": 21.227,
+   "hist10_0_255": [
+    0,
+    2,
+    3,
+    23,
+    49,
+    23,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bow_window/indoor",
+   "index": 63,
+   "n_images": 100,
+   "mean": 115.013,
+   "median": 114.195,
+   "std": 32.652,
+   "hist10_0_255": [
+    0,
+    2,
+    12,
+    18,
+    36,
+    19,
+    10,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/department_store",
+   "index": 115,
+   "n_images": 100,
+   "mean": 115.6,
+   "median": 114.199,
+   "std": 20.177,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    25,
+    50,
+    19,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/boathouse",
+   "index": 59,
+   "n_images": 100,
+   "mean": 113.519,
+   "median": 114.209,
+   "std": 25.187,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    16,
+    52,
+    22,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/lock_chamber",
+   "index": 218,
+   "n_images": 100,
+   "mean": 113.735,
+   "median": 114.243,
+   "std": 23.611,
+   "hist10_0_255": [
+    0,
+    3,
+    1,
+    24,
+    47,
+    21,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/baseball_field",
+   "index": 42,
+   "n_images": 100,
+   "mean": 112.278,
+   "median": 114.318,
+   "std": 22.799,
+   "hist10_0_255": [
+    1,
+    1,
+    3,
+    23,
+    47,
+    24,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/dining_room",
+   "index": 121,
+   "n_images": 100,
+   "mean": 116.485,
+   "median": 114.432,
+   "std": 27.462,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    23,
+    40,
+    23,
+    5,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pet_shop",
+   "index": 261,
+   "n_images": 100,
+   "mean": 114.86,
+   "median": 114.432,
+   "std": 22.893,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    23,
+    41,
+    27,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/raceway",
+   "index": 276,
+   "n_images": 100,
+   "mean": 113.209,
+   "median": 114.456,
+   "std": 25.544,
+   "hist10_0_255": [
+    0,
+    2,
+    8,
+    13,
+    48,
+    26,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/shopfront",
+   "index": 301,
+   "n_images": 100,
+   "mean": 112.991,
+   "median": 114.591,
+   "std": 23.733,
+   "hist10_0_255": [
+    0,
+    2,
+    6,
+    18,
+    50,
+    21,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/viaduct",
+   "index": 347,
+   "n_images": 100,
+   "mean": 114.115,
+   "median": 114.608,
+   "std": 26.756,
+   "hist10_0_255": [
+    2,
+    0,
+    4,
+    20,
+    43,
+    26,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/arch",
+   "index": 12,
+   "n_images": 100,
+   "mean": 110.881,
+   "median": 114.73,
+   "std": 29.995,
+   "hist10_0_255": [
+    0,
+    3,
+    13,
+    18,
+    34,
+    29,
+    2,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/o/office",
+   "index": 244,
+   "n_images": 100,
+   "mean": 114.672,
+   "median": 114.748,
+   "std": 27.647,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    22,
+    40,
+    21,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/n/nursing_home",
+   "index": 241,
+   "n_images": 100,
+   "mean": 111.832,
+   "median": 114.759,
+   "std": 24.928,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    27,
+    40,
+    21,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/orchard",
+   "index": 249,
+   "n_images": 100,
+   "mean": 113.296,
+   "median": 114.811,
+   "std": 23.123,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    25,
+    45,
+    20,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/gazebo/exterior",
+   "index": 159,
+   "n_images": 100,
+   "mean": 117.22,
+   "median": 114.824,
+   "std": 27.048,
+   "hist10_0_255": [
+    0,
+    2,
+    2,
+    23,
+    43,
+    19,
+    10,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/y/youth_hostel",
+   "index": 363,
+   "n_images": 100,
+   "mean": 114.369,
+   "median": 114.982,
+   "std": 22.551,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    24,
+    47,
+    19,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/living_room",
+   "index": 215,
+   "n_images": 100,
+   "mean": 117.814,
+   "median": 115.01,
+   "std": 29.726,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    25,
+    32,
+    21,
+    14,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/home_office",
+   "index": 176,
+   "n_images": 100,
+   "mean": 114.704,
+   "median": 115.015,
+   "std": 33.193,
+   "hist10_0_255": [
+    1,
+    1,
+    10,
+    25,
+    33,
+    19,
+    7,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/b/bedchamber",
+   "index": 51,
+   "n_images": 100,
+   "mean": 116.61,
+   "median": 115.06,
+   "std": 29.032,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    23,
+    31,
+    26,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/crosswalk",
+   "index": 112,
+   "n_images": 100,
+   "mean": 110.823,
+   "median": 115.162,
+   "std": 31.283,
+   "hist10_0_255": [
+    1,
+    4,
+    8,
+    19,
+    39,
+    22,
+    5,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/amusement_park",
+   "index": 7,
+   "n_images": 100,
+   "mean": 109.973,
+   "median": 115.164,
+   "std": 26.739,
+   "hist10_0_255": [
+    0,
+    4,
+    7,
+    22,
+    45,
+    20,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fastfood_restaurant",
+   "index": 139,
+   "n_images": 100,
+   "mean": 114.465,
+   "median": 115.377,
+   "std": 27.118,
+   "hist10_0_255": [
+    0,
+    2,
+    7,
+    20,
+    36,
+    27,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/i/ice_cream_parlor",
+   "index": 185,
+   "n_images": 100,
+   "mean": 117.216,
+   "median": 115.522,
+   "std": 26.054,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    22,
+    40,
+    25,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/j/jewelry_shop",
+   "index": 198,
+   "n_images": 100,
+   "mean": 120.335,
+   "median": 115.573,
+   "std": 32.062,
+   "hist10_0_255": [
+    0,
+    0,
+    7,
+    24,
+    28,
+    24,
+    12,
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/a/athletic_field/outdoor",
+   "index": 24,
+   "n_images": 100,
+   "mean": 114.117,
+   "median": 115.718,
+   "std": 21.727,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    17,
+    49,
+    24,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fire_escape",
+   "index": 143,
+   "n_images": 100,
+   "mean": 114.304,
+   "median": 115.907,
+   "std": 26.468,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    18,
+    44,
+    22,
+    5,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pavilion",
+   "index": 260,
+   "n_images": 100,
+   "mean": 113.086,
+   "median": 115.923,
+   "std": 24.969,
+   "hist10_0_255": [
+    0,
+    3,
+    6,
+    19,
+    41,
+    28,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bridge",
+   "index": 66,
+   "n_images": 100,
+   "mean": 113.656,
+   "median": 115.935,
+   "std": 36.661,
+   "hist10_0_255": [
+    2,
+    4,
+    13,
+    14,
+    30,
+    25,
+    8,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/courtyard",
+   "index": 109,
+   "n_images": 100,
+   "mean": 113.516,
+   "median": 115.961,
+   "std": 24.569,
+   "hist10_0_255": [
+    1,
+    0,
+    6,
+    23,
+    41,
+    25,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/railroad_track",
+   "index": 278,
+   "n_images": 100,
+   "mean": 114.516,
+   "median": 115.966,
+   "std": 30.885,
+   "hist10_0_255": [
+    1,
+    1,
+    7,
+    26,
+    31,
+    21,
+    13,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/veterinarians_office",
+   "index": 346,
+   "n_images": 100,
+   "mean": 115.772,
+   "median": 116.113,
+   "std": 27.585,
+   "hist10_0_255": [
+    0,
+    3,
+    4,
+    19,
+    41,
+    26,
+    6,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/w/waiting_room",
+   "index": 352,
+   "n_images": 100,
+   "mean": 114.036,
+   "median": 116.146,
+   "std": 23.779,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    18,
+    45,
+    26,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/river",
+   "index": 288,
+   "n_images": 100,
+   "mean": 113.106,
+   "median": 116.186,
+   "std": 26.892,
+   "hist10_0_255": [
+    0,
+    2,
+    6,
+    27,
+    34,
+    26,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/topiary_garden",
+   "index": 333,
+   "n_images": 100,
+   "mean": 116.416,
+   "median": 116.334,
+   "std": 22.76,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    21,
+    50,
+    16,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/greenhouse/indoor",
+   "index": 165,
+   "n_images": 100,
+   "mean": 114.641,
+   "median": 116.343,
+   "std": 20.146,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    19,
+    54,
+    20,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mezzanine",
+   "index": 228,
+   "n_images": 100,
+   "mean": 112.781,
+   "median": 116.397,
+   "std": 29.261,
+   "hist10_0_255": [
+    0,
+    1,
+    14,
+    19,
+    36,
+    22,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/temple/asia",
+   "index": 330,
+   "n_images": 100,
+   "mean": 116.995,
+   "median": 116.429,
+   "std": 22.812,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    18,
+    47,
+    28,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/k/kindergarden_classroom",
+   "index": 202,
+   "n_images": 100,
+   "mean": 117.294,
+   "median": 116.438,
+   "std": 22.179,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    23,
+    42,
+    28,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/chalet",
+   "index": 87,
+   "n_images": 100,
+   "mean": 113.376,
+   "median": 116.462,
+   "std": 23.153,
+   "hist10_0_255": [
+    1,
+    1,
+    5,
+    20,
+    47,
+    24,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/elevator_lobby",
+   "index": 130,
+   "n_images": 100,
+   "mean": 115.255,
+   "median": 116.48,
+   "std": 24.795,
+   "hist10_0_255": [
+    0,
+    1,
+    6,
+    20,
+    46,
+    20,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/porch",
+   "index": 272,
+   "n_images": 100,
+   "mean": 115.35,
+   "median": 116.516,
+   "std": 23.107,
+   "hist10_0_255": [
+    1,
+    0,
+    3,
+    22,
+    44,
+    25,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/beauty_salon",
+   "index": 50,
+   "n_images": 100,
+   "mean": 114.734,
+   "median": 116.557,
+   "std": 30.123,
+   "hist10_0_255": [
+    0,
+    1,
+    10,
+    24,
+    33,
+    23,
+    7,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/m/marsh",
+   "index": 224,
+   "n_images": 100,
+   "mean": 117.857,
+   "median": 116.588,
+   "std": 28.295,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    21,
+    38,
+    22,
+    9,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/cottage",
+   "index": 107,
+   "n_images": 100,
+   "mean": 114.632,
+   "median": 116.813,
+   "std": 23.635,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    25,
+    43,
+    20,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/parking_garage/outdoor",
+   "index": 256,
+   "n_images": 100,
+   "mean": 115.532,
+   "median": 116.893,
+   "std": 21.567,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    20,
+    51,
+    21,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/i/inn/outdoor",
+   "index": 193,
+   "n_images": 100,
+   "mean": 113.136,
+   "median": 116.976,
+   "std": 26.582,
+   "hist10_0_255": [
+    0,
+    4,
+    4,
+    20,
+    41,
+    29,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/boardwalk",
+   "index": 57,
+   "n_images": 100,
+   "mean": 112.101,
+   "median": 117.214,
+   "std": 29.853,
+   "hist10_0_255": [
+    1,
+    3,
+    9,
+    20,
+    37,
+    24,
+    4,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/aqueduct",
+   "index": 10,
+   "n_images": 100,
+   "mean": 114.233,
+   "median": 117.225,
+   "std": 25.532,
+   "hist10_0_255": [
+    0,
+    2,
+    5,
+    19,
+    43,
+    27,
+    3,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/raft",
+   "index": 277,
+   "n_images": 100,
+   "mean": 119.802,
+   "median": 117.333,
+   "std": 24.53,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    21,
+    44,
+    21,
+    9,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/gymnasium/indoor",
+   "index": 168,
+   "n_images": 100,
+   "mean": 116.683,
+   "median": 117.337,
+   "std": 25.581,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    24,
+    39,
+    20,
+    10,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/playground",
+   "index": 268,
+   "n_images": 100,
+   "mean": 116.51,
+   "median": 117.459,
+   "std": 29.557,
+   "hist10_0_255": [
+    0,
+    3,
+    6,
+    21,
+    39,
+    19,
+    10,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mansion",
+   "index": 220,
+   "n_images": 100,
+   "mean": 113.929,
+   "median": 117.486,
+   "std": 25.547,
+   "hist10_0_255": [
+    0,
+    2,
+    6,
+    20,
+    45,
+    23,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/sandbox",
+   "index": 294,
+   "n_images": 100,
+   "mean": 117.572,
+   "median": 117.504,
+   "std": 22.174,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    19,
+    44,
+    31,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/art_school",
+   "index": 20,
+   "n_images": 100,
+   "mean": 118.112,
+   "median": 117.539,
+   "std": 22.654,
+   "hist10_0_255": [
+    1,
+    0,
+    1,
+    17,
+    46,
+    31,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/moat/water",
+   "index": 229,
+   "n_images": 100,
+   "mean": 118.738,
+   "median": 117.54,
+   "std": 23.599,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    16,
+    43,
+    30,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/candy_store",
+   "index": 80,
+   "n_images": 100,
+   "mean": 116.683,
+   "median": 117.56,
+   "std": 26.509,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    17,
+    43,
+    24,
+    5,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/landfill",
+   "index": 206,
+   "n_images": 100,
+   "mean": 117.737,
+   "median": 117.766,
+   "std": 22.834,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    17,
+    45,
+    28,
+    4,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bus_station/indoor",
+   "index": 71,
+   "n_images": 100,
+   "mean": 114.137,
+   "median": 117.801,
+   "std": 22.736,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    20,
+    48,
+    22,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/house",
+   "index": 183,
+   "n_images": 100,
+   "mean": 114.844,
+   "median": 117.82,
+   "std": 24.493,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    16,
+    40,
+    29,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/art_studio",
+   "index": 21,
+   "n_images": 100,
+   "mean": 115.081,
+   "median": 117.839,
+   "std": 26.433,
+   "hist10_0_255": [
+    0,
+    3,
+    5,
+    23,
+    41,
+    22,
+    5,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/army_base",
+   "index": 18,
+   "n_images": 100,
+   "mean": 117.81,
+   "median": 118.059,
+   "std": 26.47,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    20,
+    38,
+    28,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/z/zen_garden",
+   "index": 364,
+   "n_images": 100,
+   "mean": 114.025,
+   "median": 118.09,
+   "std": 22.113,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    17,
+    53,
+    21,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/cemetery",
+   "index": 86,
+   "n_images": 100,
+   "mean": 113.625,
+   "median": 118.203,
+   "std": 28.341,
+   "hist10_0_255": [
+    0,
+    2,
+    9,
+    19,
+    38,
+    27,
+    3,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/campus",
+   "index": 77,
+   "n_images": 100,
+   "mean": 114.727,
+   "median": 118.21,
+   "std": 25.255,
+   "hist10_0_255": [
+    1,
+    2,
+    4,
+    19,
+    45,
+    24,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/construction_site",
+   "index": 103,
+   "n_images": 100,
+   "mean": 118.051,
+   "median": 118.252,
+   "std": 26.673,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    14,
+    40,
+    31,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/shoe_shop",
+   "index": 300,
+   "n_images": 100,
+   "mean": 118.216,
+   "median": 118.289,
+   "std": 33.804,
+   "hist10_0_255": [
+    0,
+    3,
+    7,
+    24,
+    30,
+    20,
+    11,
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/i/ice_skating_rink/indoor",
+   "index": 188,
+   "n_images": 100,
+   "mean": 123.728,
+   "median": 118.411,
+   "std": 36.967,
+   "hist10_0_255": [
+    0,
+    2,
+    6,
+    20,
+    31,
+    21,
+    10,
+    8,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/p/parking_lot",
+   "index": 257,
+   "n_images": 100,
+   "mean": 114.942,
+   "median": 118.417,
+   "std": 30.023,
+   "hist10_0_255": [
+    1,
+    1,
+    9,
+    16,
+    40,
+    23,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/racecourse",
+   "index": 275,
+   "n_images": 100,
+   "mean": 117.788,
+   "median": 118.552,
+   "std": 24.327,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    22,
+    43,
+    23,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/patio",
+   "index": 259,
+   "n_images": 100,
+   "mean": 115.617,
+   "median": 118.555,
+   "std": 22.661,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    19,
+    45,
+    25,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/driveway",
+   "index": 127,
+   "n_images": 100,
+   "mean": 113.95,
+   "median": 118.557,
+   "std": 22.956,
+   "hist10_0_255": [
+    0,
+    1,
+    7,
+    20,
+    45,
+    26,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mountain_snowy",
+   "index": 234,
+   "n_images": 100,
+   "mean": 120.75,
+   "median": 118.6,
+   "std": 29.319,
+   "hist10_0_255": [
+    0,
+    1,
+    5,
+    17,
+    40,
+    25,
+    10,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "category": "/t/trench",
+   "index": 340,
+   "n_images": 100,
+   "mean": 119.138,
+   "median": 118.762,
+   "std": 20.403,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    12,
+    51,
+    26,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/atrium/public",
+   "index": 25,
+   "n_images": 100,
+   "mean": 118.804,
+   "median": 118.844,
+   "std": 25.762,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    18,
+    43,
+    20,
+    12,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/field/wild",
+   "index": 141,
+   "n_images": 100,
+   "mean": 116.426,
+   "median": 118.918,
+   "std": 25.2,
+   "hist10_0_255": [
+    0,
+    0,
+    9,
+    16,
+    39,
+    32,
+    2,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/valley",
+   "index": 344,
+   "n_images": 100,
+   "mean": 118.736,
+   "median": 118.934,
+   "std": 23.849,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    21,
+    39,
+    29,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/shed",
+   "index": 299,
+   "n_images": 100,
+   "mean": 116.929,
+   "median": 119.007,
+   "std": 27.593,
+   "hist10_0_255": [
+    0,
+    0,
+    8,
+    17,
+    45,
+    23,
+    4,
+    1,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/p/plaza",
+   "index": 270,
+   "n_images": 100,
+   "mean": 115.4,
+   "median": 119.194,
+   "std": 28.336,
+   "hist10_0_255": [
+    0,
+    2,
+    8,
+    16,
+    38,
+    32,
+    3,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/church/outdoor",
+   "index": 91,
+   "n_images": 100,
+   "mean": 118.109,
+   "median": 119.293,
+   "std": 24.016,
+   "hist10_0_255": [
+    0,
+    3,
+    2,
+    15,
+    48,
+    27,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/general_store/outdoor",
+   "index": 161,
+   "n_images": 100,
+   "mean": 117.418,
+   "median": 119.301,
+   "std": 23.108,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    18,
+    44,
+    30,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hunting_lodge/outdoor",
+   "index": 184,
+   "n_images": 100,
+   "mean": 116.737,
+   "median": 119.378,
+   "std": 21.009,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    22,
+    44,
+    27,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/medina",
+   "index": 227,
+   "n_images": 100,
+   "mean": 113.704,
+   "median": 119.437,
+   "std": 26.205,
+   "hist10_0_255": [
+    0,
+    1,
+    11,
+    17,
+    37,
+    29,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/art_gallery",
+   "index": 19,
+   "n_images": 100,
+   "mean": 120.381,
+   "median": 119.441,
+   "std": 31.955,
+   "hist10_0_255": [
+    0,
+    3,
+    5,
+    15,
+    39,
+    23,
+    12,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/drugstore",
+   "index": 128,
+   "n_images": 100,
+   "mean": 120.513,
+   "median": 119.584,
+   "std": 24.491,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    13,
+    51,
+    26,
+    3,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/r/roof_garden",
+   "index": 290,
+   "n_images": 100,
+   "mean": 119.049,
+   "median": 119.748,
+   "std": 15.503,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    16,
+    55,
+    29,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/cabin/outdoor",
+   "index": 74,
+   "n_images": 100,
+   "mean": 118.711,
+   "median": 119.821,
+   "std": 21.323,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    19,
+    47,
+    26,
+    5,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/oast_house",
+   "index": 242,
+   "n_images": 100,
+   "mean": 121.999,
+   "median": 120.246,
+   "std": 21.972,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    16,
+    42,
+    30,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/apartment_building/outdoor",
+   "index": 8,
+   "n_images": 100,
+   "mean": 122.061,
+   "median": 120.248,
+   "std": 25.186,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    13,
+    41,
+    31,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/television_room",
+   "index": 328,
+   "n_images": 100,
+   "mean": 118.87,
+   "median": 120.328,
+   "std": 26.712,
+   "hist10_0_255": [
+    0,
+    2,
+    2,
+    20,
+    41,
+    27,
+    6,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/tower",
+   "index": 334,
+   "n_images": 100,
+   "mean": 120.45,
+   "median": 120.363,
+   "std": 32.78,
+   "hist10_0_255": [
+    0,
+    4,
+    6,
+    12,
+    42,
+    18,
+    16,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bedroom",
+   "index": 52,
+   "n_images": 100,
+   "mean": 123.092,
+   "median": 120.39,
+   "std": 28.22,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    16,
+    37,
+    26,
+    11,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/loading_dock",
+   "index": 216,
+   "n_images": 100,
+   "mean": 121.637,
+   "median": 120.392,
+   "std": 25.102,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    15,
+    37,
+    34,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/greenhouse/outdoor",
+   "index": 166,
+   "n_images": 100,
+   "mean": 122.026,
+   "median": 120.435,
+   "std": 20.2,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    14,
+    50,
+    27,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/water_tower",
+   "index": 354,
+   "n_images": 100,
+   "mean": 121.604,
+   "median": 120.485,
+   "std": 30.863,
+   "hist10_0_255": [
+    0,
+    4,
+    3,
+    13,
+    39,
+    26,
+    13,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/l/lake/natural",
+   "index": 205,
+   "n_images": 100,
+   "mean": 119.166,
+   "median": 120.528,
+   "std": 27.453,
+   "hist10_0_255": [
+    0,
+    0,
+    10,
+    13,
+    41,
+    26,
+    8,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/p/pharmacy",
+   "index": 262,
+   "n_images": 100,
+   "mean": 119.301,
+   "median": 120.605,
+   "std": 28.353,
+   "hist10_0_255": [
+    0,
+    2,
+    3,
+    20,
+    31,
+    32,
+    9,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/swimming_pool/outdoor",
+   "index": 326,
+   "n_images": 100,
+   "mean": 119.492,
+   "median": 120.683,
+   "std": 20.572,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    14,
+    51,
+    27,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/operating_room",
+   "index": 248,
+   "n_images": 100,
+   "mean": 119.024,
+   "median": 120.78,
+   "std": 27.219,
+   "hist10_0_255": [
+    0,
+    2,
+    3,
+    17,
+    41,
+    26,
+    10,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/cliff",
+   "index": 94,
+   "n_images": 100,
+   "mean": 120.457,
+   "median": 120.804,
+   "std": 24.006,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    20,
+    34,
+    37,
+    4,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/b/balcony/exterior",
+   "index": 32,
+   "n_images": 100,
+   "mean": 120.006,
+   "median": 120.866,
+   "std": 24.251,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    16,
+    41,
+    31,
+    6,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/village",
+   "index": 348,
+   "n_images": 100,
+   "mean": 117.471,
+   "median": 120.912,
+   "std": 20.702,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    19,
+    37,
+    39,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/manufactured_home",
+   "index": 221,
+   "n_images": 100,
+   "mean": 121.575,
+   "median": 121.131,
+   "std": 20.949,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    15,
+    46,
+    30,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/motel",
+   "index": 231,
+   "n_images": 100,
+   "mean": 117.772,
+   "median": 121.138,
+   "std": 28.843,
+   "hist10_0_255": [
+    2,
+    2,
+    3,
+    14,
+    40,
+    30,
+    9,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/e/embassy",
+   "index": 132,
+   "n_images": 100,
+   "mean": 118.927,
+   "median": 121.228,
+   "std": 22.252,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    18,
+    46,
+    28,
+    5,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/castle",
+   "index": 84,
+   "n_images": 100,
+   "mean": 115.085,
+   "median": 121.266,
+   "std": 32.422,
+   "hist10_0_255": [
+    0,
+    6,
+    7,
+    13,
+    41,
+    24,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/chemistry_lab",
+   "index": 88,
+   "n_images": 100,
+   "mean": 120.351,
+   "median": 121.304,
+   "std": 27.009,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    17,
+    39,
+    28,
+    6,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bullring",
+   "index": 68,
+   "n_images": 100,
+   "mean": 119.55,
+   "median": 121.327,
+   "std": 24.532,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    22,
+    35,
+    27,
+    11,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/canal/urban",
+   "index": 79,
+   "n_images": 100,
+   "mean": 114.157,
+   "median": 121.364,
+   "std": 33.88,
+   "hist10_0_255": [
+    1,
+    7,
+    7,
+    15,
+    32,
+    30,
+    6,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/amphitheater",
+   "index": 5,
+   "n_images": 100,
+   "mean": 118.985,
+   "median": 121.384,
+   "std": 22.681,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    15,
+    37,
+    36,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/skyscraper",
+   "index": 307,
+   "n_images": 100,
+   "mean": 115.577,
+   "median": 121.464,
+   "std": 31.56,
+   "hist10_0_255": [
+    1,
+    2,
+    10,
+    19,
+    25,
+    35,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/golf_course",
+   "index": 164,
+   "n_images": 100,
+   "mean": 124.603,
+   "median": 121.474,
+   "std": 25.494,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    12,
+    41,
+    35,
+    7,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/o/office_building",
+   "index": 245,
+   "n_images": 100,
+   "mean": 119.74,
+   "median": 121.535,
+   "std": 28.45,
+   "hist10_0_255": [
+    1,
+    0,
+    7,
+    14,
+    33,
+    35,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/u/utility_room",
+   "index": 343,
+   "n_images": 100,
+   "mean": 127.511,
+   "median": 121.547,
+   "std": 28.753,
+   "hist10_0_255": [
+    0,
+    1,
+    0,
+    15,
+    40,
+    23,
+    15,
+    6,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pantry",
+   "index": 253,
+   "n_images": 100,
+   "mean": 119.582,
+   "median": 121.559,
+   "std": 26.052,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    17,
+    39,
+    28,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/palace",
+   "index": 252,
+   "n_images": 100,
+   "mean": 115.615,
+   "median": 121.573,
+   "std": 32.832,
+   "hist10_0_255": [
+    3,
+    2,
+    7,
+    18,
+    30,
+    33,
+    6,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/ruin",
+   "index": 292,
+   "n_images": 100,
+   "mean": 119.861,
+   "median": 121.629,
+   "std": 23.696,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    18,
+    41,
+    34,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/fire_station",
+   "index": 144,
+   "n_images": 100,
+   "mean": 119.636,
+   "median": 121.79,
+   "std": 26.32,
+   "hist10_0_255": [
+    0,
+    2,
+    3,
+    16,
+    41,
+    30,
+    6,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/building_facade",
+   "index": 67,
+   "n_images": 100,
+   "mean": 120.21,
+   "median": 121.925,
+   "std": 27.913,
+   "hist10_0_255": [
+    0,
+    2,
+    3,
+    16,
+    43,
+    28,
+    6,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/reception",
+   "index": 280,
+   "n_images": 100,
+   "mean": 122.524,
+   "median": 122.101,
+   "std": 28.243,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    18,
+    34,
+    29,
+    11,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/l/lawn",
+   "index": 209,
+   "n_images": 100,
+   "mean": 120.217,
+   "median": 122.119,
+   "std": 21.042,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    15,
+    46,
+    33,
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/gas_station",
+   "index": 158,
+   "n_images": 100,
+   "mean": 116.936,
+   "median": 122.141,
+   "std": 30.848,
+   "hist10_0_255": [
+    0,
+    4,
+    7,
+    15,
+    35,
+    29,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/archaelogical_excavation",
+   "index": 13,
+   "n_images": 100,
+   "mean": 123.773,
+   "median": 122.276,
+   "std": 20.974,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    15,
+    44,
+    31,
+    9,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/k/kennel/outdoor",
+   "index": 201,
+   "n_images": 100,
+   "mean": 122.623,
+   "median": 122.297,
+   "std": 24.232,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    18,
+    39,
+    31,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/boat_deck",
+   "index": 58,
+   "n_images": 100,
+   "mean": 123.536,
+   "median": 122.312,
+   "std": 22.817,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    12,
+    44,
+    29,
+    11,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/laundromat",
+   "index": 208,
+   "n_images": 100,
+   "mean": 124.927,
+   "median": 122.345,
+   "std": 28.114,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    12,
+    43,
+    25,
+    12,
+    2,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/m/mountain",
+   "index": 232,
+   "n_images": 100,
+   "mean": 117.646,
+   "median": 122.407,
+   "std": 30.791,
+   "hist10_0_255": [
+    1,
+    2,
+    7,
+    17,
+    28,
+    36,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/swimming_pool/indoor",
+   "index": 325,
+   "n_images": 100,
+   "mean": 118.214,
+   "median": 122.473,
+   "std": 28.317,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    15,
+    31,
+    36,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/dam",
+   "index": 113,
+   "n_images": 100,
+   "mean": 119.77,
+   "median": 122.59,
+   "std": 28.744,
+   "hist10_0_255": [
+    0,
+    3,
+    2,
+    18,
+    37,
+    29,
+    8,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/alcove",
+   "index": 3,
+   "n_images": 100,
+   "mean": 118.597,
+   "median": 122.741,
+   "std": 33.109,
+   "hist10_0_255": [
+    2,
+    3,
+    7,
+    9,
+    37,
+    31,
+    9,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/courthouse",
+   "index": 108,
+   "n_images": 100,
+   "mean": 121.271,
+   "median": 122.787,
+   "std": 23.959,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    9,
+    48,
+    31,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/v/vineyard",
+   "index": 349,
+   "n_images": 100,
+   "mean": 122.061,
+   "median": 123.234,
+   "std": 21.864,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    16,
+    42,
+    30,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/balcony/interior",
+   "index": 33,
+   "n_images": 100,
+   "mean": 122.291,
+   "median": 123.324,
+   "std": 23.923,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    12,
+    40,
+    33,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/playroom",
+   "index": 269,
+   "n_images": 100,
+   "mean": 128.491,
+   "median": 123.377,
+   "std": 29.398,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    18,
+    34,
+    27,
+    12,
+    8,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/synagogue/outdoor",
+   "index": 327,
+   "n_images": 100,
+   "mean": 122.256,
+   "median": 123.489,
+   "std": 19.599,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    14,
+    41,
+    39,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/tree_farm",
+   "index": 338,
+   "n_images": 100,
+   "mean": 119.78,
+   "median": 123.62,
+   "std": 24.21,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    18,
+    38,
+    30,
+    8,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/j/jacuzzi/indoor",
+   "index": 195,
+   "n_images": 100,
+   "mean": 125.268,
+   "median": 123.792,
+   "std": 27.355,
+   "hist10_0_255": [
+    0,
+    2,
+    1,
+    16,
+    35,
+    30,
+    13,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/barn",
+   "index": 40,
+   "n_images": 100,
+   "mean": 120.271,
+   "median": 123.846,
+   "std": 22.701,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    19,
+    33,
+    36,
+    7,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/corral",
+   "index": 105,
+   "n_images": 100,
+   "mean": 123.028,
+   "median": 124.111,
+   "std": 22.774,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    15,
+    41,
+    32,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/field/cultivated",
+   "index": 140,
+   "n_images": 100,
+   "mean": 125.295,
+   "median": 124.128,
+   "std": 26.301,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    16,
+    36,
+    32,
+    11,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/corn_field",
+   "index": 104,
+   "n_images": 100,
+   "mean": 121.124,
+   "median": 124.258,
+   "std": 25.729,
+   "hist10_0_255": [
+    1,
+    1,
+    4,
+    12,
+    38,
+    36,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hayfield",
+   "index": 173,
+   "n_images": 100,
+   "mean": 121.276,
+   "median": 124.311,
+   "std": 23.758,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    21,
+    32,
+    36,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/butte",
+   "index": 73,
+   "n_images": 100,
+   "mean": 119.807,
+   "median": 124.39,
+   "std": 22.197,
+   "hist10_0_255": [
+    0,
+    1,
+    4,
+    15,
+    35,
+    41,
+    4,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/schoolhouse",
+   "index": 296,
+   "n_images": 100,
+   "mean": 125.336,
+   "median": 124.47,
+   "std": 25.745,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    16,
+    33,
+    34,
+    11,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/garage/outdoor",
+   "index": 157,
+   "n_images": 100,
+   "mean": 126.962,
+   "median": 124.504,
+   "std": 18.985,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    10,
+    49,
+    30,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pagoda",
+   "index": 251,
+   "n_images": 100,
+   "mean": 118.14,
+   "median": 124.529,
+   "std": 30.36,
+   "hist10_0_255": [
+    0,
+    6,
+    3,
+    10,
+    40,
+    33,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hot_spring",
+   "index": 180,
+   "n_images": 100,
+   "mean": 126.053,
+   "median": 124.631,
+   "std": 26.676,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    14,
+    36,
+    33,
+    11,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/highway",
+   "index": 175,
+   "n_images": 100,
+   "mean": 120.428,
+   "median": 124.83,
+   "std": 27.979,
+   "hist10_0_255": [
+    0,
+    4,
+    3,
+    13,
+    33,
+    37,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mountain_path",
+   "index": 233,
+   "n_images": 100,
+   "mean": 121.503,
+   "median": 125.073,
+   "std": 21.651,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    17,
+    37,
+    37,
+    6,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/wheat_field",
+   "index": 359,
+   "n_images": 100,
+   "mean": 121.409,
+   "median": 125.086,
+   "std": 31.738,
+   "hist10_0_255": [
+    0,
+    0,
+    14,
+    9,
+    31,
+    27,
+    17,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/library/outdoor",
+   "index": 213,
+   "n_images": 100,
+   "mean": 123.779,
+   "median": 125.146,
+   "std": 19.343,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    15,
+    39,
+    44,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/doorway/outdoor",
+   "index": 123,
+   "n_images": 100,
+   "mean": 123.801,
+   "median": 125.148,
+   "std": 24.229,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    13,
+    36,
+    39,
+    5,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pier",
+   "index": 266,
+   "n_images": 100,
+   "mean": 120.571,
+   "median": 125.382,
+   "std": 31.275,
+   "hist10_0_255": [
+    0,
+    5,
+    3,
+    15,
+    32,
+    33,
+    8,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/farm",
+   "index": 138,
+   "n_images": 100,
+   "mean": 123.946,
+   "median": 125.638,
+   "std": 24.126,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    10,
+    38,
+    38,
+    9,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hospital",
+   "index": 178,
+   "n_images": 100,
+   "mean": 123.792,
+   "median": 125.647,
+   "std": 29.851,
+   "hist10_0_255": [
+    0,
+    5,
+    3,
+    9,
+    34,
+    36,
+    9,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hospital_room",
+   "index": 179,
+   "n_images": 100,
+   "mean": 123.177,
+   "median": 125.868,
+   "std": 34.565,
+   "hist10_0_255": [
+    0,
+    1,
+    9,
+    18,
+    24,
+    29,
+    12,
+    5,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/e/excavation",
+   "index": 136,
+   "n_images": 100,
+   "mean": 127.213,
+   "median": 125.879,
+   "std": 20.572,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    6,
+    45,
+    37,
+    9,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/f/field_road",
+   "index": 142,
+   "n_images": 100,
+   "mean": 127.186,
+   "median": 126.079,
+   "std": 21.436,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    11,
+    41,
+    33,
+    13,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/l/lagoon",
+   "index": 204,
+   "n_images": 100,
+   "mean": 127.125,
+   "median": 126.447,
+   "std": 27.152,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    14,
+    33,
+    29,
+    17,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/museum/outdoor",
+   "index": 237,
+   "n_images": 100,
+   "mean": 124.686,
+   "median": 126.578,
+   "std": 28.405,
+   "hist10_0_255": [
+    0,
+    3,
+    4,
+    7,
+    38,
+    36,
+    8,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/hangar/outdoor",
+   "index": 170,
+   "n_images": 100,
+   "mean": 126.592,
+   "median": 126.939,
+   "std": 25.609,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    14,
+    35,
+    34,
+    13,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/pasture",
+   "index": 258,
+   "n_images": 100,
+   "mean": 128.557,
+   "median": 126.971,
+   "std": 27.916,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    10,
+    37,
+    33,
+    11,
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/residential_neighborhood",
+   "index": 283,
+   "n_images": 100,
+   "mean": 125.561,
+   "median": 126.972,
+   "std": 18.297,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    9,
+    43,
+    39,
+    8,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/watering_hole",
+   "index": 356,
+   "n_images": 100,
+   "mean": 124.677,
+   "median": 127.123,
+   "std": 23.994,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    16,
+    32,
+    41,
+    7,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/desert_road",
+   "index": 118,
+   "n_images": 100,
+   "mean": 128.376,
+   "median": 127.135,
+   "std": 24.217,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    6,
+    41,
+    35,
+    13,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/bathroom",
+   "index": 45,
+   "n_images": 100,
+   "mean": 129.026,
+   "median": 127.151,
+   "std": 30.228,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    11,
+    35,
+    26,
+    18,
+    6,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/i/ice_skating_rink/outdoor",
+   "index": 189,
+   "n_images": 100,
+   "mean": 124.691,
+   "median": 127.294,
+   "std": 30.678,
+   "hist10_0_255": [
+    0,
+    3,
+    5,
+    10,
+    33,
+    33,
+    12,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mausoleum",
+   "index": 226,
+   "n_images": 100,
+   "mean": 125.538,
+   "median": 127.442,
+   "std": 23.536,
+   "hist10_0_255": [
+    0,
+    0,
+    6,
+    9,
+    35,
+    40,
+    9,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/coast",
+   "index": 97,
+   "n_images": 100,
+   "mean": 126.595,
+   "median": 127.797,
+   "std": 26.324,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    15,
+    31,
+    37,
+    13,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/runway",
+   "index": 293,
+   "n_images": 100,
+   "mean": 127.32,
+   "median": 128.235,
+   "std": 27.732,
+   "hist10_0_255": [
+    0,
+    0,
+    5,
+    10,
+    33,
+    32,
+    17,
+    3,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/artists_loft",
+   "index": 22,
+   "n_images": 100,
+   "mean": 130.545,
+   "median": 128.286,
+   "std": 31.535,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    19,
+    28,
+    27,
+    17,
+    6,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/w/windmill",
+   "index": 361,
+   "n_images": 100,
+   "mean": 125.689,
+   "median": 128.41,
+   "std": 33.899,
+   "hist10_0_255": [
+    0,
+    1,
+    8,
+    17,
+    20,
+    36,
+    13,
+    3,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/k/kasbah",
+   "index": 200,
+   "n_images": 100,
+   "mean": 126.571,
+   "median": 128.722,
+   "std": 24.232,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    16,
+    30,
+    39,
+    12,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/n/nursery",
+   "index": 240,
+   "n_images": 100,
+   "mean": 133.992,
+   "median": 128.948,
+   "std": 30.488,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    9,
+    31,
+    28,
+    18,
+    10,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/d/desert/vegetation",
+   "index": 117,
+   "n_images": 100,
+   "mean": 127.498,
+   "median": 128.959,
+   "std": 18.871,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    9,
+    35,
+    45,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/biology_laboratory",
+   "index": 56,
+   "n_images": 100,
+   "mean": 128.464,
+   "median": 128.964,
+   "std": 26.766,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    15,
+    30,
+    37,
+    12,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/l/landing_deck",
+   "index": 207,
+   "n_images": 100,
+   "mean": 127.369,
+   "median": 129.141,
+   "std": 26.911,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    18,
+    28,
+    34,
+    16,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/p/promenade",
+   "index": 273,
+   "n_images": 100,
+   "mean": 126.941,
+   "median": 129.197,
+   "std": 23.871,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    8,
+    30,
+    45,
+    13,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/r/rice_paddy",
+   "index": 287,
+   "n_images": 100,
+   "mean": 127.958,
+   "median": 129.239,
+   "std": 21.328,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    9,
+    36,
+    43,
+    11,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/i/islet",
+   "index": 194,
+   "n_images": 100,
+   "mean": 130.033,
+   "median": 129.463,
+   "std": 29.072,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    10,
+    30,
+    35,
+    16,
+    6,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/harbor",
+   "index": 171,
+   "n_images": 100,
+   "mean": 122.007,
+   "median": 129.491,
+   "std": 31.822,
+   "hist10_0_255": [
+    0,
+    4,
+    7,
+    13,
+    24,
+    42,
+    8,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/ocean",
+   "index": 243,
+   "n_images": 100,
+   "mean": 129.213,
+   "median": 129.921,
+   "std": 27.757,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    11,
+    32,
+    36,
+    13,
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/b/beach_house",
+   "index": 49,
+   "n_images": 100,
+   "mean": 128.151,
+   "median": 129.973,
+   "std": 21.202,
+   "hist10_0_255": [
+    0,
+    1,
+    2,
+    8,
+    33,
+    46,
+    10,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/t/tundra",
+   "index": 341,
+   "n_images": 100,
+   "mean": 126.488,
+   "median": 130.253,
+   "std": 25.457,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    12,
+    29,
+    38,
+    16,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/g/glacier",
+   "index": 163,
+   "n_images": 100,
+   "mean": 131.324,
+   "median": 130.259,
+   "std": 27.333,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    13,
+    27,
+    37,
+    14,
+    7,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/i/industrial_area",
+   "index": 192,
+   "n_images": 100,
+   "mean": 128.643,
+   "median": 130.47,
+   "std": 24.182,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    9,
+    35,
+    38,
+    12,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/m/mosque/outdoor",
+   "index": 230,
+   "n_images": 100,
+   "mean": 124.5,
+   "median": 130.534,
+   "std": 30.814,
+   "hist10_0_255": [
+    1,
+    2,
+    9,
+    5,
+    22,
+    44,
+    17,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/wind_farm",
+   "index": 360,
+   "n_images": 100,
+   "mean": 130.257,
+   "median": 130.735,
+   "std": 34.811,
+   "hist10_0_255": [
+    0,
+    3,
+    2,
+    16,
+    24,
+    28,
+    20,
+    5,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/s/ski_resort",
+   "index": 304,
+   "n_images": 100,
+   "mean": 133.203,
+   "median": 131.609,
+   "std": 24.323,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    7,
+    31,
+    40,
+    18,
+    2,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/a/airfield",
+   "index": 0,
+   "n_images": 100,
+   "mean": 131.99,
+   "median": 131.615,
+   "std": 23.321,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    8,
+    33,
+    42,
+    11,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/shower",
+   "index": 303,
+   "n_images": 100,
+   "mean": 132.277,
+   "median": 131.7,
+   "std": 27.42,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    10,
+    28,
+    37,
+    17,
+    4,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/water_park",
+   "index": 353,
+   "n_images": 100,
+   "mean": 131.133,
+   "median": 131.932,
+   "std": 20.715,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    8,
+    36,
+    40,
+    16,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/w/wave",
+   "index": 357,
+   "n_images": 100,
+   "mean": 135.18,
+   "median": 132.938,
+   "std": 27.656,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    11,
+    31,
+    33,
+    16,
+    9,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/b/badlands",
+   "index": 30,
+   "n_images": 100,
+   "mean": 127.972,
+   "median": 132.973,
+   "std": 28.601,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    15,
+    22,
+    43,
+    13,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/b/beach",
+   "index": 48,
+   "n_images": 100,
+   "mean": 132.733,
+   "median": 133.262,
+   "std": 30.187,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    9,
+    28,
+    38,
+    14,
+    4,
+    3,
+    0
+   ]
+  },
+  {
+   "category": "/l/lighthouse",
+   "index": 214,
+   "n_images": 100,
+   "mean": 129.521,
+   "median": 134.139,
+   "std": 31.661,
+   "hist10_0_255": [
+    0,
+    3,
+    1,
+    12,
+    30,
+    33,
+    16,
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/c/clean_room",
+   "index": 93,
+   "n_images": 100,
+   "mean": 133.3,
+   "median": 134.196,
+   "std": 28.843,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    9,
+    29,
+    37,
+    15,
+    8,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/o/oilrig",
+   "index": 247,
+   "n_images": 100,
+   "mean": 134.613,
+   "median": 134.413,
+   "std": 34.628,
+   "hist10_0_255": [
+    0,
+    2,
+    4,
+    9,
+    25,
+    30,
+    19,
+    9,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/v/volleyball_court/outdoor",
+   "index": 351,
+   "n_images": 100,
+   "mean": 134.681,
+   "median": 135.131,
+   "std": 27.275,
+   "hist10_0_255": [
+    0,
+    0,
+    2,
+    11,
+    25,
+    37,
+    20,
+    4,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/i/iceberg",
+   "index": 190,
+   "n_images": 100,
+   "mean": 133.187,
+   "median": 135.506,
+   "std": 29.226,
+   "hist10_0_255": [
+    0,
+    0,
+    4,
+    9,
+    26,
+    37,
+    19,
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/h/heliport",
+   "index": 174,
+   "n_images": 100,
+   "mean": 135.584,
+   "median": 136.665,
+   "std": 25.647,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    8,
+    32,
+    35,
+    20,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/d/desert/sand",
+   "index": 116,
+   "n_images": 100,
+   "mean": 133.748,
+   "median": 137.683,
+   "std": 32.852,
+   "hist10_0_255": [
+    0,
+    2,
+    4,
+    10,
+    20,
+    37,
+    19,
+    6,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/i/igloo",
+   "index": 191,
+   "n_images": 100,
+   "mean": 135.069,
+   "median": 137.96,
+   "std": 36.471,
+   "hist10_0_255": [
+    1,
+    2,
+    4,
+    10,
+    19,
+    35,
+    18,
+    10,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/i/ice_shelf",
+   "index": 187,
+   "n_images": 100,
+   "mean": 141.298,
+   "median": 138.426,
+   "std": 27.817,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    3,
+    24,
+    38,
+    23,
+    8,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/s/ski_slope",
+   "index": 305,
+   "n_images": 100,
+   "mean": 145.66,
+   "median": 139.611,
+   "std": 28.105,
+   "hist10_0_255": [
+    0,
+    1,
+    1,
+    1,
+    19,
+    40,
+    26,
+    9,
+    3,
+    0
+   ]
+  },
+  {
+   "category": "/a/arena/hockey",
+   "index": 15,
+   "n_images": 100,
+   "mean": 138.704,
+   "median": 140.462,
+   "std": 32.514,
+   "hist10_0_255": [
+    0,
+    1,
+    3,
+    9,
+    20,
+    30,
+    27,
+    9,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/childs_room",
+   "index": 89,
+   "n_images": 100,
+   "mean": 140.862,
+   "median": 141.245,
+   "std": 32.207,
+   "hist10_0_255": [
+    0,
+    0,
+    3,
+    10,
+    18,
+    34,
+    22,
+    11,
+    2,
+    0
+   ]
+  },
+  {
+   "category": "/i/ice_floe",
+   "index": 186,
+   "n_images": 100,
+   "mean": 146.002,
+   "median": 143.519,
+   "std": 27.422,
+   "hist10_0_255": [
+    0,
+    1,
+    0,
+    3,
+    20,
+    37,
+    27,
+    11,
+    1,
+    0
+   ]
+  },
+  {
+   "category": "/c/crevasse",
+   "index": 111,
+   "n_images": 100,
+   "mean": 140.687,
+   "median": 143.694,
+   "std": 25.9,
+   "hist10_0_255": [
+    0,
+    0,
+    1,
+    8,
+    22,
+    35,
+    27,
+    7,
+    0,
+    0
+   ]
+  },
+  {
+   "category": "/s/snowfield",
+   "index": 309,
+   "n_images": 100,
+   "mean": 144.391,
+   "median": 145.681,
+   "std": 22.785,
+   "hist10_0_255": [
+    0,
+    0,
+    0,
+    4,
+    20,
+    41,
+    28,
+    7,
+    0,
+    0
+   ]
+  }
+ ],
+ "candidate_cuts": {
+  "darkest_decile": {
+   "n": 36,
+   "max_median": 98.432,
+   "categories": [
+    "/o/orchestra_pit",
+    "/m/movie_theater/indoor",
+    "/s/stage/indoor",
+    "/d/discotheque",
+    "/b/bar",
+    "/p/pub/indoor",
+    "/a/arena/performance",
+    "/b/boxing_ring",
+    "/c/catacomb",
+    "/m/music_studio",
+    "/b/beer_hall",
+    "/t/television_studio",
+    "/g/grotto",
+    "/a/auditorium",
+    "/b/ballroom",
+    "/h/home_theater",
+    "/a/aquarium",
+    "/a/amusement_arcade",
+    "/e/elevator_shaft",
+    "/s/sushi_bar",
+    "/s/stage/outdoor",
+    "/s/science_museum",
+    "/c/church/indoor",
+    "/b/bazaar/indoor",
+    "/p/parking_garage/indoor",
+    "/b/bank_vault",
+    "/s/subway_station/platform",
+    "/t/throne_room",
+    "/a/arcade",
+    "/a/alley",
+    "/r/restaurant",
+    "/b/basement",
+    "/g/general_store/indoor",
+    "/b/bamboo_forest",
+    "/r/rainforest",
+    "/c/corridor"
+   ]
+  },
+  "darkest_quintile": {
+   "n": 73,
+   "max_median": 105.406,
+   "categories": [
+    "/o/orchestra_pit",
+    "/m/movie_theater/indoor",
+    "/s/stage/indoor",
+    "/d/discotheque",
+    "/b/bar",
+    "/p/pub/indoor",
+    "/a/arena/performance",
+    "/b/boxing_ring",
+    "/c/catacomb",
+    "/m/music_studio",
+    "/b/beer_hall",
+    "/t/television_studio",
+    "/g/grotto",
+    "/a/auditorium",
+    "/b/ballroom",
+    "/h/home_theater",
+    "/a/aquarium",
+    "/a/amusement_arcade",
+    "/e/elevator_shaft",
+    "/s/sushi_bar",
+    "/s/stage/outdoor",
+    "/s/science_museum",
+    "/c/church/indoor",
+    "/b/bazaar/indoor",
+    "/p/parking_garage/indoor",
+    "/b/bank_vault",
+    "/s/subway_station/platform",
+    "/t/throne_room",
+    "/a/arcade",
+    "/a/alley",
+    "/r/restaurant",
+    "/b/basement",
+    "/g/general_store/indoor",
+    "/b/bamboo_forest",
+    "/r/rainforest",
+    "/c/corridor",
+    "/j/jail_cell",
+    "/c/cockpit",
+    "/a/arena/rodeo",
+    "/b/bookstore",
+    "/b/bowling_alley",
+    "/c/conference_center",
+    "/e/engine_room",
+    "/c/car_interior",
+    "/l/legislative_chamber",
+    "/b/bus_interior",
+    "/u/underwater/ocean_deep",
+    "/t/train_interior",
+    "/e/elevator/door",
+    "/c/coffee_shop",
+    "/b/banquet_hall",
+    "/a/auto_factory",
+    "/f/food_court",
+    "/e/escalator/indoor",
+    "/c/cafeteria",
+    "/l/library/indoor",
+    "/c/creek",
+    "/w/waterfall",
+    "/b/beer_garden",
+    "/m/market/indoor",
+    "/c/clothing_store",
+    "/f/forest_path",
+    "/a/assembly_line",
+    "/r/restaurant_kitchen",
+    "/j/japanese_garden",
+    "/a/auto_showroom",
+    "/l/lobby",
+    "/f/forest_road",
+    "/v/volcano",
+    "/h/hotel/outdoor",
+    "/a/attic",
+    "/d/dressing_room",
+    "/h/hangar/indoor"
+   ]
+  },
+  "natural_valley": {
+   "n": 4,
+   "gap": 8.507,
+   "max_median": 54.403,
+   "note": "largest adjacent-gap in the darkest half of the sorted median curve; honesty note — if gap is small the curve is smooth and this cut is weak",
+   "categories": [
+    "/o/orchestra_pit",
+    "/m/movie_theater/indoor",
+    "/s/stage/indoor",
+    "/d/discotheque"
+   ]
+  }
+ },
+ "zh_mapping_darkest_quintile": [
+  {
+   "category": "/o/orchestra_pit",
+   "median": 44.839,
+   "zh": [
+    {
+     "zh": "井下",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "凹陷",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "土坑",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "坎",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "坑",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "坑井",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "核",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "矿井",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "矿坑",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "窑",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "窝",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "阱",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "陷坑",
+     "via": "last_word",
+     "key": "pit"
+    },
+    {
+     "zh": "陷阱",
+     "via": "last_word",
+     "key": "pit"
+    }
+   ]
+  },
+  {
+   "category": "/m/movie_theater/indoor",
+   "median": 47.537,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "电影院",
+     "via": "her_synonym_table",
+     "key": "/m/movie_theater/indoor"
+    },
+    {
+     "zh": "影院",
+     "via": "her_synonym_table",
+     "key": "/m/movie_theater/indoor"
+    }
+   ]
+  },
+  {
+   "category": "/s/stage/indoor",
+   "median": 50.997,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/d/discotheque",
+   "median": 54.403,
+   "zh": [
+    {
+     "zh": "迪斯科舞厅",
+     "via": "full",
+     "key": "discotheque"
+    }
+   ]
+  },
+  {
+   "category": "/b/bar",
+   "median": 62.91,
+   "zh": [
+    {
+     "zh": "吧",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "封锁",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "小节",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "拦",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "拦阻",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "挡横",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "杠",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "条",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "枋",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "柜台",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "货柜",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "酒吧",
+     "via": "full",
+     "key": "bar"
+    },
+    {
+     "zh": "酒吧间",
+     "via": "full",
+     "key": "bar"
+    }
+   ]
+  },
+  {
+   "category": "/p/pub/indoor",
+   "median": 64.666,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/a/arena/performance",
+   "median": 66.448,
+   "zh": [
+    {
+     "zh": "上演",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "出演",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "履行",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "性能",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "执行",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "演",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "演出",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "演唱会",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "演奏会",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "行使",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "表演",
+     "via": "full",
+     "key": "performance"
+    },
+    {
+     "zh": "表现",
+     "via": "full",
+     "key": "performance"
+    }
+   ]
+  },
+  {
+   "category": "/b/boxing_ring",
+   "median": 66.513,
+   "zh": [
+    {
+     "zh": "拳击台",
+     "via": "full",
+     "key": "boxing ring"
+    },
+    {
+     "zh": "拳击场",
+     "via": "full",
+     "key": "boxing ring"
+    },
+    {
+     "zh": "发出响声",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "响",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "圆圈",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "圆环",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "圈",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "圈圈",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "圈子",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "戒",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "戒指",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "打点儿",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "打电话",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "拳台",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "挂",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "指环",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "擂台",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "环",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "环子",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "轮",
+     "via": "last_word",
+     "key": "ring"
+    },
+    {
+     "zh": "鸣",
+     "via": "last_word",
+     "key": "ring"
+    }
+   ]
+  },
+  {
+   "category": "/c/catacomb",
+   "median": 67.621,
+   "zh": [
+    {
+     "zh": "地下墓穴",
+     "via": "her_synonym_table",
+     "key": "/c/catacomb"
+    }
+   ]
+  },
+  {
+   "category": "/m/music_studio",
+   "median": 74.164,
+   "zh": [
+    {
+     "zh": "照像馆",
+     "via": "last_word",
+     "key": "studio"
+    },
+    {
+     "zh": "照相馆",
+     "via": "last_word",
+     "key": "studio"
+    },
+    {
+     "zh": "画室",
+     "via": "last_word",
+     "key": "studio"
+    }
+   ]
+  },
+  {
+   "category": "/b/beer_hall",
+   "median": 76.089,
+   "zh": [
+    {
+     "zh": "会堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅事",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅房",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "大会堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "大厅",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "殿",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "殿堂",
+     "via": "last_word",
+     "key": "hall"
+    }
+   ]
+  },
+  {
+   "category": "/t/television_studio",
+   "median": 76.717,
+   "zh": [
+    {
+     "zh": "演播厅",
+     "via": "full",
+     "key": "television studio"
+    },
+    {
+     "zh": "演播室",
+     "via": "full",
+     "key": "television studio"
+    },
+    {
+     "zh": "照像馆",
+     "via": "last_word",
+     "key": "studio"
+    },
+    {
+     "zh": "照相馆",
+     "via": "last_word",
+     "key": "studio"
+    },
+    {
+     "zh": "画室",
+     "via": "last_word",
+     "key": "studio"
+    }
+   ]
+  },
+  {
+   "category": "/g/grotto",
+   "median": 78.742,
+   "zh": [
+    {
+     "zh": "岩洞",
+     "via": "full",
+     "key": "grotto"
+    },
+    {
+     "zh": "岩穴",
+     "via": "full",
+     "key": "grotto"
+    },
+    {
+     "zh": "石窟",
+     "via": "full",
+     "key": "grotto"
+    }
+   ]
+  },
+  {
+   "category": "/a/auditorium",
+   "median": 79.403,
+   "zh": [
+    {
+     "zh": "大礼堂",
+     "via": "full",
+     "key": "auditorium"
+    },
+    {
+     "zh": "礼堂",
+     "via": "full",
+     "key": "auditorium"
+    }
+   ]
+  },
+  {
+   "category": "/b/ballroom",
+   "median": 81.109,
+   "zh": [
+    {
+     "zh": "舞厅",
+     "via": "full",
+     "key": "ballroom"
+    },
+    {
+     "zh": "舞场",
+     "via": "full",
+     "key": "ballroom"
+    }
+   ]
+  },
+  {
+   "category": "/h/home_theater",
+   "median": 81.479,
+   "zh": [
+    {
+     "zh": "剧场",
+     "via": "last_word",
+     "key": "theater"
+    },
+    {
+     "zh": "戏园子",
+     "via": "last_word",
+     "key": "theater"
+    },
+    {
+     "zh": "战区",
+     "via": "last_word",
+     "key": "theater"
+    }
+   ]
+  },
+  {
+   "category": "/a/aquarium",
+   "median": 82.384,
+   "zh": [
+    {
+     "zh": "水族馆",
+     "via": "full",
+     "key": "aquarium"
+    },
+    {
+     "zh": "海洋公园",
+     "via": "full",
+     "key": "aquarium"
+    },
+    {
+     "zh": "鱼缸",
+     "via": "full",
+     "key": "aquarium"
+    }
+   ]
+  },
+  {
+   "category": "/a/amusement_arcade",
+   "median": 82.411,
+   "zh": []
+  },
+  {
+   "category": "/e/elevator_shaft",
+   "median": 83.343,
+   "zh": [
+    {
+     "zh": "杆",
+     "via": "last_word",
+     "key": "shaft"
+    },
+    {
+     "zh": "竖井",
+     "via": "last_word",
+     "key": "shaft"
+    },
+    {
+     "zh": "箭杆",
+     "via": "last_word",
+     "key": "shaft"
+    },
+    {
+     "zh": "车把",
+     "via": "last_word",
+     "key": "shaft"
+    },
+    {
+     "zh": "轴",
+     "via": "last_word",
+     "key": "shaft"
+    }
+   ]
+  },
+  {
+   "category": "/s/sushi_bar",
+   "median": 83.508,
+   "zh": [
+    {
+     "zh": "寿司店",
+     "via": "full",
+     "key": "sushi bar"
+    },
+    {
+     "zh": "吧",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "封锁",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "小节",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "拦",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "拦阻",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "挡横",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "杠",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "条",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "枋",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "柜台",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "货柜",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "酒吧",
+     "via": "last_word",
+     "key": "bar"
+    },
+    {
+     "zh": "酒吧间",
+     "via": "last_word",
+     "key": "bar"
+    }
+   ]
+  },
+  {
+   "category": "/s/stage/outdoor",
+   "median": 86.702,
+   "zh": [
+    {
+     "zh": "室外",
+     "via": "full",
+     "key": "outdoor"
+    },
+    {
+     "zh": "户外",
+     "via": "full",
+     "key": "outdoor"
+    }
+   ]
+  },
+  {
+   "category": "/s/science_museum",
+   "median": 87.255,
+   "zh": [
+    {
+     "zh": "博物院",
+     "via": "last_word",
+     "key": "museum"
+    },
+    {
+     "zh": "博物馆",
+     "via": "last_word",
+     "key": "museum"
+    }
+   ]
+  },
+  {
+   "category": "/c/church/indoor",
+   "median": 90.29,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/b/bazaar/indoor",
+   "median": 91.262,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/p/parking_garage/indoor",
+   "median": 91.405,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/b/bank_vault",
+   "median": 91.59,
+   "zh": [
+    {
+     "zh": "保险库",
+     "via": "full",
+     "key": "bank vault"
+    },
+    {
+     "zh": "保险库",
+     "via": "last_word",
+     "key": "vault"
+    },
+    {
+     "zh": "拱顶",
+     "via": "last_word",
+     "key": "vault"
+    },
+    {
+     "zh": "穹",
+     "via": "last_word",
+     "key": "vault"
+    },
+    {
+     "zh": "穹隆",
+     "via": "last_word",
+     "key": "vault"
+    },
+    {
+     "zh": "金库",
+     "via": "last_word",
+     "key": "vault"
+    }
+   ]
+  },
+  {
+   "category": "/s/subway_station/platform",
+   "median": 91.81,
+   "zh": [
+    {
+     "zh": "主席台",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "台",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "台地",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "台子",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "坛",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "平台",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "站台",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "讲台",
+     "via": "full",
+     "key": "platform"
+    },
+    {
+     "zh": "讲坛",
+     "via": "full",
+     "key": "platform"
+    }
+   ]
+  },
+  {
+   "category": "/t/throne_room",
+   "median": 92.263,
+   "zh": [
+    {
+     "zh": "金銮殿",
+     "via": "full",
+     "key": "throne room"
+    },
+    {
+     "zh": "余地",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "地方",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "居室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "空间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "退路",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "间",
+     "via": "last_word",
+     "key": "room"
+    }
+   ]
+  },
+  {
+   "category": "/a/arcade",
+   "median": 94.897,
+   "zh": []
+  },
+  {
+   "category": "/a/alley",
+   "median": 95.704,
+   "zh": [
+    {
+     "zh": "小街",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "巷",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "巷子",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "弄",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "弄堂",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "胡同",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "衖",
+     "via": "full",
+     "key": "alley"
+    },
+    {
+     "zh": "闾巷",
+     "via": "full",
+     "key": "alley"
+    }
+   ]
+  },
+  {
+   "category": "/r/restaurant",
+   "median": 96.328,
+   "zh": [
+    {
+     "zh": "美食城",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "菜馆",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "酒家",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "酒楼",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "食府",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "餐厅",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "餐馆",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "饭庄",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "饭店",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "饭铺",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "饭馆",
+     "via": "full",
+     "key": "restaurant"
+    },
+    {
+     "zh": "馆子",
+     "via": "full",
+     "key": "restaurant"
+    }
+   ]
+  },
+  {
+   "category": "/b/basement",
+   "median": 96.333,
+   "zh": [
+    {
+     "zh": "地下室",
+     "via": "full",
+     "key": "basement"
+    },
+    {
+     "zh": "地窨子",
+     "via": "full",
+     "key": "basement"
+    },
+    {
+     "zh": "基",
+     "via": "full",
+     "key": "basement"
+    },
+    {
+     "zh": "底部",
+     "via": "full",
+     "key": "basement"
+    },
+    {
+     "zh": "窨",
+     "via": "full",
+     "key": "basement"
+    }
+   ]
+  },
+  {
+   "category": "/g/general_store/indoor",
+   "median": 96.597,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/b/bamboo_forest",
+   "median": 96.663,
+   "zh": [
+    {
+     "zh": "竹林",
+     "via": "full",
+     "key": "bamboo forest"
+    },
+    {
+     "zh": "竹林子",
+     "via": "full",
+     "key": "bamboo forest"
+    },
+    {
+     "zh": "箐",
+     "via": "full",
+     "key": "bamboo forest"
+    },
+    {
+     "zh": "林",
+     "via": "last_word",
+     "key": "forest"
+    },
+    {
+     "zh": "林地",
+     "via": "last_word",
+     "key": "forest"
+    },
+    {
+     "zh": "林子",
+     "via": "last_word",
+     "key": "forest"
+    },
+    {
+     "zh": "林木",
+     "via": "last_word",
+     "key": "forest"
+    },
+    {
+     "zh": "森林",
+     "via": "last_word",
+     "key": "forest"
+    }
+   ]
+  },
+  {
+   "category": "/r/rainforest",
+   "median": 97.884,
+   "zh": [
+    {
+     "zh": "雨林",
+     "via": "full",
+     "key": "rainforest"
+    }
+   ]
+  },
+  {
+   "category": "/c/corridor",
+   "median": 98.432,
+   "zh": [
+    {
+     "zh": "庑",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "廊",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "廊子",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "楼道",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "甬道",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "走廊",
+     "via": "full",
+     "key": "corridor"
+    },
+    {
+     "zh": "过道",
+     "via": "full",
+     "key": "corridor"
+    }
+   ]
+  },
+  {
+   "category": "/j/jail_cell",
+   "median": 98.498,
+   "zh": [
+    {
+     "zh": "牢房",
+     "via": "full",
+     "key": "jail cell"
+    },
+    {
+     "zh": "元件",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "牢房",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "狱室",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "电池",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "监房",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "细胞",
+     "via": "last_word",
+     "key": "cell"
+    },
+    {
+     "zh": "龛",
+     "via": "last_word",
+     "key": "cell"
+    }
+   ]
+  },
+  {
+   "category": "/c/cockpit",
+   "median": 99.099,
+   "zh": [
+    {
+     "zh": "座舱",
+     "via": "full",
+     "key": "cockpit"
+    },
+    {
+     "zh": "驾驶舱",
+     "via": "full",
+     "key": "cockpit"
+    }
+   ]
+  },
+  {
+   "category": "/a/arena/rodeo",
+   "median": 99.473,
+   "zh": []
+  },
+  {
+   "category": "/b/bookstore",
+   "median": 99.681,
+   "zh": [
+    {
+     "zh": "书屋",
+     "via": "full",
+     "key": "bookstore"
+    },
+    {
+     "zh": "书店",
+     "via": "full",
+     "key": "bookstore"
+    },
+    {
+     "zh": "书铺",
+     "via": "full",
+     "key": "bookstore"
+    }
+   ]
+  },
+  {
+   "category": "/b/bowling_alley",
+   "median": 99.85,
+   "zh": [
+    {
+     "zh": "保龄球道",
+     "via": "full",
+     "key": "bowling alley"
+    },
+    {
+     "zh": "小街",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "巷",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "巷子",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "弄",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "弄堂",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "胡同",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "衖",
+     "via": "last_word",
+     "key": "alley"
+    },
+    {
+     "zh": "闾巷",
+     "via": "last_word",
+     "key": "alley"
+    }
+   ]
+  },
+  {
+   "category": "/c/conference_center",
+   "median": 100.459,
+   "zh": [
+    {
+     "zh": "中",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "中央",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "中心",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "中枢",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "中锋",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "中间",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "围绕",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "当腰",
+     "via": "last_word",
+     "key": "center"
+    },
+    {
+     "zh": "苑",
+     "via": "last_word",
+     "key": "center"
+    }
+   ]
+  },
+  {
+   "category": "/e/engine_room",
+   "median": 100.487,
+   "zh": [
+    {
+     "zh": "机舱",
+     "via": "full",
+     "key": "engine room"
+    },
+    {
+     "zh": "轮机舱",
+     "via": "full",
+     "key": "engine room"
+    },
+    {
+     "zh": "余地",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "地方",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "居室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "空间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "退路",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "间",
+     "via": "last_word",
+     "key": "room"
+    }
+   ]
+  },
+  {
+   "category": "/c/car_interior",
+   "median": 100.65,
+   "zh": [
+    {
+     "zh": "内侧",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内地",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内景",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内部",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内陆",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "室内",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里头",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里面",
+     "via": "last_word",
+     "key": "interior"
+    }
+   ]
+  },
+  {
+   "category": "/l/legislative_chamber",
+   "median": 100.922,
+   "zh": [
+    {
+     "zh": "房间",
+     "via": "last_word",
+     "key": "chamber"
+    },
+    {
+     "zh": "禁闭",
+     "via": "last_word",
+     "key": "chamber"
+    },
+    {
+     "zh": "膛",
+     "via": "last_word",
+     "key": "chamber"
+    }
+   ]
+  },
+  {
+   "category": "/b/bus_interior",
+   "median": 100.968,
+   "zh": [
+    {
+     "zh": "内侧",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内地",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内景",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内部",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内陆",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "室内",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里头",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里面",
+     "via": "last_word",
+     "key": "interior"
+    }
+   ]
+  },
+  {
+   "category": "/u/underwater/ocean_deep",
+   "median": 100.97,
+   "zh": [
+    {
+     "zh": "低沉",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "厚",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "奥",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "沉",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "沉沉",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "泓",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "浓",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深切",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深刻",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深厚",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深奥",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深沉",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "深邃",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "渊",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "渊深",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "湛",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "甜",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "窈冥",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "笃深",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "重",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "香",
+     "via": "last_word",
+     "key": "deep"
+    },
+    {
+     "zh": "香甜",
+     "via": "last_word",
+     "key": "deep"
+    }
+   ]
+  },
+  {
+   "category": "/t/train_interior",
+   "median": 101.206,
+   "zh": [
+    {
+     "zh": "内侧",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内地",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内景",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内部",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "内陆",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "室内",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里头",
+     "via": "last_word",
+     "key": "interior"
+    },
+    {
+     "zh": "里面",
+     "via": "last_word",
+     "key": "interior"
+    }
+   ]
+  },
+  {
+   "category": "/e/elevator/door",
+   "median": 101.293,
+   "zh": [
+    {
+     "zh": "户",
+     "via": "full",
+     "key": "door"
+    },
+    {
+     "zh": "房门",
+     "via": "full",
+     "key": "door"
+    },
+    {
+     "zh": "扉",
+     "via": "full",
+     "key": "door"
+    },
+    {
+     "zh": "门",
+     "via": "full",
+     "key": "door"
+    },
+    {
+     "zh": "闼",
+     "via": "full",
+     "key": "door"
+    }
+   ]
+  },
+  {
+   "category": "/c/coffee_shop",
+   "median": 101.33,
+   "zh": [
+    {
+     "zh": "咖啡店",
+     "via": "full",
+     "key": "coffee shop"
+    },
+    {
+     "zh": "买东西",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "商号",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "商店",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "字号",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "市肆",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "店",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "店家",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "店铺",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "肆",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "购物",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "车间",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "铺",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "铺子",
+     "via": "last_word",
+     "key": "shop"
+    },
+    {
+     "zh": "铺户",
+     "via": "last_word",
+     "key": "shop"
+    }
+   ]
+  },
+  {
+   "category": "/b/banquet_hall",
+   "median": 101.388,
+   "zh": [
+    {
+     "zh": "宴会厅",
+     "via": "full",
+     "key": "banquet hall"
+    },
+    {
+     "zh": "会堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅事",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "厅房",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "大会堂",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "大厅",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "殿",
+     "via": "last_word",
+     "key": "hall"
+    },
+    {
+     "zh": "殿堂",
+     "via": "last_word",
+     "key": "hall"
+    }
+   ]
+  },
+  {
+   "category": "/a/auto_factory",
+   "median": 101.403,
+   "zh": [
+    {
+     "zh": "厂",
+     "via": "last_word",
+     "key": "factory"
+    },
+    {
+     "zh": "厂子",
+     "via": "last_word",
+     "key": "factory"
+    },
+    {
+     "zh": "厂家",
+     "via": "last_word",
+     "key": "factory"
+    },
+    {
+     "zh": "工厂",
+     "via": "last_word",
+     "key": "factory"
+    }
+   ]
+  },
+  {
+   "category": "/f/food_court",
+   "median": 101.463,
+   "zh": [
+    {
+     "zh": "大排档",
+     "via": "full",
+     "key": "food court"
+    },
+    {
+     "zh": "食阁",
+     "via": "full",
+     "key": "food court"
+    },
+    {
+     "zh": "乞求",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "博取",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "处对象",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "宫廷",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "庭",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "庭院",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "拍拖",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "招",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "招惹",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "搞对象",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "比赛场地",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "法庭",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "法院",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "球场",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "裁判所",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "谈对象",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "谈恋爱",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "赛场",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "追",
+     "via": "last_word",
+     "key": "court"
+    },
+    {
+     "zh": "追求",
+     "via": "last_word",
+     "key": "court"
+    }
+   ]
+  },
+  {
+   "category": "/e/escalator/indoor",
+   "median": 101.515,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/c/cafeteria",
+   "median": 101.852,
+   "zh": [
+    {
+     "zh": "食堂",
+     "via": "full",
+     "key": "cafeteria"
+    }
+   ]
+  },
+  {
+   "category": "/l/library/indoor",
+   "median": 102.043,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/c/creek",
+   "median": 102.374,
+   "zh": [
+    {
+     "zh": "浜",
+     "via": "full",
+     "key": "creek"
+    }
+   ]
+  },
+  {
+   "category": "/w/waterfall",
+   "median": 102.542,
+   "zh": [
+    {
+     "zh": "瀑",
+     "via": "full",
+     "key": "waterfall"
+    },
+    {
+     "zh": "瀑布",
+     "via": "full",
+     "key": "waterfall"
+    },
+    {
+     "zh": "飞瀑",
+     "via": "full",
+     "key": "waterfall"
+    }
+   ]
+  },
+  {
+   "category": "/b/beer_garden",
+   "median": 102.83,
+   "zh": [
+    {
+     "zh": "园",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "园圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "园林",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "场圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "花园",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "苑",
+     "via": "last_word",
+     "key": "garden"
+    }
+   ]
+  },
+  {
+   "category": "/m/market/indoor",
+   "median": 103.042,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  },
+  {
+   "category": "/c/clothing_store",
+   "median": 103.042,
+   "zh": [
+    {
+     "zh": "服装店",
+     "via": "full",
+     "key": "clothing store"
+    },
+    {
+     "zh": "储存",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "储放",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "储藏",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "商号",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "商店",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "存",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "存储",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "存贮",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "店",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "店家",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "店铺",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "潴",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "蓄藏",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "藏",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "贮",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "贮存",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "贮积",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "贮蓄",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "铺",
+     "via": "last_word",
+     "key": "store"
+    },
+    {
+     "zh": "铺子",
+     "via": "last_word",
+     "key": "store"
+    }
+   ]
+  },
+  {
+   "category": "/f/forest_path",
+   "median": 103.053,
+   "zh": [
+    {
+     "zh": "嶝",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "径",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "径道",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "走道",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "路",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "路途",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "蹊径",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "轨",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "通道",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "道",
+     "via": "last_word",
+     "key": "path"
+    },
+    {
+     "zh": "道路",
+     "via": "last_word",
+     "key": "path"
+    }
+   ]
+  },
+  {
+   "category": "/a/assembly_line",
+   "median": 103.086,
+   "zh": [
+    {
+     "zh": "流水线",
+     "via": "full",
+     "key": "assembly line"
+    },
+    {
+     "zh": "生产线",
+     "via": "full",
+     "key": "assembly line"
+    },
+    {
+     "zh": "装配线",
+     "via": "full",
+     "key": "assembly line"
+    },
+    {
+     "zh": "战线",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "排",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "排列",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "皱痕",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "皱纹",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "纹",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "线",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "线条",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "线路",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "行",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "衬",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "诗句",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "趟",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "路",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "路线",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "道",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "道子",
+     "via": "last_word",
+     "key": "line"
+    },
+    {
+     "zh": "队",
+     "via": "last_word",
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "category": "/r/restaurant_kitchen",
+   "median": 103.092,
+   "zh": [
+    {
+     "zh": "伙房",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "厨",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "厨房",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "庖",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "庖厨",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "灶",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "灶屋",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "灶房",
+     "via": "last_word",
+     "key": "kitchen"
+    },
+    {
+     "zh": "灶间",
+     "via": "last_word",
+     "key": "kitchen"
+    }
+   ]
+  },
+  {
+   "category": "/j/japanese_garden",
+   "median": 103.482,
+   "zh": [
+    {
+     "zh": "园",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "园圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "园林",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "场圃",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "花园",
+     "via": "last_word",
+     "key": "garden"
+    },
+    {
+     "zh": "苑",
+     "via": "last_word",
+     "key": "garden"
+    }
+   ]
+  },
+  {
+   "category": "/a/auto_showroom",
+   "median": 103.593,
+   "zh": [
+    {
+     "zh": "货品陈列区",
+     "via": "last_word",
+     "key": "showroom"
+    },
+    {
+     "zh": "货品陈列室",
+     "via": "last_word",
+     "key": "showroom"
+    },
+    {
+     "zh": "陈列室",
+     "via": "last_word",
+     "key": "showroom"
+    }
+   ]
+  },
+  {
+   "category": "/l/lobby",
+   "median": 104.099,
+   "zh": [
+    {
+     "zh": "休息厅",
+     "via": "full",
+     "key": "lobby"
+    },
+    {
+     "zh": "休息室",
+     "via": "full",
+     "key": "lobby"
+    },
+    {
+     "zh": "大堂",
+     "via": "full",
+     "key": "lobby"
+    },
+    {
+     "zh": "院外游说团",
+     "via": "full",
+     "key": "lobby"
+    }
+   ]
+  },
+  {
+   "category": "/f/forest_road",
+   "median": 104.382,
+   "zh": [
+    {
+     "zh": "公路",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "路",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "路途",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "途",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "道",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "道路",
+     "via": "last_word",
+     "key": "road"
+    },
+    {
+     "zh": "马路",
+     "via": "last_word",
+     "key": "road"
+    }
+   ]
+  },
+  {
+   "category": "/v/volcano",
+   "median": 104.611,
+   "zh": [
+    {
+     "zh": "火山",
+     "via": "full",
+     "key": "volcano"
+    }
+   ]
+  },
+  {
+   "category": "/h/hotel/outdoor",
+   "median": 104.683,
+   "zh": [
+    {
+     "zh": "室外",
+     "via": "full",
+     "key": "outdoor"
+    },
+    {
+     "zh": "户外",
+     "via": "full",
+     "key": "outdoor"
+    }
+   ]
+  },
+  {
+   "category": "/a/attic",
+   "median": 105.247,
+   "zh": [
+    {
+     "zh": "阁楼",
+     "via": "full",
+     "key": "attic"
+    },
+    {
+     "zh": "顶楼",
+     "via": "full",
+     "key": "attic"
+    }
+   ]
+  },
+  {
+   "category": "/d/dressing_room",
+   "median": 105.27,
+   "zh": [
+    {
+     "zh": "化妆室",
+     "via": "full",
+     "key": "dressing room"
+    },
+    {
+     "zh": "化装室",
+     "via": "full",
+     "key": "dressing room"
+    },
+    {
+     "zh": "更衣室",
+     "via": "full",
+     "key": "dressing room"
+    },
+    {
+     "zh": "余地",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "地方",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "居室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "屋子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房子",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房室",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "房间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "空间",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "退路",
+     "via": "last_word",
+     "key": "room"
+    },
+    {
+     "zh": "间",
+     "via": "last_word",
+     "key": "room"
+    }
+   ]
+  },
+  {
+   "category": "/h/hangar/indoor",
+   "median": 105.406,
+   "zh": [
+    {
+     "zh": "室内",
+     "via": "full",
+     "key": "indoor"
+    },
+    {
+     "zh": "畿",
+     "via": "full",
+     "key": "indoor"
+    }
+   ]
+  }
+ ],
+ "unmapped_categories_darkest_quintile": [
+  "/a/amusement_arcade",
+  "/a/arcade",
+  "/a/arena/rodeo"
+ ],
+ "sanity_classes": [
+  {
+   "query": "cave",
+   "category": null,
+   "note": "no Places365 category contains this string"
+  },
+  {
+   "query": "basement",
+   "category": "/b/basement",
+   "median": 96.333,
+   "rank_darkest": 32,
+   "in_quintile": true,
+   "zh": [
+    "地下室",
+    "地窨子",
+    "基",
+    "底部",
+    "窨"
+   ]
+  },
+  {
+   "query": "tunnel",
+   "category": null,
+   "note": "no Places365 category contains this string"
+  },
+  {
+   "query": "wine_cellar",
+   "category": null,
+   "note": "no Places365 category contains this string"
+  },
+  {
+   "query": "movie_theater",
+   "category": "/m/movie_theater/indoor",
+   "median": 47.537,
+   "rank_darkest": 2,
+   "in_quintile": true,
+   "zh": [
+    "室内",
+    "畿"
+   ]
+  },
+  {
+   "query": "catacomb",
+   "category": "/c/catacomb",
+   "median": 67.621,
+   "rank_darkest": 9,
+   "in_quintile": true,
+   "zh": []
+  },
+  {
+   "query": "grotto",
+   "category": "/g/grotto",
+   "median": 78.742,
+   "rank_darkest": 13,
+   "in_quintile": true,
+   "zh": [
+    "岩洞",
+    "岩穴",
+    "石窟"
+   ]
+  },
+  {
+   "query": "aquarium",
+   "category": "/a/aquarium",
+   "median": 82.384,
+   "rank_darkest": 17,
+   "in_quintile": true,
+   "zh": [
+    "水族馆",
+    "海洋公园",
+    "鱼缸"
+   ]
+  },
+  {
+   "query": "underwater",
+   "category": "/u/underwater/ocean_deep",
+   "median": 100.97,
+   "rank_darkest": 47,
+   "in_quintile": true,
+   "zh": [
+    "低沉",
+    "厚",
+    "奥",
+    "沉",
+    "沉沉",
+    "泓",
+    "浓",
+    "深",
+    "深切",
+    "深刻",
+    "深厚",
+    "深奥",
+    "深沉",
+    "深邃",
+    "渊",
+    "渊深",
+    "湛",
+    "甜",
+    "窈冥",
+    "笃深",
+    "重",
+    "香",
+    "香甜"
+   ]
+  }
+ ],
+ "provenance": {
+  "dataset": "Places365-Standard val_256 (Zhou et al. 2017, TPAMI)",
+  "provenance_file": "lexical_resources/places365/PROVENANCE.md",
+  "val_tar_sha256": "24b4e639ef12a0012af525bc4cb443e4ab4aaea8369a1fb009b70e4a4aad5d48",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "categories_file": "categories_places365.txt",
+  "labels_file": "places365_val.txt"
+ },
+ "synonym_supplement": {
+  "adopted": "her word 07-22: '(a) synonym looks good' — movie_theater→电影院/影院 · catacomb→地下墓穴",
+  "pattern": "mechanical HowNet-reverse first; listed supplement at her adoption (the _XS2T pattern)",
+  "added": [
+   {
+    "category": "/m/movie_theater/indoor",
+    "zh": "电影院"
+   },
+   {
+    "category": "/m/movie_theater/indoor",
+    "zh": "影院"
+   },
+   {
+    "category": "/c/catacomb",
+    "zh": "地下墓穴"
+   }
+  ]
+ }
+}

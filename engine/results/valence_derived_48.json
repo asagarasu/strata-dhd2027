@@ -1,0 +1,17 @@
+{
+ "valence_source": "\u77e5\u7f51\u60c5\u611f\u5206\u6790\u7528\u8bcd\u8bed\u96c6 (fetched 07-16, checksummed)",
+ "n_words": [
+  4566,
+  4370
+ ],
+ "sampled": [
+  400,
+  400
+ ],
+ "certificate": 0.0,
+ "cos_derived_vs_quad_valence": 0.20851529223233867,
+ "illum_residual_derived": 0.07466509548637665,
+ "illum_residual_quad": 0.16962966037870456,
+ "axis_v3_sha256_16": "e8c0ade5ded20bb8",
+ "seed": 48
+}

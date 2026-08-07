@@ -1,0 +1,478 @@
+{
+ "board": "xibei",
+ "line_idx": 6,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "zh:gushi19_05",
+ "seats": [
+  {
+   "rid": "zh:gushi19_05",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "谁能为此曲？",
+   "v": 0.03625513611011998,
+   "rank": 10,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 0.8525346313418364,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "曲",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": true,
+   "top_tok": {
+    "token": "曲",
+    "delta": 0.07053029746307964,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "曲",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Who could compose such a tune?",
+   "v": 0.1063374025777457,
+   "rank": 7,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.852056380520152,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.08124945615006979,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:could-compose"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Who could have composed such a tune?",
+   "v": 0.10756121686983952,
+   "rank": 7,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.88631692608288,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.061527663379978045,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "And who could sing a song like that?—",
+   "v": 0.10281179539382759,
+   "rank": 8,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.7533573978875427,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "song",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "that?—",
+    "delta": -0.03688162954971222,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "song[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:sing-song"
+     ]
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "that?—",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": "song",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Who can it be, playing so sad a tune?",
+   "v": 0.11212857647235223,
+   "rank": 5,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.0141796522940014,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.054909303153196025,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Who could play a tune like this,",
+   "v": 0.16913449470584613,
+   "rank": 2,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 4.610054019508887,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "tune",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "tune",
+    "delta": 0.15053819373460028,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "tune[wn]",
+     "line_receipts": [
+      "tune[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "tune",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "tune",
+   "transmission": "RENDERED"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Who could compose such doleful song",
+   "v": 0.16173179884041894,
+   "rank": 5,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 4.402816368647196,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "song",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "song",
+    "delta": 0.09725638481101041,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "song[wn]",
+     "line_receipts": [
+      "song[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:could-compose"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "song",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "song",
+   "transmission": "RENDERED"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

@@ -1,0 +1,686 @@
+API :: xeno-canto
+xeno-canto
+Sharing wildlife sounds from around the world
+Advanced Search
+Tips
+About
+About xeno-canto
+Collection Details
+API
+Meet the Members
+Frequently Asked Questions
+Terms of Use
+Credits & Colofon
+Explore
+By Region
+By Taxonomy
+Recent Recordings
+Random Recordings
+Upload Sounds
+Forum
+Mysteries
+Articles
+Log in / Register
+Note
+: Many features of this site will not work without javascript
+Application Programming Interface (API v3)
+In the original version of Xeno-canto, a very simple web service was provided. In 2013, 
+             a more full-featured, RESTful JSON-based API was introduced. Over the years, both the search options and the
+             data returned by API v2 were greatly expanded.
+The downside of a popular API is that its use may negatively
+             affect general web site performance. This forced us to add a rate limiter. Another factor affecting performance 
+             was the use of generic simple search terms. These are well-suited for the site's general search option, but an API 
+             is best served with precise queries. Finally, unrestricted access to the API also contributed to degraded performance.
+Creating a new v3 of the API allowed us to address these issues and more:
+The API only accepts
+search tags
+for its queries. 
+                Existing and several new tags allow the user to exactly define the query, greatly increasing both 
+                general performance and the quality of the search results. Example API queries demonstrating
+                new and previously existing search tags are listed under
+Examples
+.
+The API now requires an API key. Every XC member with a verified email address already has one. 
+                You can look up yours on your
+account page
+. If you intend to use the API but don't 
+                have an account yet, you will need to register first to use API v3.
+The default number of results per page has been reduced from 500 to 100. You can use
+                the new parameter
+per_page
+to adjust this from 50 to 500 results per page.
+We have addressed a few inconsistencies between search tags and properties of the recording object in the
+                search results. Make sure to read the
+Changes
+section if you are upgrading from API v2.
+As we trust these measures to improve performance of the API and the web site in general, we have lifted
+                the strict rate limit on the API.
+Request
+The endpoint for the webservice is at
+https://xeno-canto.org/api/3/recordings
+.
+Query Parameters
+There are four possible query parameters for this API.
+The
+query
+parameter
+            is
+required
+and must be non-empty. The query parameter must be a search string in the format described 
+            on the
+search tips
+page.
+The
+key
+parameter is new to API v3
+            and is
+required
+and must be non-empty as well. A key is available to all
+registered XC members
+who have verified their email address. 
+            Do not share your key with others and take care not to publish it in any git repositories, 
+            as prolonged abuse of the API may result in a warning and ultimately in revocation of your key. 
+            If you have accidentally shared your key, please
+for a new one.
+Developers building applications on the XC API are encouraged to create a key
+            for their app rather than to use a personal key.
+The
+per_page
+parameter is
+optional
+, determining the number
+            of results per page. Valid values for this parameter range between 50 and 500, 
+            with a default of 100 when not provided.
+The
+page
+parameter is
+optional
+as well and 
+            is only needed if the results from a given search don't fit in a single page. 
+            If specified,
+page
+must be an integer between 1 and
+results.numPages
+(see results format below for details).
+Response
+The response is
+            returned with a payload in
+JSON
+format.  The details are shown below.
+Success
+For a successful query, a HTTP 200 response code will be returned, with a payload in
+            the following format:
+{
+                "numRecordings": "1",
+                "numSpecies": "1",
+                "page": 1,
+                "numPages": 1,
+                "recordings": [
+                    ...,
+                    Array of Recording objects (see below),
+                    ...
+                ]
+            }
+This JSON object
+            will contain details about the recordings found with the given query.
+            For performance reasons, the number of recordings returned for a
+            given query will be limited.  If the limit is lower than the total
+            number of results, they will be split into 'pages'.  To fetch the
+            next page of results, you must append the
+page
+query parameter as
+            specified above.
+A brief description of the fields:
+numRecording
+: the total number of recordings found for this query
+numSpecies
+: the total number of species found for this query
+page
+: the page number of the results page that is being displayed
+numPages
+: the total number of pages available for this query
+recordings
+: an array of recording objects, described in detail below
+Recording Object
+Each object in the
+recordings
+array mentioned above has the following format:
+{
+                "id": "694038",
+                "gen": "Troglodytes",
+                "sp": "troglodytes",
+                "ssp": "",
+                "grp": "birds",
+                "en": "Eurasian Wren",
+                "rec": "Jacobo Ramil MIllarengo",
+                "cnt": "Spain",
+                "loc": "Sisalde, Ames, A Coruña, Galicia",
+                "lat": "42.8373",
+                "lon": "-8.652",
+                "alt": "30",
+                "type": "song",
+                "sex": "male",
+                "stage": "adult",
+                "method": "field recording",
+                "url": "//xeno-canto.org/694038",
+                "file": "//xeno-canto.org/694038/download",
+                "file-name": "XC694038-211223_02Carrizo variacións dunha frase bastante stereotipada siteD 9.30 Sisalde.mp3",
+                "sono": {
+                    "small": "//xeno-canto.org/sounds/spectrograms/LHCOINSOBZ/694038/grey-small.png",
+                    "med": "//xeno-canto.org/sounds/spectrograms/LHCOINSOBZ/694038/grey-medium.png",
+                    "large": "//xeno-canto.org/sounds/spectrograms/LHCOINSOBZ/694038/colour.png",
+                    "full": ""
+                },
+                "osci": {
+                    "small": "", // Always empty, dedicated oscillograms
+have been phased out
+"med": "",
+                    "large": ""
+                },
+                "lic": "//creativecommons.org/licenses/by-nc-sa/4.0/",
+                "q": "A",
+                "length": "4:08",
+                "time": "09:30",
+                "date": "2021-12-23",
+                "uploaded": "2021-12-27",
+                "also": [
+                    "Turdus viscivorus",
+                    "Turdus iliacus",
+                    "Parus major"
+                ],
+                "rmk": "A male repeat a stereotyped phrase with few syllabic variation. HPF 270 Hz. It´s raining.",
+                "animal-seen": "yes",
+                "playback-used": "no",
+                "temp": "",
+                "regnr": "",
+                "auto": "unknown",
+                "dvc": "",
+                "mic": "",
+                "smp": "44100",
+                "annotation-set": { 
+                    "set_name": "Annotation set for XC694038",
+                    "set_creator": "W.P. Vellinga",
+                    "set_creation_date": "2026-03-18 00:00:00",
+                    "set_remarks": "Metadata of the original set is provided for each individual annotation",
+                    "annotations": [
+                        {
+                            "annotation_xc_id": 1,
+                            "xc_nr": "694038",
+                            "scientific_name": "Troglodytes troglodytes",
+                            "annotator": "W.P. Vellinga",
+                            "start_time": 0.27,
+                            "end_time": 3.33,
+                            "frequency_high": 10204,
+                            "frequency_low": 2551,
+                            "sound_type": "song",
+                            "sex": "male",
+                            "life_stage": "adult",
+                            "annotation_remarks": "audible rain drops",
+                            "original_set_metadata": {
+                                "set_name": "Demonstration set",
+                                "set_creator": "W.P. Vellinga",
+                                "set_owner": "W.P. Vellinga",
+                                "set_license": "CC-BY-NC-4.0",
+                                "set_uri": "//xeno-canto.org/annotation/set/1",
+                                "set_creation_date": "2026-03-01 00:00:00"
+                            }
+                        },
+                        {
+                            "annotation_xc_id": 2,
+                            "xc_nr": "694038",
+                            "scientific_name": "Troglodytes troglodytes",
+                            "annotator": "W.P. Vellinga",
+                            "start_time": 7.65,
+                            "end_time": 10.28,
+                            "frequency_high": 9962,
+                            "frequency_low": 2278,
+                            "sound_type": "song",
+                            "sex": "male",
+                            "life_stage": "adult",
+                            "annotation_remarks": "rain drops",
+                            "original_set_metadata": {
+                                "set_name": "Demonstration set",
+                                "set_creator": "W.P. Vellinga",
+                                "set_owner": "W.P. Vellinga",
+                                "set_license": "CC-BY-NC-4.0",
+                                "set_uri": "//xeno-canto.org/annotation/set/1",
+                                "set_creation_date": "2026-03-01 00:00:00"
+                            }
+                        },
+                        {
+                            "annotation_xc_id": 3,
+                            "xc_nr": "694038",
+                            "scientific_name": "Periparus ater",
+                            "annotator": "W.P. Vellinga",
+                            "start_time": 10.28,
+                            "end_time": 11.92,
+                            "frequency_high": 6651,
+                            "frequency_low": 3675,
+                            "sound_type": "song",
+                            "sex": null,
+                            "life_stage": null,
+                            "annotation_remarks": "rain drops",
+                            "original_set_metadata": {
+                                "set_name": "Demonstration set",
+                                "set_creator": "W.P. Vellinga",
+                                "set_owner": "W.P. Vellinga",
+                                "set_license": "CC-BY-NC-4.0",
+                                "set_uri": "//xeno-canto.org/annotation/set/1",
+                                "set_creation_date": "2026-03-01 00:00:00"
+                            }
+                        }
+                        
+                    ]
+                }
+The following is a detailed description of the fields of this object:
+id
+: the catalogue number of the recording on xeno-canto
+gen
+: the generic name of the species
+sp
+: the specific name (epithet) of the species
+ssp
+: the subspecies name (subspecific epithet)
+grp
+: the group to which the species belongs (birds, grasshoppers, bats)
+en
+: the English name of the species
+rec
+: the name of the recordist
+cnt
+: the country where the recording was made
+loc
+: the name of the locality
+lat
+: the latitude of the recording in decimal coordinates
+lng
+: the longitude of the recording in decimal coordinates
+type
+: the sound type of the recording (combining both predefined 
+                terms such as 'call' or 'song' and additional free text options)
+sex
+: the sex of the animal
+stage
+: the life stage of the animal (adult, juvenile, etc.)
+method
+: the recording method (field recording, in the hand, etc.)
+url
+: the URL specifying the details of this recording
+file
+: the URL to the audio file
+file-name
+: the original file name of the audio file
+sono
+: an object with the urls to the four versions of sonograms
+osci
+: an object with the urls to the three versions of oscillograms
+lic
+: the URL describing the license of this recording
+q
+: the current quality rating for the recording
+length
+: the length of the recording in minutes
+time
+: the time of day that the recording was made
+date
+: the date that the recording was made
+uploaded
+: the date that the recording was uploaded to xeno-canto
+also
+: an array with the identified background species in the recording
+rmk
+: additional remarks by the recordist
+animal-seen
+: was the recorded animal seen?
+playback-used
+: was playback used to lure the animal?
+temp
+: temperature during recording (applicable to specific groups only)
+regnr
+: registration number of specimen (when collected)
+auto
+: automatic (non-supervised) recording?
+dvc
+: recording device used
+mic
+: microphone used
+smp
+: sample rate
+annotation-set
+: annotation set, in this case a fictional example (although the annotations are correct!); see
+Annota-json schema
+Restricted Species
+The payload for
+restricted species
+is redacted. Given their vulnerability, the exact location of the recording and the recording itself are not returned for such species. An extra
+_meta
+tag indicates this:
+{
+                "_meta": {
+                    "redacted_fields": {
+                        "loc": "restricted_species",
+                        "lat": "restricted_species",
+                        "lon": "restricted_species",
+                        "file": "restricted_species",
+                        "file-name": "restricted_species"
+                    }
+                }
+            }
+Error
+In case of an error,
+            a HTTP 400 or 500 response code will be returned (depending on
+            whether the error was a client or server error).  The payload
+            returned will be of the following form:
+{
+                "error": {
+                    "code":"missing_parameter",
+                    "message":"No query specified"
+                }
+            }
+The
+code
+parameter
+            will be an identifier for the error, and
+message
+will offer some
+            additional explanatory details.
+Examples
+The API uses (a combination of) search tags to precisely define the query. It's a good idea to
+familiarize yourself
+with the options these tags provide, as their
+            use isn't exactly straightforward!
+Before diving into the examples, we need to reiterate that searching for species without tags 
+            (as was the default for API v2) is now
+discontinued
+. Another important fact to bear in mind is that 
+            you
+must quote search tags
+consisting of multiple terms, or terms using operators (=, < or >). 
+            Again, see
+Search tips
+for more information. Finally, in API v3 
+            you will need to append your key to every API call. Off to a rough start, as these three examples fail:
+https://xeno-canto.org/api/3/recordings?query=larus fuscus&key=demo
+(API v2 style query without tags ->
+throws an error
+)
+https://xeno-canto.org/api/3/recordings?query=sp:larus fuscus&key=demo
+(unquoted, resolving into a 'tag-less' query for fuscus ->
+throws an error
+)
+https://xeno-canto.org/api/3/recordings?query=sp:"larus fuscus"
+(correctly quoted, but no key provided ->
+throws an error
+)
+Taxonomic examples
+sp, gen
+Likely the most often used API call is to fetch recordings for a specific species. While in API v2 this was done by just
+            providing the species name without tags, in v3 this requires the
+sp
+tag (for species)
+            or combination of
+gen
+(for genus) and
+sp
+tags. 
+            The
+sp
+tag can be used for a complete species name (remember: between quotes); 
+            in combination with a
+gen
+tag (resulting in essentially the same query); or
+            for just the specific epithet.
+Moving on to working examples, both
+https://xeno-canto.org/api/3/recordings?query=sp:"larus fuscus"&key=demo
+https://xeno-canto.org/api/3/recordings?query=gen:larus+sp:fuscus&per_page=50&page=3&key=demo
+will fetch all recordings for just the Lesser Black-backed Gull
+Larus fuscus
+(the second also demonstrating the use of the 
+            pagination parameters), while
+https://xeno-canto.org/api/3/recordings?query=sp:fuscus&key=demo
+will also feature results for (among others) the South American White-lipped Grassfrog
+Leptodactylus fuscus
+and
+            the Big Brown Bat
+Eptesicus fuscus
+. Needless to say, the
+gen
+tag can also
+            be used independently to fetch all recordings for a specific genus.
+grp
+If you want to narrow down the previous example to just birds, you can add the
+grp
+tag. Thus
+https://xeno-canto.org/api/3/recordings?query=sp:fuscus+grp:birds&key=demo
+will search for all birds having the specific epithet
+fuscus
+. See the
+Search tips
+for all possible
+grp
+options.
+ssp
+A search for
+Larus fuscus
+may still be to broad if you are only interested in recordings of the nominate
+            Baltic Gull
+Larus fuscus fuscus
+. In that case, append the
+ssp
+tag
+            to your query, or use a triplet similar to the pair of the
+sp
+tag:
+https://xeno-canto.org/api/3/recordings?query=gen:larus+sp:fuscus+ssp:fuscus&key=demo
+https://xeno-canto.org/api/3/recordings?query=ssp:"larus fuscus fuscus"&key=demo
+fam
+Conversely, if you want to broaden your search to all gulls, not just those from the genus
+Larus
+, 
+            this is now availabe with the new
+fam
+tag:
+https://xeno-canto.org/api/3/recordings?query=fam:laridae&key=demo
+en
+Finally, it is also possible to search for taxa using their vernacular name in English using the
+en
+tag. 
+            There are good reasons to avoid this type of search though. First, unlike scientific names, 
+            common names are not guaranteed to be unique. Second, this search option tends to be slow, as it involves 
+            a wildcard search by default. Compare the performance of two queries on 'lesser black-backed gull', 
+            one using the default wildcard search, the other including the matches operator:
+https://xeno-canto.org/api/3/recordings?query=en:"lesser black-backed gull"&key=demo
+(wildcard search, slow)
+https://xeno-canto.org/api/3/recordings?query=en:"=lesser black-backed gull"&key=demo
+(matches search)
+An extreme example is this query, which (as of writing) potentially returns results from twelve different 
+            species sharing the vernacular name 'Bladder Grasshopper':
+https://xeno-canto.org/api/3/recordings?query=en:="=bladder grasshopper"&key=demo
+Geographic examples
+area, cnt, location
+There are several ways to geographically limit your queries. In order of scale, they are
+area
+(world area, more or less at continental level),
+cnt
+(country) and
+loc
+(location). The examples cover land mammals from Asia, frogs from Surinam and
+            birds from Suffolk Coastal District, Suffolk, England.
+https://xeno-canto.org/api/3/recordings?query=area:asia+grp:"land mammals"&key=demo
+https://xeno-canto.org/api/3/recordings?query=cnt:surinam+grp:frogs&key=demo
+https://xeno-canto.org/api/3/recordings?query=loc:"Suffolk Coastal District, Suffolk, England"+grp:birds&key=demo
+lat, lon, box
+Alternatively, you can base your query on
+lat
+(latitude),
+lon
+(longitude), or a combination thereof. The examples
+            return birds recorded above the Arctic Circle (65° N), bats recorded around 4.2884N, 36.2626E (in Kenya) and
+            grasshoppers recorded in a bounding box covering parts of Sumatra, Malaysia and Singapore:
+https://xeno-canto.org/api/3/recordings?query=grp:birds lat:">66.5"&key=demo
+https://xeno-canto.org/api/3/recordings?query=lat:4.2884+lon:36.2626+grp:bats&key=demo
+https://xeno-canto.org/api/3/recordings?query=box:-1.16,94.62,6.34,106.48+grp:grasshoppers&key=demo
+Date-related examples
+year, month, since
+The
+year
+and
+month
+tags allow 
+            filtering on recording dates before, after or between specific periods. The
+since
+tag can be used to search for date of uploading. Examples are frogs recorded before 1970, European birds from the family of
+            Finches recorded after August, or all land mammal recordings from last month:
+https://xeno-canto.org/api/3/recordings?query=year:"
+<
+1970"+grp:frogs&key=demo
+https://xeno-canto.org/api/3/recordings?query=month:">8"+fam:fringillidae+area:europe&key=demo
+https://xeno-canto.org/api/3/recordings?query=since:31+grp:"land mammals"&key=demo
+Sound type and animal-related examples
+type, sex, stage
+The
+type
+(sound type),
+sex
+and
+stage
+(life stage) tags specify several sound and animal-related characters.
+            The various options are listed under
+Tips
+.
+            Examples here are female bird songs from the Americas or social calls of juvenile bats:
+https://xeno-canto.org/api/3/recordings?query=type:song+sex:female+grp:birds+area:america&key=demo
+https://xeno-canto.org/api/3/recordings?query=type:"social call"+stage:juvenile+grp:bats&key=demo
+Sound file-related examples
+q, len, smp
+Several tags can be used to search for the property of sound files themselves.
+q
+for sound quality (on an A-E scale),
+len
+for length (in seconds) and
+smp
+for sample rate of the recording. The examples show the results for
+            top quality soundscapes lasting at least an hour and high-frequency grasshopper recordings from Malaysia with 
+            quality A and B.
+https://xeno-canto.org/api/3/recordings?query=grp:soundscape+q:A+len:">3600"&key=demo
+https://xeno-canto.org/api/3/recordings?query=cnt:malaysia+smp:">192000"+q:">C"&key=demo
+The list of tags used in these examples is incomplete. Check
+Search tips
+to verify you are optimising your API requests!
+Changes
+April 8, 2026.
+added the
+_meta
+tag to indicate redacted fields for restricted species.
+improved the payload by differentiating between empty strings and null values for fields without or with redacted information.
+added the protocol (https) to the urls.
+March 18, 2026. The new sonograms combine spectrograms and oscillograms in a single image, so separating these in two sections became redundant.
+sono:small
+and
+medium
+link to the greyscale versions, 
+            while
+large
+points to the high-resolution color image used for scrolling spectrograms.If the recording is shorter than 120 seconds, the
+full
+size also links to this image; otherwise, it is empty (as no full size version is available).
+osci:small
+,
+medium
+and
+large
+are always returned empty and will be phased out in a future update of the API.
+the payload returns unescaped UTF-8 characters (Coruña instead of Coru\u00f1a) and unescaped slashes (//xeno-canto.org/694038 instead of \/\/xeno-canto.org\/694038), as this nowadays is the norm for APIs.
+the payload is 'beautified' or 'pretty printed', much improving readability.
+the example payload above has been updated to reflect these changes.
+The following has been changed since API v2:
+the
+fam
+and
+en
+search tags have been added,
+            as replacements for the generic 'tag-less' search option on a single term.
+the
+sp
+search tag has been added, as a replacement for the generic 'tag-less' search option on two terms.
+searching on three or more 'tag-less' terms has been disabled altogether; use the combination of
+gen
+,
+sp
+and
+ssp
+for subspecies and
+en
+for names in English instead.
+group
+in the recording object has been changed to
+grp
+, mirroring
+            the search tag.
+lng
+in the recording object has been changed to
+lon
+, mirroring
+            the search tag.
+Xeno-canto.org is powered by the Xeno-canto Foundation and Naturalis Biodiversity Center
+Website © 2005-2026
+Xeno-canto Foundation
+Recordings © the recordist. See recording details for license information.
+Sonogram images ©
+Xeno-canto Foundation
+. Sonogram images share the same license terms as the recording they depict.
+Terms of use
+Credits
+Like us on Facebook
+Follow us on Twitter
+Find us on YouTube
+Afrikaans
+*
+Català
+*
+Česky
+*
+Dansk
+Deutsch
+English
+Español
+Eesti
+*
+Suomi
+*
+Français
+Magyar
+*
+Bahasa Indonesia
+*
+Íslenska
+*
+Italiano
+*
+日本語
+*
+Lietuvių
+*
+Latviešu
+*
+Nederlands
+Norsk
+Polski
+Português
+Português do Brasil
+Русский
+Davvisámegiella
+*
+Slovenčina
+*
+Slovenščina
+*
+Svenska
+ภาษาไทย
+*
+Українська
+*
+简体中文
+*
+繁體中文
+* Only bird names are translated

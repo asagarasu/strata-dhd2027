@@ -1,0 +1,147 @@
+{
+ "design": "word_latent_v2_incontext DARK (#53), SELF-GATE DEFER",
+ "registration": "caesitas_proto/word_latent_v3_dark_run_registration_53.md",
+ "field": "dark",
+ "seed": 48,
+ "K": 20,
+ "verdict": "DEFER",
+ "abort_safe": true,
+ "self_gate": {
+  "n_positive_hosted_notrealized": 2,
+  "n_realized_excluded": 2,
+  "defer_below": 5,
+  "thin_below": 10,
+  "status": "DEFER"
+ },
+ "self_gate_reason": "illumination positives (hosted ∧ ¬realized) = 2 < 5; no scoring performed (self-gate). Probes NOT computed (floor not cleared).",
+ "illumination_member_status": [
+  {
+   "surface": "夜",
+   "realized_widened": false,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "n_hosts": 0,
+   "route_out": null,
+   "provenance": "v2 illumination member (carried)",
+   "disposition": "unhosted_sits_out"
+  },
+  {
+   "surface": "灯",
+   "realized_widened": true,
+   "leipzig_n": 0,
+   "caption_n": 41,
+   "n_hosts": 41,
+   "route_out": null,
+   "provenance": "v2 illumination member (carried)",
+   "disposition": "EXCLUDED_realized"
+  },
+  {
+   "surface": "鹞子",
+   "realized_widened": false,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "n_hosts": 0,
+   "route_out": null,
+   "provenance": "v2 illumination member (carried)",
+   "disposition": "unhosted_sits_out"
+  },
+  {
+   "surface": "天黑",
+   "realized_widened": true,
+   "leipzig_n": 19,
+   "caption_n": 0,
+   "n_hosts": 19,
+   "route_out": true,
+   "provenance": "ROUTED from color pool (achromatic-only witnessed family)",
+   "disposition": "EXCLUDED_realized"
+  },
+  {
+   "surface": "袢",
+   "realized_widened": false,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "n_hosts": 0,
+   "route_out": true,
+   "provenance": "ROUTED from color pool (achromatic-only witnessed family)",
+   "disposition": "unhosted_sits_out"
+  },
+  {
+   "surface": "银杏",
+   "realized_widened": false,
+   "leipzig_n": 29,
+   "caption_n": 0,
+   "n_hosts": 29,
+   "route_out": true,
+   "provenance": "ROUTED from color pool (achromatic-only witnessed family)",
+   "disposition": "POSITIVE",
+   "ensemble_tier": "fallback",
+   "ensemble_provenance": "existing"
+  },
+  {
+   "surface": "雪",
+   "realized_widened": false,
+   "leipzig_n": 0,
+   "caption_n": 50,
+   "n_hosts": 50,
+   "route_out": true,
+   "provenance": "ROUTED from color pool (achromatic-only witnessed family)",
+   "disposition": "POSITIVE",
+   "ensemble_tier": "fallback",
+   "ensemble_provenance": "closure_copy_generated"
+  }
+ ],
+ "realized_excluded": [
+  {
+   "word": "灯",
+   "leipzig_n": 0,
+   "caption_n": 41,
+   "word_defs": [
+    "{part|部件:whole={tool|用具}}",
+    "{part|部件:whole={tool|用具}}",
+    "{tool|用具:{WarmUp|加热:instrument={~}},{burn|焚烧:location={~}}}",
+    "{tool|用具:{illuminate|照射:instrument={~}}}",
+    "{tool|用具:{illuminate|照射:instrument={~}}}",
+    "{tool|用具:{illuminate|照射:instrument={~}}}"
+   ],
+   "note": "widened-illumination realized -> excluded by ¬realized guard"
+  },
+  {
+   "word": "天黑",
+   "leipzig_n": 19,
+   "caption_n": 0,
+   "word_defs": [
+    "{WeatherChange|天变:result={dark|暗}}"
+   ],
+   "note": "widened-illumination realized -> excluded by ¬realized guard"
+  }
+ ],
+ "provenance": {
+  "axis_npz": "illum_polarity_axis_v3_48.npz",
+  "projection_key": "dark",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "ensembles_sha256": "76af1c1ca5ba958d279f7c1d801e82a50d29c544c81ba94b1a38c5233bace1fe",
+  "ensembles_addendum_mingtian_sha256": "ec678bb9a003399a3fb17221d99f4a9acce64584ebd9ab832d5e4f6b4f2d18ea",
+  "ensembles_addendum_dark_sha256": "50447fd45bc8559c7623f9053bf232af0f6146b9be25b8efb96f77ad05c690a6",
+  "host_frames_dark_addendum_sha256": "bae8605d208d72c935acd8b334ea25f14b7b3ff2d1a8af4f7a257022e391cfe9",
+  "pools_definition_leg_v3_sha256": "b17a242f919284d502e0393fd9cca59741cb86a2a303694afc20bb95fd033894",
+  "caption_main_sha256": "882052906904ac3fd8524a7dd5de29831f9bf3d3c23aef3e55708103a46f3b06",
+  "caption_ext_sha256": "6427c1b2f2bc357f26ac7ac37e60965f7574028997dc7aefcad495832359053c",
+  "host_frames_provenance": {
+   "leipzig_path": "lexical_resources/leipzig_zh/leipzig_tokenized.txt",
+   "leipzig_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+   "hownet_path": "lexical_resources/sewrl/datasets/HowNet.txt",
+   "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb"
+  },
+  "expected_sha_prefixes": {
+   "hownet": "068025af",
+   "leipzig": "d0073992",
+   "ensembles": "76af1c1c"
+  },
+  "sha_match": {
+   "hownet": true,
+   "leipzig": true,
+   "ensembles": true
+  }
+ }
+}

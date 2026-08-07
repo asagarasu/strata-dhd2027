@@ -1,0 +1,469 @@
+{
+ "board": "xibei",
+ "line_idx": 15,
+ "field": "illumination",
+ "cut": 0.01902126076042332,
+ "tier": "SUGGESTED",
+ "line_cut": 0.04813503458027369,
+ "src_rid": "zh:gushi19_05",
+ "seats": [
+  {
+   "rid": "zh:gushi19_05",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "奋翅起高飞。",
+   "v": -0.10038092026875063,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -2.6941758874900166,
+   "z_mu": 0.0012138232835369035,
+   "z_sigma": 0.0377090241301716,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "奋翅",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "奋翅",
+    "delta": -0.05070875525134455,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "奋翅",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "With rushing wings to soar up in the sky.",
+   "v": -0.09252035983377713,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -2.710468610796911,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "wings",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "wings",
+    "delta": -0.047002859022362925,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "wings",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "wings",
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "And beat our wings to take flight on high.",
+   "v": -0.06329314973265057,
+   "rank": 15,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.8648440926120011,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "wings",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "wings",
+    "delta": -0.03989955704808215,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "wings",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "wings",
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "to fly with great wingbeats high and away.",
+   "v": -0.0875011280430289,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -2.5652482681769957,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "great",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "great",
+    "delta": -0.0348072978286514,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "great",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "great",
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "That with beating wings rise high aloft.",
+   "v": -0.053721634983083355,
+   "rank": 15,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.58791353644884,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "aloft",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "aloft",
+    "delta": -0.042136144631233295,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "aloft",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "aloft",
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "beating wings, soaring to the sky!",
+   "v": -0.052530386516494165,
+   "rank": 15,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.5534474034476895,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "wings",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "wings",
+    "delta": -0.03851223540185812,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "wings",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "wings",
+   "transmission": "RENDERED *"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "With her while flying wing to wing.",
+   "v": -0.0028672816937093323,
+   "rank": 10,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.11655558441925037,
+   "z_mu": 0.001161213792198651,
+   "z_sigma": 0.0345628697756556,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "flying",
+   "folded_from": null,
+   "carrier_line": 16,
+   "star": false,
+   "top_tok": {
+    "token": "flying",
+    "delta": -0.03883803374725737,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:wing"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "flying",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "flying",
+   "transmission": "RENDERED *"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.22,
+ "z_suppressed": true,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "NO demonstrated discrimination",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

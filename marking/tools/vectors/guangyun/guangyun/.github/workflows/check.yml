@@ -1,0 +1,28 @@
+name: Check
+
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+  pull_request:
+    paths-ignore:
+      - '*.md'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Verify that 廣韻.csv is built from current source
+      shell: bash
+      run: |
+        tmpdir="$(mktemp -d -p ~)"
+        mv 韻書/廣韻.csv "$tmpdir"
+        python build.py
+        diff "$tmpdir"/廣韻.csv 韻書/廣韻.csv
+    - name: Run check script
+      run: python check.py

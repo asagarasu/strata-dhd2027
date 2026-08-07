@@ -1,0 +1,70 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+light v2 replay: adoption 60B/46D · locked 61B/47D
+AA family: 9 bright / 4 dark
+light cleaned: axis 54B/44D · eval 58B/45D (dropped both-carrier 0 · AA overlaps removed) · lock items 40
+duration: 131 LONG / 85 SHORT (both-carrier 0) → eval 66/43
+color 浓淡 (any-position): 91 浓 / 61 淡 → eval 46/31
+zh-only whitening sample: 3000
+
+=== LaBSE ===
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.971 [0.939–0.993] · d′ 3.09 · in-situ 0.750 [0.619–0.872] n=40 · AA 92%
+  A/duration: AUC 0.969 [0.939–0.990] · d′ 2.70
+  A/color: AUC 0.771 [0.656–0.874] · d′ 1.08
+    certificate[B-inventory] (193): 0.00e+00
+  B/light: AUC 0.930 [0.876–0.975] · d′ 1.94 · in-situ 0.800 [0.659–0.923] · res A/B 5.6×
+  [LaBSE done in 236.1s]
+
+=== bge-m3 ===
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.981 [0.941–1.000] · d′ 3.35 · in-situ 0.850 [0.721–0.953] n=40 · AA 92%
+  A/duration: AUC 0.982 [0.960–0.996] · d′ 2.82
+  A/color: AUC 0.906 [0.835–0.960] · d′ 1.73
+    certificate[B-inventory] (193): 0.00e+00
+  B/light: AUC 0.911 [0.848–0.960] · d′ 1.81 · in-situ 0.700 [0.575–0.825] · res A/B 4.5×
+  [bge-m3 done in 668.1s]
+
+=== sikubert ===
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.968 [0.935–0.991] · d′ 2.82 · in-situ 0.825 [0.705–0.927] n=40 · AA 100%
+  A/duration: AUC 0.965 [0.926–0.993] · d′ 2.48
+  A/color: AUC 0.722 [0.599–0.833] · d′ 0.48
+  [sikubert done in 209.3s]
+
+=== sikuroberta ===
+Some weights of BertModel were not initialized from the model checkpoint at <LAB>/caesitas_proto/models/sikuroberta and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.936 [0.887–0.973] · d′ 2.22 · in-situ 0.850 [0.750–0.947] n=40 · AA 92%
+  A/duration: AUC 0.925 [0.872–0.966] · d′ 2.09
+  A/color: AUC 0.727 [0.610–0.834] · d′ 0.87
+  [sikuroberta done in 212.6s]
+
+=== e5-bare ===
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.975 [0.941–0.996] · d′ 2.67 · in-situ 0.775 [0.628–0.902] n=40 · AA 100%
+  A/duration: AUC 0.965 [0.922–0.996] · d′ 2.63
+  A/color: AUC 0.858 [0.762–0.930] · d′ 1.58
+  [e5-bare done in 660.9s]
+
+=== e5-query ===
+    certificate[whitening] (3000): 0.00e+00
+    certificate[inventory] (656): 0.00e+00
+  A/light: AUC 0.963 [0.919–0.992] · d′ 2.68 · in-situ 0.800 [0.682–0.919] n=40 · AA 100%
+  A/duration: AUC 0.955 [0.904–0.988] · d′ 2.39
+  A/color: AUC 0.899 [0.826–0.955] · d′ 1.74
+  [e5-query done in 678.2s]
+
+================ REGISTERED VERDICTS ================
+BAND 2 (A vs B, LaBSE): A 0.971 vs B 0.930 · res 5.6× [4.2–7.0] → HELD
+BAND 3 (encoder, light-A): LaBSE 0.971 [0.939–0.993] → NO SWAP EARNED
+BAND 4 (AA continuity, LaBSE-A): 92% → HELD
+BAND 5 (rarity, LaBSE-A in-situ): rare 0.875 vs common 0.667 → RARITY STORY
+
+→ results/comprehensive_sweep_50.json

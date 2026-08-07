@@ -1,0 +1,20 @@
+certificate: 0.00e+00
+
+BASE  波黑出產鱈魚  color score +0.0220
+
+  波黑→波蘭              波蘭出產鱈魚  score -0.0029   Δ(base−friend) +0.0249
+  波黑→波斯              波斯出產鱈魚  score -0.0303   Δ(base−friend) +0.0523
+  波黑→挪威              挪威出產鱈魚  score +0.0026   Δ(base−friend) +0.0194
+  波黑→瑞典              瑞典出產鱈魚  score +0.0095   Δ(base−friend) +0.0125
+  波黑→埃及              埃及出產鱈魚  score -0.0302   Δ(base−friend) +0.0522
+  鱈→鯉                波黑出產鯉魚  score +0.0617   Δ(base−friend) -0.0397
+  鱈→鱸                波黑出產鱸魚  score +0.0557   Δ(base−friend) -0.0337
+  鱈→鰻                波黑出產鰻魚  score +0.0344   Δ(base−friend) -0.0124
+  鱈→鯽                波黑出產鯽魚  score +0.0482   Δ(base−friend) -0.0262
+  鱈→帶                波黑出產帶魚  score +0.0473   Δ(base−friend) -0.0253
+  出產→盛產 (null)       波黑盛產鱈魚  score +0.0302   Δ(base−friend) -0.0082
+  出產→生產 (null)       波黑生產鱈魚  score +0.0106   Δ(base−friend) +0.0114
+
+  country (removes 黑)    median Δ +0.0249   spread [+0.0125, +0.0523]
+  fish (removes 鱈/雪)     median Δ -0.0262   spread [-0.0397, -0.0124]
+  verb null              median Δ +0.0016   spread [-0.0082, +0.0114]

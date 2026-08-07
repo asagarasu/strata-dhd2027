@@ -1,0 +1,38 @@
+{
+ "design": "en_axis_battery_54 core eval, whitening substituted",
+ "axis_source": "color_salience_axis_48.npz['axis'] (unchanged)",
+ "seed": 48,
+ "certificate": 0.0,
+ "n": {
+  "roster": 155,
+  "controls": 155,
+  "core_roster": 12,
+  "core_controls": 12
+ },
+ "before_zh_whitening": {
+  "full": [
+   0.7458480749219563,
+   0.687321540062435,
+   0.8016264308012486
+  ],
+  "core": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "after_en_whitening": {
+  "full": [
+   0.7881373569198751,
+   0.7358543184183143,
+   0.8392976066597294
+  ],
+  "core": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "gate": "core battery >= .95",
+ "note": "claims no validation; S6 re-registration + her breaking gate."
+}

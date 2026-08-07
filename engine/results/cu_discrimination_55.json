@@ -1,0 +1,819 @@
+{
+ "registration": "cu_discrimination_registration_55.md",
+ "reserve": "R6 confirmatory spend — one go",
+ "verdict": "PASS — the meter discriminates: fire-rate(supported) 0.459 (28/61) vs fire-rate(disputed) 0.140 (6/43); one-sided 95% lower bound of the difference = 0.171 > 0",
+ "endpoint_pass": true,
+ "primary": {
+  "rate_supported": 0.45901639344262296,
+  "n_supported": 61,
+  "x_supported": 28,
+  "rate_disputed": 0.13953488372093023,
+  "n_disputed_scored": 43,
+  "x_disputed": 6,
+  "one_sided_95_lower_bound": 0.17141085034430342
+ },
+ "secondary": {
+  "charge_auc": 0.7072054898970644,
+  "auc_ci": [
+   0.6042508577964163,
+   0.8002382767823102
+  ],
+  "ppv_at_nomination_prevalence": 0.80797481636936
+ },
+ "disputed_rows": [
+  {
+   "word": "八哥",
+   "status": "scored",
+   "charge": 0.006947575846561055,
+   "z": 1.9621489998993114,
+   "fire": true,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "剪刀",
+   "status": "scored",
+   "charge": 0.0010099720621709433,
+   "z": 0.30059362600889933,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "包",
+   "status": "scored",
+   "charge": -0.009085787678692366,
+   "z": -2.5245635350395177,
+   "fire": false,
+   "n_hosts_used": 17
+  },
+  {
+   "word": "哈巴狗",
+   "status": "scored",
+   "charge": -0.010564753705811336,
+   "z": -2.9384314924504364,
+   "fire": false,
+   "n_hosts_used": 6
+  },
+  {
+   "word": "大理石",
+   "status": "scored",
+   "charge": 0.003375572733682518,
+   "z": 0.9625738879055017,
+   "fire": false,
+   "n_hosts_used": 7
+  },
+  {
+   "word": "大象",
+   "status": "scored",
+   "charge": 0.003562351461179507,
+   "z": 1.014841302450225,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "头",
+   "status": "scored",
+   "charge": 0.0031787536377331452,
+   "z": 0.9074968166770915,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "奶酪",
+   "status": "scored",
+   "charge": -0.0046332767973143105,
+   "z": -1.2785906390863149,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "帽子",
+   "status": "scored",
+   "charge": -0.010569973413172106,
+   "z": -2.939892154550899,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "戒指",
+   "status": "scored",
+   "charge": -0.004607971654828099,
+   "z": -1.2715093488871327,
+   "fire": false,
+   "n_hosts_used": 19
+  },
+  {
+   "word": "星星",
+   "status": "scored",
+   "charge": -0.007683907699046658,
+   "z": -2.1322670298645825,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "李子",
+   "status": "scored",
+   "charge": -0.007223440795666955,
+   "z": -2.0034118071869367,
+   "fire": false,
+   "n_hosts_used": 4
+  },
+  {
+   "word": "松鼠",
+   "status": "scored",
+   "charge": -0.015481249907342856,
+   "z": -4.314244190805752,
+   "fire": false,
+   "n_hosts_used": 3
+  },
+  {
+   "word": "橡皮",
+   "status": "scored",
+   "charge": 0.003953378314212707,
+   "z": 1.1242646982485194,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "水牛",
+   "status": "scored",
+   "charge": -0.005524825221535908,
+   "z": -1.528077996131491,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "沙拉",
+   "status": "scored",
+   "charge": -0.011494170462757015,
+   "z": -3.1985157727701807,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "油",
+   "status": "scored",
+   "charge": 0.016051582514317077,
+   "z": 4.509777934405242,
+   "fire": true,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "海豹",
+   "status": "scored",
+   "charge": -0.0016272563251137446,
+   "z": -0.43739785307718965,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "灯",
+   "status": "scored",
+   "charge": 0.008009745100402376,
+   "z": 2.259382209757637,
+   "fire": true,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "灯罩",
+   "status": "scored",
+   "charge": -0.00022827788042481534,
+   "z": -0.045913301878140134,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "熨斗",
+   "status": "scored",
+   "charge": -0.026741092832816254,
+   "z": -7.465153749838238,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "牛",
+   "status": "scored",
+   "charge": 0.0014083557992864296,
+   "z": 0.41207574292195515,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "犀牛",
+   "status": "scored",
+   "charge": 0.003157444511768373,
+   "z": 0.9015337558119058,
+   "fire": false,
+   "n_hosts_used": 3
+  },
+  {
+   "word": "猴子",
+   "status": "scored",
+   "charge": -0.00977570927862595,
+   "z": -2.7176284453230966,
+   "fire": false,
+   "n_hosts_used": 9
+  },
+  {
+   "word": "瓜",
+   "status": "scored",
+   "charge": -0.00423923140855163,
+   "z": -1.1683225482823036,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "盘子",
+   "status": "scored",
+   "charge": 0.003053817784573763,
+   "z": 0.8725352655620944,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "秋千",
+   "status": "scored",
+   "charge": 0.009553843855443923,
+   "z": 2.6914766501111216,
+   "fire": true,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "算盘",
+   "status": "scored",
+   "charge": 0.0046139795131163175,
+   "z": 1.3091247043880982,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "箱子",
+   "status": "scored",
+   "charge": -0.00255332565379048,
+   "z": -0.6965454024140417,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "纽扣",
+   "status": "scored",
+   "charge": -0.0009819252414809652,
+   "z": -0.2568109751235767,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "背心",
+   "status": "scored",
+   "charge": 0.0023777306126615064,
+   "z": 0.6833417264676753,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "花生",
+   "status": "scored",
+   "charge": 0.006767588916256048,
+   "z": 1.9117821748065789,
+   "fire": true,
+   "n_hosts_used": 3
+  },
+  {
+   "word": "花盆",
+   "status": "scored",
+   "charge": -0.009311548691462206,
+   "z": -2.587739596899496,
+   "fire": false,
+   "n_hosts_used": 8
+  },
+  {
+   "word": "蜥蜴",
+   "status": "scored",
+   "charge": -0.006903042952211064,
+   "z": -1.913752951879582,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "裙子",
+   "status": "scored",
+   "charge": -0.0009750296313150962,
+   "z": -0.2548813350628043,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "豹子",
+   "status": "scored",
+   "charge": 0.0027479149961013166,
+   "z": 0.7869326486595145,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "车轮",
+   "status": "scored",
+   "charge": -0.017083969856770312,
+   "z": -4.7627429525138965,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "酒杯",
+   "status": "scored",
+   "charge": 0.003619341951999139,
+   "z": 1.0307892942193893,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "酸菜",
+   "status": "scored",
+   "charge": -0.00020985409611111797,
+   "z": -0.04075766351872304,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "项圈",
+   "status": "scored",
+   "charge": 0.006641269269681324,
+   "z": 1.876433388458463,
+   "fire": true,
+   "n_hosts_used": 5
+  },
+  {
+   "word": "鹿",
+   "status": "scored",
+   "charge": -0.0006138881044323655,
+   "z": -0.15382092980226275,
+   "fire": false,
+   "n_hosts_used": 4
+  },
+  {
+   "word": "鼻子",
+   "status": "scored",
+   "charge": -0.007363605638881673,
+   "z": -2.042634978171533,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "三明治",
+   "status": "scored",
+   "charge": -0.0021416941725395542,
+   "z": -0.5813560895917482,
+   "fire": false,
+   "n_hosts_used": 20
+  }
+ ],
+ "supported_rows": [
+  {
+   "word": "斑马",
+   "charge": 0.007932581520735024,
+   "z_thisnull": 2.237789061221526,
+   "z_committed": 2.237789061221526,
+   "fire": true
+  },
+  {
+   "word": "桔子",
+   "charge": 0.046922909593036355,
+   "z_thisnull": 13.14868704141353,
+   "z_committed": 13.148687041413528,
+   "fire": true
+  },
+  {
+   "word": "胡萝卜",
+   "charge": 0.01219635595599269,
+   "z_thisnull": 3.430946702454508,
+   "z_committed": 3.4309467024545075,
+   "fire": true
+  },
+  {
+   "word": "苹果",
+   "charge": 0.0016537937296194185,
+   "z_thisnull": 0.4807581149544984,
+   "z_committed": 0.4807581149544981,
+   "fire": false
+  },
+  {
+   "word": "西兰花",
+   "charge": 0.01572197818161343,
+   "z_thisnull": 4.417542771846722,
+   "z_committed": 4.41754277184672,
+   "fire": true
+  },
+  {
+   "word": "香蕉",
+   "charge": 1.6397248743631188e-06,
+   "z_thisnull": 0.018425924265778854,
+   "z_committed": 0.01842592426577863,
+   "fire": false
+  },
+  {
+   "word": "仙人掌",
+   "charge": -0.0036805431377733497,
+   "z_thisnull": -1.0119814496927246,
+   "z_committed": -1.0119814496927249,
+   "fire": false
+  },
+  {
+   "word": "兔子",
+   "charge": -0.00283740898275597,
+   "z_thisnull": -0.7760421487473391,
+   "z_committed": -0.7760421487473392,
+   "fire": false
+  },
+  {
+   "word": "南瓜",
+   "charge": 0.028028145380062847,
+   "z_thisnull": 7.861251544455203,
+   "z_committed": 7.861251544455201,
+   "fire": true
+  },
+  {
+   "word": "卷心菜",
+   "charge": 0.0013460769577784745,
+   "z_thisnull": 0.3946478801771794,
+   "z_committed": 0.3946478801771791,
+   "fire": false
+  },
+  {
+   "word": "古董",
+   "charge": 0.01685086502429909,
+   "z_thisnull": 4.733445965810211,
+   "z_committed": 4.733445965810209,
+   "fire": true
+  },
+  {
+   "word": "咖啡",
+   "charge": 0.0055517792868186745,
+   "z_thisnull": 1.5715548546997222,
+   "z_committed": 1.5715548546997218,
+   "fire": true
+  },
+  {
+   "word": "土豆",
+   "charge": 0.010814542453702624,
+   "z_thisnull": 3.0442655203115634,
+   "z_committed": 3.044265520311563,
+   "fire": true
+  },
+  {
+   "word": "垂柳",
+   "charge": 0.004082794095264013,
+   "z_thisnull": 1.1604798945264079,
+   "z_committed": 1.1604798945264077,
+   "fire": false
+  },
+  {
+   "word": "大蒜",
+   "charge": 0.0029423543798049495,
+   "z_thisnull": 0.8413437906993493,
+   "z_committed": 0.841343790699349,
+   "fire": false
+  },
+  {
+   "word": "奶油",
+   "charge": 0.003570122811248055,
+   "z_thisnull": 1.0170160060743918,
+   "z_committed": 1.0170160060743914,
+   "fire": false
+  },
+  {
+   "word": "山楂",
+   "charge": -0.009626215752146425,
+   "z_thisnull": -2.6757947728007063,
+   "z_committed": -2.675794772800706,
+   "fire": false
+  },
+  {
+   "word": "康乃馨",
+   "charge": 0.010968995036919803,
+   "z_thisnull": 3.087486915503078,
+   "z_committed": 3.0874869155030775,
+   "fire": true
+  },
+  {
+   "word": "扁豆",
+   "charge": 0.010894031934908848,
+   "z_thisnull": 3.066509539862546,
+   "z_committed": 3.0665095398625457,
+   "fire": true
+  },
+  {
+   "word": "松树",
+   "charge": -0.0071310333382235075,
+   "z_thisnull": -1.9775528726607958,
+   "z_committed": -1.9775528726607958,
+   "fire": false
+  },
+  {
+   "word": "板栗",
+   "charge": -0.0029832852154375172,
+   "z_thisnull": -0.8168635721929606,
+   "z_committed": -0.8168635721929607,
+   "fire": false
+  },
+  {
+   "word": "梨",
+   "charge": 0.0036496107999082258,
+   "z_thisnull": 1.0392596079572365,
+   "z_committed": 1.0392596079572363,
+   "fire": false
+  },
+  {
+   "word": "棉花",
+   "charge": 0.01186441543429269,
+   "z_thisnull": 3.3380577900800232,
+   "z_committed": 3.338057790080023,
+   "fire": true
+  },
+  {
+   "word": "椰子",
+   "charge": -0.005163074021420915,
+   "z_thisnull": -1.4268469823439798,
+   "z_committed": -1.42684698234398,
+   "fire": false
+  },
+  {
+   "word": "毛毯",
+   "charge": 0.003189451605257878,
+   "z_thisnull": 0.9104904932637905,
+   "z_committed": 0.9104904932637902,
+   "fire": false
+  },
+  {
+   "word": "毛衣",
+   "charge": 0.00983911194745489,
+   "z_thisnull": 2.7713049358122315,
+   "z_committed": 2.7713049358122315,
+   "fire": true
+  },
+  {
+   "word": "毛豆",
+   "charge": -0.0010801121987845629,
+   "z_thisnull": -0.28428722185169997,
+   "z_committed": -0.2842872218517002,
+   "fire": false
+  },
+  {
+   "word": "水",
+   "charge": -0.0050172991444801494,
+   "z_thisnull": -1.3860539218848233,
+   "z_committed": -1.3860539218848236,
+   "fire": false
+  },
+  {
+   "word": "水泥",
+   "charge": 0.0015084741557218687,
+   "z_thisnull": 0.44009246468397595,
+   "z_committed": 0.44009246468397567,
+   "fire": false
+  },
+  {
+   "word": "灌木",
+   "charge": -0.0008783566662913245,
+   "z_thisnull": -0.22782875789902396,
+   "z_committed": -0.22782875789902413,
+   "fire": false
+  },
+  {
+   "word": "玫瑰",
+   "charge": 0.01497298845472277,
+   "z_thisnull": 4.207948472379378,
+   "z_committed": 4.207948472379377,
+   "fire": true
+  },
+  {
+   "word": "玻璃",
+   "charge": -0.01152791077360264,
+   "z_thisnull": -3.207957526857859,
+   "z_committed": -3.2079575268578586,
+   "fire": false
+  },
+  {
+   "word": "珊瑚",
+   "charge": -0.014097137231293133,
+   "z_thisnull": -3.926919617043126,
+   "z_committed": -3.9269196170431258,
+   "fire": false
+  },
+  {
+   "word": "生菜",
+   "charge": 0.009233435911394406,
+   "z_thisnull": 2.6018149682939105,
+   "z_committed": 2.6018149682939105,
+   "fire": true
+  },
+  {
+   "word": "番茄",
+   "charge": 0.027376749323092725,
+   "z_thisnull": 7.678967468539736,
+   "z_committed": 7.678967468539734,
+   "fire": true
+  },
+  {
+   "word": "眼睛",
+   "charge": 0.00558463646182677,
+   "z_thisnull": 1.5807494755750802,
+   "z_committed": 1.58074947557508,
+   "fire": true
+  },
+  {
+   "word": "石榴",
+   "charge": 0.006864187600301474,
+   "z_thisnull": 1.938813965477486,
+   "z_committed": 1.9388139654774856,
+   "fire": true
+  },
+  {
+   "word": "石油",
+   "charge": 0.01589171371600845,
+   "z_thisnull": 4.465040887173252,
+   "z_committed": 4.4650408871732505,
+   "fire": true
+  },
+  {
+   "word": "竹子",
+   "charge": 0.003881140783536463,
+   "z_thisnull": 1.1040500356253187,
+   "z_committed": 1.1040500356253182,
+   "fire": false
+  },
+  {
+   "word": "米饭",
+   "charge": 0.004081147047990377,
+   "z_thisnull": 1.160018991382996,
+   "z_committed": 1.1600189913829955,
+   "fire": false
+  },
+  {
+   "word": "羽毛",
+   "charge": 0.00484149331832992,
+   "z_thisnull": 1.3727912606983637,
+   "z_committed": 1.3727912606983632,
+   "fire": false
+  },
+  {
+   "word": "老虎",
+   "charge": -0.0027691593516706373,
+   "z_thisnull": -0.7569434440486522,
+   "z_committed": -0.7569434440486523,
+   "fire": false
+  },
+  {
+   "word": "芒果",
+   "charge": -0.0026059263158204303,
+   "z_thisnull": -0.7112649619939228,
+   "z_committed": -0.7112649619939229,
+   "fire": false
+  },
+  {
+   "word": "花",
+   "charge": 0.0066745441735111015,
+   "z_thisnull": 1.8857449049020838,
+   "z_committed": 1.8857449049020834,
+   "fire": true
+  },
+  {
+   "word": "芹菜",
+   "charge": 0.0001266582318601205,
+   "z_thisnull": 0.053410604898064915,
+   "z_committed": 0.05341060489806469,
+   "fire": false
+  },
+  {
+   "word": "茄子",
+   "charge": 0.0005710369659995204,
+   "z_thisnull": 0.17776377842794538,
+   "z_committed": 0.17776377842794516,
+   "fire": false
+  },
+  {
+   "word": "茶",
+   "charge": -0.005845364765990207,
+   "z_thisnull": -1.6177765044813757,
+   "z_committed": -1.6177765044813759,
+   "fire": false
+  },
+  {
+   "word": "草莓",
+   "charge": -0.001750056278793185,
+   "z_thisnull": -0.4717617025960787,
+   "z_committed": -0.47176170259607886,
+   "fire": false
+  },
+  {
+   "word": "荷兰豆",
+   "charge": 0.00663106543525302,
+   "z_thisnull": 1.8735779881077004,
+   "z_committed": 1.8735779881077,
+   "fire": true
+  },
+  {
+   "word": "荷花",
+   "charge": 0.01038407369692762,
+   "z_thisnull": 2.923804859397844,
+   "z_committed": 2.9238048593978436,
+   "fire": true
+  },
+  {
+   "word": "菊花",
+   "charge": -0.0024229401936425865,
+   "z_thisnull": -0.6600588550032062,
+   "z_committed": -0.6600588550032063,
+   "fire": false
+  },
+  {
+   "word": "菠菜",
+   "charge": 0.037730963740520596,
+   "z_thisnull": 10.576449555997344,
+   "z_committed": 10.576449555997343,
+   "fire": true
+  },
+  {
+   "word": "萝卜",
+   "charge": 0.012286621821431955,
+   "z_thisnull": 3.456206342411249,
+   "z_committed": 3.4562063424112486,
+   "fire": true
+  },
+  {
+   "word": "葡萄",
+   "charge": 0.0075668972987557315,
+   "z_thisnull": 2.1354574462737568,
+   "z_committed": 2.1354574462737563,
+   "fire": true
+  },
+  {
+   "word": "蒲公英",
+   "charge": 0.005908870374062396,
+   "z_thisnull": 1.671481801077994,
+   "z_committed": 1.6714818010779935,
+   "fire": true
+  },
+  {
+   "word": "西瓜",
+   "charge": 0.0108255686631656,
+   "z_thisnull": 3.047351050813786,
+   "z_committed": 3.0473510508137855,
+   "fire": true
+  },
+  {
+   "word": "豆子",
+   "charge": 0.013479786050923783,
+   "z_thisnull": 3.790096664068944,
+   "z_committed": 3.7900966640689435,
+   "fire": true
+  },
+  {
+   "word": "豆腐",
+   "charge": 0.0006798341515985469,
+   "z_thisnull": 0.2082091491465952,
+   "z_committed": 0.20820914914659497,
+   "fire": false
+  },
+  {
+   "word": "豌豆",
+   "charge": -8.160786709535128e-05,
+   "z_thisnull": -0.004869750020261945,
+   "z_committed": -0.004869750020262164,
+   "fire": false
+  },
+  {
+   "word": "键盘",
+   "charge": 0.006222431744549117,
+   "z_thisnull": 1.7592275650419615,
+   "z_committed": 1.759227565041961,
+   "fire": true
+  },
+  {
+   "word": "鼓",
+   "charge": -0.016451533928405513,
+   "z_thisnull": -4.58576460340638,
+   "z_committed": -4.585764603406381,
+   "fire": false
+  }
+ ],
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658459e-05,
+  "sd": 0.0035735214592864523,
+  "degenerate": false
+ },
+ "null_vs_v7_dmean": 7.860465750519907e-19,
+ "certificate_drift": 0.0,
+ "n_texts": 47847,
+ "provenance": {
+  "wide_pool_sha256": "4fe82c3441881c999148bad6c5c3b396a8a118cc401e523d50e29e6efff2e145",
+  "v7_json_sha256": "0931dcb39c23a9052f66347de646c4f575993b710f15e44a93a36fc4e36dcb64",
+  "machinery": "committed colour meter, verbatim import",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  }
+ }
+}

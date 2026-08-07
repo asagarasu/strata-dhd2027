@@ -1,0 +1,43 @@
+{
+ "status": "MEASURED — HER REVIEW PENDING (latent-ruler review)",
+ "what": "word-grain corpus breadth pass — board albatros (#56) — MEASUREMENT",
+ "board": "albatros",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "renderings": [
+  "zh:dai_wangshu",
+  "zh:guo_hongan",
+  "zh:qian_chunqi"
+ ],
+ "per_rendering": {
+  "zh:dai_wangshu": [
+   {
+    "word": "当",
+    "line": 5,
+    "source": "referent_trigger",
+    "carriers": null,
+    "status": "scored",
+    "reason": null,
+    "charge": 0.0011332068012042552,
+    "z": 0.3350791441280261,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 247,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   }
+  ],
+  "zh:guo_hongan": [],
+  "zh:qian_chunqi": []
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658432e-05,
+  "sd": 0.003573521459286453,
+  "degenerate": false
+ },
+ "full_record": "caesitas_proto/results/word_grain_referent_pass_albatros_56.json"
+}

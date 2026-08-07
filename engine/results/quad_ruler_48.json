@@ -1,0 +1,8 @@
+{
+ "certificate_max_drift": 0.0,
+ "new_dark_vs_new_valence_abscos": 0.1875784433258641,
+ "old_dark_vs_new_valence_abscos": 0.4320547644615886,
+ "old_vs_new_dark_cos": 0.5032532310093325,
+ "holdout_dprime": 2.2002113645468446,
+ "bootstrap_cone_mean_deg": 29.14670230542647
+}

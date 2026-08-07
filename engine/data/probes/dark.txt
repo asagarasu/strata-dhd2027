@@ -1,0 +1,19 @@
+# Darkness/luminance probes (de+en) — concrete low-light scenes only, no color/dye words,
+# no metaphorical darkness (whether "dark news" loads here is a finding, not an input).
+# Paired 1:1 with bright.txt.
+Der Raum lag völlig im Dunkeln.
+Die Nacht war schwarz und mondlos.
+Im Keller war es finster.
+Schatten füllten den langen Flur.
+Die Lampe erlosch, und alles versank im Dunkel.
+Dunkle Wolken schoben sich vor die Sonne.
+Er tastete sich durch den finsteren Gang.
+Bei Einbruch der Dämmerung wurde der Wald schwarz.
+The room was pitch dark.
+The night was black and moonless.
+Shadows filled the long hallway.
+The lamp went out and everything sank into darkness.
+Dark clouds slid across the sun.
+He felt his way down the unlit corridor.
+The cellar was dim and windowless.
+By dusk the woods had gone black.

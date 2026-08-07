@@ -1,0 +1,97 @@
+{
+ "construct": "sound salience v2, audio-witnessed probes",
+ "space": "illum v2 (shared)",
+ "certificate": 0.0,
+ "seed": 49,
+ "axis_sha256_16": "cb093eba9fb6134b",
+ "lexicons": {
+  "zh": 989,
+  "en": 479
+ },
+ "pools": {
+  "ac_hit": 14841,
+  "ac_nohit": 37407,
+  "coco_hit": 1061,
+  "coco_nohit": 23733,
+  "witness_coverage": "400/400"
+ },
+ "gauges": {
+  "holdout_dprime_DISCOUNTED": 5.966317294807718,
+  "register_leakage_abscos": 0.886582780007322,
+  "transfer_auc": [
+   0.595375,
+   0.5531417187500001,
+   0.63318359375
+  ],
+  "battery": {
+   "adoption": [
+    0.729686620379058,
+    0.6787221686731607,
+    0.778163488219768,
+    146
+   ],
+   "locked": [
+    0.7680680207841285,
+    0.7215532121672824,
+    0.8121353118712273,
+    145
+   ]
+  },
+  "dev": {
+   "v2_union": {
+    "auc": 0.6571969696969697,
+    "ci95": [
+     0.48674242424242425,
+     0.8125
+    ],
+    "n_pos": 22,
+    "n_units": 46
+   },
+   "v2_referent_only": {
+    "auc": 0.6723809523809524,
+    "ci95": [
+     0.5104285714285715,
+     0.8285714285714286
+    ],
+    "n_pos": 21,
+    "n_units": 46
+   },
+   "v1_union": {
+    "auc": 0.5416666666666666,
+    "ci95": [
+     0.36737689393939393,
+     0.6989109848484846
+    ],
+    "n_pos": 22,
+    "n_units": 46
+   },
+   "v1_referent_only": {
+    "auc": 0.5123809523809524,
+    "ci95": [
+     0.34285714285714286,
+     0.6857142857142857
+    ],
+    "n_pos": 21,
+    "n_units": 46
+   }
+  }
+ },
+ "device_values": [
+  "alliteration",
+  "echo",
+  "onomatopoeia",
+  "repetition",
+  "repetitive",
+  "rhyme",
+  "rhyming",
+  "\u53cc\u58f0",
+  "\u53e0\u5b57",
+  "\u53e0\u97f5",
+  "\u62bc\u97f5",
+  "\u62bc\u97fb",
+  "\u758a\u97fb",
+  "\u91cd\u590d",
+  "\u91cd\u8907",
+  "\u96d9\u8072"
+ ]
+}

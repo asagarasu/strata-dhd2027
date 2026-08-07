@@ -1,0 +1,16 @@
+{
+ "certificate": 0.0,
+ "holdout_dprime": 1.3321765095569178,
+ "spearman_score_vs_luminance": 0.2035967275967276,
+ "cos_vs_quad": 0.056620337018788394,
+ "abs_cos_vs_valence": 0.003132052526199275,
+ "verbalization": {
+  "dark_tail": 0.20666666666666667,
+  "bright_tail": 0.009333333333333334,
+  "middle": 0.02398560863481911
+ },
+ "n_probes": [
+  750,
+  750
+ ]
+}

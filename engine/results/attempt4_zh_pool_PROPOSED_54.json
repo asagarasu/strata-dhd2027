@@ -1,0 +1,1351 @@
+{
+ "title": "Attempt-4 ZH referent-color pool — INTERIM credential assembly (PROPOSED)",
+ "status": "PROPOSED — concludes nothing. Registration ⚑ her breaking (word_latent_v4_referent_color_registration_54.md); run ⚑ her go.",
+ "date": "2026-07-21",
+ "session": 54,
+ "credential": "ZH INTERIM: MOE-definition witness ∧ zh-norm visual-strength where covered; population scope cited per entry; zh colour-FEATURE norms = open declared gap (香蕉/雪 absent — still)",
+ "visual_support_rules": {
+  "rule_A": "visual dominant OR visual-mean >= dataset median (PROPOSED)",
+  "rule_B": "visual dominant only (computed for comparison)",
+  "decided_by": "her breaking; nothing here decides"
+ },
+ "tiers": {
+  "validation_positives": [
+   "斑马",
+   "桔子",
+   "胡萝卜",
+   "苹果",
+   "西兰花",
+   "香蕉"
+  ],
+  "coverage_gap": [
+   "椅",
+   "比萨饼",
+   "芭蕉",
+   "苹果树",
+   "长颈鹿",
+   "面包圈"
+  ],
+  "covered_unsupported": [
+   "三明治"
+  ],
+  "gated_out": []
+ },
+ "self_gate": {
+  "n_validation_positives": 6,
+  "defer_below": 5,
+  "thin_below": 10,
+  "status": "THIN"
+ },
+ "candidates": {
+  "三明治": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 140,
+   "leipzig_n": 0,
+   "caption_n": 140,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 381,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [],
+    "modal_color_feature": null,
+    "modal_rate": null,
+    "floor_support": false,
+    "note": "present in CCFD with NO colour-language feature — an informative negative (participants declined to produce a colour for this concept)"
+   },
+   "flags": []
+  },
+  "斑马": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 374,
+   "leipzig_n": 0,
+   "caption_n": 374,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 195,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-黑色的",
+      "count": 15,
+      "n": 28,
+      "rate": 0.536
+     },
+     {
+      "feature": "是-白色的",
+      "count": 14,
+      "n": 28,
+      "rate": 0.5
+     }
+    ],
+    "modal_color_feature": "是-黑色的",
+    "modal_rate": 0.536,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": []
+  },
+  "桔子": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 9,
+   "leipzig_n": 0,
+   "caption_n": 9,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 107,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-黄色的",
+      "count": 10,
+      "n": 30,
+      "rate": 0.333
+     },
+     {
+      "feature": "是-橙色的",
+      "count": 7,
+      "n": 30,
+      "rate": 0.233
+     },
+     {
+      "feature": "是-绿色的",
+      "count": 2,
+      "n": 30,
+      "rate": 0.067
+     },
+     {
+      "feature": "有-多种颜色",
+      "count": 2,
+      "n": 30,
+      "rate": 0.067
+     }
+    ],
+    "modal_color_feature": "是-黄色的",
+    "modal_rate": 0.333,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": []
+  },
+  "椅": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 3,
+   "leipzig_n": 0,
+   "caption_n": 3,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 14,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": [
+    "sense-mismatch OPEN (MOE homograph: 椅-the-TREE witnessed; hosts are chairs — briefing decision stack #2, unruled; carried to her breaking)",
+    "COMPOUND-BOUND in the norms: standalone 椅 uncovered; 0 group members norm-covered — group-node measurement applies (item 1 machinery)"
+   ]
+  },
+  "比萨饼": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 170,
+   "leipzig_n": 0,
+   "caption_n": 170,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 381,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": []
+  },
+  "胡萝卜": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 112,
+   "leipzig_n": 0,
+   "caption_n": 112,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 1154,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-橙色的",
+      "count": 9,
+      "n": 29,
+      "rate": 0.31
+     },
+     {
+      "feature": "是-红色的",
+      "count": 9,
+      "n": 29,
+      "rate": 0.31
+     },
+     {
+      "feature": "是-黄色的",
+      "count": 4,
+      "n": 29,
+      "rate": 0.138
+     },
+     {
+      "feature": "是-绿色的",
+      "count": 4,
+      "n": 29,
+      "rate": 0.138
+     }
+    ],
+    "modal_color_feature": "是-橙色的",
+    "modal_rate": 0.31,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": []
+  },
+  "芭蕉": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 2,
+   "leipzig_n": 0,
+   "caption_n": 2,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 107,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": []
+  },
+  "苹果": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 150,
+   "leipzig_n": 0,
+   "caption_n": 150,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 279,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": true,
+    "entries": [
+     {
+      "dataset": "zh3000",
+      "population_scope": "Chinese sensorimotor & embodiment norms, 3,000 concepts (arXiv:2605.22616, CC BY 4.0) — Mainland Mandarin speakers; population scope per its article; see impression_norms/PROVENANCE.md",
+      "dims": {
+       "visual": 3.65,
+       "auditory": 0.75,
+       "gustatory": 4.3,
+       "olfactory": 3.5,
+       "tactile": 2.8
+      },
+      "visual_mean": 3.65,
+      "dataset_median_visual": 2.7,
+      "visual_dominant": false,
+      "rule_A_support": true,
+      "rule_B_support": false
+     }
+    ],
+    "rule_A_support": true,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-红色的",
+      "count": 16,
+      "n": 30,
+      "rate": 0.533
+     },
+     {
+      "feature": "是-绿色的",
+      "count": 4,
+      "n": 30,
+      "rate": 0.133
+     }
+    ],
+    "modal_color_feature": "是-红色的",
+    "modal_rate": 0.533,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": [
+    "variable-color exhibit (apples really are three colors — the pixel consistency statistic's own case)"
+   ]
+  },
+  "苹果树": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 4,
+   "leipzig_n": 0,
+   "caption_n": 4,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 88,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": []
+  },
+  "西兰花": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 124,
+   "leipzig_n": 0,
+   "caption_n": 124,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 1154,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-绿色的",
+      "count": 19,
+      "n": 30,
+      "rate": 0.633
+     },
+     {
+      "feature": "是-白色的",
+      "count": 3,
+      "n": 30,
+      "rate": 0.1
+     },
+     {
+      "feature": "有-多种颜色",
+      "count": 2,
+      "n": 30,
+      "rate": 0.067
+     }
+    ],
+    "modal_color_feature": "是-绿色的",
+    "modal_rate": 0.633,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": []
+  },
+  "长颈鹿": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 568,
+   "leipzig_n": 0,
+   "caption_n": 568,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 74,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": []
+  },
+  "面包圈": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 7,
+   "leipzig_n": 0,
+   "caption_n": 7,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 381,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": null,
+   "flags": []
+  },
+  "香蕉": {
+   "candidate_source": "definition_leg_v4_pure",
+   "witness": null,
+   "n_hosts": 273,
+   "leipzig_n": 0,
+   "caption_n": 273,
+   "realized_by_print": false,
+   "written_carriers": [],
+   "ensemble_tier": "fallback",
+   "ensemble_n": 272,
+   "ensemble_provenance": "closure_copy_generated",
+   "norms": {
+    "covered": false,
+    "entries": [],
+    "rule_A_support": false,
+    "rule_B_support": false
+   },
+   "ccfd": {
+    "dataset": "ccfd",
+    "population_scope": "CCFD (Deng et al. 2021, BRM, doi:10.3758/s13428-020-01525-x) — feature-production norms, 1,410 concrete concepts; N=204 native Mandarin speakers, 25 provinces, age 18-57; ADOPTED to the shelf at her word 07-21; see impression_norms/PROVENANCE.md",
+    "covered": true,
+    "color_features": [
+     {
+      "feature": "是-黄色的",
+      "count": 20,
+      "n": 31,
+      "rate": 0.645
+     },
+     {
+      "feature": "是-白色的",
+      "count": 3,
+      "n": 31,
+      "rate": 0.097
+     }
+    ],
+    "modal_color_feature": "是-黄色的",
+    "modal_rate": 0.645,
+    "floor": 0.2,
+    "floor_support": true
+   },
+   "flags": []
+  }
+ },
+ "pixel_leg_report": {
+  "n": 0.75,
+  "islands": [
+   {
+    "category": "carrot",
+    "share": 0.985
+   },
+   {
+    "category": "orange",
+    "share": 0.9848
+   },
+   {
+    "category": "hot dog",
+    "share": 0.9528
+   },
+   {
+    "category": "banana",
+    "share": 0.935
+   },
+   {
+    "category": "pizza",
+    "share": 0.9347
+   },
+   {
+    "category": "apple",
+    "share": 0.915
+   },
+   {
+    "category": "donut",
+    "share": 0.86
+   },
+   {
+    "category": "sandwich",
+    "share": 0.8588
+   },
+   {
+    "category": "broccoli",
+    "share": 0.855
+   },
+   {
+    "category": "stop sign",
+    "share": 0.7867
+   }
+  ],
+  "per_candidate": [
+   {
+    "category": "carrot",
+    "share": 0.985,
+    "zh": "胡萝卜",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "广柑",
+    "disposition": "no_host"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "桔子",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "桔黄",
+    "disposition": "no_host"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "桔黄色",
+    "disposition": "realized_color"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橘黄",
+    "disposition": "no_host"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橘黄色",
+    "disposition": "realized_color"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橙",
+    "disposition": "no_host"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橙子",
+    "disposition": "written_claimed",
+    "carriers": [
+     {
+      "char": "橙",
+      "provenance": "moe_color_sense_PROPOSED"
+     }
+    ]
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橙色",
+    "disposition": "realized_color"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橙黄",
+    "disposition": "realized_color"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "橙黄色",
+    "disposition": "realized_color"
+   },
+   {
+    "category": "orange",
+    "share": 0.9848,
+    "zh": "香橙",
+    "disposition": "no_host"
+   },
+   {
+    "category": "banana",
+    "share": 0.935,
+    "zh": "芭蕉",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "banana",
+    "share": 0.935,
+    "zh": "香蕉",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "banana",
+    "share": 0.935,
+    "zh": "香蕉人",
+    "disposition": "no_host"
+   },
+   {
+    "category": "pizza",
+    "share": 0.9347,
+    "zh": "比萨饼",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "apple",
+    "share": 0.915,
+    "zh": "平果公司",
+    "disposition": "no_host"
+   },
+   {
+    "category": "apple",
+    "share": 0.915,
+    "zh": "柰",
+    "disposition": "no_host"
+   },
+   {
+    "category": "apple",
+    "share": 0.915,
+    "zh": "柰子",
+    "disposition": "no_host"
+   },
+   {
+    "category": "apple",
+    "share": 0.915,
+    "zh": "苹果",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "apple",
+    "share": 0.915,
+    "zh": "苹果树",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "donut",
+    "share": 0.86,
+    "zh": "面包圈",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "sandwich",
+    "share": 0.8588,
+    "zh": "三明治",
+    "disposition": "already_definition_leg"
+   },
+   {
+    "category": "broccoli",
+    "share": 0.855,
+    "zh": "椰菜",
+    "disposition": "no_host"
+   },
+   {
+    "category": "broccoli",
+    "share": 0.855,
+    "zh": "西兰花",
+    "disposition": "already_definition_leg"
+   }
+  ]
+ },
+ "group_node_cases": [
+  {
+   "char": "椅",
+   "n_members": 32,
+   "norm_covered_members": []
+  }
+ ],
+ "controls": {
+  "n": 104,
+  "law": "v2 control set, CJK-only, numerals out, hosted, minus candidates/selftests (v3 R3 verbatim)",
+  "members": [
+   {
+    "word": "一场",
+    "n_hosts": 747,
+    "leipzig_n": 635,
+    "caption_n": 112
+   },
+   {
+    "word": "七八年",
+    "n_hosts": 4,
+    "leipzig_n": 4,
+    "caption_n": 0
+   },
+   {
+    "word": "下降",
+    "n_hosts": 509,
+    "leipzig_n": 509,
+    "caption_n": 0
+   },
+   {
+    "word": "不得",
+    "n_hosts": 297,
+    "leipzig_n": 297,
+    "caption_n": 0
+   },
+   {
+    "word": "不断",
+    "n_hosts": 1281,
+    "leipzig_n": 1281,
+    "caption_n": 0
+   },
+   {
+    "word": "两周",
+    "n_hosts": 76,
+    "leipzig_n": 76,
+    "caption_n": 0
+   },
+   {
+    "word": "乡村",
+    "n_hosts": 492,
+    "leipzig_n": 478,
+    "caption_n": 14
+   },
+   {
+    "word": "了不得",
+    "n_hosts": 5,
+    "leipzig_n": 5,
+    "caption_n": 0
+   },
+   {
+    "word": "事情",
+    "n_hosts": 1099,
+    "leipzig_n": 1099,
+    "caption_n": 0
+   },
+   {
+    "word": "人們",
+    "n_hosts": 184,
+    "leipzig_n": 184,
+    "caption_n": 0
+   },
+   {
+    "word": "代表",
+    "n_hosts": 952,
+    "leipzig_n": 950,
+    "caption_n": 2
+   },
+   {
+    "word": "以及",
+    "n_hosts": 2140,
+    "leipzig_n": 2095,
+    "caption_n": 45
+   },
+   {
+    "word": "低頭不語",
+    "n_hosts": 1,
+    "leipzig_n": 1,
+    "caption_n": 0
+   },
+   {
+    "word": "保持",
+    "n_hosts": 1468,
+    "leipzig_n": 1468,
+    "caption_n": 0
+   },
+   {
+    "word": "做不了",
+    "n_hosts": 9,
+    "leipzig_n": 9,
+    "caption_n": 0
+   },
+   {
+    "word": "全球",
+    "n_hosts": 1474,
+    "leipzig_n": 1474,
+    "caption_n": 0
+   },
+   {
+    "word": "兩個",
+    "n_hosts": 336,
+    "leipzig_n": 335,
+    "caption_n": 1
+   },
+   {
+    "word": "六名",
+    "n_hosts": 23,
+    "leipzig_n": 23,
+    "caption_n": 0
+   },
+   {
+    "word": "其中",
+    "n_hosts": 2151,
+    "leipzig_n": 2021,
+    "caption_n": 130
+   },
+   {
+    "word": "其他人",
+    "n_hosts": 161,
+    "leipzig_n": 156,
+    "caption_n": 5
+   },
+   {
+    "word": "冲锋在前",
+    "n_hosts": 51,
+    "leipzig_n": 51,
+    "caption_n": 0
+   },
+   {
+    "word": "刑事法律",
+    "n_hosts": 2,
+    "leipzig_n": 2,
+    "caption_n": 0
+   },
+   {
+    "word": "到位",
+    "n_hosts": 193,
+    "leipzig_n": 193,
+    "caption_n": 0
+   },
+   {
+    "word": "刻上",
+    "n_hosts": 2,
+    "leipzig_n": 2,
+    "caption_n": 0
+   },
+   {
+    "word": "即使",
+    "n_hosts": 717,
+    "leipzig_n": 717,
+    "caption_n": 0
+   },
+   {
+    "word": "历史",
+    "n_hosts": 1313,
+    "leipzig_n": 1312,
+    "caption_n": 1
+   },
+   {
+    "word": "发扬光大",
+    "n_hosts": 10,
+    "leipzig_n": 10,
+    "caption_n": 0
+   },
+   {
+    "word": "可以",
+    "n_hosts": 5508,
+    "leipzig_n": 5465,
+    "caption_n": 43
+   },
+   {
+    "word": "吃得下",
+    "n_hosts": 3,
+    "leipzig_n": 3,
+    "caption_n": 0
+   },
+   {
+    "word": "同一",
+    "n_hosts": 207,
+    "leipzig_n": 205,
+    "caption_n": 2
+   },
+   {
+    "word": "咳嗽",
+    "n_hosts": 153,
+    "leipzig_n": 153,
+    "caption_n": 0
+   },
+   {
+    "word": "啥时候",
+    "n_hosts": 4,
+    "leipzig_n": 4,
+    "caption_n": 0
+   },
+   {
+    "word": "坦言",
+    "n_hosts": 197,
+    "leipzig_n": 197,
+    "caption_n": 0
+   },
+   {
+    "word": "多年",
+    "n_hosts": 552,
+    "leipzig_n": 552,
+    "caption_n": 0
+   },
+   {
+    "word": "大不相同",
+    "n_hosts": 14,
+    "leipzig_n": 14,
+    "caption_n": 0
+   },
+   {
+    "word": "大巴车",
+    "n_hosts": 25,
+    "leipzig_n": 10,
+    "caption_n": 15
+   },
+   {
+    "word": "大批",
+    "n_hosts": 236,
+    "leipzig_n": 236,
+    "caption_n": 0
+   },
+   {
+    "word": "官員",
+    "n_hosts": 770,
+    "leipzig_n": 770,
+    "caption_n": 0
+   },
+   {
+    "word": "实验",
+    "n_hosts": 69,
+    "leipzig_n": 68,
+    "caption_n": 1
+   },
+   {
+    "word": "宠物",
+    "n_hosts": 36,
+    "leipzig_n": 34,
+    "caption_n": 2
+   },
+   {
+    "word": "客量",
+    "n_hosts": 23,
+    "leipzig_n": 23,
+    "caption_n": 0
+   },
+   {
+    "word": "宣传",
+    "n_hosts": 396,
+    "leipzig_n": 393,
+    "caption_n": 3
+   },
+   {
+    "word": "密切接触",
+    "n_hosts": 78,
+    "leipzig_n": 78,
+    "caption_n": 0
+   },
+   {
+    "word": "层次",
+    "n_hosts": 71,
+    "leipzig_n": 71,
+    "caption_n": 0
+   },
+   {
+    "word": "居民",
+    "n_hosts": 1119,
+    "leipzig_n": 1119,
+    "caption_n": 0
+   },
+   {
+    "word": "希望",
+    "n_hosts": 2352,
+    "leipzig_n": 2352,
+    "caption_n": 0
+   },
+   {
+    "word": "强迫",
+    "n_hosts": 43,
+    "leipzig_n": 43,
+    "caption_n": 0
+   },
+   {
+    "word": "情况",
+    "n_hosts": 1536,
+    "leipzig_n": 1534,
+    "caption_n": 2
+   },
+   {
+    "word": "意味着",
+    "n_hosts": 333,
+    "leipzig_n": 333,
+    "caption_n": 0
+   },
+   {
+    "word": "感染",
+    "n_hosts": 2171,
+    "leipzig_n": 2171,
+    "caption_n": 0
+   },
+   {
+    "word": "我们",
+    "n_hosts": 8976,
+    "leipzig_n": 8975,
+    "caption_n": 1
+   },
+   {
+    "word": "战争",
+    "n_hosts": 418,
+    "leipzig_n": 417,
+    "caption_n": 1
+   },
+   {
+    "word": "抓好",
+    "n_hosts": 232,
+    "leipzig_n": 232,
+    "caption_n": 0
+   },
+   {
+    "word": "按揭",
+    "n_hosts": 23,
+    "leipzig_n": 23,
+    "caption_n": 0
+   },
+   {
+    "word": "搬迁",
+    "n_hosts": 105,
+    "leipzig_n": 105,
+    "caption_n": 0
+   },
+   {
+    "word": "攻坚战",
+    "n_hosts": 282,
+    "leipzig_n": 282,
+    "caption_n": 0
+   },
+   {
+    "word": "政策",
+    "n_hosts": 1301,
+    "leipzig_n": 1301,
+    "caption_n": 0
+   },
+   {
+    "word": "數據",
+    "n_hosts": 587,
+    "leipzig_n": 587,
+    "caption_n": 0
+   },
+   {
+    "word": "新任",
+    "n_hosts": 45,
+    "leipzig_n": 45,
+    "caption_n": 0
+   },
+   {
+    "word": "新冠",
+    "n_hosts": 4346,
+    "leipzig_n": 4346,
+    "caption_n": 0
+   },
+   {
+    "word": "昨日",
+    "n_hosts": 757,
+    "leipzig_n": 757,
+    "caption_n": 0
+   },
+   {
+    "word": "晚餐",
+    "n_hosts": 44,
+    "leipzig_n": 35,
+    "caption_n": 9
+   },
+   {
+    "word": "正在",
+    "n_hosts": 3609,
+    "leipzig_n": 1714,
+    "caption_n": 1895
+   },
+   {
+    "word": "此次",
+    "n_hosts": 474,
+    "leipzig_n": 474,
+    "caption_n": 0
+   },
+   {
+    "word": "每天",
+    "n_hosts": 871,
+    "leipzig_n": 871,
+    "caption_n": 0
+   },
+   {
+    "word": "比例",
+    "n_hosts": 248,
+    "leipzig_n": 248,
+    "caption_n": 0
+   },
+   {
+    "word": "汽车",
+    "n_hosts": 761,
+    "leipzig_n": 236,
+    "caption_n": 525
+   },
+   {
+    "word": "消息人士",
+    "n_hosts": 127,
+    "leipzig_n": 127,
+    "caption_n": 0
+   },
+   {
+    "word": "深入人心",
+    "n_hosts": 22,
+    "leipzig_n": 22,
+    "caption_n": 0
+   },
+   {
+    "word": "深厚",
+    "n_hosts": 79,
+    "leipzig_n": 79,
+    "caption_n": 0
+   },
+   {
+    "word": "父母",
+    "n_hosts": 642,
+    "leipzig_n": 641,
+    "caption_n": 1
+   },
+   {
+    "word": "生活状况",
+    "n_hosts": 8,
+    "leipzig_n": 8,
+    "caption_n": 0
+   },
+   {
+    "word": "研发",
+    "n_hosts": 188,
+    "leipzig_n": 188,
+    "caption_n": 0
+   },
+   {
+    "word": "科学家",
+    "n_hosts": 234,
+    "leipzig_n": 234,
+    "caption_n": 0
+   },
+   {
+    "word": "紐森",
+    "n_hosts": 193,
+    "leipzig_n": 193,
+    "caption_n": 0
+   },
+   {
+    "word": "经典之作",
+    "n_hosts": 2,
+    "leipzig_n": 2,
+    "caption_n": 0
+   },
+   {
+    "word": "经费",
+    "n_hosts": 44,
+    "leipzig_n": 44,
+    "caption_n": 0
+   },
+   {
+    "word": "罪責屬",
+    "n_hosts": 1,
+    "leipzig_n": 1,
+    "caption_n": 0
+   },
+   {
+    "word": "羊们",
+    "n_hosts": 1,
+    "leipzig_n": 1,
+    "caption_n": 0
+   },
+   {
+    "word": "老百姓",
+    "n_hosts": 346,
+    "leipzig_n": 346,
+    "caption_n": 0
+   },
+   {
+    "word": "腐败现象",
+    "n_hosts": 22,
+    "leipzig_n": 22,
+    "caption_n": 0
+   },
+   {
+    "word": "蔓延到",
+    "n_hosts": 16,
+    "leipzig_n": 16,
+    "caption_n": 0
+   },
+   {
+    "word": "蜂拥",
+    "n_hosts": 7,
+    "leipzig_n": 7,
+    "caption_n": 0
+   },
+   {
+    "word": "表现",
+    "n_hosts": 611,
+    "leipzig_n": 609,
+    "caption_n": 2
+   },
+   {
+    "word": "表示",
+    "n_hosts": 6392,
+    "leipzig_n": 6389,
+    "caption_n": 3
+   },
+   {
+    "word": "规定",
+    "n_hosts": 464,
+    "leipzig_n": 464,
+    "caption_n": 0
+   },
+   {
+    "word": "言之凿凿",
+    "n_hosts": 2,
+    "leipzig_n": 2,
+    "caption_n": 0
+   },
+   {
+    "word": "記錄",
+    "n_hosts": 132,
+    "leipzig_n": 132,
+    "caption_n": 0
+   },
+   {
+    "word": "設計",
+    "n_hosts": 226,
+    "leipzig_n": 226,
+    "caption_n": 0
+   },
+   {
+    "word": "警方",
+    "n_hosts": 2310,
+    "leipzig_n": 2310,
+    "caption_n": 0
+   },
+   {
+    "word": "诉衷情",
+    "n_hosts": 3,
+    "leipzig_n": 3,
+    "caption_n": 0
+   },
+   {
+    "word": "说话",
+    "n_hosts": 203,
+    "leipzig_n": 188,
+    "caption_n": 15
+   },
+   {
+    "word": "诸事",
+    "n_hosts": 3,
+    "leipzig_n": 3,
+    "caption_n": 0
+   },
+   {
+    "word": "資料",
+    "n_hosts": 353,
+    "leipzig_n": 353,
+    "caption_n": 0
+   },
+   {
+    "word": "身份",
+    "n_hosts": 472,
+    "leipzig_n": 472,
+    "caption_n": 0
+   },
+   {
+    "word": "还有",
+    "n_hosts": 1555,
+    "leipzig_n": 1290,
+    "caption_n": 265
+   },
+   {
+    "word": "進行",
+    "n_hosts": 1915,
+    "leipzig_n": 1915,
+    "caption_n": 0
+   },
+   {
+    "word": "過度",
+    "n_hosts": 47,
+    "leipzig_n": 47,
+    "caption_n": 0
+   },
+   {
+    "word": "鑼鼓聲",
+    "n_hosts": 1,
+    "leipzig_n": 1,
+    "caption_n": 0
+   },
+   {
+    "word": "铺张浪费",
+    "n_hosts": 30,
+    "leipzig_n": 30,
+    "caption_n": 0
+   },
+   {
+    "word": "需求",
+    "n_hosts": 705,
+    "leipzig_n": 705,
+    "caption_n": 0
+   },
+   {
+    "word": "需要",
+    "n_hosts": 3819,
+    "leipzig_n": 3816,
+    "caption_n": 3
+   },
+   {
+    "word": "顯示",
+    "n_hosts": 827,
+    "leipzig_n": 827,
+    "caption_n": 0
+   },
+   {
+    "word": "项目",
+    "n_hosts": 544,
+    "leipzig_n": 544,
+    "caption_n": 0
+   }
+  ]
+ },
+ "provenance": {
+  "pools_v4_sha256": "b92e79d7c5c8c50b16410a1817f0ada0fba87d2e0a42e692a2cb249803ca6546",
+  "witness_zh_sha256": "06bfcee4f4a03838bcde438bcbfdce2abe21e315b7e410b3b329487ceba727c6",
+  "moe_color_sense_sha256": "29375cdd6c8494b0ad3aef5ea3703ad6fd9c158662f2c6ec1b5b97c5d01c3cca",
+  "norms_3000_sha256": "e0d5cc9eb28b1523bfad008f2a718a215b7f576bf17a4711805e541c1fa2b65d",
+  "norms_zhong_sha256": "89535122b1478d1b8c987ae0a1b2cd6388a4df7eef2de9556338db2da5dc1b9b",
+  "norms_provenance_file": "lexical_resources/impression_norms/PROVENANCE.md",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "hosts_captions_ensembles": "v3 scorer law, verbatim reuse (word_latent_v3_referent_color_53.py); 波黑 drift check asserted"
+ }
+}

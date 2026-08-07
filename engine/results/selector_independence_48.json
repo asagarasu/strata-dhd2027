@@ -1,0 +1,15 @@
+{
+ "test": "selector_independence_silent_captions",
+ "axis": "physical_ruler_ADOPTED_48",
+ "auc": 0.605,
+ "ci95": [
+  0.548,
+  0.661
+ ],
+ "n": [
+  200,
+  200
+ ],
+ "caveat": "silent captions differ in scene content; positive = darkness-OR-content",
+ "status": "SUPERSEDED \u2014 no generating script, caption-level CI over image clusters, no image-disjointness; replaced by scene_leakage diagnostic (queued after axis regen)"
+}

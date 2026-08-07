@@ -1,0 +1,2 @@
+| consensus_ghost_boards_v2_60.py | 551e1187cf5ca035… (full sha at commit) | 07-27 | Consensus v2: THREE-VALUED source gate (her ruling — uncovered = "?", never "not stated"); same 106 rows classed 19 VERIFIED-ABSENT / 87 UNKNOWN-SOURCE(?); v1 superseded with pointers | pure reshape; no encoder; guarded main |
+| linegrain_census_v44_60.py | … | 07-28 | Findings v4.4: the fr-colour-era census (wrapper over v4.3 law; boards re-run with language-gated fr boolean) | guarded main |

@@ -1,0 +1,1332 @@
+{
+ "what": "word-grain corpus breadth pass — board invitation (#56) — MEASUREMENT",
+ "board": "invitation",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "renderings": [
+  "zh:dai_wangshu",
+  "zh:guo_hongan",
+  "zh:qian_chunqi"
+ ],
+ "per_rendering": {
+  "zh:dai_wangshu": [
+   {
+    "word": "华丽",
+    "line": 21,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.00037956014032098327,
+    "z": -0.08824752642939707,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 3,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 23,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "朱玉",
+    "line": 36,
+    "source": "written_colour_fire",
+    "carriers": [
+     "朱"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "黄金",
+    "line": 36,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄",
+     "金"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ],
+  "zh:guo_hongan": [
+   {
+    "word": "豪华",
+    "line": 14,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 28,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "金衣",
+    "line": 35,
+    "source": "written_colour_fire",
+    "carriers": [
+     "金"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "紫裳",
+    "line": 35,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紫"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "豪华",
+    "line": 41,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ],
+  "zh:qian_chunqi": [
+   {
+    "word": "豪华",
+    "line": 14,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 23,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 28,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "漂流",
+    "line": 31,
+    "source": "written_colour_fire",
+    "carriers": [
+     "漂"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "紫蓝",
+    "line": 38,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紫",
+     "蓝"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "豪华",
+    "line": 42,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ]
+ },
+ "measurement_items": {
+  "华丽": {
+   "word": "华丽",
+   "role": "measurement",
+   "n_hosts": 43,
+   "leipzig_n": 24,
+   "caption_n": 19,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "壮丽",
+    "宏丽",
+    "富丽",
+    "瑰丽",
+    "绚丽"
+   ],
+   "candidate_counts": {
+    "壮丽": {
+     "leipzig": 23,
+     "caption": 0,
+     "total": 23
+    },
+    "宏丽": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "富丽": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "瑰丽": {
+     "leipzig": 5,
+     "caption": 1,
+     "total": 6
+    },
+    "绚丽": {
+     "leipzig": 20,
+     "caption": 0,
+     "total": 20
+    }
+   },
+   "admitted": [
+    "壮丽",
+    "绚丽",
+    "瑰丽"
+   ],
+   "admitted_by_fmin": {
+    "3": 4,
+    "5": 3,
+    "10": 2
+   },
+   "attestation_starved": false,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "scored",
+   "tier": "primary",
+   "n_used": 20,
+   "flagged_thin": false,
+   "n_admitted": 3,
+   "host_mix_used": {
+    "leipzig": 20,
+    "caption": 0
+   },
+   "ensemble_capped": false,
+   "candidates": [
+    "壮丽",
+    "绚丽",
+    "瑰丽"
+   ],
+   "charge": -0.00037956014032098327,
+   "per_host": [
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.001364147130713242,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 16874
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.002064110034496247,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 23770
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0007786751059529317,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 33389
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.00013202949358478294,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 37066
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.00048786130739352646,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 37227
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0008880637748513442,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 40877
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0027091989673754674,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 52975
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0012067724712798373,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 55028
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0008697563869475202,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 65615
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0006236751547508794,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 66848
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.00010296186268889812,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 69342
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0025417011587105937,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 80160
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.00044472602245465565,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 84131
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.0018235021331464412,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 90937
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.004415351671076838,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 119390
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0003143942581873109,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 123862
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0011224706962809725,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 135795
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": 0.002902140228177825,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 138554
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.0008074367683859138,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 155683
+    },
+    {
+     "provenance": "leipzig",
+     "ens_median_delta": -0.004472222134641542,
+     "n_occurrences_replaced": 1,
+     "n_positions": 1,
+     "position_occurrence_mismatch": false,
+     "line": 166197
+    }
+   ],
+   "realized_by_print": false,
+   "prior": 0.8,
+   "band": "recoverable",
+   "z": -0.08824752642939707,
+   "call": false
+  },
+  "朱玉": {
+   "word": "朱玉",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "漂流": {
+   "word": "漂流",
+   "role": "measurement",
+   "n_hosts": 16,
+   "leipzig_n": 14,
+   "caption_n": 2,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "车流"
+   ],
+   "candidate_counts": {
+    "车流": {
+     "leipzig": 4,
+     "caption": 8,
+     "total": 12
+    }
+   },
+   "admitted": [
+    "车流"
+   ],
+   "admitted_by_fmin": {
+    "3": 1,
+    "5": 1,
+    "10": 1
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "attestation_starved",
+   "tier": "primary",
+   "admitted_n": 1,
+   "raw_n": 1
+  },
+  "紫蓝": {
+   "word": "紫蓝",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "紫裳": {
+   "word": "紫裳",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "豪华": {
+   "word": "豪华",
+   "role": "measurement",
+   "n_hosts": 79,
+   "leipzig_n": 70,
+   "caption_n": 9,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "排场",
+    "繁丽",
+    "花哨"
+   ],
+   "candidate_counts": {
+    "排场": {
+     "leipzig": 7,
+     "caption": 0,
+     "total": 7
+    },
+    "繁丽": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "花哨": {
+     "leipzig": 1,
+     "caption": 2,
+     "total": 3
+    }
+   },
+   "admitted": [
+    "排场"
+   ],
+   "admitted_by_fmin": {
+    "3": 2,
+    "5": 1,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "attestation_starved",
+   "tier": "fallback",
+   "admitted_n": 1,
+   "raw_n": 3
+  },
+  "金衣": {
+   "word": "金衣",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "黄金": {
+   "word": "黄金",
+   "role": "measurement",
+   "n_hosts": 66,
+   "leipzig_n": 66,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [
+    "亚铜",
+    "塑钢",
+    "带钢",
+    "废铁",
+    "康铜",
+    "槽钢",
+    "母材",
+    "炮铜",
+    "玛钢",
+    "生铁",
+    "矽钢",
+    "硅钢",
+    "碳钢",
+    "磁石",
+    "磁钢",
+    "磁铁",
+    "角材",
+    "角钢",
+    "钢水",
+    "钢种",
+    "钢精",
+    "钢铁",
+    "钴钢",
+    "铁屑",
+    "铁水",
+    "铜板",
+    "铝铜",
+    "铣铁",
+    "铬钢",
+    "铬铁",
+    "铸铁",
+    "锰钢",
+    "锰铁",
+    "陨铁",
+    "马铁"
+   ],
+   "candidate_counts": {
+    "亚铜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "塑钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "带钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "废铁": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "康铜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "槽钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "母材": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "炮铜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "玛钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "生铁": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "矽钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "硅钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "碳钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "磁石": {
+     "leipzig": 2,
+     "caption": 0,
+     "total": 2
+    },
+    "磁钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "磁铁": {
+     "leipzig": 6,
+     "caption": 2,
+     "total": 8
+    },
+    "角材": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "角钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "钢水": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "钢种": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "钢精": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "钢铁": {
+     "leipzig": 36,
+     "caption": 2,
+     "total": 38
+    },
+    "钴钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "铁屑": {
+     "leipzig": 3,
+     "caption": 0,
+     "total": 3
+    },
+    "铁水": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "铜板": {
+     "leipzig": 1,
+     "caption": 0,
+     "total": 1
+    },
+    "铝铜": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "铣铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "铬钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "铬铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "铸铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "锰钢": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "锰铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "陨铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    },
+    "马铁": {
+     "leipzig": 0,
+     "caption": 0,
+     "total": 0
+    }
+   },
+   "admitted": [
+    "钢铁",
+    "磁铁"
+   ],
+   "admitted_by_fmin": {
+    "3": 4,
+    "5": 2,
+    "10": 1
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "attestation_starved",
+   "tier": "primary",
+   "admitted_n": 2,
+   "raw_n": 35
+  }
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "null_cross_check": {
+  "ref": {
+   "n_control": 61,
+   "mean": -6.420571089658418e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "mine": {
+   "n_control": 61,
+   "mean": -6.420571089658448e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "ref_source": "committed_55",
+  "d_mean": 2.981555974335137e-19,
+  "d_sd": 0.0,
+  "n_equal": true
+ },
+ "invalid_controls": [
+  {
+   "word": "一场",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "七八年",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "人們",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "低頭不語",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "做不了",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "兩個",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "六名",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "冲锋在前",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刑事法律",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刻上",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "啥时候",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大不相同",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大巴车",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "官員",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "客量",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "密切接触",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "數據",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "新冠",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "紐森",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经典之作",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经费",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "罪責屬",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "羊们",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "腐败现象",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "蔓延到",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "記錄",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "設計",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诉衷情",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诸事",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "資料",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "还有",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "進行",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "過度",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "鑼鼓聲",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "顯示",
+   "reasons": [
+    "attestation_starved"
+   ]
+  }
+ ],
+ "certificate_drift": 0.0,
+ "n_texts": 35258,
+ "addendum": {
+  "file": "host_frames_invitation_addendum_56.json",
+  "truncation": {
+   "applied": false,
+   "reason": null,
+   "caps": {}
+  },
+  "extraction_validation": {
+   "青春": 201,
+   "黑夜": 29
+  }
+ },
+ "provenance": {
+  "machinery": "word_latent_v5_referent_color_54.py imported verbatim; word_grain_referent_pass_55.py helpers imported verbatim",
+  "axis_npz": "color_salience_axis_48.npz",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "attempt4_pool_sha256": "941224b32b8904a6b5186bbfe7997e6d3c9c8aac1c7068b7959a3dba779e44c1",
+  "latent_scores_sha256": "2663892a3fceb52e0f4d5b51ffb2bc6eb095f824da030587f66c13e1ba2a2df9",
+  "addendum_sha256": "e42024eca18431f7951c99ae8f1340db31ea4fa92cccf84ad8192bd475303de6",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32,
+  "f_min": 5,
+  "min_nat": 3,
+  "z_floor": 1.5
+ }
+}

@@ -1,0 +1,1479 @@
+{
+ "abricot": {
+  "flag_meta": false,
+  "gloss_head": "De couleur abricot, à dominante orange rosé doux. -",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "absinthe": {
+  "flag_meta": false,
+  "gloss_head": "De couleur absinthe, vert-jaune comme la liqueur, plus soutenu que le vert anis.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "acajou": {
+  "flag_meta": false,
+  "gloss_head": "De couleur acajou, brun-roux soutenu, de la couleur du bois d'acajou.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "acide": {
+  "flag_meta": true,
+  "gloss_head": "Qualifie une couleur qui agace la vue.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "albe": {
+  "flag_meta": false,
+  "gloss_head": "De couleur blanche et pure.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "albuginé": {
+  "flag_meta": false,
+  "gloss_head": "Qui est blanc, en parlant de certains tissus, de certaines membranes.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "amadou": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de cette substance.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "amande": {
+  "flag_meta": false,
+  "gloss_head": "D'un vert doux tirant légèrement sur le jaune.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "amarante": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'amarante, rouge-pourpre plus clair que le bourgogne.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ambre": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'ambre, variant du jaune citron au brun sombre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ambré": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la robe d'un vin blanc, indiquant une meilleure maturité que la couleur «&amp;nbsp;vieil or&amp;nbsp;».",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "améthyste": {
+  "flag_meta": false,
+  "gloss_head": "De couleur violette caractéristique de la pierre du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "anthracite": {
+  "flag_meta": false,
+  "gloss_head": "De couleur anthracite, gris très foncé, du nom de la variété de charbon du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ardent": {
+  "flag_meta": false,
+  "gloss_head": "Couleur des cheveux ou du poil tirant sur le roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "ardoise": {
+  "flag_meta": false,
+  "gloss_head": "Gris foncé, allant du neutre au bleuté. -  Gris ardoise -  Bleu ardoise.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "argent": {
+  "flag_meta": false,
+  "gloss_head": "De couleur argent, gris neutre clair à très clair, induisant souvent une idée de brillance.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "argile": {
+  "flag_meta": false,
+  "gloss_head": "De couleur argile, gris neutre très pâle, tirant sur le blanc.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "atroce": {
+  "flag_meta": false,
+  "gloss_head": "Noir, sombre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "aubain": {
+  "flag_meta": false,
+  "gloss_head": "blanc.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "auburn": {
+  "flag_meta": false,
+  "gloss_head": "De couleur châtain-roux à reflets cuivrés le plus souvent utilisé pour les cheveux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "avelin": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'aveline, couleur noisette.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "avocat": {
+  "flag_meta": false,
+  "gloss_head": "De couleur avocat, vert sombre soutenu tirant sur le jaune.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "azur": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu clair intense, de la couleur du ciel pur.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "azuréen": {
+  "flag_meta": false,
+  "gloss_head": "D'un bleu d'azur.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "balais": {
+  "flag_meta": false,
+  "gloss_head": "De couleur de vin paillet, en parlant d'un rubis.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "banane": {
+  "flag_meta": false,
+  "gloss_head": "De couleur banane, d'un vert bruni profond.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "basané": {
+  "flag_meta": false,
+  "gloss_head": "Qui est de teinte noirâtre, en parlant de la couleur de la peau.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "beige": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur entre le blanc cassé et le brun très clair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "beurre": {
+  "flag_meta": false,
+  "gloss_head": "De couleur beurre, d'un jaune soutenu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "bilieux": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur de la bile.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "bisque": {
+  "flag_meta": false,
+  "gloss_head": "De couleur bisque, rose orangé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "bistre": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la suie détrempée.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "bistré": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur du bistre, jaune rouille.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "blanc": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur comme celle des os, de la craie ou de l'écume entre autre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "bleu": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du ciel en plein jour quand il est dégagé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "blond": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur proche du jaune, entre le doré et le châtain clair. Il se dit particulièrement par rapport à la couleur de",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "briqueté": {
+  "flag_meta": false,
+  "gloss_head": "Rougeâtre, de couleur de brique.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "brun": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du marron clair tirant sur le noir, souvent en parlant des cheveux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "cafeté": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur café.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "café": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur des grains de café.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "canard": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur bleu moyen soutenu et teinté de vert.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "cannelle": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la cannelle.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "caramel": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur roux clair rappelant celle du caramel.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "carmin": {
+  "flag_meta": false,
+  "gloss_head": "Rouge profond, très légèrement violacé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "carminé": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur du carmin.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "carné": {
+  "flag_meta": false,
+  "gloss_head": "De couleur chair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "cavecé": {
+  "flag_meta": false,
+  "gloss_head": "Dont la tête n'est pas de la couleur du reste du corps, en parlant d'un cheval.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "cendreux": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la cendre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "cendré": {
+  "flag_meta": false,
+  "gloss_head": "Qui est de la couleur de la cendre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "cerise": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur rouge vif à profond de la cerise.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "chair": {
+  "flag_meta": false,
+  "gloss_head": "Couleur rouge pâle qui approche de la couleur de la chair de l'homme.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "changeant": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur qui change selon les différentes expositions, comme la gorge d'un pigeon.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "charron": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur bleu profond tirant légèrement sur le vert.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "chartreux": {
+  "flag_meta": false,
+  "gloss_head": "D'un gris avec des reflets bleus.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "chloranthe": {
+  "flag_meta": false,
+  "gloss_head": "Vert pâle, affecté de chloranthie.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "chromophore": {
+  "flag_meta": false,
+  "gloss_head": "Se dit d'un ensemble d'atomes à l'origine de la couleur d'une entité moléculaire et, par extension et plus généralement,",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "châtain": {
+  "flag_meta": false,
+  "gloss_head": "De couleur châtain, souvent en parlant des cheveux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "citron": {
+  "flag_meta": false,
+  "gloss_head": "De couleur jaune vif clair, de la couleur du fruit du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "clairet": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur rouge clair, en parlant du vin.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "cobalt": {
+  "flag_meta": false,
+  "gloss_head": "Bleu profond tirant légèrement sur le violet.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "cochenille": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la teinture.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "corallin": {
+  "flag_meta": false,
+  "gloss_head": "Qui est rouge comme le corail.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "cramoisi": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur rouge foncé, tirant sur le violet.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "crayeux": {
+  "flag_meta": false,
+  "gloss_head": "Qui rappelle la texture et la couleur de la craie.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "crocique": {
+  "flag_meta": false,
+  "gloss_head": "De couleur jaune safran.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "cuivré": {
+  "flag_meta": false,
+  "gloss_head": "De couleur cuivre. Qui a la couleur du cuivre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "cyanoleuque": {
+  "flag_meta": false,
+  "gloss_head": "Blanc-bleu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "cyanomèle": {
+  "flag_meta": false,
+  "gloss_head": "Qui est bleu et noir.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "cyanopyrrhe": {
+  "flag_meta": false,
+  "gloss_head": "Bleu-roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "cyanotique": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur des individus cyanosés.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "céladon": {
+  "flag_meta": false,
+  "gloss_head": "Vert tendre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "doré": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la robe d'un vin blanc, indiquant une meilleure maturité que la couleur « légèrement doré » ; mais une maturi",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "délavé": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur faible et blafarde.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "empire": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert sombre et soutenu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "farineux": {
+  "flag_meta": false,
+  "gloss_head": "Qui est blanc de farine.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "fauve": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur ocre orangé à roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "feldgrau": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur gris-vert.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "feu": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur des braises, rouge vif à rouge orangé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "flamboyant": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur chaude, par exemple rouge vif; qui évoque les flammes.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "flashy": {
+  "flag_meta": false,
+  "gloss_head": "Se dit d'une couleur très vive, acidulée.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "fluo": {
+  "flag_meta": false,
+  "gloss_head": "De couleur fluorescente.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "fraise": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du fruit du même nom, rouge moyen doux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "framboise": {
+  "flag_meta": false,
+  "gloss_head": "Couleur du fruit du même nom entre le rouge moyen et pourpre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "fuchsia": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la plante fuchsia, entre rose bonbon et pourpre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "fuligineux": {
+  "flag_meta": false,
+  "gloss_head": "De couleur noirâtre, qui a les apparences de la suie.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "férault": {
+  "flag_meta": false,
+  "gloss_head": "Rougeâtre, couleur du fer.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "garance": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur de la garance.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "gazon": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du vert de l'herbe.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "givré": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu clair doux voire cyan moyen un peu fade.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "glauque": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert moyen tirant sur le bleu comme la mer.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "grenadine": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du sirop grenadine, rouge clair très légèrement rosé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "grenat": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la robe d'un vin rouge, indiquant une meilleure maturité que la couleur « violette » ; mais une maturité moin",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "gris": {
+  "flag_meta": false,
+  "gloss_head": "De couleur grise, entre le blanc et le noir.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "grisailleux": {
+  "flag_meta": false,
+  "gloss_head": "Grisâtre, gris, couleur de la grisaille.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "grisouille": {
+  "flag_meta": false,
+  "gloss_head": "Grisâtre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "grège": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur beige clair de la soie grège.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "guède": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu pastel extraite de la plante du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "hasardé": {
+  "flag_meta": false,
+  "gloss_head": "En parlant de la couleur des cheveux, de la barbe, qui tire sur le roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "hépatique": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur semblable à la couleur du foie sain.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "ianthin": {
+  "flag_meta": false,
+  "gloss_head": "Violet.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "ictérode": {
+  "flag_meta": false,
+  "gloss_head": "Jaune.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "indigo": {
+  "flag_meta": false,
+  "gloss_head": "De couleur bleu foncé violacé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "isabelle": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'isabelle, jaune clair tirant sur le beige.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ivoire": {
+  "flag_meta": false,
+  "gloss_head": "Relatif à la couleur du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "jade": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la pierre de jade, vert doux et laiteux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "jaune": {
+  "flag_meta": false,
+  "gloss_head": "Désigne une couleur du spectre située entre le vert et l'orange.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "kaki": {
+  "flag_meta": false,
+  "gloss_head": "De couleur jaunâtre tirant vers le vert ou le brun.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "klein": {
+  "flag_meta": false,
+  "gloss_head": "Bleu très profond.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "laiteux": {
+  "flag_meta": false,
+  "gloss_head": "Qui a l'apparence ou la couleur du lait.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "laqueux": {
+  "flag_meta": false,
+  "gloss_head": "Qui est de la nature ou de la couleur de la laque.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "lavandé": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la lavande, bleuté.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "leucoderme": {
+  "flag_meta": false,
+  "gloss_head": "Blanc de peau.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "lilas": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur bleue mêlée de rouge, qui est le plus ordinairement celle du lilas.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "louvet": {
+  "flag_meta": false,
+  "gloss_head": "Qui est de la couleur du poil du loup, en parlant d'un cheval.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "léopard": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur et avec les dessins de la robe du léopard.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "marron": {
+  "flag_meta": false,
+  "gloss_head": "Brun, de la couleur du fruit mûr du châtaignier.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "mastic": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur gris beige du mastic pour le vitrier.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "mauve": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de la fleur du même nom, violet pâle.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "melon": {
+  "flag_meta": false,
+  "gloss_head": "Couleur orange jaunâtre de la couleur de la chair du melon.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "mimosa": {
+  "flag_meta": false,
+  "gloss_head": "Désigne une couleur jaune clair et doux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "mordoré": {
+  "flag_meta": false,
+  "gloss_head": "De couleur brun chaud avec des reflets dorés.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "morne": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur sombre, obscure, qui n'a ni vivacité ni éclat.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "moutarde": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur jaune soutenu très légèrement verdâtre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "mélanie": {
+  "flag_meta": false,
+  "gloss_head": "Noire, qualificatif, dans les noms scientifiques, de plusieurs espèces ou genres.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "métis": {
+  "flag_meta": false,
+  "gloss_head": "D'un Blanc et d'une Noire, ou d'un Noir et d'une Blanche.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "nankin": {
+  "flag_meta": false,
+  "gloss_head": "Désigne une couleur jaune chamois clair et abricot.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "noisette": {
+  "flag_meta": false,
+  "gloss_head": "De couleur brun orange doux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "nourri": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur bien empâtée, un trait qui n'est pas trop fin.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "nuit": {
+  "flag_meta": false,
+  "gloss_head": "Désigne une couleur bleu profond tirant légèrement sur le violet.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "ocre": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'ocre brun de jaune à rouge.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "opaline": {
+  "flag_meta": false,
+  "gloss_head": "De couleur vert moyen, pâle et laiteux, tirant légèrement sur le bleu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "or": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du métal, jaune orangé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "outremer": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu soutenu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "paille": {
+  "flag_meta": false,
+  "gloss_head": "D'un jaune clair et lumineux. -",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "paillé": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur de la paille.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "parme": {
+  "flag_meta": false,
+  "gloss_head": "Mauve rosé pâle, de la couleur des violettes de Parme.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "pastel": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur ou teinte assez claire et douce.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "phtalo": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur issue du colorant synthétique appelé &quot;phtalocyanine&quot;.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "pie": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la robe des chevaux et des bovins, caractérisée par de larges taches noires et blanches ou fauves et blanches",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "pistache": {
+  "flag_meta": false,
+  "gloss_head": "De couleur vert-jaune pâle.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "platine": {
+  "flag_meta": false,
+  "gloss_head": "De couleur blond pâle à blanc argenté.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "poireau": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert doux des feuilles des poireaux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ponceau": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur rouge du coquelicot.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "porracé": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur verte du poireau.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "pourpre": {
+  "flag_meta": false,
+  "gloss_head": "De couleur rouge violacé intense.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "pourprin": {
+  "flag_meta": false,
+  "gloss_head": "De couleur de la pourpre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "prairie": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert herbe clair et vif.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "printemps": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert lumineux et tendre comme le vert émeraude.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "prune": {
+  "flag_meta": false,
+  "gloss_head": "De couleur violet tirant sur le bordeaux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "prés": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert des prairies.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "puce": {
+  "flag_meta": false,
+  "gloss_head": "De couleur brun-rouge foncé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "purpurin": {
+  "flag_meta": false,
+  "gloss_head": "Qui approche de la couleur de la pourpre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "pétrole": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur bleu profond tirant sur le vert.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "pêche": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur rose pâle que peut prendre le fruit.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "roi": {
+  "flag_meta": false,
+  "gloss_head": "Se dit d'une couleur d'un bleu moyen soutenu. Il s'agit du bleu du drapeau français.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "rose": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du même nom. -",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "rosé": {
+  "flag_meta": false,
+  "gloss_head": "De couleur rose.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "rouge": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du sang, du coquelicot, de la fraise, etc., c'est-à-dire d'une couleur de longueur d'onde comprise entre 6",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "rouille": {
+  "flag_meta": false,
+  "gloss_head": "De couleur brun roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "rouilleux": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur de la rouille.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "rouquin": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur roux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "rousseau": {
+  "flag_meta": false,
+  "gloss_head": "De couleur rousse.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "roussot": {
+  "flag_meta": false,
+  "gloss_head": "Roux, en parlant d'une personne.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "roux": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur proche de l'orange, souvent en parlant des cheveux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "rubis": {
+  "flag_meta": false,
+  "gloss_head": "Couleur de la robe d'un vin rouge, indiquant une meilleure maturité que la couleur « pourpre » ; mais une maturité moind",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "rutilant": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie la couleur des vapeurs qu'exhale l'oxyde nitrique.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "sable": {
+  "flag_meta": false,
+  "gloss_head": "De couleur beige clair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "safre": {
+  "flag_meta": false,
+  "gloss_head": "De couleur bleu saphir.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "sang": {
+  "flag_meta": false,
+  "gloss_head": "De couleur rouge sombre et brillant.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "sanglant": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur du sang, sanguin.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "saphir": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur bleu intense et profond.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "sapin": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert profond et sombre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "sarcelle": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu vert moyen.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "sauge": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur vert-gris doux.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "saur": {
+  "flag_meta": false,
+  "gloss_head": "jaune-brun, de couleur obtenue par la fumée.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "scarlatiniforme": {
+  "flag_meta": false,
+  "gloss_head": "Rouge vif, avec desquamation secondaire.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "smaragdin": {
+  "flag_meta": false,
+  "gloss_head": "Qui est vert émeraude.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "soufre": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur jaune clair du soufre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "souris": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur gris doux de l'animal.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "soutenu": {
+  "flag_meta": false,
+  "gloss_head": "Se dit d'une couleur franche et solide.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "sépia": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur brun clair un peu fade , à l'origine brun très foncé, mais désigne désormais la sépia ayant pâli avec le t",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "tango": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur tango.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "taupe": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur gris foncé tirant légèrement sur le brun.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "tendre": {
+  "flag_meta": false,
+  "gloss_head": "Qualifie une couleur délicate, qui ne fatigue pas la vue.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "terreux": {
+  "flag_meta": false,
+  "gloss_head": "Qui a la couleur de la terre, l'aspect de la terre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "thé": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur jaune rosé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "tilleul": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur jaune vert clair pâle.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "tomate": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur rouge vif légèrement orangé.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "tomette": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur rouge brique clair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "topaze": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur jaune pâle.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "turquoise": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur bleu ciel à bleu-vert de la pierre du même nom.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "tyriantin": {
+  "flag_meta": false,
+  "gloss_head": "De couleur pourpre violette.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "ultramarin": {
+  "flag_meta": false,
+  "gloss_head": "De couleur bleu outremer.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "vanille": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur beige clair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "verdet": {
+  "flag_meta": false,
+  "gloss_head": "Vert, vert clair.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "vermeil": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur rouge vif plus foncé que l'incarnat.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "vif": {
+  "flag_meta": false,
+  "gloss_head": "Se dit d'une couleur éclatante, brillante, pure, sans autre nuance.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 4
+ },
+ "violet": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur qui rappelle celle de la violette, de l'améthyste et constitue l'une des couleurs en limite du spectre vis",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "violine": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur violet pourpre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "viride": {
+  "flag_meta": false,
+  "gloss_head": "D'un vert un peu sombre, mais soutenu.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "xanthique": {
+  "flag_meta": false,
+  "gloss_head": "Jaune.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "xanthoprotéique": {
+  "flag_meta": false,
+  "gloss_head": "Jaune et protéique.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "zinzolin": {
+  "flag_meta": false,
+  "gloss_head": "D'une couleur violet rougeâtre et délicat.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 1
+ },
+ "âtre": {
+  "flag_meta": false,
+  "gloss_head": "Noir foncé et mat.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "ébène": {
+  "flag_meta": false,
+  "gloss_head": "De couleur noire pure.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "écarlate": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur du colorant du même nom, rouge vif.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "écrevisse": {
+  "flag_meta": false,
+  "gloss_head": "Couleur rouge vif, de la couleur d'une écrevisse cuite.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 5
+ },
+ "émeraude": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'émeraude, vert intense légèrement bleuté.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "érythroïde": {
+  "flag_meta": false,
+  "gloss_head": "Rougeâtre.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 3
+ },
+ "étain": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur de l'étain, blanc pur ou gris mat.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ },
+ "évêque": {
+  "flag_meta": false,
+  "gloss_head": "De la couleur violet des robes des évêques.",
+  "leg": "glawi",
+  "pos": "adjectif",
+  "sig": 0
+ }
+}

@@ -1,0 +1,329 @@
+{
+ "status": "MEASURED — HER REVIEW PENDING (latent-ruler review)",
+ "what": "word-grain corpus breadth pass — board invitation (#56) — MEASUREMENT",
+ "board": "invitation",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "renderings": [
+  "zh:dai_wangshu",
+  "zh:guo_hongan",
+  "zh:qian_chunqi"
+ ],
+ "per_rendering": {
+  "zh:dai_wangshu": [
+   {
+    "word": "华丽",
+    "line": 21,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "scored",
+    "reason": null,
+    "charge": -0.00037956014032098327,
+    "z": -0.08824752642939707,
+    "call": false,
+    "n_hosts_used": 20,
+    "n_admitted": 3,
+    "flagged_thin": false,
+    "realized_by_print": false,
+    "prior": 0.8,
+    "band": "recoverable",
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 23,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "朱玉",
+    "line": 36,
+    "source": "written_colour_fire",
+    "carriers": [
+     "朱"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "黄金",
+    "line": 36,
+    "source": "written_colour_fire",
+    "carriers": [
+     "黄",
+     "金"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ],
+  "zh:guo_hongan": [
+   {
+    "word": "豪华",
+    "line": 14,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 28,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "金衣",
+    "line": 35,
+    "source": "written_colour_fire",
+    "carriers": [
+     "金"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "紫裳",
+    "line": 35,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紫"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "豪华",
+    "line": 41,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ],
+  "zh:qian_chunqi": [
+   {
+    "word": "豪华",
+    "line": 14,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 23,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "豪华",
+    "line": 28,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "漂流",
+    "line": 31,
+    "source": "written_colour_fire",
+    "carriers": [
+     "漂"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   },
+   {
+    "word": "紫蓝",
+    "line": 38,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紫",
+     "蓝"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "豪华",
+    "line": 42,
+    "source": "written_colour_fire",
+    "carriers": [
+     "华"
+    ],
+    "status": "sit_out",
+    "reason": "attestation_starved",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": true
+   }
+  ]
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "full_record": "caesitas_proto/results/word_grain_referent_pass_invitation_56.json"
+}

@@ -1,0 +1,66 @@
+{
+  "source_greek": "τί δ᾽ ἔστι; δηλοῖς γάρ τι καλχαίνουσ᾽ ἔπος.",
+  "source_note": "Sophocles, Antigone ~line 20. καλχαίνω: literally 'to dye purple' (from κάλχη, the murex), conventionally 'to brood / be troubled'. Source: Caesitas SPEP 2025 handout, appendix Example 2.",
+  "test_items": [
+    {
+      "id": "hoelderlin",
+      "lang": "de",
+      "text": "Was ist's, du scheinst ein rotes Wort zu färben?",
+      "source": "Hölderlin, Antigonä (via handout; edition citation pending from the collaborator)"
+    },
+    {
+      "id": "hoelderlin_en_gloss",
+      "lang": "en",
+      "text": "What is it? You seem to be dyeing a red word.",
+      "source": "English gloss of Hölderlin's line (handout). Secondary test: does the effect survive re-translation?"
+    }
+  ],
+  "standards": [
+    {
+      "translator": "Jebb",
+      "lang": "en",
+      "text": "Hear what? It is clear that you are brooding on some dark news.",
+      "source": "Perseus Digital Library, fetched 2026-07-02"
+    },
+    {
+      "translator": "Donner",
+      "lang": "de",
+      "text": "Was hast du? Düster wogt in dir ein schweres Wort",
+      "source": "Donner 1868 (Winter, 6. Aufl.), line 20, extracted from Anneliese's scan 2026-07-03. NOTE: partial recovery of the SURGE strand (wogt), not the dye strand."
+    },
+    {
+      "translator": "Fagles",
+      "lang": "en",
+      "text": "What's the matter? Trouble, clearly ... you sound so dark, so grim.",
+      "source": "Penguin Three Theban Plays (EPUB), extracted 2026-07-03"
+    },
+    {
+      "translator": "Wyckoff",
+      "lang": "en",
+      "text": "What is it? Clearly some news has clouded you.",
+      "source": "Grene/Lattimore Complete Greek Tragedies, Sophocles I (PDF p.171; translator credit verified p.8), extracted 2026-07-03. NOTE: partial recovery of a visual-darkening strand (clouded)."
+    },
+    {
+      "translator": "Weinstock",
+      "lang": "de",
+      "text": "Was ist? Du sinnst, scheint mir, ein finsteres Wort.",
+      "source": "Kröners Taschenausgabe Bd. 163, 1957 (translator verified from volume's own catalog: 'Übersetzt, eingeleitet und erläutert von Prof. Dr. Heinrich Weinstock'), extracted from Anneliese's scan 2026-07-03. NOTE: darkness strand (finster), cognition verb (sinnst)."
+    }
+  ],
+  "standards_todo": "Lloyd-Jones: the Loeb PDF is mislabeled — indexes Antigone but lacks its text; get via OCR of another scan or page photo. Schadewaldt/Weinstock German welcome later. DATA HYGIENE RULE: no rendering enters this file from memory — fetched source or Anneliese/the collaborator-verified page photo only.",
+  "controls": [
+    {"id": "ctrl_schmieden", "lang": "de", "text": "Was ist's? Du scheinst ein kaltes Wort zu schmieden."},
+    {"id": "ctrl_kauen", "lang": "de", "text": "Was ist's? Du scheinst an einem harten Wort zu kauen."},
+    {"id": "ctrl_wiegen", "lang": "de", "text": "Was ist's? Du scheinst ein schweres Wort zu wiegen."},
+    {"id": "ctrl_begraben", "lang": "de", "text": "Was ist's? Du scheinst ein dunkles Wort zu begraben."},
+    {"id": "ctrl_fischen", "lang": "de", "text": "Was ist's? Du scheinst ein fernes Wort zu fischen."},
+    {"id": "ctrl_schleifen", "lang": "de", "text": "Was ist's? Du scheinst ein spitzes Wort zu schleifen."},
+    {"id": "ctrl_forge_en", "lang": "en", "text": "What is it? You seem to be forging some cold word."},
+    {"id": "ctrl_chew_en", "lang": "en", "text": "What is it? You seem to be chewing on some hard word."},
+    {"id": "ctrl_weigh_en", "lang": "en", "text": "What is it? You seem to be weighing some heavy word."},
+    {"id": "ctrl_bury_en", "lang": "en", "text": "What is it? You seem to be burying some dark news."},
+    {"id": "ctrl_fish_en", "lang": "en", "text": "What is it? You seem to be fishing for some distant word."},
+    {"id": "ctrl_sharpen_en", "lang": "en", "text": "What is it? You seem to be sharpening some pointed word."}
+  ],
+  "controls_note": "Candidate pool of concrete-but-non-color metaphor renderings, same estranging structure as Hölderlin's. Distance-matching happens empirically at runtime: controls within a tolerance band of Hölderlin's whitened distance-from-standard-cluster form the matched set."
+}

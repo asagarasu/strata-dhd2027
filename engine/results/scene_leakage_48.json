@@ -1,0 +1,23 @@
+{
+ "diagnostic": "scene_leakage",
+ "auc": 0.5792246819593309,
+ "ci95": [
+  0.5500489306269438,
+  0.6095229734416121
+ ],
+ "n_images": [
+  150,
+  150
+ ],
+ "n_captions": [
+  737,
+  745
+ ],
+ "image_disjoint_from_construction": true,
+ "excluded_images": 1429,
+ "axis_sha256_16": "4cffbb2dcb7a55a4",
+ "silent_regex": "\\b(dark|darkness|darkened|dim|dimly|night|nighttime|shadow|shadows|shadowy|silhouette|silhouetted|unlit|dusk|bright|brightly|sunny|sunlit|sunshine|sunlight|glare|glaring|daylight|floodlit|illuminated|well-lit|light|lights|lit|lighting)\\b",
+ "seed": 48,
+ "certificate": 0.0,
+ "reading": "measures scene-content association; high = leakage flag, not skill"
+}

@@ -1,0 +1,483 @@
+{
+ "registration": "cu_sound_discrimination_registration_55.md",
+ "exam": "SOUND discrimination -- one go; result stands",
+ "verdict": "PASS -- the sound meter discriminates: fire-rate(supported) 0.381 (8/21) vs fire-rate(disputed) 0.000 (0/10); one-sided 95% lower bound of the difference = 0.120 > 0",
+ "endpoint_pass": true,
+ "filter": {
+  "tier": "covered_unsupported",
+  "tier_n": 43,
+  "law": "norms.covered==True",
+  "hard_negatives": [
+   "亮",
+   "低",
+   "尖",
+   "感染",
+   "木",
+   "称",
+   "羽毛",
+   "花",
+   "镜子",
+   "高"
+  ],
+  "n_hard_negatives": 10,
+  "excluded_unknown": [
+   {
+    "word": "公交车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "剪刀",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "卡车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "山羊",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "巴士",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "打印机",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "摩托车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "杯子",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "榨汁机",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "水龙头",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "火车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "火鸡",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "牛",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "牦牛",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "狗",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "猪",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "玻璃",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "皮艇",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "直升机",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "相机",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "羽毛球",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "自行车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "蛇",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "轿车",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "锤子",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "门",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鸟",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鸡肉",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鸭子",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鸽子",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鹅",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "黄牛",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   },
+   {
+    "word": "鼠标",
+    "norms_covered": false,
+    "reason": "norms.covered!=True (norm-uncovered/unrated)"
+   }
+  ],
+  "n_excluded_unknown": 33
+ },
+ "primary": {
+  "rate_supported": 0.38095238095238093,
+  "n_supported": 21,
+  "x_supported": 8,
+  "rate_disputed": 0.0,
+  "n_disputed_scored": 10,
+  "x_disputed": 0,
+  "one_sided_95_lower_bound": 0.1198767970000334
+ },
+ "secondary": {
+  "charge_auc": 0.6047619047619047,
+  "auc_ci": [
+   0.3952380952380952,
+   0.8
+  ],
+  "ppv_at_nomination_prevalence": 1.0,
+  "ppv_nomination_counts": {
+   "supported": 21,
+   "disputed": 10
+  }
+ },
+ "disputed_rows": [
+  {
+   "word": "亮",
+   "status": "scored",
+   "charge": 0.00058554216342284,
+   "z": 0.2308712614247589,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "低",
+   "status": "scored",
+   "charge": -0.0014074188167251334,
+   "z": -0.12760940544312477,
+   "fire": false,
+   "n_hosts_used": 2
+  },
+  {
+   "word": "尖",
+   "status": "scored",
+   "charge": 0.004551148175085402,
+   "z": 0.9441782964127361,
+   "fire": false,
+   "n_hosts_used": 3
+  },
+  {
+   "word": "感染",
+   "status": "scored",
+   "charge": 0.0002659857868962742,
+   "z": 0.17339156959927096,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "木",
+   "status": "scored",
+   "charge": 0.006491353552212237,
+   "z": 1.2931696336146516,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "称",
+   "status": "scored",
+   "charge": -0.0012157931078853237,
+   "z": -0.09314103773387564,
+   "fire": false,
+   "n_hosts_used": 1
+  },
+  {
+   "word": "羽毛",
+   "status": "scored",
+   "charge": 0.004087184013958377,
+   "z": 0.8607234854353203,
+   "fire": false,
+   "n_hosts_used": 5
+  },
+  {
+   "word": "花",
+   "status": "scored",
+   "charge": 0.004609910462023305,
+   "z": 0.9547480687354322,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "镜子",
+   "status": "scored",
+   "charge": -0.021728081444520854,
+   "z": -3.782756075433937,
+   "fire": false,
+   "n_hosts_used": 20
+  },
+  {
+   "word": "高",
+   "status": "scored",
+   "charge": 0.005461686277584889,
+   "z": 1.1079598804196633,
+   "fire": false,
+   "n_hosts_used": 20
+  }
+ ],
+ "supported_rows": [
+  {
+   "word": "乌鸦",
+   "charge": -0.0183122759580797,
+   "z_thisnull": -3.1683435300465788,
+   "z_committed": -3.1683435300465788,
+   "fire": false
+  },
+  {
+   "word": "列车",
+   "charge": 0.007272825739423721,
+   "z_thisnull": 1.43373569265986,
+   "z_committed": 1.43373569265986,
+   "fire": false
+  },
+  {
+   "word": "动物",
+   "charge": -0.00041184067454873817,
+   "z_thisnull": 0.05146861960681076,
+   "z_committed": 0.0514686196068107,
+   "fire": false
+  },
+  {
+   "word": "听",
+   "charge": 0.06201953260410256,
+   "z_thisnull": 11.281211976020634,
+   "z_committed": 11.281211976020634,
+   "fire": true
+  },
+  {
+   "word": "国家",
+   "charge": -0.0010620413406368968,
+   "z_thisnull": -0.06548518465679264,
+   "z_committed": -0.06548518465679269,
+   "fire": false
+  },
+  {
+   "word": "地铁",
+   "charge": 0.006182859788260834,
+   "z_thisnull": 1.2376798115220629,
+   "z_committed": 1.2376798115220626,
+   "fire": false
+  },
+  {
+   "word": "故事",
+   "charge": -0.01665544778751652,
+   "z_thisnull": -2.870324214372428,
+   "z_committed": -2.870324214372428,
+   "fire": false
+  },
+  {
+   "word": "水",
+   "charge": -0.016110359462878907,
+   "z_thisnull": -2.772277324310646,
+   "z_committed": -2.772277324310646,
+   "fire": false
+  },
+  {
+   "word": "汽车",
+   "charge": -0.0017838634299118996,
+   "z_thisnull": -0.19532177779674448,
+   "z_committed": -0.1953217777967445,
+   "fire": false
+  },
+  {
+   "word": "河流",
+   "charge": -0.0017143149307205612,
+   "z_thisnull": -0.18281185280668252,
+   "z_committed": -0.18281185280668255,
+   "fire": false
+  },
+  {
+   "word": "浪花",
+   "charge": 0.018191382244611875,
+   "z_thisnull": 3.3976935705124935,
+   "z_committed": 3.3976935705124935,
+   "fire": true
+  },
+  {
+   "word": "海洋",
+   "charge": 0.010593196073858816,
+   "z_thisnull": 2.030981992809828,
+   "z_committed": 2.030981992809828,
+   "fire": true
+  },
+  {
+   "word": "瀑布",
+   "charge": 0.008549836412899914,
+   "z_thisnull": 1.6634359438866355,
+   "z_committed": 1.6634359438866355,
+   "fire": true
+  },
+  {
+   "word": "烟花",
+   "charge": 0.03398589083503749,
+   "z_thisnull": 6.238705526464535,
+   "z_committed": 6.238705526464535,
+   "fire": true
+  },
+  {
+   "word": "电",
+   "charge": -0.014618820590649008,
+   "z_thisnull": -2.5039891566533723,
+   "z_committed": -2.5039891566533723,
+   "fire": false
+  },
+  {
+   "word": "电话",
+   "charge": 0.021583015858447747,
+   "z_thisnull": 4.007758238998447,
+   "z_committed": 4.007758238998447,
+   "fire": true
+  },
+  {
+   "word": "老鼠",
+   "charge": 0.0071124160464921555,
+   "z_thisnull": 1.4048822558555376,
+   "z_committed": 1.4048822558555374,
+   "fire": false
+  },
+  {
+   "word": "蜜蜂",
+   "charge": 0.022796212041026477,
+   "z_thisnull": 4.225979960800598,
+   "z_committed": 4.225979960800598,
+   "fire": true
+  },
+  {
+   "word": "车",
+   "charge": -0.0137550200550972,
+   "z_thisnull": -2.348614417704667,
+   "z_committed": -2.348614417704667,
+   "fire": false
+  },
+  {
+   "word": "风",
+   "charge": 0.0038163051540299787,
+   "z_thisnull": 0.8119995840068366,
+   "z_committed": 0.8119995840068365,
+   "fire": false
+  },
+  {
+   "word": "飞机",
+   "charge": 0.008999265703787224,
+   "z_thisnull": 1.7442763183405703,
+   "z_committed": 1.7442763183405703,
+   "fire": true
+  }
+ ],
+ "null_stats": {
+  "n_control": 59,
+  "mean": -0.0006979787011114267,
+  "sd": 0.005559465723942289,
+  "degenerate": false
+ },
+ "committed_null": {
+  "n_control": 59,
+  "mean": -0.0006979787011114263,
+  "sd": 0.005559465723942289,
+  "degenerate": false
+ },
+ "null_vs_committed_dmean": 3.2526065174565133e-19,
+ "null_vs_committed_dsd": 0.0,
+ "post_assertions": {
+  "A1_disputed_norms_covered": true,
+  "A2_null_n_control_eq_committed_59": true
+ },
+ "certificate_drift": 0.0,
+ "n_texts": 37674,
+ "n_scorable": 69,
+ "provenance": {
+  "pool_json_sha256": "d89c9af39aae101cad2ce4222179899ca984a0f06ab2cc4a7d90884fec373b3e",
+  "sound_json_sha256": "bbc0f5fe37c729ad5b1956c8b273b8627dc4315db34e26e4b9a4eca11338cb44",
+  "host_frames_sha256": "76dc2e3307ab46d9f18c0068a366b061a0a9c39c81ad109572d233883da70f2b",
+  "axis_npz": "sound_salience_axis_v3_49.npz",
+  "projection_key": "axis",
+  "machinery": "word_latent_sound_referent_54, verbatim import",
+  "K": 20,
+  "seed": 48,
+  "z_floor": 1.5,
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  }
+ }
+}

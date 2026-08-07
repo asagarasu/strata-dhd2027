@@ -1,0 +1,42 @@
+# Minimal-pair probes, BRIGHT side (#48, 07-16). Line i pairs with twin_dark.txt line i.
+# Rule: each pair differs ONLY in illumination; content, valence, register held constant.
+The kitchen at noon smelled of coffee.
+She read her book by the open window in full daylight.
+The hospital corridor was flooded with morning sun.
+He walked home while the sky was still light.
+The classroom was bright when the students arrived.
+Sunlight filled the waiting room at the clinic.
+The stadium lights made the field as bright as day.
+The shop window glowed under the afternoon sun.
+Their faces were clearly lit at the breakfast table.
+The mountain trail was easy to see in the clear morning.
+The office was bright with fluorescent light.
+The ferry crossed the harbor under a blazing sky.
+The child's bedroom was sunny in the early afternoon.
+The interrogation room was harshly overlit.
+The parking garage was lit on every level.
+A bright lamp stood over the workbench.
+The old chapel was luminous at midday.
+The train platform gleamed under the summer sun.
+The market square was dazzling at ten in the morning.
+The prisoners exercised in the glaring yard.
+The library reading room was full of daylight.
+The bathroom mirror caught the strong morning light.
+The barn was bright with sun through the open doors.
+Her studio blazed with afternoon light.
+The operating theater was brilliantly illuminated.
+The playground shone in the cloudless morning.
+The staircase was clearly visible in the bright hallway.
+The fields stretched out under a white glaring sky.
+The kitchen table sat in a pool of sunlight.
+The waiting soldiers squinted in the fierce daylight.
+The garden path was plain to see at midday.
+The factory floor was lit end to end.
+The empty street lay bright in the early sun.
+The attic was surprisingly light with its new skylight.
+The pier stretched into the glittering bay.
+The funeral was held on a blindingly bright morning.
+The bus rolled through streets full of sunshine.
+The cellar door stood open to the noon glare.
+Her desk was bathed in clean white light.
+The village woke to a brilliant clear dawn.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" font-family="Helvetica,Arial,sans-serif">
+<rect width="860" height="360" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#0f172a">The 綠 crossing — 長干行 其一 L20 · COLOUR (EXHIBITION)</text>
+<text x="16" y="44" font-size="10.5" fill="#94a3b8">李白 長干行 其一 L20 一一生綠苔 · Ezra Pound 1915 «By the gate now, the moss is grown, the different mosses,» · 綠 states green; Pound names moss (no hue-word)</text>
+<rect x="16" y="58" width="828" height="84" fill="#fff1f1" stroke="#b22222" stroke-width="1.5"/>
+<text x="30" y="80" font-size="12" font-weight="bold" fill="#b22222">zh source (Wikisource, PD) — colour STATED (word)</text>
+<text x="30" y="102" font-size="15" fill="#334155">一一生綠苔。</text>
+<text x="30" y="124" font-size="10.5" fill="#3a7d2c">WORD colour fires: receipt <tspan font-weight="bold">綠</tspan> (綠 = green, in the 五色 term set) → colour STATED</text>
+<rect x="16" y="150" width="828" height="84" fill="#fff1f1" stroke="#b22222" stroke-width="1.5"/>
+<text x="30" y="172" font-size="12" font-weight="bold" fill="#334155">en Ezra Pound 1915 (Gutenberg #50155, PD) — colour STATED</text>
+<text x="30" y="194" font-size="13" fill="#334155">By the gate now, the moss is grown, the different mosses,</text>
+<text x="30" y="216" font-size="10.5" fill="#b91c1c">WORD colour ALSO fires: receipt <tspan font-weight="bold">moss</tspan> (moss = an xkcd colour name / a green) → colour STATED, not absent</text>
+<rect x="16" y="244" width="828" height="52" fill="#f7fff7" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="30" y="266" font-size="12" fill="#334155">verdict cell (zh stated-colour × en stated-colour): <tspan font-weight="bold" fill="#b91c1c">SURVIVAL</tspan></text>
+<text x="30" y="286" font-size="10" fill="#b91c1c">EXPECTED DEFORMATION — verdict_matches_expected = FALSE. Reported honestly: colour did not vanish, it re-landed on the colour-charged noun "moss".</text>
+<text x="30" y="316" font-size="9" fill="#94a3b8">EXHIBITION TIER · isolated from the 8-board census · certificate 0.00e+00 · REAL channels only, no board-local augment (COLOUR is fully wired)</text>
+<text x="30" y="334" font-size="9" fill="#94a3b8">ALIGNMENT DRAFT · PENDING-HER-BLESSING · 30↔30 lines (matched count, not a mechanical identity) · census/heat-map standing FLAGGED FOR HER REVIEW</text>
+<text x="30" y="352" font-size="9" fill="#94a3b8">honesty: verdict scored under full law (LAW.line_state / CELL15), NOT assumed — task rule REPORT what IS</text>
+</svg>

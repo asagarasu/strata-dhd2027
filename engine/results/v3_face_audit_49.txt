@@ -1,0 +1,94 @@
+# v3 face audit (certificate 0.0e+00) — seed 777, read-only
+
+## COCO top-10 (highest v3 sound-salience)
+ yes +0.150  A decorated neck tie saying "Reel Big Fish"
+ yes +0.139  a clock tower behind a building with a sky background
+ yes +0.104  a tall tower with a clock on top with buildings near by
+ no +0.099  A smiling man in a green suit and a hat.
+ no +0.089  the boy has on black sneakers and his trying to grab the frisbee
+ yes +0.079  There is a bird standing in the sand.
+ yes +0.077  Three giraffe drinking from a pond with brush in back.
+ no +0.077  the scissors sit in a containers with pens and markers
+ yes +0.076  A group of children standing and sitting beside each other.
+ yes +0.075  boys wearing red shirts running around after a soccer ball
+## COCO middle-10
+ yes -0.000  A building with a few sunflowers painted on it.
+ yes -0.000  A person sheering the wool from a sheep.
+ yes -0.000  A person with some skis standing in the snow.
+ yes -0.001  A very nicely decorated living room in someone's house.
+ yes -0.002  a woman holding a colorful striped umbrella
+ no -0.002  A city with skyscrapers, other buildings, and trains.
+ yes -0.003  There is a teapot and food on a plate.
+ yes -0.003  A view down into a living room and kitchen.
+ yes -0.004  A dinner plate with a colorful salad and grilled meat.
+ no -0.004  A group of women playing a game of soccer on field.
+## COCO bottom-10
+ no -0.080  A bus that is driving through the rain
+ no -0.080  Two zebras, one walking toward the camera, one walking away.
+ no -0.082  Woman demonstrating equipment used in conjunction with cow.
+ no -0.083  Two giraffes traveling across a rocky terrain with patchy grass.
+ yes -0.087  A white plane flies in the cloudy sky.
+ yes -0.087  A cute cat is placing its paw on the mirror.
+ yes -0.094  two males a truck some cars and trees
+ yes -0.095  A person riding skis across snow covered ground.
+ yes -0.096  A woman walking past a shop filled with merchandise.
+ no -0.117  a person riding a wake board on a body of water
+## zh HIT top-5 / bottom-5
+ yes +0.207  它像一根棍棒打在那簇柔弱娇嫩的玫瑰上，似被打散，散得七零八落，还仿佛听得见她们嘤嘤的哭泣。
+ yes +0.130  特别是蒙古族长调和马头琴声如随风时时飘来，使人嗅到阵阵沁人肺腑的醇厚奶酒和草原清香气息。
+ yes +0.083  机场有关负责人再未接到过飞行部门关于鸟类影响飞行安全的报告。
+ yes +0.080  对于下边夸大事实、违反规律的工作汇报，不加以分析，不认真计算，更不到群众中去听取反映，而是一听就信，一信就夸。
+ no +0.080  时传祥不也是掏粪掏出的名，连国家主席还跟他握手呢！”
+  ---
+ yes -0.049  李雪梅的想法也是教练张荣伟对她的要求。
+ yes -0.058  中亚国家对此深感不满，它们普遍主张对原油和天然气出口线路实行多样化，包括绕开俄罗斯而开辟从里海通往欧洲的新路线。
+ yes -0.061  父女两代人一样中华情－－访人大代表费斐女士（附图片１张）
+ yes -0.086  春光三月，素有“菜篮子”美称的江苏省建湖县裴刘乡，已不见了往日的那一垄垄、一片片翠绿的蔬菜，代之而起的是满田的萋萋青草；
+ yes -0.088  郑新立撰文主张：重视引导消费
+## DEV 46 units ranked (U=union-marked R=referent-marked)
+  +0.209 UR [sonnet73 L4] Bare ruined choirs, where late the sweet birds sang.
+  +0.123    [sonnet18 L3] Rough winds do shake the darling buds of May,
+  +0.123 UR [song_you_ren L8] 蕭蕭班馬鳴
+  +0.092    [sonnet73 L6] As after sunset fadeth in the west,
+  +0.056    [sonnet73 L3] Upon those boughs which shake against the cold,
+  +0.034 UR [sonnet73 L2] When yellow leaves, or none, or few, do hang
+  +0.031 UR [sonnet18 L8] By chance, or nature's changing course untrimmed:
+  +0.027 UR [sonnet18 L5] Sometime too hot the eye of heaven shines,
+  +0.019 UR [sonnet18 L7] And every fair from fair sometime declines,
+  +0.015 UR [sonnet73 L7] Which by and by black night doth take away,
+  +0.011    [sonnet18 L6] And often is his gold complexion dimmed,
+  +0.000    [yujie_yuan L2] 夜久侵羅襪
+  -0.002 UR [yujie_yuan L4] 玲瓏望秋月
+  -0.004 UR [sonnet73 L8] Death's second self, that seals up all in rest.
+  -0.006 UR [changgan_xing L6] 兩小無嫌猜
+  -0.011 UR [sonnet18 L2] Thou art more lovely and more temperate:
+  -0.013 UR [sonnet73 L5] In me thou seest the twilight of such day,
+  -0.017 UR [qingqing_hepan_cao L4] 皎皎當窗牖
+  -0.019 U  [qingqing_hepan_cao L1] 青青河畔草
+  -0.019    [song_you_ren L6] 落日故人情
+  -0.020 UR [changgan_xing L8] 羞顏未甞開
+  -0.021    [changgan_xing L2] 折花門前劇
+  -0.023    [sonnet73 L1] That time of year thou mayst in me behold,
+  -0.023    [song_you_ren L1] 青山橫北郭
+  -0.024    [sonnet18 L4] And summer's lease hath all too short a date:
+  -0.024 UR [qingqing_hepan_cao L2] 鬱鬱園中柳
+  -0.028 UR [qingqing_hepan_cao L5] 娥娥紅粉妝
+  -0.029 UR [sonnet18 L1] Shall I compare thee to a summer's day?
+  -0.030    [changgan_xing L1] 妾髮初覆額
+  -0.030 UR [qingqing_hepan_cao L9] 蕩子行不歸
+  -0.033    [song_you_ren L5] 浮雲遊子意
+  -0.037    [song_you_ren L3] 此地一為別
+  -0.038    [changgan_xing L7] 十四爲君婦
+  -0.044    [yujie_yuan L1] 玉階生白露
+  -0.049    [song_you_ren L4] 孤蓬萬里征
+  -0.050    [changgan_xing L4] 遶牀弄青梅
+  -0.054 UR [changgan_xing L3] 郎騎竹馬來
+  -0.058    [changgan_xing L5] 同居長干里
+  -0.061 UR [qingqing_hepan_cao L6] 纖纖出素手
+  -0.063    [yujie_yuan L3] 却下水晶簾
+  -0.064    [qingqing_hepan_cao L8] 今為蕩子婦
+  -0.069    [song_you_ren L7] 揮手自茲去
+  -0.072    [qingqing_hepan_cao L7] 昔為倡家女
+  -0.076 UR [qingqing_hepan_cao L3] 盈盈樓上女
+  -0.082    [qingqing_hepan_cao L10] 空床難獨守
+  -0.098    [song_you_ren L2] 白水繞東城

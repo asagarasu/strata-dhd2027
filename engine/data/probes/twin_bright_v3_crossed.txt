@@ -1,0 +1,42 @@
+# v3 crossed-affect BRIGHT (preserved 07-16; geometry FAILED d'1.33 — kept for the record)
+# lines 1-20 warm register, 21-40 harsh register; see trait_intensity_program_48.md
+The family ate breakfast in the sun-filled kitchen.
+She read by the wide window in the gentle morning light.
+The nursery was sunny all afternoon.
+They strolled home under a golden evening sky.
+The bakery was warm with daylight when it opened.
+Soft sunshine filled the garden room.
+The terrace glowed in the mild afternoon sun.
+The little shop was cheerful and bright at noon.
+Their faces were warm in the sunlit dining room.
+The meadow path was clear in the fresh morning light.
+The studio was pleasant and light with the curtains open.
+The ferry glided across the harbor in shining morning air.
+The child napped in the softly sunlit bedroom.
+The reading nook was bright by the south window.
+The courtyard was sunny where the cat stretched out.
+A friendly bright lamp stood over the sewing table.
+The chapel was radiant with morning light at the wedding.
+The platform was pleasant in the early summer sun.
+The market was lively under the clear bright sky.
+The orchard sparkled in the light after the rain.
+The interrogation room was harshly overlit.
+The prisoners exercised in the glaring concrete yard.
+The morgue corridor was lit with flat white tubes.
+The checkpoint floodlights glared across the road.
+The factory floor buzzed under raw fluorescent light.
+The waiting soldiers squinted in the fierce noon glare.
+The hospital ward was stark under full lighting.
+The parking structure was lit hard on every level.
+The empty office blazed with cold overhead light.
+The cell was kept permanently bright.
+The abattoir was washed in pitiless white light.
+The highway rest stop glared at three in the afternoon.
+The security lights flooded the fence line.
+The operating theater was clinically brilliant.
+The court room was lit flat and shadowless.
+The container yard baked under the blank white sky.
+The dementia ward stayed lit around the clock.
+The toll booth stood in the harsh daylight.
+The slaughter pens were fully illuminated.
+The barracks were bright under bare bulbs.

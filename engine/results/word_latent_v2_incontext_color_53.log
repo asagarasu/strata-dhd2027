@@ -1,0 +1,86 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+== word-latent v2 IN-CONTEXT color scorer (#53) -- REAL RUN ==
+[score] scorable words: 97  sit-outs: 57  unique texts to embed: 48266
+[score] certificate (re-order, batch_size=1, n=48266): 0.00e+00
+
+== selftests (known answers, fail = stop) ==
+  [PASS] 波黑: LATENT (n=1 host, FLAGGED-thin, runs)  ::  call=True (want True) z=3.7903622114112996
+  [FAIL] 波兰: negative  ::  call=True (want False) z=2.598820996693613
+  [PASS] 青春: latent-candidate per its DEF check (not realized-color); call charge-dependent  ::  realized=False (want False)
+  [FAIL] 黑夜: REALIZED (print), not latent  ::  realized=False (want True) call=True (want False)
+  [PASS] 鲤鱼: negative  ::  call=False (want False) z=1.3084151047072914
+  [PASS] 乌干达: latent (n=4, flagged)  ::  call=True (want True) z=3.054052874292482
+  [PASS] 竹马: SIT OUT (0 hosts)  ::  status=sit_out reason=zero_hosts
+  [PASS] 鳕鱼: SIT OUT (0 hosts; 鳕's question is the component-exposure tier's)  ::  status=sit_out reason=zero_hosts
+
+== probe (open) ==
+  明天: status=scored reason=None z=-2.4534012481755694 call=False prior=0.8 (recoverable)
+
+== sit-outs (reasons) ==
+  129 [control]: SIT OUT -- word_not_in_hownet
+  359 [control]: SIT OUT -- word_not_in_hownet
+  4500 [control]: SIT OUT -- word_not_in_hownet
+  一场 [control]: SIT OUT -- word_not_in_hownet
+  七八年 [control]: SIT OUT -- word_not_in_hownet
+  万茜 [latent]: SIT OUT -- word_not_in_hownet
+  于小彤 [latent]: SIT OUT -- word_not_in_hownet
+  人們 [control]: SIT OUT -- word_not_in_hownet
+  低頭不語 [control]: SIT OUT -- word_not_in_hownet
+  做不了 [control]: SIT OUT -- word_not_in_hownet
+  兩個 [control]: SIT OUT -- word_not_in_hownet
+  六名 [control]: SIT OUT -- word_not_in_hownet
+  冲锋在前 [control]: SIT OUT -- word_not_in_hownet
+  刑事法律 [control]: SIT OUT -- word_not_in_hownet
+  刻上 [control]: SIT OUT -- word_not_in_hownet
+  周宏灏 [latent]: SIT OUT -- word_not_in_hownet
+  和绛珠 [latent]: SIT OUT -- word_not_in_hownet
+  啥时候 [control]: SIT OUT -- word_not_in_hownet
+  大不相同 [control]: SIT OUT -- word_not_in_hownet
+  大巴车 [control]: SIT OUT -- word_not_in_hownet
+  官員 [control]: SIT OUT -- word_not_in_hownet
+  客量 [control]: SIT OUT -- word_not_in_hownet
+  密切接触 [control]: SIT OUT -- word_not_in_hownet
+  張皓 [latent]: SIT OUT -- word_not_in_hownet
+  數據 [control]: SIT OUT -- word_not_in_hownet
+  新冠 [control]: SIT OUT -- word_not_in_hownet
+  林欣彤 [latent]: SIT OUT -- word_not_in_hownet
+  桓玄 [latent]: SIT OUT -- word_not_in_hownet
+  白雪皑皑 [latent]: SIT OUT -- word_not_in_hownet
+  皓影 [latent]: SIT OUT -- word_not_in_hownet
+  碧水 [latent]: SIT OUT -- word_not_in_hownet
+  竹马 [selftest]: SIT OUT -- zero_hosts
+  紐森 [control]: SIT OUT -- word_not_in_hownet
+  经典之作 [control]: SIT OUT -- word_not_in_hownet
+  经费 [control]: SIT OUT -- word_not_in_hownet
+  绛矾丸 [latent]: SIT OUT -- word_not_in_hownet
+  绿树 [latent]: SIT OUT -- word_not_in_hownet
+  绿速达 [latent]: SIT OUT -- word_not_in_hownet
+  缜的 [latent]: SIT OUT -- word_not_in_hownet
+  罪責屬 [control]: SIT OUT -- word_not_in_hownet
+  羊们 [control]: SIT OUT -- word_not_in_hownet
+  腐败现象 [control]: SIT OUT -- word_not_in_hownet
+  葱段 [latent]: SIT OUT -- word_not_in_hownet
+  蔓延到 [control]: SIT OUT -- word_not_in_hownet
+  記錄 [control]: SIT OUT -- word_not_in_hownet
+  設計 [control]: SIT OUT -- word_not_in_hownet
+  诉衷情 [control]: SIT OUT -- word_not_in_hownet
+  诸事 [control]: SIT OUT -- word_not_in_hownet
+  資料 [control]: SIT OUT -- word_not_in_hownet
+  还有 [control]: SIT OUT -- word_not_in_hownet
+  進行 [control]: SIT OUT -- word_not_in_hownet
+  過度 [control]: SIT OUT -- word_not_in_hownet
+  金银 [latent]: SIT OUT -- word_not_in_hownet
+  鑼鼓聲 [control]: SIT OUT -- word_not_in_hownet
+  钟碧英 [latent]: SIT OUT -- word_not_in_hownet
+  顯示 [control]: SIT OUT -- word_not_in_hownet
+  鳕鱼 [selftest]: SIT OUT -- zero_hosts
+
+== validation (color, scorable pool) ==
+  pos=20 neg=70  tp=6 fn=14 fp=3 tn=67
+  precision 0.667 recall 0.300 F1 0.414 (floor 0.7) -> ABORT (F1 floor fired)
+
+-> <LAB>/caesitas_proto/results/word_latent_v2_incontext_color_53.json
+-> <LAB>/caesitas_proto/results/word_latent_v2_incontext_color_53.md
+
+*** SELFTEST FAILURE -- RUN STOPPED (registration: known answers, fail = stop). Record written for diagnosis. ***

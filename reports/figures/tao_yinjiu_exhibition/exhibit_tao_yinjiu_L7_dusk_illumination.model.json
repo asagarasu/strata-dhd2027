@@ -1,0 +1,21 @@
+{
+ "what": "exhibit — the 夕→dusk L7 illumination panel (T'ao mini-board, EXHIBITION tier)",
+ "line": 7,
+ "field": "illumination",
+ "cell": "LATENT-CARRY",
+ "zh_line": "山氣日夕佳，",
+ "en_line": "The mountain air is fresh at the dusk of day:",
+ "zh_written_carrier": "夕",
+ "zh_moe_sense": "傍晚、日落時分、泛指夜晚",
+ "zh_moe_cite": "MOE 《重編國語辭典修訂本》 s.v. 夕 — 傍晚、日落時分 (dusk / the hour the sun sets); 泛指夜晚 (evening/night generally). Via moe_illum_sense_chars_PROPOSED_54.json chars['夕']: poles=['dark'], routes=['boundary:dawn-dusk'], boundary_only=true, hownet_had_it=false.",
+ "zh_moe_status": "PROPOSED (declared, board-local)",
+ "en_written_carrier": "dusk",
+ "en_skeat_terms": [
+  "dark",
+  "dim"
+ ],
+ "en_skeat_cite": "Skeat s.v. DUSK (dull, dark, dim)",
+ "certificate": 0.0,
+ "gate": "model→render→gate→xmllint; sidecar beside (exhibit_gen convention, bespoke draw — exhibit_gen is bound to the 8-board JSON shape)",
+ "banner": "alignment DRAFT, PENDING-HER-BLESSING; census/heat-map FLAGGED FOR HER REVIEW"
+}

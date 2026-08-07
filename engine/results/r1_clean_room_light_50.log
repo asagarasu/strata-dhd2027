@@ -1,0 +1,17 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+eval words: 58B/45D · single-char graphs: 24
+tokenized sentences: 217801 (cilin + leipzig)
+REALIZED: 103 items / 58 words · LATENT: 41 items / 21 graphs
+controls: 103 (length-matched)
+whitening: 3000 drawn from 208697 field-free hash-disjoint lines
+  certificate[whitening] (3000): 0.00e+00
+  certificate[inventory] (595): 0.00e+00
+
+================ R1-alpha RESULTS ================
+axis v3: REALIZED in-situ 0.825 [0.740–0.906] n=103/58w · LATENT 0.659 [0.512–0.805] n=41 · bareAUC 0.914 · |Δ| tgt 0.0108 vs ctl 0.0046
+   rarity gap (rare−common): -0.026 [-0.199–+0.163]
+axis 48: REALIZED in-situ 0.835 [0.752–0.912] n=103/58w · LATENT 0.683 [0.537–0.829] n=41 · bareAUC 0.930 · |Δ| tgt 0.0102 vs ctl 0.0048
+   rarity gap (rare−common): -0.004 [-0.164–+0.168]
+DECISION (registered): A1 credential = v3 realized 0.825 → CREDENTIALED (development tier)
+→ results/r1_clean_room_light_50.json

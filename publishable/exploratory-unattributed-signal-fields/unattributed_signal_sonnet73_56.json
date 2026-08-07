@@ -1,0 +1,1692 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "board": "sonnet73",
+  "manifest": {
+    "board": "sonnet73",
+    "inputs": {
+      "descriptive_scores.json": "1bc10f8385d80b1ddb5894890703e217ff9cb3309cca6cc3aee72d66c9ce85c4",
+      "latent_scores.json": "143af079c7c99a2c37cfc6856ec7d4d312a3938cf150109d294eb916f01e5ac1"
+    },
+    "definition": {
+      "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+      "fields": [
+        "color",
+        "sound"
+      ],
+      "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+      "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+      "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+      "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+      "membership": "channel-escape, not a verdict"
+    },
+    "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+    "counts_by_rid_field": {
+      "en:shakespeare_1609": {
+        "color": 5,
+        "sound": 9
+      },
+      "zh:gu_zhengkun": {
+        "color": 3,
+        "sound": 7
+      },
+      "zh:liang_shiqiu": {
+        "color": 5,
+        "sound": 6
+      },
+      "zh:liang_zongdai": {
+        "color": 4,
+        "sound": 7
+      },
+      "zh:tu_an_1955": {
+        "color": 4,
+        "sound": 8
+      }
+    },
+    "counts_total": {
+      "color": 21,
+      "sound": 37,
+      "rows": 58
+    }
+  },
+  "rows": [
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.06378868701785423,
+      "suspect_words": [
+        [
+          "leaues,",
+          0.04112076373854839
+        ],
+        [
+          "hange",
+          0.02857190343769527
+        ],
+        [
+          "When",
+          0.019537735202414606
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "When yellow leaues, or none, or few doe hange"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.0391958231667849,
+      "suspect_words": [
+        [
+          "boughes",
+          0.05994707413795582
+        ],
+        [
+          "shake",
+          0.04805170802853183
+        ],
+        [
+          "against",
+          -0.030460395940096356
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Vpon those boughes which shake against the could,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.15261555686529227,
+      "suspect_words": [
+        [
+          "quiers,",
+          -0.034538325912656376
+        ],
+        [
+          "rn'wd",
+          -0.03387715941464675
+        ],
+        [
+          "sang.",
+          0.02765243681764376
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Bare rn'wd quiers, where late the sweet birds sang."
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.02065255215327555,
+      "suspect_words": [
+        [
+          "twi-light",
+          0.022782445043638938
+        ],
+        [
+          "day,",
+          -0.019255344145103104
+        ],
+        [
+          "such",
+          -0.013290917161117403
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "In me thou seest the twi-light of such day,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.01171388842316472,
+      "suspect_words": [
+        [
+          "Sun-set",
+          0.01101453237315532
+        ],
+        [
+          "As",
+          0.010914835267275828
+        ],
+        [
+          "West,",
+          -0.009329611888534563
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As after Sun-set fadeth in the West,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.10024583500730487,
+      "suspect_words": [
+        [
+          "West,",
+          0.03755341618143637
+        ],
+        [
+          "Sun-set",
+          0.03499880679806654
+        ],
+        [
+          "after",
+          0.02384946539944681
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As after Sun-set fadeth in the West,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.03562685555345553,
+      "suspect_words": [
+        [
+          "blacke",
+          0.05644275687317774
+        ],
+        [
+          "away,",
+          -0.007714738695586754
+        ],
+        [
+          "Which",
+          0.006018872031129229
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Which by and by blacke night doth take away,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.02114112607346992,
+      "suspect_words": [
+        [
+          "take",
+          -0.029740377260930984
+        ],
+        [
+          "by",
+          0.023545260645364066
+        ],
+        [
+          "and",
+          0.014304968257923227
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Which by and by blacke night doth take away,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.029424316556062476,
+      "suspect_words": [
+        [
+          "second",
+          0.03309899310877193
+        ],
+        [
+          "all",
+          -0.02531147251292089
+        ],
+        [
+          "seals",
+          0.019235742907599024
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Deaths second selfe that seals vp all in rest."
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.03834530339154579,
+      "suspect_words": [
+        [
+          "of",
+          -0.01653429737667856
+        ],
+        [
+          "In",
+          -0.014093377302339678
+        ],
+        [
+          "me",
+          -0.009586057099224755
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "In me thou seest the glowing of such fire,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.0394179752059365,
+      "suspect_words": [
+        [
+          "glowing",
+          0.03666166878349014
+        ],
+        [
+          "thou",
+          -0.021677775763912333
+        ],
+        [
+          "In",
+          -0.020768044470279988
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "In me thou seest the glowing of such fire,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.07559594731932226,
+      "suspect_words": [
+        [
+          "ashes",
+          0.031667006930616824
+        ],
+        [
+          "lye,",
+          -0.02367658824198507
+        ],
+        [
+          "of",
+          0.016350335451356293
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "That on the ashes of his youth doth lye,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.039531937864717474,
+      "suspect_words": [
+        [
+          "death",
+          0.043312908093691566
+        ],
+        [
+          "whereon",
+          0.03466136761808244
+        ],
+        [
+          "expire,",
+          -0.024294368009671004
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "As the death bed, whereon it must expire,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "en:shakespeare_1609",
+      "line_no": 13,
+      "field": "color",
+      "scalar": 0.028336967836498837,
+      "suspect_words": [
+        [
+          "thou",
+          0.019343699645600336
+        ],
+        [
+          "strong,",
+          0.0192386707147503
+        ],
+        [
+          "perceu'st,",
+          -0.010927441089773681
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "This thou perceu'st, which makes thy loue more strong,"
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.010555801021118649,
+      "suspect_words": [
+        [
+          "看到",
+          0.012318080709044731
+        ],
+        [
+          "会",
+          0.008716375763007236
+        ],
+        [
+          "身上",
+          -0.007909605132725053
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.05691412284931833,
+      "suspect_words": [
+        [
+          "黄叶",
+          -0.03735439198853104
+        ],
+        [
+          "，",
+          -0.012650714692252103
+        ],
+        [
+          "的",
+          -0.011551471224841812
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.14611893476176763,
+      "suspect_words": [
+        [
+          "发抖",
+          0.06558121483709294
+        ],
+        [
+          "三",
+          0.03454584991808152
+        ],
+        [
+          "索索",
+          0.0214246020865351
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 4,
+      "field": "color",
+      "scalar": 0.011064677928184094,
+      "suspect_words": [
+        [
+          "甜蜜",
+          0.04258270043293229
+        ],
+        [
+          "荒凉",
+          0.021391804064977926
+        ],
+        [
+          "。",
+          0.01839338113538688
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 5,
+      "field": "sound",
+      "scalar": 0.00929640205903762,
+      "suspect_words": [
+        [
+          "黄昏时候",
+          0.06354813721907485
+        ],
+        [
+          "你",
+          -0.034412474275519384
+        ],
+        [
+          "我",
+          -0.02135690806687518
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.06178647460793514,
+      "suspect_words": [
+        [
+          "天际",
+          -0.029108682819047618
+        ],
+        [
+          "落霞",
+          0.019775362261797644
+        ],
+        [
+          "的",
+          -0.011938409974134742
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03496680809710424,
+      "suspect_words": [
+        [
+          "夜幕",
+          0.0778827002204929
+        ],
+        [
+          "带走",
+          -0.023277502409372458
+        ],
+        [
+          "，",
+          -0.02064109785615404
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.14033180055699163,
+      "suspect_words": [
+        [
+          "摇头",
+          0.03255257737896872
+        ],
+        [
+          "闪烁",
+          0.02369706286817408
+        ],
+        [
+          "青春",
+          0.018609698521358256
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.0163471004955459,
+      "suspect_words": [
+        [
+          "临终",
+          0.050426953925927796
+        ],
+        [
+          "如",
+          0.02863127041999913
+        ],
+        [
+          "安卧",
+          0.017089622065587486
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:gu_zhengkun",
+      "line_no": 13,
+      "field": "color",
+      "scalar": 0.023074222990382705,
+      "suspect_words": [
+        [
+          "你",
+          0.011653814730810244
+        ],
+        [
+          "爱会",
+          0.010020921207653077
+        ],
+        [
+          "一切",
+          -0.009279543659248816
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.014705106666112109,
+      "suspect_words": [
+        [
+          "这样",
+          0.026304258672264116
+        ],
+        [
+          "可",
+          0.014525953453373451
+        ],
+        [
+          "我",
+          0.014429106391546112
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.03765388809799656,
+      "suspect_words": [
+        [
+          "抖颤",
+          0.04787142323982956
+        ],
+        [
+          "的",
+          -0.01423567045579939
+        ],
+        [
+          "树枝",
+          -0.010862828805715263
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 4,
+      "field": "sound",
+      "scalar": 0.168516071123439,
+      "suspect_words": [
+        [
+          "鸟栖过",
+          0.08581708774058955
+        ],
+        [
+          "唱",
+          0.05960802908341928
+        ],
+        [
+          "坛",
+          -0.058062129979319754
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 6,
+      "field": "color",
+      "scalar": 0.03190312445909908,
+      "suspect_words": [
+        [
+          "颜色",
+          0.053022606709228044
+        ],
+        [
+          "已经",
+          -0.01916512506368108
+        ],
+        [
+          "褪",
+          -0.017290188270211684
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.018562093077523774,
+      "suspect_words": [
+        [
+          "，",
+          -0.02984382326350383
+        ],
+        [
+          "颜色",
+          0.02206134582893449
+        ],
+        [
+          "已经",
+          -0.014467807186956748
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.05065055578937558,
+      "suspect_words": [
+        [
+          "化身",
+          0.04333083317506281
+        ],
+        [
+          "黑夜",
+          0.036528130004420824
+        ],
+        [
+          "死亡",
+          0.011965682499603975
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.0012216852940905914,
+      "suspect_words": [
+        [
+          "火亮",
+          0.06082514169762683
+        ],
+        [
+          "你",
+          -0.036113882682808386
+        ],
+        [
+          "我",
+          -0.02181560318948401
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.06339023221510669,
+      "suspect_words": [
+        [
+          "灰烬",
+          0.05183472005928561
+        ],
+        [
+          "，",
+          0.017422281747445055
+        ],
+        [
+          "酣睡",
+          0.014729761056779644
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.024924387909688102,
+      "suspect_words": [
+        [
+          "必须",
+          0.022630470089343012
+        ],
+        [
+          "死",
+          0.011143263241124496
+        ],
+        [
+          "好像",
+          -0.011017371206577524
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 12,
+      "field": "color",
+      "scalar": 0.036828093575172895,
+      "suspect_words": [
+        [
+          "生命",
+          0.01916709466614664
+        ],
+        [
+          "维持",
+          0.017990223367682485
+        ],
+        [
+          "把",
+          0.007587254717032185
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_shiqiu",
+      "line_no": 13,
+      "field": "color",
+      "scalar": 0.04202630739415107,
+      "suspect_words": [
+        [
+          "看到",
+          0.014137061494871234
+        ],
+        [
+          "这些",
+          0.012583205051002716
+        ],
+        [
+          "更深",
+          0.0121105338754438
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.013360813484245539,
+      "suspect_words": [
+        [
+          "秋天",
+          0.01798246605667078
+        ],
+        [
+          "我",
+          -0.008901372740948234
+        ],
+        [
+          "或许",
+          -0.00884442409168977
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.043944850284007596,
+      "suspect_words": [
+        [
+          "当",
+          0.030433597217409285
+        ],
+        [
+          "三三两两",
+          0.02714383198537082
+        ],
+        [
+          "只",
+          -0.014585810660615053
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.06811731744416762,
+      "suspect_words": [
+        [
+          "落后",
+          0.012980642876479417
+        ],
+        [
+          "在",
+          0.012657286482781478
+        ],
+        [
+          "日",
+          0.012142303642940236
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.05742147124340146,
+      "suspect_words": [
+        [
+          "黑夜",
+          0.03592374384701686
+        ],
+        [
+          "渐渐",
+          0.025319908380987938
+        ],
+        [
+          "化身",
+          0.019586801078923376
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.0013243823423357975,
+      "suspect_words": [
+        [
+          "纷纭",
+          0.03311709302538131
+        ],
+        [
+          "。",
+          0.01859604494079515
+        ],
+        [
+          "严静",
+          0.015612433040293736
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.07799378862520431,
+      "suspect_words": [
+        [
+          "严静",
+          0.0309897631244088
+        ],
+        [
+          "。",
+          -0.02710710463677017
+        ],
+        [
+          "安息",
+          0.020282582671301175
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.047657948594570766,
+      "suspect_words": [
+        [
+          "奄奄一息",
+          0.020239945812787832
+        ],
+        [
+          "，",
+          -0.01093680913136328
+        ],
+        [
+          "青春",
+          0.00948166551064155
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 11,
+      "field": "color",
+      "scalar": 0.01644347427440215,
+      "suspect_words": [
+        [
+          "惨淡",
+          0.031750384187210746
+        ],
+        [
+          "，",
+          0.019762466409188034
+        ],
+        [
+          "总",
+          0.019136876668704342
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.040121631506474756,
+      "suspect_words": [
+        [
+          "床上",
+          -0.03619141570847077
+        ],
+        [
+          "灵",
+          0.025513685782239698
+        ],
+        [
+          "在",
+          -0.021493996526441253
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.033609818945160845,
+      "suspect_words": [
+        [
+          "烈焰",
+          0.04769936439814329
+        ],
+        [
+          "所",
+          -0.014418643631142966
+        ],
+        [
+          "它",
+          -0.0135011164223525
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:liang_zongdai",
+      "line_no": 13,
+      "field": "color",
+      "scalar": 0.04592793408646477,
+      "suspect_words": [
+        [
+          "加强",
+          0.02064032517699839
+        ],
+        [
+          "这些",
+          0.01233786932753337
+        ],
+        [
+          "爱",
+          -0.009148893146859821
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.03694940652134089,
+      "suspect_words": [
+        [
+          "：",
+          0.015246935100185488
+        ],
+        [
+          "在",
+          -0.013381091976865246
+        ],
+        [
+          "看到",
+          0.012214206650812763
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.008867099850213857,
+      "suspect_words": [
+        [
+          "落光",
+          0.017960200816379245
+        ],
+        [
+          "黃",
+          0.009241760095132185
+        ],
+        [
+          "還剩",
+          -0.0018444996234188663
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.1208673779047062,
+      "suspect_words": [
+        [
+          "顫",
+          0.07344290461147901
+        ],
+        [
+          "沒脫",
+          -0.028776146560778593
+        ],
+        [
+          "一簇簇",
+          0.02851645620951465
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 4,
+      "field": "color",
+      "scalar": 0.029979051222087865,
+      "suspect_words": [
+        [
+          "不再",
+          0.017095644158648726
+        ],
+        [
+          "有",
+          0.01576603513613885
+        ],
+        [
+          "好",
+          0.015624922158068325
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.013130834519210183,
+      "suspect_words": [
+        [
+          "看到",
+          0.017098419498474557
+        ],
+        [
+          "我",
+          -0.013536451851844562
+        ],
+        [
+          "在",
+          -0.011332811544558043
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.08522125168069834,
+      "suspect_words": [
+        [
+          "迴",
+          0.0515411536836461
+        ],
+        [
+          "光",
+          0.024666546097067914
+        ],
+        [
+          "西方",
+          -0.024469776809240354
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.08386618285298275,
+      "suspect_words": [
+        [
+          "黑夜",
+          0.016098912546286565
+        ],
+        [
+          "底",
+          0.013137905029678265
+        ],
+        [
+          "出現",
+          0.012086951313112854
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.021028357514423196,
+      "suspect_words": [
+        [
+          "。",
+          -0.031351889627806856
+        ],
+        [
+          "昏",
+          0.025306751218982702
+        ],
+        [
+          "把",
+          0.023661278237556548
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.06632351371521089,
+      "suspect_words": [
+        [
+          "底灰燼",
+          0.03427442777427586
+        ],
+        [
+          "燃燒",
+          0.024666587975000064
+        ],
+        [
+          "自己",
+          -0.021242383416959915
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 11,
+      "field": "sound",
+      "scalar": 0.03739109836756969,
+      "suspect_words": [
+        [
+          "灰燼",
+          0.0604536546481728
+        ],
+        [
+          "是屍",
+          0.028443079136540313
+        ],
+        [
+          "牀",
+          0.01243301529735942
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 12,
+      "field": "sound",
+      "scalar": 0.011748619047357363,
+      "suspect_words": [
+        [
+          "供",
+          -0.01592135046747676
+        ],
+        [
+          "毀滅",
+          0.014443316525348006
+        ],
+        [
+          "跟",
+          0.009946966799855083
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "sonnet73",
+      "rid": "zh:tu_an_1955",
+      "line_no": 13,
+      "field": "color",
+      "scalar": 0.04425540160438955,
+      "suspect_words": [
+        [
+          "，",
+          -0.013818916020747626
+        ],
+        [
+          "看出",
+          0.009643477305975395
+        ],
+        [
+          "你",
+          0.009219951833869353
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    }
+  ]
+}

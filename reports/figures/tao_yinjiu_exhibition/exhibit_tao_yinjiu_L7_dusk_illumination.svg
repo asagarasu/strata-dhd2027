@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="372" font-family="Helvetica,Arial,sans-serif">
+<rect width="780" height="372" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#0f172a">The 夕→dusk crossing — 飲酒 其五 L7 · ILLUMINATION (EXHIBITION)</text>
+<text x="16" y="44" font-size="10.5" fill="#94a3b8">陶淵明 飲酒 其五 L7 山氣日夕佳 · Waley 1918 «the mountain air is fresh at the dusk of day» · both words state TIME, both bury the failing light</text>
+<rect x="16" y="58" width="748" height="86" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="30" y="80" font-size="12" font-weight="bold" fill="#4338ca">zh source (逯欽立/中華書局, PD) — LATENT-WRITTEN</text>
+<text x="30" y="102" font-size="15" fill="#334155">山氣日夕佳，</text>
+<text x="30" y="122" font-size="10.5" fill="#4338ca">written illum: <tspan font-weight="bold">夕</tspan> ← MOE 「傍晚、日落時分、泛指夜晚」 (dark pole) · word 日夕 fires TEMPORAL (日 夕 radical), illumination unrealized</text>
+<text x="30" y="138" font-size="9" fill="#94a3b8">MOE moe_illum_sense_chars_PROPOSED_54.json (PROPOSED, board-local) · HowNet has no 夕 illumination sememe</text>
+<rect x="16" y="152" width="748" height="86" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="30" y="174" font-size="12" font-weight="bold" fill="#4338ca">en Waley 1918 (Gutenberg #42290, PD) — LATENT-WRITTEN</text>
+<text x="30" y="196" font-size="14" fill="#334155">The mountain air is fresh at the dusk of day:</text>
+<text x="30" y="216" font-size="10.5" fill="#4338ca">written illum: <tspan font-weight="bold">dusk</tspan> ← Skeat s.v. DUSK «dull, dark, dim» [dark,dim] · word states the hour, not the light</text>
+<text x="30" y="232" font-size="9" fill="#94a3b8">latent_score_54 EnWritten (REAL Skeat channel) · informational_only in the 8-board census, survival-eligible here (both sides covered)</text>
+<rect x="16" y="250" width="748" height="50" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<text x="30" y="272" font-size="12" fill="#334155">verdict cell (zh latent-written × en latent-written): <tspan font-weight="bold" fill="#4338ca">LATENT-CARRY</tspan> — illumination latent on BOTH sides, realized by NEITHER word.</text>
+<text x="30" y="290" font-size="10" fill="#94a3b8">the light of the failing day: carried by the graph 夕 on one side, by the etymon of *dusk* on the other — first bilateral LATENT-CARRY to survive both channels (c818d8a).</text>
+<text x="30" y="322" font-size="9" fill="#94a3b8">EXHIBITION TIER · isolated from the 8-board census · certificate 0.00e+00 · zh illum row cited MOE · en illum row cited Skeat s.v. DUSK</text>
+<text x="30" y="340" font-size="9" fill="#94a3b8">ALIGNMENT DRAFT · PENDING-HER-BLESSING · census/heat-map standing FLAGGED FOR HER REVIEW (registration)</text>
+<text x="30" y="358" font-size="9" fill="#94a3b8">MOE artifact status: PROPOSED (declared) · board-local, never wired into the shared labeler or the census</text>
+</svg>

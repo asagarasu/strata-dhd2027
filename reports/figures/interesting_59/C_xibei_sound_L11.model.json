@@ -1,0 +1,478 @@
+{
+ "board": "xibei",
+ "line_idx": 10,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "zh:gushi19_05",
+ "seats": [
+  {
+   "rid": "zh:gushi19_05",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "一弹再三叹，",
+   "v": 0.14664454987371003,
+   "rank": 3,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 3.539608469127188,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "latent",
+   "via": "written",
+   "two": false,
+   "state_word": "一弹",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": false,
+   "top_tok": {
+    "token": "叹",
+    "delta": 0.11792336552708776,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [
+      "弹"
+     ],
+     "line_words": [
+      "一弹"
+     ],
+     "covered": true,
+     "fired": true
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "叹",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "en:birrell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "One chord, two or three sighs,",
+   "v": 0.164623278305565,
+   "rank": 3,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 4.4837630160260575,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "sigh",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": false,
+   "top_tok": {
+    "token": "sighs",
+    "delta": 0.1209073350443885,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "sigh[wn]",
+     "line_receipts": [
+      "sigh[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "sighs",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "sighs",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "With every strum come repeated sighs,",
+   "v": 0.1847998348545427,
+   "rank": 4,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 5.048603481945549,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "sigh",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": false,
+   "top_tok": {
+    "token": "sighs",
+    "delta": 0.11194849709125818,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "sigh[wn]",
+     "line_receipts": [
+      "sigh[wn]",
+      "strum[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "sighs",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "sighs",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:owen",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "once she strummed, then sighed again,",
+   "v": 0.13067914896463606,
+   "rank": 5,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.5335008746333902,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "strum",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": true,
+   "top_tok": {
+    "token": "strummed",
+    "delta": 0.06483841139854332,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "strum[wn]",
+     "line_receipts": [
+      "strum[wn]",
+      "sigh[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:strummed-sighed"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "strummed",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "strummed",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:waley_1918",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "To each note, two or three sobs,",
+   "v": 0.09260541576918482,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.4676309307106385,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "sobs",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": true,
+   "top_tok": {
+    "token": "sobs",
+    "delta": 0.10049019492834502,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "sobs",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "sobs",
+   "transmission": "LATENT-ECHO"
+  },
+  {
+   "rid": "en:watson",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "one plucking, two or three sighs,",
+   "v": 0.09065016641774026,
+   "rank": 6,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.4128939416720065,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "sigh",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": false,
+   "top_tok": {
+    "token": "sighs",
+    "delta": 0.12224316804286355,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "sigh[wn]",
+     "line_receipts": [
+      "sigh[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "sighs",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "sighs",
+   "transmission": "REVIVAL"
+  },
+  {
+   "rid": "en:xu_yuanchong",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "It’s followed then by three refrains;",
+   "v": 0.10402846057865363,
+   "rank": 7,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.7874178049841136,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "refrain",
+   "folded_from": null,
+   "carrier_line": 11,
+   "star": false,
+   "top_tok": {
+    "token": "refrains",
+    "delta": 0.045343537831748784,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "refrain[wn]",
+     "line_receipts": [
+      "refrain[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "refrains",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "refrains",
+   "transmission": "REVIVAL"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 1,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1040" font-family="Helvetica,Arial,sans-serif">
+<rect width="1180" height="1040" fill="white"/>
+<text x="40" y="46" font-size="20" font-weight="bold">READING KEY — how to read the exhibit faces</text>
+<text x="40" y="72" font-size="11.5" fill="#555">Every mark on the per-line exhibits, drawn once with its meaning. Each exhibit footer points here (“key: KEY_exhibit_reading_guide_0728_62”).</text>
+<text x="40" y="92" font-size="10.5" fill="#777">Colours (hers, fixed): orange = token things (top-tok cell / dot / highlight) · field hue = line things (the z dot + z-cut) · channel colours (field hue / amber / purple) live inside the investigation cells only · sign lives in numbers and positions, never in a colour.</text>
+<line x1="40" y1="106" x2="1140" y2="106" stroke="#e2e8f0"/>
+<line x1="306" y1="120" x2="306" y2="944" stroke="#f1f5f9"/>
+<line x1="40" y1="164.0" x2="190" y2="164.0" stroke="#ccc"/>
+<line x1="115.0" y1="156.0" x2="115.0" y2="172.0" stroke="#999"/>
+<line x1="152.5" y1="154.0" x2="152.5" y2="174.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<circle cx="141.2" cy="164.0" r="3.5" fill="#d97706"/>
+<line x1="40" y1="190.0" x2="190" y2="190.0" stroke="#e2e8f0"/>
+<line x1="115.0" y1="184.0" x2="115.0" y2="196.0" stroke="#cbd5e1"/>
+<line x1="153.7" y1="181.0" x2="153.7" y2="199.0" stroke="#b22222" stroke-width="1" stroke-dasharray="2,2"/>
+<text x="153.7" y="179.0" font-size="6.5" text-anchor="middle" fill="#b22222">z-cut ·ADOPTED</text>
+<circle cx="140.0" cy="190.0" r="4" fill="#b22222" fill-opacity="0.95"/>
+<text x="320" y="164" font-size="10.5" fill="#222">THE SCALAR BAR = TWO strips. UPPER = token tier: centre tick, cut dash(es), and the orange top-tok dot (the |Δ|-max token, sign kept). LOWER = z tier:</text>
+<text x="320" y="177" font-size="10.5" fill="#222">the line-scalar as a news-normed z. The raw line-scalar reading is NOT on the face — it lives in the sidecar .model.json (her ruling A, raw dot</text>
+<text x="320" y="190" font-size="10.5" fill="#222">retires).</text>
+<line x1="40" y1="212" x2="1140" y2="212" stroke="#f4f4f5"/>
+<line x1="40" y1="234.0" x2="190" y2="234.0" stroke="#ccc"/>
+<line x1="115.0" y1="226.0" x2="115.0" y2="242.0" stroke="#999"/>
+<line x1="152.5" y1="224.0" x2="152.5" y2="244.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<circle cx="141.2" cy="234.0" r="3.5" fill="#d97706"/>
+<text x="320" y="230" font-size="10.5" fill="#222">CUT DASH, SALIENCE panels {color, plant, sound} — the POSITIVE dash ALONE. Under the v5.0 positive-only trigger law a negative Δ on a salience axis is</text>
+<text x="320" y="243" font-size="10.5" fill="#222">dilution, never an event; so the strip's one firing boundary is the positive cut (linegrain_law_60.SALIENCE_TRIGGER_FIELDS).</text>
+<line x1="40" y1="272" x2="1140" y2="272" stroke="#f4f4f5"/>
+<line x1="40" y1="294.0" x2="190" y2="294.0" stroke="#ccc"/>
+<line x1="115.0" y1="286.0" x2="115.0" y2="302.0" stroke="#999"/>
+<line x1="152.5" y1="284.0" x2="152.5" y2="304.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<line x1="77.5" y1="284.0" x2="77.5" y2="304.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<circle cx="141.2" cy="294.0" r="3.5" fill="#d97706"/>
+<text x="320" y="290" font-size="10.5" fill="#222">CUT DASH, VALUE panels {illumination dark+, temporal long+} — BOTH dashes. Two-sided remains their trigger law: a large negative excursion on a signed</text>
+<text x="320" y="303" font-size="10.5" fill="#222">value axis IS a salient reading of the opposite pole (“saliently short/bright”). (temporal carries no cut, so it draws zero dashes.)</text>
+<line x1="40" y1="332" x2="1140" y2="332" stroke="#f4f4f5"/>
+<circle cx="64" cy="360.0" r="7" fill="#b22222" fill-opacity="0.95"/>
+<text x="64" y="380.0" font-size="8" text-anchor="middle" fill="#555">.95</text>
+<circle cx="134" cy="360.0" r="7" fill="#b22222" fill-opacity="0.85"/>
+<text x="134" y="380.0" font-size="8" text-anchor="middle" fill="#555">.85</text>
+<circle cx="204" cy="360.0" r="7" fill="#b22222" fill-opacity="0.55"/>
+<text x="204" y="380.0" font-size="8" text-anchor="middle" fill="#555">.55</text>
+<text x="320" y="350" font-size="10.5" fill="#222">z DOT SATURATION = the field's battery grade (the muted dot's true reason, shown as itself). .95 = DISCRIMINATION at line grain (colour) · .85 =</text>
+<text x="320" y="363" font-size="10.5" fill="#222">temporal (ρ .860, a distinct credential, declared) · .55 = WEAK exploratory (plant, sound). The z strip is fixed ±3σ, 0 = the language's news mean.</text>
+<line x1="40" y1="392" x2="1140" y2="392" stroke="#f4f4f5"/>
+<line x1="40" y1="417.0" x2="190" y2="417.0" stroke="#ccc"/>
+<line x1="115.0" y1="409.0" x2="115.0" y2="425.0" stroke="#999"/>
+<line x1="152.5" y1="407.0" x2="152.5" y2="427.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<line x1="77.5" y1="407.0" x2="77.5" y2="427.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<circle cx="141.2" cy="417.0" r="3.5" fill="#d97706"/>
+<text x="40" y="445.0" font-size="8" fill="#666" font-style="italic">(no z strip below — one sentence instead)</text>
+<text x="320" y="410" font-size="10.5" fill="#222">SUPPRESSED z (her ruling B): a field graded “NO demonstrated discrimination” (illumination, exam .427) draws NO z strip at all — no dot, label,</text>
+<text x="320" y="423" font-size="10.5" fill="#222">baseline or tick. In its place the panel carries ONE sentence: “line-scalar suppressed: no line-tier discrimination at grade (exam .427) — see</text>
+<text x="320" y="436" font-size="10.5" fill="#222">instruments prose”. A chance-like z belongs in prose, not the diagram.</text>
+<line x1="40" y1="458" x2="1140" y2="458" stroke="#f4f4f5"/>
+<line x1="40" y1="486.0" x2="190" y2="486.0" stroke="#e2e8f0"/>
+<line x1="115.0" y1="480.0" x2="115.0" y2="492.0" stroke="#cbd5e1"/>
+<line x1="153.7" y1="476.0" x2="153.7" y2="496.0" stroke="#b22222" stroke-width="1" stroke-dasharray="2,2"/>
+<text x="153.7" y="474.0" font-size="7" text-anchor="middle" fill="#b22222">z-cut ·ADOPTED</text>
+<text x="320" y="476" font-size="10.5" fill="#222">THE COLOUR z-CUT LINE (·ADOPTED, z = +1.5485). A dashed vertical on the colour z strip at the 95th percentile of the UNFIRED colour z (pooled</text>
+<text x="320" y="489" font-size="10.5" fill="#222">en/zh/de/fr, positive side). A dot RIGHT of it reads “relatively colourful vs the census unfired baseline (above 95% of boolean-unfired lines)” —</text>
+<text x="320" y="502" font-size="10.5" fill="#222">NEVER proof of colour. Drawn only on DISCRIMINATION-graded fields (today colour). Makes NO states. A p95 convention, not a validated boundary.</text>
+<line x1="40" y1="518" x2="1140" y2="518" stroke="#f4f4f5"/>
+<line x1="40" y1="536.0" x2="190" y2="536.0" stroke="#ccc"/>
+<line x1="115.0" y1="528.0" x2="115.0" y2="544.0" stroke="#999"/>
+<line x1="152.5" y1="526.0" x2="152.5" y2="546.0" stroke="#d97706" stroke-dasharray="4,3"/>
+<circle cx="141.2" cy="536.0" r="3.5" fill="#d97706"/>
+<line x1="40" y1="562.0" x2="190" y2="562.0" stroke="#e2e8f0"/>
+<line x1="115.0" y1="556.0" x2="115.0" y2="568.0" stroke="#cbd5e1"/>
+<rect x="100.0" y="556.0" width="30" height="12" fill="none" stroke="#cbd5e1" stroke-width="0.8"/>
+<line x1="100.0" y1="556.0" x2="130.0" y2="568.0" stroke="#cbd5e1" stroke-width="0.8"/>
+<line x1="130.0" y1="556.0" x2="100.0" y2="568.0" stroke="#cbd5e1" stroke-width="0.8"/>
+<text x="40" y="573.0" font-size="7" fill="#cbd5e1">untested (no news norm)</text>
+<text x="320" y="536" font-size="10.5" fill="#222">UNTESTED-BAR = the z strip is empty because the seat's language has NO news norm (jp; any language outside {en,zh,de,fr}). A crossed box + “untested</text>
+<text x="320" y="549" font-size="10.5" fill="#222">(no news norm)”. The token-tier strip still renders. This is ‘not measured (no norm)’ — distinct from the suppressed case above (‘measured,</text>
+<text x="320" y="562" font-size="10.5" fill="#222">chance-like’).</text>
+<line x1="40" y1="584" x2="1140" y2="584" stroke="#f4f4f5"/>
+<rect x="40" y="604.0" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8"/>
+<line x1="40" y1="604.0" x2="98" y2="626.0" stroke="#cbd5e1" stroke-width="0.8"/>
+<line x1="98" y1="604.0" x2="40" y2="626.0" stroke="#cbd5e1" stroke-width="0.8"/>
+<text x="42" y="633.0" font-size="7" fill="#cbd5e1">untested</text>
+<text x="320" y="602" font-size="10.5" fill="#222">UNTESTED-BOX = an investigation cell for a channel that does NOT exist on that seat (the channel was never consulted): a pale diagonal cross-out box +</text>
+<text x="320" y="615" font-size="10.5" fill="#222">“untested”. It is visibly DISTINCT from a tested-null cell “—” (the channel WAS consulted and nothing fired).</text>
+<line x1="40" y1="650" x2="1140" y2="650" stroke="#f4f4f5"/>
+<text x="40" y="684.0" font-size="20" fill="#d97706">★</text>
+<text x="320" y="668" font-size="10.5" fill="#222">★ = the ESCAPE column (outside the token-grain box by law). A crossing is starred SUGGESTIVE when a state-bearing side is a borrowed-cut 2-state</text>
+<text x="320" y="681" font-size="10.5" fill="#222">(present*/silent*: the WORD channel is uncovered) — a demonstrative crossing whose evidence is thinner than a full-stack one. (The fr token-ghost star</text>
+<text x="320" y="694" font-size="10.5" fill="#222">RETIRED, #62 — see the badge below.)</text>
+<line x1="40" y1="710" x2="1140" y2="710" stroke="#f4f4f5"/>
+<text x="40" y="734.0" font-size="18" fill="#94a3b8">°</text>
+<text x="320" y="728" font-size="10.5" fill="#222">° = UNTRIGGERED / mechanical view. The top-tok's |Δ| did not reach the cut, so its cell is a pale mechanical reading (the top-tok is shown regardless;</text>
+<text x="320" y="741" font-size="10.5" fill="#222">the ring says it did not fire).</text>
+<line x1="40" y1="750" x2="1140" y2="750" stroke="#f4f4f5"/>
+<text x="40" y="773.0" font-size="12" fill="#64748b" font-style="italic">rid ⟨MT⟩</text>
+<text x="320" y="768" font-size="10.5" fill="#222">⟨MT⟩ (grey italic) = a MACHINE-translation control seat (google / mt_*). Rendered grey-italic so a machine control never reads as a human translator.</text>
+<line x1="40" y1="790" x2="1140" y2="790" stroke="#f4f4f5"/>
+<rect x="40" y="829.0" width="8" height="8" fill="#1e293b"/>
+<text x="52" y="838.0" font-size="12" font-weight="bold">zh:… (a full-stack seat)</text>
+<text x="320" y="808" font-size="10.5" fill="#222">▪ = FULL-STACK BADGE (her reversal ruling, #62: “zh is terrific and we have the full support here!”). A small neutral-dark square before the seat rid</text>
+<text x="320" y="821" font-size="10.5" fill="#222">marks a seat whose language has word · written · referent channels ALL running (today Chinese, LAW.FULL_STACK_LANGS). The referent miners are</text>
+<text x="320" y="834" font-size="10.5" fill="#222">Chinese-side only; where that channel runs it alters 2 of 669 word-tier-silent verdicts (0.3%) — real but thin. Non-Chinese seats' investigations are</text>
+<text x="320" y="847" font-size="10.5" fill="#222">word-tier (and, for German and French, colour-only); their thinness is carried in prose, never a star.</text>
+<line x1="40" y1="880" x2="1140" y2="880" stroke="#f4f4f5"/>
+<text x="40" y="904.0" font-size="10.5" fill="#94a3b8" font-style="italic">rid (dropped …)</text>
+<text x="40" y="920.0" font-size="10.5" fill="#94a3b8" font-style="italic">rid (unaligned …)</text>
+<text x="320" y="898" font-size="10.5" fill="#222">STATUS ROWS (grey italic, no data cells). DROPPED = the translator renders nothing for this source line (her-blessed alignment map, seat=[]).</text>
+<text x="320" y="911" font-size="10.5" fill="#222">UNALIGNED = the seat has no alignment file yet (line-number pairing is navigation, not an alignment claim). Neither is ever crossed as data.</text>
+<line x1="40" y1="940" x2="1140" y2="940" stroke="#f4f4f5"/>
+<line x1="40" y1="960" x2="1140" y2="960" stroke="#e2e8f0"/>
+<text x="40" y="974" font-size="9.5" fill="#666">Spec: EXHIBIT_SPEC_v4_0728_60 (the drawing law) · law module: linegrain_law_60 (marks single-sourced) · generated: key_gen_62.py, 2026-07-28 (#62). Data era: census v5.1 (findings_v51 — fr token-ghost star retired).</text>
+<text x="40" y="989" font-size="9.5" fill="#666">Her rulings behind these marks (#62): the salience trigger flip (positive-only) · the raw dot retires (A) · chance-like z suppressed (B) · the colour z-cut ADOPTED · the cut-dash side ruling (salience one-sided) · THE STAR REVERSAL (the fr deficiency star → the zh full-stack badge; thinness in prose).</text>
+<text x="40" y="1004" font-size="9.5" fill="#666" font-style="italic">Display/annotation marks (z dot, z-cut line, untested-bar, badge, ★) make NO states — the census, the false-fire budget and the verse-null cut are untouched by any mark on this key.</text>
+</svg>

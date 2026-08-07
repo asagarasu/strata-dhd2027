@@ -1,0 +1,964 @@
+{
+ "what": "THE LI BAI MINI-BOARD — SOUND-AXIS ADDENDUM. 李白 送友人 L8 蕭蕭班馬鳴 × Ezra Pound 1915 'Our horses neigh to each other / as we are departing.', measured on the SOUND axis at WORD GRAIN (#64 SOUND addendum, 2026-07-30). EXHIBITION TIER, isolated from the 8-board census by construction. REAL instruments only (word boolean + written + referent + LaBSE sound axis).",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (8->9 line-boundary event: Pound splits the final zh line). Census/heat-map standing FLAGGED FOR HER REVIEW.",
+ "certificate_drift": 0.0,
+ "certificate_replay": {
+  "second_run_drift": 0.0,
+  "max_reading_disagreement": 0.0,
+  "replay_verified": true
+ },
+ "n_inventory": 113,
+ "sound_cut": {
+  "cut": 0.02417336407884733,
+  "tier": "SUGGESTED",
+  "axis": "positive-only (SOUND is a SALIENCE axis; linegrain_law_60.SALIENCE_TRIGGER_FIELDS)"
+ },
+ "target_crossing": {
+  "line": 8,
+  "field": "sound",
+  "zh": "蕭蕭班馬鳴。",
+  "en": "Our horses neigh to each other as we are departing.",
+  "en_physical_lines": [
+   "Our horses neigh to each other",
+   "as we are departing."
+  ],
+  "src_state": "stated",
+  "src_via": "word",
+  "src_word_receipts": [
+   "鳴[廣韻]"
+  ],
+  "src_written_carriers": [],
+  "seat_state": "stated",
+  "seat_via": "word",
+  "seat_word_receipts": [
+   "neigh[wn]"
+  ],
+  "cell": "SURVIVAL",
+  "reading": "zh stated(word) × en stated(word) = SURVIVAL"
+ },
+ "per_word_channels": {
+  "source_chars": [
+   {
+    "word": "蕭",
+    "word_tier_sound": {
+     "fires": false,
+     "leg": null,
+     "receipt": null
+    },
+    "written_sound": {
+     "in_hownet_sound_carrier": false,
+     "fires": false,
+     "receipts": [],
+     "note": "carrier-present fails: 蕭 not in the 171-char hownet_sound_chars_54_amended inventory"
+    },
+    "referent_sound": {
+     "available": false,
+     "reason": "sound referent miner is colour-only (latent_score_54.referent_row_line.field=='color'); no per-word sound referent row emitted"
+    },
+    "device_tier": {
+     "fires": true,
+     "receipt": "叠字:蕭蕭",
+     "note": "reduplication onomatopoeia — sound_device (euphony ENACTED), a DISTINCT organ from the descriptive SOUND field"
+    },
+    "labse_own_token": {
+     "separately_maskable": false,
+     "reason": "zh L8 tokenises as ONE jieba unit '蕭蕭班馬鳴' (maskable_units) — 蕭/蕭蕭/鳴 are not separately maskable, so no per-char sound Δ exists",
+     "line_unit_triggered": true
+    }
+   },
+   {
+    "word": "鳴",
+    "word_tier_sound": {
+     "fires": true,
+     "leg": "廣韻",
+     "receipt": "鳴[廣韻]"
+    },
+    "written_sound": {
+     "in_hownet_sound_carrier": false,
+     "fires": false,
+     "receipts": [],
+     "note": "carrier check per latent_score_54.ZhWritten"
+    },
+    "referent_sound": {
+     "available": false,
+     "reason": "sound referent miner is colour-only (latent_score_54.referent_row_line.field=='color'); no per-word sound referent row emitted"
+    },
+    "device_tier": {
+     "fires": false,
+     "receipt": null
+    },
+    "labse_own_token": {
+     "separately_maskable": false,
+     "reason": "zh L8 tokenises as ONE jieba unit '蕭蕭班馬鳴' (maskable_units) — 蕭/蕭蕭/鳴 are not separately maskable, so no per-char sound Δ exists",
+     "line_unit_triggered": true
+    }
+   }
+  ],
+  "seat_words": [
+   {
+    "word": "neigh",
+    "word_tier_sound": {
+     "fires": true,
+     "receipt": "neigh[wn]",
+     "via": "WordNet auditory closure (en_sound_word)"
+    },
+    "in_en_sound_closure": true
+   },
+   {
+    "word": "horses",
+    "word_tier_sound": {
+     "fires": false,
+     "receipt": null,
+     "via": null
+    },
+    "in_en_sound_closure": false
+   },
+   {
+    "word": "departing",
+    "word_tier_sound": {
+     "fires": false,
+     "receipt": null,
+     "via": null
+    },
+    "in_en_sound_closure": false
+   },
+   {
+    "word": "each",
+    "word_tier_sound": {
+     "fires": false,
+     "receipt": null,
+     "via": null
+    },
+    "in_en_sound_closure": false
+   },
+   {
+    "word": "other",
+    "word_tier_sound": {
+     "fires": false,
+     "receipt": null,
+     "via": null
+    },
+    "in_en_sound_closure": false
+   },
+   {
+    "word": "as",
+    "word_tier_sound": {
+     "fires": false,
+     "receipt": null,
+     "via": null
+    },
+    "in_en_sound_closure": false
+   }
+  ],
+  "zh_jieba_words": [
+   "蕭蕭班馬鳴",
+   "。"
+  ],
+  "labse_sound_cut": 0.02417336407884733,
+  "labse_source_triggered": [
+   [
+    "蕭蕭班馬鳴",
+    0.2311
+   ]
+  ],
+  "labse_source_all_deltas": [
+   [
+    "蕭蕭班馬鳴",
+    0.2311
+   ],
+   [
+    "。",
+    0.0794
+   ]
+  ],
+  "labse_seat_all_deltas": [
+   [
+    "as",
+    0.0297
+   ],
+   [
+    "neigh",
+    0.0213
+   ],
+   [
+    "departing.",
+    -0.02
+   ],
+   [
+    "horses",
+    -0.014
+   ],
+   [
+    "other",
+    -0.011
+   ],
+   [
+    "are",
+    -0.0066
+   ],
+   [
+    "each",
+    -0.0042
+   ],
+   [
+    "Our",
+    0.0028
+   ],
+   [
+    "to",
+    0.0022
+   ],
+   [
+    "we",
+    0.0009
+   ]
+  ],
+  "labse_seat_triggered": [
+   [
+    "as",
+    0.0297
+   ]
+  ]
+ },
+ "answer": {
+  "question": "At word grain, is 蕭蕭 SOUND-latent? (does any LATENT channel — written / referent — claim 蕭 for sound while the word tier does not?)",
+  "verdict": "NO — 蕭蕭 is NOT word-grain sound-LATENT.",
+  "xiao_word_tier_sound_fires": false,
+  "xiao_written_sound_fires": false,
+  "xiao_referent_sound_available": false,
+  "xiao_is_sound_latent": false,
+  "xiao_is_sound_ghost": false,
+  "xiao_ghost_note": "蕭 is not a sound-GHOST at its own grain either: zh L8 tokenises as ONE jieba unit '蕭蕭班馬鳴' so 蕭/蕭蕭 are not separately maskable — no per-char sound Δ exists; the only positive sound salience is the whole-line unit, and the WORD tier already STATES sound (via 鳴), which outranks any ghost.",
+  "sound_is_word_stated_via": "鳴 (廣韻 leg, receipt 鳴[廣韻]) — NOT via 蕭",
+  "xiao_own_channels": "蕭: word-tier sound SILENT (no 釋樂/音部/廣韻 leg), written-sound SILENT (not in hownet_sound carrier inventory), sound-referent n/a (miner colour-only). 蕭蕭 fires ONLY the DEVICE tier (叠字 reduplication) = sound EUPHONY-ENACTED, a distinct organ from the descriptive/latent SOUND field.",
+  "precise_form": "sound on L8 is WORD-STATED via 鳴; 蕭's own tokens are: word-tier SILENT, written-latent SILENT, referent n/a, device-tier FIRES (叠字:蕭蕭). No latent channel claims 蕭 for sound — therefore 蕭蕭 is neither sound-latent nor a sound-ghost; the descriptive SOUND on the line belongs to 鳴."
+ },
+ "records_all_lines": {
+  "zh:song_youren": [
+   {
+    "line": 1,
+    "text": "青山橫北郭，",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "青"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "白水繞東城。",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "白"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "此地一為別，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "孤蓬萬里征。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "蓬"
+      ],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "浮雲遊子意，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "落日故人情。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "落日"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "揮手自茲去，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "蕭蕭班馬鳴。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "鳴[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "蕭"
+      ],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   }
+  ],
+  "en:pound_1915": [
+   {
+    "line": 1,
+    "text": "Blue mountains to the north of the walls,",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "blue"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "White river winding about them;",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "white"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "Here we must make separation",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent*",
+      "via": null,
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "And go out through a thousand miles of dead grass.",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "Mind like a floating wide cloud.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "Sunset like the parting of old acquaintances",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "part[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "Who bow over their clasped hands at a distance.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "Our horses neigh to each other",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "neigh[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "as we are departing.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   }
+  ]
+ },
+ "isolation": "adds only NEW files under reports/figures/song_youren_exhibition/ (_sound suffixes) and this script; touches no shared instrument, no census file, and not the plant board's outputs."
+}

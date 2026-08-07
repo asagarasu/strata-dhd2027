@@ -1,0 +1,1411 @@
+{
+ "what": "THE LI BAI MINI-BOARD — 李白 送友人 × Ezra Pound 1915 (Cathay), measured (#64 sitting build, 2026-07-30). EXHIBITION TIER, isolated from the 8-board census by construction. REAL channels (word boolean + written + referent) + ONE board-local zh written-plant augment (蕭 radical 艸).",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (alignments are law and hers). NOTE an 8->9 line-boundary event (Pound splits the final zh line). Census/heat-map standing FLAGGED FOR HER REVIEW.",
+ "source": {
+  "rid": "zh:song_youren",
+  "text": "李白《送友人》 (8 verse-lines; Wikisource text of record via corpus/tang_en/zh_source/li_bai_song_you_ren.txt, fetched 2026-07-05; PD Tang-dynasty). L8 蕭蕭班馬鳴 is the final line.",
+  "channels": "zh word boolean (trait_labelers, incl. radical-based plant zh_plant()) + written (latent_score_54 ZhWritten, HowNet-based) + referent. BOARD-LOCAL: zh written plant via 蕭 (Unihan kRSUnicode 140.12 = radical 艸 + MOE/Shuowen 蕭=艾蒿) — zh_plant_sense_chars_written.json."
+ },
+ "seat": {
+  "rid": "en:pound_1915",
+  "text": "Ezra Pound, Cathay (1915), 'Taking Leave of a Friend' (Gutenberg #50155; PD, F9, quoted in full). 9 body lines; the final zh line is rendered across Pound's lines 8+9 (JOINED for the crossing).",
+  "channels": "en word boolean (trait_labelers) + written (Skeat, REAL) + referent. en PLANT is UNAVAILABLE in latent_score_54 (no en plant etymon inventory — Skeat covers colour/dark only); the en written-plant leg is the honest n/a."
+ },
+ "certificate_drift": 0.0,
+ "n_inventory": 102,
+ "alignment_draft": {
+  "map": [
+   [
+    1,
+    [
+     1
+    ]
+   ],
+   [
+    2,
+    [
+     2
+    ]
+   ],
+   [
+    3,
+    [
+     3
+    ]
+   ],
+   [
+    4,
+    [
+     4
+    ]
+   ],
+   [
+    5,
+    [
+     5
+    ]
+   ],
+   [
+    6,
+    [
+     6
+    ]
+   ],
+   [
+    7,
+    [
+     7
+    ]
+   ],
+   [
+    8,
+    [
+     8,
+     9
+    ]
+   ]
+  ],
+  "banner": "DRAFT — PENDING-HER-BLESSING. Alignments are law and hers; this is an exhibition-tier draft carrying the banner (the tao_yinjiu / Antigonä precedent: a draft ships with the banner, retired only on her word). NOTE this is NOT a clean identity — Pound splits the final zh line across two of his lines (a real line-boundary event, below), exactly the case An flagged as making alignment a live question.",
+  "line_boundary_event": "zh L8 -> Pound [8,9] (split; declared)"
+ },
+ "board_local_zh_plant_written": {
+  "wired": true,
+  "field": "plant",
+  "inventory": "corpus/song_youren/zh_plant_sense_chars_written.json (Unihan kRSUnicode radical 140 艸 + MOE/Shuowen 蕭=艾蒿)",
+  "status": "SETTLED CITATION (Unihan radical + MOE headword; not PROPOSED, unlike the tao illum board). Board-local in SCOPE only.",
+  "rows": [
+   {
+    "char": "蕭",
+    "codepoint": "U+856D",
+    "surface_in_line": "蕭蕭",
+    "line": 8,
+    "plant_pole": "plant",
+    "written_radical": "艸 (grass/plant)",
+    "kangxi_radical_number": 140,
+    "unihan_kRSUnicode": "140.12",
+    "unihan_cite": "Unicode Unihan, marking/tools/vectors/Unihan_IRGSources.txt: 'U+856D\tkRSUnicode\t140.12' (Kangxi radical 140 = 艸/grass-plant, +12 residual strokes; kTotalStrokes 16). Radical 140 is a PLANT_RADICAL (trait_labelers.PLANT_RADICALS = {140,75,118,115,119,97,179,200,202}); the known plant char 菊 (chrysanthemum, U+83CA) is kRSUnicode 140.8 — same radical.",
+    "moe_radical_field": "艸",
+    "moe_sense_noun_1": "一種香草。即艾蒿。《說文解字．艸部》：「蕭，艾蒿也。」《詩經．王風．采葛》：「彼采蕭兮，一日不見，如三秋兮。」",
+    "moe_cite": "MOE 《重編國語辭典修訂本》 s.v. 蕭 (字詞號 07008), 部首字=艸, 釋義 [名]1: 一種香草，即艾蒿 (a kind of aromatic herb, i.e. artemisia / mugwort), citing 《說文解字．艸部》「蕭，艾蒿也」 (Shuowen Jiezi, artemisia in the 艸-radical section) and 《詩經．王風．采葛》「彼采蕭兮」 (Shijing: 'there he gathers artemisia'). The MOE 部首字 (radical) field agrees with Unihan: 艸.",
+    "shuowen_cite": "《說文解字．艸部》：「蕭，艾蒿也。」 — Shuowen Jiezi (Xu Shen, c. 100 CE), the foundational Chinese etymological dictionary, classes 蕭 under the 艸 (grass/plant) radical section and glosses it 艾蒿 (artemisia). This is the WRITTEN-channel plant charge: the graph's radical + its founding etymological gloss.",
+    "note": "蕭 is the sole plant-radical character in the poem's 8 lines. Its plant sense is the artemisia (艾蒿 / 香草) noun sense, carried by the 艸 radical and the Shuowen gloss. THE WORD 蕭蕭 (reduplicated) is read as ONOMATOPOEIA — the rustling of wind / the whinnying of horses (MOE 釋義 [形]1 寂寥冷清 '蕭瑟'/'蕭條' is the desolate-sound adjective sense; here 蕭蕭 modifies 班馬鳴, the horses' neighing). So the SOUND is what the reduplicated word realizes; the plant is the graph's latent botanical sense. BUT SEE CRITICAL_HONESTY_NOTE: the live descriptive plant labeler (Erya 釋草 ∧ radical 140) promotes this very plant charge to the WORD tier, so on this board the zh plant is STATED, not latent."
+   }
+  ],
+  "why": "the live zh written-plant inventory (hownet_plant_chars_54.json) is HowNet-sememe-based and simplified-dominant; HowNet has 蕭='{character|文字...}' and 萧='{desolate|荒}/{surname|姓}' — no plant sememe; 蕭/萧 both absent from the 259 charged chars. Board-local supplies 蕭's radical."
+ },
+ "records_all_lines": {
+  "zh:song_youren": [
+   {
+    "line": 1,
+    "text": "青山橫北郭，",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "青"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "白水繞東城。",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "白"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "此地一為別，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "別"
+      ],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "孤蓬萬里征。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "receipts": [
+       "蓬"
+      ],
+      "word_receipts": [
+       "蓬"
+      ],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "浮雲遊子意，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "落日故人情。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "落日"
+      ],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "落日"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "揮手自茲去，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "自茲去"
+      ],
+      "word_receipts": [],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "蕭蕭班馬鳴。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "鳴[廣韻]"
+      ],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "receipts": [
+       "蕭"
+      ],
+      "word_receipts": [
+       "蕭"
+      ],
+      "written_carriers": [],
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   }
+  ],
+  "en:pound_1915": [
+   {
+    "line": 1,
+    "text": "Blue mountains to the north of the walls,",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "blue"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "Blue"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "White river winding about them;",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "white"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "Here we must make separation",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent*",
+      "via": null,
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "separation",
+       "must",
+       "Here"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "And go out through a thousand miles of dead grass.",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "receipts": [
+       "grass"
+      ],
+      "word_receipts": [
+       "grass"
+      ],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "Mind like a floating wide cloud.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "like"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "Sunset like the parting of old acquaintances",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "part[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "Sunset",
+       "parting"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "Who bow over their clasped hands at a distance.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "hands"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "Our horses neigh to each other",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "neigh[wn]"
+      ],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "as we are departing.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "receipts": [
+       "departing",
+       "as"
+      ],
+      "word_receipts": [],
+      "written_carriers": null,
+      "channel": "plant(board-local written augment on zh)"
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   }
+  ]
+ },
+ "crossings": [
+  {
+   "line": 1,
+   "field": "color",
+   "src_text": "青山橫北郭，",
+   "seat_text": "Blue mountains to the north of the walls,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "青"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "blue"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "sound",
+   "src_text": "青山橫北郭，",
+   "seat_text": "Blue mountains to the north of the walls,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "plant",
+   "src_text": "青山橫北郭，",
+   "seat_text": "Blue mountains to the north of the walls,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [
+    "Blue"
+   ],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "temporal",
+   "src_text": "青山橫北郭，",
+   "seat_text": "Blue mountains to the north of the walls,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "color",
+   "src_text": "白水繞東城。",
+   "seat_text": "White river winding about them;",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "白"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "white"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "sound",
+   "src_text": "白水繞東城。",
+   "seat_text": "White river winding about them;",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "plant",
+   "src_text": "白水繞東城。",
+   "seat_text": "White river winding about them;",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "temporal",
+   "src_text": "白水繞東城。",
+   "seat_text": "White river winding about them;",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "color",
+   "src_text": "此地一為別，",
+   "seat_text": "Here we must make separation",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "sound",
+   "src_text": "此地一為別，",
+   "seat_text": "Here we must make separation",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "plant",
+   "src_text": "此地一為別，",
+   "seat_text": "Here we must make separation",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [
+    "別"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [
+    "separation",
+    "must",
+    "Here"
+   ],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "temporal",
+   "src_text": "此地一為別，",
+   "seat_text": "Here we must make separation",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "color",
+   "src_text": "孤蓬萬里征。",
+   "seat_text": "And go out through a thousand miles of dead grass.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "grass"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "sound",
+   "src_text": "孤蓬萬里征。",
+   "seat_text": "And go out through a thousand miles of dead grass.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "plant",
+   "src_text": "孤蓬萬里征。",
+   "seat_text": "And go out through a thousand miles of dead grass.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "蓬"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "grass"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "temporal",
+   "src_text": "孤蓬萬里征。",
+   "seat_text": "And go out through a thousand miles of dead grass.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "color",
+   "src_text": "浮雲遊子意，",
+   "seat_text": "Mind like a floating wide cloud.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "sound",
+   "src_text": "浮雲遊子意，",
+   "seat_text": "Mind like a floating wide cloud.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "plant",
+   "src_text": "浮雲遊子意，",
+   "seat_text": "Mind like a floating wide cloud.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [
+    "like"
+   ],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "temporal",
+   "src_text": "浮雲遊子意，",
+   "seat_text": "Mind like a floating wide cloud.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "color",
+   "src_text": "落日故人情。",
+   "seat_text": "Sunset like the parting of old acquaintances",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "sound",
+   "src_text": "落日故人情。",
+   "seat_text": "Sunset like the parting of old acquaintances",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "part[wn]"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "plant",
+   "src_text": "落日故人情。",
+   "seat_text": "Sunset like the parting of old acquaintances",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [
+    "落日"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [
+    "Sunset",
+    "parting"
+   ],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "temporal",
+   "src_text": "落日故人情。",
+   "seat_text": "Sunset like the parting of old acquaintances",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "落日"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "color",
+   "src_text": "揮手自茲去，",
+   "seat_text": "Who bow over their clasped hands at a distance.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "sound",
+   "src_text": "揮手自茲去，",
+   "seat_text": "Who bow over their clasped hands at a distance.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "plant",
+   "src_text": "揮手自茲去，",
+   "seat_text": "Who bow over their clasped hands at a distance.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [
+    "自茲去"
+   ],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [
+    "hands"
+   ],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "temporal",
+   "src_text": "揮手自茲去，",
+   "seat_text": "Who bow over their clasped hands at a distance.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "color",
+   "src_text": "蕭蕭班馬鳴。",
+   "seat_text": "Our horses neigh to each other as we are departing.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "sound",
+   "src_text": "蕭蕭班馬鳴。",
+   "seat_text": "Our horses neigh to each other as we are departing.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "鳴[廣韻]"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "neigh[wn]"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "plant",
+   "src_text": "蕭蕭班馬鳴。",
+   "seat_text": "Our horses neigh to each other as we are departing.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "蕭"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": true
+  },
+  {
+   "line": 8,
+   "field": "temporal",
+   "src_text": "蕭蕭班馬鳴。",
+   "seat_text": "Our horses neigh to each other as we are departing.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  }
+ ],
+ "target_crossing": {
+  "line": 8,
+  "field": "plant",
+  "zh": "蕭蕭班馬鳴。",
+  "en": "Our horses neigh to each other as we are departing.",
+  "en_physical_lines": [
+   "Our horses neigh to each other",
+   "as we are departing."
+  ],
+  "zh_word_plant_fires": true,
+  "zh_word_plant_receipts": [
+   "蕭"
+  ],
+  "zh_word_sound_fires": true,
+  "zh_word_sound_receipts": [
+   "鳴[廣韻]"
+  ],
+  "zh_written_plant_REAL": {
+   "carriers": [],
+   "fires": false
+  },
+  "zh_written_plant_boardlocal": {
+   "fires": true,
+   "carriers": [
+    "蕭"
+   ],
+   "rows": [
+    {
+     "char": "蕭",
+     "radical": "艸 (grass/plant)",
+     "kangxi": 140,
+     "kRSUnicode": "140.12",
+     "sense": "一種香草。即艾蒿。《說文解字．艸部》：「蕭，艾蒿也。」《詩經．王風．采葛》：「彼采蕭兮，一日不見，如三秋兮。」",
+     "cite": "MOE 《重編國語辭典修訂本》 s.v. 蕭 (字詞號 07008), 部首字=艸, 釋義 [名]1: 一種香草，即艾蒿 (a kind of aromatic herb, i.e. artemisia / mugwort), citing 《說文解字．艸部》「蕭，艾蒿也」 (Shuowen Jiezi, artemisia in the 艸-radical section) and 《詩經．王風．采葛》「彼采蕭兮」 (Shijing: 'there he gathers artemisia'). The MOE 部首字 (radical) field agrees with Unihan: 艸."
+    }
+   ]
+  },
+  "en_word_plant_fires": false,
+  "en_written_plant_available": false,
+  "en_written_plant_reason": "no en-etymon inventory (Skeat FIELD_TERMS covers colour/dark only)",
+  "src_state": "stated",
+  "src_via": "word",
+  "seat_state": "silent",
+  "seat_via": null,
+  "cell": "DEFORMATION",
+  "reading": "zh stated(word) × en silent(None) = DEFORMATION",
+  "expected": "LATENT-UNREALIZED (task expectation: 蕭 plant latent-WRITTEN × Pound plant absent)",
+  "verdict_matches_expected": false,
+  "honesty_note": "verdict_matches_expected=FALSE. The task expected LATENT-UNREALIZED (蕭 plant latent via the WRITTEN channel). But the live DESCRIPTIVE plant labeler trait_labelers.zh_plant() is ITSELF radical-attestation-based (《爾雅》釋草/釋木 ∧ Kangxi plant radical incl. 140); 蕭 is a 釋草 artemisia headword with radical 140, so it charges the zh WORD plant boolean (fires=True, receipt=['蕭']). Per LAW.line_state precedence (word STATED > written latent), the zh plant is STATED/active, NOT latent — so the crossing lands (active, absent) = DEFORMATION. The board-local WRITTEN receipt (蕭 radical 艸 via Unihan + MOE/Shuowen 艾蒿) is REAL and cited, but it is subsumed: the SAME radical evidence is already promoted to the WORD tier by the radical-aware descriptive labeler. Reported honestly (task rule 'REPORT what IS'), the verdict is NOT faked."
+ }
+}

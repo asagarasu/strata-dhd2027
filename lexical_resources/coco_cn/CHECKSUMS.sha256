@@ -1,0 +1,9 @@
+# SHA-256 checksums for COCO-CN vendored files
+# Generated: 2026-07-20
+# All blobs stay untracked per house payload law; checksums travel.
+
+6c126cd8455363a404806e452ec75066a8fc96d73922d9357d993fcdd1d40b8a  coco-cn-version1805v1.1.tar.gz
+e25044d77bd9c97d1907a2ceff45b15566fc9064d493d9ba9860b07c3a114073  conceptscn655.txt
+6427c1b2f2bc357f26ac7ac37e60965f7574028997dc7aefcad495832359053c  coco-cn_ext.icap2020.txt
+1d8f1d87f577afaf7227add4ab42296a3ab26789f001e6c22537c2d8aecf7626  detected-typos.txt
+73bddb54fe36de42d9062021d140d0dba0925cc3188f262f996ba4ed2b6bbece  intersection_coco_cn_x_local_val2017.txt

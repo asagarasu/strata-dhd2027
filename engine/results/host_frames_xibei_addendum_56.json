@@ -1,0 +1,15 @@
+{
+ "pool": {},
+ "provenance": {
+  "law": "host_frames_53 extraction law replicated (whole token before final '/'; full sentence + 0-based positions; line order); validated by exact re-derivation of the committed 青春/黑夜 records (fail=stop)",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "memo": "word_grain_referent_pass_memo_55.md",
+  "session": 55
+ },
+ "truncation": {
+  "applied": false,
+  "reason": null,
+  "caps": {}
+ },
+ "size_mb": 0.0
+}

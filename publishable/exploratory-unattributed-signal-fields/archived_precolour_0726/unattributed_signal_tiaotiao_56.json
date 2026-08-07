@@ -1,0 +1,1418 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "board": "tiaotiao",
+  "manifest": {
+    "board": "tiaotiao",
+    "inputs": {
+      "descriptive_scores_tiaotiao_56.json": "38fa61d9cadaa5de89177e792f977e26ca980b2b3625d1a51d54fe997962927b",
+      "latent_scores_tiaotiao_56.json": "7faab8ed3b154199e566f0b7f5682f0303207f48fc6a702330f8637892da3b32"
+    },
+    "definition": {
+      "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+      "fields": [
+        "color",
+        "sound"
+      ],
+      "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+      "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+      "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+      "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+      "membership": "channel-escape, not a verdict"
+    },
+    "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+    "counts_by_rid_field": {
+      "en:birrell": {
+        "color": 4,
+        "sound": 4
+      },
+      "en:owen": {
+        "color": 4,
+        "sound": 3
+      },
+      "en:waley_1918": {
+        "color": 4,
+        "sound": 4
+      },
+      "en:watson": {
+        "color": 3,
+        "sound": 6
+      },
+      "en:xu_yuanchong": {
+        "color": 5,
+        "sound": 3
+      },
+      "zh:gushi19_10": {
+        "color": 4,
+        "sound": 4
+      }
+    },
+    "counts_total": {
+      "color": 24,
+      "sound": 24,
+      "rows": 48
+    }
+  },
+  "rows": [
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.0015918604640273925,
+      "suspect_words": [
+        [
+          "star,",
+          0.01659686508904127
+        ],
+        [
+          "Herdboy",
+          0.0071255004404787185
+        ],
+        [
+          "Faraway",
+          -0.005907196393483236
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 5,
+      "field": "color",
+      "scalar": 0.011489599847374812,
+      "suspect_words": [
+        [
+          "ends",
+          0.026413737174451883
+        ],
+        [
+          "never",
+          0.018329463232780757
+        ],
+        [
+          "pattern,",
+          -0.012725267134023572
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.07564168706840119,
+      "suspect_words": [
+        [
+          "she",
+          -0.06089864260134756
+        ],
+        [
+          "rain.",
+          0.01821596733010017
+        ],
+        [
+          "sheds",
+          -0.015715576904311246
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.024467130362995006,
+      "suspect_words": [
+        [
+          "Han",
+          -0.023697541938436456
+        ],
+        [
+          "clear",
+          0.016956320153884978
+        ],
+        [
+          "shallow,",
+          0.008010891457262869
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03244574436179544,
+      "suspect_words": [
+        [
+          "shallow,",
+          0.05260233729323867
+        ],
+        [
+          "Han",
+          0.029338208889747083
+        ],
+        [
+          "River",
+          0.013615166426177865
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.01495052516909995,
+      "suspect_words": [
+        [
+          "longer?",
+          0.017696336073538828
+        ],
+        [
+          "Away",
+          -0.012186513475015226
+        ],
+        [
+          "each",
+          -0.01153656993480801
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.01838678966407479,
+      "suspect_words": [
+        [
+          "Away",
+          -0.026371401432938667
+        ],
+        [
+          "from",
+          0.02278251643580511
+        ],
+        [
+          "other",
+          0.018220654901869148
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:birrell",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.04204666689960371,
+      "suspect_words": [
+        [
+          "word.",
+          0.04408541989067695
+        ],
+        [
+          "She",
+          -0.04281278175335243
+        ],
+        [
+          "stares",
+          0.03980619382679357
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.029746174391125164,
+      "suspect_words": [
+        [
+          "star,",
+          0.04599238329625052
+        ],
+        [
+          "Oxherd;",
+          0.022196324338202504
+        ],
+        [
+          "lies",
+          0.019486107227315225
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.06483500676599402,
+      "suspect_words": [
+        [
+          "she",
+          0.046707127338057555
+        ],
+        [
+          "Stars.",
+          0.039163252210076153
+        ],
+        [
+          "River",
+          0.02765791781380443
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.0007390454861219073,
+      "suspect_words": [
+        [
+          "Maid",
+          -0.04606334494949015
+        ],
+        [
+          "sparkles,",
+          0.021004471483853482
+        ],
+        [
+          "River",
+          -0.01735928896325853
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.04048640997439674,
+      "suspect_words": [
+        [
+          "her",
+          -0.059015187265648826
+        ],
+        [
+          "tears",
+          0.044492165434391565
+        ],
+        [
+          "rain.",
+          0.01660120928063529
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.046522219636626824,
+      "suspect_words": [
+        [
+          "clear,",
+          0.03053480895238584
+        ],
+        [
+          "River",
+          0.01725720793590344
+        ],
+        [
+          "shallow",
+          0.009395759000838382
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03877984347080245,
+      "suspect_words": [
+        [
+          "Stars",
+          0.03938638786295626
+        ],
+        [
+          "shallow",
+          0.02589960661690115
+        ],
+        [
+          "is",
+          -0.007105830382378178
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:owen",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.016128900309094873,
+      "suspect_words": [
+        [
+          "nor",
+          -0.020968934574988298
+        ],
+        [
+          "apart.",
+          -0.011349528521487039
+        ],
+        [
+          "very",
+          0.008095534219765797
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.08922515479400218,
+      "suspect_words": [
+        [
+          "twinkles",
+          0.05941034842623303
+        ],
+        [
+          "Herd-boy",
+          0.053424089612863726
+        ],
+        [
+          "star;",
+          -0.02588915549516614
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Far away twinkles the Herd-boy star;"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.035360351804553894,
+      "suspect_words": [
+        [
+          "River.",
+          0.029159934182415567
+        ],
+        [
+          "Lady",
+          0.028551883675866488
+        ],
+        [
+          "shines",
+          0.015244659606172151
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Brightly shines the Lady of the Han River."
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 2,
+      "field": "sound",
+      "scalar": 0.02006824658377782,
+      "suspect_words": [
+        [
+          "River.",
+          -0.03814199799691914
+        ],
+        [
+          "Lady",
+          -0.03525470953124382
+        ],
+        [
+          "shines",
+          0.02541962292286157
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Brightly shines the Lady of the Han River."
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.027577585012415758,
+      "suspect_words": [
+        [
+          "slender",
+          0.019751419084301662
+        ],
+        [
+          "white",
+          -0.01849316976054812
+        ],
+        [
+          "plies",
+          0.01688268317941624
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Slender, slender she plies her white fingers."
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.04446677480093998,
+      "suspect_words": [
+        [
+          "Her",
+          -0.07043906523299451
+        ],
+        [
+          "rain.",
+          -0.06099833930734351
+        ],
+        [
+          "bitter",
+          -0.0396353831872243
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Her bitter tears fall like streaming rain."
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.00800681098155374,
+      "suspect_words": [
+        [
+          "Han",
+          -0.012985772442773547
+        ],
+        [
+          "shallow",
+          0.01164469895074066
+        ],
+        [
+          "River",
+          -0.00896744735500674
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "The Han River runs shallow and clear;"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.016911213589183783,
+      "suspect_words": [
+        [
+          "short",
+          0.01636933849720685
+        ],
+        [
+          "space!",
+          -0.013072933946164846
+        ],
+        [
+          "them,",
+          -0.013006711352197466
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "Set between them, how short a space!"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:waley_1918",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.03412466852540774,
+      "suspect_words": [
+        [
+          "let",
+          0.016731267991845468
+        ],
+        [
+          "pass,",
+          0.014219050846040825
+        ],
+        [
+          "them",
+          0.013619223371679645
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "But the river water will not let them pass,"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 1,
+      "field": "color",
+      "scalar": 0.007116129165217745,
+      "suspect_words": [
+        [
+          "Star;",
+          0.022310014999979515
+        ],
+        [
+          "Far",
+          0.016547724448217525
+        ],
+        [
+          "Herdboy",
+          0.012900534965710076
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.0023526411562494933,
+      "suspect_words": [
+        [
+          "Star;",
+          0.021581277399899713
+        ],
+        [
+          "Far",
+          0.020273259032867287
+        ],
+        [
+          "Herdboy",
+          0.01607762723215583
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.142240839157774,
+      "suspect_words": [
+        [
+          "tears",
+          0.028957172360093514
+        ],
+        [
+          "rain.",
+          0.02005738398346245
+        ],
+        [
+          "like",
+          0.010982530794087175
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.03962507375408021,
+      "suspect_words": [
+        [
+          "clear",
+          0.017811977713178283
+        ],
+        [
+          "Heaven",
+          0.01608369673437231
+        ],
+        [
+          "shallow;",
+          0.012619235127751455
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.011483519871645753,
+      "suspect_words": [
+        [
+          "Heaven",
+          0.04461486760000698
+        ],
+        [
+          "shallow;",
+          -0.026168715694069783
+        ],
+        [
+          "clear",
+          -0.01732323927974423
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 8,
+      "field": "sound",
+      "scalar": 0.01975008821778699,
+      "suspect_words": [
+        [
+          "what",
+          0.02915935877753919
+        ],
+        [
+          "little",
+          0.016264241437017067
+        ],
+        [
+          "between",
+          0.015912642300161664
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.02761701233069371,
+      "suspect_words": [
+        [
+          "single",
+          0.02037847777886065
+        ],
+        [
+          "stream—",
+          0.017037188538416684
+        ],
+        [
+          "brimming",
+          -0.010695185221018647
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.050325789209304576,
+      "suspect_words": [
+        [
+          "stream—",
+          0.03172886883181626
+        ],
+        [
+          "brimming",
+          0.03121437948847251
+        ],
+        [
+          "Only",
+          0.01846529712856613
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:watson",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.0022344481440571603,
+      "suspect_words": [
+        [
+          "speak.",
+          0.0367763236964423
+        ],
+        [
+          "and",
+          0.029042617572676316
+        ],
+        [
+          "and",
+          0.027483715492573897
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 3,
+      "field": "color",
+      "scalar": 0.04483955547247352,
+      "suspect_words": [
+        [
+          "slender",
+          0.03582192842707696
+        ],
+        [
+          "are;",
+          0.017810115553825803
+        ],
+        [
+          "fingers",
+          0.01451096302330157
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 3,
+      "field": "sound",
+      "scalar": 0.0355090475425615,
+      "suspect_words": [
+        [
+          "fingers",
+          0.05561530447106104
+        ],
+        [
+          "are;",
+          -0.03294925973755604
+        ],
+        [
+          "her",
+          -0.03001361764681998
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.033464376671504044,
+      "suspect_words": [
+        [
+          "clear;",
+          0.03243794142634714
+        ],
+        [
+          "Heaven’s",
+          0.021753884215701565
+        ],
+        [
+          "River’s",
+          0.016569444723836046
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.008912554982530928,
+      "suspect_words": [
+        [
+          "clear;",
+          -0.050383652814045464
+        ],
+        [
+          "Heaven’s",
+          0.04025531659499075
+        ],
+        [
+          "and",
+          -0.02675004375473511
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.005436384444196987,
+      "suspect_words": [
+        [
+          "stars",
+          0.026097055729347382
+        ],
+        [
+          "not",
+          -0.017742930777646503
+        ],
+        [
+          "two",
+          0.014208615624856362
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.012977469712022172,
+      "suspect_words": [
+        [
+          "brimful",
+          0.02336890371464717
+        ],
+        [
+          "brimful,",
+          0.00672850496639874
+        ],
+        [
+          "waves",
+          0.003820832771262373
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 9,
+      "field": "sound",
+      "scalar": 0.21831783520685424,
+      "suspect_words": [
+        [
+          "waves",
+          0.08645738839709624
+        ],
+        [
+          "brimful",
+          0.04565608228358145
+        ],
+        [
+          "brimful,",
+          0.045315076637008206
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "unavailable",
+        "referent": "unavailable"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "en:xu_yuanchong",
+      "line_no": 10,
+      "field": "color",
+      "scalar": 0.00965239705038935,
+      "suspect_words": [
+        [
+          "but",
+          0.03089526717468328
+        ],
+        [
+          "heart.",
+          0.022868997757524677
+        ],
+        [
+          "gaze",
+          0.02106109377718835
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "local",
+      "text_redacted": true
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 1,
+      "field": "sound",
+      "scalar": 0.042638555611409314,
+      "suspect_words": [
+        [
+          "迢迢",
+          0.06332906885014669
+        ],
+        [
+          "，",
+          0.01674290687698223
+        ],
+        [
+          "牵牛星",
+          0.015049435332966217
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "迢迢牵牛星，"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 2,
+      "field": "color",
+      "scalar": 0.04036325962479824,
+      "suspect_words": [
+        [
+          "女",
+          0.017584551330176296
+        ],
+        [
+          "皎",
+          0.007526236168367478
+        ],
+        [
+          "皎",
+          0.007526236168367478
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "皎皎河汉女。"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 6,
+      "field": "sound",
+      "scalar": 0.16737158695501914,
+      "suspect_words": [
+        [
+          "泣",
+          0.08609152310582033
+        ],
+        [
+          "涕零如雨",
+          0.07289080352571882
+        ],
+        [
+          "。",
+          0.07050138368368829
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "泣涕零如雨。"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 7,
+      "field": "color",
+      "scalar": 0.024105168070387952,
+      "suspect_words": [
+        [
+          "清且",
+          0.05190081705276157
+        ],
+        [
+          "，",
+          0.025788757817759498
+        ],
+        [
+          "浅",
+          0.018654291088365655
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "河汉清且浅，"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 7,
+      "field": "sound",
+      "scalar": 0.03425452337033509,
+      "suspect_words": [
+        [
+          "浅",
+          0.062384707924879365
+        ],
+        [
+          "河汉",
+          0.039814830490411485
+        ],
+        [
+          "清且",
+          0.03515096542554771
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "河汉清且浅，"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 8,
+      "field": "color",
+      "scalar": 0.004333972736163771,
+      "suspect_words": [
+        [
+          "几许",
+          0.017720567747645584
+        ],
+        [
+          "复",
+          0.011297026929644401
+        ],
+        [
+          "相去",
+          -0.009849010008597203
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "相去复几许？"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 9,
+      "field": "color",
+      "scalar": 0.0022291003921295627,
+      "suspect_words": [
+        [
+          "间",
+          -0.024475351606573024
+        ],
+        [
+          "，",
+          0.0076868738694384695
+        ],
+        [
+          "盈盈一水",
+          -0.00010153174160302657
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "existed-empty"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "盈盈一水间，"
+    },
+    {
+      "board": "tiaotiao",
+      "rid": "zh:gushi19_10",
+      "line_no": 10,
+      "field": "sound",
+      "scalar": 0.0471974267920809,
+      "suspect_words": [
+        [
+          "脉脉",
+          0.0749413822269013
+        ],
+        [
+          "。",
+          0.021157902417716118
+        ],
+        [
+          "语",
+          -0.020561304506694036
+        ]
+      ],
+      "channels": {
+        "descriptive": "existed-silent",
+        "written": "existed-silent",
+        "referent": "unavailable"
+      },
+      "tier": "repo",
+      "text_redacted": false,
+      "text": "脉脉不得语。"
+    }
+  ]
+}

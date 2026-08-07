@@ -1,0 +1,68 @@
+{
+  "what": "UNATTRIBUTED SIGNAL (reflective-suspect) — mechanical rows",
+  "exploratory_header": "EXPLORATORY — no credential claims; the reflective-candidate column's mechanical population; membership = channel-escape, not a verdict.",
+  "definition": {
+    "row": "UNATTRIBUTED SIGNAL (reflective-suspect)",
+    "fields": [
+      "color",
+      "sound"
+    ],
+    "check_i_scalar": "line scalar reading > 0 (committed check-1 sign convention; threshold refinement is HERS — OPEN)",
+    "check_ii_descriptive": "descriptive boolean fires is False (strictly False, not None; uncovered languages OUT by declaration)",
+    "check_iii_written": "written-row fires_bool is False OR written row unavailable for the field",
+    "check_iv_referent": "referent trigger list empty OR referent row unavailable for the field",
+    "membership": "channel-escape, not a verdict"
+  },
+  "boards": {
+    "sonnet18": {
+      "color": 28,
+      "sound": 23,
+      "rows": 51
+    },
+    "qingqing": {
+      "color": 38,
+      "sound": 12,
+      "rows": 50
+    },
+    "albatros": {
+      "color": 34,
+      "sound": 76,
+      "rows": 110
+    },
+    "correspondances": {
+      "color": 40,
+      "sound": 86,
+      "rows": 126
+    },
+    "tiaotiao": {
+      "color": 24,
+      "sound": 12,
+      "rows": 36
+    },
+    "xibei": {
+      "color": 35,
+      "sound": 57,
+      "rows": 92
+    },
+    "invitation": {
+      "color": 68,
+      "sound": 115,
+      "rows": 183
+    },
+    "elevation": {
+      "color": 46,
+      "sound": 73,
+      "rows": 119
+    },
+    "sonnet73": {
+      "color": 21,
+      "sound": 30,
+      "rows": 51
+    }
+  },
+  "totals": {
+    "color": 334,
+    "sound": 484,
+    "rows": 818
+  }
+}

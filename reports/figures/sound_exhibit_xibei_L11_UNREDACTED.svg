@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="500" font-family="Helvetica,Arial,sans-serif">
+<rect width="1560" height="500" fill="white"/>
+<text x="20" y="30" font-size="17" font-weight="bold">「西北有高樓」第十一行 一彈再三嘆 — the pluck-and-sigh's sound, per seat: word · device · graph</text>
+<text x="20" y="50" font-size="11" fill="#555">the source carries sound latent in the graph 彈 (amber; HowNet single-char inventory, 3-check✓) with the descriptive word tier silent; three translators STATE it at this line (word-tier, red) — birrell/watson sigh · xu refrain — owen fires the DEVICE only (allit:strummed-sighed, green; word-tier silent), waley silent. 嘆 itself is non-word-tier (rad 30, 廣韻 長息); the seats' sigh fires via the WordNet closure. All receipts committed, post-rerun (registration 0726).</text>
+<text x="175" y="82" font-size="10.5" font-weight="bold" fill="#333">line (device green · word red · carrier amber)</text>
+<text x="570" y="82" font-size="10.5" font-weight="bold" fill="#333">述·词 word-tier</text>
+<text x="810" y="82" font-size="10.5" font-weight="bold" fill="#333">述·律 sound-device</text>
+<text x="965" y="82" font-size="10.5" font-weight="bold" fill="#333">scalar</text>
+<text x="1042" y="82" font-size="10.5" font-weight="bold" fill="#333">载·字形 written</text>
+<text x="1230" y="82" font-size="10.5" font-weight="bold" fill="#333">state</text>
+<text x="1400" y="82" font-size="10.5" font-weight="bold" fill="#333">transmission (poem grain)</text>
+<g>
+<text x="20" y="116" font-size="12" font-weight="bold">源 十九首·西北有高樓</text>
+<text x="175" y="116" font-size="12"><tspan fill="#000">一</tspan><tspan font-weight="bold" fill="#c9a227">弹</tspan><tspan fill="#000">再三叹，</tspan></text>
+<text x="570" y="112" font-size="9.5" fill="#999">silent</text>
+<text x="810" y="114" font-size="10" fill="#999">silent (no device)</text>
+<rect x="965" y="102" width="58" height="28" fill="rgb(255,173,173)" stroke="#ccc"/>
+<text x="994" y="120" font-size="10.5" text-anchor="middle">+0.15</text>
+<text x="1042" y="114" font-size="9" fill="#666">弹 [HowNet carrier; 3-check✓]</text>
+<text x="1230" y="113" font-size="11.5" font-weight="bold" fill="#c9a227">CARRIED</text>
+<text x="1230" y="126" font-size="8.5" fill="#777">written (弹)</text>
+<text x="1400" y="116" font-size="11" font-weight="bold" fill="#333">— source —</text>
+</g>
+<line x1="20" y1="138" x2="1540" y2="138" stroke="#333" stroke-width="1.4"/>
+<g>
+<text x="20" y="168" font-size="12" font-weight="bold">Birrell</text>
+<text x="175" y="168" font-size="12"><tspan fill="#000">One chord, two or three </tspan><tspan font-weight="bold" fill="#b22222">sighs</tspan><tspan fill="#000">,</tspan></text>
+<text x="570" y="164" font-size="9.5" fill="#b22222">sigh[wn]</text>
+<text x="810" y="166" font-size="10" fill="#999">—</text>
+<rect x="965" y="154" width="58" height="28" fill="rgb(255,167,167)" stroke="#ccc"/>
+<text x="994" y="172" font-size="10.5" text-anchor="middle">+0.16</text>
+<text x="1042" y="166" font-size="9" fill="#666">n/a (en)</text>
+<text x="1230" y="165" font-size="11.5" font-weight="bold" fill="#b22222">STATED</text>
+<text x="1230" y="178" font-size="8.5" fill="#777">word-tier</text>
+<text x="1400" y="165" font-size="11" font-weight="bold" fill="#2f6f6f">SURVIVAL</text>
+<text x="1400" y="178" font-size="8.5" fill="#777">(poem grain)</text>
+</g>
+<g>
+<text x="20" y="220" font-size="12" font-weight="bold">Owen</text>
+<text x="175" y="220" font-size="12"><tspan fill="#000">once she </tspan><tspan font-weight="bold" fill="#1a7d1a">strummed</tspan><tspan fill="#000">, then </tspan><tspan font-weight="bold" fill="#1a7d1a">sighed</tspan><tspan fill="#000"> again,</tspan></text>
+<text x="570" y="216" font-size="9.5" fill="#999">silent — verbs (closure gap)</text>
+<text x="810" y="218" font-size="10" fill="#1a7d1a">allit:strummed-sighed</text>
+<rect x="965" y="206" width="58" height="28" fill="rgb(255,184,184)" stroke="#ccc"/>
+<text x="994" y="224" font-size="10.5" text-anchor="middle">+0.13</text>
+<text x="1042" y="218" font-size="9" fill="#666">n/a (en)</text>
+<text x="1230" y="217" font-size="11.5" font-weight="bold" fill="#1a7d1a">device only</text>
+<text x="1230" y="230" font-size="8.5" fill="#777">word-tier silent</text>
+<text x="1400" y="217" font-size="11" font-weight="bold" fill="#2f6f6f">SURVIVAL</text>
+<text x="1400" y="230" font-size="8.5" fill="#777">(poem grain)</text>
+</g>
+<g>
+<text x="20" y="272" font-size="12" font-weight="bold">Waley 1918</text>
+<text x="175" y="272" font-size="12"><tspan fill="#000">To each note, two or three sobs,</tspan></text>
+<text x="570" y="268" font-size="9.5" fill="#999">silent</text>
+<text x="570" y="280" font-size="9" fill="#999">(sobs outside wn auditory closure)</text>
+<text x="810" y="270" font-size="10" fill="#999">—</text>
+<rect x="965" y="258" width="58" height="28" fill="rgb(255,206,206)" stroke="#ccc"/>
+<text x="994" y="276" font-size="10.5" text-anchor="middle">+0.09</text>
+<text x="1042" y="270" font-size="9" fill="#666">n/a (en)</text>
+<text x="1230" y="269" font-size="11.5" font-weight="bold" fill="#777">—</text>
+<text x="1230" y="282" font-size="8.5" fill="#777">nothing fires at line grain</text>
+<text x="1400" y="269" font-size="11" font-weight="bold" fill="#2f6f6f">SURVIVAL</text>
+<text x="1400" y="282" font-size="8.5" fill="#777">(poem grain)</text>
+</g>
+<g>
+<text x="20" y="324" font-size="12" font-weight="bold">Watson</text>
+<text x="175" y="324" font-size="12"><tspan fill="#000">one plucking, two or three </tspan><tspan font-weight="bold" fill="#b22222">sighs</tspan><tspan fill="#000">,</tspan></text>
+<text x="570" y="320" font-size="9.5" fill="#b22222">sigh[wn]</text>
+<text x="810" y="322" font-size="10" fill="#999">—</text>
+<rect x="965" y="310" width="58" height="28" fill="rgb(255,206,206)" stroke="#ccc"/>
+<text x="994" y="328" font-size="10.5" text-anchor="middle">+0.09</text>
+<text x="1042" y="322" font-size="9" fill="#666">n/a (en)</text>
+<text x="1230" y="321" font-size="11.5" font-weight="bold" fill="#b22222">STATED</text>
+<text x="1230" y="334" font-size="8.5" fill="#777">word-tier</text>
+<text x="1400" y="321" font-size="11" font-weight="bold" fill="#2f6f6f">SURVIVAL</text>
+<text x="1400" y="334" font-size="8.5" fill="#777">(poem grain)</text>
+</g>
+<g>
+<text x="20" y="376" font-size="12" font-weight="bold">Xu Yuanchong</text>
+<text x="175" y="376" font-size="12"><tspan fill="#000">It's followed then by three </tspan><tspan font-weight="bold" fill="#b22222">refrains</tspan><tspan fill="#000">;</tspan></text>
+<text x="570" y="372" font-size="9.5" fill="#b22222">refrain[wn]</text>
+<text x="810" y="374" font-size="10" fill="#999">—</text>
+<rect x="965" y="362" width="58" height="28" fill="rgb(255,200,200)" stroke="#ccc"/>
+<text x="994" y="380" font-size="10.5" text-anchor="middle">+0.10</text>
+<text x="1042" y="374" font-size="9" fill="#666">n/a (en)</text>
+<text x="1230" y="373" font-size="11.5" font-weight="bold" fill="#b22222">STATED</text>
+<text x="1230" y="386" font-size="8.5" fill="#777">word-tier</text>
+<text x="1400" y="373" font-size="11" font-weight="bold" fill="#2f6f6f">SURVIVAL</text>
+<text x="1400" y="386" font-size="8.5" fill="#777">(poem grain)</text>
+</g>
+<text x="20" y="418" font-size="10" fill="#777">notes: crossing is word-tier ONLY (birrell/watson sigh, xu refrain). owen fires the DEVICE only (allit:strummed-sighed) → not a word-tier crossing; both surface words are verbs and fall through the noun-closure gap. waley silent — sobs reads as sound to a reader but sits outside the WordNet auditory closure the labeler uses. Booleans carry the evidence; scalar shown honestly.</text>
+<text x="20" y="434" font-size="10" fill="#777">poem-grain caveat: this line-grain latent→stated crossing sits INSIDE a poem-grain SURVIVAL verdict (transitions, all five seats). The source STATES sound elsewhere in the poem — L5 上有弦歌聲 → 歌[釋樂] fires=true — so the whole-poem sound field survives; the exhibit's claim is the line-grain crossing at L11 itself, not the poem verdict.</text>
+<text x="20" y="450" font-size="10" fill="#777">sources: descriptive/latent xibei _56 jsons (post-rerun, registration 0726). derivation-lookup 弹: word-tier legs 釋樂∪音部∪廣韻 ∩ line-chars = ∅ (all three False → source word-tier silent); written carrier {char:弹} @ hownet_single_char_inventory[sound], fires_three_check=true (latent written_row idx10). 嘆(叹) non-word-tier: rad 30, 廣韻 長息 — the sigh fires from the WordNet closure, not from 嘆.</text>
+<text x="20" y="466" font-size="10" fill="#a33">F9: UNREDACTED — rendering lines quoted; local tier only, never into released files.</text>
+</svg>

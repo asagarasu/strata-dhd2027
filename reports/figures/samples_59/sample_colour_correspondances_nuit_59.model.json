@@ -1,0 +1,807 @@
+{
+ "board": "correspondances",
+ "line_idx": 6,
+ "field": "color",
+ "cut": 0.014943544323258378,
+ "tier": "ADOPTED · flagship",
+ "line_cut": 0.045825570756125054,
+ "src_rid": "fr:baudelaire_1861",
+ "seats": [
+  {
+   "rid": "fr:baudelaire_1861",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "Vaste comme la nuit et comme la clarté,",
+   "v": 0.016229821569228926,
+   "rank": 3,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "fr",
+   "z": 0.7656585759391654,
+   "z_mu": -0.0035309961608789246,
+   "z_sigma": 0.025808915815863497,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "nuit",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "Vaste",
+    "delta": 0.016392993949835333,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "nuit"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Vaste",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "nuit"
+  },
+  {
+   "rid": "de:george_1901",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Weit wie die nacht und wie die helligkeit",
+   "v": -0.0008207080306713421,
+   "rank": 5,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -0.031040078587920607,
+   "z_mu": -1.3912851721046937e-05,
+   "z_sigma": 0.025992046916539165,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "wie",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "wie",
+    "delta": 0.015094057470282153,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "wie",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "wie",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:aggeler",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Vast as the dark of night and as the light of day,",
+   "v": 0.05663486356007019,
+   "rank": 2,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.1098971408544887,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "dark",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "dark",
+    "delta": 0.01969115458769445,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "dark",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "dark",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:campbell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Vast as the night or as the vault of noon—",
+   "v": -0.03794494418522986,
+   "rank": 13,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.544990454997941,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "night",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "night",
+    "delta": 0.03608098214147184,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:the"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "night",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "night",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:dillon",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Vast as the turning planet clothed in darkness and light,",
+   "v": 0.05002885455919216,
+   "rank": 2,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": 1.8546183352513081,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "Vast",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": true,
+   "top_tok": {
+    "token": "Vast",
+    "delta": 0.016969140842109327,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Vast",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "Vast",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:leclercq",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Vast as black night and vast as splendent day,",
+   "v": 0.10326994039538688,
+   "rank": 1,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": 3.912036180045905,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "black",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "black",
+    "delta": 0.07924830207486783,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "black",
+     "line_receipts": [
+      "black"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "black",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "black",
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "en:scott_1909",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "As vast as Night, and like transplendency,",
+   "v": 0.006821654299814915,
+   "rank": 3,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.1849441833987723,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "transplendency",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": true,
+   "top_tok": {
+    "token": "transplendency",
+    "delta": 0.01627672385551594,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "transplendency",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "transplendency",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:sturm_1906",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Vast as the night and brilliant as the day,",
+   "v": 0.01148061291022369,
+   "rank": 4,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.3649822955572216,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "day",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": true,
+   "top_tok": {
+    "token": "day",
+    "delta": 0.017991598469919146,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "day",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "day",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "en:wilbur",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Huge as the night or as the light of day,",
+   "v": -0.002730008462951917,
+   "rank": 6,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.18416476896254008,
+   "z_mu": 0.002035738221488095,
+   "z_sigma": 0.02587762421274715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "day",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "day",
+    "delta": 0.028889695774041442,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "rep:the"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "day",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "day",
+   "transmission": "ECHO"
+  },
+  {
+   "rid": "zh:dai_wangshu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "广大有如光明，浩漫有如黑夜——",
+   "v": 0.06090120376723304,
+   "rank": 2,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 2.046018426781121,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "黑",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "黑夜",
+    "delta": 0.024363864007512115,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "黑"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": true,
+     "display": "黑夜 z+5.5✓",
+     "line_display": [
+      "黑夜 z+5.5✓"
+     ],
+     "covered": true,
+     "call": true
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "黑夜",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "zh:guo_hongan",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "广大浩漫好像黑夜连着光明——",
+   "v": 0.055688787013782055,
+   "rank": 2,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 1.8647450672624593,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "黑",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "黑夜",
+    "delta": 0.03477784910607368,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "黑"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": true,
+     "display": "黑夜 z+5.5✓",
+     "line_display": [
+      "黑夜 z+5.5✓"
+     ],
+     "covered": true,
+     "call": true
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "黑夜",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "SURVIVAL"
+  },
+  {
+   "rid": "zh:qian_chunqi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "像黑夜又像光明一样茫无边际，",
+   "v": 0.05925545457636614,
+   "rank": 1,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": 1.9887838465729963,
+   "z_mu": 0.0020690579188771684,
+   "z_sigma": 0.02875445552116214,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "黑",
+   "folded_from": null,
+   "carrier_line": 7,
+   "star": false,
+   "top_tok": {
+    "token": "黑夜",
+    "delta": 0.018965534319563458,
+    "faded": false,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "黑"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": true,
+     "display": "黑夜 z+5.5✓",
+     "line_display": [
+      "黑夜 z+5.5✓"
+     ],
+     "covered": true,
+     "call": true
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "黑夜",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "SURVIVAL"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.95,
+ "z_suppressed": false,
+ "z_line": 1.5485001367472562,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "DISCRIMINATION at line grain",
+ "n_full_stack": 3,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

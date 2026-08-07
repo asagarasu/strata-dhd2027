@@ -1,0 +1,723 @@
+{
+ "what": "THE YELLOW-CRANE MINI-BOARD — 李白 黃鶴樓送孟浩然之廣陵 L3 × Ezra Pound 1915 (Cathay), measured (#64 sitting build, 2026-07-30). EXHIBITION TIER, isolated from the 8-board census by construction. REAL channels only (word boolean + written + colour referent); NO board-local augment.",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (alignments are law and hers). NOTE a 4->5 line-boundary event (Pound splits the final zh line 唯見長江天際流); the L3 target is a clean 1:1. Census/heat-map standing FLAGGED FOR HER REVIEW.",
+ "source": {
+  "rid": "zh:huanghelou",
+  "text": "李白《黃鶴樓送孟浩然之廣陵》 (4 verse-lines; Wikisource text of record via corpus/tang_en/zh_source/li_bai_huanghelou_song_menghaoran.txt, fetched 2026-07-05; PD Tang-dynasty). L3 孤帆遠影碧山盡 (碧 = jade-green/azure; main reading, variants 碧空/緑山 declared in the source header).",
+  "channels": "zh word boolean (trait_labelers zh_color; 碧 DELIBERATELY held latent — fires only in compounds) + written (latent_score_54 ZhWritten) + colour referent."
+ },
+ "seat": {
+  "rid": "en:pound_1915",
+  "text": "Ezra Pound, Cathay (1915), 'Separation on the River Kiang' (Gutenberg #50155; PD, F9, quoted in full). 5 body lines; the final zh line is rendered across Pound's lines 4+5. L3 = 'His lone sail blots the far sky.'.",
+  "channels": "en word boolean (trait_labelers en_color, xkcd-name-based; 'sky' is an xkcd colour name) + written (Skeat colour) + colour referent."
+ },
+ "certificate_drift": 0.0,
+ "n_inventory": 55,
+ "certificate_replay": {
+  "second_run_drift": 0.0,
+  "max_reading_disagreement": 0.0,
+  "replay_verified": true
+ },
+ "alignment_draft": {
+  "map": [
+   [
+    1,
+    [
+     1
+    ]
+   ],
+   [
+    2,
+    [
+     2
+    ]
+   ],
+   [
+    3,
+    [
+     3
+    ]
+   ],
+   [
+    4,
+    [
+     4,
+     5
+    ]
+   ]
+  ],
+  "banner": "DRAFT — PENDING-HER-BLESSING. Alignments are law and hers; this is an exhibition-tier draft carrying the banner (the tao_yinjiu / Antigonä / song_youren precedent). NOTE this is NOT a clean identity — Pound splits the final zh line 唯見長江天際流 across two of his lines (a real 4->5 line-boundary event, below), exactly the case An flagged as making alignment a live question. The L3 TARGET is a clean 1:1, unaffected by the split.",
+  "line_boundary_event": "zh L4 -> Pound [4,5] (split; declared); L3 target is a clean 1:1"
+ },
+ "records_all_lines": {
+  "zh:huanghelou": [
+   {
+    "line": 1,
+    "text": "故人西辭黃鶴樓，",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "黃"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "煙花三月下揚州。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "月"
+      ],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "孤帆遠影碧山盡，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "唯見長江天際流。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "長"
+      ],
+      "written_carriers": []
+     }
+    }
+   }
+  ],
+  "en:pound_1915": [
+   {
+    "line": 1,
+    "text": "Ko-jin goes west from Ko-kaku-ro,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "The smoke-flowers are blurred over the river.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "flower"
+      ],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "His lone sail blots the far sky.",
+    "fields": {
+     "color": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "sky"
+      ],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "And now I see only the river,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "present*",
+      "via": "scalar",
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "now"
+      ],
+      "written_carriers": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "The long Kiang, reaching heaven.",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "illumination": {
+      "state": "silent*",
+      "via": null,
+      "two": true,
+      "word_receipts": [],
+      "written_carriers": []
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null
+     }
+    }
+   }
+  ]
+ },
+ "crossings": [
+  {
+   "line": 1,
+   "field": "color",
+   "src_text": "故人西辭黃鶴樓，",
+   "seat_text": "Ko-jin goes west from Ko-kaku-ro,",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "黃"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "sound",
+   "src_text": "故人西辭黃鶴樓，",
+   "seat_text": "Ko-jin goes west from Ko-kaku-ro,",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "plant",
+   "src_text": "故人西辭黃鶴樓，",
+   "seat_text": "Ko-jin goes west from Ko-kaku-ro,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "temporal",
+   "src_text": "故人西辭黃鶴樓，",
+   "seat_text": "Ko-jin goes west from Ko-kaku-ro,",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "color",
+   "src_text": "煙花三月下揚州。",
+   "seat_text": "The smoke-flowers are blurred over the river.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "sound",
+   "src_text": "煙花三月下揚州。",
+   "seat_text": "The smoke-flowers are blurred over the river.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "plant",
+   "src_text": "煙花三月下揚州。",
+   "seat_text": "The smoke-flowers are blurred over the river.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "flower"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "temporal",
+   "src_text": "煙花三月下揚州。",
+   "seat_text": "The smoke-flowers are blurred over the river.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "月"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "color",
+   "src_text": "孤帆遠影碧山盡，",
+   "seat_text": "His lone sail blots the far sky.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "sky"
+   ],
+   "cell": "RENDERED",
+   "is_target": true
+  },
+  {
+   "line": 3,
+   "field": "sound",
+   "src_text": "孤帆遠影碧山盡，",
+   "seat_text": "His lone sail blots the far sky.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "plant",
+   "src_text": "孤帆遠影碧山盡，",
+   "seat_text": "His lone sail blots the far sky.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "temporal",
+   "src_text": "孤帆遠影碧山盡，",
+   "seat_text": "His lone sail blots the far sky.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "color",
+   "src_text": "唯見長江天際流。",
+   "seat_text": "And now I see only the river, The long Kiang, reaching heaven.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "sound",
+   "src_text": "唯見長江天際流。",
+   "seat_text": "And now I see only the river, The long Kiang, reaching heaven.",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "plant",
+   "src_text": "唯見長江天際流。",
+   "seat_text": "And now I see only the river, The long Kiang, reaching heaven.",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "temporal",
+   "src_text": "唯見長江天際流。",
+   "seat_text": "And now I see only the river, The long Kiang, reaching heaven.",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "長"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "now"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  }
+ ],
+ "target_crossing": {
+  "line": 3,
+  "field": "color",
+  "zh": "孤帆遠影碧山盡，",
+  "en": "His lone sail blots the far sky.",
+  "zh_word_color_fires": false,
+  "zh_word_color_receipts": [],
+  "en_word_color_fires": true,
+  "en_word_color_receipts": [
+   "sky"
+  ],
+  "zh_written_color_cell": {
+   "available": true,
+   "carrier_present": true,
+   "fires_bool": true,
+   "fires_three_check": null,
+   "carriers": [
+    "碧"
+   ],
+   "scalar_check1": "PENDING (--run: descriptive axis at line)"
+  },
+  "zh_written_color_LAW": {
+   "carriers": [],
+   "fires_state": false
+  },
+  "en_written_color_LAW": {
+   "carriers": [],
+   "fires_state": false
+  },
+  "zh_colour_referent_trigger_words": [],
+  "zh_colour_ghost_trigger_tokens": [
+   [
+    "影碧山",
+    0.0184
+   ]
+  ],
+  "src_state": "ghost",
+  "src_via": "meter (token)",
+  "seat_state": "stated",
+  "seat_via": "word",
+  "cell": "RENDERED",
+  "reading": "zh ghost(meter (token)) × en stated(word) = RENDERED",
+  "expected": "COLOUR axis (task named the axis, not a specific cell; a colour loss was the reading-pass anticipation)",
+  "verdict_matches_expected": null,
+  "honesty_note": "The task named the COLOUR axis and anticipated a colour LOSS (碧 states a jade-green; Pound's line has no explicit hue-word). The measured cell is RENDERED — NOT a simple loss — via the full law: (1) 碧 does NOT fire the zh WORD colour boolean. trait_labelers.zh_color DELIBERATELY holds 碧 (a 間色) latent — it fires only inside listed compounds (碧色/碧綠/青碧); in 碧山 it stands alone, so the zh WORD colour is SILENT (fires=False). Its WRITTEN cell DOES carry a carrier (碧, HowNet pair blue/蓝: carrier_present=True, fires_bool=True), but the census law reads `fires_three_check` (=None — the colour written cell does not set it; its scalar leg is PENDING), so chan_written does NOT promote 碧 to a latent STATE; and the colour referent miner found no trigger word (referent_trigger_words=[]). (2) BUT the LaBSE colour DETECTOR fires a colour TOKEN-GHOST on L3: read with its native punctuation (孤帆遠影碧山盡，) the maskable token(s) ['影碧山'] — which CONTAIN 碧 — have colour Δ >= the cut ([0.0184] >= 0.0149), so linegrain_law_60.triggered_tokens fires and, with the word tier silent and no written/referent state, line_state returns the zh colour state = GHOST (via 'meter (token)'), NOT absent. (The detector sees 碧's colour salience but no CHANNEL claims it — a ghost, not a state. The trailing punctuation matters: without the comma the same token sits just below the cut; the board reads lines with native punctuation, as every board does.) (3) Pound's 'sky' DOES fire the en WORD colour boolean — en_color is xkcd-name-based and 'sky' is an xkcd blue (receipt ['sky'], clean) → ACTIVE. Cell = (ghost, active) = RENDERED: the source's colour is only a meter-ghost (碧 held latent at the word tier, written three-check unrun), while Pound realizes stated colour on 'sky'. Doubly honest — 碧's colour is REAL (a written carrier AND a detector ghost) but the law makes it a ghost not a state. Reported, NOT faked; the exact cell is whatever the full law computed (never assumed). (The 一作「緑」 green-variant of L3 would, if adopted, fire the zh WORD colour via 緑 — a DIFFERENT crossing; the board scores the MAIN reading 碧山 per the text of record.)"
+ }
+}

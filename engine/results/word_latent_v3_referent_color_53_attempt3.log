@@ -1,0 +1,26 @@
+<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+== word-latent v3 REFERENT-COLOR scorer (#53 vigil) -- REAL RUN ==
+[R4] 波黑 color+dark drift check: BYTE-IDENTICAL
+[R2] captions loaded: 26930 (main+ext)
+[gate] hosted∧¬realized (defn-leg + pixel)=17  (pixel-added=6)  realized-excluded=1  -> RUN
+[pixel] islands(share>=0.75)=10  added=['桔子', '比萨饼', '苹果树', '面包圈', '三明治', '西兰花']
+[score] scorable words: 88  sit-outs: 35  unique texts to embed: 48265
+[score] certificate (re-order, batch_size=1, n=48265): 0.00e+00
+
+== selftests (known answers, fail = stop) ==
+  [PASS] 西红柿: realized=False (want False) hosted=True status=scored | call OPEN=True z=5.170031533558093
+  [PASS] 番茄: realized=False (want False) | call OPEN=True z=8.087482771761328
+  [PASS] 鲤鱼: call=False (want False) z=1.4629137386537994
+
+== realized-excluded (¬realized guard) ==
+  橙色: gloss_hits=['yellow'] leip=0 cap=194
+
+== positive sit-outs (no ensemble) ==
+
+== validation (positives vs controls) ==
+  pos=17 neg=69 tp=8 fn=9 fp=2 tn=67
+  precision 0.800 recall 0.471 F1 0.593 (floor 0.7) -> ABORT (F1 floor fired)
+
+-> <LAB>/caesitas_proto/results/word_latent_v3_referent_color_53.json
+-> <LAB>/caesitas_proto/results/word_latent_v3_referent_color_53.md

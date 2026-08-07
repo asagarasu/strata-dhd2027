@@ -1,0 +1,178 @@
+{
+ "what": "C2 temporal-GROUND organ pass — descriptive-row furniture (temporal row, zh classical side)",
+ "ruling": "her word 07-23 morning: \"The adopted temporal-ground organ: let it in.\"",
+ "organ_of_record": "caesitas_proto/temporal_ground_production_55.py (C2; ADOPTED 07-22 23:38, F6 closed; RULERS.md §C2)",
+ "registration": "caesitas_proto/temporal_ground_organ_pass_registration_56.md",
+ "domain": "CLASSICAL Chinese (UD Classical Chinese treebank gates)",
+ "out_of_domain": "MODERN VERNACULAR zh renderings (sonnet18 zh seats: Liang Zongdai / Tu An / Liang Shiqiu / Gu Zhengkun; Baudelaire albatros & correspondances zh seats: Dai Wangshu / Qian Chunqi / Guo Hong'an) are OUT OF DOMAIN for this organ (its gates are UD Classical Chinese treebank gates) — NOT scored by this pass.",
+ "poem": "xibei_gaolou",
+ "rid": "zh:gushi19_05",
+ "parse_spec": "S (corpus_breadth_runner_56.parse_seat, verbatim)",
+ "n_lines": 16,
+ "membership_sizes": {
+  "ground": 24,
+  "referent_tem": 42,
+  "variant_aliases": 22
+ },
+ "tense_buckets": {
+  "Past": [
+   "Tense=Past"
+  ],
+  "Fut": [
+   "Tense=Fut"
+  ],
+  "Perf": [
+   "Aspect=Perf"
+  ],
+  "Pres": [
+   "Tense=Pres"
+  ],
+  "Tem": [
+   "Case=Tem",
+   "AdvType=Tim",
+   "時相=未然"
+  ]
+ },
+ "lines": [
+  {
+   "line_no": 1,
+   "text": "西北有高楼，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 2,
+   "text": "上与浮云齐。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 3,
+   "text": "交疏结绮窗，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 4,
+   "text": "阿阁三重阶。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 5,
+   "text": "上有弦歌声，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 6,
+   "text": "音响一何悲！",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 7,
+   "text": "谁能为此曲？",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 8,
+   "text": "无乃杞梁妻。",
+   "present": [
+    {
+     "lemma": "乃",
+     "membership": "GROUND",
+     "tense_profile": {
+      "Tem": 806
+     },
+     "gate_receipt": {
+      "rule": "DOM",
+      "temp": 806,
+      "total": 817,
+      "share": 0.987
+     }
+    }
+   ],
+   "n_present": 1,
+   "line_tense_profile": {
+    "Tem": 1
+   }
+  },
+  {
+   "line_no": 9,
+   "text": "清商随风发，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 10,
+   "text": "中曲正徘徊。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 11,
+   "text": "一弹再三叹，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 12,
+   "text": "慷慨有余哀。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 13,
+   "text": "不惜歌者苦，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 14,
+   "text": "但伤知音稀。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 15,
+   "text": "愿为双鸿鹄，",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  },
+  {
+   "line_no": 16,
+   "text": "奋翅起高飞。",
+   "present": [],
+   "n_present": 0,
+   "line_tense_profile": {}
+  }
+ ],
+ "manifest": {
+  "organ_script": {
+   "path": "caesitas_proto/temporal_ground_production_55.py",
+   "sha256": "47ebf5cf8a7e1b2d421a204daece79d03e9f414d4e2f8c8b8354f07e4b5fb50d",
+   "note": "committed organ of record (C2); this pass reimplements none of it"
+  },
+  "source_file": {
+   "path": "tang_en/zh_source/gushi19shou_05_xibei_you_gaolou.txt",
+   "sha256": "b4a2ea98cbdeb8f763a46d6c5c57b2108201bc33799250ac6bd736f6a2747007",
+   "line_count": 16
+  }
+ }
+}

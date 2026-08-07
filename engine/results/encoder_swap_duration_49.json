@@ -1,0 +1,46 @@
+{
+ "encoder": "bge-m3",
+ "certificates": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "n_words": [
+  131,
+  85
+ ],
+ "holdout_dprime": 3.245148915787584,
+ "axis_sha256_16": "b13bc364ff8cee94",
+ "primary_spearman": 0.8030891973808468,
+ "ci95": [
+  0.7826914429441515,
+  0.8208070798988447
+ ],
+ "freq_weighted": [
+  0.8323202674901178,
+  0.8218982380022275,
+  0.8426262372908374
+ ],
+ "labse_baseline": {
+  "rho": 0.86,
+  "ci95": [
+   0.843,
+   0.875
+  ],
+  "verbal": 0.811
+ },
+ "registered_bands": "hold >= .843 \u00b7 strict-improve > .875 \u00b7 disadvantage < .843",
+ "exploratory_numeric": [
+  0.806166227340858,
+  0.7861695396722602,
+  0.8249101572827228,
+  2017
+ ],
+ "exploratory_verbal": [
+  0.8095575579629443,
+  0.7260899058418548,
+  0.8621884175356889,
+  84
+ ],
+ "verdict_vs_bands": "DISADVANTAGE"
+}

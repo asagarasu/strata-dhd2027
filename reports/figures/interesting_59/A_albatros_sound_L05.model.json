@@ -1,0 +1,722 @@
+{
+ "board": "albatros",
+ "line_idx": 4,
+ "field": "sound",
+ "cut": 0.02417336407884733,
+ "tier": "SUGGESTED",
+ "line_cut": 0.06521584551994863,
+ "src_rid": "fr:baudelaire_1861",
+ "seats": [
+  {
+   "rid": "fr:baudelaire_1861",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "À peine les ont-ils déposés sur les planches,",
+   "v": -0.04591239767804045,
+   "rank": 14,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "fr",
+   "z": -1.2127278832888329,
+   "z_mu": -0.0011104216958689682,
+   "z_sigma": 0.036943140006537714,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "déposés",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "déposés",
+    "delta": -0.040684163908643885,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "déposés",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": "déposés"
+  },
+  {
+   "rid": "de:george_1901",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Kaum sind sie unten auf des deckes gängen",
+   "v": -0.01403515632758321,
+   "rank": 13,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "de",
+   "z": -0.34716654819862164,
+   "z_mu": -0.001404847796573503,
+   "z_sigma": 0.03638112196162296,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "deckes",
+    "delta": -0.02787459564161836,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "deckes",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "DEFORMATION *"
+  },
+  {
+   "rid": "de:kalckreuth_1907",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Sobald auf das Verdeck sie die Gefangnen bringen,",
+   "v": -0.05681022166549775,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "de",
+   "z": -1.5229154814788075,
+   "z_mu": -0.001404847796573503,
+   "z_sigma": 0.03638112196162296,
+   "z_norms_src": "news_norms_z_62",
+   "state": "present*",
+   "via": "scalar",
+   "two": true,
+   "state_word": "auf",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "auf",
+    "delta": -0.06729651751129354,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "auf",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": "auf",
+   "transmission": "SURVIVAL *"
+  },
+  {
+   "rid": "en:aggeler",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Scarcely have they placed them on the deck",
+   "v": -0.04362050313134123,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -1.3459985811092419,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "place",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "placed",
+    "delta": -0.023739818291724682,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": true,
+     "receipt": "place[wn]",
+     "line_receipts": [
+      "place[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "placed",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": "placed",
+   "transmission": "SURVIVAL *"
+  },
+  {
+   "rid": "en:campbell",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Scarce have they fished aboard these airy kings",
+   "v": 0.09725591866815063,
+   "rank": 3,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 2.5978212442973683,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "air",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": true,
+   "top_tok": {
+    "token": "Scarce",
+    "delta": 0.03897882219088691,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "air[wn]"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "Scarce",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "airy",
+   "transmission": "SURVIVAL *"
+  },
+  {
+   "rid": "en:dillon",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "No sooner have they disentangled him from their nets",
+   "v": -0.02114503775884198,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": -0.7168004172925767,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "their",
+    "delta": -0.021636790457960183,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "their",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "DEFORMATION *"
+  },
+  {
+   "rid": "en:leclercq",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Scarce have these birds been set upon the poop,",
+   "v": 0.039289752978881425,
+   "rank": 8,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.9750648559109555,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "birds",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": true,
+   "top_tok": {
+    "token": "birds",
+    "delta": 0.04744671218780217,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:birds-been"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "birds",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "birds",
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "en:wilbur",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Torn from his native space, this captive king",
+   "v": 0.02331072783913391,
+   "rank": 9,
+   "n_rank": 16,
+   "full_stack": false,
+   "lang": "en",
+   "z": 0.5277338168922304,
+   "z_mu": 0.004459650691181136,
+   "z_sigma": 0.035720805725440924,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "from",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": true,
+   "top_tok": {
+    "token": "from",
+    "delta": 0.02649665541018393,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "allit:captive-king"
+     ]
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "from",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": "from",
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "zh:dai_wangshu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "当他们把它们一放到船板上，",
+   "v": -0.06227866606049044,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -1.5459526232167489,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "他们",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "他们",
+    "delta": 0.031360445307514154,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "他们",
+    "colour": "#d97706",
+    "pale": false
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "zh:guo_hongan",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "一旦水手们将其放在甲板上，",
+   "v": -0.09034628549326273,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -2.2291681897767552,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "水手",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "甲板",
+    "delta": -0.04340815541056595,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [
+      "水 z-2.8"
+     ],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "甲板",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  },
+  {
+   "rid": "zh:qian_chunqi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "海员刚把它们放在甲板上面，",
+   "v": -0.08216685999334739,
+   "rank": 16,
+   "n_rank": 16,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -2.0300664868181135,
+   "z_mu": 0.0012316109491781971,
+   "z_sigma": 0.041081645100817715,
+   "z_norms_src": "news_norms_z_62",
+   "state": "ghost",
+   "via": "meter (token)",
+   "two": false,
+   "state_word": "它们",
+   "folded_from": null,
+   "carrier_line": 5,
+   "star": false,
+   "top_tok": {
+    "token": "甲板",
+    "delta": -0.036908073358486726,
+    "triggered": true
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": true,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": true,
+   "highlight": {
+    "word": "甲板",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "ECHO *"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.55,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "WEAK — exploratory",
+ "n_full_stack": 3,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

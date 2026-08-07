@@ -1,0 +1,2044 @@
+{
+ "title": "HowNet written-SOUND char set -- AMENDMENT 2: cry|喊 + weep|哭泣 (vocalization fold)",
+ "status": "AMENDED artifact, dated; originals untouched (声-amendment pattern)",
+ "date": "2026-07-22",
+ "session": 54,
+ "amendment": "field-owner ruling (coordinator-relayed, receipts re-verified in-session): vocalization sememes cry|喊 (334 occ) + weep|哭泣 (171 occ) join the written-sound token set; speak|说/talk|谈话/discuss-class stay OUT (communication-class words remain latent-eligible, flagged in the pool)",
+ "amend2_token_set": [
+  "cry|喊",
+  "weep|哭泣"
+ ],
+ "prior_token_set": [
+  "makesound|发声",
+  "musictool|乐器",
+  "music|音乐",
+  "sound|声",
+  "sound|声音"
+ ],
+ "n_prior_charged": 171,
+ "n_cryweep_charged": 41,
+ "n_added_by_cryweep_amendment": 29,
+ "added_chars": "叫吆吠呼哓哭哮唤唱唳啕啜啭啼喊喝嗥嘘嘤嘶噪嚆嚎嚣嚷泣涕潸狺",
+ "verified_specimens": {
+  "叫花子": "word-DEF {human:poor,beg} silent; 叫 charged -> WRITTEN-CLAIMED",
+  "称呼": "word-DEF {naming} silent; 呼 charged -> WRITTEN-CLAIMED",
+  "呼声": "word-DEF {aspiration} silent; 呼 charged -> WRITTEN-CLAIMED",
+  "叫牌": "word-DEF {propose:recreation} silent; 叫 charged -> WRITTEN-CLAIMED",
+  "呼吸_boundary": "word-DEF {respire|呼吸}; 呼's cry-sense idle, charged anyway -- union coarseness DECLARED, ledger not sense-tuned"
+ },
+ "selftests": {
+  "叫 charges (cry|喊)": true,
+  "呼 charges (cry|喊)": true,
+  "哭 charges (weep|哭泣)": true,
+  "喊 charges (cry|喊)": true,
+  "石 does NOT charge": true
+ },
+ "selftests_pass": true,
+ "chars": {
+  "乐": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{music|音乐}"
+   ],
+   "source": "deployed"
+  },
+  "乒": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:modifier={loud|高声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "乓": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:modifier={loud|高声}}",
+    "{sound|声:modifier={loud|高声}}",
+    "{sound|声:modifier={loud|高声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "偈": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{music|音乐:domain={literature|文}{religion|宗教},{praise|夸奖:instrument={~}},{sing|唱:content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "冬": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}"
+   ],
+   "source": "deployed"
+  },
+  "口": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:PartPosition={mouth|口},whole={part|部件:PartPosition={viscera|脏},whole={AnimalHuman|动物},{MakeSound|发声:instrument={~}},{eat|吃:instrument={~}}}}"
+   ],
+   "source": "deployed"
+  },
+  "叭": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={break|折断}}}"
+   ],
+   "source": "deployed"
+  },
+  "号": {
+   "fired_tokens": [
+    "makesound|发声",
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{sound|声:{MakeSound|发声:agent={MusicTool|乐器},content={~}},{express|表示:agent={~},content={information|信息:modifier={specific|特定}}}}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊",
+    "weep|哭泣"
+   ]
+  },
+  "叽": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "吖": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "吧": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={break|折断}}}"
+   ],
+   "source": "deployed"
+  },
+  "吭": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "吱": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "吵": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声:manner={noisy|嘈杂}}"
+   ],
+   "source": "deployed"
+  },
+  "吹": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "吼": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}",
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "呀": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "呔": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "呖": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "呜": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "呦": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={beast|走兽},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "呸": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咆": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声:agent={beast|走兽}}",
+    "{MakeSound|发声:agent={beast|走兽}}"
+   ],
+   "source": "deployed"
+  },
+  "咔": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咕": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "咚": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咝": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={ExpressDissatisfaction|示不满}{despise|轻视}}}"
+   ],
+   "source": "deployed"
+  },
+  "咣": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}"
+   ],
+   "source": "deployed"
+  },
+  "咦": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咩": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={livestock|牲畜},content={~}}}",
+    "{sound|声:{MakeSound|发声:agent={livestock|牲畜},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "咪": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咬": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}",
+    "{MakeSound|发声}",
+    "{MakeSound|发声}",
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "咭": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咴": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:{cry|喊:RelateTo={animal|兽},content={~}}}"
+   ],
+   "source": "sound|声_amendment_20260722",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "咻": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "咿": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哄": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "哇": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哈": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "响": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}",
+    "{MakeSound|发声}",
+    "{MakeSound|发声}",
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "哐": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}"
+   ],
+   "source": "deployed"
+  },
+  "哑": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{disable|残疾:scope={MakeSound|发声}}",
+    "{disable|残疾:scope={MakeSound|发声}}"
+   ],
+   "source": "deployed"
+  },
+  "哒": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哔": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哗": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哞": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={livestock|牲畜},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "哟": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:time={surprise|惊奇}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哦": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哧": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "哨": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}",
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}",
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "哼": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声:manner={LowVoice|低声}}",
+    "{MakeSound|发声:manner={LowVoice|低声}}",
+    "{MakeSound|发声:manner={LowVoice|低声}}"
+   ],
+   "source": "deployed"
+  },
+  "唔": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "唰": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "唷": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:time={surprise|惊奇}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "唿": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "啁": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "商": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:modifier={past|过去},whole={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "啊": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "啧": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "啪": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={beat|打}}}"
+   ],
+   "source": "deployed"
+  },
+  "啷": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}"
+   ],
+   "source": "deployed"
+  },
+  "啸": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}",
+    "{MakeSound|发声}",
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "啾": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "喀": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "喈": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "喔": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={understand|领会}}}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "喳": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "喵": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗌": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗒": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗓": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={human|人},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "嗖": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗡": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗤": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗨": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗬": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "嗯": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}",
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗵": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嗷": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嘁": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嘟": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嘣": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:modifier={loud|高声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嘭": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嘴": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:PartPosition={mouth|口},whole={part|部件:PartPosition={viscera|脏},whole={AnimalHuman|动物},{MakeSound|发声:instrument={~}},{eat|吃:instrument={~}}}}"
+   ],
+   "source": "deployed"
+  },
+  "嘻": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={laugh|笑}}}"
+   ],
+   "source": "deployed"
+  },
+  "噌": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "噔": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "噗": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "噢": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "噫": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嚄": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "嚓": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "嚯": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={surprise|惊奇}}}"
+   ],
+   "source": "deployed"
+  },
+  "四": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{symbol|符号:belong={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "埙": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "声": {
+   "fired_tokens": [
+    "makesound|发声",
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{SoundVolume|音量:host={music|音乐}{sound|声}}",
+    "{sound|声:{MakeSound|发声:agent={human|人},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "奏": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}",
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "字": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:whole={language|语言}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "弦": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:whole={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "弹": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}",
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "怦": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "抿": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{shut|关闭:RelateTo={part|部件:PartPosition={mouth|口},whole={part|部件:PartPosition={viscera|脏},whole={AnimalHuman|动物},{MakeSound|发声:instrument={~}},{eat|吃:instrument={~}}}}}"
+   ],
+   "source": "deployed"
+  },
+  "拉": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{recreation|娱乐:RelateTo={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "拼": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "曲": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{music|音乐}",
+    "{music|音乐}",
+    "{music|音乐}"
+   ],
+   "source": "deployed"
+  },
+  "杼": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:whole={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "板": {
+   "fired_tokens": [
+    "musictool|乐器",
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{Speed|速度:host={music|音乐},scope={recreation|娱乐}{sing|唱}}",
+    "{Speed|速度:host={music|音乐},scope={recreation|娱乐}{sing|唱}}"
+   ],
+   "source": "deployed"
+  },
+  "柝": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{tool|用具:{MakeSound|发声:instrument={~},purpose={tell|告诉}}}",
+    "{tool|用具:{MakeSound|发声:instrument={~},purpose={tell|告诉}}}"
+   ],
+   "source": "deployed"
+  },
+  "桴": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "梆": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{tool|用具:{MakeSound|发声:instrument={~},purpose={tell|告诉}}}"
+   ],
+   "source": "deployed"
+  },
+  "歌": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{music|音乐:{sing|唱:content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "汨": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "汩": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={water|水},content={~},time={flow|流}}}",
+    "{sound|声:{MakeSound|发声:agent={water|水},content={~},time={flow|流}}}"
+   ],
+   "source": "deployed"
+  },
+  "波": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{shape|物形:RelateTo={electricity|电}{sound|声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "琴": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "瑟": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器:belong={China|中国}}"
+   ],
+   "source": "deployed"
+  },
+  "痖": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{disable|残疾:scope={MakeSound|发声}}",
+    "{disable|残疾:scope={MakeSound|发声}}"
+   ],
+   "source": "deployed"
+  },
+  "砉": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}",
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "砰": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "碴": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}",
+    "{sound|声:{MakeSound|发声:agent={bird|禽},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "磬": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器:domain={religion|宗教}}",
+    "{MusicTool|乐器:domain={religion|宗教}}"
+   ],
+   "source": "deployed"
+  },
+  "稿": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{text|语文:RelateTo={image|图像}{music|音乐},restrictive={text|语文}}",
+    "{text|语文:RelateTo={image|图像}{music|音乐},restrictive={text|语文}}",
+    "{text|语文:RelateTo={image|图像}{music|音乐},restrictive={text|语文}}",
+    "{text|语文:RelateTo={image|图像}{music|音乐},restrictive={text|语文}}"
+   ],
+   "source": "deployed"
+  },
+  "竽": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "笙": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "笛": {
+   "fired_tokens": [
+    "makesound|发声",
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "笳": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "筝": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器:belong={China|中国}}"
+   ],
+   "source": "deployed"
+  },
+  "箜": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "管": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "箫": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "篪": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "簌": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "簧": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{part|部件:whole={MusicTool|乐器}}"
+   ],
+   "source": "deployed"
+  },
+  "籁": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "缶": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "腔": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{SoundQuality|音质:host={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "角": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "訇": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:modifier={loud|高声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "词": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{text|语文:concerning={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "调": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{Kind|类型:host={music|音乐}}",
+    "{SoundQuality|音质:host={music|音乐}}",
+    "{SoundQuality|音质:host={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "谱": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{publications|书刊:{record|记录:LocationFin={~},content={music|音乐}}}",
+    "{publications|书刊:{record|记录:LocationFin={~},content={music|音乐}}}"
+   ],
+   "source": "deployed"
+  },
+  "跫": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "轰": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed"
+  },
+  "辙": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{method|方法:scope={music|音乐}{text|语文}}"
+   ],
+   "source": "deployed"
+  },
+  "銮": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "钟": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "钲": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "钹": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "铃": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "铎": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{tool|用具:{MakeSound|发声:instrument={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "铙": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "铴": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "铿": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:modifier={loud|高声}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "锣": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "锵": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}",
+    "{sound|声:{MakeSound|发声:content={~},time={bump|撞}}}"
+   ],
+   "source": "deployed"
+  },
+  "镛": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "镲": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "闹": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声:manner={noisy|嘈杂}}"
+   ],
+   "source": "deployed"
+  },
+  "阕": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{NounUnit|名量:host={music|音乐}{text|语文}}"
+   ],
+   "source": "deployed"
+  },
+  "鞔": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{fix|定住:LocationFin={MusicTool|乐器},patient={part|部件:PartPosition={skin|皮},whole={AnimalHuman|动物}}}"
+   ],
+   "source": "deployed"
+  },
+  "音": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:RelateTo={music|音乐}}"
+   ],
+   "source": "deployed"
+  },
+  "韵": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声:RelateTo={text|语文}}",
+    "{sound|声:RelateTo={text|语文}}",
+    "{sound|声:modifier={euphonious|好听}}",
+    "{sound|声:whole={language|语言}}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "飒": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:agent={wind|风},content={~}}}"
+   ],
+   "source": "deployed"
+  },
+  "飕": {
+   "fired_tokens": [
+    "sound|声"
+   ],
+   "head_sememe": null,
+   "defs": [
+    "{sound|声}"
+   ],
+   "source": "sound|声_amendment_20260722"
+  },
+  "鸣": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声}",
+    "{MakeSound|发声}"
+   ],
+   "source": "deployed",
+   "amend2_tokens": [
+    "cry|喊"
+   ]
+  },
+  "麴": {
+   "fired_tokens": [
+    "music|音乐"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{music|音乐}",
+    "{music|音乐}",
+    "{music|音乐}"
+   ],
+   "source": "deployed"
+  },
+  "鼓": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}",
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "鼾": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={sleep|睡}}}"
+   ],
+   "source": "deployed"
+  },
+  "齁": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": false,
+   "defs": [
+    "{sound|声:{MakeSound|发声:content={~},time={sleep|睡}}}"
+   ],
+   "source": "deployed"
+  },
+  "齆": {
+   "fired_tokens": [
+    "makesound|发声"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MakeSound|发声:time={ill|病态}}"
+   ],
+   "source": "deployed"
+  },
+  "龠": {
+   "fired_tokens": [
+    "musictool|乐器"
+   ],
+   "head_sememe": true,
+   "defs": [
+    "{MusicTool|乐器}"
+   ],
+   "source": "deployed"
+  },
+  "唱": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "吠": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "喊": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嚎": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "喝": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "呼": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "唤": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "叫": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "哭": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "泣": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嚷": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嘶": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "啼": {
+   "amend2_tokens": [
+    "cry|喊",
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "涕": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "哮": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嚣": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嘘": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "噪": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "吆": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "哓": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "啭": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "啕": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "唳": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "啜": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嗥": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嘤": {
+   "amend2_tokens": [
+    "cry|喊",
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "嚆": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "狺": {
+   "amend2_tokens": [
+    "cry|喊"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  },
+  "潸": {
+   "amend2_tokens": [
+    "weep|哭泣"
+   ],
+   "provenance": "cry_weep_amendment_only"
+  }
+ },
+ "provenance": {
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "prior_amended_sha256": "9a487608afe4a31e09c743b3b93a33063885c1f260f9dd464ebd187b516f8aa6"
+ }
+}

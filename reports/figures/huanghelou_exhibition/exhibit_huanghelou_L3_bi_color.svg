@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" font-family="Helvetica,Arial,sans-serif">
+<rect width="880" height="380" fill="#ffffff"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#0f172a">The 碧 crossing — 黃鶴樓送孟浩然之廣陵 L3 · COLOUR (EXHIBITION)</text>
+<text x="16" y="44" font-size="10.5" fill="#94a3b8">李白 L3 孤帆遠影碧山盡 · Ezra Pound 1915 «His lone sail blots the far sky.» · 碧 (jade-green) held latent in the term set; Pound names "sky"</text>
+<rect x="16" y="58" width="848" height="104" fill="#fff1f1" stroke="#b22222" stroke-width="1.5"/>
+<text x="30" y="80" font-size="12" font-weight="bold" fill="#b22222">zh source (Wikisource, PD) — colour GHOST (meter (token))</text>
+<text x="30" y="102" font-size="15" fill="#334155">孤帆遠影碧山盡，</text>
+<text x="30" y="124" font-size="10.5" fill="#c9a227">WRITTEN colour carrier: <tspan font-weight="bold">碧</tspan> present (HowNet pair blue/蓝, carrier_present=True) — but the census law reads fires_three_check=None, so NO latent state</text>
+<text x="30" y="142" font-size="10.5" fill="#334155">WORD colour: <tspan font-weight="bold">False</tspan> — 碧 (間色) DELIBERATELY held latent (fires only in compounds 碧色/碧綠/青碧) → word tier SILENT; BUT LaBSE colour detector fires a token-GHOST on ['影碧山'] (contains 碧) → colour state = GHOST</text>
+<text x="30" y="158" font-size="9" fill="#94a3b8">main reading 碧山盡 (text of record); source header notes variants 一作「緑」 / 一作「空」(碧空盡). The detector sees 碧 colour salience but no channel claims it → ghost, not a state</text>
+<rect x="16" y="170" width="848" height="70" fill="#fff1f1" stroke="#b22222" stroke-width="1.5"/>
+<text x="30" y="192" font-size="12" font-weight="bold" fill="#334155">en Ezra Pound 1915 (Gutenberg #50155, PD) — colour STATED</text>
+<text x="30" y="214" font-size="13" fill="#334155">His lone sail blots the far sky.</text>
+<text x="30" y="234" font-size="10.5" fill="#b91c1c">WORD colour FIRES: receipt <tspan font-weight="bold">sky</tspan> (sky = an xkcd colour name / a blue) → colour STATED / ACTIVE</text>
+<rect x="16" y="248" width="848" height="72" fill="#fff7f7" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="30" y="270" font-size="12" fill="#334155">verdict cell (zh ghost-colour × en stated-colour): <tspan font-weight="bold" fill="#b91c1c">RENDERED</tspan></text>
+<text x="30" y="290" font-size="10" fill="#b91c1c">task named the COLOUR axis (a colour LOSS anticipated); no specific cell was expected. What IS = RENDERED: source colour is a meter-GHOST, Pound realizes it as stated colour. Honestly reported.</text>
+<text x="30" y="308" font-size="10" fill="#94a3b8">碧 is a REAL written-colour carrier AND a detector ghost, but held latent at the word tier so the law makes it a ghost not a state; Pound mints stated colour on "sky". NOT faked.</text>
+<text x="30" y="336" font-size="9" fill="#94a3b8">EXHIBITION TIER · isolated from the 8-board census · certificate 0.00e+00 · REAL channels only, no board-local augment</text>
+<text x="30" y="354" font-size="9" fill="#94a3b8">ALIGNMENT DRAFT · PENDING-HER-BLESSING · 4→5 line-boundary event (Pound splits the final line) · L3 target is a clean 1:1 · census/heat-map standing FLAGGED FOR HER REVIEW</text>
+<text x="30" y="372" font-size="9" fill="#94a3b8">honesty: verdict scored under full law (LAW.line_state / CELL15), NOT assumed — task rule REPORT what IS</text>
+</svg>

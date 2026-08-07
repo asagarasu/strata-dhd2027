@@ -1,0 +1,13 @@
+{
+ "what": "exhibit — the rothes-Wort verse colour panel (Antigonä board, EXHIBITION tier)",
+ "verse": 20,
+ "cell": "REVIVAL",
+ "starred": true,
+ "grc_line": "τί δ᾽ ἔστι; δηλοῖς γάρ τι καλχαίνουσ᾽ ἔπος.",
+ "hoelderlin_line": "Was ist's, du scheinst ein rothes Wort zu färben?",
+ "donner_line": "Was hast du? Düster wogt in dir ein schweres Wort",
+ "etymon": "LSJ s.v. καλχαίνω (Perseus text:1999.04.0057; Middle Liddell entry n16598)",
+ "certificate": 0.0,
+ "gate": "model→render→gate→xmllint; sidecar beside (exhibit_gen convention, bespoke draw — exhibit_gen is bound to the 8-board JSON shape)",
+ "banner": "alignment DRAFT, PENDING-HER-BLESSING"
+}

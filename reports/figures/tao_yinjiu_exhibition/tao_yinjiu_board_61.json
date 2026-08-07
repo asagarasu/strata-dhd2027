@@ -1,0 +1,1700 @@
+{
+ "what": "THE T'AO MINI-BOARD — 陶淵明 飲酒 其五 × Waley 1918, measured (#61 sitting build, 2026-07-28). EXHIBITION TIER, isolated from the 8-board census by construction. BOTH sides fully channel-covered (word boolean + written + referent); REAL channels, not bespoke.",
+ "banner": "ALIGNMENT MAP IS A DRAFT — PENDING-HER-BLESSING (alignments are law and hers). Census/heat-map standing FLAGGED FOR HER REVIEW.",
+ "source": {
+  "rid": "zh:tao_yinjiu5",
+  "text": "陶淵明 飲酒二十首 其五 (10 lines; 逯欽立/中華書局 text of record; retrieved+cross-checked from Wikisource + ctext.org 2026-07-28; 辨/辯 final-line variant declared)",
+  "channels": "zh word boolean (trait_labelers color/temporal/plant/sound + illumination_labeler_53 illum) + written (latent_score_54) + referent. BOARD-LOCAL: zh written illumination via MOE 夕 (moe_illum_sense_chars_PROPOSED_54.json — PROPOSED status declared)."
+ },
+ "seat": {
+  "rid": "en:waley_1918",
+  "text": "Arthur Waley, A Hundred and Seventy Chinese Poems (1918), poem (7); Project Gutenberg #42290; PD (F9, quoted in full)",
+  "channels": "en word boolean + written (Skeat etym chains, REAL) + referent. en written illumination (dusk→Skeat[dark,dim]) is informational_only in the 8-board census (no en illum word-boolean); survival-eligible on THIS board (both sides covered) — declared."
+ },
+ "certificate_drift": 0.0,
+ "n_inventory": 147,
+ "alignment_draft": {
+  "map": [
+   [
+    1,
+    [
+     1
+    ]
+   ],
+   [
+    2,
+    [
+     2
+    ]
+   ],
+   [
+    3,
+    [
+     3
+    ]
+   ],
+   [
+    4,
+    [
+     4
+    ]
+   ],
+   [
+    5,
+    [
+     5
+    ]
+   ],
+   [
+    6,
+    [
+     6
+    ]
+   ],
+   [
+    7,
+    [
+     7
+    ]
+   ],
+   [
+    8,
+    [
+     8
+    ]
+   ],
+   [
+    9,
+    [
+     9
+    ]
+   ],
+   [
+    10,
+    [
+     10
+    ]
+   ]
+  ],
+  "banner": "DRAFT — PENDING-HER-BLESSING. Alignments are law and hers; this is an exhibition-tier draft carrying the banner (the Antigonä precedent: a draft ships with the banner, retired only on her word). The two texts are near-1:1 (both 10 lines), so the map is a clean identity — but it is not law until she blesses it."
+ },
+ "board_local_zh_illum_written": {
+  "wired": true,
+  "field": "illumination",
+  "inventory": "corpus/tao_yinjiu/zh_illum_sense_chars_moe.json (cited to MOE via moe_illum_sense_chars_PROPOSED_54.json)",
+  "moe_status": "PROPOSED (declared) — the upstream MOE illum artifact is not adopted into the live instrument; this channel is board-local exactly as the grc LSJ colour channel is.",
+  "rows": [
+   {
+    "char": "夕",
+    "surface_in_line": "日夕",
+    "line": 7,
+    "illumination_pole": "dark",
+    "moe_route": "boundary:dawn-dusk",
+    "moe_sense": [
+     "傍晚、日落時分",
+     "泛指夜晚"
+    ],
+    "moe_cite": "MOE 《重編國語辭典修訂本》 s.v. 夕 — 傍晚、日落時分 (dusk / the hour the sun sets); 泛指夜晚 (evening/night generally). Via moe_illum_sense_chars_PROPOSED_54.json chars['夕']: poles=['dark'], routes=['boundary:dawn-dusk'], boundary_only=true, hownet_had_it=false.",
+    "note": "夕 is the sole illumination-charged character in the poem. Its illumination is the DARK pole of the dawn-dusk boundary (傍晚/日落) — the light of the failing day. The word-tier reading of 日夕 is TIME (the trait_labelers temporal boolean fires 日 夕 by the 日/夕 radical rule); the illumination sense is carried by the character's own MOE-recorded gloss, not stated by the word. Waley renders 日夕 as 'the dusk of day' — his 'dusk' carries the exact parallel Skeat illumination gloss [dark, dim]."
+   }
+  ],
+  "why": "the live zh written labeler gates MOE to colour only; illumination is HowNet-only and HowNet has no 夕 illumination sememe (hownet_had_it=false). Board-local supplies 夕."
+ },
+ "records_all_lines": {
+  "zh:tao_yinjiu5": [
+   {
+    "line": 1,
+    "text": "結廬在人境，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "而無車馬喧。",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "問君何能爾？",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "心遠地自偏。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "採菊東籬下，",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "菊"
+      ],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "悠然見南山。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "山氣日夕佳，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "latent",
+      "via": "written(MOE 夕, board-local)",
+      "receipts": [
+       "夕"
+      ],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "夕",
+       "日"
+      ],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "飛鳥相與還。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "相"
+      ],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "此中有真意，",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 10,
+    "text": "欲辨已忘言。",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": null
+     }
+    }
+   }
+  ],
+  "en:waley_1918": [
+   {
+    "line": 1,
+    "text": "I built my hut in a zone of human habitation,",
+    "fields": {
+     "color": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 2,
+    "text": "Yet near me there sounds no noise of horse or coach.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "noise[wn]",
+       "sound[wn]"
+      ],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 3,
+    "text": "Would you know how that is possible?",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 4,
+    "text": "A heart that is distant creates a wilderness round it.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "round[wn]"
+      ],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 5,
+    "text": "I pluck chrysanthemums under the eastern hedge,",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "chrysanthemum"
+      ],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 6,
+    "text": "Then gaze long at the distant summer hills.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "summer"
+      ],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 7,
+    "text": "The mountain air is fresh at the dusk of day:",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": [
+       "fresh (credentialed meter EXISTS — word_latent_v5_referent_color_54.py (color_salience_axis_48.npz key 'axis', LaBSE; attempt-6 F1 .800 precision 1.000 floor .70 THIN n=6, 2026-07-22). Per-line degree RIDES the line colour scalar (same axis/encoder law, read at line grain); the meter's word-grain protocol does NOT re-run here.)"
+      ]
+     },
+     "illumination": {
+      "state": "latent",
+      "via": "written(Skeat, REAL)",
+      "receipts": [
+       "dusk"
+      ],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "air[wn]"
+      ],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "stated",
+      "via": "word",
+      "two": false,
+      "word_receipts": [
+       "day",
+       "dusk"
+      ],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 8,
+    "text": "The flying birds two by two return.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 9,
+    "text": "In these things there lies a deep meaning;",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   },
+   {
+    "line": 10,
+    "text": "Yet when we would express it, words suddenly fail us.",
+    "fields": {
+     "color": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": [],
+      "referent": []
+     },
+     "illumination": {
+      "state": "silent",
+      "via": null,
+      "receipts": [],
+      "channel": "illumination(board-local written augment)"
+     },
+     "sound": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": []
+     },
+     "plant": {
+      "state": "ghost",
+      "via": "meter (token)",
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     },
+     "temporal": {
+      "state": "silent",
+      "via": null,
+      "two": false,
+      "word_receipts": [],
+      "written_carriers": null,
+      "referent": null
+     }
+    }
+   }
+  ]
+ },
+ "crossings": [
+  {
+   "line": 1,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "UNHEARD",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 1,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "color",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "noise[wn]",
+    "sound[wn]"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "plant",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 2,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "sound",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 3,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "sound",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "round[wn]"
+   ],
+   "cell": "INVENTION",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 4,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "color",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "plant",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "菊"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "chrysanthemum"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 5,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "sound",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 6,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "summer"
+   ],
+   "cell": "INVENTION",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "illumination",
+   "src_state": "latent",
+   "src_via": "written(MOE 夕, board-local)",
+   "src_receipts": [
+    "夕"
+   ],
+   "seat_state": "latent",
+   "seat_via": "written(Skeat, REAL)",
+   "seat_receipts": [
+    "dusk"
+   ],
+   "cell": "LATENT-CARRY",
+   "is_target": true
+  },
+  {
+   "line": 7,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "air[wn]"
+   ],
+   "cell": "RENDERED",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "plant",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "STIRRED",
+   "is_target": false
+  },
+  {
+   "line": 7,
+   "field": "temporal",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "夕",
+    "日"
+   ],
+   "seat_state": "stated",
+   "seat_via": "word",
+   "seat_receipts": [
+    "day",
+    "dusk"
+   ],
+   "cell": "SURVIVAL",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 8,
+   "field": "temporal",
+   "src_state": "stated",
+   "src_via": "word",
+   "src_receipts": [
+    "相"
+   ],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": "DEFORMATION",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 9,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "color",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "illumination",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "sound",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "plant",
+   "src_state": "ghost",
+   "src_via": "meter (token)",
+   "src_receipts": [],
+   "seat_state": "ghost",
+   "seat_via": "meter (token)",
+   "seat_receipts": [],
+   "cell": "GHOST-CARRY",
+   "is_target": false
+  },
+  {
+   "line": 10,
+   "field": "temporal",
+   "src_state": "silent",
+   "src_via": null,
+   "src_receipts": [],
+   "seat_state": "silent",
+   "seat_via": null,
+   "seat_receipts": [],
+   "cell": null,
+   "is_target": false
+  }
+ ],
+ "target_crossing": {
+  "line": 7,
+  "field": "illumination",
+  "zh": "山氣日夕佳",
+  "en": "The mountain air is fresh at the dusk of day:",
+  "zh_word_illum_fires": false,
+  "zh_word_temporal_fires_on": [
+   "夕",
+   "日"
+  ],
+  "zh_written_illum": {
+   "fires": true,
+   "carriers": [
+    "夕"
+   ],
+   "rows": [
+    {
+     "char": "夕",
+     "pole": "dark",
+     "moe_sense": [
+      "傍晚、日落時分",
+      "泛指夜晚"
+     ],
+     "cite": "MOE 《重編國語辭典修訂本》 s.v. 夕 — 傍晚、日落時分 (dusk / the hour the sun sets); 泛指夜晚 (evening/night generally). Via moe_illum_sense_chars_PROPOSED_54.json chars['夕']: poles=['dark'], routes=['boundary:dawn-dusk'], boundary_only=true, hownet_had_it=false."
+    }
+   ]
+  },
+  "en_written_illum": {
+   "fires": true,
+   "carriers": [
+    "dusk"
+   ],
+   "records": [
+    {
+     "word": "dusk",
+     "carriers": [
+      "dusk"
+     ],
+     "etymon_terms": [
+      "dark",
+      "dim"
+     ],
+     "citation": "Skeat s.v. DUSK",
+     "sensor": "skeat_etym_chain",
+     "entry_head": "DUSK, dull, dark, dim. (E.) ‘ Duskede his yén two;’ Chaucer, C.T. 2808. M.E. dos"
+    }
+   ]
+  },
+  "src_state": "latent",
+  "src_via": "written(MOE 夕, board-local)",
+  "seat_state": "latent",
+  "seat_via": "written(Skeat, REAL)",
+  "cell": "LATENT-CARRY",
+  "reading": "zh latent(written(MOE 夕, board-local)) × en latent(written(Skeat, REAL)) = LATENT-CARRY",
+  "expected": "LATENT-CARRY (illumination latent both sides)",
+  "verdict_matches_expected": true
+ }
+}

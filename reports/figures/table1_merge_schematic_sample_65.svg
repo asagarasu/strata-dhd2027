@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="534" font-family="Georgia, 'Times New Roman', serif">
+<rect width="428" height="534" fill="#fffdf9"/>
+<rect x="170" y="46" width="156" height="312" fill="#efeaf7" fill-opacity="0.45"/>
+<rect x="92" y="124" width="312" height="156" fill="#efeaf7" fill-opacity="0.45"/>
+<text x="248" y="20" font-size="9" letter-spacing="2" fill="#6b7280" text-anchor="middle">TRANSLATED STATE →</text>
+<text x="131" y="38" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="middle">STATED</text>
+<text x="209" y="38" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="middle">LATENT</text>
+<text x="287" y="38" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="middle">GHOST</text>
+<text x="365" y="38" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="middle">ABSENT</text>
+<text x="26" y="202" font-size="9" letter-spacing="2" fill="#6b7280" text-anchor="middle" transform="rotate(-90 26 202)">SOURCE STATE →</text>
+<text x="84" y="88" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="end">STATED</text>
+<text x="84" y="166" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="end">LATENT</text>
+<text x="84" y="244" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="end">GHOST</text>
+<text x="84" y="322" font-size="8.5" letter-spacing="1.5" fill="#9ca3af" text-anchor="end">ABSENT</text>
+<line x1="92" y1="46" x2="92" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="92" y1="46" x2="404" y2="46" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="170" y1="46" x2="170" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="92" y1="124" x2="404" y2="124" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="248" y1="46" x2="248" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="92" y1="202" x2="404" y2="202" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="326" y1="46" x2="326" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="92" y1="280" x2="404" y2="280" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="404" y1="46" x2="404" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<line x1="92" y1="358" x2="404" y2="358" stroke="#d8d2c6" stroke-width="1"/>
+<text x="96" y="57" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">SURVIVAL</text>
+<text x="174" y="57" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">PARTIAL-LOSS</text>
+<text x="252" y="57" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">ECHO</text>
+<text x="330" y="57" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">DEFORMATION</text>
+<text x="96" y="135" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">REVIVAL</text>
+<text x="174" y="135" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">LATENT-CARRY</text>
+<text x="252" y="135" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">LATENT-ECHO</text>
+<text x="330" y="135" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">LATENT-UNREALIZED</text>
+<text x="96" y="213" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">RENDERED</text>
+<text x="174" y="213" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">GHOST-GROUNDED</text>
+<text x="252" y="213" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">GHOST-CARRY</text>
+<text x="330" y="213" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">UNHEARD</text>
+<text x="96" y="291" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">INVENTION</text>
+<text x="174" y="291" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">LATENT-INVENTION</text>
+<text x="252" y="291" font-size="6.5" letter-spacing="0.5" fill="#9ca3af">STIRRED</text>
+<rect x="174" y="50" width="148" height="70" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="174" y="107" width="13" height="13" fill="#fffdf9"/>
+<text x="177" y="117" font-size="9" font-style="italic" fill="#111827">a</text>
+<rect x="99" y="131" width="64" height="142" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="99" y="260" width="13" height="13" fill="#fffdf9"/>
+<text x="102" y="270" font-size="9" font-style="italic" fill="#111827">b</text>
+<rect x="180" y="134" width="136" height="136" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="180" y="257" width="13" height="13" fill="#fffdf9"/>
+<text x="183" y="267" font-size="9" font-style="italic" fill="#111827">c</text>
+<rect x="183" y="137" width="52" height="130" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="183" y="254" width="13" height="13" fill="#fffdf9"/>
+<text x="186" y="264" font-size="9" font-style="italic" fill="#111827">d</text>
+<rect x="264" y="140" width="46" height="124" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="264" y="251" width="13" height="13" fill="#fffdf9"/>
+<text x="267" y="261" font-size="9" font-style="italic" fill="#111827">e</text>
+<rect x="345" y="143" width="40" height="118" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="345" y="248" width="13" height="13" fill="#fffdf9"/>
+<text x="348" y="258" font-size="9" font-style="italic" fill="#111827">f</text>
+<rect x="192" y="224" width="112" height="34" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="192" y="245" width="13" height="13" fill="#fffdf9"/>
+<text x="195" y="255" font-size="9" font-style="italic" fill="#111827">g</text>
+<rect x="195" y="305" width="106" height="28" fill="none" stroke="#111827" stroke-width="1.1"/>
+<rect x="195" y="320" width="13" height="13" fill="#fffdf9"/>
+<text x="198" y="330" font-size="9" font-style="italic" fill="#111827">h</text>
+<text x="32" y="382" font-size="9.5"><tspan font-style="italic">a</tspan><tspan fill="#6b7280">  partial-loss ∪ echo · </tspan><tspan fill="#111827">30</tspan></text>
+<text x="32" y="397" font-size="9.5"><tspan font-style="italic">b</tspan><tspan fill="#6b7280">  revival ∪ rendered · </tspan><tspan fill="#111827">20</tspan></text>
+<text x="32" y="412" font-size="9.5"><tspan font-style="italic">c</tspan><tspan fill="#6b7280">  latent-carry ∪ latent-echo ∪ ghost-grounded ∪ ghost-carry · </tspan><tspan fill="#111827">8</tspan></text>
+<text x="32" y="427" font-size="9.5"><tspan font-style="italic">d</tspan><tspan fill="#6b7280">  latent-carry ∪ ghost-grounded · </tspan><tspan fill="#111827">3</tspan></text>
+<text x="32" y="442" font-size="9.5"><tspan font-style="italic">e</tspan><tspan fill="#6b7280">  latent-echo ∪ ghost-carry · </tspan><tspan fill="#111827">131</tspan></text>
+<text x="32" y="457" font-size="9.5"><tspan font-style="italic">f</tspan><tspan fill="#6b7280">  latent-unrealized ∪ unheard · </tspan><tspan fill="#111827">91</tspan></text>
+<text x="32" y="472" font-size="9.5"><tspan font-style="italic">g</tspan><tspan fill="#6b7280">  ghost-grounded ∪ ghost-carry · </tspan><tspan fill="#111827">36</tspan></text>
+<text x="32" y="487" font-size="9.5"><tspan font-style="italic">h</tspan><tspan fill="#6b7280">  latent-invention ∪ stirred · </tspan><tspan fill="#111827">35</tspan></text>
+<text x="32" y="510" font-size="8.5" font-style="italic" fill="#9ca3af">SAMPLE — where the merged reports live in the Figure 2 grid; shading = the blurred latent/ghost band</text>
+</svg>

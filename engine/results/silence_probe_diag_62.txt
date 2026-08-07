@@ -1,0 +1,31 @@
+# SILENCE PROBE — smoke-tier diagnostic (#62, 2026-07-28 night, her ask "would you please probe?")
+# Question: does anti-sound (silence) wording project LOW on the sound salience
+# axis — i.e., is negative z "anti-sound-ness"? Script: silence_probe_diag_62.py.
+# Design: corpus-natural sentences only (leipzig_en_sentences.txt, first-match
+# order, len<=180); authored word-lists DECLARED (smoke tier, anan_diag
+# precedent): silence/hush/quiet/soundless/noiseless/stillness/mute(d);
+# roar/clatter/scream/thunderous/deafening/blared/shrieked/rattled; neutral =
+# stride-sampled, both lists excluded. LaBSE cpu batch_size=1; sound axis
+# v3_49 npz; z via news_norms_z_62 (en).
+# VERDICT: silence wording projects POSITIVE (+0.57) — the salience axis reads
+# DOMAIN ENGAGEMENT, not loudness polarity. Negative z = sound-REMOTE wording,
+# never "suppresses sound". Neutral at -0.02 independently re-certifies the
+# norms' calibration. Lowest silence item is meteorological "quiet" (-1.67):
+# the axis reads through the word to the non-acoustic sense.
+# Smoke tier: means are the story; single extremes are anecdotes.
+
+harvested: silence 40 · loud 40 · neutral 40 (first-match order, len<=180)
+SILENCE  n= 40 mean z=+0.57  p10=-0.71  p90=+1.59
+LOUD     n= 40 mean z=+1.30  p10=-0.16  p90=+2.60
+NEUTRAL  n= 40 mean z=-0.02  p10=-1.34  p90=+1.13
+
+extremes — silence group:
+  z=-1.67  A brief scan of the reliable long-range tropical models suggests things will be quiet in t
+  z=-0.80  According to her, she really has nothing to say about it, and she needs the world to know
+  z=+2.68  After a brief pause, instead of offering a humorous or aesthetic reflection, the rapper qu
+  z=+2.81  A fairly quiet showing from the left-sided attacker.
+loud group:
+  z=-1.11  Additional content includes new costumes for Laura Walker and Goto Ryuji, a new Job Change
+  z=-1.06  A baby killer!" one woman screamed into her face.
+  z=+3.99  A dozen students from Grossmont High School's dance team performed choreographed dances as
+  z=+4.55  And it will be a mess to enforce, and there will be deafening noise how it is "killing inn

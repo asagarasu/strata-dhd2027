@@ -1,0 +1,10 @@
+{
+ "certificate": 0.0,
+ "n_probes": [
+  191,
+  30
+ ],
+ "holdout_dprime": 2.242699296938273,
+ "cone_deg": 26.422775364991306,
+ "valence_residual": 0.2128075917024231
+}

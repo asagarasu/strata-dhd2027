@@ -1,0 +1,483 @@
+{
+ "what": "word-grain corpus breadth pass — board qingqing (#56) — MEASUREMENT",
+ "board": "qingqing",
+ "memo": "word_grain_corpus_breadth_memo_56.md",
+ "authority": "her 07-22 order: corpus-wide scoring of all verified rows; the latent-referent COLOUR row = the #55 word-grain protocol, extended; review-pending (NEEDS_HER)",
+ "renderings": [
+  "zh:gushi19_02"
+ ],
+ "per_rendering": {
+  "zh:gushi19_02": [
+   {
+    "word": "青青",
+    "line": 1,
+    "source": "written_colour_fire",
+    "carriers": [
+     "青"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   },
+   {
+    "word": "紅粉",
+    "line": 5,
+    "source": "written_colour_fire",
+    "carriers": [
+     "紅",
+     "粉"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false,
+    "s2t_twin_of": "红粉",
+    "reading_note": "same lexeme as the measured simplified form; cross-reference only, not a measurement claim"
+   },
+   {
+    "word": "素手",
+    "line": 6,
+    "source": "written_colour_fire",
+    "carriers": [
+     "素"
+    ],
+    "status": "sit_out",
+    "reason": "word_not_in_hownet",
+    "charge": null,
+    "z": null,
+    "call": null,
+    "n_hosts_used": null,
+    "n_admitted": null,
+    "flagged_thin": null,
+    "realized_by_print": null,
+    "prior": null,
+    "band": null,
+    "in_hownet": false
+   }
+  ]
+ },
+ "measurement_items": {
+  "紅粉": {
+   "word": "紅粉",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "素手": {
+   "word": "素手",
+   "role": "measurement",
+   "n_hosts": 0,
+   "leipzig_n": 0,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  },
+  "青青": {
+   "word": "青青",
+   "role": "measurement",
+   "n_hosts": 13,
+   "leipzig_n": 13,
+   "caption_n": 0,
+   "pred_subs_class": null,
+   "witness": [],
+   "norms": null,
+   "ccfd": null,
+   "ensemble_provenance": "closure_copy_generated",
+   "raw_candidates": [],
+   "candidate_counts": {},
+   "admitted": [],
+   "admitted_by_fmin": {
+    "3": 0,
+    "5": 0,
+    "10": 0
+   },
+   "attestation_starved": true,
+   "is_idiom": false,
+   "control_valid": null,
+   "invalid_reason": [],
+   "status": "sit_out",
+   "reason": "word_not_in_hownet",
+   "tier": "empty"
+  }
+ },
+ "null_stats": {
+  "n_control": 61,
+  "mean": -6.420571089658448e-05,
+  "sd": 0.0035735214592864527,
+  "degenerate": false
+ },
+ "null_cross_check": {
+  "ref": {
+   "n_control": 61,
+   "mean": -6.420571089658418e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "mine": {
+   "n_control": 61,
+   "mean": -6.420571089658448e-05,
+   "sd": 0.0035735214592864527,
+   "degenerate": false
+  },
+  "ref_source": "committed_55",
+  "d_mean": 2.981555974335137e-19,
+  "d_sd": 0.0,
+  "n_equal": true
+ },
+ "invalid_controls": [
+  {
+   "word": "一场",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "七八年",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "了不得",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "人們",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "低頭不語",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "做不了",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "兩個",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "六名",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "冲锋在前",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刑事法律",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "刻上",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "发扬光大",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "吃得下",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "啥时候",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大不相同",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "大巴车",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "官員",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "实验",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "客量",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "密切接触",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "意味着",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "數據",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "新冠",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "深入人心",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "紐森",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经典之作",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "经费",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "罪責屬",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "羊们",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "腐败现象",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "蔓延到",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "言之凿凿",
+   "reasons": [
+    "idiom_4char"
+   ]
+  },
+  {
+   "word": "記錄",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "設計",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诉衷情",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "诸事",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "資料",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "还有",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "進行",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "過度",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "鑼鼓聲",
+   "reasons": [
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "铺张浪费",
+   "reasons": [
+    "idiom_4char",
+    "attestation_starved"
+   ]
+  },
+  {
+   "word": "顯示",
+   "reasons": [
+    "attestation_starved"
+   ]
+  }
+ ],
+ "certificate_drift": 0.0,
+ "n_texts": 35178,
+ "addendum": {
+  "file": "host_frames_qingqing_addendum_56.json",
+  "truncation": {
+   "applied": false,
+   "reason": null,
+   "caps": {}
+  },
+  "extraction_validation": {
+   "青春": 201,
+   "黑夜": 29
+  }
+ },
+ "provenance": {
+  "machinery": "word_latent_v5_referent_color_54.py imported verbatim; word_grain_referent_pass_55.py helpers imported verbatim",
+  "axis_npz": "color_salience_axis_48.npz",
+  "hownet_sha256": "068025af5e1a992175099c5d261112885bd01842025de48acb02fd2e211259eb",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "attempt4_pool_sha256": "941224b32b8904a6b5186bbfe7997e6d3c9c8aac1c7068b7959a3dba779e44c1",
+  "latent_scores_sha256": "733f47ac1e4c719bf7a716346f622bdf509e0f759eba8cba319246ecba8b39cf",
+  "addendum_sha256": "c9f36d6141647085978b53282aed6463f0b469a57e11a25efb5d4426618cd154",
+  "idiom_lexicon": {
+   "source": "<LAB>/caesitas_proto/venv/lib/python3.9/site-packages/jieba/dict.txt",
+   "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+   "n_idioms": 25583,
+   "pos_tag": "i",
+   "note": "jieba dict.txt POS 'i' == 成语; a control is invalid by (a) iff len==4 and in this set"
+  },
+  "K": 20,
+  "seed": 48,
+  "ens_cap": 32,
+  "f_min": 5,
+  "min_nat": 3,
+  "z_floor": 1.5
+ }
+}

@@ -1,0 +1,201 @@
+Terms of Use :: xeno-canto
+xeno-canto
+Sharing wildlife sounds from around the world
+Advanced Search
+Tips
+About
+About xeno-canto
+Collection Details
+API
+Meet the Members
+Frequently Asked Questions
+Terms of Use
+Credits & Colofon
+Explore
+By Region
+By Taxonomy
+Recent Recordings
+Random Recordings
+Upload Sounds
+Forum
+Mysteries
+Articles
+Log in / Register
+Note
+: Many features of this site will not work without javascript
+Terms of Use
+Whether you would like to share your own recordings or just browse the site, please take a minute to read our terms of use.
+Sounds are published on xeno-canto under one of several
+Creative Commons
+            licenses
+. Do read them carefully. And act according to their terms.
+Each time a recording is shown on a page of xeno-canto at least the
+            following details will also be mentioned: recordist name, license, and
+            xeno-canto catalogue number.
+In principle recordists can take their recordings off line at any time using the
+            xeno-canto website. ( Note that although it is possible to delete your recordings from 
+            the collection, we
+strongly
+discourage it. Please only delete a recording if you come to the conclusion that 
+            it is of such poor quality as to make it essentially useless, or if there are copyright issues. It is important that 
+            the collection is stable so that people can reference recordings without them disappearing.
+            XC may restore a deleted recording to the collection under the terms of its 
+            original license if we feel that it is valuable to keep it. The
+Creative Commons licenses
+under which 
+            the recordings are shared permit this.)
+Recordists are responsible for the accuracy of identification of their
+            recordings. The burden of proof for the ID rests with the recordist.
+By uploading a recording to xeno-canto, the recordist grants
+            xeno-canto.org the right to create visualizations of their recordings
+            (including sonograms) for display on the website, regardless of their choice
+            of license.
+Sounds can be embedded on other websites using a xeno-canto widget. This is allowed by the CC licenses. 
+            When sounds are embedded by xeno-canto, recordist name, license and XC-catalogue number will be mentioned.
+Creative Commons licenses
+The Creative Commons licenses allow users to download and distribute
+            recordings under certain conditions specified by the license. Each
+            recordist can choose which license to use. The licenses 
+            fall into a couple of basic categories:
+Attribution-NonCommercial-NoDerivs
+(BY-NC-ND): This is the most
+            restrictive of our licenses.  Users are free to download and distribute these
+            recordings as long as they attribute the recordist, but they are not free to
+            use them commercially or alter them in any way.  As an example of a valid
+            use under this license, a user is free download a recording from xeno-canto
+            and offer it for download from her own website provided that the recordist
+            is properly credited.
+            Here is the
+full legal code
+.
+Attribution-NonCommercial-ShareAlike
+(BY-NC-SA): This license is
+            similar to the previous license, but it also allows users to alter (edit,
+            crop, filter, combine, etc) the recordings and redistribute those derivative
+            works, as long as those derivative works are licensed under the same
+            license. As an example of a valid use under this license, a user is free to
+            download an appropriately-licensed recording from xeno-canto, modify it
+            and/or create a derivative work from it (e.g. edit the recording for focus,
+            use it as a background track for a video, etc), and offer them for download
+            from his website provided that a) the recordist is properly credited,
+            b) the modified recording or derivative work is offered to others under the
+            same license, and c) the use is not commercial.
+            Here is the
+full legal code
+.
+Attribution-ShareAlike
+(BY-SA): Again, this license is similar
+            to the previous license, but it also allows anyone to use the recording
+            commercially. It's important to note however that
+any commercial work
+            based on this recording must also be released under the same license, which
+            grants other users the freedom to modify and redistribute it
+.
+            As an example of a valid use under this license, a user may download
+            a collection of recordings from xeno-canto, edit them for focus, and sell it
+            as a CD, provided that the recordists are properly credited and the derived
+            works are offered to others under the same terms as the original recordings.
+            This means that that although the user is free to sell this CD commercially,
+            anyone who buys a copy of the CD is granted the right to redistribute those
+            recordings freely as she wishes. 
+            Here is the
+full legal code
+.
+The above descriptions are necessarily simplified summaries, for the details that matter do read the full legal codes.
+Acknowledgements & citations
+Xeno-canto thinks that if at any stage of a project (small or large, perhaps a blog, a presentation at school or a scientific paper) the efforts
+            of the XC community were useful, XC should be acknowledged. 
+            Of course the attribution clause in the CC licenses should always be respected. 
+            Also if sounds are treated as data for a paper, they should be properly cited, just like articles, books and other information sources would be. 
+            If the sounds are not quite what you wanted, but XC put you in touch with the recordist that turned out to have a bunch of useful recordings, 
+            or provided uncompressed versions, or extra examples: we think you should acknowledge us.
+            So..
+Honour the attibution clause in the CC licenses: always mention the recordist if you refer to a recording.
+At least mention the url www.xeno-canto.org in your acknowledgements.
+Cite sounds as you would cite any other data source. Mention the recordist, the XC-number and the stable url for the recording.
+Fair and proper citation will provide us the opportunity to show the impact of the data on XC, of the XC infrastructure and of the effort of the XC community to everyone interested.
+Server Resources
+xeno-canto runs a server with specifications appropriate for rather
+            intensive use by many users at the same time. Unfortunately the server
+            cannot usually accomodate indiscriminate automated requests such as mass
+            downloads of pages or files. Such use of the site is (actively) discouraged
+            especially if it deteriorates the user experience or if it interferes with
+            site maintenance. Requests for the transfer of large amounts of data, for
+            any use allowed by the license, are of course welcome at the contact address
+            below.
+Funding
+As explained
+here
+, xeno-canto has a rather
+            ambitious program. If you upload recordings we assume that you subscribe to
+            those aims, as well as with actions that XC will take to further those aims.
+            Basically that boils down to applying for funding.  We'd like to stress that
+            although money is involved in such applications, it is not about selling
+            your recordings, or about making a profit, it is about keeping the site
+            up-and-running, up-to-date and in-flux. To make sure that that is indeed
+            the case the Xeno-canto foundation (which is the legal body set up to run
+            the website) is in the process of establishing a board that includes
+            stakeholders as well as professionals that will checking the accounts, if
+            there are any.
+Xeno-canto.org is powered by the Xeno-canto Foundation and Naturalis Biodiversity Center
+Website © 2005-2026
+Xeno-canto Foundation
+Recordings © the recordist. See recording details for license information.
+Sonogram images ©
+Xeno-canto Foundation
+. Sonogram images share the same license terms as the recording they depict.
+Terms of use
+Credits
+Like us on Facebook
+Follow us on Twitter
+Find us on YouTube
+Afrikaans
+*
+Català
+*
+Česky
+*
+Dansk
+Deutsch
+English
+Español
+Eesti
+*
+Suomi
+*
+Français
+Magyar
+*
+Bahasa Indonesia
+*
+Íslenska
+*
+Italiano
+*
+日本語
+*
+Lietuvių
+*
+Latviešu
+*
+Nederlands
+Norsk
+Polski
+Português
+Português do Brasil
+Русский
+Davvisámegiella
+*
+Slovenčina
+*
+Slovenščina
+*
+Svenska
+ภาษาไทย
+*
+Українська
+*
+简体中文
+*
+繁體中文
+* Only bird names are translated

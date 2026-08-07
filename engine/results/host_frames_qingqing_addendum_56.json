@@ -1,0 +1,120 @@
+{
+ "pool": {
+  "素手": {
+   "hosts": [],
+   "n_hosts": 0
+  },
+  "青青": {
+   "hosts": [
+    {
+     "line": 6454,
+     "sentence": "丁青青爱钻研，很多村民跟他学技术。",
+     "positions": [
+      1
+     ]
+    },
+    {
+     "line": 33826,
+     "sentence": "但孩子突如其来地患上了流感，让青青陷入焦虑。",
+     "positions": [
+      9
+     ]
+    },
+    {
+     "line": 51435,
+     "sentence": "十分有趣的是，尽管山顶是皑皑白雪，山下却是草木青青、流水潺潺，两者反差实在是太大。",
+     "positions": [
+      14
+     ]
+    },
+    {
+     "line": 51609,
+     "sentence": "千里潇湘之上，渡口水色青青，明月中天高挂，清风渐渐停息。",
+     "positions": [
+      6
+     ]
+    },
+    {
+     "line": 54777,
+     "sentence": "发动张胜、田祖华、田宏胜等党员以及丁青青、丁子龙、田春等10多户群众，先后种植西瓜、蜜橘、椪柑、猕猴桃、蜜柚等水果。",
+     "positions": [
+      10
+     ]
+    },
+    {
+     "line": 67637,
+     "sentence": "在一块猕猴桃试验地里，丁青青握着镰刀，利索地抹芽、割枝。",
+     "positions": [
+      7
+     ]
+    },
+    {
+     "line": 113224,
+     "sentence": "接下来的每一天，毛青青都在高度紧张中度过。",
+     "positions": [
+      6
+     ]
+    },
+    {
+     "line": 113255,
+     "sentence": "接到记者电话时，中南大学湘雅附三急诊科的90后护士毛青青，正抱着高烧中的一岁女儿小珺子赶往医院。",
+     "positions": [
+      15
+     ]
+    },
+    {
+     "line": 113901,
+     "sentence": "握牢“渭城朝雨浥轻尘，客舍青青柳色新”的温度之剑。",
+     "positions": [
+      10
+     ]
+    },
+    {
+     "line": 119260,
+     "sentence": "无情的岁月早经染白了主人公的青青双鬓。",
+     "positions": [
+      8
+     ]
+    },
+    {
+     "line": 141381,
+     "sentence": "“渭城朝雨浥轻尘，客舍青青柳色新。”",
+     "positions": [
+      9
+     ]
+    },
+    {
+     "line": 141382,
+     "sentence": "“渭城朝雨浥轻尘，客舍青青柳色新。”",
+     "positions": [
+      9
+     ]
+    },
+    {
+     "line": 153003,
+     "sentence": "白鹭、桃花红艳、鳜鱼微黄带褐，斗笠青青，加上绿色蓑衣，色彩鲜艳，意境优美，恰如一幅水乡春汛图。",
+     "positions": [
+      11
+     ]
+    }
+   ],
+   "n_hosts": 13
+  },
+  "紅粉": {
+   "hosts": [],
+   "n_hosts": 0
+  }
+ },
+ "provenance": {
+  "law": "host_frames_53 extraction law replicated (whole token before final '/'; full sentence + 0-based positions; line order); validated by exact re-derivation of the committed 青春/黑夜 records (fail=stop)",
+  "leipzig_tokenized_sha256": "d007399263b6f139c9fa61c747500772b6fbf776aec67f8756ae653daa40090d",
+  "memo": "word_grain_referent_pass_memo_55.md",
+  "session": 55
+ },
+ "truncation": {
+  "applied": false,
+  "reason": null,
+  "caps": {}
+ },
+ "size_mb": 0.0
+}

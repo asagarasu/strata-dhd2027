@@ -1,0 +1,15 @@
+{
+ "what": "\u00a71b valence-projection diagnostic \u2014 battery words on the committed valence vector",
+ "registration": "evening_addons_registration_55.md \u00a71b (prediction .75\u2013.90, committed pre-peek)",
+ "valence_alone_auc": 0.9486590038314177,
+ "ci": [
+  0.9007567049808429,
+  0.9839176245210728
+ ],
+ "beside": {
+  "dark_raw": 0.946,
+  "dark_v3": 0.9142,
+  "gap_is_free_ride": 0.03179999999999994
+ },
+ "report_only": true
+}

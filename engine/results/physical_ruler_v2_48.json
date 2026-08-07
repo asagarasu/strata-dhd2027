@@ -1,0 +1,19 @@
+{
+ "certificate": 0.0,
+ "estimator": "Fisher",
+ "holdout_dprime": {
+  "mean": 2.6008188142622073,
+  "fisher": 2.759467289852648
+ },
+ "cone_deg": 30.839237744737748,
+ "valence_residual_quad_yardstick": 0.1728460264504194,
+ "n_probes": [
+  191,
+  30
+ ],
+ "whitening": {
+  "news": 1500,
+  "captions": 1500,
+  "zh_HIT": 3000
+ }
+}

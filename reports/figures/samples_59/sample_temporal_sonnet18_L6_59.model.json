@@ -1,0 +1,798 @@
+{
+ "board": "sonnet18",
+ "line_idx": 5,
+ "field": "temporal",
+ "cut": null,
+ "tier": "VALUE axis (duration ρ.860) — no promotion cut",
+ "line_cut": null,
+ "src_rid": "en:shakespeare_1609",
+ "seats": [
+  {
+   "rid": "en:shakespeare_1609",
+   "mt": false,
+   "unaligned": false,
+   "is_src": true,
+   "text": "And often is his gold complexion dimm'd,",
+   "v": -0.10246945081335415,
+   "rank": 14,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "en",
+   "z": -2.6814958300159684,
+   "z_mu": -0.002527824491998106,
+   "z_sigma": 0.037270849054708725,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "complexion",
+    "delta": -0.062152456631891034,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "complexion",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null
+  },
+  {
+   "rid": "de:bodenstedt_1862",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Oft auch verhüllt sich seine goldne Spur,",
+   "v": -0.018283725603334324,
+   "rank": 9,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -0.5402728820749784,
+   "z_mu": 0.0020895135039458324,
+   "z_sigma": 0.037709164726229566,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "Oft",
+    "delta": -0.024788160566554182,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "Oft",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "de:george_1909",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Trägt goldne farbe die sich oft verliert ·",
+   "v": -0.07703754465677543,
+   "rank": 14,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -2.0983508580788697,
+   "z_mu": 0.0020895135039458324,
+   "z_sigma": 0.037709164726229566,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "farbe",
+    "delta": -0.05728437755115426,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "farbe",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "de:gildemeister_1871",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Und manchmal ist sein Goldblick trübe nur,",
+   "v": -0.10069972191390526,
+   "rank": 14,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -2.7258422763831054,
+   "z_mu": 0.0020895135039458324,
+   "z_sigma": 0.037709164726229566,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "manchmal",
+    "delta": -0.03236937637728278,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "manchmal",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "de:regis_1836",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Umdunkelt sich sein goldner Kreis; es weilet",
+   "v": -0.013701717870932849,
+   "rank": 10,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -0.41876375383872366,
+   "z_mu": 0.0020895135039458324,
+   "z_sigma": 0.037709164726229566,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "goldner",
+    "delta": 0.05113927050428196,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "goldner",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "de:wolff_1903",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "Oft ist verdunkelt seine goldne Bahn,",
+   "v": -0.006821528778280128,
+   "rank": 8,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "de",
+   "z": -0.23630972329725614,
+   "z_mu": 0.0020895135039458324,
+   "z_sigma": 0.037709164726229566,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "verdunkelt",
+    "delta": -0.03671619462626463,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "verdunkelt",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "jp:tsubouchi",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "美しき物すべてが其美しさを衰へしめをはるなり、",
+   "v": 0.0583257521845031,
+   "rank": 2,
+   "n_rank": 14,
+   "full_stack": false,
+   "lang": "jp",
+   "z": null,
+   "z_mu": null,
+   "z_sigma": null,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent*",
+   "via": null,
+   "two": true,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "す",
+    "delta": 0.0704759126764041,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": false
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": null,
+     "line_words": [],
+     "covered": false,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": false,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "す",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell) *"
+  },
+  {
+   "rid": "zh:google_translate",
+   "mt": true,
+   "unaligned": false,
+   "is_src": false,
+   "text": "金色的光辉常被云翳遮掩，",
+   "v": -0.016641718315905767,
+   "rank": 8,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.3429163843540468,
+   "z_mu": -0.0032024888942844927,
+   "z_sigma": 0.0391909807603297,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "光",
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "光辉",
+    "delta": -0.024617987471935908,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "光"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "光辉",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "zh:gu_zhengkun",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "但转瞬又金面如晦常惹云遮雾障。",
+   "v": -0.10997059592445263,
+   "rank": 14,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -2.7243030145916136,
+   "z_mu": -0.0032024888942844927,
+   "z_sigma": 0.0391909807603297,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "晦",
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "转瞬",
+    "delta": -0.07257342316779544,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "晦",
+      "如"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "转瞬",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "zh:liang_shiqiu",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "常常又遮暗他的金色的脸；",
+   "v": -0.07818862939500817,
+   "rank": 13,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -1.9133519765503526,
+   "z_mu": -0.0032024888942844927,
+   "z_sigma": 0.0391909807603297,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "暗",
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "遮暗",
+    "delta": -0.0516280962714194,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "暗"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": true,
+     "receipts": [
+      "叠字:常常"
+     ]
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "遮暗",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "INVENTION"
+  },
+  {
+   "rid": "zh:liang_zongdai",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "它那炳耀的金颜又常遭掩蔽：",
+   "v": -0.02692205059505262,
+   "rank": 11,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.6052301126584152,
+   "z_mu": -0.0032024888942844927,
+   "z_sigma": 0.0391909807603297,
+   "z_norms_src": "news_norms_z_62",
+   "state": "silent",
+   "via": null,
+   "two": false,
+   "state_word": null,
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "掩蔽",
+    "delta": -0.04846889384689847,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "掩蔽",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "(no cell)"
+  },
+  {
+   "rid": "zh:tu_an_1955",
+   "mt": false,
+   "unaligned": false,
+   "is_src": false,
+   "text": "他金彩的臉色也會給烏雲遮暗；",
+   "v": -0.04086242178874494,
+   "rank": 11,
+   "n_rank": 14,
+   "full_stack": true,
+   "lang": "zh",
+   "z": -0.9609336679979434,
+   "z_mu": -0.0032024888942844927,
+   "z_sigma": 0.0391909807603297,
+   "z_norms_src": "news_norms_z_62",
+   "state": "stated",
+   "via": "word",
+   "two": false,
+   "state_word": "暗",
+   "folded_from": null,
+   "carrier_line": 6,
+   "star": false,
+   "top_tok": {
+    "token": "金彩",
+    "delta": 0.04539524532823608,
+    "faded": false,
+    "triggered": false
+   },
+   "investigation": {
+    "word": {
+     "claims_top": false,
+     "receipt": null,
+     "line_receipts": [
+      "暗"
+     ],
+     "covered": true
+    },
+    "written": {
+     "claims_top": false,
+     "carriers": [],
+     "line_words": [],
+     "covered": true,
+     "fired": false
+    },
+    "referent": {
+     "claims_top": false,
+     "display": null,
+     "line_display": [],
+     "covered": false,
+     "call": false
+    },
+    "device": {
+     "covered": true,
+     "fired": false,
+     "receipts": []
+    }
+   },
+   "line_triggered": false,
+   "highlight": {
+    "word": "金彩",
+    "colour": "#d97706",
+    "pale": true
+   },
+   "claimed_surface": null,
+   "transmission": "INVENTION"
+  }
+ ],
+ "z_norms_src": "news_norms_z_62",
+ "z_clamp": 3.0,
+ "z_saturation": 0.85,
+ "z_suppressed": false,
+ "z_line": null,
+ "z_line_tier": "ADOPTED",
+ "z_grade": "temporal — ρ .860 (RULERS A7, distinct metric)",
+ "n_full_stack": 5,
+ "law": "linegrain_law_60 · cascade = the TOP-TOK's investigation (her design); (line: …) = context, never attribution"
+}

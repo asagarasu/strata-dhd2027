@@ -1,0 +1,2619 @@
+{
+ "_meta": {
+  "candidates_fired": 142,
+  "de_adj_entries": 126542,
+  "dump_path": "lexical_resources/de_dict_prose/kaikki.org-dictionary-German.jsonl.gz",
+  "license": "CC BY-SA 4.0 / GFDL (Wiktionary via kaikki.org Wiktextract)",
+  "lines_scanned": 368352,
+  "rejected": 8,
+  "rule": "de adj (pos=adj, lang_code=de) with a sense that has a Colors category (SIG-CAT) or a (colour/color)-word gloss (SIG-GLOSS); single-token .isalpha(); rejects removed + recorded. Docstring IS the receipt.",
+  "signal_counts": {
+   "cat": 64,
+   "gloss": 104
+  },
+  "source": "kaikki.org German Wiktextract dump"
+ },
+ "rejected": {
+  "beigefarben": {
+   "gloss_head": "beige (in colour)",
+   "reason": "'beige-coloured' — the -farben deadjectival is the compound analogue (bare 'beige' kept if attested)",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "bleu": {
+   "gloss_head": "light blue",
+   "reason": "French loan spelling duplicating blau; single-token mis-signal",
+   "signals": [
+    "cat"
+   ]
+  },
+  "farbig": {
+   "gloss_head": "colored (of skin color other than white)",
+   "reason": "'coloured' — colour-quantity, not a hue",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "grell": {
+   "gloss_head": "loud, garish (of colour)",
+   "reason": "'garish/glaring' — saturation modifier, not a hue",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "kackbraun": {
+   "gloss_head": "an ugly type of brown, similar in color to feces",
+   "reason": "vulgar coinage; excluded (not a settled colour term)",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "leuchtend": {
+   "gloss_head": "vibrant (of a colour); glowing, bright",
+   "reason": "'luminous/glowing' — brightness modifier (the de vif/éclatant), not a hue",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "monochrom": {
+   "gloss_head": "monochrome (having only one colour)",
+   "reason": "'monochrome' — colour-quantity, not a hue",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "uni": {
+   "gloss_head": "unicolour, single-colour",
+   "reason": "'of a single colour' — colour-quantity, not a hue",
+   "signals": [
+    "gloss"
+   ]
+  }
+ },
+ "terms": {
+  "altbraun": {
+   "forms": [
+    "altbraun",
+    "altbraune",
+    "altbraunem",
+    "altbraunen",
+    "altbrauner",
+    "altbraunes"
+   ],
+   "gloss_head": "brown that is slightly faded as if with age",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "altrosa": {
+   "forms": [
+    "altrosa",
+    "altrosae",
+    "altrosaem",
+    "altrosaen",
+    "altrosaer",
+    "altrosaes",
+    "altrosane",
+    "altrosanem",
+    "altrosanen",
+    "altrosaner",
+    "altrosanes"
+   ],
+   "gloss_head": "having a pink color that is slightly darkened (as if with age) and discolored with blue or grey tones",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "altrot": {
+   "forms": [
+    "altrot",
+    "altrote",
+    "altrotem",
+    "altroten",
+    "altroter",
+    "altrotes"
+   ],
+   "gloss_head": "red that is slightly faded as if with age",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "amethysten": {
+   "forms": [
+    "amethysten",
+    "amethystene",
+    "amethystenem",
+    "amethystenen",
+    "amethystener",
+    "amethystenes",
+    "amethystne",
+    "amethystnem",
+    "amethystnen",
+    "amethystner",
+    "amethystnes"
+   ],
+   "gloss_head": "amethyst (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "amethystfarben": {
+   "forms": [
+    "amethystfarben",
+    "amethystfarbene",
+    "amethystfarbenem",
+    "amethystfarbenen",
+    "amethystfarbener",
+    "amethystfarbenes"
+   ],
+   "gloss_head": "amethyst (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "anthrazitfarben": {
+   "forms": [
+    "anthrazitfarben",
+    "anthrazitfarbene",
+    "anthrazitfarbenem",
+    "anthrazitfarbenen",
+    "anthrazitfarbener",
+    "anthrazitfarbenes"
+   ],
+   "gloss_head": "anthracite (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "aquamarinblau": {
+   "forms": [
+    "aquamarinblau",
+    "aquamarinblaue",
+    "aquamarinblauem",
+    "aquamarinblauen",
+    "aquamarinblauer",
+    "aquamarinblaues"
+   ],
+   "gloss_head": "aquamarine (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "aquamarinfarben": {
+   "forms": [
+    "aquamarinfarben",
+    "aquamarinfarbene",
+    "aquamarinfarbenem",
+    "aquamarinfarbenen",
+    "aquamarinfarbener",
+    "aquamarinfarbenes"
+   ],
+   "gloss_head": "aquamarine (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "aschfarben": {
+   "forms": [
+    "aschfarben",
+    "aschfarbene",
+    "aschfarbenem",
+    "aschfarbenen",
+    "aschfarbener",
+    "aschfarbenes"
+   ],
+   "gloss_head": "ashy (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "aschgrau": {
+   "forms": [
+    "aschgrau",
+    "aschgraue",
+    "aschgrauem",
+    "aschgrauen",
+    "aschgrauer",
+    "aschgraues"
+   ],
+   "gloss_head": "ash-gray (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "auberginefarben": {
+   "forms": [
+    "auberginefarben",
+    "auberginefarbene",
+    "auberginefarbenem",
+    "auberginefarbenen",
+    "auberginefarbener",
+    "auberginefarbenes"
+   ],
+   "gloss_head": "aubergine (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "azurblau": {
+   "forms": [
+    "azurblau",
+    "azurblaue",
+    "azurblauem",
+    "azurblauen",
+    "azurblauer",
+    "azurblaues"
+   ],
+   "gloss_head": "azure-blue (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "beinfarben": {
+   "forms": [
+    "beinfarben",
+    "beinfarbene",
+    "beinfarbenem",
+    "beinfarbenen",
+    "beinfarbener",
+    "beinfarbenes"
+   ],
+   "gloss_head": "ivory in colour",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "blasslila": {
+   "forms": [
+    "blasslila",
+    "blasslilae",
+    "blasslilaem",
+    "blasslilaen",
+    "blasslilaer",
+    "blasslilaes",
+    "blasslilane",
+    "blasslilanem",
+    "blasslilanen",
+    "blasslilaner",
+    "blasslilanes"
+   ],
+   "gloss_head": "pale lilac, purple, violet",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "blau": {
+   "forms": [
+    "blau",
+    "blaue",
+    "blauem",
+    "blauen",
+    "blauer",
+    "blauere",
+    "blauerem",
+    "blaueren",
+    "blauerer",
+    "blaueres",
+    "blaues",
+    "blaueste",
+    "blauestem",
+    "blauesten",
+    "blauester",
+    "blauestes",
+    "blauste",
+    "blaustem",
+    "blausten",
+    "blauster",
+    "blaustes",
+    "blauw"
+   ],
+   "gloss_head": "blue (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "bleichrot": {
+   "forms": [
+    "bleichrot",
+    "bleichrote",
+    "bleichrotem",
+    "bleichroten",
+    "bleichroter",
+    "bleichrotes"
+   ],
+   "gloss_head": "pale red",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "bleigrau": {
+   "forms": [
+    "bleigrau",
+    "bleigraue",
+    "bleigrauem",
+    "bleigrauen",
+    "bleigrauer",
+    "bleigraues"
+   ],
+   "gloss_head": "leaden (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "blutrot": {
+   "forms": [
+    "blutrot",
+    "blutrote",
+    "blutrotem",
+    "blutroten",
+    "blutroter",
+    "blutrotes"
+   ],
+   "gloss_head": "crimson (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "braun": {
+   "forms": [
+    "braun",
+    "braune",
+    "braunem",
+    "braunen",
+    "brauner",
+    "braunere",
+    "braunerem",
+    "brauneren",
+    "braunerer",
+    "brauneres",
+    "braunes",
+    "braunste",
+    "braunstem",
+    "braunsten",
+    "braunster",
+    "braunstes",
+    "bräuner",
+    "bräunere",
+    "bräunerem",
+    "bräuneren",
+    "bräunerer",
+    "bräuneres",
+    "bräunste",
+    "bräunstem",
+    "bräunsten",
+    "bräunster",
+    "bräunstes"
+   ],
+   "gloss_head": "brown",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "braunrot": {
+   "forms": [
+    "braunrot",
+    "braunrote",
+    "braunrotem",
+    "braunroten",
+    "braunroter",
+    "braunrotes"
+   ],
+   "gloss_head": "a reddish-brown color; maroon",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "braunviolett": {
+   "forms": [
+    "braunviolett",
+    "braunviolette",
+    "braunviolettem",
+    "braunvioletten",
+    "braunvioletter",
+    "braunviolettes"
+   ],
+   "gloss_head": "brown-violet (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "bronzefarben": {
+   "forms": [
+    "bronzefarben",
+    "bronzefarbene",
+    "bronzefarbenem",
+    "bronzefarbenen",
+    "bronzefarbener",
+    "bronzefarbenes"
+   ],
+   "gloss_head": "bronze in colour",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "bräunlich": {
+   "forms": [
+    "bräunlich",
+    "bräunliche",
+    "bräunlichem",
+    "bräunlichen",
+    "bräunlicher",
+    "bräunlichere",
+    "bräunlicherem",
+    "bräunlicheren",
+    "bräunlicherer",
+    "bräunlicheres",
+    "bräunliches",
+    "bräunlichste",
+    "bräunlichstem",
+    "bräunlichsten",
+    "bräunlichster",
+    "bräunlichstes"
+   ],
+   "gloss_head": "brownish",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "burgunderrot": {
+   "forms": [
+    "burgunderrot",
+    "burgunderrote",
+    "burgunderrotem",
+    "burgunderroten",
+    "burgunderroter",
+    "burgunderrotes"
+   ],
+   "gloss_head": "burgundy, claret, reddish maroon (having the colour of red wine)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "buttergelb": {
+   "forms": [
+    "buttergelb",
+    "buttergelbe",
+    "buttergelbem",
+    "buttergelben",
+    "buttergelber",
+    "buttergelbes"
+   ],
+   "gloss_head": "butter-yellow (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "creme": {
+   "forms": [],
+   "gloss_head": "cream (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "cremefarben": {
+   "forms": [
+    "cremefarben",
+    "cremefarbene",
+    "cremefarbenem",
+    "cremefarbenen",
+    "cremefarbener",
+    "cremefarbenes",
+    "crèmefarben"
+   ],
+   "gloss_head": "cream-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "cremefarbig": {
+   "forms": [
+    "cremefarbig",
+    "cremefarbige",
+    "cremefarbigem",
+    "cremefarbigen",
+    "cremefarbiger",
+    "cremefarbiges"
+   ],
+   "gloss_head": "cream (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "crèmefarben": {
+   "forms": [
+    "crèmefarben",
+    "crèmefarbene",
+    "crèmefarbenem",
+    "crèmefarbenen",
+    "crèmefarbener",
+    "crèmefarbenes"
+   ],
+   "gloss_head": "Switzerland and Liechtenstein standard spelling of cremefarben",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "dunkelblond": {
+   "forms": [
+    "dunkelblond",
+    "dunkelblonde",
+    "dunkelblondem",
+    "dunkelblonden",
+    "dunkelblonder",
+    "dunkelblondes"
+   ],
+   "gloss_head": "dark blond (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "dunkelbraun": {
+   "forms": [
+    "dunkelbraun",
+    "dunkelbraune",
+    "dunkelbraunem",
+    "dunkelbraunen",
+    "dunkelbrauner",
+    "dunkelbraunes"
+   ],
+   "gloss_head": "dark brown; puce (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "dunkelgelb": {
+   "forms": [
+    "dunkelgelb",
+    "dunkelgelbe",
+    "dunkelgelbem",
+    "dunkelgelben",
+    "dunkelgelber",
+    "dunkelgelbes"
+   ],
+   "gloss_head": "dark yellow",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "dunkelgrau": {
+   "forms": [
+    "dunkelgrau",
+    "dunkelgraue",
+    "dunkelgrauem",
+    "dunkelgrauen",
+    "dunkelgrauer",
+    "dunkelgraues"
+   ],
+   "gloss_head": "dark grey (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "dunkelgrün": {
+   "forms": [
+    "dunkelgrün",
+    "dunkelgrüne",
+    "dunkelgrünem",
+    "dunkelgrünen",
+    "dunkelgrüner",
+    "dunkelgrünes"
+   ],
+   "gloss_head": "dark green",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "dunkelorange": {
+   "forms": [
+    "dunkelorange",
+    "dunkelorangem",
+    "dunkelorangen",
+    "dunkeloranger",
+    "dunkeloranges"
+   ],
+   "gloss_head": "dark-orange (coloured)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "dunkelviolett": {
+   "forms": [
+    "dunkelviolett",
+    "dunkelviolette",
+    "dunkelviolettem",
+    "dunkelvioletten",
+    "dunkelvioletter",
+    "dunkelviolettes"
+   ],
+   "gloss_head": "dark violet",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "dunkelweiß": {
+   "forms": [
+    "dunckelweiß",
+    "dunkelweiss",
+    "dunkelweiß",
+    "dunkelweiße",
+    "dunkelweißem",
+    "dunkelweißen",
+    "dunkelweißer",
+    "dunkelweißes"
+   ],
+   "gloss_head": "dark white i.e. light grey",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "ebenholzfarben": {
+   "forms": [
+    "ebenholzfarben",
+    "ebenholzfarbene",
+    "ebenholzfarbenem",
+    "ebenholzfarbenen",
+    "ebenholzfarbener",
+    "ebenholzfarbenes"
+   ],
+   "gloss_head": "ebony (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "eierschalenfarben": {
+   "forms": [
+    "eierschalenfarben",
+    "eierschalenfarbene",
+    "eierschalenfarbenem",
+    "eierschalenfarbenen",
+    "eierschalenfarbener",
+    "eierschalenfarbenes"
+   ],
+   "gloss_head": "eggshell (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "eisenfarben": {
+   "forms": [
+    "eisenfarben",
+    "eisenfarbene",
+    "eisenfarbenem",
+    "eisenfarbenen",
+    "eisenfarbener",
+    "eisenfarbenes"
+   ],
+   "gloss_head": "steely (having a gray colour of iron or steel)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "elfenbeinfarben": {
+   "forms": [
+    "elfenbeinfarben",
+    "elfenbeinfarbene",
+    "elfenbeinfarbenem",
+    "elfenbeinfarbenen",
+    "elfenbeinfarbener",
+    "elfenbeinfarbenes"
+   ],
+   "gloss_head": "ivory (having colour of ivory)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "erdbeerrot": {
+   "forms": [
+    "erdbeerrot",
+    "erdbeerrote",
+    "erdbeerrotem",
+    "erdbeerroten",
+    "erdbeerroter",
+    "erdbeerrotes"
+   ],
+   "gloss_head": "strawberry-red (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "erdfarben": {
+   "forms": [
+    "erdfarben",
+    "erdfarbene",
+    "erdfarbenem",
+    "erdfarbenen",
+    "erdfarbener",
+    "erdfarbenes"
+   ],
+   "gloss_head": "earthy in colour",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "farbfrisch": {
+   "forms": [
+    "farbfrischer"
+   ],
+   "gloss_head": "retaining its original colour",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "farblich": {
+   "forms": [
+    "farblich",
+    "farbliche",
+    "farblichem",
+    "farblichen",
+    "farblicher",
+    "farbliches"
+   ],
+   "gloss_head": "colour; tonal",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "feuerfarben": {
+   "forms": [
+    "feuerfarben",
+    "feuerfarbene",
+    "feuerfarbenem",
+    "feuerfarbenen",
+    "feuerfarbener",
+    "feuerfarbenes"
+   ],
+   "gloss_head": "fire-coloured; having the colour of fire; red, orange",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "flachsfarben": {
+   "forms": [
+    "flachsfarben",
+    "flachsfarbene",
+    "flachsfarbenem",
+    "flachsfarbenen",
+    "flachsfarbener",
+    "flachsfarbenes"
+   ],
+   "gloss_head": "flaxen (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "fuchsig": {
+   "forms": [
+    "fuchsig",
+    "fuchsige",
+    "fuchsigem",
+    "fuchsigen",
+    "fuchsiger",
+    "fuchsigere",
+    "fuchsigerem",
+    "fuchsigeren",
+    "fuchsigerer",
+    "fuchsigeres",
+    "fuchsiges",
+    "fuchsigste",
+    "fuchsigstem",
+    "fuchsigsten",
+    "fuchsigster",
+    "fuchsigstes"
+   ],
+   "gloss_head": "ginger (in colour, chiefly hair colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "gedeckt": {
+   "forms": [
+    "gedeckt",
+    "gedeckte",
+    "gedecktem",
+    "gedeckten",
+    "gedeckter",
+    "gedecktere",
+    "gedeckterem",
+    "gedeckteren",
+    "gedeckterer",
+    "gedeckteres",
+    "gedecktes",
+    "gedeckteste",
+    "gedecktestem",
+    "gedecktesten",
+    "gedecktester",
+    "gedecktestes"
+   ],
+   "gloss_head": "sober (of a color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "gelb": {
+   "forms": [
+    "geel",
+    "gehl",
+    "gel",
+    "gelb",
+    "gelbe",
+    "gelbem",
+    "gelben",
+    "gelber",
+    "gelbere",
+    "gelberem",
+    "gelberen",
+    "gelberer",
+    "gelberes",
+    "gelbes",
+    "gelbste",
+    "gelbstem",
+    "gelbsten",
+    "gelbster",
+    "gelbstes",
+    "gelh",
+    "gell",
+    "gäl",
+    "gälb"
+   ],
+   "gloss_head": "yellow",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "gelblich": {
+   "forms": [
+    "gelblich",
+    "gelbliche",
+    "gelblichem",
+    "gelblichen",
+    "gelblicher",
+    "gelblichere",
+    "gelblicherem",
+    "gelblicheren",
+    "gelblicherer",
+    "gelblicheres",
+    "gelbliches",
+    "gelblichste",
+    "gelblichstem",
+    "gelblichsten",
+    "gelblichster",
+    "gelblichstes"
+   ],
+   "gloss_head": "yellowish",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "gelbrot": {
+   "forms": [
+    "gelbrot",
+    "gelbrote",
+    "gelbrotem",
+    "gelbroten",
+    "gelbroter",
+    "gelbrotes"
+   ],
+   "gloss_head": "yellow-red",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "giftgrün": {
+   "forms": [
+    "giftgrün",
+    "giftgrüne",
+    "giftgrünem",
+    "giftgrünen",
+    "giftgrüner",
+    "giftgrünes"
+   ],
+   "gloss_head": "intense, bright green (in colour), bilious green",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "gleichfarbig": {
+   "forms": [
+    "gleichfarbig",
+    "gleichfarbige",
+    "gleichfarbigem",
+    "gleichfarbigen",
+    "gleichfarbiger",
+    "gleichfarbiges"
+   ],
+   "gloss_head": "of the same colour",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "glutrot": {
+   "forms": [
+    "glutrot",
+    "glutrote",
+    "glutrotem",
+    "glutroten",
+    "glutroter",
+    "glutrotes"
+   ],
+   "gloss_head": "dark red (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "goldgelb": {
+   "forms": [
+    "goldgelb",
+    "goldgelbe",
+    "goldgelbem",
+    "goldgelben",
+    "goldgelber",
+    "goldgelbes"
+   ],
+   "gloss_head": "golden-yellow (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "goldig": {
+   "forms": [
+    "goldig",
+    "goldige",
+    "goldigem",
+    "goldigen",
+    "goldiger",
+    "goldigere",
+    "goldigerem",
+    "goldigeren",
+    "goldigerer",
+    "goldigeres",
+    "goldiges",
+    "goldigste",
+    "goldigstem",
+    "goldigsten",
+    "goldigster",
+    "goldigstes"
+   ],
+   "gloss_head": "golden (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "graphitfarben": {
+   "forms": [
+    "graphitfarben",
+    "graphitfarbene",
+    "graphitfarbenem",
+    "graphitfarbenen",
+    "graphitfarbener",
+    "graphitfarbenes"
+   ],
+   "gloss_head": "graphite-grey (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "grau": {
+   "forms": [
+    "grau",
+    "graue",
+    "grauem",
+    "grauen",
+    "grauer",
+    "grauere",
+    "grauerem",
+    "graueren",
+    "grauerer",
+    "graueres",
+    "graues",
+    "graueste",
+    "grauestem",
+    "grauesten",
+    "grauester",
+    "grauestes",
+    "grauste",
+    "graustem",
+    "grausten",
+    "grauster",
+    "graustes"
+   ],
+   "gloss_head": "grey, gray",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "graufarben": {
+   "forms": [
+    "graufarben",
+    "graufarbene",
+    "graufarbenem",
+    "graufarbenen",
+    "graufarbener",
+    "graufarbenes"
+   ],
+   "gloss_head": "grey (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "grauschwarz": {
+   "forms": [
+    "grauschwarz",
+    "grauschwarze",
+    "grauschwarzem",
+    "grauschwarzen",
+    "grauschwarzer",
+    "grauschwarzes"
+   ],
+   "gloss_head": "grayish black",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "grauviolett": {
+   "forms": [
+    "grauviolett",
+    "grauviolette",
+    "grauviolettem",
+    "grauvioletten",
+    "grauvioletter",
+    "grauviolettes"
+   ],
+   "gloss_head": "grey-violet (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "grellfarben": {
+   "forms": [
+    "grellfarben",
+    "grellfarbene",
+    "grellfarbenem",
+    "grellfarbenen",
+    "grellfarbener",
+    "grellfarbenes"
+   ],
+   "gloss_head": "lurid (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "gräulich": {
+   "forms": [
+    "gräulich",
+    "gräuliche",
+    "gräulichem",
+    "gräulichen",
+    "gräulicher",
+    "gräulichere",
+    "gräulicherem",
+    "gräulicheren",
+    "gräulicherer",
+    "gräulicheres",
+    "gräuliches",
+    "gräulichste",
+    "gräulichstem",
+    "gräulichsten",
+    "gräulichster",
+    "gräulichstes"
+   ],
+   "gloss_head": "greyish (somewhat grey)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "grün": {
+   "forms": [
+    "grün",
+    "grüne",
+    "grünem",
+    "grünen",
+    "grüner",
+    "grünere",
+    "grünerem",
+    "grüneren",
+    "grünerer",
+    "grüneres",
+    "grünes",
+    "grünste",
+    "grünstem",
+    "grünsten",
+    "grünster",
+    "grünstes"
+   ],
+   "gloss_head": "green (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "grünlich": {
+   "forms": [
+    "grünlich",
+    "grünliche",
+    "grünlichem",
+    "grünlichen",
+    "grünlicher",
+    "grünlichere",
+    "grünlicherem",
+    "grünlicheren",
+    "grünlicherer",
+    "grünlicheres",
+    "grünliches",
+    "grünlichste",
+    "grünlichstem",
+    "grünlichsten",
+    "grünlichster",
+    "grünlichstes"
+   ],
+   "gloss_head": "greenish",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellblond": {
+   "forms": [
+    "hellblond",
+    "hellblonde",
+    "hellblondem",
+    "hellblonden",
+    "hellblonder",
+    "hellblondes"
+   ],
+   "gloss_head": "light blond (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "hellgelb": {
+   "forms": [
+    "hellgelb",
+    "hellgelbe",
+    "hellgelbem",
+    "hellgelben",
+    "hellgelber",
+    "hellgelbes"
+   ],
+   "gloss_head": "bright / light yellow",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellgrau": {
+   "forms": [
+    "hellgrau",
+    "hellgraue",
+    "hellgrauem",
+    "hellgrauen",
+    "hellgrauer",
+    "hellgraues"
+   ],
+   "gloss_head": "light gray",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellgrün": {
+   "forms": [
+    "hellgrün",
+    "hellgrüne",
+    "hellgrünem",
+    "hellgrünen",
+    "hellgrüner",
+    "hellgrünere",
+    "hellgrünerem",
+    "hellgrüneren",
+    "hellgrünerer",
+    "hellgrüneres",
+    "hellgrünes",
+    "hellgrünste",
+    "hellgrünstem",
+    "hellgrünsten",
+    "hellgrünster",
+    "hellgrünstes"
+   ],
+   "gloss_head": "bright green",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellorange": {
+   "forms": [
+    "hellorange",
+    "hellorangem",
+    "hellorangen",
+    "helloranger",
+    "helloranges"
+   ],
+   "gloss_head": "bright/light orange",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellrötlich": {
+   "forms": [
+    "hellrötlich",
+    "hellrötliche",
+    "hellrötlichem",
+    "hellrötlichen",
+    "hellrötlicher",
+    "hellrötliches"
+   ],
+   "gloss_head": "light reddish",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellviolett": {
+   "forms": [
+    "hellviolett",
+    "hellviolette",
+    "hellviolettem",
+    "hellvioletten",
+    "hellvioletter",
+    "hellviolettes"
+   ],
+   "gloss_head": "light violet; lilac",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "hellweiß": {
+   "forms": [
+    "hellweiss",
+    "hellweiß",
+    "hellweiße",
+    "hellweißem",
+    "hellweißen",
+    "hellweißer",
+    "hellweißes"
+   ],
+   "gloss_head": "having a bright white color",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "herbstfarben": {
+   "forms": [
+    "herbstfarben",
+    "herbstfarbene",
+    "herbstfarbenem",
+    "herbstfarbenen",
+    "herbstfarbener",
+    "herbstfarbenes"
+   ],
+   "gloss_head": "autumnal (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "holzfarben": {
+   "forms": [
+    "holzfarben",
+    "holzfarbene",
+    "holzfarbenem",
+    "holzfarbenen",
+    "holzfarbener",
+    "holzfarbenes"
+   ],
+   "gloss_head": "having the color of wood, wood-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "holzfarbig": {
+   "forms": [
+    "holzfarbig",
+    "holzfarbige",
+    "holzfarbigem",
+    "holzfarbigen",
+    "holzfarbiger",
+    "holzfarbiges"
+   ],
+   "gloss_head": "having the color of wood, wood-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "indigoblau": {
+   "forms": [
+    "indigoblau",
+    "indigoblaue",
+    "indigoblauem",
+    "indigoblauen",
+    "indigoblauer",
+    "indigoblaues"
+   ],
+   "gloss_head": "indigo",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "indigofarben": {
+   "forms": [
+    "indigofarben",
+    "indigofarbene",
+    "indigofarbenem",
+    "indigofarbenen",
+    "indigofarbener",
+    "indigofarbenes"
+   ],
+   "gloss_head": "indigo (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "infrarot": {
+   "forms": [
+    "infrarot",
+    "infrarote",
+    "infrarotem",
+    "infraroten",
+    "infraroter",
+    "infrarotes"
+   ],
+   "gloss_head": "infrared (invisible color \"below red\")",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "jadegrün": {
+   "forms": [
+    "jadegrün",
+    "jadegrüne",
+    "jadegrünem",
+    "jadegrünen",
+    "jadegrüner",
+    "jadegrünes"
+   ],
+   "gloss_head": "jade green",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "jeansfarben": {
+   "forms": [
+    "jeansfarben",
+    "jeansfarbene",
+    "jeansfarbenem",
+    "jeansfarbenen",
+    "jeansfarbener",
+    "jeansfarbenes"
+   ],
+   "gloss_head": "having the colour of blue jeans",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "kaki": {
+   "forms": [
+    "khaki"
+   ],
+   "gloss_head": "khaki (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "kakifarben": {
+   "forms": [
+    "kakifarben",
+    "kakifarbene",
+    "kakifarbenem",
+    "kakifarbenen",
+    "kakifarbener",
+    "kakifarbenes"
+   ],
+   "gloss_head": "khaki (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "kastanienbraun": {
+   "forms": [
+    "kastanienbraun",
+    "kastanienbraune",
+    "kastanienbraunem",
+    "kastanienbraunen",
+    "kastanienbrauner",
+    "kastanienbraunes"
+   ],
+   "gloss_head": "having a colour like that of chestnuts: brownish maroon, auburn",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "khaki": {
+   "forms": [
+    "kaki"
+   ],
+   "gloss_head": "khaki (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "lila": {
+   "forms": [
+    "lila",
+    "lilae",
+    "lilaem",
+    "lilaen",
+    "lilaer",
+    "lilaes",
+    "lilane",
+    "lilanem",
+    "lilanen",
+    "lilaner",
+    "lilanes"
+   ],
+   "gloss_head": "lilac, purple, violet (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "lilafarben": {
+   "forms": [
+    "lilafarben",
+    "lilafarbene",
+    "lilafarbenem",
+    "lilafarbenen",
+    "lilafarbener",
+    "lilafarbenes"
+   ],
+   "gloss_head": "lilac-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "lilafarbig": {
+   "forms": [
+    "lilafarbig",
+    "lilafarbige",
+    "lilafarbigem",
+    "lilafarbigen",
+    "lilafarbiger",
+    "lilafarbiges"
+   ],
+   "gloss_head": "lilac-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "lindgrün": {
+   "forms": [
+    "lindgrün",
+    "lindgrüne",
+    "lindgrünem",
+    "lindgrünen",
+    "lindgrüner",
+    "lindgrünes"
+   ],
+   "gloss_head": "lime-green",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "maisgelb": {
+   "forms": [
+    "maisgelb",
+    "maisgelbe",
+    "maisgelbem",
+    "maisgelben",
+    "maisgelber",
+    "maisgelbes"
+   ],
+   "gloss_head": "intense yellow (the colour of maize)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "mattgolden": {
+   "forms": [
+    "mattgolden",
+    "mattgoldene",
+    "mattgoldenem",
+    "mattgoldenen",
+    "mattgoldener",
+    "mattgoldenes"
+   ],
+   "gloss_head": "glossless gold (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "maulwurfgrau": {
+   "forms": [
+    "maulwurfgrau",
+    "maulwurfgraue",
+    "maulwurfgrauem",
+    "maulwurfgrauen",
+    "maulwurfgrauer",
+    "maulwurfgraues"
+   ],
+   "gloss_head": "taupe",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "mausgrau": {
+   "forms": [
+    "mausgrau",
+    "mausgraue",
+    "mausgrauem",
+    "mausgrauen",
+    "mausgrauer",
+    "mausgraues"
+   ],
+   "gloss_head": "mousy (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "messingfarben": {
+   "forms": [
+    "messingfarben",
+    "messingfarbene",
+    "messingfarbenem",
+    "messingfarbenen",
+    "messingfarbener",
+    "messingfarbenes"
+   ],
+   "gloss_head": "having the color of brass",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "messingfarbig": {
+   "forms": [
+    "messingfarbig",
+    "messingfarbige",
+    "messingfarbigem",
+    "messingfarbigen",
+    "messingfarbiger",
+    "messingfarbiges"
+   ],
+   "gloss_head": "having the color of brass",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "morgenrötlich": {
+   "forms": [
+    "morgenröthlich",
+    "morgenrötlich",
+    "morgenrötliche",
+    "morgenrötlichem",
+    "morgenrötlichen",
+    "morgenrötlicher",
+    "morgenrötliches"
+   ],
+   "gloss_head": "in a reddish color caused by morning twilight",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "neongrün": {
+   "forms": [
+    "neongrün",
+    "neongrüne",
+    "neongrünem",
+    "neongrünen",
+    "neongrüner",
+    "neongrünes"
+   ],
+   "gloss_head": "bright green (like a neon sign)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "ocker": {
+   "forms": [
+    "ocker",
+    "ockere",
+    "ockerem",
+    "ockeren",
+    "ockerer",
+    "ockeres"
+   ],
+   "gloss_head": "ochre/ocher (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "ockerbraun": {
+   "forms": [
+    "ockerbraun",
+    "ockerbraune",
+    "ockerbraunem",
+    "ockerbraunen",
+    "ockerbrauner",
+    "ockerbraunes"
+   ],
+   "gloss_head": "ochre/ocher (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "ockergelb": {
+   "forms": [
+    "ochergelb",
+    "ochrageel",
+    "ockergelb",
+    "ockergelbe",
+    "ockergelbem",
+    "ockergelben",
+    "ockergelber",
+    "ockergelbes"
+   ],
+   "gloss_head": "ochre/ocher (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "oliv": {
+   "forms": [],
+   "gloss_head": "olive (green)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "orange": {
+   "forms": [
+    "orange",
+    "orangem",
+    "orangen",
+    "orangene",
+    "orangenem",
+    "orangenen",
+    "orangener",
+    "orangenere",
+    "orangenerem",
+    "orangeneren",
+    "orangenerer",
+    "orangeneres",
+    "orangenes",
+    "orangenste",
+    "orangenstem",
+    "orangensten",
+    "orangenster",
+    "orangenstes",
+    "oranger",
+    "orangere",
+    "orangerem",
+    "orangeren",
+    "orangerer",
+    "orangeres",
+    "oranges",
+    "orangeste",
+    "orangestem",
+    "orangesten",
+    "orangester",
+    "orangestes"
+   ],
+   "gloss_head": "orange",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "orangefarben": {
+   "forms": [
+    "orangefarben",
+    "orangefarbene",
+    "orangefarbenem",
+    "orangefarbenen",
+    "orangefarbener",
+    "orangefarbenes"
+   ],
+   "gloss_head": "orange-coloured",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "orangefarbig": {
+   "forms": [
+    "orangefarbig",
+    "orangefarbige",
+    "orangefarbigem",
+    "orangefarbigen",
+    "orangefarbiger",
+    "orangefarbiges"
+   ],
+   "gloss_head": "orange-coloured",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "orangerot": {
+   "forms": [
+    "orangerot",
+    "orangerote",
+    "orangerotem",
+    "orangeroten",
+    "orangeroter",
+    "orangerotes"
+   ],
+   "gloss_head": "tangerine (orange-red colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "petrol": {
+   "forms": [
+    "petroler"
+   ],
+   "gloss_head": "teal (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "platinfarben": {
+   "forms": [
+    "platinfarben",
+    "platinfarbene",
+    "platinfarbenem",
+    "platinfarbenen",
+    "platinfarbener",
+    "platinfarbenes"
+   ],
+   "gloss_head": "a silvery-white color, like the color of platinum; platinum-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "purpurn": {
+   "forms": [
+    "purpurn",
+    "purpurne",
+    "purpurnem",
+    "purpurnen",
+    "purpurner",
+    "purpurnes"
+   ],
+   "gloss_head": "purple (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "purpurrot": {
+   "forms": [
+    "purpurrot",
+    "purpurrote",
+    "purpurrotem",
+    "purpurroten",
+    "purpurroter",
+    "purpurrotere",
+    "purpurroterem",
+    "purpurroteren",
+    "purpurroterer",
+    "purpurroteres",
+    "purpurrotes",
+    "purpurroteste",
+    "purpurrotestem",
+    "purpurrotesten",
+    "purpurrotester",
+    "purpurrotestes"
+   ],
+   "gloss_head": "crimson",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "rostbraun": {
+   "forms": [
+    "rostbraun",
+    "rostbraune",
+    "rostbraunem",
+    "rostbraunen",
+    "rostbrauner",
+    "rostbraunes"
+   ],
+   "gloss_head": "russet",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "rosé": {
+   "forms": [],
+   "gloss_head": "pale pink (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "roséfarben": {
+   "forms": [
+    "roséfarben",
+    "roséfarbene",
+    "roséfarbenem",
+    "roséfarbenen",
+    "roséfarbener",
+    "roséfarbenes"
+   ],
+   "gloss_head": "rosé (pale pink in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "rot": {
+   "forms": [
+    "rot",
+    "rote",
+    "rotem",
+    "roten",
+    "roter",
+    "rotere",
+    "roterem",
+    "roteren",
+    "roterer",
+    "roteres",
+    "rotes",
+    "roteste",
+    "rotestem",
+    "rotesten",
+    "rotester",
+    "rotestes",
+    "roth",
+    "röter",
+    "rötere",
+    "röterem",
+    "röteren",
+    "röterer",
+    "röteres",
+    "röteste",
+    "rötestem",
+    "rötesten",
+    "rötester",
+    "rötestes"
+   ],
+   "gloss_head": "red (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "rotbraun": {
+   "forms": [
+    "rotbraun",
+    "rotbraune",
+    "rotbraunem",
+    "rotbraunen",
+    "rotbrauner",
+    "rotbraunes"
+   ],
+   "gloss_head": "of a reddish brown or brownish red colour of any kind, e.g. maroon, auburn (hair), bay (horse), etc.",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "rotgelb": {
+   "forms": [
+    "rotgelb",
+    "rotgelbe",
+    "rotgelbem",
+    "rotgelben",
+    "rotgelber",
+    "rotgelbes"
+   ],
+   "gloss_head": "red-yellow, yellow-red; synonym of gelbrot",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "rotgolden": {
+   "forms": [
+    "rotgolden",
+    "rotgoldene",
+    "rotgoldenem",
+    "rotgoldenen",
+    "rotgoldener",
+    "rotgoldenes"
+   ],
+   "gloss_head": "reddish-gold (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "rotviolett": {
+   "forms": [
+    "rotviolett",
+    "rotviolette",
+    "rotviolettem",
+    "rotvioletten",
+    "rotvioletter",
+    "rotviolettes"
+   ],
+   "gloss_head": "red-violet (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "rötlich": {
+   "forms": [
+    "röthlich",
+    "rötlich",
+    "rötliche",
+    "rötlichem",
+    "rötlichen",
+    "rötlicher",
+    "rötlichere",
+    "rötlicherem",
+    "rötlicheren",
+    "rötlicherer",
+    "rötlicheres",
+    "rötliches",
+    "rötlichste",
+    "rötlichstem",
+    "rötlichsten",
+    "rötlichster",
+    "rötlichstes"
+   ],
+   "gloss_head": "reddish",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "sandfarben": {
+   "forms": [
+    "sandfarben",
+    "sandfarbene",
+    "sandfarbenem",
+    "sandfarbenen",
+    "sandfarbener",
+    "sandfarbenes"
+   ],
+   "gloss_head": "sandy (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "saphirblau": {
+   "forms": [
+    "saphirblau",
+    "saphirblaue",
+    "saphirblauem",
+    "saphirblauen",
+    "saphirblauer",
+    "saphirblaues"
+   ],
+   "gloss_head": "sapphire (blue in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "scharlachrot": {
+   "forms": [
+    "scharlachrot",
+    "scharlachrote",
+    "scharlachrotem",
+    "scharlachroten",
+    "scharlachroter",
+    "scharlachrotes"
+   ],
+   "gloss_head": "scarlet (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "schwarz": {
+   "forms": [
+    "schwarz",
+    "schwarze",
+    "schwarzem",
+    "schwarzen",
+    "schwarzer",
+    "schwarzere",
+    "schwarzerem",
+    "schwarzeren",
+    "schwarzerer",
+    "schwarzeres",
+    "schwarzes",
+    "schwarzeste",
+    "schwarzestem",
+    "schwarzesten",
+    "schwarzester",
+    "schwarzestes",
+    "schwärzer",
+    "schwärzere",
+    "schwärzerem",
+    "schwärzeren",
+    "schwärzerer",
+    "schwärzeres",
+    "schwärzeste",
+    "schwärzestem",
+    "schwärzesten",
+    "schwärzester",
+    "schwärzestes"
+   ],
+   "gloss_head": "black, reflecting little or no light",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "schwarzgrau": {
+   "forms": [
+    "schwarzgrau",
+    "schwarzgraue",
+    "schwarzgrauem",
+    "schwarzgrauen",
+    "schwarzgrauer",
+    "schwarzgraues"
+   ],
+   "gloss_head": "very dark, blackish grey",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "silberfarbig": {
+   "forms": [
+    "silberfarbig",
+    "silberfarbige",
+    "silberfarbigem",
+    "silberfarbigen",
+    "silberfarbiger",
+    "silberfarbiges"
+   ],
+   "gloss_head": "silver (having a color/colour like silver)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "silbern": {
+   "forms": [
+    "silbern",
+    "silberne",
+    "silbernem",
+    "silbernen",
+    "silberner",
+    "silbernes"
+   ],
+   "gloss_head": "silver-colored",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "smaragdgrün": {
+   "forms": [
+    "smaragdgrün",
+    "smaragdgrüne",
+    "smaragdgrünem",
+    "smaragdgrünen",
+    "smaragdgrüner",
+    "smaragdgrünes"
+   ],
+   "gloss_head": "emerald, emerald green (rich green colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "tiefschwarz": {
+   "forms": [
+    "tiefschwarz",
+    "tiefschwarze",
+    "tiefschwarzem",
+    "tiefschwarzen",
+    "tiefschwarzer",
+    "tiefschwarzes"
+   ],
+   "gloss_head": "ebony (colour), deep / inky black",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "tiefviolett": {
+   "forms": [
+    "tiefviolett",
+    "tiefviolette",
+    "tiefviolettem",
+    "tiefvioletten",
+    "tiefvioletter",
+    "tiefviolettes"
+   ],
+   "gloss_head": "deep violet / purple (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "türkis": {
+   "forms": [
+    "türkis",
+    "türkise",
+    "türkisem",
+    "türkisen",
+    "türkiser",
+    "türkises"
+   ],
+   "gloss_head": "turquoise (colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "ultramarin": {
+   "forms": [
+    "ultramarin",
+    "ultramarine",
+    "ultramarinem",
+    "ultramarinen",
+    "ultramariner",
+    "ultramarines"
+   ],
+   "gloss_head": "ultramarine (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "veilchenblau": {
+   "forms": [
+    "veilchenblau",
+    "veilchenblaue",
+    "veilchenblauem",
+    "veilchenblauen",
+    "veilchenblauer",
+    "veilchenblaues"
+   ],
+   "gloss_head": "violet (color)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "veilchenfarben": {
+   "forms": [
+    "veilchenfarben",
+    "veilchenfarbene",
+    "veilchenfarbenem",
+    "veilchenfarbenen",
+    "veilchenfarbener",
+    "veilchenfarbenes"
+   ],
+   "gloss_head": "violet (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "veilchenfarbig": {
+   "forms": [
+    "veilchenfarbig",
+    "veilchenfarbige",
+    "veilchenfarbigem",
+    "veilchenfarbigen",
+    "veilchenfarbiger",
+    "veilchenfarbiges"
+   ],
+   "gloss_head": "violet (in colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "violett": {
+   "forms": [
+    "violett",
+    "violette",
+    "violettem",
+    "violetten",
+    "violetter",
+    "violettere",
+    "violetterem",
+    "violetteren",
+    "violetterer",
+    "violetteres",
+    "violettes",
+    "violetteste",
+    "violettestem",
+    "violettesten",
+    "violettester",
+    "violettestes"
+   ],
+   "gloss_head": "violet; purple; lilac (color/colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat",
+    "gloss"
+   ]
+  },
+  "wachsbleich": {
+   "forms": [
+    "wachsbleich",
+    "wachsbleiche",
+    "wachsbleichem",
+    "wachsbleichen",
+    "wachsbleicher",
+    "wachsbleiches"
+   ],
+   "gloss_head": "waxen, waxy (in texture & colour)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "weingelb": {
+   "forms": [
+    "weingelb",
+    "weingelbe",
+    "weingelbem",
+    "weingelben",
+    "weingelber",
+    "weingelbes"
+   ],
+   "gloss_head": "having a pale yellowish colour (as of some German wine)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "weinrot": {
+   "forms": [
+    "weinrot",
+    "weinrote",
+    "weinrotem",
+    "weinroten",
+    "weinroter",
+    "weinrotes"
+   ],
+   "gloss_head": "burgundy, claret, reddish maroon (having the colour of red wine)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "weiß": {
+   "forms": [
+    "weiss",
+    "weiß",
+    "weiße",
+    "weißem",
+    "weißen",
+    "weißer",
+    "weißere",
+    "weißerem",
+    "weißeren",
+    "weißerer",
+    "weißeres",
+    "weißes",
+    "weißeste",
+    "weißestem",
+    "weißesten",
+    "weißester",
+    "weißestes"
+   ],
+   "gloss_head": "white",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "weißgrau": {
+   "forms": [
+    "weissgrau",
+    "weißgrau",
+    "weißgraue",
+    "weißgrauem",
+    "weißgrauen",
+    "weißgrauer",
+    "weißgraues"
+   ],
+   "gloss_head": "whitish gray (a very bright shade of gray)",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "cat"
+   ]
+  },
+  "zinnfarben": {
+   "forms": [
+    "zinnfarben",
+    "zinnfarbene",
+    "zinnfarbenem",
+    "zinnfarbenen",
+    "zinnfarbener",
+    "zinnfarbenes"
+   ],
+   "gloss_head": "a silvery-white color, like the color of tin",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  },
+  "zinnfarbig": {
+   "forms": [
+    "zinnfarbig",
+    "zinnfarbige",
+    "zinnfarbigem",
+    "zinnfarbigen",
+    "zinnfarbiger",
+    "zinnfarbiges"
+   ],
+   "gloss_head": "A silvery-white color, like the color of tin",
+   "leg": "kaikki",
+   "pos": "adj",
+   "signals": [
+    "gloss"
+   ]
+  }
+ }
+}
