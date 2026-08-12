@@ -8,7 +8,7 @@ inputs."* This kit makes that claim executable after the bulk
 working copy.
 
 ## The kit
-- **`rebuild_manifest.tsv`** — 61 rows, one per fetchable artifact:
+- **`rebuild_manifest.tsv`** — 62 rows (fr_color_inventory added 08-12), one per fetchable artifact:
   `artifact_id · method · source · version · sha256 · local_path · notes`.
   File artifacts pin the fetched unit's sha256; directory artifacts pin
   `DIR:<filecount>@<treehash>` (deterministic tree hash, recipe in the
@@ -39,3 +39,15 @@ it only means a stranger must fetch the pinned version/commit, not HEAD.
 Verified state at kit creation: `--verify-local` 55/55 PASS, exit=0
 (2026-08-07, full tree). Post extract-prune same day (DIR pins split to
 file units, her prune agreement): **61/61 PASS, exit=0**.
+
+## Interpreters (pinned 2026-08-12, #71, her word: "agree pin + note")
+
+- **Encoder env (canonical):** python 3.9.6 + `engine/docs/requirements_frozen.txt`
+  — every `--run`/encoder pass replays in that venv.
+- **Exhibit / presentation regeneration:** requires an interpreter WITH numpy
+  (committed exhibits reproduce byte-perfect under python 3.13 + numpy 2.1.3).
+  A numpy-less interpreter used to degrade every seat text SILENTLY via a
+  swallowed import error — that except now warns loudly, but pin your
+  interpreter anyway.
+- **Scorer `--dry`:** needs numpy AND jieba in ONE interpreter. A machine with
+  the split (3.9+jieba / 3.13+numpy) cannot complete it — use the frozen venv.
