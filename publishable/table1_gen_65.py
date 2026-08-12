@@ -37,6 +37,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from svgkit_71 import TABLE1, w_of as _w_of
+
 HERE = Path(__file__).resolve().parent
 SIDE_63 = HERE.parent / "reports" / "figures" / "table1_coverage_draft_63.model.json"
 OUT = HERE.parent / "reports" / "figures" / "table1_coverage_v2_draft_0730_65.svg"
@@ -93,16 +95,14 @@ def fmt(n):
 
 
 def w_est(s, fs, ls=0.0):
-    w = 0.0
-    for c in s:
-        if c in "iIl.,;:’'| !()·†[]/-":
-            w += fs * 0.32
-        elif c.isupper() or c in "mwMW—–∪":
-            w += fs * 0.72
-        else:
-            w += fs * 0.52
-        w += ls
-    return w
+    """This table's frozen width metric — svgkit_71.TABLE1, unchanged.
+
+    TABLE1 is the one block with NO CJK branch (cjk_w=None): this table draws
+    no CJK, and a CJK character would fall through to the default width here
+    where the figures would count it full-width. That absence is baked into
+    the committed SVG; see svgkit_71's docstring before touching it.
+    """
+    return _w_of(s, fs, spacing=ls, **TABLE1)
 
 
 def main():

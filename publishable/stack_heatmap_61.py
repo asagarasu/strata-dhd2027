@@ -50,7 +50,7 @@ import linegrain_census_v43_60 as C
 import linegrain_law_60 as LAW
 
 HERE = Path(__file__).resolve().parent
-V45_J = HERE.parent / "reports" / "findings_v51_linegrain_0728_62.json"
+V51_J = HERE.parent / "reports" / "findings_v51_linegrain_0728_62.json"
 OUT_SVG = HERE.parent / "reports" / "figures" / "stack_heatmap_v50_0728_62.svg"
 
 FIELDS = ["color", "sound", "sound_device", "plant", "illumination", "temporal"]
@@ -243,7 +243,7 @@ def sha(p):
 
 
 def main():
-    committed = json.loads(V45_J.read_text(encoding="utf-8"))
+    committed = json.loads(V51_J.read_text(encoding="utf-8"))
     t = walk()
     checks = gate(t, committed)
     for k, ok in checks.items():
@@ -264,8 +264,8 @@ def main():
                 "morphological fold 75c32ef; night build c18199a + weiß flag e37b553)",
         "date": "2026-07-28 night", "chair": "#61",
         "provenance": "at her ask (TODO: 'heat map stays down unless asked')",
-        "input": {"path": str(V45_J.relative_to(HERE.parent)),
-                  "sha256": sha(V45_J)},
+        "input": {"path": str(V51_J.relative_to(HERE.parent)),
+                  "sha256": sha(V51_J)},
         "law_imports": {"linegrain_law_60.py": sha(HERE / "linegrain_law_60.py"),
                         "linegrain_census_v43_60.py":
                             sha(HERE / "linegrain_census_v43_60.py")},

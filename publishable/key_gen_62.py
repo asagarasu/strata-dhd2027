@@ -27,6 +27,7 @@ from pathlib import Path
 
 import linegrain_law_60 as LAW
 import exhibit_gen_60 as GEN
+from svgkit_71 import esc
 
 HERE = Path(__file__).resolve().parent
 FIG = HERE.parent / "reports" / "figures"
@@ -41,11 +42,6 @@ X_MARK_R = 300              # right edge of the mark column / left of the senten
 X_TEXT = 320                # left edge of the sentence column
 ROW_H = 60                  # default row height
 Y0 = 150                    # first row baseline zone
-
-
-def esc(t):
-    return (str(t).replace("&", "&amp;").replace("<", "&lt;")
-            .replace(">", "&gt;"))
 
 
 def _strip_demo(s, x, y, sign_set, hue, sat, zline=None, suppressed=False,
@@ -108,9 +104,6 @@ def build():
     # the full item list: (draw_fn(s, x, y_center), sentence). Each draw_fn gets
     # the mark column x and the row's vertical centre; sentences are plain.
     items = []
-
-    def title_of(txt, sub=""):
-        return txt + ((" — " + sub) if sub else "")
 
     # 1. TWO STRIPS (token · z), the whole bar
     def d_strips(s, x, y):
