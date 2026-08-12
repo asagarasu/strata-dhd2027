@@ -143,10 +143,12 @@ def _var2lemma():
     global _VAR2LEMMA
     if _VAR2LEMMA is None:
         _VAR2LEMMA = {}
-        for lem in fr_color():
+        # sorted(): collision winner must be process-independent (de_labelers
+        # parity; raw-set order varies with PYTHONHASHSEED)
+        for lem in sorted(fr_color()):
             for v in _variants(lem):
                 _VAR2LEMMA.setdefault(v, lem)
-        for lem in FR_COLOR_FLAG:
+        for lem in sorted(FR_COLOR_FLAG):
             for v in _variants(lem):
                 _VAR2LEMMA.setdefault(v, lem)
     return _VAR2LEMMA
