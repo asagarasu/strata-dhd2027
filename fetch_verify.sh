@@ -33,8 +33,12 @@ DEST="${2:-}"
 [ -r "$MANIFEST" ] || { echo "fetch_verify: manifest missing: $MANIFEST"; exit 2; }
 
 hash_file() { shasum -a 256 "$1" 2>/dev/null | awk '{print $1}'; }
-hash_tree() { # deterministic dir pin: sha256 of sorted per-file sha256 list
-  ( cd "$1" 2>/dev/null && find . -type f -not -name '.DS_Store' -print0 \
+hash_tree() { # deterministic dir pin: sha256 of sorted per-file sha256 list.
+  # find -L: symlinked payloads count as their targets (a hash-perfect tree
+  # staged via symlinks must verify identically to a fetched one — the 0812
+  # battery caught LaBSE reporting FAIL with a matching hash because the
+  # count refused to traverse what the hash traversed; #71).
+  ( cd "$1" 2>/dev/null && find -L . -type f -not -name '.DS_Store' -print0 \
       | sort -z | xargs -0 shasum -a 256 2>/dev/null | awk '{print $1"  "$2}' \
       | shasum -a 256 | awk '{print $1}' )
 }
@@ -53,7 +57,7 @@ while IFS=$'\t' read -r ID METHOD SOURCE VERSION SHA LOCAL NOTES; do
         printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'ABSENT' "$LOCAL"; FAIL=1
       else
         case "$SHA" in
-          DIR:*) GOT="DIR:$(find "$P" -type f -not -name '.DS_Store' | wc -l | tr -d ' ')@$(hash_tree "$P")";;
+          DIR:*) GOT="DIR:$(find -L "$P" -type f -not -name '.DS_Store' | wc -l | tr -d ' ')@$(hash_tree "$P")";;
           *)     GOT="$(hash_file "$P")";;
         esac
         if [ "$GOT" = "$SHA" ]; then
