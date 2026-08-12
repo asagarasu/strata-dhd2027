@@ -53,7 +53,8 @@ röter, archaic 'roth', ß/ss twins, plurals) against Wiktextract rather than ha
 authoring them (the prompt's step-3 requirement). Deduping keeps the committed
 inventory small (raw kaikki carries hundreds of tag-rows per lemma).
 
-Run: engine/venv/bin/python engine/de_build/extract_kaikki_de_color.py
+Run: python3 engine/de_build/extract_kaikki_de_color.py
+     (needs the dump; see the resolver note below for DHD2027_DUMP_ROOT)
 """
 import gzip
 import json
@@ -63,14 +64,13 @@ import os
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-# The kaikki German dump is a large gitignored payload. It lives under the
-# primary working tree's lexical_resources/; an isolated worktree checkout will
-# NOT contain it (the whole lexical_resources tree is .gitignored). Resolve the
-# dump by: (1) this tree's lexical_resources, then (2) the PRIMARY tree fallback.
+# The kaikki German dump is a large gitignored payload (the whole
+# lexical_resources tree is .gitignored). Resolve it from: (1) this tree's
+# lexical_resources; (2) $DHD2027_DUMP_ROOT/<same relative path>, for setups
+# that keep bulk dumps in a separate tree.
 # Dump identity of record (recorded in the registration + PROVENANCE):
 #   kaikki.org German Wiktextract, last-modified 2026-07-25, 95,500,609 bytes,
 #   sha256 269d8468fb94063482fd1b03c02c83e9ffa428438be5fe7649a8de5f31c72da3.
-_PRIMARY = "/Users/annelieselu/garden/projects/dhd2027/lab"
 _DUMP_REL = os.path.join("lexical_resources", "de_dict_prose",
                          "kaikki.org-dictionary-German.jsonl.gz")
 
@@ -79,7 +79,10 @@ def _resolve(rel):
     local = os.path.join(ROOT, rel)
     if os.path.exists(local):
         return local
-    return os.path.join(_PRIMARY, rel)
+    alt = os.environ.get("DHD2027_DUMP_ROOT")
+    if alt:
+        return os.path.join(alt, rel)
+    return local  # absent; sweep() guards and main() reports the miss
 
 
 DUMP = _resolve(_DUMP_REL)
