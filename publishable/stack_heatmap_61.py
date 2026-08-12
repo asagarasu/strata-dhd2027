@@ -8,7 +8,11 @@ two-sided) — the v50 findings are now the JSON of record for the 3-way gate; o
 2026-07-28 late night AGAIN REPOINTED to findings_v51 (census v5.1, THE STAR REVERSAL — her ruling
 "reverse the star situation … zh is terrific … the full support here", #62: the fr token-ghost star
 retires, so ~246 fr:baudelaire colour crossing-rows move STARRED → demonstrative; conservation exact,
-comparisons unchanged 4143). v51 is now the JSON of record for the 3-way gate; the v50-era SVG kept as record).
+comparisons unchanged 4143). v51 is now the JSON of record for the 3-way gate; the v50-era SVG kept as record;
+2026-08-12 REGENERATED at her word ("regen please", #71): output renamed _v51_0812_71, title/subtitle/
+sidecar prose brought to the v5.1 facts (they had lagged at v4.8/DE-era text through the repointings),
+plant hue takes the 07-31 display law at this natural regeneration; stale _v50_ pair deleted per her
+"regen or delete — this is public facing").
 
 PRESENTATION TIER: a re-plot of the committed census v4.9 (the FAIR-REMOVAL era:
 the last uncited EN colour flag is gone — she RULED "remove fair" at the #61 fork
@@ -51,7 +55,7 @@ import linegrain_law_60 as LAW
 
 HERE = Path(__file__).resolve().parent
 V51_J = HERE.parent / "reports" / "findings_v51_linegrain_0728_62.json"
-OUT_SVG = HERE.parent / "reports" / "figures" / "stack_heatmap_v50_0728_62.svg"
+OUT_SVG = HERE.parent / "reports" / "figures" / "stack_heatmap_v51_0812_71.svg"
 
 FIELDS = ["color", "sound", "sound_device", "plant", "illumination", "temporal"]
 GRADE = {  # claim-bearing instruments of the WORD-made verdicts (her check,
@@ -173,12 +177,13 @@ def render(t):
              'stroke-width="2.2" opacity="0.55"/></pattern></defs>')
     e.append(f'<rect width="{W}" height="{H}" fill="#ffffff"/>')
     e.append(f'<text x="14" y="26" font-size="15" font-weight="bold" '
-             f'fill="#0f172a">Verdict stack — census v4.8 (4,668 comparisons, '
-             f'EN-SOUND-FOLD era: clacking→clack et al. · Owen joins the loom 6/6)</text>')
+             f'fill="#0f172a">Verdict stack — census v5.1 (4,143 comparisons, '
+             f'STAR REVERSAL era: fr colour token-ghost star retired · '
+             f'~246 fr crossings now demonstrative)</text>')
     e.append(f'<text x="14" y="44" font-size="10.5" fill="#64748b">shade ∝ '
              f'√count within block · zeros pale · presentation-tier re-plot '
-             f'of the committed census v4.8 · #61 at her ask, 2026-07-28 night'
-             f'</text>')
+             f'of the committed census v5.1 · #61 at her ask 07-28 · '
+             f'regenerated #71 at her word, 2026-08-12</text>')
     x0 = [LBL_W, LBL_W + 6 * CW + GAP]
     ttl = ["FULL STACK — demonstrative tier",
            "STARRED ★ — suggestive tier (de·jp seats, uncovered WORD channel "
@@ -258,12 +263,15 @@ def main():
         OUT_SVG.unlink()
         sys.exit("xmllint FAIL — figure removed")
     side = {
-        "what": "verdict-stack heat map, presentation-tier re-plot of census v4.8 "
-                "(DE+TEMPORAL era: German colour leg unstars 17 de-seat colour cells "
-                "+ HeidelTime en-temporal; on the en-era base yield law d26fa95 + en "
-                "morphological fold 75c32ef; night build c18199a + weiß flag e37b553)",
-        "date": "2026-07-28 night", "chair": "#61",
-        "provenance": "at her ask (TODO: 'heat map stays down unless asked')",
+        "what": "verdict-stack heat map, presentation-tier re-plot of census v5.1 "
+                "(STAR REVERSAL era: the fr colour token-ghost star retired — "
+                "~246 fr:baudelaire colour crossings starred→demonstrative; "
+                "comparisons 4143; earlier-era build receipts live in the "
+                "script docstring's repointing chain)",
+        "date": "2026-08-12", "chair": "#71",
+        "provenance": "origin #61 at her ask 07-27 (TODO: 'heat map stays down "
+                      "unless asked'); repointed v4.9/v5.0/v5.1 by #62; "
+                      "regenerated at her word ('regen please'), #71, 08-12",
         "input": {"path": str(V51_J.relative_to(HERE.parent)),
                   "sha256": sha(V51_J)},
         "law_imports": {"linegrain_law_60.py": sha(HERE / "linegrain_law_60.py"),

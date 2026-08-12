@@ -102,7 +102,7 @@
 <line x1="40" y1="880" x2="1140" y2="880" stroke="#f4f4f5"/>
 <text x="40" y="904.0" font-size="10.5" fill="#94a3b8" font-style="italic">rid (dropped …)</text>
 <text x="40" y="920.0" font-size="10.5" fill="#94a3b8" font-style="italic">rid (unaligned …)</text>
-<text x="320" y="898" font-size="10.5" fill="#222">STATUS ROWS (grey italic, no data cells). DROPPED = the translator renders nothing for this source line (her-blessed alignment map, seat=[]).</text>
+<text x="320" y="898" font-size="10.5" fill="#222">STATUS ROWS (grey italic, no data cells). DROPPED = the translator renders nothing for this source line (PI-approved alignment map, seat=[]).</text>
 <text x="320" y="911" font-size="10.5" fill="#222">UNALIGNED = the seat has no alignment file yet (line-number pairing is navigation, not an alignment claim). Neither is ever crossed as data.</text>
 <line x1="40" y1="940" x2="1140" y2="940" stroke="#f4f4f5"/>
 <line x1="40" y1="960" x2="1140" y2="960" stroke="#e2e8f0"/>

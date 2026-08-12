@@ -40,7 +40,10 @@
 <line x1="1010" y1="152" x2="1068" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <line x1="1068" y1="152" x2="1010" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <text x="1012" y="181" font-size="7" fill="#cbd5e1">untested</text>
-<text x="1155" y="168" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="152" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="152" x2="1213" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="152" x2="1155" y2="174" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="181" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="168" font-size="9.5" font-weight="bold">silent (source)</text>
 <text x="1700" y="168" font-size="10.5" font-weight="bold" fill="#334155">— source —</text>
 <text x="20" y="226" font-size="11" font-weight="bold" >de:george_1901</text>
@@ -63,7 +66,10 @@
 <line x1="1010" y1="210" x2="1068" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <line x1="1068" y1="210" x2="1010" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <text x="1012" y="239" font-size="7" fill="#cbd5e1">untested</text>
-<text x="1155" y="226" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="210" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="210" x2="1213" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="210" x2="1155" y2="232" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="239" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="226" font-size="9.5" font-weight="bold">silent → ghost(freche)</text>
 <text x="1700" y="226" font-size="10.5" font-weight="bold" fill="#334155">STIRRED</text>
 <text x="20" y="284" font-size="11" font-weight="bold" >de:kalckreuth_1907</text>
@@ -86,7 +92,10 @@
 <line x1="1010" y1="268" x2="1068" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <line x1="1068" y1="268" x2="1010" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
 <text x="1012" y="297" font-size="7" fill="#cbd5e1">untested</text>
-<text x="1155" y="284" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="268" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="268" x2="1213" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="268" x2="1155" y2="290" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="297" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="284" font-size="9.5" font-weight="bold">silent → ghost(lautem)</text>
 <text x="1700" y="284" font-size="10.5" font-weight="bold" fill="#334155">STIRRED</text>
 <text x="20" y="342" font-size="11" font-weight="bold" >en:aggeler</text>
@@ -107,7 +116,10 @@
 <text x="880" y="342" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
 <text x="880" y="353" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: earth)</text>
 <text x="1010" y="342" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
-<text x="1155" y="342" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="326" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="326" x2="1213" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="326" x2="1155" y2="348" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="355" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="342" font-size="9.5" font-weight="bold">silent → stated(earth)</text>
 <text x="1700" y="342" font-size="10.5" font-weight="bold" fill="#334155">INVENTION</text>
 <text x="20" y="400" font-size="11" font-weight="bold" >en:campbell</text>
@@ -128,7 +140,10 @@
 <text x="880" y="400" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
 <text x="880" y="411" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: earth)</text>
 <text x="1010" y="400" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
-<text x="1155" y="400" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="384" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="384" x2="1213" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="384" x2="1155" y2="406" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="413" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="400" font-size="9.5" font-weight="bold">silent → stated(earth)</text>
 <text x="1700" y="400" font-size="10.5" font-weight="bold" fill="#334155">INVENTION</text>
 <text x="20" y="458" font-size="11" font-weight="bold" >en:dillon</text>
@@ -148,7 +163,10 @@
 <text x="602.2" y="491" font-size="8" text-anchor="middle" fill="#b22222" class="z-label">z-1.3</text>
 <text x="880" y="458" font-size="10" fill="#b22222">earth</text>
 <text x="1010" y="458" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
-<text x="1155" y="458" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="442" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="442" x2="1213" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="442" x2="1155" y2="464" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="471" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="458" font-size="9.5" font-weight="bold">silent → stated(earth)</text>
 <text x="1700" y="458" font-size="10.5" font-weight="bold" fill="#334155">INVENTION</text>
 <text x="20" y="516" font-size="11" font-weight="bold" >en:leclercq</text>
@@ -169,7 +187,10 @@
 <text x="880" y="516" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
 <text x="880" y="527" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: earth)</text>
 <text x="1010" y="516" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
-<text x="1155" y="516" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="500" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="500" x2="1213" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="500" x2="1155" y2="522" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="529" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="516" font-size="9.5" font-weight="bold">silent → stated(earth)</text>
 <text x="1700" y="516" font-size="10.5" font-weight="bold" fill="#334155">INVENTION</text>
 <text x="20" y="574" font-size="11" font-weight="bold" >en:wilbur</text>
@@ -190,7 +211,10 @@
 <text x="880" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
 <text x="880" y="585" font-size="7.5" fill="#94a3b8" fill-opacity="0.85">(line: earth)</text>
 <text x="1010" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
-<text x="1155" y="574" font-size="10" fill="#94a3b8" fill-opacity="0.8">—</text>
+<rect x="1155" y="558" width="58" height="22" fill="none" stroke="#cbd5e1" stroke-width="0.8" class="untested-box"/>
+<line x1="1155" y1="558" x2="1213" y2="580" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<line x1="1213" y1="558" x2="1155" y2="580" stroke="#cbd5e1" stroke-width="0.8" class="untested-diag"/>
+<text x="1157" y="587" font-size="7" fill="#cbd5e1">untested</text>
 <text x="1497" y="574" font-size="9.5" font-weight="bold">silent → stated(earth)</text>
 <text x="1700" y="574" font-size="10.5" font-weight="bold" fill="#334155">INVENTION</text>
 <rect x="20" y="623" width="8" height="8" fill="#1e293b" class="full-stack-badge"/>
