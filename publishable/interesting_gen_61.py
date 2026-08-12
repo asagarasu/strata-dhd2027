@@ -31,9 +31,14 @@ import exhibit_gen_60 as GEN
 
 HERE = Path(__file__).resolve().parent
 OUT = HERE.parent / "reports" / "figures" / "interesting_59"
-BOARDS = ["sonnet18", "qingqing", "tiaotiao", "xibei",
-          "albatros", "correspondances", "invitation", "elevation"]
+# BOARDS single-sourced from the LAW module (#71 refactor, 2026-08-12); the local
+# copy was verified byte-identical to the law's before removal. It stays bound at
+# module level under its own name, so interesting_gen_61.BOARDS still resolves.
+BOARDS = LAW.BOARDS
 FIELDS = ("color", "sound", "plant", "temporal", "illumination")
+# Flavor B's hard input. Declared as a module constant so the guard in main() can
+# name the exact path it needs (see the MISSING HARD INPUT check there).
+CONSENSUS_J = HERE / "consensus_ghost_boards_v2_60.json"
 
 _cache = {}
 
@@ -100,8 +105,23 @@ def rank_of(vals, v):
 def main():
     cuts = LAW.cuts()
     align = C.alignments()
-    cons = json.loads(
-        (HERE / "consensus_ghost_boards_v2_60.json").read_text())
+    # LOUD GUARD on flavor B's hard input (#71 refactor, 2026-08-12). This file
+    # is ABSENT from the published repository and untracked by git, so the miner
+    # cannot currently run; it used to die here on a bare FileNotFoundError
+    # traceback out of read_text, which named the path but not the stake.
+    if not CONSENSUS_J.exists():
+        raise SystemExit(
+            f"MISSING HARD INPUT: {CONSENSUS_J}\n"
+            f"interesting_gen_61 cannot mine without the v2 consensus artifact: "
+            f"flavor B (CONSENSUS-GHOST) is read straight out of it, and the "
+            f"miner stages ALL five flavors before it writes anything, so there "
+            f"is no partial run to fall back on. The file is neither present nor "
+            f"git-tracked in this repository — produce "
+            f"consensus_ghost_boards_v2_60.json beside this script (publishable/) "
+            f"before mining. NOTE the already-committed picks in "
+            f"reports/figures/interesting_59/ are unaffected by this and stay "
+            f"valid; nothing here has been rewritten.")
+    cons = json.loads(CONSENSUS_J.read_text())
     cands = {k: [] for k in "ABCDE"}
     for board in BOARDS:
         d, _, _ = load(board)

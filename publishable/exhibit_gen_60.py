@@ -56,27 +56,31 @@ KEY_FIGURE_STEM = "KEY_exhibit_reading_guide_0728_62"
 POLE = {"temporal": "− = brief-pole / + = long-pole (A7 value axis)",
         "illumination": "− = bright-pole / + = dark-pole (polarity axis)"}
 
-RANK = {"stated": 5, "present*": 4.5, "latent": 4, "ghost": 3,
-        "silent": 1, "silent*": 0.9}
-_ALIGN = None
+# RANK and alignments() moved to their canonical home in the LAW module (#71
+# refactor, 2026-08-12) and are RE-EXPORTED here under exactly their old names,
+# so every consumer reading GEN.RANK / GEN.alignments() keeps working unchanged
+# (verify_exhibits_60 reads GEN.RANK; the miners reach alignments through the
+# census). Values are the same objects the law now single-sources: RANK was
+# byte-identical to the census copy, and the law's alignments() IS the memoized
+# form this file already used — same glob root, same keys, same records.
+RANK = LAW.RANK
+alignments = LAW.alignments
 _CORPUS = {}
-
-
-def alignments():
-    """PI-approved alignment files (chair-verified) — the exhibits use them
-    exactly as census v4.3 does; 'awaits alignment file' is reserved for
-    seats that truly have none."""
-    global _ALIGN
-    if _ALIGN is None:
-        import glob
-        _ALIGN = {}
-        for p in glob.glob(str(HERE.parent / "corpus" / "alignments" / "*.json")):
-            d = json.loads(Path(p).read_text())
-            _ALIGN[(d["board"], d["rid"])] = d
-    return _ALIGN
+_CORPUS_WARNED = set()
 
 
 def corpus_line(board, rid, idx):
+    """The seat's corpus text for one line, via corpus_breadth_runner_56, cached
+    per (board, rid). On ANY failure the seat degrades to "(line unavailable)".
+
+    #71: the fallback behaviour is UNCHANGED, but it is no longer SILENT — the
+    exception is now reported on stderr (once per distinct cause) before the
+    degrade. The silence was hiding a live one: corpus_breadth_runner_56 imports
+    numpy at module scope, so under a numpy-less interpreter EVERY seat lost its
+    corpus text and the regenerated exhibits differed from the committed ones in
+    exactly those lines, with no signal whatsoever. The except stays BROAD on
+    purpose — any breakage in the corpus runner must degrade a text cell, never
+    abort a render — it just says so now."""
     key = (board, rid)
     if key not in _CORPUS:
         try:
@@ -84,7 +88,12 @@ def corpus_line(board, rid, idx):
             seat = next((s for s in R.BOARDS[board]["seats"]
                          if s["rid"] == rid), None)
             _CORPUS[key] = R.parse_seat(seat) if seat else []
-        except Exception:
+        except Exception as e:
+            msg = (f"corpus_line: {type(e).__name__}: {e} — corpus text "
+                   f"unavailable; seats degrade to '(line unavailable)'")
+            if msg not in _CORPUS_WARNED:
+                _CORPUS_WARNED.add(msg)
+                print(f"WARNING {msg}", file=sys.stderr)
             _CORPUS[key] = []
     lines = _CORPUS[key]
     return lines[idx] if idx < len(lines) else "(line unavailable)"
@@ -792,6 +801,35 @@ def gate(m, svg):
     F = []
     field = m["field"]
     d, _, _ = LAW.load_board(m["board"])
+    F += _gate_per_seat(m, d, field)
+    F += _gate_status_rows(m, svg)
+    F += _gate_untested_cells(m, svg, field)
+    F += _gate_line_window(m, svg)
+    z_suppressed = LAW.z_suppressed(field)
+    F += _gate_z_strip(m, svg, d, field, z_suppressed)
+    F += _gate_raw_dot(svg, field)
+    F += _gate_z_line(m, svg, field, z_suppressed)
+    F += _gate_cut_dash(m, svg, field)
+    F += _gate_full_stack_badge(m, svg)
+    F += _gate_key_pointer(svg)
+    return F
+
+
+# ── gate() helpers (#71 refactor, 2026-08-12). ONE LAW PER FUNCTION, called by
+# gate() in exactly the order the single 300-line body ran them, each returning
+# its failure list; the assertion messages are carried over verbatim, so a gate
+# report reads identically to before. Splitting is presentational only — no law
+# was added, dropped, reordered or reworded. (The deliberate physical duplication
+# against verify_exhibits_60's mirrored second lock is UNTOUCHED: two locks, one
+# law, by standing in-code ruling.)
+
+def _gate_per_seat(m, d, field):
+    """Laws C · E · A · D + the state-pair re-derivation, per aligned seat.
+
+    Kept as ONE pass because that is how it ran: the four checks share the
+    carrier-line row, the freshly re-derived top-tok and the committed boolean
+    row, and their failure messages interleave per seat in that order."""
+    F = []
     for r in m["seats"]:
         rid = r["rid"]
         if r["unaligned"]:
@@ -867,6 +905,12 @@ def gate(m, svg):
         want = LAW.CELL15.get(pair, "(no cell)")
         if not r["transmission"].startswith(want):
             F.append(f"{rid}: transmission {r['transmission']!r} != {want!r}")
+    return F
+
+
+def _gate_status_rows(m, svg):
+    """B: count-mismatched (unaligned/dropped) seats render as STATUS rows."""
+    F = []
     # B: unaligned seats render as status rows
     lines = svg.splitlines()
     for r in m["seats"]:
@@ -881,6 +925,12 @@ def gate(m, svg):
         blob = "\n".join(lines[band[0]:band[0] + 3]) if band else ""
         if band and "unaligned" not in blob and "dropped" not in blob:
             F.append(f"{r['rid']}: unaligned seat lacks status text")
+    return F
+
+
+def _gate_untested_cells(m, svg, field):
+    """F: THE UNTESTED-CELL DISPLAY LAW (her ruling #61)."""
+    F = []
     # F: THE UNTESTED-CELL DISPLAY LAW (her ruling #61). An uncovered channel's
     # cell MUST carry the untested cross-out mark; a tested-null covered cell MUST
     # NOT (it renders '—'). Assert by construction: the count of untested boxes in
@@ -912,6 +962,12 @@ def gate(m, svg):
     # 'untested' label token, '—' never does.)
     if got_untested and "untested" not in svg:
         F.append("untested-cell law: mark drawn but 'untested' label absent")
+    return F
+
+
+def _gate_line_window(m, svg):
+    """F2: THE LINE-WINDOW LAW (her live catch, #61)."""
+    F = []
     # F2: THE LINE-WINDOW LAW (her live catch, #61 — 'Clacking' amputated off
     # the front of tiaotiao L4 owen). A CLAIMED word's surface form must NEVER be
     # amputated out of the rendered seat text: whenever the model located a
@@ -924,6 +980,12 @@ def gate(m, svg):
         if cs and html.escape(cs) not in svg:
             F.append(f"{r['rid']}: line-window law — claimed surface {cs!r} "
                      f"amputated from rendered text (not in SVG)")
+    return F
+
+
+def _gate_z_strip(m, svg, d, field, z_suppressed):
+    """F3: THE z-STRIP LAW (her rulings, #62) — two regimes by line-tier grade."""
+    F = []
     # F3: THE z-STRIP LAW (her rulings, #62 — the two-strip bar + jp untested +
     # chance-like SUPPRESSION). Two regimes, decided by the field's line-tier
     # grade (re-derived from the exam json via LAW.z_suppressed):
@@ -941,7 +1003,6 @@ def gate(m, svg):
     got_zlabels = svg.count('class="z-label"')
     got_ubars = svg.count('class="untested-bar"')
     got_supp = svg.count('class="z-suppress-note"')
-    z_suppressed = LAW.z_suppressed(field)
     if z_suppressed:
         # her ruling B: NOTHING of the z strip may render; the panel says so once
         if got_zdots or got_zlabels or got_ubars:
@@ -984,6 +1045,12 @@ def gate(m, svg):
         if got_ubars != want_untested_bars:
             F.append(f"z-strip law: {got_ubars} untested-bar marks drawn != "
                      f"{want_untested_bars} unnormed aligned seats")
+    return F
+
+
+def _gate_raw_dot(svg, field):
+    """F3b: RAW DOT RETIRES (her ruling A, 07-28 night) — global, every panel."""
+    F = []
     # F3b: RAW DOT RETIRES (her ruling A, 07-28 night — global, every panel). The
     # raw non-z line-scalar dot must NOT appear on the face: the muted field-hue
     # dot was the ONLY circle bearing fill="{hue}" that is not a z-dot, so the
@@ -1003,6 +1070,12 @@ def gate(m, svg):
     if 'fill-opacity="0.35"' in svg:
         F.append("raw-dot-retires (A): raw-dot signature fill-opacity=\"0.35\" "
                  "still present in SVG")
+    return F
+
+
+def _gate_z_line(m, svg, field, z_suppressed):
+    """F3c: THE COLOUR z-LINE (her ruling, 07-28 night, #62 — ADOPTED)."""
+    F = []
     # F3c: THE COLOUR z-LINE (her ruling, 07-28 night, #62 — ADOPTED). The z-line
     # is present IFF the field is CREDENTIALED (LAW.z_line(field) is not None:
     # DISCRIMINATION-graded, with a registered value — today colour alone) AND the
@@ -1038,6 +1111,12 @@ def gate(m, svg):
             F.append(f"z-line law (F3c): field {field!r} is NOT credentialed for a "
                      f"z-line (or suppressed) — expected ZERO, got {got_zlines} "
                      f"lines / {got_zline_labels} labels")
+    return F
+
+
+def _gate_cut_dash(m, svg, field):
+    """F4: THE CUT-DASH SIDE LAW (her ruling, 07-28 late night, #62)."""
+    F = []
     # F4: THE CUT-DASH SIDE LAW (her ruling, 07-28 late night, #62 — "i am still
     # seeing the double little lines for at least sound!"). The token-tier cut
     # dash is ONE-SIDED on SALIENCE panels (color/plant/sound: the positive dash
@@ -1059,6 +1138,12 @@ def gate(m, svg):
                  f"{want_dashes} ({per}/aligned-seat; field {field!r} is "
                  f"{'SALIENCE one-sided' if field in LAW.SALIENCE_TRIGGER_FIELDS else 'VALUE two-sided'}"
                  f"{', but no cut' if m['cut'] is None else ''})")
+    return F
+
+
+def _gate_full_stack_badge(m, svg):
+    """F5: THE FULL-STACK BADGE LAW."""
+    F = []
     # F5: THE FULL-STACK BADGE LAW (her REVERSAL ruling, 07-28 late night, #62 —
     # "zh is terrific and we have the full support here!"). The badge is a small
     # neutral-dark filled square before the seat rid on EXACTLY the aligned seats
@@ -1080,6 +1165,12 @@ def gate(m, svg):
     if svg.count('class="full-stack-badge-legend"') != 1:
         F.append(f"full-stack badge law (F5): expected exactly ONE legend badge, "
                  f"got {svg.count('class=' + chr(34) + 'full-stack-badge-legend' + chr(34))}")
+    return F
+
+
+def _gate_key_pointer(svg):
+    """THE READING-KEY POINTER: exactly one per face, naming the key figure."""
+    F = []
     # the reading-key pointer line: exactly one per face, naming the key figure
     if svg.count('class="key-pointer"') != 1:
         F.append(f"key-pointer law: expected exactly ONE key pointer line, got "

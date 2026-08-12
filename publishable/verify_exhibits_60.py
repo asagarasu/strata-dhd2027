@@ -23,9 +23,16 @@ from pathlib import Path
 import linegrain_law_60 as G
 import exhibit_gen_60 as GEN
 
-G.load = G.load_board          # harness speaks the law module natively
-G.CELL8 = G.CELL15
-G.find_line = GEN.find_line
+# (#71 refactor, 2026-08-12) The three module monkey-patches that used to stand
+# here — G.load = G.load_board · G.CELL8 = G.CELL15 · G.find_line = GEN.find_line
+# — are GONE. The harness now calls the real names at each call site
+# (G.load_board, GEN.find_line). They were compatibility aliases for an older law
+# module that spelled these load/CELL8, and they MUTATED THE SHARED LAW MODULE:
+# every other module imported in the same process silently acquired a LAW.load
+# and a LAW.CELL8 that appear nowhere in the law's own source, which is exactly
+# the kind of invisible second definition this package's single-source rule
+# exists to prevent. G.CELL8 was moreover never read — its only occurrence
+# anywhere in the repo was the patch line itself. Nothing depended on any of them.
 
 HERE = Path(__file__).resolve().parent
 FIG = HERE.parent / "reports" / "figures" / "samples_59"
@@ -38,7 +45,7 @@ def texts_of(svg_path):
 
 
 def expected_rows(board, line_idx, field):
-    d, l, _ = G.load(board)
+    d, l, _ = G.load_board(board)
     readings = d["scalar_readings"]
     src = next(r for r in readings if r.startswith(d["source_lang"] + ":"))
     src_len = len(readings[src])
@@ -163,6 +170,33 @@ def check_sample(svg_name, board, line_idx, field):
         fails.append(f"{svg_name}: xmllint FAIL")
     T = texts_of(p)
     rows, src = expected_rows(board, line_idx, field)
+    fails += _check_seat_rows(svg_name, T, rows)
+    raw = p.read_text(encoding="utf-8")
+    suppressed = G.z_suppressed(field)
+    fails += _check_untested_cells(svg_name, raw, rows)
+    fails += _check_line_window(svg_name, raw, rows)
+    fails += _check_z_strip(svg_name, raw, rows, field, suppressed)
+    fails += _check_raw_dot(svg_name, raw, field)
+    fails += _check_z_line(svg_name, raw, rows, field, suppressed)
+    fails += _check_cut_dash(svg_name, raw, rows, field)
+    fails += _check_full_stack_badge(svg_name, raw, rows)
+    fails += _check_key_pointer(svg_name, raw)
+    return fails
+
+
+# ── check_sample() helpers (#71 refactor, 2026-08-12). ONE LAW PER FUNCTION,
+# called by check_sample in exactly the order the single body ran them, each
+# returning its failure list; every message is carried over verbatim, so a FAIL
+# report reads identically to before. IMPORTANT: these are still the harness's
+# OWN independent re-derivations from the LAW module — the physical duplication
+# against exhibit_gen_60.gate() is DELIBERATE (two locks, one law, per the
+# standing in-code ruling) and is NOT touched by this split.
+
+def _check_seat_rows(svg_name, T, rows):
+    """Per-seat text-stream checks: seat rendered · STATUS rows carry no data ·
+    top-tok cell · descriptive claim cell · state pair. One pass, because all
+    five read the SAME per-seat segment of the SVG text stream."""
+    fails = []
     # positions of seat labels in the text stream
     idx_of = {}
     for i, t in enumerate(T):
@@ -222,10 +256,15 @@ def check_sample(svg_name, board, line_idx, field):
             staterows = [x for x in seg if "→" in x or "source" in x]
             fails.append(f"{svg_name}: {rid} state expected '{want_state}', "
                          f"rendered {staterows[:2]}")
+    return fails
+
+
+def _check_untested_cells(svg_name, raw, rows):
+    """UNTESTED-CELL DISPLAY LAW (her ruling #61)."""
+    fails = []
     # UNTESTED-CELL DISPLAY LAW (her ruling #61): the SVG's untested cross-out
     # marks must number exactly the uncovered channel-cells re-derived above —
     # untested (channel not consulted) provably distinct from tested-silent ('—').
-    raw = p.read_text(encoding="utf-8")
     got = raw.count('class="untested-box"')
     want = sum(r.get("n_untested", 0) for r in rows if not r["unaligned"])
     if got != want:
@@ -236,6 +275,12 @@ def check_sample(svg_name, board, line_idx, field):
     if got and 'untested' not in raw:
         fails.append(f"{svg_name}: untested-cell law — mark present but no "
                      f"'untested' label (indistinguishable from tested-silence)")
+    return fails
+
+
+def _check_line_window(svg_name, raw, rows):
+    """LINE-WINDOW law (#61, her live catch)."""
+    fails = []
     # LINE-WINDOW law (#61, her live catch — 'Clacking' amputated off tiaotiao
     # L4 owen): every claimed word's surface (re-derived above) must be present
     # in the SVG text; the render must wrap/anchor rather than clip it away.
@@ -247,6 +292,12 @@ def check_sample(svg_name, board, line_idx, field):
         if cs and _html.escape(cs) not in raw:
             fails.append(f"{svg_name}: line-window law — claimed surface {cs!r} "
                          f"amputated from rendered {r['rid']} text")
+    return fails
+
+
+def _check_z_strip(svg_name, raw, rows, field, suppressed):
+    """THE z-STRIP LAW (her rulings, #62; mirrors exhibit_gen_60.gate F3)."""
+    fails = []
     # THE z-STRIP LAW (her rulings, #62 — two-strip bar + jp untested + her
     # 07-28 NIGHT chance-like SUPPRESSION). Independent second lock, mirrors
     # exhibit_gen_60.gate F3, re-derived from the LAW module. Two regimes by the
@@ -260,7 +311,6 @@ def check_sample(svg_name, board, line_idx, field):
     got_zlabels = raw.count('class="z-label"')
     got_ubars = raw.count('class="untested-bar"')
     got_supp = raw.count('class="z-suppress-note"')
-    suppressed = G.z_suppressed(field)
     if suppressed:
         if got_zdots or got_zlabels or got_ubars:
             fails.append(f"{svg_name}: z-suppress law (B) — {field!r} is "
@@ -303,6 +353,12 @@ def check_sample(svg_name, board, line_idx, field):
             fails.append(f"{svg_name}: z-strip law — {got_ubars} untested-bar "
                          f"marks != {want_ubars} unnormed aligned seats "
                          f"(re-derived)")
+    return fails
+
+
+def _check_raw_dot(svg_name, raw, field):
+    """RAW DOT RETIRES (her ruling A, 07-28 night; mirrors gate F3b)."""
+    fails = []
     # RAW DOT RETIRES (her ruling A, 07-28 night — global; mirrors gate F3b).
     # The raw non-z line-scalar dot has LEFT the face: no field-hue circle that
     # is not a z-dot may remain, and its unique signature fill-opacity="0.35" is
@@ -320,6 +376,12 @@ def check_sample(svg_name, board, line_idx, field):
     if 'fill-opacity="0.35"' in raw:
         fails.append(f"{svg_name}: raw-dot-retires (A) — raw-dot signature "
                      f"fill-opacity=\"0.35\" still present in SVG")
+    return fails
+
+
+def _check_z_line(svg_name, raw, rows, field, suppressed):
+    """THE COLOUR z-LINE (her ruling, 07-28 night, #62; mirrors gate F3c)."""
+    fails = []
     # THE COLOUR z-LINE (her ruling, 07-28 night, #62 — ADOPTED; mirrors gate
     # F3c). Independent second lock, re-derived from the LAW module. The z-line is
     # present IFF the field is CREDENTIALED (G.z_line(field) not None:
@@ -352,6 +414,12 @@ def check_sample(svg_name, board, line_idx, field):
                          f"credentialed for a z-line (or suppressed); expected "
                          f"ZERO, got {got_zlines} lines / {got_zline_labels} "
                          f"labels")
+    return fails
+
+
+def _check_cut_dash(svg_name, raw, rows, field):
+    """THE CUT-DASH SIDE LAW (her ruling, 07-28 late night, #62; mirrors F4)."""
+    fails = []
     # THE CUT-DASH SIDE LAW (her ruling, 07-28 late night, #62 — "i am still
     # seeing the double little lines for at least sound!"; mirrors gate F4).
     # Independent second lock, re-derived from the LAW module: the token-tier cut
@@ -373,6 +441,12 @@ def check_sample(svg_name, board, line_idx, field):
                      f"dashes != {want_dashes} ({per}/aligned-seat; {field!r} is "
                      f"{'SALIENCE one-sided' if field in G.SALIENCE_TRIGGER_FIELDS else 'VALUE two-sided'}"
                      f"{', but no cut' if dash_cut is None else ''}) — re-derived")
+    return fails
+
+
+def _check_full_stack_badge(svg_name, raw, rows):
+    """THE FULL-STACK BADGE LAW (her REVERSAL ruling, #62; mirrors gate F5)."""
+    fails = []
     # THE FULL-STACK BADGE LAW (her REVERSAL ruling, 07-28 late night, #62;
     # mirrors gate F5). Independent second lock, re-derived from the LAW module:
     # a full-stack badge (class="full-stack-badge") is drawn before the seat rid
@@ -391,6 +465,12 @@ def check_sample(svg_name, board, line_idx, field):
         fails.append(f"{svg_name}: full-stack badge law (F5) — expected exactly "
                      f"ONE legend badge, got "
                      f"{raw.count(chr(99)+'lass=' + chr(34) + 'full-stack-badge-legend' + chr(34))}")
+    return fails
+
+
+def _check_key_pointer(svg_name, raw):
+    """THE READING-KEY POINTER: exactly one per face, naming the key figure."""
+    fails = []
     # THE READING-KEY POINTER (her "explain those stars and lines and whatever",
     # #62): every face carries exactly one pointer line naming the key figure.
     if raw.count('class="key-pointer"') != 1:
@@ -403,26 +483,17 @@ def check_sample(svg_name, board, line_idx, field):
 
 
 def main():
-    d18 = G.load("sonnet18")[0]
-    src18 = next(r for r in d18["scalar_readings"] if r.startswith("en:"))
-    tl = max(d18["scalar_readings"][src18],
-             key=lambda r: abs(r["reading"]["temporal"]))
-    dx = G.load("xibei")[0]
-    srcx = next(r for r in dx["scalar_readings"] if r.startswith("zh:"))
-    il = max(dx["scalar_readings"][srcx],
-             key=lambda r: abs(r["reading"]["illumination"]))
-    nuit = G.find_line("correspondances", "comme la nuit")
-    SAMPLES = [
-        ("sample_colour_correspondances_nuit_59.svg", "correspondances", nuit, "color"),
-        ("sample_sound_tiaotiao_L4_59.svg", "tiaotiao", 3, "sound"),
-        ("sample_plant_qingqing_L1_59.svg", "qingqing", 0, "plant"),
-        (f"sample_illum_xibei_L{il['line_no']}_59.svg", "xibei",
-         il["line_no"] - 1, "illumination"),
-        (f"sample_temporal_sonnet18_L{tl['line_no']}_59.svg", "sonnet18",
-         tl["line_no"] - 1, "temporal"),
-    ]
+    # (#71 refactor) The sample roster comes from GEN.samples() — the generator's
+    # OWN list, the one main() draws from — instead of the hand-rebuilt copy that
+    # used to stand here (it re-derived the same sonnet18-temporal and
+    # xibei-illumination extrema and the same 'comme la nuit' line lookup). The
+    # two were verified to produce the identical five tuples before the swap. This
+    # is NOT one of the deliberate mirrored second locks: a harness that checked a
+    # DIFFERENT set of files than the generator wrote would be a hole, not a lock.
+    # (The mirrored LAW re-derivations inside check_sample stay duplicated on
+    # purpose — two locks, one law.)
     all_fails = []
-    for svg, board, li, field in SAMPLES:
+    for svg, board, li, field in GEN.samples():
         fails = check_sample(svg, board, li, field)
         print(("FAIL " if fails else "PASS ") + svg)
         for f in fails:

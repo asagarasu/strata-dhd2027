@@ -19,7 +19,38 @@ makes no states; a line over the verse null with no token account is a
 LINE-RESIDUAL annotation (line_residual(): zh sides, illumination excluded),
 never a state, never a crossing; precedence stated > latent > ghost >
 silent; device = parallel organ.
-No project-module imports; no encoder; pure functions over committed JSON."""
+No project-module imports; no encoder; pure functions over committed JSON.
+
+── LOADER FAILURE MODES, declared (they are NOT uniform, and the divergence is
+deliberate — each loader fails the way its law-status demands; #71 refactor
+documented them, changed none):
+  load_board(board)   descriptive + latent: RAW EXCEPTION (FileNotFoundError) —
+                      a board without its two committed score files is a broken
+                      call, not a state. Its THIRD leg, the unattributed signal
+                      file, is caught and degrades to an empty set() SILENTLY
+                      (the exploratory tier is optional by construction). One
+                      function, two modes, on purpose.
+  cuts()              RAW EXCEPTION — the promotion thresholds are the trigger's
+                      arithmetic; there is no exhibit without them.
+  linecut2()          SILENT {} on FileNotFoundError — the v2 line-cut feeds
+                      line_residual(), an ANNOTATION tier; its absence must not
+                      stop a run (it just annotates nothing).
+  news_norms()        loud SystemExit — the language-relative z IS law
+                      (her ruling, twice); no silent fallback.
+  line_exam_grades()  loud SystemExit — the z-dot saturation IS the field's
+                      battery grade; it may never be defaulted.
+  z_line_data()       loud SystemExit — the z-line is an ADOPTED display
+                      element (her ruling, 07-28 night).
+  alignments()        SILENT {} — an unaligned seat then reads its honest
+                      declared 'awaits alignment file' status.
+  _fold_map()         SILENT {} if Unihan_Variants.txt is absent (fold becomes
+                      identity: the zh simplified/traditional twins stop
+                      folding, matching degrades, nothing crashes).
+  _variant_map()      SILENT {} per missing artifact (claim-match degrades to
+                      exact/zh-fold only).
+The rule the pattern encodes: a loader whose datum MAKES OR GATES A STATE fails
+loud; a loader feeding a DISPLAY/ANNOTATION tier degrades quiet."""
+import glob
 import json
 import re
 from pathlib import Path
@@ -49,10 +80,39 @@ CELL15 = {("active", "active"): "SURVIVAL", ("active", "latent"): "PARTIAL-LOSS"
           ("absent", "active"): "INVENTION", ("absent", "latent"): "LATENT-INVENTION",
           ("absent", "ghost"): "STIRRED"}
 
-_CUTS, _LC2, _FOLD = None, None, None
+# ── THE EIGHT BOARDS — canonical home since the #71 refactor (2026-08-12). The
+# board roster, formerly copy-pasted BYTE-IDENTICALLY in linegrain_census_v43_60
+# and interesting_gen_61 (verified cmp-clean before the move). Those two now
+# re-export this list under their own module names, so `C.BOARDS` and every other
+# existing reference keeps working unchanged. A FOURTH copy lives outside this
+# package in engine/census_coverage_ledger_63.py; it is deliberately LEFT ALONE —
+# that module declares itself a verbatim analysis-only fork of the v43 loop, and
+# forking is its stated method.
+BOARDS = ["sonnet18", "qingqing", "tiaotiao", "xibei",
+          "albatros", "correspondances", "invitation", "elevation"]
+
+# ── THE STATE-PRIORITY RANK — canonical home since the #71 refactor
+# (2026-08-12). The precedence weight for every fold over the seat lines that
+# render ONE source line: the census's fold_states, exhibit_gen_60's carrier-line
+# pick, and the verify harness's independent mirror all weigh states with this.
+# Formerly copy-pasted BYTE-IDENTICALLY in exhibit_gen_60 and
+# linegrain_census_v43_60 (verified cmp-clean before the move); both now
+# re-export it, so GEN.RANK / C.RANK keep working unchanged. The
+# engine/census_coverage_ledger_63 copy is left alone for the same reason as
+# BOARDS. It is the ORDERING that carries the meaning, not the absolute numbers:
+# stated > present* > latent > ghost > silent > silent*.
+RANK = {"stated": 5, "present*": 4.5, "latent": 4, "ghost": 3,
+        "silent": 1, "silent*": 0.9}
+
+_CUTS, _LC2, _FOLD, _ALIGN = None, None, None, None
 
 
 def load_board(board):
+    """The board's three committed score legs: (descriptive, latent, unattributed
+    membership set). Failure mode is MIXED BY DESIGN (see the module docstring):
+    the descriptive and latent files raise RAW (a board without them is a broken
+    call), while a missing unattributed_signal file degrades to an empty set()
+    silently (the exploratory tier is optional by construction)."""
     d = json.loads((DESC / f"descriptive_scores_{board}_59.json").read_text())
     l = json.loads((LAT / f"latent_scores_{board}_59.json").read_text())
     try:
@@ -63,7 +123,40 @@ def load_board(board):
     return d, l, umem
 
 
+def alignments():
+    """The PI-approved alignment files (chair-verified), loaded once, as
+    {(board, rid): record}. The exhibits, the census and the miners use them
+    identically; 'awaits alignment file' stays reserved for seats that truly have
+    none.
+
+    Canonical home since the #71 refactor (2026-08-12). Formerly TWO
+    near-duplicates: exhibit_gen_60's (memoized, Path.read_text) and
+    linegrain_census_v43_60's (fresh dict per call, json.load(open(p))). They were
+    DIFFED before the move — same glob root, same key, same value, therefore the
+    same mapping on the present data; the ONLY semantic delta was the memo. The
+    memoized form is the one canonicalized, on two checked grounds: it is the
+    strictly cheaper one (exhibit calls this per seat inside build_model), and NO
+    caller anywhere in the repo mutates the result — every call site only ever
+    does `.get((board, rid))`, so a shared cached dict is indistinguishable from a
+    fresh one. Consumers re-export the name, so `C.alignments()` keeps working.
+
+    Failure mode: SILENT {} — an absent or empty corpus/alignments/ directory
+    globs to nothing, and an unaligned seat then reads its honest declared
+    'awaits alignment file' status rather than crashing a render."""
+    global _ALIGN
+    if _ALIGN is None:
+        _ALIGN = {}
+        for p in glob.glob(str(HERE.parent / "corpus" / "alignments" / "*.json")):
+            d = json.loads(Path(p).read_text())
+            _ALIGN[(d["board"], d["rid"])] = d
+    return _ALIGN
+
+
 def cuts():
+    """The per-field promotion thresholds as
+    {field: (cut, tier_label, line_cut_or_None)}, loaded once. Failure mode: RAW
+    EXCEPTION (no guard, by design) — these cuts ARE the trigger's arithmetic, so
+    a missing promotion_threshold_59.json is a broken call, never a fallback."""
     global _CUTS
     if _CUTS is None:
         d = json.loads(CUTS_J.read_text())
@@ -78,6 +171,12 @@ def cuts():
 
 
 def linecut2():
+    """The v2 per-field line-cut as {field: line_cut_v2}, loaded once. Failure
+    mode: SILENT {} on a missing file — deliberately UNLIKE news_norms()'s loud
+    SystemExit, because this datum feeds line_residual() alone, which is an
+    ANNOTATION tier (never a state): absent, it annotates nothing and the run is
+    still correct. news_norms() shares this load idiom and differs precisely in
+    the loud-fail, because the z IS law."""
     global _LC2
     if _LC2 is None:
         try:
@@ -471,6 +570,21 @@ def top_mover(row, field):
 
 
 def token_delta_of(word, row, field):
+    """The biggest token-delta among the row's top_delta entries matching `word`.
+
+    MATCHING HERE IS STILL SUBSTRING CONTAINMENT (`fw in ts or ts in fw`) and is
+    LEFT EXACTLY AS IS. Note the tension, deliberately carried on its face: this
+    is the very pattern variant_match()'s docstring records as RETIRED for
+    CLAIM-matching (#61 Stage 2c — containment "mis-joined un-related tokens and
+    missed consonant-mutation irregulars", e.g. rousse/roux, rosy/rose). The two
+    are not the same job. variant_match decides whether a channel CLAIMS a token
+    — a verdict that MAKES STATES. This function makes no state: its four call
+    sites (checked #71) are mass_rank()'s sort key below, the verify harness's
+    mirror of that sort, and two pinned `want()` assertions in
+    albatros_L15_exemplar_gen_63 — display ordering and exemplar self-checks,
+    where a loose match costs an ordering or a pinned number, never a crossing.
+    Changing it would move committed bytes, so it stays; #71 flags it as a
+    findings item for the orchestrator rather than a fix."""
     best = None
     fw = fold(word)
     for t, dd in (row.get("top_delta", {}).get(field) or []):
@@ -567,31 +681,26 @@ def line_state(field, boolrow, writrow, lat, rid, idx, cut, row, line_cut=None):
     4-file signature change (all sha-pinned); deferred to a calmer sitting.
     Docstring refreshed #61 at her word, 07-27 night; code unchanged.
 
-    ── THE fr TOKEN-GHOST STAR — HISTORY, carried on its face (house law:
-    corrections superseded, never erased).
-    ORIGINAL RULING (her convening, 2026-07-28): a fr token-ghost is a PARTIAL
-    investigation — the fr written/referent channels are uncovered, so a fr
-    colour token-ghost (word-silent, boolean covered since 07-28, no channel
-    claiming the triggered token) was STARRED SUGGESTIVE (the fourth return
-    True on the token-ghost branch when rid.startswith("fr:")), declaring the
-    blindness on the face. That star split ~247 crossing-rows (33 distinct
+    ── THE fr TOKEN-GHOST STAR: RETIRED (history on its face — house law:
+    corrections superseded, never erased). ORIGINAL (her convening, 2026-07-28):
+    a fr token-ghost, being a PARTIAL investigation (fr written/referent
+    uncovered), was STARRED SUGGESTIVE — the fourth return True when
+    rid.startswith("fr:") — splitting ~247 crossing-rows (33 distinct
     fr:baudelaire colour source token-ghosts × their seats) into the suggestive
-    tier.
-    SUPERSEDED — SAME NIGHT — by her REVERSAL RULING (2026-07-28 late night,
+    tier. SUPERSEDED SAME NIGHT by her REVERSAL RULING (2026-07-28 late night,
     #62, verbatim): "I think we should reverse the star situation. We should
     somehow indicate that 'zh is terrific and we have the full support here!'
-    while other ones we write in prose about 'ok this is not built and from
-    what we see in zh it is really really thin.'" The DEFICIENCY star retires;
-    the FULL-SUPPORT side is marked POSITIVELY (the zh full-stack BADGE, driven
-    by FULL_STACK_LANGS, in exhibit_gen_60); the non-zh referent thinness is
-    carried in PROSE (the scope-sentence), NOT stars. Measured bound behind the
-    reversal (chair count 07-28): the zh referent leg alters 2 of 669 word-tier-
-    silent verdicts (colour 0/352, sound 2/317 — 0.30%); the blindness is real
-    but thin. So the fr branch below returns FALSE-FOR-ALL — the fr token-ghost
-    no longer stars. Census of record under the star: v5.0 (findings_v50); under
-    the retired star: v5.1 (findings_v51). NOTE: the present*/silent* stars
-    (uncovered WORD channel — a DEEPER deficiency) are UNTOUCHED and STAY
-    STARRED; this reversal retires ONLY the fr partial-investigation star."""
+    while other ones we write in prose about 'ok this is not built and from what
+    we see in zh it is really really thin.'" So the DEFICIENCY star retires: the
+    full-support side is marked POSITIVELY (the zh full-stack BADGE, driven by
+    FULL_STACK_LANGS, in exhibit_gen_60), non-zh thinness lives in PROSE (the
+    scope-sentence) and never in stars, and the fr branch returns FALSE-FOR-ALL.
+    Measured bound (chair count 07-28): the zh referent leg alters 2 of 669
+    word-tier-silent verdicts (colour 0/352, sound 2/317 — 0.30%) — real but
+    thin. Census of record under the star: v5.0 (findings_v50); under the
+    retired star: v5.1 (findings_v51). The present*/silent* stars (uncovered
+    WORD channel — a DEEPER deficiency) are UNTOUCHED and STAY STARRED; this
+    reversal retired ONLY the fr partial-investigation star."""
     _r, wstate = chan_word(field, boolrow)
     if wstate == "stated":
         return "stated", "word", False
@@ -603,16 +712,11 @@ def line_state(field, boolrow, writrow, lat, rid, idx, cut, row, line_cut=None):
         return "latent", "referent", False
     if wstate == "silent":
         if triggered_tokens(row, field, cut):
-            # THE fr TOKEN-GHOST STAR RETIRES (her REVERSAL ruling, 07-28 late
-            # night, #62 — full history + her verbatim words in this function's
-            # docstring). The fr written/referent channels are still uncovered
-            # (a fr token-ghost is still a partial investigation), but the
-            # DEFICIENCY star is superseded: the full-support side is marked
-            # POSITIVELY (the zh full-stack BADGE) and the non-zh thinness lives
-            # in PROSE (the scope-sentence), never a star. So this branch returns
-            # False-for-all — no fourth-return star. (The present*/silent*
-            # uncovered-WORD-channel stars below are a deeper deficiency and are
-            # UNTOUCHED.) Was: rid.startswith("fr:").
+            # fr TOKEN-GHOST STAR RETIRED (her REVERSAL ruling, 07-28 late night,
+            # #62 — full history + her verbatim words in this function's
+            # docstring). No fourth-return star here; was: rid.startswith("fr:").
+            # The present*/silent* uncovered-WORD-channel stars below are a
+            # DEEPER deficiency and are UNTOUCHED.
             return "ghost", "meter (token)", False
         # GHOST PINNED AT THE WORD (her ruling 07-28): the line-gate no longer
         # makes states — a line over the verse null with no token account is a
