@@ -572,25 +572,22 @@ def top_mover(row, field):
 def token_delta_of(word, row, field):
     """The biggest token-delta among the row's top_delta entries matching `word`.
 
-    MATCHING HERE IS STILL SUBSTRING CONTAINMENT (`fw in ts or ts in fw`) and is
-    LEFT EXACTLY AS IS. Note the tension, deliberately carried on its face: this
-    is the very pattern variant_match()'s docstring records as RETIRED for
-    CLAIM-matching (#61 Stage 2c — containment "mis-joined un-related tokens and
-    missed consonant-mutation irregulars", e.g. rousse/roux, rosy/rose). The two
-    are not the same job. variant_match decides whether a channel CLAIMS a token
-    — a verdict that MAKES STATES. This function makes no state: its four call
-    sites (checked #71) are mass_rank()'s sort key below, the verify harness's
-    mirror of that sort, and two pinned `want()` assertions in
-    albatros_L15_exemplar_gen_63 — display ordering and exemplar self-checks,
-    where a loose match costs an ordering or a pinned number, never a crossing.
-    Changing it would move committed bytes, so it stays; #71 flags it as a
-    findings item for the orchestrator rather than a fix."""
+    MODERNIZED at her ruling 08-12 (#71): "you need to modernize it because it
+    is a bug, though not affecting result now." History, kept as receipt: this
+    function carried substring containment (`fw in ts or ts in fw`) — the very
+    pattern variant_match()'s docstring records as RETIRED for claim-matching
+    (#61 Stage 2c: containment mis-joined unrelated tokens, rousse/roux,
+    rosy/rose) — and was case-sensitive besides (fold() is the zh char-fold,
+    not a case-normalizer). It survived because it makes no state: its four
+    call sites (mass_rank's sort key, the verify harness mirror, two pinned
+    `want()` assertions in albatros_L15_exemplar_gen_63) cost an ordering or a
+    pinned number, never a crossing. Matching now routes through
+    variant_match(): exact-or-fold-or-shared-lemma, case-normalized, no
+    containment."""
     best = None
-    fw = fold(word)
     for t, dd in (row.get("top_delta", {}).get(field) or []):
-        ts = fold(_clean(t))
-        if ts and fw and (ts == fw or fw in ts or ts in fw):
-            if dd is not None and (best is None or dd > best):
+        if dd is not None and variant_match(word, _clean(t)):
+            if best is None or dd > best:
                 best = dd
     return best
 

@@ -538,7 +538,7 @@
    "state": "stated",
    "via": "word",
    "two": false,
-   "state_word": "晦",
+   "state_word": "如",
    "folded_from": null,
    "carrier_line": 6,
    "star": false,
@@ -553,8 +553,8 @@
      "claims_top": false,
      "receipt": null,
      "line_receipts": [
-      "晦",
-      "如"
+      "如",
+      "晦"
      ],
      "covered": true
     },
