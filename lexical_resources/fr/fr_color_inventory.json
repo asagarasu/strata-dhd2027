@@ -1,0 +1,1092 @@
+{
+ "_meta": {
+  "counts": {
+   "flagged": 1,
+   "leg_A": 12,
+   "leg_B_or_AB": 198,
+   "rejected": 13,
+   "total_fired": 201
+  },
+  "field": "color",
+  "language": "fr",
+  "law": "CITATION-ALONE per fire; canon(A) outranks derivation(B); every reject recorded (honest-drop).",
+  "legs": {
+   "A": "Berlin & Kay 1969 French basic set (12; brun/marron pair tagged)",
+   "B": "GLAWI single-token adjective gloss-derived (rule: extract_glawi_color_desc.py docstring)"
+  },
+  "mirrors": "en_color() (B&K11 ∪ XKCD single-token) / ZH_COLOR (禮記 ∪ 中国传统色)",
+  "provenance": "lexical_resources/fr/MANIFEST_fr_20260728.md"
+ },
+ "rejected": {
+  "atroce": {
+   "gloss_head": "Noir, sombre.",
+   "reason": "degree word; gloss S-frame opened on intensity, not hue"
+  },
+  "empire": {
+   "gloss_head": "De la couleur vert sombre et soutenu.",
+   "reason": "'Empire (green)' — hue in locution, bare 'empire' is not colour"
+  },
+  "gazon": {
+   "gloss_head": "De la couleur du vert de l'herbe.",
+   "reason": "'lawn (green)' — locative metonym; not a bare hue"
+  },
+  "hasardé": {
+   "gloss_head": "En parlant de la couleur des cheveux, de la barbe, qui tire sur le roux.",
+   "reason": "'hazarded' — gloss-frame false match"
+  },
+  "morne": {
+   "gloss_head": "Qualifie une couleur sombre, obscure, qui n'a ni vivacité ni éclat.",
+   "reason": "'dull/gloomy' quality; not a colour term"
+  },
+  "nourri": {
+   "gloss_head": "Qualifie une couleur bien empâtée, un trait qui n'est pas trop fin.",
+   "reason": "'rich/full' degree modifier; not a hue"
+  },
+  "prairie": {
+   "gloss_head": "De la couleur vert herbe clair et vif.",
+   "reason": "'meadow (green)' — locative metonym; not a bare hue"
+  },
+  "printemps": {
+   "gloss_head": "De la couleur vert lumineux et tendre comme le vert émeraude.",
+   "reason": "'spring (green)' — seasonal metonym; hue in locution only"
+  },
+  "prés": {
+   "gloss_head": "De la couleur vert des prairies.",
+   "reason": "'meadow (green)' plural metonym; not a bare hue"
+  },
+  "roi": {
+   "gloss_head": "Se dit d'une couleur d'un bleu moyen soutenu. Il s'agit du bleu du drapeau français.",
+   "reason": "'royal (blue)' — the hue lives in the locution 'bleu roi', not in bare 'roi' (a monarch); single-token mis-fire"
+  },
+  "soutenu": {
+   "gloss_head": "Se dit d'une couleur franche et solide.",
+   "reason": "'deep/sustained' degree modifier of colour, not a hue"
+  },
+  "tendre": {
+   "gloss_head": "Qualifie une couleur délicate, qui ne fatigue pas la vue.",
+   "reason": "'soft/tender' degree modifier; not a hue"
+  },
+  "vif": {
+   "gloss_head": "Se dit d'une couleur éclatante, brillante, pure, sans autre nuance.",
+   "reason": "'vivid/bright' degree modifier; not a hue"
+  }
+ },
+ "terms": {
+  "abricot": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur abricot, à dominante orange rosé doux. -"
+  },
+  "absinthe": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur absinthe, vert-jaune comme la liqueur, plus soutenu que le vert anis."
+  },
+  "acajou": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur acajou, brun-roux soutenu, de la couleur du bois d'acajou."
+  },
+  "acide": {
+   "flag": true,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur qui agace la vue."
+  },
+  "albe": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur blanche et pure."
+  },
+  "albuginé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Qui est blanc, en parlant de certains tissus, de certaines membranes."
+  },
+  "amadou": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de cette substance."
+  },
+  "amande": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un vert doux tirant légèrement sur le jaune."
+  },
+  "amarante": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'amarante, rouge-pourpre plus clair que le bourgogne."
+  },
+  "ambre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'ambre, variant du jaune citron au brun sombre."
+  },
+  "ambré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la robe d'un vin blanc, indiquant une meilleure maturité que la couleur «&amp;nbsp;vieil or&amp;nbsp;»."
+  },
+  "améthyste": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur violette caractéristique de la pierre du même nom."
+  },
+  "anthracite": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur anthracite, gris très foncé, du nom de la variété de charbon du même nom."
+  },
+  "ardent": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur des cheveux ou du poil tirant sur le roux."
+  },
+  "ardoise": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Gris foncé, allant du neutre au bleuté. -  Gris ardoise -  Bleu ardoise."
+  },
+  "argent": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur argent, gris neutre clair à très clair, induisant souvent une idée de brillance."
+  },
+  "argile": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur argile, gris neutre très pâle, tirant sur le blanc."
+  },
+  "aubain": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: blanc."
+  },
+  "auburn": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur châtain-roux à reflets cuivrés le plus souvent utilisé pour les cheveux."
+  },
+  "avelin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'aveline, couleur noisette."
+  },
+  "avocat": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur avocat, vert sombre soutenu tirant sur le jaune."
+  },
+  "azur": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu clair intense, de la couleur du ciel pur."
+  },
+  "azuréen": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un bleu d'azur."
+  },
+  "balais": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur de vin paillet, en parlant d'un rubis."
+  },
+  "banane": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur banane, d'un vert bruni profond."
+  },
+  "basané": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui est de teinte noirâtre, en parlant de la couleur de la peau."
+  },
+  "beige": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur entre le blanc cassé et le brun très clair."
+  },
+  "beurre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur beurre, d'un jaune soutenu."
+  },
+  "bilieux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur de la bile."
+  },
+  "bisque": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur bisque, rose orangé."
+  },
+  "bistre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la suie détrempée."
+  },
+  "bistré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur du bistre, jaune rouille."
+  },
+  "blanc": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur comme celle des os, de la craie ou de l'écume entre autre.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "bleu": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du ciel en plein jour quand il est dégagé.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "blond": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur proche du jaune, entre le doré et le châtain clair. Il se dit particulièrement par rapport à la couleur de"
+  },
+  "briqueté": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Rougeâtre, de couleur de brique."
+  },
+  "brun": {
+   "brown_pair": true,
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du marron clair tirant sur le noir, souvent en parlant des cheveux.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set | brun/marron: French brown-category split; brun=dark/hair-brown (older), marron=chestnut-brown; both included (Forbes 1979 argues marron primary; Mollard-Desfour CNRS colour-dictionaries treat both established). TAGGED for optional single-brown collapse."
+  },
+  "cafeté": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur café."
+  },
+  "café": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur des grains de café."
+  },
+  "canard": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur bleu moyen soutenu et teinté de vert."
+  },
+  "cannelle": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la cannelle."
+  },
+  "caramel": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur roux clair rappelant celle du caramel."
+  },
+  "carmin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Rouge profond, très légèrement violacé."
+  },
+  "carminé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur du carmin."
+  },
+  "carné": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur chair."
+  },
+  "cavecé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Dont la tête n'est pas de la couleur du reste du corps, en parlant d'un cheval."
+  },
+  "cendreux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la cendre."
+  },
+  "cendré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui est de la couleur de la cendre."
+  },
+  "cerise": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur rouge vif à profond de la cerise."
+  },
+  "chair": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur rouge pâle qui approche de la couleur de la chair de l'homme."
+  },
+  "changeant": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur qui change selon les différentes expositions, comme la gorge d'un pigeon."
+  },
+  "charron": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur bleu profond tirant légèrement sur le vert."
+  },
+  "chartreux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un gris avec des reflets bleus."
+  },
+  "chloranthe": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Vert pâle, affecté de chloranthie."
+  },
+  "chromophore": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Se dit d'un ensemble d'atomes à l'origine de la couleur d'une entité moléculaire et, par extension et plus généralement,"
+  },
+  "châtain": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur châtain, souvent en parlant des cheveux."
+  },
+  "citron": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur jaune vif clair, de la couleur du fruit du même nom."
+  },
+  "clairet": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur rouge clair, en parlant du vin."
+  },
+  "cobalt": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Bleu profond tirant légèrement sur le violet."
+  },
+  "cochenille": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la teinture."
+  },
+  "corallin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Qui est rouge comme le corail."
+  },
+  "cramoisi": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur rouge foncé, tirant sur le violet."
+  },
+  "crayeux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui rappelle la texture et la couleur de la craie."
+  },
+  "crocique": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur jaune safran."
+  },
+  "cuivré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur cuivre. Qui a la couleur du cuivre."
+  },
+  "cyanoleuque": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Blanc-bleu."
+  },
+  "cyanomèle": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Qui est bleu et noir."
+  },
+  "cyanopyrrhe": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Bleu-roux."
+  },
+  "cyanotique": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur des individus cyanosés."
+  },
+  "céladon": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Vert tendre."
+  },
+  "doré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la robe d'un vin blanc, indiquant une meilleure maturité que la couleur « légèrement doré » ; mais une maturi"
+  },
+  "délavé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur faible et blafarde."
+  },
+  "farineux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Qui est blanc de farine."
+  },
+  "fauve": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur ocre orangé à roux."
+  },
+  "feldgrau": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur gris-vert."
+  },
+  "feu": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur des braises, rouge vif à rouge orangé."
+  },
+  "flamboyant": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur chaude, par exemple rouge vif; qui évoque les flammes."
+  },
+  "flashy": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Se dit d'une couleur très vive, acidulée."
+  },
+  "fluo": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur fluorescente."
+  },
+  "fraise": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du fruit du même nom, rouge moyen doux."
+  },
+  "framboise": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur du fruit du même nom entre le rouge moyen et pourpre."
+  },
+  "fuchsia": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la plante fuchsia, entre rose bonbon et pourpre."
+  },
+  "fuligineux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur noirâtre, qui a les apparences de la suie."
+  },
+  "férault": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Rougeâtre, couleur du fer."
+  },
+  "garance": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur de la garance."
+  },
+  "givré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu clair doux voire cyan moyen un peu fade."
+  },
+  "glauque": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur vert moyen tirant sur le bleu comme la mer."
+  },
+  "grenadine": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du sirop grenadine, rouge clair très légèrement rosé."
+  },
+  "grenat": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la robe d'un vin rouge, indiquant une meilleure maturité que la couleur « violette » ; mais une maturité moin"
+  },
+  "gris": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur grise, entre le blanc et le noir.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "grisailleux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Grisâtre, gris, couleur de la grisaille."
+  },
+  "grisouille": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Grisâtre."
+  },
+  "grège": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur beige clair de la soie grège."
+  },
+  "guède": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu pastel extraite de la plante du même nom."
+  },
+  "hépatique": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur semblable à la couleur du foie sain."
+  },
+  "ianthin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Violet."
+  },
+  "ictérode": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Jaune."
+  },
+  "indigo": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur bleu foncé violacé."
+  },
+  "isabelle": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'isabelle, jaune clair tirant sur le beige."
+  },
+  "ivoire": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Relatif à la couleur du même nom."
+  },
+  "jade": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la pierre de jade, vert doux et laiteux."
+  },
+  "jaune": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Désigne une couleur du spectre située entre le vert et l'orange.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "kaki": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur jaunâtre tirant vers le vert ou le brun."
+  },
+  "klein": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Bleu très profond."
+  },
+  "laiteux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a l'apparence ou la couleur du lait."
+  },
+  "laqueux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui est de la nature ou de la couleur de la laque."
+  },
+  "lavandé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la lavande, bleuté."
+  },
+  "leucoderme": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Blanc de peau."
+  },
+  "lilas": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur bleue mêlée de rouge, qui est le plus ordinairement celle du lilas."
+  },
+  "louvet": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui est de la couleur du poil du loup, en parlant d'un cheval."
+  },
+  "léopard": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur et avec les dessins de la robe du léopard."
+  },
+  "marron": {
+   "brown_pair": true,
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Brun, de la couleur du fruit mûr du châtaignier.",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set | brun/marron: French brown-category split; brun=dark/hair-brown (older), marron=chestnut-brown; both included (Forbes 1979 argues marron primary; Mollard-Desfour CNRS colour-dictionaries treat both established). TAGGED for optional single-brown collapse."
+  },
+  "mastic": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur gris beige du mastic pour le vitrier."
+  },
+  "mauve": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de la fleur du même nom, violet pâle."
+  },
+  "melon": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur orange jaunâtre de la couleur de la chair du melon."
+  },
+  "mimosa": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Désigne une couleur jaune clair et doux."
+  },
+  "mordoré": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur brun chaud avec des reflets dorés."
+  },
+  "moutarde": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur jaune soutenu très légèrement verdâtre."
+  },
+  "mélanie": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Noire, qualificatif, dans les noms scientifiques, de plusieurs espèces ou genres."
+  },
+  "métis": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un Blanc et d'une Noire, ou d'un Noir et d'une Blanche."
+  },
+  "nankin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Désigne une couleur jaune chamois clair et abricot."
+  },
+  "noir": {
+   "flag": false,
+   "leg": "A",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "noisette": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur brun orange doux."
+  },
+  "nuit": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Désigne une couleur bleu profond tirant légèrement sur le violet."
+  },
+  "ocre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'ocre brun de jaune à rouge."
+  },
+  "opaline": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur vert moyen, pâle et laiteux, tirant légèrement sur le bleu."
+  },
+  "or": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du métal, jaune orangé."
+  },
+  "orange": {
+   "flag": false,
+   "leg": "A",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "outremer": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu soutenu."
+  },
+  "paille": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un jaune clair et lumineux. -"
+  },
+  "paillé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur de la paille."
+  },
+  "parme": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Mauve rosé pâle, de la couleur des violettes de Parme."
+  },
+  "pastel": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur ou teinte assez claire et douce."
+  },
+  "phtalo": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S4: Qualifie une couleur issue du colorant synthétique appelé &quot;phtalocyanine&quot;."
+  },
+  "pie": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la robe des chevaux et des bovins, caractérisée par de larges taches noires et blanches ou fauves et blanches"
+  },
+  "pistache": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur vert-jaune pâle."
+  },
+  "platine": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur blond pâle à blanc argenté."
+  },
+  "poireau": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur vert doux des feuilles des poireaux."
+  },
+  "ponceau": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur rouge du coquelicot."
+  },
+  "porracé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur verte du poireau."
+  },
+  "pourpre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur rouge violacé intense."
+  },
+  "pourprin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur de la pourpre."
+  },
+  "prune": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur violet tirant sur le bordeaux."
+  },
+  "puce": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur brun-rouge foncé."
+  },
+  "purpurin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui approche de la couleur de la pourpre."
+  },
+  "pétrole": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur bleu profond tirant sur le vert."
+  },
+  "pêche": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur rose pâle que peut prendre le fruit."
+  },
+  "rose": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du même nom. -",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "rosé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur rose."
+  },
+  "rouge": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du sang, du coquelicot, de la fraise, etc., c'est-à-dire d'une couleur de longueur d'onde comprise entre 6",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "rouille": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur brun roux."
+  },
+  "rouilleux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur de la rouille."
+  },
+  "rouquin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur roux."
+  },
+  "rousseau": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur rousse."
+  },
+  "roussot": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Roux, en parlant d'une personne."
+  },
+  "roux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur proche de l'orange, souvent en parlant des cheveux."
+  },
+  "rubis": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur de la robe d'un vin rouge, indiquant une meilleure maturité que la couleur « pourpre » ; mais une maturité moind"
+  },
+  "rutilant": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qualifie la couleur des vapeurs qu'exhale l'oxyde nitrique."
+  },
+  "sable": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur beige clair."
+  },
+  "safre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur bleu saphir."
+  },
+  "sang": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur rouge sombre et brillant."
+  },
+  "sanglant": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur du sang, sanguin."
+  },
+  "saphir": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur bleu intense et profond."
+  },
+  "sapin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur vert profond et sombre."
+  },
+  "sarcelle": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu vert moyen."
+  },
+  "sauge": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur vert-gris doux."
+  },
+  "saur": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: jaune-brun, de couleur obtenue par la fumée."
+  },
+  "scarlatiniforme": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Rouge vif, avec desquamation secondaire."
+  },
+  "smaragdin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Qui est vert émeraude."
+  },
+  "soufre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur jaune clair du soufre."
+  },
+  "souris": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur gris doux de l'animal."
+  },
+  "sépia": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur brun clair un peu fade , à l'origine brun très foncé, mais désigne désormais la sépia ayant pâli avec le t"
+  },
+  "tango": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur tango."
+  },
+  "taupe": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur gris foncé tirant légèrement sur le brun."
+  },
+  "terreux": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Qui a la couleur de la terre, l'aspect de la terre."
+  },
+  "thé": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur jaune rosé."
+  },
+  "tilleul": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur jaune vert clair pâle."
+  },
+  "tomate": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur rouge vif légèrement orangé."
+  },
+  "tomette": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur rouge brique clair."
+  },
+  "topaze": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur jaune pâle."
+  },
+  "turquoise": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur bleu ciel à bleu-vert de la pierre du même nom."
+  },
+  "tyriantin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur pourpre violette."
+  },
+  "ultramarin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur bleu outremer."
+  },
+  "vanille": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur beige clair."
+  },
+  "verdet": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Vert, vert clair."
+  },
+  "vermeil": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur rouge vif plus foncé que l'incarnat."
+  },
+  "vert": {
+   "flag": false,
+   "leg": "A",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "violet": {
+   "flag": false,
+   "glawi_receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur qui rappelle celle de la violette, de l'améthyste et constitue l'une des couleurs en limite du spectre vis",
+   "leg": "AB",
+   "receipt": "Berlin & Kay 1969, Basic Color Terms — French Stage-VII basic set"
+  },
+  "violine": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur violet pourpre."
+  },
+  "viride": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: D'un vert un peu sombre, mais soutenu."
+  },
+  "xanthique": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Jaune."
+  },
+  "xanthoprotéique": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Jaune et protéique."
+  },
+  "zinzolin": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S1: D'une couleur violet rougeâtre et délicat."
+  },
+  "âtre": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Noir foncé et mat."
+  },
+  "ébène": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De couleur noire pure."
+  },
+  "écarlate": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur du colorant du même nom, rouge vif."
+  },
+  "écrevisse": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S5: Couleur rouge vif, de la couleur d'une écrevisse cuite."
+  },
+  "émeraude": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'émeraude, vert intense légèrement bleuté."
+  },
+  "érythroïde": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S3: Rougeâtre."
+  },
+  "étain": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur de l'étain, blanc pur ou gris mat."
+  },
+  "évêque": {
+   "flag": false,
+   "leg": "B",
+   "receipt": "GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S0: De la couleur violet des robes des évêques."
+  }
+ }
+}
