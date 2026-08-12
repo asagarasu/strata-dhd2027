@@ -1,5 +1,7 @@
 # rebuildable embedding/lexicon blobs — fingerprints documented in
-# marking/map_session_20260711/BUILD_NOTES.md; fetch via gensim-data
+# marking/map_session_20260711/BUILD_NOTES.md (lab-repo path, not shipped
+# here — see README: development history lives in the lab repository);
+# fetch via gensim-data
 # fetch-only bulk in vectors/ (REBUILD.md refetches); redistributable lexica are tracked
 marking/tools/vectors/glove-wiki-gigaword-50.txt
 marking/tools/vectors/WNdb-3.0.tar.gz

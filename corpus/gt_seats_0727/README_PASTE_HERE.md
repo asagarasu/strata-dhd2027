@@ -1,6 +1,7 @@
 # GT seats — staging (2026-07-27; her hand = the attested provenance)
 Paste Google Translate output ONE LINE PER VERSE LINE, no headers, no numbering
-(spec S: single block). Files below are pre-staged empty; provenance block goes
+(spec S: single block). Files below were pre-staged empty and have since been
+filled (the paste happened; screenshots committed alongside); provenance block goes
 in the dated corpus appendix when seats land. GT output of public-domain sources
 = repo tier (no human translator's copyright), text prints freely.
 

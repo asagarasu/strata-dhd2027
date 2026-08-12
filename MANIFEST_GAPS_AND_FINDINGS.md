@@ -1,6 +1,9 @@
 # dhd2027 rebuild manifest — gaps & findings (#69, 2026-08-06/07 night)
 
 Companion to `rebuild_manifest.tsv` (55 rows) and `verify_local_report.txt` (55/55 PASS, exit=0).
+*(Dated audit — counts describe the 08-06/07 tree. The manifest has since grown
+to 62 rows (guangyun re-pinned post-dedup, fr_color_inventory added, 08-12);
+REBUILD.md carries the current count.)*
 DIR pins computed with `fetch_verify.sh`'s exact `hash_tree` recipe; file pins read from tonight's
 `hashes_*.tsv`. Cross-checks below grep every Scout B Table-1 pin against tonight's TSVs.
 

@@ -6,6 +6,11 @@ Every script/flag below was verified against the repo 2026-07-29. Shas live in
 
 ## 0. Preconditions (verify BEFORE any run)
 - **venv:** `engine/venv` active (stdlib + numpy + sentence_transformers).
+  If absent, bootstrap it first (the step used to live only in README/
+  REBUILD.md — folded in here 08-12): python 3.9.6 →
+  `python3.9 -m venv engine/venv && engine/venv/bin/pip install -r
+  engine/docs/requirements_frozen.txt`. NOTE: pypinyin is not in the
+  frozen list; pinyin-dependent paths need it added.
 - **LaBSE local:** `engine/models/LaBSE/` present (encoder is CPU,
   batch_size=1 — the certificate + anchor gates depend on it).
 - **norms artifact:** `engine/results/news_norms_z_62.json` present (the z

@@ -6,10 +6,11 @@ three helpers — a CJK test, a proportional-width estimator, and an XML escaper
 This module is the single home for the SHAPE of those three; it is a library
 only, imports nothing from the project, and draws nothing.
 
-WIRING STATUS: created by the #71 refactor and NOT YET wired into any caller —
-a later crew adopts it. Until then this file is additive and inert: no committed
-byte depends on it, and its self-check below is what stands behind the claim that
-adoption will be byte-neutral.
+WIRING STATUS: WIRED (same day, #71 leaves crew): figure1/2/3_gen_65,
+table1_gen_65, key_gen_62, loom_board_gen_66 all import from here, each with
+its own frozen constant block; adoption was gated byte-identical per caller.
+The self-check below remains the standing proof that the shared shape
+reproduces every caller's original math.
 
 ── WIDTH CONSTANTS ARE FROZEN PER-CALLER TO PRESERVE COMMITTED SVG BYTES —
    DO NOT "FIX" THE DIVERGENCE.

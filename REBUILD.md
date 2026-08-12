@@ -17,8 +17,12 @@ working copy.
 - **`fetch_verify.sh`** — `--list` · `--verify-local` (hash what's on
   disk against every pin; no network) · `--fetch DIR` (stranger mode:
   download and verify). Fails loud, exits nonzero on any mismatch.
-  Run from a FULL tree; in a bulk-less checkout every row reports
-  ABSENT by design.
+  Run from a FULL tree. In a bulk-less checkout expect a TRI-STATE
+  report, not uniform ABSENT (measured 08-12: 15 PASS / 7 FAIL / 40
+  ABSENT): small PROVENANCE/CHECKSUMS/norm files stay tracked, so
+  partially-tracked dirs report FAIL — that usually means "bulk
+  correctly excluded", not corruption. See the .gitignore comments for
+  the fine-grained exclusion design.
 - **`MANIFEST_GAPS_AND_FINDINGS.md`** — provenance of this kit
   (2026-08-06/07 night audit): 13 previously unpinned live inputs
   closed (incl. the LaBSE encoder, previously path-pinned only), 41/41
@@ -44,7 +48,14 @@ file units, her prune agreement): **61/61 PASS, exit=0**.
 
 - **Encoder env (canonical):** python 3.9.6 + `engine/docs/requirements_frozen.txt`
   — every `--run`/encoder pass replays in that venv.
+- **System dependency:** `xmllint` (libxml2 CLI) — every figure/exhibit
+  generator shells out to it as a post-write XML self-check. Present by
+  default on macOS; install libxml2 elsewhere.
 - **Exhibit / presentation regeneration:** requires an interpreter WITH numpy
+  — the route is indirect (the generators are stdlib, but exhibit_gen's
+  corpus_line lazily imports corpus_breadth_runner_56, which imports numpy
+  at module scope; without it, seat text silently degraded pre-0812, now
+  warns loudly)
   (committed exhibits reproduce byte-perfect under python 3.13 + numpy 2.1.3).
   A numpy-less interpreter used to degrade every seat text SILENTLY via a
   swallowed import error — that except now warns loudly, but pin your
