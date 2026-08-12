@@ -820,7 +820,12 @@ def mode_run(align_file=None):
                     "plant": D.sha256(RESULTS / "hownet_plant_chars_54.json"),
                     "written_labeler": D.sha256(MARK_TOOLS / "latent_written_labeler_53.py"),
                     "etym_chains": D.sha256(PROTO / "etym_chains_v1_52.py"),
-                    "rubric_compare": D.sha256(MARK_TOOLS / "rubric_compare.py")}}
+                    "rubric_compare": D.sha256(MARK_TOOLS / "rubric_compare.py"),
+                    # her pin ruling 08-12 (#71): this scorer runs THROUGH
+                    # score_descriptive_fields (imported as D) — its bytes join
+                    # the manifest so D-drift can no longer reach latent
+                    # outputs without a hash witness
+                    "score_descriptive_fields": D.sha256(Path(D.__file__))}}
 
     result = {"what": "deterministic LATENT rows — §8 demonstration, sonnet 73",
               "law": "methodology_amendment_0721_53.md §2/§4; rubric_compare 8-cell",

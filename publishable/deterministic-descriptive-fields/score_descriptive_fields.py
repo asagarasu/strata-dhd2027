@@ -81,10 +81,10 @@ start scoring"). BUILD + SMOKE + DRY here; the real scoring run
      skipped (中古/叠字/rep/alliteration paths intact); color/plant/
      temporal are pypinyin-independent.
   F9 LOCAL_TIER (in-copyright acquisitions). By house law in-copyright
-     transcriptions live OUTSIDE the repo (books/dnd2027/corpus/
-     transcriptions/ — that root is STALE: the tier now lives at
-     projects/dhd2027/acquisitions/corpus/transcriptions, same sub-layout;
-     see LOCAL below and $DHD2027_LOCAL_CORPUS); the repo carries
+     transcriptions live OUTSIDE the repo, at
+     projects/dhd2027/acquisitions/corpus/transcriptions (her 08-12 ruling,
+     #71; the former books/dnd2027 root was a dead dnd-for-dhd typo — see
+     LOCAL below and $DHD2027_LOCAL_CORPUS); the repo carries
      provenance + shas only. This
      scorer reads them as declared inputs (paths + shas recorded in the
      run manifest) but the OUTPUTS REDACT their line text: word-grain
@@ -144,17 +144,16 @@ SCALAR = [
 # (outside the repo; outputs REDACT its line text — F9);
 # path None = declared-but-missing (LIST, don't substitute).
 # LOCAL_TIER root (F9). Overridable so the scorer is portable off this machine:
-# export DHD2027_LOCAL_CORPUS=<your acquisitions root>. The DEFAULT is the literal
-# this file has always carried, so unset ⇒ behaviour unchanged.
-# ACCURACY NOTE (#71): that default no longer exists on the build machine — the
-# local tier now lives at projects/dhd2027/acquisitions/corpus/transcriptions,
-# which corpus_breadth_runner_56.py points at and which carries the IDENTICAL
-# sub-layout (<translator>/sonnet_NN.md), hence the SHARED variable name with the
-# runner. Setting the variable to that root is therefore an opt-in behaviour
-# change here: the four zh renderings and Kraus stop being MISSING.
+# export DHD2027_LOCAL_CORPUS=<your acquisitions root>.
+# HER RULING 08-12 (#71): "should be 'dhd', and please move corpus dependencies
+# to 'acquisitions'" — the old books/dnd2027 default (a dead root; dnd was a
+# typo for dhd) is retired. The default is now the acquisitions root the runner
+# already uses (IDENTICAL sub-layout <translator>/sonnet_NN.md, hence the shared
+# variable name). Consequence on the build machine: the four zh renderings and
+# Kraus resolve by default instead of listing as MISSING.
 LOCAL = Path(os.environ.get(
     "DHD2027_LOCAL_CORPUS",
-    "/Users/annelieselu/garden/books/dnd2027/corpus/transcriptions"))
+    "/Users/annelieselu/garden/projects/dhd2027/acquisitions/corpus/transcriptions"))
 BOARD = {
     "en": [  # the 1609 Quarto source
         ("shakespeare_1609", CORPUS / "sonnets/en_source/shakespeare_sonnet73_1609.txt", "repo"),
