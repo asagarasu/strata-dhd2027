@@ -168,11 +168,34 @@ as dark_labeler_52.py's 黑夜 finding):
 See illumination_labeler_53_selftest.md for the full probe table and
 the inventory-scan candidate table (every pair considered, counts,
 include/exclude call and reason).
+
+═══ 2026-08-12 (#71): RUNNABILITY ONLY — the derivation is untouched ═══
+No change to THE RULE, the two poles, BRIGHT_PAIRS, the derived lexicon or any
+probe expectation. The committed illumination_lexicon_hownet_53.json is BYTE-
+UNCHANGED (verified before and after). Three fail-loud fixes:
+  · __main__ DEFAULT now LOADS the committed lexicon and runs the probe list
+    against it; re-deriving moved behind an explicit --rebuild flag. The old
+    default was the rebuild — which needs the HowNet substrate that does not
+    ship with this release (so __main__ could only crash here), and which
+    REWRITES the committed json as a side effect of merely running the file.
+  · jieba is now a guarded top-level import with a clear RuntimeError raised at
+    label() time (the family's optional-import pattern, cf. trait_labelers /
+    pypinyin). Token matching remains LOAD-BEARING: no substring fallback was
+    added, and none may be — see the 波黑 finding above.
+  · load()'s cache-missing + substrate-missing case raises ONE error naming BOTH
+    hops, instead of falling through to a bare FileNotFoundError two calls deep;
+    derive()/_hownet_sha256() name rebuild_manifest.tsv row `sewrl`.
 """
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
+
+try:                     # OPTIONAL at import, REQUIRED at label() — the family's
+    import jieba         # optional-import pattern (cf. trait_labelers/pypinyin).
+except ImportError:      # Deriving/loading the lexicon needs no tokenizer; only
+    jieba = None         # label() does, and it says so loudly at the call.
 
 HERE = Path(__file__).resolve().parent
 LEX = HERE.parent.parent / "lexical_resources/sewrl/datasets/HowNet.txt"
@@ -192,7 +215,23 @@ PAIR_RE = re.compile(r"([A-Za-z]+)\|([^\s,:{}]+)")
 LIST_FILE = HERE / "illumination_lexicon_hownet_53.json"
 
 
+def _require_hownet():
+    """Fail loud when the DERIVATION substrate is absent, naming the manifest row
+    that fetches it (#71). HowNet.txt is the substrate for this whole labeler
+    family and is not committed to the public release; deriving needs it, LOADING
+    the committed lexicon beside this file does not."""
+    if not LEX.exists():
+        raise RuntimeError(
+            f"HowNet substrate missing: {LEX}\n"
+            "  Fetch it via rebuild_manifest.tsv row `sewrl` (method=manual: "
+            "git github.com/thunlp/SE-WRL, which ships HowNet.txt) and unpack to "
+            "lexical_resources/sewrl/.\n"
+            f"  Only derive()/build_lexicon() need it — load() reads the "
+            f"committed {LIST_FILE.name} and needs no substrate.")
+
+
 def _hownet_sha256():
+    _require_hownet()
     h = hashlib.sha256()
     with open(LEX, "rb") as f:
         for chunk in iter(lambda: f.read(1 << 20), b""):
@@ -207,6 +246,7 @@ def derive():
     Bright pole now tests membership against the whole BRIGHT_PAIRS set
     (07-20 widening) instead of a single pair — still full-pair matching,
     still one mechanical pass, no per-word overrides."""
+    _require_hownet()
     dark_words, bright_words = set(), set()
     w = None
     for ln in open(LEX, encoding="utf-8"):
@@ -260,10 +300,25 @@ def build_lexicon():
 
 
 def load():
+    """The labeler's lexicon: dark ∪ bright, read from the COMMITTED cache beside
+    this file. Derives from HowNet only when that cache is absent.
+    #71: when BOTH hops are missing this now raises ONE error naming both. It
+    used to fall through to build_lexicon() and surface a bare FileNotFoundError
+    two calls deep, which reads like a code fault rather than a missing input."""
     if LIST_FILE.exists():
         data = json.load(open(LIST_FILE, encoding="utf-8"))
     else:
-        data = build_lexicon()
+        if not LEX.exists():
+            raise RuntimeError(
+                "illumination lexicon unavailable — BOTH hops are missing:\n"
+                f"  1. committed lexicon: {LIST_FILE}\n"
+                "     ABSENT. This file SHIPS with the repo — restore it from git "
+                "rather than rebuilding it.\n"
+                f"  2. HowNet substrate : {LEX}\n"
+                "     ABSENT. Needed only to REBUILD hop 1; fetch via "
+                "rebuild_manifest.tsv row `sewrl` (git github.com/thunlp/SE-WRL).\n"
+                "Nothing to load, and nothing to derive from.")
+        data = build_lexicon()      # NB: rebuild-on-demand REWRITES the committed file
     return set(data["words"]) | set(data["bright_words"])
 
 
@@ -281,7 +336,14 @@ def label(text):
     global _LEX
     if _LEX is None:
         _LEX = load()
-    import jieba
+    if jieba is None:
+        raise RuntimeError(
+            "illumination_labeler_53.label() requires jieba, which is not "
+            "installed here. Token matching is LOAD-BEARING, not a convenience: "
+            "substring containment inverted the discrimination in the dark-only "
+            "build (波黑 fired via 黑, caught by selftest and fixed the same "
+            "sitting), so there is deliberately NO substring fallback. The "
+            "lexicon itself needs no tokenizer — use load() for a set check.")
     hits = []
     for tok in jieba.cut(text):
         if tok in _LEX:
@@ -292,11 +354,29 @@ def label(text):
 
 
 if __name__ == "__main__":
-    data = build_lexicon()
+    # #71: the DEFAULT run READS the committed lexicon and runs the probe list
+    # against it. Re-deriving is behind an explicit --rebuild flag, because that
+    # path (a) requires the HowNet substrate, which does NOT ship with this repo,
+    # and (b) REWRITES the committed lexicon json. The old default WAS the
+    # rebuild, so on any checkout without HowNet this __main__ could only crash —
+    # and on a checkout with it, merely running the file rewrote a committed
+    # artifact. Probes are unchanged (same known-answer list, same expectations).
+    rebuild = "--rebuild" in sys.argv
+    if rebuild:
+        data = build_lexicon()                  # derives AND rewrites LIST_FILE
+        source = f"re-derived from HowNet, rewrote {LIST_FILE.name}"
+    else:
+        if not LIST_FILE.exists():
+            raise SystemExit(
+                f"{LIST_FILE.name} is absent. It SHIPS with this repo — restore it "
+                "from git, or pass --rebuild to re-derive it from HowNet "
+                "(rebuild_manifest.tsv row `sewrl`).")
+        data = json.load(open(LIST_FILE, encoding="utf-8"))
+        source = f"loaded committed {LIST_FILE.name} (--rebuild to re-derive)"
     total = len(set(data["words"]) | set(data["bright_words"]))
-    print(f"illumination lexicon derived: dark={data['n_dark']} "
+    print(f"illumination lexicon: dark={data['n_dark']} "
           f"bright={data['n_bright']} both={data['n_both']} "
-          f"total={total} -> {LIST_FILE.name}")
+          f"total={total} — {source}")
     print(f"hownet_sha256={data['hownet_sha256']}")
     print("\n-- dark side (must be unchanged) --")
     for t in ["黑", "黯黯當窗牖", "灰暗的天空", "波黑", "黑夜", "默"]:

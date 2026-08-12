@@ -104,11 +104,18 @@ char-charge becomes the UNION
 derived and hardened in engine/moe_color_sense_chars_53.py, loaded here
 from results/moe_color_sense_chars_PROPOSED_53.json (53 chars, e.g. 橙 綠 紫 靛 …).
 
-STATUS: MOE_ADOPTION = "PENDING". The sensor RUNS with the union, but every fire
-whose ONLY source is the MOE list is flagged: each COLOR carrier carries
-`provenance` in {"hownet", "moe_color_sense_PROPOSED"}, and the fire carries
-`moe_provenance_only` = True iff EVERY carrier is MOE-exclusive. The field owner
-adopts / amends / rejects the MOE list; until then MOE-only fires are PROPOSED.
+STATUS AS WRITTEN AT THE AMENDMENT (2026-07-21): MOE adoption PENDING. The
+sensor RUNS with the union, but every fire whose ONLY source is the MOE list is
+flagged: each COLOR carrier carries `provenance` in {"hownet",
+"moe_color_sense_PROPOSED"}, and the fire carries `moe_provenance_only` = True
+iff EVERY carrier is MOE-exclusive. The field owner adopts / amends / rejects the
+MOE list; until then MOE-only fires are PROPOSED.
+  ↳ SUPERSEDED THE SAME DAY (2026-07-21, her ruling: "Keep the MOE-list as the
+    color lexical list then"): the list is ADOPTED. The provenance marking
+    described above is UNCHANGED and still emitted on every fire — `provenance`
+    and `moe_provenance_only` are now an AUDIT TRAIL rather than a gate, and the
+    artifact keeps its PROPOSED-era filename and provenance string. Full ruling
+    and her 黎 aliveness note: the MOE status block below load_moe_color().
 
 SCOPE (narrow; everything else stays v1-verbatim):
   - COLOR carrier test only. A char is a colour carrier iff it has a HowNet
@@ -128,6 +135,21 @@ SCOPE (narrow; everything else stays v1-verbatim):
   - Script: MOE is traditional, HowNet / eval inputs are simplified; MOE_COLOR_SET
     is normalised to include simplified forms (紅→红 綠→绿 …) so the union is
     script-robust. 橙 is script-invariant.
+
+═══ 2026-08-12 (#71): HYGIENE ONLY — no rule, no lexicon, no expectation moved ═══
+  · PAIR_RE is now IMPORTED from illumination_labeler_53 instead of copy-pasted.
+    The two pattern strings were verified byte-identical BEFORE the copy was
+    dropped, so the bright-pole matching here and there is provably one regex.
+  · load_hownet() gains a one-line existence guard naming rebuild_manifest.tsv
+    row `sewrl`; the v1_52 verbatim copy is otherwise byte-unchanged.
+  · MOE_ADOPTION — a module-level string that nothing in the repo read — became
+    the status comment it always was. The v2-amendment STATUS paragraph above is
+    annotated as superseded by her same-day adoption ruling; neither text is
+    deleted, both dated decisions stand on the record.
+NOT VERIFIED BY RUN: this sensor cannot execute in the public checkout (HowNet
+absent by design), so the selftests below are UNRUN here. Verified instead: AST
+parse + `import latent_written_labeler_53` — import is side-effect-free, Labeler
+is constructed only on the first label() call, never at import time.
 """
 import re
 import sys
@@ -137,12 +159,17 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))                       # illumination_labeler_53, liveness
 
-from illumination_labeler_53 import DARK_GLOSS, BRIGHT_PAIRS
+from illumination_labeler_53 import DARK_GLOSS, BRIGHT_PAIRS, PAIR_RE
 import liveness as LV
 
-# ---- copied VERBATIM from engine/word_latent_v1_52.py (see docstring
-#      for why copied not imported: v1_52's encoder-stack top-level imports) ----
+# ---- copied VERBATIM from engine/word_latent_v1_52.py (see docstring for why
+#      copied and not imported: v1_52's encoder-stack top-level imports). This
+#      copy is DELIBERATE and stays. #71 touched it in exactly one way: a
+#      one-line existence guard at the top of load_hownet() (below), so a missing
+#      substrate reports itself instead of raising a bare FileNotFoundError. The
+#      parse loop, FIELD_SEMEME_GLOSS and gate_prior are byte-unchanged. ----
 LEX = HERE.parent.parent / "lexical_resources"
+HOWNET = LEX / "sewrl/datasets/HowNet.txt"
 
 # FIELD_SEMEME_GLOSS (v1_52 lines 40-44), verbatim:
 FIELD_SEMEME_GLOSS = {
@@ -153,10 +180,19 @@ FIELD_SEMEME_GLOSS = {
 
 def load_hownet():
     """char/word → list of DEF strings; from the vendored HowNet.txt.
-    Copied verbatim from word_latent_v1_52.load_hownet()."""
+    Copied verbatim from word_latent_v1_52.load_hownet() (plus the #71 guard)."""
+    if not HOWNET.exists():                                   # #71 fail-loud guard
+        raise RuntimeError(
+            f"HowNet substrate missing: {HOWNET}\n"
+            "  This sensor IS the HowNet single-char DEF inventory — with no "
+            "substrate there is nothing to derive from and no fallback exists "
+            "(a hand-authored char list would violate the derivation law above).\n"
+            "  Fetch it via rebuild_manifest.tsv row `sewrl` (method=manual: "
+            "git github.com/thunlp/SE-WRL, which ships HowNet.txt) and unpack to "
+            "lexical_resources/sewrl/.")
     defs = defaultdict(list)
     w = None
-    for ln in open(LEX / "sewrl/datasets/HowNet.txt", encoding="utf-8"):
+    for ln in open(HOWNET, encoding="utf-8"):
         ln = ln.strip()
         if ln.startswith("W_C="):
             w = ln[4:].strip() or None
@@ -177,20 +213,29 @@ def gate_prior(defs, char):
 
 CJK = re.compile(r"[㐀-鿿]")
 COLOR_GLOSS = FIELD_SEMEME_GLOSS["color"]           # reused verbatim
-PAIR_RE = re.compile(r"([A-Za-z]+)\|([^\s,:{}]+)")   # same shape as illumination_labeler_53.PAIR_RE
+# PAIR_RE is IMPORTED from illumination_labeler_53 (top of file), not re-declared.
+# #71: this file carried its own copy annotated "same shape as
+# illumination_labeler_53.PAIR_RE"; the two pattern strings were confirmed
+# byte-identical before the copy was dropped, so the bright-pole pair matching
+# here and there is now provably ONE regex rather than two that agree today.
 
 FIELDS = ("color", "illumination")
 
 # ---- v2 AMENDMENT: PROPOSED MOE colour-sense list (union with HowNet) ----
 import json as _json
 
-MOE_ADOPTION = "ADOPTED"   # her word, 2026-07-21: "Keep the MOE-list as the
-# color lexical list then." The 53-char list stands as print. Her aliveness
-# note filed with the ruling: 黎 is fading as a COMMON color name (her Taobao
-# test — absent from live commercial color vocabulary) — a LIVENESS datum,
-# not an exclusion: 黎 stays citable print; its sedimentation-slope position
-# is the liveness index's business. Provenance marking retained as audit
-# trail, no longer gating.
+# ---- MOE COLOUR-LIST STATUS: ADOPTED ----------------------------------------
+# Her word, 2026-07-21: "Keep the MOE-list as the color lexical list then." The
+# 53-char list stands as print. Her aliveness note filed with the ruling: 黎 is
+# fading as a COMMON color name (her Taobao test — absent from live commercial
+# color vocabulary) — a LIVENESS datum, not an exclusion: 黎 stays citable print;
+# its sedimentation-slope position is the liveness index's business. Provenance
+# marking retained as audit trail, no longer gating.
+# #71: this was a bare module-level string `MOE_ADOPTION = "ADOPTED"` that
+# NOTHING read — not this file, not any other file in the repo (verified by
+# grep). It was a status note wearing the costume of a flag; it is recorded here
+# as a comment so no reader mistakes it for a switch. The union it describes is
+# unconditional in load_moe_color() and always was.
 MOE_JSON = HERE.parent.parent / "engine" / "results" / "moe_color_sense_chars_PROPOSED_53.json"
 # MOE is traditional; HowNet/eval are simplified. Normalise the differing chars
 # among the 53 so the union catches simplified eval forms.

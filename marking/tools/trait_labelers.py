@@ -1,6 +1,66 @@
 #!/usr/bin/env python3
 """Arm-1 boolean trait labelers: color, sound (2 tiers), plant, temporal.
 
+WHAT THIS IS — a lookup/regex sensor shelf. For one unit of text it answers, per
+field, "does this line SAY this field": BOOLEANS plus a citable receipt, never
+scalars (the intensity program is a separate build).
+
+INTERFACE
+  label_unit(text, lang=None) -> {field: (hit, evidence, flags)}
+    fields  color · plant · temporal · sound (WORD tier: the line describes a
+            sound) · sound_device (DEVICE tier: the line enacts euphony —
+            叠字/雙聲/叠韵/alliteration/repetition). A field absent from the
+            returned dict did not fire.
+    lang    gates the fr and de colour legs ('fr' / 'de'); every other
+            language path is byte-identical whether those legs exist or not.
+  Per-field helpers: _label_color / _plant / _temporal / _sound / _sound_device,
+  fed by _mask_compounds (runs FIRST) and _fold_en_words.
+  Lexicon getters, all lazy + cached: en_color · en_plant · en_sound_word ·
+  en_temporal · zh_plant · zh_temporal · zh_sound (+ ZH_COLOR, ZH_COMPOUNDS).
+ENTRY POINTS
+  python3 trait_labelers.py             selftest: the always-current probe table
+  python3 trait_labelers.py --calibrate P/R/F1 against human marks — needs the
+                                        PRIVATE marking tree; refuses loudly
+                                        when absent (never a vacuous 0-table)
+THE RULE in one line: every lexicon here is a CITABLE DERIVATION from a named
+source, or is flagged AUTHORED-INTERIM with its named replacement — no
+dev-fitted lists, ever. Full ruling, per-lexicon provenance table and dated
+build record below.
+
+════════════════════════ PROVENANCE & CHANGELOG ═════════════════════════
+House law: the docstring IS the receipt. Below, in order — the dated build
+blocks (newest first) · THE RULE verbatim (07-15/16) · the current calibration
+state · the per-lexicon provenance table · the standing operational
+declarations. Every citation, ruling, date and derivation rule below backs a
+number that appears in the paper; none of it is decoration.
+
+═══ 2026-08-12 (#71): REFACTOR ONLY — no lexicon, no derivation, no number ═══
+Structural pass over this file. `python3 trait_labelers.py` stdout verified
+BYTE-IDENTICAL to the pre-refactor baseline (227 lines, 37/37 probes, same leg
+counts, same colour tiers). No lexicon gained or lost a member.
+  · label_unit (156 ll.) split into per-field helpers. Evaluation ORDER is
+    unchanged and load-bearing: compound masking FIRST, then the naive en fold,
+    then sound_device · colour (fr/de/en branches as-is) · the de language gate
+    · plant · temporal · sound.
+  · Mechanical de-duplication, behaviour preserved: ONE 廣韻 gloss-head sweep
+    (_gy_gloss_chars) under the temporal and sound legs · ONE WordNet ~-closure
+    (_wn_noun_index + _wn_hyponym_closure) under en_plant and en_sound_word ·
+    ONE variant-map loader under the colour and sound folds · ONE sibling-build
+    importer under _fr/_de · ONE _lazy singleton helper replacing 16 hand-written
+    `_X = None` caches. gy() was CHECKED and deliberately NOT folded into the
+    gloss sweep: it reads different columns (音韻地位/字頭) into a different
+    shape (phonology dict, not a char set).
+  · EN_TEMPORAL was this file's one EAGER import-time load; it is now the lazy
+    getter en_temporal(), like every sibling lexicon. Same contents.
+  · INTENDED BEHAVIOUR CHANGE, exactly one: --calibrate now FAILS LOUD when the
+    private marking inputs are absent. It previously printed a silent
+    P=0/R=0/F1=0 table computed over zero units — a vacuous result dressed as a
+    score. The selftest path is untouched.
+  · KEPT deliberately, not "cleaned": load_map/sheet_units own implementations
+    (cross-referenced to normalize.py at their definition) · the USE_SUPERSENSE
+    dead-by-flag block (frozen decision 07-15) · ZH_COMPOUNDS inline (its
+    externalisation to a data file remains future work, not done here).
+
 ═══ 2026-07-28 night (#61): DE COLOUR + EN-TEMPORAL — the fr blueprint · HeidelTime ═══
 Two additions this build (branch de-temporal-support-61; colour-only for de,
 temporal for en; en/zh/fr outputs BYTE-IDENTICAL — proven by regression):
@@ -20,7 +80,7 @@ temporal for en; en/zh/fr outputs BYTE-IDENTICAL — proven by regression):
     lexicon/en_temporal_inventory_61.json (built by en_temporal_derive_61.py),
     UNIONed with EN_TEMPORAL_RULED_EXCLUSIVE {twilight,dusk} (ruling (c) below —
     an independent standing ruling with its own receipt). INTERACTION AUDIT:
-    EN_TEMPORAL is subtracted from en_color(); the swap changes en_color() by
+    en_temporal() is subtracted from en_color(); the swap changes en_color() by
     exactly one member — 'midnight' now yields to temporal (a HeidelTime part-of-
     day term also in the xkcd base; a true cross-field exclusive, correctly
     yielded). BK11 is UNTOUCHED (ruling (a) safe). twilight/dusk preserved.
@@ -38,7 +98,7 @@ four rulings, now ONE coherent law (see the block above en_color()):
       polysemy (byte-mirror of the fr nuit ruling, commit 50cb569: priced, not
       hidden — the live exemplar now that EN_COLOR_FLAG is empty, gold+fair both
       removed at the #61 no-vibes audit). See en_color_plant_flag().
-  (c) EN_TEMPORAL subtraction KEPT (true cross-field exclusivity — twilight/dusk
+  (c) en_temporal() subtraction KEPT (true cross-field exclusivity — twilight/dusk
       ARE the other field; arm-1 receipt v11 L134). Yielded, not flagged.
   (d) EN_COLOR_YIELD_RULED — per-word ruled yields; dark→illumination (her ruling
       after the correspondances en:dillon "darkness" finding), so a future
@@ -125,7 +185,7 @@ Lexicon provenance table:
   en color      DERIVED   Berlin&Kay 11 ∪ XKCD survey (CC0), under THE EN-
                           COLOUR YIELD LAW (#61): BK11 basics never yield;
                           xkcd∩en_plant names fire FLAGGED (polysemy priced);
-                          EN_TEMPORAL + EN_COLOR_YIELD_RULED (dark→illum) yield.
+                          en_temporal() + EN_COLOR_YIELD_RULED (dark→illum) yield.
                           See en_color()/en_color_plant_flag()/the law block.
   zh color      DERIVED   禮記·玉藻 五色 (正色 青赤黃白黑 + 間色, wikisource
                 (char)    PD) ∪ 蓝(藍) gap-fill  [#58: AUTHORED-INTERIM ⚠
@@ -170,7 +230,13 @@ path (江上吟 class), never dev.
 History/changelog: lives in the dated calibration report and
 appendices (ruling_arm1_taggers_20260715), not here.
 """
-import re, sys, glob
+import csv
+import functools
+import glob
+import importlib
+import json
+import re
+import sys
 from pathlib import Path
 try:
     from pypinyin import pinyin, Style   # pure lookup table (ruled admissible 07-15)
@@ -178,35 +244,56 @@ try:
 except ImportError:
     HAVE_PINYIN = False
 
+# ---------- path anchors (one definition each; every loader below reads
+# through these instead of recomputing Path(__file__) inline) ----------
+HERE = Path(__file__).resolve().parent          # marking/tools
+ROOT = HERE.parents[1]                          # repo root (== Path(__file__).parents[2])
+V = HERE / "vectors"                            # vendored lookup tables, see LEXICONS below
+GY_CSV = V / "guangyun/韻書/廣韻.csv"            # 廣韻 — nk2028/tshet-uinh-data, CC0
+
+
+def _lazy(build):
+    """Module-local lazy singleton: run `build` once on first call, then return
+    the SAME object forever. Mechanical replacement for the `_X = None; global
+    _X; if _X is None:` idiom this file used at ~16 sites — identical semantics
+    (one build per process, callers share the cached object), no output change."""
+    cache = []
+
+    @functools.wraps(build)
+    def get():
+        if not cache:
+            cache.append(build())
+        return cache[0]
+    return get
+
+
 # --- Middle Chinese (廣韻) lookup — nk2028/tshet-uinh-data, CC0.
 # 音韻地位 strings like 端一東平: initial = s[0], rhyme = s[-2], tone = s[-1].
-_GY = None
+# NOT foldable into the two 廣韻 GLOSS legs below (_gy_gloss_chars): this reads
+# 音韻地位/字頭 into a phonology dict, they read 釋義 heads into char sets —
+# different columns, different shape. Only the CSV path is shared (GY_CSV).
+@_lazy
 def gy():
-    global _GY
-    if _GY is None:
-        _GY = {}
-        p = Path(__file__).resolve().parent / "vectors/guangyun/韻書/廣韻.csv"
-        if p.exists():
-            import csv
-            for row in csv.DictReader(open(p, encoding="utf-8")):
-                s, ch = row["音韻地位"], row["字頭"]
-                if len(s) >= 3 and ch:
-                    _GY.setdefault(ch, []).append((s[0], s[-2], s[-1]))
-    return _GY
+    out = {}
+    if GY_CSV.exists():
+        for row in csv.DictReader(open(GY_CSV, encoding="utf-8")):
+            s, ch = row["音韻地位"], row["字頭"]
+            if len(s) >= 3 and ch:
+                out.setdefault(ch, []).append((s[0], s[-2], s[-1]))
+    return out
 
-_CMU = None
+
+@_lazy
 def cmu():
     """CMU dict: word -> first-pronunciation phoneme list (ARPAbet)."""
-    global _CMU
-    if _CMU is None:
-        _CMU = {}
-        p = Path(__file__).resolve().parent / "vectors/cmudict.dict"
-        if p.exists():
-            for ln in open(p, encoding="utf-8", errors="ignore"):
-                parts = ln.strip().split()
-                if parts and "(" not in parts[0]:
-                    _CMU[parts[0].lower()] = parts[1:]
-    return _CMU
+    out = {}
+    p = V / "cmudict.dict"
+    if p.exists():
+        for ln in open(p, encoding="utf-8", errors="ignore"):
+            parts = ln.strip().split()
+            if parts and "(" not in parts[0]:
+                out[parts[0].lower()] = parts[1:]
+    return out
 
 def rhyme_part(word):
     """Phonemes from last stressed vowel onward (the rhyming tail)."""
@@ -220,30 +307,34 @@ def rhyme_part(word):
 # WordNet supersenses (local wordnet30) — FIRST-SENSE ONLY (declared:
 # WordNet orders senses by frequency; first-sense gating avoids the
 # abstract-field noise that got WordNet dropped from schema work).
-_SS = None
+# DEAD BY FLAG, DELIBERATELY KEPT: USE_SUPERSENSE = False (frozen decision
+# 07-15, dev-net-negative — see the flag below). Nothing in this module calls
+# supersense(); the module is retained un-deleted as the record of that decision
+# and for the declared "full-corpus assist only" use. Not dead code to prune.
 _LEX_TO_FIELD = {"20": "plant", "28": "temporal"}   # noun.plant, noun.time
+
+
+@_lazy
 def supersense():
-    global _SS
-    if _SS is None:
-        _SS = {}
-        d = Path(__file__).resolve().parent / "vectors/wordnet30"
-        idx, dat = d / "index.noun", d / "data.noun"
-        if idx.exists() and dat.exists():
-            off_lex = {}
-            for ln in open(dat, encoding="utf-8", errors="ignore"):
-                if ln[:1].isdigit():
-                    p = ln.split()
-                    off_lex[p[0]] = p[1]
-            for ln in open(idx, encoding="utf-8", errors="ignore"):
-                if ln[:1] == " " or not ln.strip():
-                    continue
+    out = {}
+    d = V / "wordnet30"
+    idx, dat = d / "index.noun", d / "data.noun"
+    if idx.exists() and dat.exists():
+        off_lex = {}
+        for ln in open(dat, encoding="utf-8", errors="ignore"):
+            if ln[:1].isdigit():
                 p = ln.split()
-                word = p[0]
-                first = p[len(p) - int(p[2])]      # first (most frequent) synset
-                f = _LEX_TO_FIELD.get(off_lex.get(first, ""))
-                if f and "_" not in word:
-                    _SS.setdefault(f, set()).add(word)
-    return _SS
+                off_lex[p[0]] = p[1]
+        for ln in open(idx, encoding="utf-8", errors="ignore"):
+            if ln[:1] == " " or not ln.strip():
+                continue
+            p = ln.split()
+            word = p[0]
+            first = p[len(p) - int(p[2])]      # first (most frequent) synset
+            f = _LEX_TO_FIELD.get(off_lex.get(first, ""))
+            if f and "_" not in word:
+                out.setdefault(f, set()).add(word)
+    return out
 
 def mc_pair_device(a, b):
     """雙聲/叠韵 classification by Middle Chinese readings (any-reading match)."""
@@ -254,16 +345,21 @@ def mc_pair_device(a, b):
         return "叠韵"
     return None
 
-HERE = Path(__file__).resolve().parent
 CJK = r"㐀-鿿"
-USE_SUPERSENSE = False   # frozen decision 07-15: dev-net-negative; full-corpus assist only
+# FROZEN DECISION 07-15: the supersense module is dev-net-negative, so it is
+# switched OFF here and no caller consults it (see supersense() above). The flag
+# and its module stay in place as the record of that decision — declared
+# "full-corpus assist only". Do not repurpose without a new ruling.
+USE_SUPERSENSE = False
 
 # ---------- LEXICONS, v3-PROVENANCE (07-15 night, her ruling: no
 # authored lists — every set below is a CITABLE derivation or is
 # explicitly flagged AUTHORED-INTERIM pending its named replacement) --
-V = Path(__file__).resolve().parent / "vectors"
+# (path anchors HERE / ROOT / V / GY_CSV are defined at the top of the file)
 
-def _load_radicals():
+
+@_lazy
+def radicals():
     """char -> Kangxi radical number. Source: Unicode Unihan
     kRSUnicode (Unicode data-files license)."""
     rad = {}
@@ -277,12 +373,6 @@ def _load_radicals():
                 except ValueError:
                     pass
     return rad
-_RADICALS = None
-def radicals():
-    global _RADICALS
-    if _RADICALS is None:
-        _RADICALS = _load_radicals()
-    return _RADICALS
 
 # Classical particles/connectives stoplist — the ONLY authored element
 # in the zh derivations; citable as the standard 文言虛詞 class.
@@ -301,54 +391,60 @@ def _erya_chars(*files):
             s |= set(re.findall(r"[㐀-鿿𠀀-𪛟]", open(p, encoding="utf-8").read()))
     return s - ZH_PARTICLES
 
-_ZHP = _ZHT = _GYT = None
+def _gy_gloss_chars(seeds):
+    """DERIVED, shared 廣韻-gloss mechanism (declared; gloss-based semantic-field
+    extraction, standard DH method): the 字頭 whose 釋義 HEAD contains any of
+    `seeds`. HEAD = the text before the first 又/亦 tail, first 12 chars — the
+    definiens proper, never the cross-reference tail. One implementation for the
+    TEMPORAL and SOUND legs (GY_TEMPORAL_SEEDS / GY_SOUND_SEEDS); the seed lists
+    are declared per field at their own definitions, each leg applies its own
+    stoplist subtraction at its call site. Source: 廣韻, tshet-uinh CC0."""
+    out = set()
+    if GY_CSV.exists():
+        for r in csv.DictReader(open(GY_CSV, encoding="utf-8")):
+            head = r["釋義"].split("又")[0].split("亦")[0][:12]
+            if any(s in head for s in seeds):
+                out.add(r["字頭"])
+    return out
+
+
 # Temporal-definiens seed patterns for 廣韻-gloss derivation (declared;
-# gloss-based semantic-field extraction, standard DH method; matched
-# against the gloss HEAD only — text before the first 又/亦 tail).
+# matched against the gloss HEAD only — see _gy_gloss_chars).
 GY_TEMPORAL_SEEDS = ("時也","早也","晚也","日晚","旦也","夕也","暮也",
                      "朝也","古也","久也","是時")
+
+
+@_lazy
 def gy_gloss_temporal():
     """DERIVED: chars whose 廣韻 釋義 head matches a temporal
     definiens seed. Closes the deictic gap (今昔朝暮晚初…) citably."""
-    global _GYT
-    if _GYT is None:
-        _GYT = set()
-        import csv
-        f = V / "guangyun/韻書/廣韻.csv"
-        if f.exists():
-            for r in csv.DictReader(open(f, encoding="utf-8")):
-                head = r["釋義"].split("又")[0].split("亦")[0][:12]
-                if any(s in head for s in GY_TEMPORAL_SEEDS):
-                    _GYT.add(r["字頭"])
-        _GYT -= ZH_PARTICLES | ZH_COLOR
-    return _GYT
+    return _gy_gloss_chars(GY_TEMPORAL_SEEDS) - (ZH_PARTICLES | ZH_COLOR)
+
+
+@_lazy
 def zh_plant():
     """DERIVED: chars attested in 爾雅 釋草+釋木 (zh.wikisource, PD)
     ∧ Kangxi radical ∈ plant radicals (Unihan). Zero authored words."""
-    global _ZHP
-    if _ZHP is None:
-        cao = _erya_chars("erya_shicao.txt")
-        mu = _erya_chars("erya_shimu.txt")
-        # 木-radical chars mean "wooden thing" as often as "tree" —
-        # so radical 75 requires attestation in the TREE chapter 釋木
-        # itself; the herb radicals may come from either chapter.
-        _ZHP = {c for c in (cao | mu)
-                if radicals().get(c) in PLANT_RADICALS - {75}} \
-             | {c for c in mu if radicals().get(c) == 75}
-        _ZHP -= zh_temporal()   # calendrical canon outranks radical attestation (秋)
-    return _ZHP
+    cao = _erya_chars("erya_shicao.txt")
+    mu = _erya_chars("erya_shimu.txt")
+    # 木-radical chars mean "wooden thing" as often as "tree" —
+    # so radical 75 requires attestation in the TREE chapter 釋木
+    # itself; the herb radicals may come from either chapter.
+    out = {c for c in (cao | mu)
+           if radicals().get(c) in PLANT_RADICALS - {75}} \
+        | {c for c in mu if radicals().get(c) == 75}
+    return out - zh_temporal()   # calendrical canon outranks radical attestation (秋)
 
+
+@_lazy
 def zh_temporal():
     """DERIVED: 爾雅 釋天 calendrical sections (attested chars minus
     particles) ∪ chars with Kangxi radical 日/夕 (the lexicographic
     semantic classifiers for day/evening). Both sources citable."""
-    global _ZHT
-    if _ZHT is None:
-        # 釋天's season EPITHETS (青陽/白藏/玄英…) leak color chars —
-        # cross-domain collisions resolve to the color canon (declared).
-        _ZHT = (_erya_chars("erya_shitian_calendrical.txt") | gy_gloss_temporal()) \
-               - ZH_COLOR - set("英藏")
-    return _ZHT
+    # 釋天's season EPITHETS (青陽/白藏/玄英…) leak color chars —
+    # cross-domain collisions resolve to the color canon (declared).
+    return (_erya_chars("erya_shitian_calendrical.txt") | gy_gloss_temporal()) \
+        - ZH_COLOR - set("英藏")
 
 def zh_time_rad(c):
     return radicals().get(c) in TIME_RADICALS
@@ -402,7 +498,7 @@ BK11 = {"black","white","red","green","yellow","blue","brown","purple",
 #     (50cb569 — the live exemplar; EN_COLOR_FLAG itself is empty after the #61
 #     no-vibes audit removed gold+fair): the type-prior fires, wears the price tag,
 #     zero occurrence intervention. See en_color_plant_flag().
-# (c) EN_TEMPORAL subtraction KEPT (true cross-field exclusivity, not polysemy:
+# (c) en_temporal() subtraction KEPT (true cross-field exclusivity, not polysemy:
 #     twilight/dusk ARE the other field; arm-1 receipt L134). Not flagged —
 #     yielded, because the colour reading is not co-present, it is the wrong
 #     field. This is the ONE blanket subtraction that survives.
@@ -415,7 +511,7 @@ BK11 = {"black","white","red","green","yellow","blue","brown","purple",
 EN_COLOR_YIELD_RULED = {
     "dark": "illumination",   # #61, dillon "darkness" finding — dark is illum's
 }
-_ENCPF = None
+@_lazy
 def en_color_plant_flag():
     """DERIVED flag-class (ruling b, #61): the xkcd colour names that COLLIDE
     with en_plant() — NOT the BK11 basics (they never yield, ruling a), NOT the
@@ -425,43 +521,40 @@ def en_color_plant_flag():
     flag-class exemplar now that EN_COLOR_FLAG is empty (gold+fair both removed at
     the #61 no-vibes audit). The receipt says COLOUR fired; the flag prices the
     plant polysemy, not hidden."""
-    global _ENCPF
-    if _ENCPF is None:
-        _ENCPF = (_en_xkcd_base() & en_plant()) - set(BK11) \
-                 - EN_TEMPORAL - set(EN_COLOR_YIELD_RULED)
-    return _ENCPF
-_ENXB = None
+    return (_en_xkcd_base() & en_plant()) - set(BK11) \
+        - en_temporal() - set(EN_COLOR_YIELD_RULED)
+
+
+@_lazy
 def _en_xkcd_base():
     """BK11 ∪ {gray} ∪ xkcd single-token colour names (xkcd_rgb.txt, CC0) —
     the raw en colour base BEFORE any yield. Shared by en_color() and the
     flag-class derivation so the two partition the same source exactly."""
-    global _ENXB
-    if _ENXB is None:
-        _ENXB = set(BK11) | {"gray"}
-        f = V / "xkcd_rgb.txt"
-        if f.exists():
-            for ln in open(f, encoding="utf-8"):
-                name = ln.split("\t")[0].strip()
-                if name and " " not in name and "/" not in name and name.isalpha():
-                    _ENXB.add(name.lower())
-    return _ENXB
-_ENC = None
+    out = set(BK11) | {"gray"}
+    f = V / "xkcd_rgb.txt"
+    if f.exists():
+        for ln in open(f, encoding="utf-8"):
+            name = ln.split("\t")[0].strip()
+            if name and " " not in name and "/" not in name and name.isalpha():
+                out.add(name.lower())
+    return out
+
+
+@_lazy
 def en_color():
     """DERIVED — Berlin & Kay (1969) 11 basic ∪ XKCD single-token (CC0), under
     THE EN-COLOUR YIELD LAW above. The CLEAN-fire colour set: what fires colour
     with no flag. Its complement inside the base is the flag-class
     (en_color_plant_flag) + the yielded names (temporal / ruled)."""
-    global _ENC
-    if _ENC is None:
-        _ENC = set(_en_xkcd_base())
-        _ENC -= EN_COLOR_FLAG                 # EMPTY set now (gold + fair both REMOVED,
-                                              # #61 no-vibes audit) → subtracts nothing;
-                                              # kept live so a future CITED flag drops in
-        _ENC -= EN_TEMPORAL                   # (c) true cross-field exclusivity (twilight/dusk)
-        _ENC -= set(EN_COLOR_YIELD_RULED)     # (d) per-word ruled yields (dark→illumination)
-        _ENC -= en_color_plant_flag()         # (b) plant-collision names move to flag-class…
-        _ENC |= set(BK11)                     # (a) …but BK11 basics NEVER yield (orange/pink restored)
-    return _ENC
+    out = set(_en_xkcd_base())
+    out -= EN_COLOR_FLAG                 # EMPTY set now (gold + fair both REMOVED,
+                                         # #61 no-vibes audit) → subtracts nothing;
+                                         # kept live so a future CITED flag drops in
+    out -= en_temporal()                 # (c) true cross-field exclusivity (twilight/dusk)
+    out -= set(EN_COLOR_YIELD_RULED)     # (d) per-word ruled yields (dark→illumination)
+    out -= en_color_plant_flag()         # (b) plant-collision names move to flag-class…
+    out |= set(BK11)                     # (a) …but BK11 basics NEVER yield (orange/pink restored)
+    return out
 # EN_COLOR_FLAG — the NO-VIBES-FLAG audit (#61, 2026-07-28, her law: "we should
 # not manually flag anything because we think so… if {gold, fair} is without
 # support we should remove them"). The provenance hunt (git -S EN_COLOR_FLAG +
@@ -512,24 +605,29 @@ EN_COLOR_FLAG = set()      # EMPTY — gold + fair both REMOVED (uncited, #61 no
 # inherits flag-class (rosy → rose → fires-with-flag). Consulted BEFORE the
 # set/flag intersection in label_unit (mirrors the fr _var2lemma wiring, 2ebf673:
 # the CONSUMING path must consult the map, or the numbers don't move).
-_EN_V2L = None
+def _load_variant_map(path, key):
+    """variant(lower) -> lemma(lower) from a committed *_variants_61.json under
+    `key`. Shared loader for the colour and sound folds (identical artifact
+    shape). DATA-ONLY load: EMPTY when the artifact is absent — drop-and-declare,
+    an unmapped variant stays unfired, never hand-authored around."""
+    out = {}
+    if path.exists():
+        d = json.loads(path.read_text(encoding="utf-8"))
+        for var, rec in (d.get(key) or {}).items():
+            out[var] = rec["lemma"]
+    return out
+
+
+# committed artifact home: lexical_resources/color_lexicon/ (vectors/ is
+# gitignored). ROOT = the repo root anchor defined at the top of this file.
+@_lazy
 def en_var2lemma():
     """variant(lower) -> lemma(lower), the en colour fold. Data-only load of
     the committed artifact; empty if absent (drop-and-declare: unmapped variants
     stay unfired, never hand-authored around)."""
-    global _EN_V2L
-    if _EN_V2L is None:
-        _EN_V2L = {}
-        import json as _json
-        # committed artifact home: lexical_resources/color_lexicon/ (vectors/ is
-        # gitignored). HERE = marking/tools; repo root = HERE.parents[1].
-        f = HERE.parents[1] / "lexical_resources" / "color_lexicon" \
-            / "en_color_variants_61.json"
-        if f.exists():
-            d = _json.loads(f.read_text(encoding="utf-8"))
-            for var, rec in (d.get("en") or {}).items():
-                _EN_V2L[var] = rec["lemma"]
-    return _EN_V2L
+    return _load_variant_map(
+        ROOT / "lexical_resources" / "color_lexicon" / "en_color_variants_61.json",
+        "en")
 
 # EN SOUND morphological fold (#61 Task 4): the SOUND sibling of the colour fold,
 # LOADED AS DATA from the committed en_sound_variants_61.json (built by
@@ -538,57 +636,65 @@ def en_var2lemma():
 # authored rows). A sound variant (clacking, ringing, hums) fires AS its lemma
 # (clack, ring, hum). No sound flag-class exists → every variant is clean sound.
 # Consulted BEFORE the sound set intersection in label_unit (the 2ebf673 lesson).
-_EN_SND_V2L = None
+@_lazy
 def en_sound_var2lemma():
     """variant(lower) -> lemma(lower), the en SOUND fold. Data-only load of the
     committed artifact; empty if absent (drop-and-declare: unmapped variants stay
     unfired, never hand-authored around). The 'clacking' specimen's fix."""
-    global _EN_SND_V2L
-    if _EN_SND_V2L is None:
-        _EN_SND_V2L = {}
-        import json as _json
-        f = HERE.parents[1] / "lexical_resources" / "audio_witness" \
-            / "en_sound_variants_61.json"
-        if f.exists():
-            d = _json.loads(f.read_text(encoding="utf-8"))
-            for var, rec in (d.get("en_sound") or {}).items():
-                _EN_SND_V2L[var] = rec["lemma"]
-    return _EN_SND_V2L
+    return _load_variant_map(
+        ROOT / "lexical_resources" / "audio_witness" / "en_sound_variants_61.json",
+        "en_sound")
+
+# ---------- WordNet 3.0 noun closures (shared by en_plant + en_sound_word) ----
+def _wn_noun_index():
+    """Parse vectors/wordnet30/data.noun into (words, kids): synset offset ->
+    raw lemma list, offset -> hyponym (~) child offsets. Empty when the file is
+    absent. NOT memoised on purpose: each closure below builds its set once, and
+    caching this index would retain the whole parsed noun database for the life
+    of the process (the per-function parses it replaces did not)."""
+    words, kids = {}, {}
+    dat = V / "wordnet30/data.noun"
+    if dat.exists():
+        for ln in open(dat, encoding="utf-8", errors="ignore"):
+            if not ln[:1].isdigit():
+                continue
+            p = ln.split()
+            off, w_cnt = p[0], int(p[3], 16)
+            words[off] = [p[4 + 2*i] for i in range(w_cnt)]
+            ptrs = ln.split("|")[0].split()
+            for i, t in enumerate(ptrs):
+                if t == "~":
+                    kids.setdefault(off, []).append(ptrs[i+1])
+    return words, kids
+
+
+def _wn_hyponym_closure(roots, words, kids):
+    """Walk ~ downward from `roots`; harvest single-word alphabetic lemmas,
+    lowercased. One implementation for the flora closure (en_plant) and the
+    auditory closure (en_sound_word) — same walk, different roots."""
+    out, seen, stack = set(), set(), list(roots)
+    while stack:
+        o = stack.pop()
+        if o in seen or o not in words:
+            continue
+        seen.add(o)
+        out |= {w.lower() for w in words[o] if "_" not in w and w.isalpha()}
+        stack.extend(kids.get(o, []))
+    return out
+
 
 # plant en: DERIVED — WordNet 3.0 hyponym closure of plant.n.02
 # (flora sense; lex_filenum 20 root), single-word lemmas.
-_ENP = None
+@_lazy
 def en_plant():
-    global _ENP
-    if _ENP is None:
-        _ENP = set()
-        dat = V / "wordnet30/data.noun"
-        if dat.exists():
-            kids, words, root = {}, {}, None
-            for ln in open(dat, encoding="utf-8", errors="ignore"):
-                if not ln[:1].isdigit():
-                    continue
-                p = ln.split()
-                off, lex, w_cnt = p[0], p[1], int(p[3], 16)
-                ws = [p[4 + 2*i] for i in range(w_cnt)]
-                words[off] = ws
-                ptrs = ln.split("|")[0].split()
-                for i, t in enumerate(ptrs):
-                    if t == "~":
-                        kids.setdefault(off, []).append(ptrs[i+1])
-                if root is None and "plant" in ws and "flora" in ws:
-                    root = off   # plant.n.02 lives in noun.Tops (lex 03), not noun.plant
-                if "plant_part" in ws:
-                    kids.setdefault("ROOTS", []).append(off)  # plant parts join the closure
-            seen, stack = set(), ([root] if root else []) + kids.get("ROOTS", [])
-            while stack:
-                o = stack.pop()
-                if o in seen or o not in words:
-                    continue
-                seen.add(o)
-                _ENP |= {w.lower() for w in words[o] if "_" not in w and w.isalpha()}
-                stack.extend(kids.get(o, []))
-    return _ENP
+    words, kids = _wn_noun_index()
+    # plant.n.02 lives in noun.Tops (lex 03), not noun.plant — located by its own
+    # lemma set, first match in file order (as before).
+    root = next((off for off, ws in words.items()
+                 if "plant" in ws and "flora" in ws), None)
+    roots = ([root] if root else []) \
+        + [off for off, ws in words.items() if "plant_part" in ws]   # plant parts join the closure
+    return _wn_hyponym_closure(roots, words, kids)
 
 # ---------- SOUND, WORD-TIER (#58, 2026-07-26) ----------------------
 # "does this word DIRECTLY DESCRIBE sound" (歌聲/噪/鳴/noise/song). This
@@ -629,36 +735,26 @@ GY_SOUND_SEEDS = ("聲也","音也","鳴也","響也","歌也","吟也","啼也"
                   "聲音","鼓聲","鐘聲","雷聲","鳥聲","犬聲","樂器")
 def gy_gloss_sound():
     """DERIVED: chars whose 廣韻 釋義 head matches a sound-definiens seed."""
-    s = set()
-    import csv
-    f = V / "guangyun/韻書/廣韻.csv"
-    if f.exists():
-        for r in csv.DictReader(open(f, encoding="utf-8")):
-            head = r["釋義"].split("又")[0].split("亦")[0][:12]
-            if any(seed in head for seed in GY_SOUND_SEEDS):
-                s.add(r["字頭"])
-    return s - ZH_PARTICLES
+    return _gy_gloss_chars(GY_SOUND_SEEDS) - ZH_PARTICLES
 
-_ZH_SOUND = None
+
+@_lazy
 def _zh_sound_legs():
     """(union, 釋樂-set, 音部-set, 廣韻-set) with collisions resolved."""
-    global _ZH_SOUND
-    if _ZH_SOUND is None:
-        leg_erya = _erya_shiyue_definienda()
-        leg_rad  = {c for c, n in radicals().items() if n == 180}
-        leg_gy   = gy_gloss_sound()
-        # Cross-domain collisions with the temporal field (商·章) resolve
-        # by a DECLARED rule: temporal collision yields to temporal EXCEPT
-        # where sound membership is by 釋樂 definiendum CANON (a named
-        # source), which outranks a temporal gloss/radical pull. Keeps 商
-        # (note-name in 釋樂 ∧ temporal — kept per design) and drops 章
-        # (calendrical 章; in sound only via radical 音). This is the
-        # house rule "calendrical canon outranks radical attestation (秋)".
-        # (∩ ZH_COLOR and ∩ zh_plant are empty; verified in build note.)
-        drop = ZH_PARTICLES | ZH_COLOR | (zh_temporal() - leg_erya)
-        union = (leg_erya | leg_rad | leg_gy) - drop
-        _ZH_SOUND = (union, leg_erya - drop, leg_rad - drop, leg_gy - drop)
-    return _ZH_SOUND
+    leg_erya = _erya_shiyue_definienda()
+    leg_rad  = {c for c, n in radicals().items() if n == 180}
+    leg_gy   = gy_gloss_sound()
+    # Cross-domain collisions with the temporal field (商·章) resolve
+    # by a DECLARED rule: temporal collision yields to temporal EXCEPT
+    # where sound membership is by 釋樂 definiendum CANON (a named
+    # source), which outranks a temporal gloss/radical pull. Keeps 商
+    # (note-name in 釋樂 ∧ temporal — kept per design) and drops 章
+    # (calendrical 章; in sound only via radical 音). This is the
+    # house rule "calendrical canon outranks radical attestation (秋)".
+    # (∩ ZH_COLOR and ∩ zh_plant are empty; verified in build note.)
+    drop = ZH_PARTICLES | ZH_COLOR | (zh_temporal() - leg_erya)
+    union = (leg_erya | leg_rad | leg_gy) - drop
+    return (union, leg_erya - drop, leg_rad - drop, leg_gy - drop)
 def zh_sound():
     return _zh_sound_legs()[0]
 def zh_sound_tag(c):
@@ -681,34 +777,11 @@ EN_SOUND_ROOTS = {
     "05720248", "07387509",                                       # noise.*: dissonance-percept · sound-of-any-kind
     "05718556", "05718935", "07020895",                           # music.*: euphony · produced-sounds · auditory-art
 }
-_ENS = None
+@_lazy
 def en_sound_word():
     """DERIVED: WordNet flora-style ~ closure over EN_SOUND_ROOTS."""
-    global _ENS
-    if _ENS is None:
-        _ENS = set()
-        dat = V / "wordnet30/data.noun"
-        if dat.exists():
-            kids, words = {}, {}
-            for ln in open(dat, encoding="utf-8", errors="ignore"):
-                if not ln[:1].isdigit():
-                    continue
-                p = ln.split()
-                off, w_cnt = p[0], int(p[3], 16)
-                words[off] = [p[4 + 2*i] for i in range(w_cnt)]
-                ptrs = ln.split("|")[0].split()
-                for i, t in enumerate(ptrs):
-                    if t == "~":
-                        kids.setdefault(off, []).append(ptrs[i+1])
-            seen, stack = set(), list(EN_SOUND_ROOTS)
-            while stack:
-                o = stack.pop()
-                if o in seen or o not in words:
-                    continue
-                seen.add(o)
-                _ENS |= {w.lower() for w in words[o] if "_" not in w and w.isalpha()}
-                stack.extend(kids.get(o, []))
-    return _ENS
+    words, kids = _wn_noun_index()
+    return _wn_hyponym_closure(EN_SOUND_ROOTS, words, kids)
 
 # temporal en: DERIVED (#61 Stage 2, ruled — the AUTHORED-INTERIM ⚠ is RETIRED).
 # HeidelTime English resource files → a cited word-list-of-facts (month/season/
@@ -732,25 +805,22 @@ def en_sound_word():
 # xkcd with the per-word EN_COLOR_YIELD_RULED table). This is NOT a hand-authored
 # temporal lexicon: it is (cited HeidelTime inventory) ∪ (named standing ruling).
 EN_TEMPORAL_RULED_EXCLUSIVE = {"twilight", "dusk"}   # ruling (c), arm-1 L134 / d26fa95
-_EN_TEMPORAL = None
-def _load_en_temporal():
+@_lazy
+def en_temporal():
     """The en temporal set: HeidelTime-derived inventory ∪ the ruled cross-field
     exclusives. Data-only load of the committed artifact; on absence, DROP-AND-
     DECLARE — falls back to the ruled-exclusive set alone (never re-hand-authored;
-    the absence is visible as a near-empty temporal field, honest)."""
-    global _EN_TEMPORAL
-    if _EN_TEMPORAL is None:
-        _EN_TEMPORAL = set(EN_TEMPORAL_RULED_EXCLUSIVE)
-        import json as _json
-        # HERE = marking/tools; repo root = parents[2] of this file
-        # (parents[0]=tools, [1]=marking, [2]=root — same as en_var2lemma).
-        f = (Path(__file__).resolve().parents[2] / "lexical_resources"
-             / "temporal_lexicon" / "en_temporal_inventory_61.json")
-        if f.exists():
-            d = _json.loads(f.read_text(encoding="utf-8"))
-            _EN_TEMPORAL |= set((d.get("en") or {}).keys())
-    return _EN_TEMPORAL
-EN_TEMPORAL = _load_en_temporal()
+    the absence is visible as a near-empty temporal field, honest).
+    #71: this was the file's one EAGER import-time load (module-level
+    `EN_TEMPORAL = _load_en_temporal()`); it is now the same lazy getter every
+    sibling lexicon uses. Identical contents and call-time values — the set is
+    built from a committed artifact that nothing mutates."""
+    out = set(EN_TEMPORAL_RULED_EXCLUSIVE)
+    f = ROOT / "lexical_resources" / "temporal_lexicon" / "en_temporal_inventory_61.json"
+    if f.exists():
+        d = json.loads(f.read_text(encoding="utf-8"))
+        out |= set((d.get("en") or {}).keys())
+    return out
 ZH_TEMPORAL_FLAG = set("月")   # moon-vs-month; 日 now via radical rule
 
 # 聯綿詞 (lexicalized binomes) — the canonical 雙聲/叠韵 device class.
@@ -833,17 +903,21 @@ RE_AABB = re.compile(rf"([{CJK}])\1([{CJK}])\2")       # AABB
 RE_EN_WORD = re.compile(r"[A-Za-z']+")
 RE_WORD_REP = re.compile(r"\b([A-Za-zÀ-ÿ]{3,})\b(?:\W+\w+){0,3}?\W+\b\1\b", re.I)
 
+def _sibling_build(subdir, module):
+    """Lazy import of a sibling language build (engine/<subdir>/<module>.py).
+    One importer for the fr and de colour legs. Both are LANGUAGE-GATED at the
+    CALL SITE (consulted only when lang matches), so every other language's
+    output is byte-identical whether or not these trees are present."""
+    sys.path.insert(0, str(ROOT / "engine" / subdir))
+    return importlib.import_module(module)
+
+
 def _fr():
     """fr colour leg (her convening 07-28: 'Plug the fr branch in') — lazy
     import from the fr build; language-gated at the call (only consulted when
     lang == 'fr', per the integration proposal's recommended gating: en/zh
     outputs stay byte-identical)."""
-    import sys as _sys
-    from pathlib import Path as _P
-    _sys.path.insert(0, str(_P(__file__).resolve().parents[2]
-                            / "engine" / "fr_build"))
-    import fr_labelers as F
-    return F
+    return _sibling_build("fr_build", "fr_labelers")
 
 
 def _de():
@@ -852,18 +926,23 @@ def _de():
     gated at the call (consulted only when lang == 'de'), so en/zh/fr outputs stay
     BYTE-IDENTICAL. Colour-only, citation-tier (B&K12-de ∪ kaikki-adj-colour-
     sense; forward paradigm generation for German declension + ß/ss orthography)."""
-    import sys as _sys
-    from pathlib import Path as _P
-    _sys.path.insert(0, str(_P(__file__).resolve().parents[2]
-                            / "engine" / "de_build"))
-    import de_labelers as D
-    return D
+    return _sibling_build("de_build", "de_labelers")
 
 
-def label_unit(text, lang=None):
-    """Return dict field -> (hit, evidence, flags). Lookup/regex +
-    compound-aware maximal-match (v2)."""
-    out = {}
+# ---------- label_unit, one helper per emitted field -------------------------
+# EVALUATION ORDER IS LOAD-BEARING and is unchanged by the #71 split: compound
+# masking runs FIRST (it consumes whole spans before any per-char harvest, which
+# is what keeps a colour compound built on a plant/temporal char — 松柏绿/竹青 —
+# from leaking that char to plant/temporal; see ZH_COMPOUNDS), then the naive en
+# fold, then sound_device, then colour with its language branches AS-IS, then the
+# de language gate, then plant/temporal/sound off the gated word set. Each helper
+# returns the field's (hit, evidence, flags) 3-tuple, or None for "does not fire".
+
+def _mask_compounds(text):
+    """Maximal-match (longest key first) over ZH_COMPOUNDS → (compound_hits:
+    field -> [compound], masked text). Each matched span becomes ◌ fillers so its
+    component chars are consumed before any char-harvest. Runs first, for ALL
+    fields — the shared masking machinery, the declared risk channel."""
     compound_hits = {}   # field -> [compound]
     masked = text
     for w in sorted(ZH_COMPOUNDS, key=len, reverse=True):
@@ -872,14 +951,29 @@ def label_unit(text, lang=None):
             for c in ((cat,) if isinstance(cat, str) else (cat or ())):
                 compound_hits.setdefault(c, []).append(w)
             masked = masked.replace(w, "◌" * len(w))
-    zh_chars = set(re.findall(rf"[{CJK}]", masked))
+    return compound_hits, masked
+
+
+def _fold_en_words(text):
+    """Lowercased en tokens ∪ their NAIVE plural/-ves folds (arm-1 receipt v11
+    L134: 'en plant = WordNet closure … + naive plural folding'). This is the
+    crude fold that runs for every field; the cited morphological folds
+    (en_var2lemma / en_sound_var2lemma) are consulted per field on top of it."""
     en_words = {w.lower() for w in RE_EN_WORD.findall(text)}
     folded = set(en_words)
     for w in list(en_words):
         if w.endswith("ves"): folded.add(w[:-3] + "f")
         if w.endswith("es"):  folded.add(w[:-2])
         if w.endswith("s"):   folded.add(w[:-1])
-    en_words = folded
+    return folded
+
+
+def _label_sound_device(text):
+    """DEVICE tier (euphony ENACTED), #58: 叠字 · word-repetition · 雙聲/叠韵 ·
+    en alliteration. Phoneme tier = declared approximations (pypinyin for Middle
+    Chinese where 廣韻 does not cover; orthographic alliteration where CMU does
+    not). #58: the output key was RENAMED "sound" -> "sound_device" — this is the
+    device tier, distinct from the word-tier "sound"; receipt format unchanged."""
     # sound-as-device: 叠字 · word-repetition · 雙聲/叠韵 · en alliteration
     aa = RE_AA.findall(text)
     rep = RE_WORD_REP.search(text)
@@ -916,11 +1010,17 @@ def label_unit(text, lang=None):
             same = content[i][0].lower() == content[i+1][0].lower()  # fallback: letters
         if same:
             dev.append(f"allit:{content[i]}-{content[i+1]}")
-    if dev:
-        # #58: renamed "sound" -> "sound_device" (this is the DEVICE tier,
-        # euphony ENACTED). Receipt format unchanged.
-        out["sound_device"] = (True, " ".join(dev), "AABB" if RE_AABB.search(text) else "")
-    # color
+    if not dev:
+        return None
+    return (True, " ".join(dev), "AABB" if RE_AABB.search(text) else "")
+
+
+def _label_color(text, lang, zh_chars, en_words, compound_hits):
+    """COLOUR — zh char tier (ZH_COLOR) ∪ zh compound tier (中国传统色, consumed
+    by the mask upstream) ∪ the en base under THE EN-COLOUR YIELD LAW, plus the
+    language-gated fr and de legs. The language branching is exactly as built:
+    fr/de consult their OWN sets through their own paradigm maps, and the en
+    xkcd base is NOT consulted on a de unit."""
     fr_ev, fr_fl = [], []
     if lang == "fr":
         F = _fr()
@@ -973,51 +1073,127 @@ def label_unit(text, lang=None):
         en_col_fl = sorted(en_color_lemmas & en_flags)
     ev = sorted(zh_chars & ZH_COLOR) + compound_hits.get("color", []) + en_col_ev + fr_ev + de_ev
     fl = sorted(zh_chars & ZH_COLOR_FLAG) + en_col_fl + fr_fl + de_fl
-    if ev or fl:
-        out["color"] = (True, " ".join(ev + fl), "flagged:" + " ".join(fl) if fl else "")
+    if not (ev or fl):
+        return None
+    return (True, " ".join(ev + fl), "flagged:" + " ".join(fl) if fl else "")
+
+
+def _label_plant(zh_chars, en_words_other, compound_hits):
+    """PLANT (zh: 爾雅 釋草/釋木 ∧ Kangxi radical · en: WordNet flora closure)."""
+    ev = sorted(zh_chars & zh_plant()) + compound_hits.get("plant", []) \
+         + sorted(en_words_other & en_plant())
+    if not ev:
+        return None
+    return (True, " ".join(ev), "")
+
+
+def _label_temporal(zh_chars, en_words_other, compound_hits):
+    """TEMPORAL (zh: 爾雅釋天-calendrical ∪ 廣韻 gloss-head ∪ the 日/夕-radical
+    rule · en: the HeidelTime-derived inventory ∪ the ruled exclusives)."""
+    ev = sorted(zh_chars & zh_temporal()) \
+         + sorted(c for c in zh_chars if zh_time_rad(c) and c not in zh_temporal()) \
+         + compound_hits.get("temporal", []) + sorted(en_words_other & en_temporal())
+    fl = sorted(zh_chars & ZH_TEMPORAL_FLAG)
+    if not (ev or fl):
+        return None
+    return (True, " ".join(ev + fl), "flagged:" + " ".join(fl) if fl else "")
+
+
+def _label_sound(zh_chars, en_words_other):
+    """SOUND, WORD TIER (#58): DIRECT sound-description — zh three-leg set
+    ∩ line chars (each leg-tagged) · en auditory closure ∩ folded words.
+    Distinct field from "sound_device".
+    #61 Task 4 — the EN SOUND FOLD (the 'clacking' specimen): consult
+    en_sound_var2lemma BEFORE the intersection so an inflected sound surface
+    fires AS its lemma (clacking→clack, ringing→ring); receipts stay LEMMA-keyed
+    (the colour/rosy law). LANGUAGE GATE preserved: en_words_other arrives already
+    emptied on de units (label_unit's gate), so the fold never leaks onto German.
+    zh/fr/None unaffected (the fold is an en-only expansion of the en set match)."""
+    zsnd = sorted(zh_chars & zh_sound())
+    _sv2l = en_sound_var2lemma()
+    en_sound_lemmas = en_words_other | {_sv2l[w] for w in en_words_other
+                                        if w in _sv2l}
+    esnd = sorted(en_sound_lemmas & en_sound_word())
+    if not (zsnd or esnd):
+        return None
+    ev = [f"{c}[{zh_sound_tag(c)}]" for c in zsnd] + [f"{w}[wn]" for w in esnd]
+    return (True, " ".join(ev), "")
+
+
+def label_unit(text, lang=None):
+    """Return dict field -> (hit, evidence, flags). Lookup/regex +
+    compound-aware maximal-match (v2). A field absent from the dict did not
+    fire. Emission order: sound_device · color · plant · temporal · sound."""
+    compound_hits, masked = _mask_compounds(text)   # FIRST — consumes the spans
+    zh_chars = set(re.findall(rf"[{CJK}]", masked))
+    en_words = _fold_en_words(text)
+    out = {}
+
+    def emit(field, rec):
+        if rec is not None:
+            out[field] = rec
+
+    emit("sound_device", _label_sound_device(text))
+    emit("color", _label_color(text, lang, zh_chars, en_words, compound_hits))
     # LANGUAGE GATE for the en-word cross-fields on de units (#61 night build):
     # the de leg is COLOUR-ONLY (citation-tier); de plant/temporal/sound are
-    # UNCOVERED (starred). The en word sets (en_plant/EN_TEMPORAL/en_sound_word)
+    # UNCOVERED (starred). The en word sets (en_plant/en_temporal/en_sound_word)
     # would otherwise FALSE-FIRE on German tokens that collide with an English
-    # word — e.g. German 'aug' (Auge/eye) ∈ HeidelTime month-abbrev EN_TEMPORAL,
+    # word — e.g. German 'aug' (Auge/eye) ∈ HeidelTime month-abbrev en_temporal(),
     # or an ASCII fragment of an umlaut-split German word. These never become a
     # covered census STATE (de non-colour is uncovered), but suppressing them
     # keeps the raw labeler output honest (no spurious German receipts) and makes
     # de a cleanly-gated colour-only leg, symmetric with the colour gate above.
     # en/zh/fr/None are UNCHANGED (the gate is a no-op for every non-'de' lang).
     en_words_other = set() if lang == "de" else en_words
-    # plant (zh: 爾雅∧radical · en: WordNet flora closure)
-    ev = sorted(zh_chars & zh_plant()) + compound_hits.get("plant", []) \
-         + sorted(en_words_other & en_plant())
-    if ev:
-        out["plant"] = (True, " ".join(ev), "")
-    # temporal (zh: 爾雅釋天-calendrical ∪ 日/夕-radical rule)
-    ev = sorted(zh_chars & zh_temporal()) \
-         + sorted(c for c in zh_chars if zh_time_rad(c) and c not in zh_temporal()) \
-         + compound_hits.get("temporal", []) + sorted(en_words_other & EN_TEMPORAL)
-    fl = sorted(zh_chars & ZH_TEMPORAL_FLAG)
-    if ev or fl:
-        out["temporal"] = (True, " ".join(ev + fl), "flagged:" + " ".join(fl) if fl else "")
-    # sound (word-tier, #58): DIRECT sound-description — zh three-leg set
-    # ∩ line chars (each leg-tagged) · en auditory closure ∩ folded words.
-    # Distinct field from "sound_device" above.
-    # #61 Task 4 — the EN SOUND FOLD (the 'clacking' specimen): consult
-    # en_sound_var2lemma BEFORE the intersection so an inflected sound surface
-    # fires AS its lemma (clacking→clack, ringing→ring); receipts stay LEMMA-keyed
-    # (the colour/rosy law). LANGUAGE GATE preserved: en_words_other is already
-    # emptied on de units (line ~936), so the fold never leaks onto German.
-    # zh/fr/None unaffected (the fold is an en-only expansion of the en set match).
-    zsnd = sorted(zh_chars & zh_sound())
-    _sv2l = en_sound_var2lemma()
-    en_sound_lemmas = en_words_other | {_sv2l[w] for w in en_words_other
-                                        if w in _sv2l}
-    esnd = sorted(en_sound_lemmas & en_sound_word())
-    if zsnd or esnd:
-        ev = [f"{c}[{zh_sound_tag(c)}]" for c in zsnd] + [f"{w}[wn]" for w in esnd]
-        out["sound"] = (True, " ".join(ev), "")
+    emit("plant", _label_plant(zh_chars, en_words_other, compound_hits))
+    emit("temporal", _label_temporal(zh_chars, en_words_other, compound_hits))
+    emit("sound", _label_sound(zh_chars, en_words_other))
     return out
 
 # ---------- calibration ----------
+# CALIBRATION INPUTS — all three live in the PRIVATE marking tree and are NOT
+# shipped with the public release (see marking/tools/README.md). Named here so
+# the guard below can report exactly which one is missing.
+CALIBRATION_MAP = HERE.parent / "map_session_20260711" / "map_v34_PREPARED.txt"
+CALIBRATION_SHEETS = HERE.parent / "sheets"
+CALIBRATION_MARKS = HERE.parent / "normalized"
+
+
+def _require_calibration_inputs():
+    """FAIL LOUD before scoring (#71 — notify_sound doctrine: fail loud, never
+    silently). --calibrate reads three private-tree inputs. When they are absent
+    every counter stays 0, and the table prints P=0.00 R=0.00 F1=0.00 for every
+    field — a VACUOUS table indistinguishable from a genuine zero score, over an
+    empty error listing. Refuse instead of printing it."""
+    missing = [str(p) for p in (CALIBRATION_MAP, CALIBRATION_SHEETS, CALIBRATION_MARKS)
+               if not p.exists()]
+    if not missing and not glob.glob(str(CALIBRATION_SHEETS / "sheet_*.md")):
+        missing.append(f"{CALIBRATION_SHEETS}/sheet_*.md (directory present, no sheets in it)")
+    if missing:
+        raise SystemExit(
+            "trait_labelers --calibrate: required calibration input(s) MISSING:\n  "
+            + "\n  ".join(missing)
+            + "\n\nThese are private-tree marking artifacts (the prepared field map, the\n"
+              "marking sheets, the normalized human marks) and are deliberately not part\n"
+              "of the public reproducibility release — see marking/tools/README.md.\n"
+              "Without them the P/R/F1 table would be computed over ZERO units and print\n"
+              "an all-zero row per field, which is not a score. Refusing to print it.\n"
+              "Run `python3 trait_labelers.py` with no flag for the selftest, which needs\n"
+              "only the committed lexicons.")
+
+
+# load_map / sheet_units: KEPT as this module's own implementations, deliberately.
+#   · load_map is functionally equivalent to normalize.load_map (same `#`-comment
+#     strip, same `->` split, same lower()/strip() on both sides; only the read
+#     idiom differs — file iteration here vs Path.read_text().splitlines() there,
+#     which diverge only on exotic line separators no map file contains). Not
+#     imported: keeping the calibration path free of a cross-tool dependency, and
+#     the two have no verified shared-change history to justify collapsing them.
+#   · sheet_units has NO counterpart in normalize.py. normalize.parse_file() reads
+#     the same sheet format but keeps the MARKS and discards the line text; this
+#     one keeps the LINE TEXT and ignores the marks. Different extractions from
+#     one format — not a duplicate.
 def load_map(p):
     m = {}
     for ln in open(p, encoding="utf-8"):
@@ -1038,7 +1214,7 @@ def sheet_units(path):
 def human_fields(poem, mapping):
     """unit -> set(fields), union over markers, map applied."""
     agg = {}
-    for f in glob.glob(str(HERE.parent / "normalized" / f"*_{poem}.txt")):
+    for f in glob.glob(str(CALIBRATION_MARKS / f"*_{poem}.txt")):
         for ln in open(f, encoding="utf-8"):
             g = re.match(r"^([LU]\d+)\s*:\s*(.*)$", ln.strip())
             if not g:
@@ -1271,11 +1447,12 @@ def main():
     # dev sheets (which carry DEVICE marks) is INVALID until sound is re-
     # marked descriptive-vs-device. Board scoring is convened by Anneliese,
     # not run here; this path is kept behind --calibrate for that rerun.
-    mapping = load_map(HERE.parent / "map_session_20260711" / "map_v34_PREPARED.txt")
+    _require_calibration_inputs()          # #71: refuse a vacuous all-zero table
+    mapping = load_map(CALIBRATION_MAP)
     fields = ["color", "sound", "plant", "temporal"]
     tp = {f: 0 for f in fields}; fp = {f: 0 for f in fields}; fn = {f: 0 for f in fields}
     misses = []; rhyme_stats = [0, 0]  # [structural rhyme units, of which human-tagged]
-    for sheet in sorted(glob.glob(str(HERE.parent / "sheets" / "sheet_*.md"))):
+    for sheet in sorted(glob.glob(str(CALIBRATION_SHEETS / "sheet_*.md"))):
         poem = Path(sheet).stem.replace("sheet_", "")
         if poem in ("albatros", "correspondances", "haiku_basho"):
             continue  # out-of-scope v1.1 (fr/jp), by declaration

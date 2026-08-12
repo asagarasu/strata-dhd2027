@@ -72,8 +72,32 @@ while IFS=$'\t' read -r ID METHOD SOURCE VERSION SHA LOCAL NOTES; do
                 GOT="DIR:$(find "$OUT" -type f -not -name '.DS_Store' | wc -l | tr -d ' ')@$(hash_tree "$OUT")";;
         nltk)   python3 -c "import nltk; nltk.download('$SOURCE', download_dir='$OUT')" || { printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'FETCHFAIL' "$SOURCE"; FAIL=1; continue; }
                 GOT="DIR:$(find "$OUT" -type f -not -name '.DS_Store' | wc -l | tr -d ' ')@$(hash_tree "$OUT")";;
-        gensim) python3 -c "import gensim.downloader as g; g.load('$SOURCE', return_path=True)" || { printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'FETCHFAIL' "$SOURCE"; FAIL=1; continue; }
-                GOT="(gensim cache — hash its path per notes)";;
+        gensim) # --fetch must hash the SAME UNIT the pin covers. This row's pin is
+                # a file hash over local_path (…/vectors/glove-wiki-gigaword-50.txt
+                # — manifest notes: "file-hash identity pin"), and REBUILD.md
+                # records --verify-local 61/61 PASS on a full tree, i.e. the pin
+                # equals sha256 of that DECOMPRESSED .txt. gensim-data caches the
+                # artifact as a .gz, so hashing the cache file itself could never
+                # equal the pin — which is what the previous line did, except it
+                # did not even hash: it assigned a literal placeholder string, so
+                # this row could never PASS via --fetch under any circumstances.
+                # Decompress the cached .gz to <artifact_id>.txt and hash that.
+                # ⚠ UNTESTED-BY-RUN (#71, 2026-08-12): exercising this needs the
+                # network and the gensim package, neither available where the fix
+                # was written. If the committed .txt was produced with any extra
+                # post-processing, this row now FAILS LOUD with pin=/got= — the
+                # correct outcome, and strictly better than a placeholder that
+                # silently guaranteed failure.
+                GPATH="$(python3 -c "import gensim.downloader as g; print(g.load('$SOURCE', return_path=True))")" \
+                  || { printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'FETCHFAIL' "$SOURCE"; FAIL=1; continue; }
+                [ -n "$GPATH" ] && [ -r "$GPATH" ] \
+                  || { printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'FETCHFAIL' "gensim returned no readable path: ${GPATH:-<empty>}"; FAIL=1; continue; }
+                case "$GPATH" in
+                  *.gz) gunzip -c "$GPATH" > "$OUT/$ID.txt" \
+                          || { printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'FETCHFAIL' "gunzip failed: $GPATH"; FAIL=1; continue; }
+                        GOT="$(hash_file "$OUT/$ID.txt")";;
+                  *)    GOT="$(hash_file "$GPATH")";;
+                esac;;
         manual) printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'MANUAL' "$NOTES"; continue;;
         *)      printf '%-28s %-8s %-10s %s\n' "$ID" "$METHOD" 'BADMETHOD' ''; FAIL=1; continue;;
       esac

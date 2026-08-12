@@ -1,19 +1,33 @@
 #!/usr/bin/env python3
 """Rubric comparator — §6 scoring doctrine as code (#47, 07-15).
 
-Implements the frozen asymmetric categories — ALL EIGHT of record
-(docstring aligned to the code's own TRANSITIONS table 2026-07-26 #59 at
-her ruling; the prose here named five while the code carried eight —
-the doctrine-drift source, closed):
+Implements the frozen asymmetric categories — ALL FIFTEEN of record, the
+code's own TRANSITIONS table below (four source states × four translation
+states, less absent→absent, which is not a transition):
   active→active   SURVIVAL
   active→latent   PARTIAL-LOSS (requires translation latent file; else
                    folded into loss with the fold DECLARED in output)
+  active→ghost    ECHO       (seat doesn't say it; its line still sounds)
   active→nothing  DEFORMATION
   latent→active   REVIVAL   (never penalized; requires source latent file)
   latent→latent   LATENT-CARRY (informational; latent-stays-latent = survived)
+  latent→ghost    LATENT-ECHO (mech; informational)
   latent→nothing  LATENT-UNREALIZED (informational, no penalty)
+  ghost→active    RENDERED   (her verb: a rendering renders the ghost)
+  ghost→latent    GHOST-GROUNDED (mech; seat found a citable carrier)
+  ghost→ghost     GHOST-CARRY (both lines hum, neither can cite)
+  ghost→nothing   UNHEARD    (that reader didn't render it)
   nothing→active  INVENTION (a finding about the translator, not a fault)
   nothing→latent  LATENT-INVENTION (informational)
+  nothing→ghost   STIRRED    (mech; nothing in source, seat's line hums)
+DOCTRINE-DRIFT RECORD, closed twice. (1) This prose once named FIVE while the
+code carried EIGHT — closed 2026-07-26 (#59) at her ruling, by aligning the
+docstring to the code's table. (2) The SAME NIGHT the GHOST row/column was
+adopted (#59 — her wording and the citation live on TRANSITIONS below), taking
+the table from 8 cells to 15, and this header was not re-aligned: it drifted
+again, to "ALL EIGHT". Re-aligned 2026-08-12 (#71) to the 15 the code carries.
+The rule this keeps proving: TRANSITIONS is the record, and a prose count that
+disagrees with it is the bug, not the other way round.
 plus the grain hypothesis's value comparison: a SPECIFICITY LADDER
 (same / more-specific / less-specific / unclassified) via WordNet
 hypernym ancestry (en values only in v1; zh ladder = future, needs
@@ -29,8 +43,10 @@ until the demonstration run is deliberately convened. Fixture use
 and dev-side use only until then. (--selftest runs synthetic pairs.)
 
 Inputs: marks files in the house compact format (L1: field, value; …)
-— human marks (normalize.py output) or machine labels
-(trait_labelers.label_marks_file, or any file in the same format).
+— human marks (normalize.py output) or machine labels: any file in the
+same format, e.g. trait_labelers.label_unit receipts written out per
+unit. (#71: this line previously named `trait_labelers.label_marks_file`,
+an entry point that does not exist in that module — corrected, not added.)
 """
 import sys, re
 from pathlib import Path
