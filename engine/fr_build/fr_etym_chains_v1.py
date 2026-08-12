@@ -46,6 +46,17 @@ carriers named across French colour etymologies), cited to the GLAWI extraction
 that surfaces it. Latin/Greek roots (ruber/rubeus/russus/viridis/purpura/
 porphyra) are included so LEG 2's ancestor glosses match.
 
+WIRING (findings note, #71 — recorded, not changed here): this module is NOT
+wired into the scoring pipeline. latent_score_54.py imports
+engine/etym_chains_v1_52.py for the en/grc latent-written legs and carries no fr
+leg; nothing under publishable/ imports fr_etym_chains_v1. Its registration
+(engine/registrations/registration_latent_written_fr_DRAFT.md) is still a DRAFT.
+Built and selftested, but credentialed-and-unwired.
+
+INPUTS, both absent from the published tree: GLAWI (1.6 GB uncompressed; see
+lexical_resources/fr/MANIFEST_fr_20260728.md §1) and EtymDB 2.0 under
+lexical_resources/fr/etymdb/. The selftest below cannot run here.
+
 Run `python3 fr_etym_chains_v1.py` for the founding-set selftest.
 """
 import re
@@ -203,7 +214,10 @@ def etymdb_chain(word, field="color", lang="fr", depth=6):
             return {"word": word, "field": field, "leg": "etymdb", "found": True,
                     "chain": newpath, "ancestor": f"{lg}:{fm} '{gl}'",
                     "citation": f"EtymDB 2.0 chain s.v. {lang}:{word} (Fourrier&Sagot 2020, CC BY-SA 4.0)"}
-        for rel, par in c2p.get(cur, []):
+        # every parent edge is walked regardless of relation type: the docstring
+        # names inh/bor/der/cog because those are what EtymDB carries, not
+        # because the walk filters on them.
+        for _rel, par in c2p.get(cur, []):
             stack.append((par, d + 1, newpath))
     return {"word": word, "field": field, "leg": "etymdb", "found": False,
             "reason": "no colour ancestor within depth", "root_form": word}

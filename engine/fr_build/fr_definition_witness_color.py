@@ -181,8 +181,31 @@ def _corpus_words():
     return words
 
 
+def require_glawi():
+    """GLAWI is a 1.6 GB uncompressed payload that this repo does NOT ship. Say
+    so plainly instead of letting iterparse raise a bare FileNotFoundError.
+    (Twin of extract_glawi_color_desc.require_glawi — kept local so neither
+    GLAWI script imports the other.)"""
+    if GLAWI.exists():
+        return True
+    print(f"!! GLAWI absent: {GLAWI}", file=sys.stderr)
+    print("   1.6 GB uncompressed payload — not shipped in this repo.",
+          file=sys.stderr)
+    print("   rebuild: bunzip2 -k lexical_resources/fr/"
+          "GLAWI_FR_work_D2015-12-26_R2016-05-18.xml.bz2", file=sys.stderr)
+    print("   provenance, licence and fetch URL: "
+          "lexical_resources/fr/MANIFEST_fr_20260728.md §1", file=sys.stderr)
+    return False
+
+
 def main():
+    # Flag parsing stays deliberately bare (one boolean switch, no argparse):
+    # `--corpus` restricts the sweep to words attested in the fr corpus and
+    # suppresses the JSON write, so the committed witness file is only ever
+    # produced by the full-GLAWI run.
     corpus = "--corpus" in sys.argv
+    if not require_glawi():
+        return 1
     cw = _corpus_words() if corpus else None
     out, n_art = sweep(cw)
     if not corpus:
@@ -193,8 +216,10 @@ def main():
     if not corpus:
         print(f"written -> {OUT}")
     print("\n10-SAMPLE RECEIPT (word :: hue [frame] :: gloss):")
-    sample = sorted(out)[:10] if not corpus else sorted(out)
-    for w in sample[:12]:
+    # As-found asymmetry, kept (it is output-affecting): the full sweep prints
+    # 10 rows, the --corpus run up to 12, under the same "10-SAMPLE" header.
+    sample = sorted(out)[:12] if corpus else sorted(out)[:10]
+    for w in sample:
         v = out[w]
         print(f"  {w:14} {v['hue']:8} [{v['frame'][:32]}] {v['gloss'][:70]}")
     return 0

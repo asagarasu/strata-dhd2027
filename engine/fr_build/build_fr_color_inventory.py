@@ -49,11 +49,25 @@ OUTPUT: engine/fr_build/fr_color_inventory.json
     "terms": { term: {"leg": "A"|"B"|"AB", "receipt": <str>, "flag": <bool>} },
     "rejected": { term: {"reason": <str>, "gloss_head": <str>} } }
 A copy is written to lexical_resources/fr/fr_color_inventory.json for the
-acquisition-side record (the labeler reads the fr_build copy).
+acquisition-side record (the labeler reads the fr_build copy). NOTE, findings:
+this output is sha256-pinned in lexical_resources/fr/MANIFEST_fr_20260728.md
+(6cd68a9…), but the acquisition-side copy the manifest names is NOT present in
+the published tree — every run re-creates it — and there is no
+rebuild_manifest.tsv row for it, unlike the de twin which is pinned there.
+
+ASSEMBLY: the leg-merge / pair-tag / honest-drop / dual-write machinery is
+shared with build_de_color_inventory.py and lives in
+engine/inventory_build_common_71.py. Everything CITED — the leg-A canon set and
+its citation, the leg-B receipt wording, the DECLARED reject list, the _meta
+block and the sample list — stays here, in the language's own script. Note in
+particular that fr rejects are BUILD-owned (the GLAWI sweep ships no reject
+block, so REJECT below filters during the merge), which is the opposite of the
+de side; the shared module's docstring records that asymmetry.
 
 Run: engine/venv/bin/python engine/fr_build/build_fr_color_inventory.py
 """
 import json
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -61,6 +75,9 @@ ROOT = HERE.parents[1]
 CAND = HERE / "glawi_color_desc_candidates.json"
 OUT = HERE / "fr_color_inventory.json"
 OUT_RES = ROOT / "lexical_resources/fr/fr_color_inventory.json"
+
+sys.path.insert(0, str(HERE.parent))               # engine/ — the shared core
+import inventory_build_common_71 as ibc            # noqa: E402
 
 # ---- leg A: Berlin & Kay 1969 French basic set ---------------------------
 BK_FR = ["noir", "blanc", "rouge", "jaune", "vert", "bleu",
@@ -90,39 +107,33 @@ REJECT = {
     "prairie":  "'meadow (green)' — locative metonym; not a bare hue",
     "prés":     "'meadow (green)' plural metonym; not a bare hue",
     "gazon":    "'lawn (green)' — locative metonym; not a bare hue",
-    "prune":    "KEPT actually — plum IS a settled colour term; see note",  # sentinel
-    "morne2":   "placeholder",
 }
-# prune/pr200-class ARE real colour terms (prune, pêche, cerise) — remove the
-# sentinel; only true noise is rejected.
-for k in ("prune", "morne2"):
-    REJECT.pop(k, None)
+# RULING, kept for the record: the fruit-name hues — prune, pêche, cerise — ARE
+# settled French colour terms and are NOT rejected. Two sentinel entries used to
+# say so inside REJECT and were popped again at import time; that round-trip is
+# gone (it never changed the reject set) and the ruling stands as this comment.
+# Only true gloss-frame noise is rejected.
+
+# ---- the printed spot-check sample (leg-tagged: canon, AB, derivation) -------
+FR_SAMPLE = ["noir", "rouge", "brun", "marron", "azur", "carmin", "écarlate",
+             "vermeil", "outremer", "turquoise"]
 
 
 def main():
+    if not ibc.candidates_present(CAND, "extract_glawi_color_desc.py"):
+        return 1
     cand = json.loads(CAND.read_text(encoding="utf-8"))
-    terms = {}
-    rejected = {}
 
     # leg A first (canon)
-    for w in BK_FR:
-        terms[w] = {"leg": "A", "receipt": BK_CITE, "flag": False}
-    terms["brun"]["receipt"] = BK_CITE + " | " + BROWN_PAIR_NOTE
-    terms["marron"]["receipt"] = BK_CITE + " | " + BROWN_PAIR_NOTE
-    terms["brun"]["brown_pair"] = True
-    terms["marron"]["brown_pair"] = True
+    terms = ibc.seed_canon(BK_FR, BK_CITE)
+    ibc.tag_pair(terms, ("brun", "marron"), BK_CITE, BROWN_PAIR_NOTE,
+                 tag="brown_pair")
 
-    # leg B (GLAWI) — union, with rejects pulled out
-    for w, rec in sorted(cand.items()):
-        if w in REJECT:
-            rejected[w] = {"reason": REJECT[w], "gloss_head": rec["gloss_head"]}
-            continue
-        receipt = f"GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), sig S{rec['sig']}: {rec['gloss_head']}"
-        if w in terms:            # already canon → leg AB
-            terms[w]["leg"] = "AB"
-            terms[w]["glawi_receipt"] = receipt
-        else:
-            terms[w] = {"leg": "B", "receipt": receipt, "flag": rec["flag_meta"]}
+    # leg B (GLAWI) — union, with the DECLARED rejects pulled out HERE: fr
+    # rejects are BUILD-owned (the sweep ships no reject block).
+    rejected = ibc.merge_candidates(terms, cand, _glawi_receipt, "glawi_receipt",
+                                    flagged=lambda w, rec: rec["flag_meta"],
+                                    reject_reason=lambda w, rec: REJECT.get(w))
 
     meta = {
         "field": "color", "language": "fr",
@@ -143,25 +154,26 @@ def main():
                "every reject recorded (honest-drop).",
     }
     blob = {"_meta": meta, "terms": terms, "rejected": rejected}
-    txt = json.dumps(blob, ensure_ascii=False, indent=1, sort_keys=True)
-    OUT.write_text(txt, encoding="utf-8")
-    OUT_RES.write_text(txt, encoding="utf-8")
+    ibc.dual_write(blob, (OUT, OUT_RES))
 
     print("=== fr_color_inventory built ===")
-    for k, v in meta["counts"].items():
-        print(f"  {k:16} {v}")
-    print(f"written -> {OUT}")
-    print(f"       -> {OUT_RES}")
-    print("\n10-SAMPLE RECEIPT (leg-tagged):")
-    for w in ["noir", "rouge", "brun", "marron", "azur", "carmin", "écarlate",
-              "vermeil", "outremer", "turquoise"]:
-        v = terms.get(w)
-        if v:
-            print(f"  {w:11} leg={v['leg']:2} flag={int(v.get('flag', False))} :: {v['receipt'][:90]}")
-    print("\nREJECTED (all, with reason):")
-    for w in sorted(rejected):
-        print(f"  {w:11} {rejected[w]['reason'][:80]}")
+    ibc.print_counts(meta["counts"])
+    ibc.print_written((OUT, OUT_RES))
+    ibc.print_sample(terms, FR_SAMPLE, _sample_line)
+    ibc.print_rejected(rejected, 11, 80)
     return 0
+
+
+def _glawi_receipt(w, rec):
+    """CITATION-ALONE receipt for a leg-B fire: source + licence + which gloss
+    signature (S-frame) matched + the gloss head that carried it."""
+    return (f"GLAWI adj gloss (Sajous&Hathout, CC BY-SA 3.0), "
+            f"sig S{rec['sig']}: {rec['gloss_head']}")
+
+
+def _sample_line(w, v):
+    return (f"  {w:11} leg={v['leg']:2} flag={int(v.get('flag', False))} "
+            f":: {v['receipt'][:90]}")
 
 
 if __name__ == "__main__":

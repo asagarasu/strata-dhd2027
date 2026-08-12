@@ -26,6 +26,12 @@ TIER = ("calibration PASS + DISCRIMINATION CREDENTIAL "
         "(sealed exam +.171; ruled-key v2 tables)")
 LABEL = ("lexical type-prior (her Q5c ruling) — what the chosen word carries "
          "in general usage; NOT an in-line measurement")
+# The JOIN CONTRACT: exactly these keys are carried across from a committed
+# per_rendering charge row, in this order. Nothing is computed, renamed or
+# defaulted — a key the source row lacks comes through as null, so the reshape
+# stays auditable against the charge table it came from.
+CARRY_KEYS = ("word", "line", "source", "charge", "z", "call",
+              "status", "reason", "flagged_thin", "realized_by_print", "band")
 
 
 def sha256(p):
@@ -66,10 +72,7 @@ def main():
         for rid, rows in pr.items():
             keep = []
             for r in rows:
-                keep.append({k: r.get(k) for k in
-                             ("word", "line", "source", "charge", "z", "call",
-                              "status", "reason", "flagged_thin",
-                              "realized_by_print", "band")})
+                keep.append({k: r.get(k) for k in CARRY_KEYS})
                 total_rows += 1
                 if r.get("call"):
                     calls += 1

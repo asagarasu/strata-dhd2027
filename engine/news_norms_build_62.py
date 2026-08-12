@@ -134,6 +134,14 @@ def main():
           flush=True)
 
     print("loading LaBSE (cpu)…", flush=True)
+    # NETWORK-PROBE RISK (declared, unchanged): MODEL_DIR is a LOCAL path and
+    # engine/models/LaBSE is NOT shipped in this repo. If the directory is
+    # missing, sentence_transformers falls back to treating the string as a Hub
+    # repo id and reaches for the network. Nothing here sets HF_HUB_OFFLINE /
+    # TRANSFORMERS_OFFLINE (nothing in this repo does), so an unattended rerun on
+    # a machine without the model can silently fetch a DIFFERENT LaBSE snapshot
+    # than the one the committed certificates/anchor were produced with. Export
+    # HF_HUB_OFFLINE=1 (or vendor the model first) if that matters to you.
     model = SentenceTransformer(str(MODEL_DIR), device="cpu")
 
     out = {

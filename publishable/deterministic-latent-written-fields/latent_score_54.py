@@ -40,6 +40,13 @@ sibling folder. THIS folder scores the LATENT rows:
     .70 THIN n=6, 2026-07-22) — its word-grain substitution protocol does
     NOT re-run here; per-line degree RIDES the line colour scalar (same
     axis/encoder law, read at line grain). Kept honest and thin.
+    CITATION NOTE (accuracy pass #71): word_latent_v5_referent_color_54.py is
+    NOT SHIPPED in this repo. The published record of that meter is its
+    OUTPUT — engine/results/word_latent_v5_referent_color_54.json (plus the
+    wide-pool rerun word_latent_v7_wide_referent_color_54.json, and the
+    word_grain_referent_pass_* files that name it as "machinery … imported
+    verbatim"). The citation stands as the credential's address; only the
+    source file is absent.
 
 ═══ CARRIERS (the CITABLE single-char inventories) ═══
   colour       HowNet ∪ MOE-53  (latent_written_labeler_53 v2 — the written
@@ -476,6 +483,40 @@ def survival_transitions(src_desc_states, src_writ_states, tr_desc_states, tr_wr
                                   "tr_active": sorted(tr_active)}
 
 
+# ==================================================== input-resource guard
+# Both written sensors read ACQUISITIONS that this repo does not ship (they are
+# gitignored payloads, rebuilt from rebuild_manifest.tsv). Without the guard the
+# first mode call dies three frames down with a bare FileNotFoundError from
+# inside a labeler; say what is missing, and where it comes from, up front.
+REQUIRED_INPUTS = [
+    ("HowNet.txt — zh written sensor (single-char sememe DEFs, via "
+     "latent_written_labeler_53)",
+     LEX / "sewrl" / "datasets" / "HowNet.txt", "sewrl"),
+    ("Skeat etymological dictionary text — en written sensor (etymon chains, "
+     "via etym_chains_v1_52)",
+     LEX / "etym" / "skeat_etymological_raw.txt", "etym"),
+]
+
+
+def check_inputs():
+    """True iff every sensor input is on disk. Otherwise print WHAT is missing
+    and WHICH rebuild_manifest.tsv row restores it, and return False (callers
+    exit 1 before touching the corpus or writing anything)."""
+    missing = [(label, p, row) for label, p, row in REQUIRED_INPUTS
+               if not p.exists()]
+    if not missing:
+        return True
+    print("!! MISSING INPUT RESOURCES — the latent written sensors cannot be "
+          "built:", file=sys.stderr)
+    for label, p, row in missing:
+        print(f"   · {label}", file=sys.stderr)
+        print(f"     expected at : {p}", file=sys.stderr)
+        print(f"     restore from: rebuild_manifest.tsv row `{row}` "
+              f"(payload gitignored — not shipped here)", file=sys.stderr)
+    print("   nothing was read and nothing was written.", file=sys.stderr)
+    return False
+
+
 # ================================================================ MODES
 def _sensors():
     return ZhWritten(), EnWritten()
@@ -485,6 +526,8 @@ def mode_dry():
     """Real corpus, NO encoder. Written-row fire counts per rendering × field
     (carriers named), en Skeat fires, 4-pair transition previews (boolean
     side), referent triggers, embed estimate for the scalar leg (check 1)."""
+    if not check_inputs():
+        return 1
     present, missing = D.load_corpus()
     zh_sensor, en_sensor = _sensors()
 
@@ -609,6 +652,8 @@ def mode_smoke():
     """Toy lines through the FULL path incl. ONE axis read for check 1
     (colour), so the three-check conjunction is exercised end to end.
     Writes ONLY to /tmp."""
+    if not check_inputs():
+        return 1
     out = Path("/tmp/latent_smoke")
     out.mkdir(exist_ok=True)
     print("SMOKE — LATENT rows, toy lines, full path (incl. check-1 axis), writes only", out)
@@ -683,6 +728,8 @@ def mode_run(align_file=None):
     into THIS folder, F9-redacted for local-tier line text. Applies check 1
     (the descriptive colour/field axes at the line) to complete the
     three-check conjunction."""
+    if not check_inputs():
+        return 1
     present, missing = D.load_corpus()
     zh_sensor, en_sensor = _sensors()
     from sentence_transformers import SentenceTransformer
@@ -751,9 +798,15 @@ def mode_run(align_file=None):
     # F9 redaction: strip local-tier line text everywhere it lands
     for rid in present:
         if present[rid]["redact"]:
-            for st in writ[rid]:
-                for f in FIELDS5:
-                    st[f].pop("_line", None)
+            # The written row holds WORD-grain receipts only (carriers, fired
+            # words, counts) — never a full line — so F9 has nothing to strip
+            # there. It used to sweep st[f].pop("_line", None); verified #71
+            # that written_row_line emits no "_line" key in ANY branch (zh:
+            # available/boolean_silent/carrier_present/fires_bool/
+            # scalar_check1/carriers/fires · en: same, or the informational
+            # illumination form · de/jp: available/reason) and that mode_run
+            # adds only scalar_check1 + fires_three_check. The sweep was a
+            # no-op and is gone.
             for rr in ref[rid]:
                 rr["_line_redacted"] = True
 

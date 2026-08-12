@@ -9,6 +9,15 @@ The founding triple's selftests: καλχαίνω → purple (grc, the revival's
 source side) · brooding → no color chain (en, the founding loss) ·
 consider → sidus/star (the pack's own example, instrument-side).
 Mechanical; no ML; resources per lexical_resources/etym/PROVENANCE.md.
+
+RESOURCES ABSENT HERE: lexical_resources/etym/ ships only PROVENANCE.md in the
+published tree (the Skeat text and the LSJ XML are gitignored), so the selftest
+below cannot run from a fresh clone.
+
+SHA PIN: this file's sha256 is stamped into every latent_scores_*.json under the
+`etym_chains` key (latent_score_54.py hashes it at score time). The committed
+receipts carry 311326f6…, i.e. this file as it stood before #71; editing here
+means a future re-score stamps a different sha (re-stamping authorised at #71).
 """
 import re
 import sys
@@ -58,10 +67,21 @@ def en_chain(entries, word, field):
             "entry_head": ety[:180]}
 
 # ---- LSJ (grc, betacode) ----
+_LSJ_TEXT = None
+
+def _lsj_text():
+    """The vendored LSJ segment, read ONCE per process and kept. (#71: lsj_entry
+    used to re-read the whole file on every call; pure caching, same results.)"""
+    global _LSJ_TEXT
+    if _LSJ_TEXT is None:
+        with open(ETYM / "grc.lsj.perseus-eng11.xml", encoding="utf-8") as f:
+            _LSJ_TEXT = f.read()
+    return _LSJ_TEXT
+
 def lsj_entry(key):
     """entry XML block for a betacode key, from the vendored kappa segment."""
-    t = open(ETYM / "grc.lsj.perseus-eng11.xml", encoding="utf-8").read()
-    m = re.search(r'key="' + re.escape(key) + r'"[^>]*>(.*?)</entryFree>', t, re.S)
+    m = re.search(r'key="' + re.escape(key) + r'"[^>]*>(.*?)</entryFree>',
+                  _lsj_text(), re.S)
     return m.group(1) if m else None
 
 def grc_chain(key, field):

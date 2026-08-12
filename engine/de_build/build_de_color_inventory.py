@@ -58,7 +58,17 @@ OUTPUT: engine/de_build/de_color_inventory.json
                       "forms":[<single-token surface form>…]} },
     "rejected": { term: {"reason":<str>,"gloss_head":<str>} } }
 A copy is written to lexical_resources/de/de_color_inventory.json for the
-acquisition-side record (the labeler reads the de_build copy).
+acquisition-side record (the labeler reads the de_build copy). That copy is the
+sha256-pinned row `de_color_inventory` in rebuild_manifest.tsv.
+
+ASSEMBLY: the leg-merge / pair-tag / honest-drop / dual-write machinery is
+shared with build_fr_color_inventory.py and lives in
+engine/inventory_build_common_71.py. Everything CITED — the leg-A canon set and
+its citation, the leg-B receipt wording, the flag set, the _meta block and the
+sample list — stays here, in the language's own script. Note in particular that
+de rejects are EXTRACT-owned (this build only carries the sweep's reject block
+through), which is the opposite of the fr side; the shared module's docstring
+records that asymmetry.
 
 Run: engine/venv/bin/python engine/de_build/build_de_color_inventory.py
 """
@@ -71,6 +81,9 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 CAND = os.path.join(HERE, "kaikki_de_color_candidates.json")
 OUT = os.path.join(HERE, "de_color_inventory.json")
 OUT_RES = os.path.join(ROOT, "lexical_resources", "de", "de_color_inventory.json")
+
+sys.path.insert(0, os.path.dirname(HERE))          # engine/ — the shared core
+import inventory_build_common_71 as ibc            # noqa: E402
 
 # ---- leg A: Berlin & Kay 1969 German basic set ---------------------------
 BK_DE = ["schwarz", "weiß", "rot", "grün", "gelb", "blau", "braun",
@@ -86,6 +99,11 @@ PINK_NOTE = ("rosa: German pink basic (indeclinable, Latin/Italian origin); in "
 # ---- DE_COLOR_FLAG: polysemy flags (priced not hidden — nuit/en-flag mirror) --
 # German colour terms that are ALSO common non-colour words. Each with evidence.
 # The type-prior fires and wears the price tag (zero occurrence intervention).
+# NAME COLLISION (declared, harmless): de_labelers.py also has a DE_COLOR_FLAG —
+# there it is a cached FUNCTION returning the flagged lemma set READ BACK from
+# the inventory's per-term "flag" tags. This dict is the authoring end (term →
+# evidence string); that function is the reading end. Same name, one direction of
+# flow (here → de_color_inventory.json → de_labelers.DE_COLOR_FLAG()).
 DE_COLOR_FLAG = {
     "orange": "colour AND the fruit 'die Orange' (exactly the en orange/fruit "
               "polysemy; en keeps orange as a BK basic — here flagged because "
@@ -113,45 +131,32 @@ DE_COLOR_FLAG = {
 # colour). fire=the type, flag=the price. Chair + Anneliese RULE in the morning.
 
 
+# ---- the printed spot-check sample (leg-tagged; 3 legs + shades + flags) -----
+DE_SAMPLE = ["schwarz", "weiß", "rot", "grün", "blau", "rosa", "violett", "lila",
+             "türkis", "oliv", "azurblau", "blutrot"]
+
+
 def main():
-    if not os.path.exists(CAND):
-        print("!! candidates absent — run extract_kaikki_de_color.py first")
+    if not ibc.candidates_present(CAND, "extract_kaikki_de_color.py"):
         return 1
     cand = json.load(open(CAND, encoding="utf-8"))
     cterms = cand["terms"]
     sweep_rejected = cand.get("rejected", {})
 
-    terms = {}
     # leg A first (canon). Attach kaikki forms if the sweep also saw the lemma.
-    for w in BK_DE:
-        rec = {"leg": "A", "receipt": BK_CITE, "flag": w in DE_COLOR_FLAG,
-               "forms": cterms_forms(cterms=cterms, w=w)}
-        terms[w] = rec
-    for w in ("violett", "lila"):
-        terms[w]["receipt"] = BK_CITE + " | " + PURPLE_PAIR_NOTE
-        terms[w]["purple_pair"] = True
-    terms["rosa"]["receipt"] = BK_CITE + " | " + PINK_NOTE
+    terms = ibc.seed_canon(BK_DE, BK_CITE, flagged=_flagged,
+                           extra=lambda w: {"forms": cterms_forms(cterms=cterms,
+                                                                 w=w)})
+    ibc.tag_pair(terms, ("violett", "lila"), BK_CITE, PURPLE_PAIR_NOTE,
+                 tag="purple_pair")
+    ibc.tag_pair(terms, ("rosa",), BK_CITE, PINK_NOTE)
 
-    # leg B (kaikki) — union
-    for w, rec in sorted(cterms.items()):
-        signals = ",".join(rec.get("signals", []))
-        receipt = (f"kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), "
-                   f"signal[{signals}]: {rec.get('gloss_head','')}")
-        shade = _is_shade_compound(w)
-        if w in terms:                        # already canon → leg AB
-            terms[w]["leg"] = "AB"
-            terms[w]["kaikki_receipt"] = receipt
-            if not terms[w].get("forms"):
-                terms[w]["forms"] = rec.get("forms", [])
-        else:
-            terms[w] = {"leg": "B", "receipt": receipt,
-                        "flag": w in DE_COLOR_FLAG,
-                        "forms": rec.get("forms", [])}
-            if shade:
-                terms[w]["shade_compound"] = True
-
-    rejected = {w: {"reason": r["reason"], "gloss_head": r.get("gloss_head", "")}
-                for w, r in sweep_rejected.items()}
+    # leg B (kaikki) — union. NO reject hook: de rejects are EXTRACT-owned, so
+    # the sweep's block is carried through instead (the declared asymmetry).
+    ibc.merge_candidates(terms, cterms, _kaikki_receipt, "kaikki_receipt",
+                         flagged=_flagged, extra=_leg_b_extra,
+                         on_promote=_backfill_forms)
+    rejected = ibc.carry_rejects(sweep_rejected)
 
     meta = {
         "field": "color", "language": "de",
@@ -177,30 +182,50 @@ def main():
                 "(nuit doctrine)."),
     }
     blob = {"_meta": meta, "terms": terms, "rejected": rejected}
-    txt = json.dumps(blob, ensure_ascii=False, indent=1, sort_keys=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write(txt)
-    os.makedirs(os.path.dirname(OUT_RES), exist_ok=True)
-    with open(OUT_RES, "w", encoding="utf-8") as f:
-        f.write(txt)
+    ibc.dual_write(blob, (OUT, OUT_RES))
 
     print("=== de_color_inventory built ===")
-    for k, v in meta["counts"].items():
-        print(f"  {k:16} {v}")
+    ibc.print_counts(meta["counts"])
     print(f"flag set: {meta['flag_set']}")
-    print(f"written -> {OUT}")
-    print(f"       -> {OUT_RES}")
-    print("\n12-SAMPLE RECEIPT (leg-tagged):")
-    for w in ["schwarz", "weiß", "rot", "grün", "blau", "rosa", "violett", "lila",
-              "türkis", "oliv", "azurblau", "blutrot"]:
-        v = terms.get(w)
-        if v:
-            print(f"  {w:11} leg={v['leg']:2} flag={int(v.get('flag', False))} "
-                  f"forms={len(v.get('forms', []))} :: {v['receipt'][:74]}")
-    print("\nREJECTED (all, with reason):")
-    for w in sorted(rejected):
-        print(f"  {w:16} {rejected[w]['reason'][:70]}")
+    ibc.print_written((OUT, OUT_RES))
+    ibc.print_sample(terms, DE_SAMPLE, _sample_line)
+    ibc.print_rejected(rejected, 16, 70)
     return 0
+
+
+def _flagged(w, cand=None):
+    """Polysemy flag for a term, canon leg and sweep leg alike: de answers from
+    its own DECLARED DE_COLOR_FLAG set, never from the sweep record."""
+    return w in DE_COLOR_FLAG
+
+
+def _kaikki_receipt(w, rec):
+    """CITATION-ALONE receipt for a leg-B fire: corpus + licence + which
+    signal(s) fired + the gloss head that carried it."""
+    signals = ",".join(rec.get("signals", []))
+    return (f"kaikki.org German Wiktextract (CC BY-SA 4.0 / GFDL), "
+            f"signal[{signals}]: {rec.get('gloss_head','')}")
+
+
+def _leg_b_extra(w, rec):
+    """Extra keys on a leg-B-only record: the attested paradigm, plus the
+    derived-shade tag for the chair's optional trim."""
+    extra = {"forms": rec.get("forms", [])}
+    if _is_shade_compound(w):
+        extra["shade_compound"] = True
+    return extra
+
+
+def _backfill_forms(rec, cand):
+    """leg AB: a canon lemma the sweep also saw keeps its canon receipt, but
+    takes the sweep's attested forms when leg A supplied none."""
+    if not rec.get("forms"):
+        rec["forms"] = cand.get("forms", [])
+
+
+def _sample_line(w, v):
+    return (f"  {w:11} leg={v['leg']:2} flag={int(v.get('flag', False))} "
+            f"forms={len(v.get('forms', []))} :: {v['receipt'][:74]}")
 
 
 def cterms_forms(cterms, w):

@@ -39,6 +39,17 @@ on EVERY board (it validates the extraction LAW, not the board word list).
 Modes: --dry (word lists + host-frame coverage + sit-out prediction + attestation
               + embed estimate, NO encoder, writes NOTHING)
        --run (the real pass; fresh boards write outputs; sonnet73 verifies only)
+
+NOT RUNNABLE FROM THIS PUBLISHED TREE (verified #71). Both modules imported
+verbatim below — engine/word_latent_v5_referent_color_54.py (the credentialed
+meter) and engine/word_grain_referent_pass_55.py (the #55 helpers) — are ABSENT
+here, so import fails before argparse: even --help raises ModuleNotFoundError.
+What IS published is their RECORD: engine/results/word_latent_v5_referent_
+color_54.json, engine/results/word_grain_referent_pass_55.json and the per-board
+word_grain_referent_pass_<board>_56.{json,md} + the charge tables under
+publishable/deterministic-latent-written-fields/. The provenance blocks below
+name every sha this pass pinned. Recorded, not repaired — restoring the two
+modules is an owner decision, not a refactor.
 """
 import argparse
 import json
@@ -317,6 +328,15 @@ def main():
     for key in ("mu", "W", V5.PROJ_KEY):
         assert key in npz.files, f"axis npz missing {key!r}"
     from sentence_transformers import SentenceTransformer
+    # NETWORK-FETCH RISK (declared #71, behaviour unchanged): this is a LOCAL
+    # path and engine/models/LaBSE is not shipped in this repo. sentence_
+    # transformers, handed a string that is not an existing directory, falls
+    # back to treating it as a Hub repo id and downloads — so on a machine
+    # without the vendored model this line can silently score against a
+    # DIFFERENT LaBSE snapshot than the one the committed charges were measured
+    # with, and the certificate/null cross-checks would be comparing across
+    # encoders. Nothing in this repo sets HF_HUB_OFFLINE / TRANSFORMERS_OFFLINE.
+    # Vendor the model (or export HF_HUB_OFFLINE=1 to fail loudly) before --run.
     model = SentenceTransformer(str(PROTO / "models/LaBSE"), device="cpu")
     print(f"[encoder] LaBSE loaded ({time.time()-t0:.0f}s); scoring…")
 

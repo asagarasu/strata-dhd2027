@@ -105,6 +105,11 @@ def _load_inventory():
 # evidence: orange/rosa/oliv/gold polysemy). The de analogue of EN_COLOR_FLAG
 # {gold,fair} and FR_COLOR_FLAG {or,argent,nuit…}: colour terms that are also
 # common non-colour words, priced not hidden.
+# NAME COLLISION (declared, harmless): build_de_color_inventory.py also has a
+# DE_COLOR_FLAG — there it is the authoring DICT (term → evidence string) that
+# writes the per-term "flag" tags. This is the reading end: a cached FUNCTION
+# returning the flagged lemma SET read back out of the committed inventory. One
+# direction of flow, two ends, same name.
 _DE_FLAG = None
 
 
@@ -133,7 +138,9 @@ def de_color_receipt(term):
     inv = _load_inventory()
     rec = inv["terms"].get(term.lower()) or inv["terms"].get(term)
     if not rec:
-        # try case-restore for the ß (inventory stores weiß not weiss)
+        # No ß-restore is attempted here: receipts are LEMMA-keyed and the
+        # inventory stores weiß (not weiss), so callers pass the lemma that
+        # _var2lemma() returned. An unknown term returns None rather than guess.
         return None
     return f"[leg {rec['leg']}] {rec['receipt']}"
 
@@ -184,9 +191,7 @@ def _variants(lemma, attested_forms):
     """
     out = set()
     # base + orthographic pair
-    bases = set()
-    for b in _orth_variants(lemma):
-        bases.add(b)
+    bases = set(_orth_variants(lemma))
     # (v) PRE-REFORM th→t: admit the archaic th-base as a declension base ONLY
     # when kaikki ATTESTS a th-spelling for THIS lemma (the citation gate). The
     # attested_forms carry roth for lemma rot; its th-twin (roth) then declines
@@ -206,9 +211,13 @@ def _variants(lemma, attested_forms):
                 bases.add(tw)
     # rule-generated declension on each base (and its ß/ss twin)
     for b in list(bases):
-        # German attributive adj: stem = lemma; endings append. Handle the
-        # lemma-final -e (müde-type) by not double-adding -e; colour basics do
-        # not end in -e except none of ours, but guard anyway.
+        # German attributive adj: stem = lemma; endings append. ACCURACY NOTE:
+        # there is NO lemma-final -e guard (the müde-type) — the stem is the
+        # base as-is. Four inventory lemmas do end in -e (orange, creme,
+        # hellorange, dunkelorange), so the map also holds inert
+        # over-generations like "orangee": not German words, so they never fire
+        # on real text. Left as-is deliberately — suppressing them would move
+        # the variant-map size the selftest prints, for no matching gain.
         stem = b
         out.add(stem)
         for end in _DECL_ENDINGS:

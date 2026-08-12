@@ -86,6 +86,7 @@ everywhere, determinism-pinned.
 """
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -102,17 +103,30 @@ RESULTS = PROTO / "results"
 MODELS = PROTO / "models"
 MARK_TOOLS = REPO / "marking" / "tools"
 CORPUS = REPO / "corpus"
-LOCAL = Path("/Users/annelieselu/garden/projects/dhd2027/acquisitions/corpus/transcriptions")
+# LOCAL_TIER root (F9, in-copyright acquisitions). Overridable so the runner is
+# portable off this machine: export DHD2027_LOCAL_CORPUS=<your acquisitions
+# root>. The DEFAULT is the literal this file has always carried, so unset ⇒
+# behaviour unchanged. score_descriptive_fields.py honours the SAME variable and
+# expects the SAME sub-layout (<translator>/sonnet_NN.md); note its own default
+# still names the older books/dnd2027 root, which no longer exists — see its
+# LOCAL comment.
+LOCAL = Path(os.environ.get(
+    "DHD2027_LOCAL_CORPUS",
+    "/Users/annelieselu/garden/projects/dhd2027/acquisitions/corpus/transcriptions"))
 
 # import the two committed scorers VERBATIM (sys.path insertion the way
 # latent_score_54.py does it — each scorer's own module-level path setup is
-# REPO-relative and resolves correctly from here).
+# REPO-relative and resolves correctly from here). linegrain_law_60 is the
+# census LAW, a sibling in this same folder: imported for its trad→simp Unihan
+# fold, which this runner used to carry as a private copy (#71 dedup).
 sys.path.insert(0, str(DESC))
 sys.path.insert(0, str(LAT))
 sys.path.insert(0, str(MARK_TOOLS))
 sys.path.insert(0, str(PROTO))
+sys.path.insert(0, str(HERE))
 import score_descriptive_fields as D            # noqa: E402
 import latent_score_54 as L                     # noqa: E402
+from linegrain_law_60 import fold               # noqa: E402
 
 SEED = D.SEED
 FORCE_RERUN = False   # set by --force (same-session rule-change reruns)
@@ -585,29 +599,23 @@ def ruled_cuts():
     return _CUTS_MEMO
 
 
+# CONTENTFUL — the runner's token filter for scalar movers. DELIBERATELY NOT the
+# same predicate as linegrain_law_60._contentful, and NOT to be unified with it
+# (#71 finding, load-bearing): this one is an explicit script-range whitelist
+# (ASCII + Latin-1/Ext-A + kana + CJK), the LAW's is
+# `any(CJK or c.isalpha())`. They disagree in BOTH directions — Greek ἄνθος,
+# Cyrillic кровь, Hangul 한글, the ﬁ ligature and IPA ɐ are contentful to the LAW
+# and not here; the kana voicing mark ゛ is contentful here and not to the LAW.
+# The census and this runner therefore filter movers by different rules ON
+# PURPOSE; changing either silently moves published counts.
 CONTENTFUL = re.compile(r"[A-Za-zÀ-ɏ぀-ヿ一-鿿]")
 
-_FOLD_ZH = None
-
-
-def _fold_zh(s):
-    """trad->simp fold (Unihan kSimplifiedVariant; her 嘆/叹 catch 07-27) —
-    simplified inventories must match traditional boards."""
-    global _FOLD_ZH
-    if _FOLD_ZH is None:
-        _FOLD_ZH = {}
-        p = MARK_TOOLS / "vectors" / "Unihan_Variants.txt"
-        if p.exists():
-            for ln in p.read_text(encoding="utf-8", errors="ignore").splitlines():
-                if "kSimplifiedVariant" in ln and ln.startswith("U+"):
-                    parts = ln.split("\t")
-                    if len(parts) >= 3:
-                        try:
-                            _FOLD_ZH[chr(int(parts[0][2:], 16))] = \
-                                chr(int(parts[2].split()[0][2:], 16))
-                        except ValueError:
-                            pass
-    return "".join(_FOLD_ZH.get(c, c) for c in str(s))
+# trad→simp fold: `fold` is imported from linegrain_law_60 (see the import
+# block). This runner used to carry a private _fold_zh with the same body —
+# same Unihan_Variants.txt path, same kSimplifiedVariant parse, same
+# char-substitution — so the copy was deleted in #71 rather than kept in sync.
+# The ruling it implements is unchanged: her 嘆/叹 catch, 07-27 — simplified
+# inventories must match traditional boards.
 
 
 def scalar_poem_inventory(rows, cuts, line_cuts=None):
@@ -714,11 +722,11 @@ def score_board(board):
     def _match(tok, words):
         # Fold-aware since 07-27 (her 嘆/叹 catch): simplified inventory words
         # must match traditional board text and vice versa.
-        ft = _fold_zh(tok)
+        ft = fold(tok)
         for w in words:
             if not w:
                 continue
-            fw = _fold_zh(str(w))
+            fw = fold(str(w))
             if ft == fw or fw in ft or ft in fw:
                 return True
         return False
@@ -899,7 +907,13 @@ def apply_f9(present, readings, writ, ref):
             row["text_redacted"] = _F9_NOTE
         for st in writ[rid]:
             for f in FIELDS5:
-                st[f].pop("_line", None)           # L.mode_run pattern
+                # Defensive no-op, kept: verified #71 that the written-row
+                # builder emits no "_line" key in any branch (word-grain
+                # receipts only, which F9 permits), so this sweep never fires.
+                # latent_score_54.mode_run carried the identical line and it was
+                # dropped there; kept HERE because this runner's --run path is
+                # not exercisable in the published tree.
+                st[f].pop("_line", None)
         for rr in ref[rid]:
             rr["_line_redacted"] = True
 
@@ -967,10 +981,10 @@ def sound_pool_join(present):
             continue
         rows = []
         for line in present[rid]["lines"]:
-            fline = _fold_zh(line)   # fold-aware occurrence (機杼 vs 机杼, 07-27)
+            fline = fold(line)       # fold-aware occurrence (機杼 vs 机杼, 07-27)
             hits = [{"word": w, "charge": v.get("charge"), "z": v.get("z"),
                      "call": v.get("call"), "role": v.get("role")}
-                    for w, v in items.items() if _fold_zh(w) in fline]
+                    for w, v in items.items() if fold(w) in fline]
             rows.append(hits)
         out["renderings"][rid] = rows
     return out

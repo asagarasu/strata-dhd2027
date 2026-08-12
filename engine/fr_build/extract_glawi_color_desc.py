@@ -119,7 +119,24 @@ def sweep():
     return hits, cnt, n_art
 
 
+def require_glawi():
+    """GLAWI is a 1.6 GB uncompressed payload that this repo does NOT ship. Say
+    so plainly instead of letting iterparse raise a bare FileNotFoundError."""
+    if GLAWI.exists():
+        return True
+    print(f"!! GLAWI absent: {GLAWI}", file=sys.stderr)
+    print("   1.6 GB uncompressed payload — not shipped in this repo.",
+          file=sys.stderr)
+    print("   rebuild: bunzip2 -k lexical_resources/fr/"
+          "GLAWI_FR_work_D2015-12-26_R2016-05-18.xml.bz2", file=sys.stderr)
+    print("   provenance, licence and fetch URL: "
+          "lexical_resources/fr/MANIFEST_fr_20260728.md §1", file=sys.stderr)
+    return False
+
+
 def main():
+    if not require_glawi():
+        return 1
     hits, cnt, n_art = sweep()
     OUT.write_text(json.dumps(hits, ensure_ascii=False, indent=1, sort_keys=True),
                    encoding="utf-8")

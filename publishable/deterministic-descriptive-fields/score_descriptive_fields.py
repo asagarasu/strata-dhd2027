@@ -49,6 +49,18 @@ start scoring"). BUILD + SMOKE + DRY here; the real scoring run
      targets the state is UNAVAILABLE (never fabricated, never "absent").
      Consequence: the transition table classifies only pairs where BOTH
      sides are boolean-covered.
+     AMENDED — accuracy pass #71, read off boolean_states() below: COLOUR
+     alone is now boolean-covered for fr (07-28 convening) and de (#61 night
+     build) too, via the citation-tier B&K12∪GLAWI / B&K12-de∪kaikki
+     inventories. "EN + ZH only" still holds for the other four fields.
+     Two consequences the prose above predates:
+       · coverage is per-FIELD, not per-language: transition_table() keeps
+         any field whose state is not None on BOTH sides, so an fr/de target
+         IS classified — on colour alone — rather than returning NO_COVERAGE.
+       · BOOL_COVERED_LANGS is still {en, zh} and --dry's "runnable
+         transition pairs" line counts with it, so that DRY line UNDERCOUNTS
+         what a --run would actually classify for fr/de seats. Recorded, not
+         changed here (the --run path is not exercisable in this tree).
   F3 SCALAR CROSS-SIDE. §3: raw cross-side scalar deltas are NEVER
      compared (measured 5.6x compression); comparison is
      ensemble-relative (rank). Per-field equating (R2 (c)) is UNFROZEN
@@ -70,7 +82,10 @@ start scoring"). BUILD + SMOKE + DRY here; the real scoring run
      temporal are pypinyin-independent.
   F9 LOCAL_TIER (in-copyright acquisitions). By house law in-copyright
      transcriptions live OUTSIDE the repo (books/dnd2027/corpus/
-     transcriptions/); the repo carries provenance + shas only. This
+     transcriptions/ — that root is STALE: the tier now lives at
+     projects/dhd2027/acquisitions/corpus/transcriptions, same sub-layout;
+     see LOCAL below and $DHD2027_LOCAL_CORPUS); the repo carries
+     provenance + shas only. This
      scorer reads them as declared inputs (paths + shas recorded in the
      run manifest) but the OUTPUTS REDACT their line text: word-grain
      receipts (firing tokens) + numbers only, never full-line quotes of
@@ -86,6 +101,7 @@ import argparse
 import glob
 import hashlib
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -127,7 +143,18 @@ SCALAR = [
 # tier "local" = in-copyright acquisition, LOCAL-ONLY by house law
 # (outside the repo; outputs REDACT its line text — F9);
 # path None = declared-but-missing (LIST, don't substitute).
-LOCAL = Path("/Users/annelieselu/garden/books/dnd2027/corpus/transcriptions")
+# LOCAL_TIER root (F9). Overridable so the scorer is portable off this machine:
+# export DHD2027_LOCAL_CORPUS=<your acquisitions root>. The DEFAULT is the literal
+# this file has always carried, so unset ⇒ behaviour unchanged.
+# ACCURACY NOTE (#71): that default no longer exists on the build machine — the
+# local tier now lives at projects/dhd2027/acquisitions/corpus/transcriptions,
+# which corpus_breadth_runner_56.py points at and which carries the IDENTICAL
+# sub-layout (<translator>/sonnet_NN.md), hence the SHARED variable name with the
+# runner. Setting the variable to that root is therefore an opt-in behaviour
+# change here: the four zh renderings and Kraus stop being MISSING.
+LOCAL = Path(os.environ.get(
+    "DHD2027_LOCAL_CORPUS",
+    "/Users/annelieselu/garden/books/dnd2027/corpus/transcriptions"))
 BOARD = {
     "en": [  # the 1609 Quarto source
         ("shakespeare_1609", CORPUS / "sonnets/en_source/shakespeare_sonnet73_1609.txt", "repo"),
@@ -276,6 +303,10 @@ def load_axes():
 def maskable_units(text):
     """(index, token) units for deletion-masking. zh -> jieba word units;
     latin -> whitespace tokens; jp (kana present) -> per-char (F5)."""
+    # NOTE (#71, observation only — left exactly as-is because this feeds the
+    # --run masking path): the second disjunct ends in _is_jp(text), which is
+    # itself KANA.search(text), so the whole test reduces to "has kana". The
+    # CJK/latin clauses cannot change the outcome.
     if KANA.search(text) or (CJK.search(text) and not re.search(r"[A-Za-z]", text) and _is_jp(text)):
         # jp: per-char over CJK+kana (no jp tokenizer in venv) — flagged F5
         return [(i, ch) for i, ch in enumerate(text) if CJK.match(ch) or KANA.match(ch)]
@@ -455,7 +486,13 @@ def input_manifest():
 # ================================================================ MODES
 def mode_dry():
     """Real corpus, NO encoder. Inventory + alignment + boolean fires +
-    embed estimate + shas."""
+    embed estimate + shas.
+
+    DEPENDENCY NOTE (#71): "no encoder" does not mean "stdlib only". This mode
+    still needs numpy (module import) and jieba — the zh illumination labeler
+    tokenises EVERY line whatever its language, so a tree without jieba dies at
+    the boolean-fire tally with ModuleNotFoundError, after printing the
+    inventory/alignment blocks."""
     present, missing = load_corpus()
     print("=" * 70)
     print("DRY / COUNT MODE — real corpus, no encoder")

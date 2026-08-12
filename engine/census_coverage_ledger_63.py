@@ -148,6 +148,9 @@ def main():
                     swrit = row_at(l.get("written_row") or {}, src, li)
                     sst, _v, stwo = LAW.line_state(field, sbool, swrit, l,
                                                    src, li, cut, srow, lc)
+                    # [:3:2] takes elements 0 and 2 of LAW.line_state's 3-tuple
+                    # — (state, starred) — dropping the middle value; the second
+                    # line re-tuples them into fold_states' (state, starred) pairs.
                     parts = [seat_state_at(field, d, l, rid, j, cut, lc)[:3:2]
                              for j in seat_lis]
                     parts = [(p[0], p[1]) for p in parts]
